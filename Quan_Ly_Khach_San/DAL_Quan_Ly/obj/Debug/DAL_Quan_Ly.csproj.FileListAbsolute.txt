@@ -1,9 +1,0 @@
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\bin\Debug\DAL_Quan_Ly.dll
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\bin\Debug\DAL_Quan_Ly.pdb
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\bin\Debug\BUS_Quan_Ly.dll
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\bin\Debug\BUS_Quan_Ly.pdb
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\obj\Debug\DAL_Quan_Ly.csproj.AssemblyReference.cache
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\obj\Debug\DAL_Quan_Ly.csproj.CoreCompileInputs.cache
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\obj\Debug\DAL_Quan_Ly.csproj.CopyComplete
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\obj\Debug\DAL_Quan_Ly.dll
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San_1\Quan_Ly_Khach_San\DAL_Quan_Ly\obj\Debug\DAL_Quan_Ly.pdb

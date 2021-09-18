@@ -19,9 +19,9 @@ namespace Quan_Ly_Khach_San
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            Main_Form main = new Main_Form();
+            Home form = new Home();
             this.Hide();
-            main.ShowDialog();
+            form.ShowDialog();
             this.Close();
         }
     }

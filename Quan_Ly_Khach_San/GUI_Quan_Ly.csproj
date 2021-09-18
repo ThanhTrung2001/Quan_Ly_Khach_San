@@ -33,11 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI2, Version=2.0.2.0, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
-      <HintPath>packages\Guna.UI2.WinForms.2.0.2\lib\net40\Guna.UI2.dll</HintPath>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\App-Need\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.2.1, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.2.1\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.Desktop.UI, Version=2.0.8.0, Culture=neutral, PublicKeyToken=422d444a8a9fa6db, processorArchitecture=MSIL">
+      <HintPath>packages\Siticone.Desktop.UI.2.0.8\lib\net40\Siticone.Desktop.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,23 +57,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer_Information.cs">
+    <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer_Information.Designer.cs">
-      <DependentUpon>Customer_Information.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Daily_Report.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Daily_Report.Designer.cs">
-      <DependentUpon>Daily_Report.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Food_Report.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Food_Report.Designer.cs">
-      <DependentUpon>Food_Report.cs</DependentUpon>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -73,76 +69,19 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Monthly_Report.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Monthly_Report.Designer.cs">
-      <DependentUpon>Monthly_Report.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Main_Form.cs">
+    <Compile Include="Room_Service_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main_Form.Designer.cs">
-      <DependentUpon>Main_Form.cs</DependentUpon>
+    <Compile Include="Room_Service_Form.Designer.cs">
+      <DependentUpon>Room_Service_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Risk_Manage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Risk_Manage.Designer.cs">
-      <DependentUpon>Risk_Manage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Room_Manage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Room_Manage.Designer.cs">
-      <DependentUpon>Room_Manage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Room_Service_Report.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Room_Service_Report.Designer.cs">
-      <DependentUpon>Room_Service_Report.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Services_Manage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Services_Manage.Designer.cs">
-      <DependentUpon>Services_Manage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Statistic_Manage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Statistic_Manage.Designer.cs">
-      <DependentUpon>Statistic_Manage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Storage_Manage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Storage_Manage.Designer.cs">
-      <DependentUpon>Storage_Manage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Supplier_Report.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Supplier_Report.Designer.cs">
-      <DependentUpon>Supplier_Report.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Customer_Information.resx">
-      <DependentUpon>Customer_Information.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Daily_Report.resx">
-      <DependentUpon>Daily_Report.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Food_Report.resx">
-      <DependentUpon>Food_Report.cs</DependentUpon>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Monthly_Report.resx">
-      <DependentUpon>Monthly_Report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -153,29 +92,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Main_Form.resx">
-      <DependentUpon>Main_Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Risk_Manage.resx">
-      <DependentUpon>Risk_Manage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Room_Manage.resx">
-      <DependentUpon>Room_Manage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Room_Service_Report.resx">
-      <DependentUpon>Room_Service_Report.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Services_Manage.resx">
-      <DependentUpon>Services_Manage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Statistic_Manage.resx">
-      <DependentUpon>Statistic_Manage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Storage_Manage.resx">
-      <DependentUpon>Storage_Manage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Supplier_Report.resx">
-      <DependentUpon>Supplier_Report.cs</DependentUpon>
+    <EmbeddedResource Include="Room_Service_Form.resx">
+      <DependentUpon>Room_Service_Form.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -192,13 +110,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="BUS_Quan_Ly\BUS_Quan_Ly.csproj">
-      <Project>{6608935b-1cee-46f7-82e8-b1555c954d23}</Project>
-      <Name>BUS_Quan_Ly</Name>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{1659e8dc-8ac8-4169-85c1-3e5e8493b1a2}</Project>
+      <Name>BUS</Name>
     </ProjectReference>
-    <ProjectReference Include="DAL_Quan_Ly\DAL_Quan_Ly.csproj">
-      <Project>{df188222-b194-4400-a724-2e79892da64e}</Project>
-      <Name>DAL_Quan_Ly</Name>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{f7004fdf-6770-4cf8-85fd-ea708a6f9f81}</Project>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
