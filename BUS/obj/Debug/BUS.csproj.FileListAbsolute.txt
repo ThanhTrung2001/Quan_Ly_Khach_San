@@ -1,6 +1,0 @@
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\bin\Debug\BUS.dll
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\bin\Debug\BUS.pdb
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.dll
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.pdb
