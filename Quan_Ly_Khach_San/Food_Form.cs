@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Quan_Ly_Khach_San
 {
-    public partial class Room_Service_Form : Form
+    public partial class Food_Form : Form
     {
-        public Room_Service_Form()
+        public Food_Form()
         {
             InitializeComponent();
         }
-
     }
 }

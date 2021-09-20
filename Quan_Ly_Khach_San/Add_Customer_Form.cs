@@ -10,12 +10,21 @@ using System.Windows.Forms;
 
 namespace Quan_Ly_Khach_San
 {
-    public partial class Room_Service_Form : Form
+    public partial class Add_Customer_Form : Form
     {
-        public Room_Service_Form()
+        public Add_Customer_Form()
         {
             InitializeComponent();
         }
 
+        private void AddBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CancelBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

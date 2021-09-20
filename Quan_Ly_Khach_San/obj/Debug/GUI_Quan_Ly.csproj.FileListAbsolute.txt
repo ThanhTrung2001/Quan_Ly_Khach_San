@@ -46,3 +46,9 @@ D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\BUS.pdb
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\DAL.pdb
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Bunifu_UI_v1.5.3.xml
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Home.resources
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Room_Service_Form.resources
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Add_Customer_Form.resources
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Customer_Form.resources
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Food_Form.resources
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Risk_Form.resources
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Statistic_Form.resources
