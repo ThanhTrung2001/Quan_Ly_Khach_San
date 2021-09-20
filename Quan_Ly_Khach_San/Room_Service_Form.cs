@@ -17,5 +17,16 @@ namespace Quan_Ly_Khach_San
             InitializeComponent();
         }
 
+        private void AddCustomer_Click(object sender, EventArgs e)
+        {
+            Add_Customer_Form add = new Add_Customer_Form();
+            add.ShowDialog();
+        }
+
+        private void AddCustomerBtn_Click(object sender, EventArgs e)
+        {
+            Add_Customer_Form add = new Add_Customer_Form();
+            add.ShowDialog();
+        }
     }
 }
