@@ -31,15 +31,17 @@ namespace Quan_Ly_Khach_San
         {
             this.AddBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.siticoneHtmlLabel5 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.NoteTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.IdentityTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.CustomerAddress = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.CustomerIdentityTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.PhoneNumberTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.CustomerPhoneNumberTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.NameTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.CustomerNameTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CancelBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.CustomerNote = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.SuspendLayout();
             // 
             // AddBtn
@@ -56,7 +58,7 @@ namespace Quan_Ly_Khach_San
             this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddBtn.ForeColor = System.Drawing.Color.White;
             this.AddBtn.HoverState.Parent = this.AddBtn;
-            this.AddBtn.Location = new System.Drawing.Point(31, 428);
+            this.AddBtn.Location = new System.Drawing.Point(31, 470);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.ShadowDecoration.Parent = this.AddBtn;
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
@@ -69,71 +71,70 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel5.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel5.Location = new System.Drawing.Point(167, 306);
+            this.siticoneHtmlLabel5.Location = new System.Drawing.Point(156, 296);
             this.siticoneHtmlLabel5.Name = "siticoneHtmlLabel5";
-            this.siticoneHtmlLabel5.Size = new System.Drawing.Size(50, 23);
+            this.siticoneHtmlLabel5.Size = new System.Drawing.Size(75, 23);
             this.siticoneHtmlLabel5.TabIndex = 19;
-            this.siticoneHtmlLabel5.Text = "Note :";
+            this.siticoneHtmlLabel5.Text = "Address :";
             // 
-            // NoteTxb
+            // CustomerAddress
             // 
-            this.NoteTxb.BorderColor = System.Drawing.Color.White;
-            this.NoteTxb.BorderRadius = 15;
-            this.NoteTxb.BorderThickness = 2;
-            this.NoteTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.NoteTxb.DefaultText = "Note";
-            this.NoteTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.NoteTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.NoteTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.NoteTxb.DisabledState.Parent = this.NoteTxb;
-            this.NoteTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.NoteTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.NoteTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NoteTxb.FocusedState.Parent = this.NoteTxb;
-            this.NoteTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NoteTxb.ForeColor = System.Drawing.Color.White;
-            this.NoteTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NoteTxb.HoverState.Parent = this.NoteTxb;
-            this.NoteTxb.Location = new System.Drawing.Point(31, 335);
-            this.NoteTxb.Name = "NoteTxb";
-            this.NoteTxb.PasswordChar = '\0';
-            this.NoteTxb.PlaceholderText = "";
-            this.NoteTxb.SelectedText = "";
-            this.NoteTxb.SelectionStart = 4;
-            this.NoteTxb.ShadowDecoration.Parent = this.NoteTxb;
-            this.NoteTxb.Size = new System.Drawing.Size(323, 78);
-            this.NoteTxb.TabIndex = 18;
-            this.NoteTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CustomerAddress.BorderColor = System.Drawing.Color.White;
+            this.CustomerAddress.BorderRadius = 15;
+            this.CustomerAddress.BorderThickness = 2;
+            this.CustomerAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CustomerAddress.DefaultText = "";
+            this.CustomerAddress.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.CustomerAddress.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.CustomerAddress.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerAddress.DisabledState.Parent = this.CustomerAddress;
+            this.CustomerAddress.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.CustomerAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerAddress.FocusedState.Parent = this.CustomerAddress;
+            this.CustomerAddress.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerAddress.ForeColor = System.Drawing.Color.White;
+            this.CustomerAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerAddress.HoverState.Parent = this.CustomerAddress;
+            this.CustomerAddress.Location = new System.Drawing.Point(31, 325);
+            this.CustomerAddress.Name = "CustomerAddress";
+            this.CustomerAddress.PasswordChar = '\0';
+            this.CustomerAddress.PlaceholderText = "Address";
+            this.CustomerAddress.SelectedText = "";
+            this.CustomerAddress.ShadowDecoration.Parent = this.CustomerAddress;
+            this.CustomerAddress.Size = new System.Drawing.Size(323, 59);
+            this.CustomerAddress.TabIndex = 18;
+            this.CustomerAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // IdentityTxb
+            // CustomerIdentityTxb
             // 
-            this.IdentityTxb.BorderColor = System.Drawing.Color.White;
-            this.IdentityTxb.BorderRadius = 15;
-            this.IdentityTxb.BorderThickness = 2;
-            this.IdentityTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.IdentityTxb.DefaultText = "Identity Numbers";
-            this.IdentityTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.IdentityTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.IdentityTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.IdentityTxb.DisabledState.Parent = this.IdentityTxb;
-            this.IdentityTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.IdentityTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IdentityTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IdentityTxb.FocusedState.Parent = this.IdentityTxb;
-            this.IdentityTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IdentityTxb.ForeColor = System.Drawing.Color.White;
-            this.IdentityTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IdentityTxb.HoverState.Parent = this.IdentityTxb;
-            this.IdentityTxb.Location = new System.Drawing.Point(57, 251);
-            this.IdentityTxb.Name = "IdentityTxb";
-            this.IdentityTxb.PasswordChar = '\0';
-            this.IdentityTxb.PlaceholderText = "";
-            this.IdentityTxb.SelectedText = "";
-            this.IdentityTxb.SelectionStart = 16;
-            this.IdentityTxb.ShadowDecoration.Parent = this.IdentityTxb;
-            this.IdentityTxb.Size = new System.Drawing.Size(270, 49);
-            this.IdentityTxb.TabIndex = 17;
-            this.IdentityTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CustomerIdentityTxb.BorderColor = System.Drawing.Color.White;
+            this.CustomerIdentityTxb.BorderRadius = 15;
+            this.CustomerIdentityTxb.BorderThickness = 2;
+            this.CustomerIdentityTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CustomerIdentityTxb.DefaultText = "";
+            this.CustomerIdentityTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.CustomerIdentityTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.CustomerIdentityTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerIdentityTxb.DisabledState.Parent = this.CustomerIdentityTxb;
+            this.CustomerIdentityTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerIdentityTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.CustomerIdentityTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerIdentityTxb.FocusedState.Parent = this.CustomerIdentityTxb;
+            this.CustomerIdentityTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerIdentityTxb.ForeColor = System.Drawing.Color.White;
+            this.CustomerIdentityTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerIdentityTxb.HoverState.Parent = this.CustomerIdentityTxb;
+            this.CustomerIdentityTxb.Location = new System.Drawing.Point(57, 241);
+            this.CustomerIdentityTxb.Name = "CustomerIdentityTxb";
+            this.CustomerIdentityTxb.PasswordChar = '\0';
+            this.CustomerIdentityTxb.PlaceholderText = "Identity Numbers";
+            this.CustomerIdentityTxb.SelectedText = "";
+            this.CustomerIdentityTxb.ShadowDecoration.Parent = this.CustomerIdentityTxb;
+            this.CustomerIdentityTxb.Size = new System.Drawing.Size(270, 49);
+            this.CustomerIdentityTxb.TabIndex = 17;
+            this.CustomerIdentityTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CustomerIdentityTxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerIdentityTxb_KeyPress);
             // 
             // siticoneHtmlLabel4
             // 
@@ -146,35 +147,35 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel4.TabIndex = 16;
             this.siticoneHtmlLabel4.Text = "Identity :";
             // 
-            // PhoneNumberTxb
+            // CustomerPhoneNumberTxb
             // 
-            this.PhoneNumberTxb.BorderColor = System.Drawing.Color.White;
-            this.PhoneNumberTxb.BorderRadius = 15;
-            this.PhoneNumberTxb.BorderThickness = 2;
-            this.PhoneNumberTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.PhoneNumberTxb.DefaultText = "Phone Numbers";
-            this.PhoneNumberTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.PhoneNumberTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.PhoneNumberTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.PhoneNumberTxb.DisabledState.Parent = this.PhoneNumberTxb;
-            this.PhoneNumberTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.PhoneNumberTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.PhoneNumberTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.PhoneNumberTxb.FocusedState.Parent = this.PhoneNumberTxb;
-            this.PhoneNumberTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhoneNumberTxb.ForeColor = System.Drawing.Color.White;
-            this.PhoneNumberTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.PhoneNumberTxb.HoverState.Parent = this.PhoneNumberTxb;
-            this.PhoneNumberTxb.Location = new System.Drawing.Point(57, 157);
-            this.PhoneNumberTxb.Name = "PhoneNumberTxb";
-            this.PhoneNumberTxb.PasswordChar = '\0';
-            this.PhoneNumberTxb.PlaceholderText = "";
-            this.PhoneNumberTxb.SelectedText = "";
-            this.PhoneNumberTxb.SelectionStart = 13;
-            this.PhoneNumberTxb.ShadowDecoration.Parent = this.PhoneNumberTxb;
-            this.PhoneNumberTxb.Size = new System.Drawing.Size(270, 49);
-            this.PhoneNumberTxb.TabIndex = 15;
-            this.PhoneNumberTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CustomerPhoneNumberTxb.BorderColor = System.Drawing.Color.White;
+            this.CustomerPhoneNumberTxb.BorderRadius = 15;
+            this.CustomerPhoneNumberTxb.BorderThickness = 2;
+            this.CustomerPhoneNumberTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CustomerPhoneNumberTxb.DefaultText = "";
+            this.CustomerPhoneNumberTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.CustomerPhoneNumberTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.CustomerPhoneNumberTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerPhoneNumberTxb.DisabledState.Parent = this.CustomerPhoneNumberTxb;
+            this.CustomerPhoneNumberTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerPhoneNumberTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.CustomerPhoneNumberTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerPhoneNumberTxb.FocusedState.Parent = this.CustomerPhoneNumberTxb;
+            this.CustomerPhoneNumberTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerPhoneNumberTxb.ForeColor = System.Drawing.Color.White;
+            this.CustomerPhoneNumberTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerPhoneNumberTxb.HoverState.Parent = this.CustomerPhoneNumberTxb;
+            this.CustomerPhoneNumberTxb.Location = new System.Drawing.Point(57, 157);
+            this.CustomerPhoneNumberTxb.Name = "CustomerPhoneNumberTxb";
+            this.CustomerPhoneNumberTxb.PasswordChar = '\0';
+            this.CustomerPhoneNumberTxb.PlaceholderText = "Phone Numbers";
+            this.CustomerPhoneNumberTxb.SelectedText = "";
+            this.CustomerPhoneNumberTxb.ShadowDecoration.Parent = this.CustomerPhoneNumberTxb;
+            this.CustomerPhoneNumberTxb.Size = new System.Drawing.Size(270, 49);
+            this.CustomerPhoneNumberTxb.TabIndex = 15;
+            this.CustomerPhoneNumberTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CustomerPhoneNumberTxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerPhoneNumberTxb_KeyPress);
             // 
             // siticoneHtmlLabel3
             // 
@@ -187,35 +188,34 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel3.TabIndex = 14;
             this.siticoneHtmlLabel3.Text = "Phone :";
             // 
-            // NameTxb
+            // CustomerNameTxb
             // 
-            this.NameTxb.BorderColor = System.Drawing.Color.White;
-            this.NameTxb.BorderRadius = 15;
-            this.NameTxb.BorderThickness = 2;
-            this.NameTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.NameTxb.DefaultText = "Name";
-            this.NameTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.NameTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.NameTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.NameTxb.DisabledState.Parent = this.NameTxb;
-            this.NameTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.NameTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.NameTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NameTxb.FocusedState.Parent = this.NameTxb;
-            this.NameTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameTxb.ForeColor = System.Drawing.Color.White;
-            this.NameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.NameTxb.HoverState.Parent = this.NameTxb;
-            this.NameTxb.Location = new System.Drawing.Point(31, 73);
-            this.NameTxb.Name = "NameTxb";
-            this.NameTxb.PasswordChar = '\0';
-            this.NameTxb.PlaceholderText = "";
-            this.NameTxb.SelectedText = "";
-            this.NameTxb.SelectionStart = 4;
-            this.NameTxb.ShadowDecoration.Parent = this.NameTxb;
-            this.NameTxb.Size = new System.Drawing.Size(323, 49);
-            this.NameTxb.TabIndex = 13;
-            this.NameTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.CustomerNameTxb.BorderColor = System.Drawing.Color.White;
+            this.CustomerNameTxb.BorderRadius = 15;
+            this.CustomerNameTxb.BorderThickness = 2;
+            this.CustomerNameTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CustomerNameTxb.DefaultText = "";
+            this.CustomerNameTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.CustomerNameTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.CustomerNameTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerNameTxb.DisabledState.Parent = this.CustomerNameTxb;
+            this.CustomerNameTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerNameTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.CustomerNameTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerNameTxb.FocusedState.Parent = this.CustomerNameTxb;
+            this.CustomerNameTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerNameTxb.ForeColor = System.Drawing.Color.White;
+            this.CustomerNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerNameTxb.HoverState.Parent = this.CustomerNameTxb;
+            this.CustomerNameTxb.Location = new System.Drawing.Point(31, 73);
+            this.CustomerNameTxb.Name = "CustomerNameTxb";
+            this.CustomerNameTxb.PasswordChar = '\0';
+            this.CustomerNameTxb.PlaceholderText = "Name";
+            this.CustomerNameTxb.SelectedText = "";
+            this.CustomerNameTxb.ShadowDecoration.Parent = this.CustomerNameTxb;
+            this.CustomerNameTxb.Size = new System.Drawing.Size(323, 49);
+            this.CustomerNameTxb.TabIndex = 13;
+            this.CustomerNameTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // siticoneHtmlLabel2
             // 
@@ -258,7 +258,7 @@ namespace Quan_Ly_Khach_San
             this.CancelBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.CancelBtn.ForeColor = System.Drawing.Color.White;
             this.CancelBtn.HoverState.Parent = this.CancelBtn;
-            this.CancelBtn.Location = new System.Drawing.Point(207, 428);
+            this.CancelBtn.Location = new System.Drawing.Point(207, 470);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.ShadowDecoration.Parent = this.CancelBtn;
             this.CancelBtn.Size = new System.Drawing.Size(147, 49);
@@ -266,22 +266,64 @@ namespace Quan_Ly_Khach_San
             this.CancelBtn.Text = "Cancel";
             this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
+            // CustomerNote
+            // 
+            this.CustomerNote.BorderColor = System.Drawing.Color.White;
+            this.CustomerNote.BorderRadius = 15;
+            this.CustomerNote.BorderThickness = 2;
+            this.CustomerNote.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CustomerNote.DefaultText = "";
+            this.CustomerNote.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.CustomerNote.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.CustomerNote.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerNote.DisabledState.Parent = this.CustomerNote;
+            this.CustomerNote.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerNote.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.CustomerNote.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerNote.FocusedState.Parent = this.CustomerNote;
+            this.CustomerNote.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerNote.ForeColor = System.Drawing.Color.White;
+            this.CustomerNote.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerNote.HoverState.Parent = this.CustomerNote;
+            this.CustomerNote.Location = new System.Drawing.Point(31, 419);
+            this.CustomerNote.Name = "CustomerNote";
+            this.CustomerNote.PasswordChar = '\0';
+            this.CustomerNote.PlaceholderText = "Address";
+            this.CustomerNote.SelectedText = "";
+            this.CustomerNote.ShadowDecoration.Parent = this.CustomerNote;
+            this.CustomerNote.Size = new System.Drawing.Size(323, 45);
+            this.CustomerNote.TabIndex = 23;
+            this.CustomerNote.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // siticoneHtmlLabel6
+            // 
+            this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.DarkGray;
+            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(163, 390);
+            this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
+            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(41, 23);
+            this.siticoneHtmlLabel6.TabIndex = 24;
+            this.siticoneHtmlLabel6.Text = "Note";
+            // 
             // Add_Customer_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(385, 478);
+            this.ClientSize = new System.Drawing.Size(385, 531);
+            this.Controls.Add(this.siticoneHtmlLabel6);
+            this.Controls.Add(this.CustomerNote);
             this.Controls.Add(this.CancelBtn);
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.siticoneHtmlLabel5);
-            this.Controls.Add(this.NoteTxb);
-            this.Controls.Add(this.IdentityTxb);
+            this.Controls.Add(this.CustomerAddress);
+            this.Controls.Add(this.CustomerIdentityTxb);
             this.Controls.Add(this.siticoneHtmlLabel4);
-            this.Controls.Add(this.PhoneNumberTxb);
+            this.Controls.Add(this.CustomerPhoneNumberTxb);
             this.Controls.Add(this.siticoneHtmlLabel3);
-            this.Controls.Add(this.NameTxb);
+            this.Controls.Add(this.CustomerNameTxb);
             this.Controls.Add(this.siticoneHtmlLabel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Add_Customer_Form";
@@ -295,14 +337,16 @@ namespace Quan_Ly_Khach_San
 
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel5;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox NoteTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox IdentityTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerAddress;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerIdentityTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel4;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox PhoneNumberTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerPhoneNumberTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel3;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox NameTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerNameTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton CancelBtn;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerNote;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel6;
     }
 }

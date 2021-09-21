@@ -57,9 +57,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUS\Class1.cs" />
-    <Compile Include="DAO\Class1.cs" />
-    <Compile Include="DTO\Class1.cs" />
+    <Compile Include="BUS\KhachHang_BUS.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\KhachHang_DAO.cs" />
+    <Compile Include="DTO\KhachHang.cs" />
     <Compile Include="GUI\Add_Customer_Form.cs">
       <SubType>Form</SubType>
     </Compile>
