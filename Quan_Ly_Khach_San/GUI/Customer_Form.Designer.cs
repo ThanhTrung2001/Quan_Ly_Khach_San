@@ -29,9 +29,9 @@ namespace Quan_Ly_Khach_San
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer_Form));
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CustomerGrid = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -63,29 +63,30 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI Emoji", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(426, 1);
+            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(568, 1);
+            this.siticoneHtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(164, 45);
+            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(200, 55);
             this.siticoneHtmlLabel1.TabIndex = 0;
             this.siticoneHtmlLabel1.Text = "Customers";
             // 
             // CustomerGrid
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.CustomerGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.CustomerGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.CustomerGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.CustomerGrid.BackgroundColor = System.Drawing.Color.White;
             this.CustomerGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CustomerGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.CustomerGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.CustomerGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.CustomerGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.CustomerGrid.ColumnHeadersHeight = 40;
             this.CustomerGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.maKH,
@@ -94,23 +95,25 @@ namespace Quan_Ly_Khach_San
             this.CMND,
             this.diaChi,
             this.ghiChu});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.CustomerGrid.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.CustomerGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.CustomerGrid.EnableHeadersVisualStyles = false;
             this.CustomerGrid.GridColor = System.Drawing.Color.White;
-            this.CustomerGrid.Location = new System.Drawing.Point(12, 350);
+            this.CustomerGrid.Location = new System.Drawing.Point(4, 433);
+            this.CustomerGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CustomerGrid.Name = "CustomerGrid";
             this.CustomerGrid.ReadOnly = true;
             this.CustomerGrid.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.CustomerGrid.RowHeadersVisible = false;
+            this.CustomerGrid.RowHeadersWidth = 51;
             this.CustomerGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.CustomerGrid.Size = new System.Drawing.Size(976, 288);
+            this.CustomerGrid.Size = new System.Drawing.Size(1301, 354);
             this.CustomerGrid.TabIndex = 1;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -139,6 +142,7 @@ namespace Quan_Ly_Khach_San
             // 
             this.maKH.DataPropertyName = "maKH";
             this.maKH.HeaderText = "Customer ID";
+            this.maKH.MinimumWidth = 6;
             this.maKH.Name = "maKH";
             this.maKH.ReadOnly = true;
             // 
@@ -146,6 +150,7 @@ namespace Quan_Ly_Khach_San
             // 
             this.tenKhachHang.DataPropertyName = "tenKhachHang";
             this.tenKhachHang.HeaderText = "Name";
+            this.tenKhachHang.MinimumWidth = 6;
             this.tenKhachHang.Name = "tenKhachHang";
             this.tenKhachHang.ReadOnly = true;
             // 
@@ -153,6 +158,7 @@ namespace Quan_Ly_Khach_San
             // 
             this.SDT.DataPropertyName = "SDT";
             this.SDT.HeaderText = "Phone";
+            this.SDT.MinimumWidth = 6;
             this.SDT.Name = "SDT";
             this.SDT.ReadOnly = true;
             // 
@@ -160,6 +166,7 @@ namespace Quan_Ly_Khach_San
             // 
             this.CMND.DataPropertyName = "CMND";
             this.CMND.HeaderText = "Identify numbers";
+            this.CMND.MinimumWidth = 6;
             this.CMND.Name = "CMND";
             this.CMND.ReadOnly = true;
             // 
@@ -167,6 +174,7 @@ namespace Quan_Ly_Khach_San
             // 
             this.diaChi.DataPropertyName = "diaChi";
             this.diaChi.HeaderText = "Address";
+            this.diaChi.MinimumWidth = 6;
             this.diaChi.Name = "diaChi";
             this.diaChi.ReadOnly = true;
             // 
@@ -174,6 +182,7 @@ namespace Quan_Ly_Khach_San
             // 
             this.ghiChu.DataPropertyName = "ghiChu";
             this.ghiChu.HeaderText = "Note";
+            this.ghiChu.MinimumWidth = 6;
             this.ghiChu.Name = "ghiChu";
             this.ghiChu.ReadOnly = true;
             // 
@@ -182,9 +191,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel2.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(123, 114);
+            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(164, 140);
+            this.siticoneHtmlLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(58, 23);
+            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(70, 29);
             this.siticoneHtmlLabel2.TabIndex = 2;
             this.siticoneHtmlLabel2.Text = "Name :";
             // 
@@ -207,13 +217,14 @@ namespace Quan_Ly_Khach_San
             this.CustomerNameTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNameTxb.HoverState.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Location = new System.Drawing.Point(123, 143);
+            this.CustomerNameTxb.Location = new System.Drawing.Point(164, 176);
+            this.CustomerNameTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CustomerNameTxb.Name = "CustomerNameTxb";
             this.CustomerNameTxb.PasswordChar = '\0';
             this.CustomerNameTxb.PlaceholderText = "Name";
             this.CustomerNameTxb.SelectedText = "";
             this.CustomerNameTxb.ShadowDecoration.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Size = new System.Drawing.Size(320, 39);
+            this.CustomerNameTxb.Size = new System.Drawing.Size(427, 48);
             this.CustomerNameTxb.TabIndex = 3;
             this.CustomerNameTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -236,13 +247,14 @@ namespace Quan_Ly_Khach_San
             this.CustomerPhonetxb.ForeColor = System.Drawing.Color.White;
             this.CustomerPhonetxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerPhonetxb.HoverState.Parent = this.CustomerPhonetxb;
-            this.CustomerPhonetxb.Location = new System.Drawing.Point(123, 217);
+            this.CustomerPhonetxb.Location = new System.Drawing.Point(164, 267);
+            this.CustomerPhonetxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CustomerPhonetxb.Name = "CustomerPhonetxb";
             this.CustomerPhonetxb.PasswordChar = '\0';
             this.CustomerPhonetxb.PlaceholderText = "Phone Numbers";
             this.CustomerPhonetxb.SelectedText = "";
             this.CustomerPhonetxb.ShadowDecoration.Parent = this.CustomerPhonetxb;
-            this.CustomerPhonetxb.Size = new System.Drawing.Size(263, 39);
+            this.CustomerPhonetxb.Size = new System.Drawing.Size(351, 48);
             this.CustomerPhonetxb.TabIndex = 5;
             this.CustomerPhonetxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CustomerPhonetxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerPhonetxb_KeyPress);
@@ -252,9 +264,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel3.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(123, 188);
+            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(164, 231);
+            this.siticoneHtmlLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
-            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(61, 23);
+            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(74, 29);
             this.siticoneHtmlLabel3.TabIndex = 4;
             this.siticoneHtmlLabel3.Text = "Phone :";
             // 
@@ -277,13 +290,14 @@ namespace Quan_Ly_Khach_San
             this.CustomerIdentityTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerIdentityTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerIdentityTxb.HoverState.Parent = this.CustomerIdentityTxb;
-            this.CustomerIdentityTxb.Location = new System.Drawing.Point(123, 291);
+            this.CustomerIdentityTxb.Location = new System.Drawing.Point(164, 358);
+            this.CustomerIdentityTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CustomerIdentityTxb.Name = "CustomerIdentityTxb";
             this.CustomerIdentityTxb.PasswordChar = '\0';
             this.CustomerIdentityTxb.PlaceholderText = "Identity Numbers";
             this.CustomerIdentityTxb.SelectedText = "";
             this.CustomerIdentityTxb.ShadowDecoration.Parent = this.CustomerIdentityTxb;
-            this.CustomerIdentityTxb.Size = new System.Drawing.Size(263, 39);
+            this.CustomerIdentityTxb.Size = new System.Drawing.Size(351, 48);
             this.CustomerIdentityTxb.TabIndex = 7;
             this.CustomerIdentityTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CustomerIdentityTxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerIdentityTxb_KeyPress);
@@ -293,9 +307,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel4.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel4.Location = new System.Drawing.Point(123, 262);
+            this.siticoneHtmlLabel4.Location = new System.Drawing.Point(164, 322);
+            this.siticoneHtmlLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel4.Name = "siticoneHtmlLabel4";
-            this.siticoneHtmlLabel4.Size = new System.Drawing.Size(72, 23);
+            this.siticoneHtmlLabel4.Size = new System.Drawing.Size(89, 29);
             this.siticoneHtmlLabel4.TabIndex = 6;
             this.siticoneHtmlLabel4.Text = "Identity :";
             // 
@@ -318,13 +333,14 @@ namespace Quan_Ly_Khach_San
             this.CustomerNoteTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerNoteTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNoteTxb.HoverState.Parent = this.CustomerNoteTxb;
-            this.CustomerNoteTxb.Location = new System.Drawing.Point(555, 232);
+            this.CustomerNoteTxb.Location = new System.Drawing.Point(740, 286);
+            this.CustomerNoteTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CustomerNoteTxb.Name = "CustomerNoteTxb";
             this.CustomerNoteTxb.PasswordChar = '\0';
             this.CustomerNoteTxb.PlaceholderText = "Note";
             this.CustomerNoteTxb.SelectedText = "";
             this.CustomerNoteTxb.ShadowDecoration.Parent = this.CustomerNoteTxb;
-            this.CustomerNoteTxb.Size = new System.Drawing.Size(323, 43);
+            this.CustomerNoteTxb.Size = new System.Drawing.Size(431, 53);
             this.CustomerNoteTxb.TabIndex = 8;
             this.CustomerNoteTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -333,9 +349,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel5.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel5.Location = new System.Drawing.Point(555, 203);
+            this.siticoneHtmlLabel5.Location = new System.Drawing.Point(740, 250);
+            this.siticoneHtmlLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel5.Name = "siticoneHtmlLabel5";
-            this.siticoneHtmlLabel5.Size = new System.Drawing.Size(50, 23);
+            this.siticoneHtmlLabel5.Size = new System.Drawing.Size(62, 29);
             this.siticoneHtmlLabel5.TabIndex = 9;
             this.siticoneHtmlLabel5.Text = "Note :";
             // 
@@ -355,10 +372,11 @@ namespace Quan_Ly_Khach_San
             this.EditBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditBtn.ForeColor = System.Drawing.Color.White;
             this.EditBtn.HoverState.Parent = this.EditBtn;
-            this.EditBtn.Location = new System.Drawing.Point(555, 281);
+            this.EditBtn.Location = new System.Drawing.Point(740, 346);
+            this.EditBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.ShadowDecoration.Parent = this.EditBtn;
-            this.EditBtn.Size = new System.Drawing.Size(147, 49);
+            this.EditBtn.Size = new System.Drawing.Size(196, 60);
             this.EditBtn.TabIndex = 10;
             this.EditBtn.Text = "Add or Update";
             this.EditBtn.Click += new System.EventHandler(this.EditBtn_Click);
@@ -379,10 +397,11 @@ namespace Quan_Ly_Khach_San
             this.DeleteBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
             this.DeleteBtn.HoverState.Parent = this.DeleteBtn;
-            this.DeleteBtn.Location = new System.Drawing.Point(731, 281);
+            this.DeleteBtn.Location = new System.Drawing.Point(975, 346);
+            this.DeleteBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.ShadowDecoration.Parent = this.DeleteBtn;
-            this.DeleteBtn.Size = new System.Drawing.Size(147, 49);
+            this.DeleteBtn.Size = new System.Drawing.Size(196, 60);
             this.DeleteBtn.TabIndex = 11;
             this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
@@ -405,14 +424,15 @@ namespace Quan_Ly_Khach_San
             this.SearchTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.SearchTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SearchTxb.HoverState.Parent = this.SearchTxb;
-            this.SearchTxb.Location = new System.Drawing.Point(347, 52);
+            this.SearchTxb.Location = new System.Drawing.Point(463, 64);
+            this.SearchTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SearchTxb.Name = "SearchTxb";
             this.SearchTxb.PasswordChar = '\0';
             this.SearchTxb.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.SearchTxb.PlaceholderText = "Search Customer\'s Name";
             this.SearchTxb.SelectedText = "";
             this.SearchTxb.ShadowDecoration.Parent = this.SearchTxb;
-            this.SearchTxb.Size = new System.Drawing.Size(298, 39);
+            this.SearchTxb.Size = new System.Drawing.Size(397, 48);
             this.SearchTxb.TabIndex = 17;
             this.SearchTxb.TextChanged += new System.EventHandler(this.SearchTxb_TextChanged);
             // 
@@ -431,10 +451,11 @@ namespace Quan_Ly_Khach_San
             this.SearchBtn.HoverState.Parent = this.SearchBtn;
             this.SearchBtn.Image = ((System.Drawing.Image)(resources.GetObject("SearchBtn.Image")));
             this.SearchBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.SearchBtn.Location = new System.Drawing.Point(651, 52);
+            this.SearchBtn.Location = new System.Drawing.Point(868, 64);
+            this.SearchBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SearchBtn.Name = "SearchBtn";
             this.SearchBtn.ShadowDecoration.Parent = this.SearchBtn;
-            this.SearchBtn.Size = new System.Drawing.Size(35, 39);
+            this.SearchBtn.Size = new System.Drawing.Size(47, 48);
             this.SearchBtn.TabIndex = 18;
             this.SearchBtn.Click += new System.EventHandler(this.SearchBtn_Click);
             // 
@@ -443,9 +464,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(555, 110);
+            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(740, 135);
+            this.siticoneHtmlLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
-            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(75, 23);
+            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(91, 29);
             this.siticoneHtmlLabel6.TabIndex = 19;
             this.siticoneHtmlLabel6.Text = "Address : ";
             // 
@@ -468,22 +490,23 @@ namespace Quan_Ly_Khach_San
             this.CustomerAddress.ForeColor = System.Drawing.Color.White;
             this.CustomerAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerAddress.HoverState.Parent = this.CustomerAddress;
-            this.CustomerAddress.Location = new System.Drawing.Point(555, 139);
+            this.CustomerAddress.Location = new System.Drawing.Point(740, 171);
+            this.CustomerAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CustomerAddress.Name = "CustomerAddress";
             this.CustomerAddress.PasswordChar = '\0';
             this.CustomerAddress.PlaceholderText = "Address";
             this.CustomerAddress.SelectedText = "";
             this.CustomerAddress.ShadowDecoration.Parent = this.CustomerAddress;
-            this.CustomerAddress.Size = new System.Drawing.Size(323, 58);
+            this.CustomerAddress.Size = new System.Drawing.Size(431, 71);
             this.CustomerAddress.TabIndex = 20;
             this.CustomerAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Customer_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.ClientSize = new System.Drawing.Size(1333, 800);
             this.Controls.Add(this.CustomerAddress);
             this.Controls.Add(this.siticoneHtmlLabel6);
             this.Controls.Add(this.SearchBtn);
@@ -501,6 +524,7 @@ namespace Quan_Ly_Khach_San
             this.Controls.Add(this.CustomerGrid);
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Customer_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customer_Form";

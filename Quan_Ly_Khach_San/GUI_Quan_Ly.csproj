@@ -58,9 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUS\KhachHang_BUS.cs" />
+    <Compile Include="BUS\RuiRo_BUS.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="DAO\KhachHang_DAO.cs" />
+    <Compile Include="DAO\RuiRo_DAO.cs" />
     <Compile Include="DTO\KhachHang.cs" />
+    <Compile Include="DTO\RuiRo.cs" />
     <Compile Include="GUI\Add_Customer_Form.cs">
       <SubType>Form</SubType>
     </Compile>
