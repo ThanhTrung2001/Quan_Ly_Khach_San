@@ -29,9 +29,9 @@ namespace Quan_Ly_Khach_San
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.DeleteBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.CreateBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.RiskTypeTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -65,7 +65,7 @@ namespace Quan_Ly_Khach_San
             this.DeleteBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
             this.DeleteBtn.HoverState.Parent = this.DeleteBtn;
-            this.DeleteBtn.Location = new System.Drawing.Point(1121, 310);
+            this.DeleteBtn.Location = new System.Drawing.Point(247, 668);
             this.DeleteBtn.Margin = new System.Windows.Forms.Padding(4);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.ShadowDecoration.Parent = this.DeleteBtn;
@@ -90,7 +90,7 @@ namespace Quan_Ly_Khach_San
             this.CreateBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateBtn.ForeColor = System.Drawing.Color.White;
             this.CreateBtn.HoverState.Parent = this.CreateBtn;
-            this.CreateBtn.Location = new System.Drawing.Point(908, 310);
+            this.CreateBtn.Location = new System.Drawing.Point(34, 668);
             this.CreateBtn.Margin = new System.Windows.Forms.Padding(4);
             this.CreateBtn.Name = "CreateBtn";
             this.CreateBtn.ShadowDecoration.Parent = this.CreateBtn;
@@ -118,7 +118,7 @@ namespace Quan_Ly_Khach_San
             this.RiskTypeTxb.ForeColor = System.Drawing.Color.White;
             this.RiskTypeTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.RiskTypeTxb.HoverState.Parent = this.RiskTypeTxb;
-            this.RiskTypeTxb.Location = new System.Drawing.Point(548, 167);
+            this.RiskTypeTxb.Location = new System.Drawing.Point(16, 305);
             this.RiskTypeTxb.Margin = new System.Windows.Forms.Padding(4);
             this.RiskTypeTxb.Name = "RiskTypeTxb";
             this.RiskTypeTxb.PasswordChar = '\0';
@@ -126,7 +126,7 @@ namespace Quan_Ly_Khach_San
             this.RiskTypeTxb.SelectedText = "";
             this.RiskTypeTxb.SelectionStart = 4;
             this.RiskTypeTxb.ShadowDecoration.Parent = this.RiskTypeTxb;
-            this.RiskTypeTxb.Size = new System.Drawing.Size(351, 48);
+            this.RiskTypeTxb.Size = new System.Drawing.Size(417, 48);
             this.RiskTypeTxb.TabIndex = 24;
             this.RiskTypeTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -135,7 +135,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel3.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(548, 131);
+            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(16, 269);
             this.siticoneHtmlLabel3.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
             this.siticoneHtmlLabel3.Size = new System.Drawing.Size(60, 29);
@@ -148,7 +148,7 @@ namespace Quan_Ly_Khach_San
             this.RiskCodeTxb.BorderRadius = 15;
             this.RiskCodeTxb.BorderThickness = 2;
             this.RiskCodeTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.RiskCodeTxb.DefaultText = "Name";
+            this.RiskCodeTxb.DefaultText = "Id";
             this.RiskCodeTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.RiskCodeTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.RiskCodeTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -167,7 +167,6 @@ namespace Quan_Ly_Khach_San
             this.RiskCodeTxb.PasswordChar = '\0';
             this.RiskCodeTxb.PlaceholderText = "";
             this.RiskCodeTxb.SelectedText = "";
-            this.RiskCodeTxb.SelectionStart = 4;
             this.RiskCodeTxb.ShadowDecoration.Parent = this.RiskCodeTxb;
             this.RiskCodeTxb.Size = new System.Drawing.Size(427, 48);
             this.RiskCodeTxb.TabIndex = 22;
@@ -187,37 +186,37 @@ namespace Quan_Ly_Khach_San
             // 
             // RiskGrid
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.RiskGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.RiskGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.RiskGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.RiskGrid.BackgroundColor = System.Drawing.Color.White;
             this.RiskGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RiskGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.RiskGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RiskGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RiskGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.RiskGrid.ColumnHeadersHeight = 40;
             this.RiskGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.riskid,
             this.risktype,
             this.refund});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.RiskGrid.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.RiskGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.RiskGrid.EnableHeadersVisualStyles = false;
             this.RiskGrid.GridColor = System.Drawing.Color.White;
-            this.RiskGrid.Location = new System.Drawing.Point(16, 435);
+            this.RiskGrid.Location = new System.Drawing.Point(517, 137);
             this.RiskGrid.Margin = new System.Windows.Forms.Padding(4);
             this.RiskGrid.Name = "RiskGrid";
             this.RiskGrid.ReadOnly = true;
@@ -225,7 +224,7 @@ namespace Quan_Ly_Khach_San
             this.RiskGrid.RowHeadersVisible = false;
             this.RiskGrid.RowHeadersWidth = 51;
             this.RiskGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.RiskGrid.Size = new System.Drawing.Size(1301, 350);
+            this.RiskGrid.Size = new System.Drawing.Size(803, 624);
             this.RiskGrid.TabIndex = 20;
             this.RiskGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.RiskGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -255,7 +254,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(995, 146);
+            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(18, 410);
             this.siticoneHtmlLabel6.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
             this.siticoneHtmlLabel6.Size = new System.Drawing.Size(76, 29);
@@ -267,7 +266,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel26.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel26.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel26.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel26.Location = new System.Drawing.Point(1266, 193);
+            this.siticoneHtmlLabel26.Location = new System.Drawing.Point(289, 457);
             this.siticoneHtmlLabel26.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel26.Name = "siticoneHtmlLabel26";
             this.siticoneHtmlLabel26.Size = new System.Drawing.Size(32, 22);
@@ -294,7 +293,7 @@ namespace Quan_Ly_Khach_San
             this.RiskCostTxb.ForeColor = System.Drawing.Color.White;
             this.RiskCostTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.RiskCostTxb.HoverState.Parent = this.RiskCostTxb;
-            this.RiskCostTxb.Location = new System.Drawing.Point(1084, 171);
+            this.RiskCostTxb.Location = new System.Drawing.Point(107, 435);
             this.RiskCostTxb.Margin = new System.Windows.Forms.Padding(4);
             this.RiskCostTxb.Name = "RiskCostTxb";
             this.RiskCostTxb.PasswordChar = '\0';
