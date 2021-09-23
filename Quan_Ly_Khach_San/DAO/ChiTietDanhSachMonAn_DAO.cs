@@ -43,9 +43,9 @@ namespace Quan_Ly_Khach_San.DAO
             {
                 string maMonAn = dt.Rows[i]["maMonAn"].ToString();
 
-                
+                MonAn ma = MonAn_DAO.FoodWithID(maMonAn);
 
-                danhSach.Add();
+                danhSach.Add(ma);
             }
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;

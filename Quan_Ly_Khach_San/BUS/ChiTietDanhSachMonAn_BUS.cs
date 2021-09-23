@@ -14,5 +14,10 @@ namespace Quan_Ly_Khach_San.BUS
         {
             return ChiTietDanhSachMonAn_DAO.AddNewListFoodDetail(detail);
         }
+
+        public static List<MonAn> FoodList(string listFoodID)
+        {
+            return ChiTietDanhSachMonAn_DAO.FoodList(listFoodID);
+        }
     }
 }

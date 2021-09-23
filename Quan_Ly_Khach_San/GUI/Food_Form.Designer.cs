@@ -2371,6 +2371,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerFoodDGV.GridColor = System.Drawing.Color.White;
             this.CustomerFoodDGV.Location = new System.Drawing.Point(8, 88);
             this.CustomerFoodDGV.Name = "CustomerFoodDGV";
+            this.CustomerFoodDGV.ReadOnly = true;
             this.CustomerFoodDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.CustomerFoodDGV.RowHeadersVisible = false;
             this.CustomerFoodDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -2389,7 +2390,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerFoodDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.CustomerFoodDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.CustomerFoodDGV.ThemeStyle.HeaderStyle.Height = 40;
-            this.CustomerFoodDGV.ThemeStyle.ReadOnly = false;
+            this.CustomerFoodDGV.ThemeStyle.ReadOnly = true;
             this.CustomerFoodDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.CustomerFoodDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.CustomerFoodDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -2402,11 +2403,13 @@ namespace Quan_Ly_Khach_San
             // 
             this.dataGridViewTextBoxColumn13.HeaderText = "Column1";
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn14
             // 
             this.dataGridViewTextBoxColumn14.HeaderText = "Column2";
             this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            this.dataGridViewTextBoxColumn14.ReadOnly = true;
             // 
             // BiilStatusCbb
             // 
