@@ -13,7 +13,7 @@ namespace Quan_Ly_Khach_San.DAO
 
         public static SqlConnection MoKetNoiDatabase()
         {
-            string chuoiKetNoi = @"Data Source=DESKTOP-I2KUT1M\CITADEL;Initial Catalog=dbQLNH;Integrated Security=True";
+            string chuoiKetNoi = @"Data Source=.\SQLEXPRESS;Initial Catalog=QLKS;Integrated Security=True";
             SqlConnection conn = new SqlConnection(chuoiKetNoi);
             conn.Open();
             return conn;
