@@ -40,7 +40,7 @@ namespace Quan_Ly_Khach_San.DAO
 
         public static  bool AddNewCustomer(KhachHang khachHang)
         {
-            string command = $"insert into KHACHHANG values (N'{khachHang.MaKH}',N'{khachHang.TenKhachHang}',N'{khachHang.SDT}', N'{khachHang.CMND}',N'{khachHang.DiaChi}',N'{khachHang.GhiChu}')";
+            string command = $"insert into KHACHHANG values ('{khachHang.MaKH}',N'{khachHang.TenKhachHang}',N'{khachHang.SDT}', N'{khachHang.CMND}',N'{khachHang.DiaChi}',N'{khachHang.GhiChu}')";
             conn = DataProvider.MoKetNoiDatabase();
             try
             {

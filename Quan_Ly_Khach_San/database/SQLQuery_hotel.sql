@@ -167,7 +167,6 @@ create table HoaDonMonAn
 (
 	maHoaDon varchar(10) primary key,
 	ngayLap datetime,
-	ban int,
 	maNV varchar(10),
 	maKH varchar(10),
 	/*chỉnh sửa*/
@@ -180,7 +179,7 @@ create table HoaDonMonAn
 	maRR varchar(10),
 	soTienHoan int,
 
-	maTrangThai varchar(10),
+	maTinhTrang varchar(10),
 	ghiChu varchar(100),
 )
 
@@ -258,7 +257,7 @@ create table HoaDonPhongVaDichVu
 
 	maRR varchar(10),
 	soTienHoan int,
-	maTrangThai varchar(10),
+	maTinhTrang varchar(10),
 	ghiChu varchar(100),
 )
 
@@ -336,6 +335,7 @@ alter table PhieuXuatKho add constraint FK_PhieuXuatKho_NhanVien foreign key (ma
 alter table HoaDonMonAn add constraint FK_HoaDonMonAn_NhanVien foreign key (maNV) references NhanVien (maNV)
 alter table HoaDonMonAn add constraint FK_HoaDonMonAn_RuiRo foreign key (maRR) references RuiRo (maRR)
 alter table HoaDonMonAn add constraint FK_HoaDonMonAn_KhachHang foreign key (maKH) references KhachHang (maKH)
+alter table HoaDonMonAn add constraint FK_HoaDonMonAn_TinhTrang foreign key (maTinhTrang) references TinhTrang (maTinhTrang)
 
 alter table CTDSDichVu add constraint FK_CTDSDichVu_DichVu foreign key (maDV) references DichVu (maDV)
 --alter table CTDSDichVu add constraint FK_CTDSDichVu_HoaDonPhongVaDichVu foreign key (maHoaDon) references HoaDonPhongVaDichVu (maHoaDon)
@@ -367,6 +367,7 @@ insert into TinhTrang values ('So', 'Sold out')
 insert into DonViTinh values ('kg','kg')
 insert into DonViTinh values ('g','g')
 insert into DonViTinh values ('p','piece')
+insert into DonViTinh values ('pl','plate')
 
 insert into LoaiNguyenLieu values ('TI001','Spice')
 insert into LoaiNguyenLieu values ('TI002','Vegetable')
@@ -394,5 +395,5 @@ insert into LoaiBaoCao values ('T001','Food')
 insert into LoaiBaoCao values ('T002','Service')
 insert into LoaiBaoCao values ('T003','Room')
 
-select*from KhachHang
-insert into KhachHang (maKH, tenKhachHang) values('312465538', 'Nguyen nhut tan')
+insert into MonAn values('F001','Beafsteak','TF002','pl', 100,'')
+insert into MonAn values('F002','Soup','TF002','pl', 50,'')
