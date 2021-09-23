@@ -57,28 +57,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUS\ChiTietDanhSachMonAn_BUS.cs" />
-    <Compile Include="BUS\DonViTinh_BUS.cs" />
-    <Compile Include="BUS\HoaDonMonAn_BUS.cs" />
     <Compile Include="BUS\KhachHang_BUS.cs" />
-    <Compile Include="BUS\LoaiMonAn_BUS.cs" />
-    <Compile Include="BUS\MonAn_BUS.cs" />
-    <Compile Include="BUS\TinhTrang_BUS.cs" />
-    <Compile Include="DAO\ChiTietDanhSachMonAn_DAO.cs" />
+    <Compile Include="BUS\RuiRo_BUS.cs" />
     <Compile Include="DAO\DataProvider.cs" />
-    <Compile Include="DAO\DonViTinh_DAO.cs" />
-    <Compile Include="DAO\HoaDonMonAn_DAO.cs" />
     <Compile Include="DAO\KhachHang_DAO.cs" />
-    <Compile Include="DAO\LoaiMonAn_DAO.cs" />
-    <Compile Include="DAO\MonAn_DAO.cs" />
-    <Compile Include="DAO\TinhTrang_DAO.cs" />
-    <Compile Include="DTO\ChiTietDanhSachMonAn.cs" />
-    <Compile Include="DTO\DonViTinh.cs" />
-    <Compile Include="DTO\HoaDonMonAn.cs" />
+    <Compile Include="DAO\RuiRo_DAO.cs" />
     <Compile Include="DTO\KhachHang.cs" />
-    <Compile Include="DTO\LoaiMonAn.cs" />
-    <Compile Include="DTO\MonAn.cs" />
-    <Compile Include="DTO\TinhTrang.cs" />
+    <Compile Include="DTO\RuiRo.cs" />
     <Compile Include="GUI\Add_Customer_Form.cs">
       <SubType>Form</SubType>
     </Compile>
