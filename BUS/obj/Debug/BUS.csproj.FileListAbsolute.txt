@@ -1,0 +1,11 @@
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\bin\Debug\BUS.dll
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\bin\Debug\BUS.pdb
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\bin\Debug\DAL.dll
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\bin\Debug\DTO.dll
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\bin\Debug\DAL.pdb
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\bin\Debug\DTO.pdb
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.CopyComplete
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.dll
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.pdb

@@ -1,5 +1,5 @@
-﻿using Quan_Ly_Khach_San.BUS;
-using Quan_Ly_Khach_San.DTO;
+﻿using BUS;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -94,7 +94,7 @@ namespace Quan_Ly_Khach_San
         {
             try
             {
-                foodType = FoodTypeCb.SelectedValue.ToString();
+                //foodType = FoodTypeCb.SelectedValue.ToString();
                 List<MonAn> list = MonAn_BUS.FoodListWithSearch(foodName, foodType);
                 if (list == null) list = new List<MonAn>();
                 this.MenuFoodDGV.DataSource = list;

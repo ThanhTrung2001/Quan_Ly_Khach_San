@@ -1,5 +1,5 @@
 ﻿
-use dbQLNH
+use QLKS
 
 create table TaiKhoan
 (
@@ -391,9 +391,17 @@ insert into LoaiPhong values ('TR003','Queen', 6000)
 insert into LoaiPhong values ('TR004','King', 7000)
 insert into LoaiPhong values ('TR005','Twin', 5000)
 
-insert into LoaiBaoCao values ('T001','Food')
-insert into LoaiBaoCao values ('T002','Service')
-insert into LoaiBaoCao values ('T003','Room')
+insert into LoaiBaoCao values ('T001','Food Report')
+insert into LoaiBaoCao values ('T002','Room and Service Report')
+insert into LoaiBaoCao values ('T003','Supplier Report')
 
 insert into MonAn values('F001','Beafsteak','TF002','pl', 100,'')
 insert into MonAn values('F002','Soup','TF002','pl', 50,'')
+
+ALTER TABLE RUIRO ALTER COLUMN loaiRR varchar(100)
+
+insert into RuiRo values('RR999','Security', 50)
+insert into RuiRo values('RR888','Poor service', 30)
+insert into RuiRo values('RR777','Infrastructure', 27)
+insert into RuiRo values('RR666','Dirty', 20)
+insert into RuiRo values('RR555','Bad quality, unlike advertising', 45)

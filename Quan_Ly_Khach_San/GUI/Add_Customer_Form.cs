@@ -1,5 +1,5 @@
-﻿using Quan_Ly_Khach_San.BUS;
-using Quan_Ly_Khach_San.DTO;
+﻿using BUS;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
