@@ -30,7 +30,7 @@ namespace DAL
                 monAn.MaLoaiMonAn = dt.Rows[i]["maLoaiMonAn"].ToString();
                 monAn.LoaiMonAn = LoaiMonAn_DAO.GetFoodType(monAn.MaLoaiMonAn);
                 monAn.MaDVT = dt.Rows[i]["maDVT"].ToString();
-                monAn.DonViTinh = DonViTinh_DAO.GetMeasure(monAn.MaDVT);
+                monAn.DonViTinh = DonViTinh_DAL.GetMeasure(monAn.MaDVT);
                 monAn.Gia = Double.Parse(dt.Rows[i]["gia"].ToString());
                 monAn.GhiChu = dt.Rows[i]["ghiChu"].ToString();
                 danhSach.Add(monAn);
@@ -42,7 +42,7 @@ namespace DAL
         public static List<MonAn> FoodListWithSearch(string tenMonAn, string maLoaiMonAn)
         {
             string command = $"select * from MonAn where tenMonAn like N'{tenMonAn}%'";
-            if (maLoaiMonAn != "") command = $"select * from MonAn where tenMonAn like N'%{tenMonAn}%' and maLoaiMonAn = '{maLoaiMonAn}'";
+            if (maLoaiMonAn != "all") command = $"select * from MonAn where tenMonAn like N'{tenMonAn}%' and maLoaiMonAn = '{maLoaiMonAn}'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
@@ -57,7 +57,7 @@ namespace DAL
                 monAn.MaLoaiMonAn = dt.Rows[i]["maLoaiMonAn"].ToString();
                 monAn.LoaiMonAn = LoaiMonAn_DAO.GetFoodType(monAn.MaLoaiMonAn);
                 monAn.MaDVT = dt.Rows[i]["maDVT"].ToString();
-                monAn.DonViTinh = DonViTinh_DAO.GetMeasure(monAn.MaDVT);
+                monAn.DonViTinh = DonViTinh_DAL.GetMeasure(monAn.MaDVT);
                 monAn.Gia = Double.Parse(dt.Rows[i]["gia"].ToString());
                 monAn.GhiChu = dt.Rows[i]["ghiChu"].ToString();
                 danhSach.Add(monAn);
@@ -80,13 +80,12 @@ namespace DAL
             monAn.MaLoaiMonAn = dt.Rows[0]["maLoaiMonAn"].ToString();
             monAn.LoaiMonAn = LoaiMonAn_DAO.GetFoodType(monAn.MaLoaiMonAn);
             monAn.MaDVT = dt.Rows[0]["maDVT"].ToString();
-            monAn.DonViTinh = DonViTinh_DAO.GetMeasure(monAn.MaDVT);
+            monAn.DonViTinh = DonViTinh_DAL.GetMeasure(monAn.MaDVT);
             monAn.Gia = Double.Parse(dt.Rows[0]["gia"].ToString());
             monAn.GhiChu = dt.Rows[0]["ghiChu"].ToString();
-            
+
             DataProvider.DongKetNoiDatabase(conn);
             return monAn;
         }
-        
     }
 }

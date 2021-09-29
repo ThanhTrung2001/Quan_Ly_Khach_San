@@ -15,7 +15,7 @@ namespace DAL
 
         public static bool AddNewBill(HoaDonMonAn hoaDon)
         {
-            string command = $"insert into HoaDonMonAn(maHoaDon, MaKH, maDSMA, tongTien, maTinhTrang) values ('{hoaDon.MaHoaDon}', '{hoaDon.MaKH}', '{hoaDon.MaDSMA}', {hoaDon.TongTien}, '{hoaDon.MaTinhTrang}')";
+            string command = $"insert into HoaDonMonAn(maHoaDon, MaKH, maDSMA, tongTien, tienNhan, tienThua, maTinhTrang) values ('{hoaDon.MaHoaDon}', '{hoaDon.MaKH}', '{hoaDon.MaDSMA}', {hoaDon.TongTien}, {hoaDon.TienNhan}, {hoaDon.TienThua}, '{hoaDon.MaTinhTrang}')";
             conn = DataProvider.MoKetNoiDatabase();
             try
             {
@@ -51,19 +51,19 @@ namespace DAL
                 hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
                 hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
                 hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
-                hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
-                hoaDon.MaTinhTrang = dt.Rows[i]["tinhTrang"].ToString();
+                //hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
                 hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
 
                 danhSach.Add(hoaDon);
             }
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;
-        } 
+        }
 
-        public static List<HoaDonMonAn> BillPendingList()
+        public static List<HoaDonMonAn> BillListWithCustomerID(string maKH)
         {
-            string command = "select * from HoaDonMonAn where maTinhTrang = 'Pe'";
+            string command = $"select * from HoaDonMonAn where maKH like '{maKH}%'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
@@ -82,8 +82,9 @@ namespace DAL
                 hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
                 hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
                 hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
-                hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
-                hoaDon.MaTinhTrang = dt.Rows[i]["tinhTrang"].ToString();
+                //hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                hoaDon.TinhTrang = TinhTrang_DAO.GetStatus(hoaDon.MaTinhTrang);
                 hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
 
                 danhSach.Add(hoaDon);
@@ -92,10 +93,60 @@ namespace DAL
             return danhSach;
         }
 
+        public static List<HoaDonMonAn> BillPendingList()
+        {
+            string command = "select maHoaDon, maNV, maKH, maDSMA, tongTien, maTinhTrang from HoaDonMonAn where maTinhTrang = 'Pe'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<HoaDonMonAn> danhSach = new List<HoaDonMonAn>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                HoaDonMonAn hoaDon = new HoaDonMonAn();
+                hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
+                hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
+                hoaDon.MaDSMA = dt.Rows[i]["maDSMA"].ToString();
+                hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                hoaDon.TinhTrang = TinhTrang_DAO.GetStatus(hoaDon.MaTinhTrang);
+                danhSach.Add(hoaDon);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+        }
+
+        public static List<HoaDonMonAn> BillPendingListWithCustomerID(string maKH)
+        {
+            string command = $"select maHoaDon, maNV, maKH, maDSMA, tongTien, maTinhTrang from HoaDonMonAn where maTinhTrang = 'Pe' and maKH like '{maKH}%'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<HoaDonMonAn> danhSach = new List<HoaDonMonAn>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                HoaDonMonAn hoaDon = new HoaDonMonAn();
+                hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
+                hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
+                hoaDon.MaDSMA = dt.Rows[i]["maDSMA"].ToString();
+                hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                hoaDon.TinhTrang = TinhTrang_DAO.GetStatus(hoaDon.MaTinhTrang);
+                danhSach.Add(hoaDon);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+        }
+
         public static bool UpdateBillPaid(HoaDonMonAn hoaDon)
         {
-            string command = $"update HoaDonMonAn set ngayLap = '{hoaDon.NgayLap}', maNV = '{hoaDon.MaNV}', tienNhan = {hoaDon.TienNhan}, tienThua = {hoaDon.TienThua}, maTinhTrang = '{hoaDon.MaTinhTrang}', ghiChu = N'{hoaDon.GhiChu}' " +
-                $"where maHoaDon = '{hoaDon.MaHoaDon}'";
+            string command = $"update HoaDonMonAn set ngayLap = '{hoaDon.NgayLap}', tienNhan = {hoaDon.TienNhan}, tienThua = {hoaDon.TienThua}, maTinhTrang = '{hoaDon.MaTinhTrang}' " +
+                $"where maDSMA = '{hoaDon.MaDSMA}'";
             conn = DataProvider.MoKetNoiDatabase();
             try
             {

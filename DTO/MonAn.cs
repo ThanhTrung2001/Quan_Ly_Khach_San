@@ -16,6 +16,7 @@ namespace DTO
         private string donViTinh;
         private double gia;
         private string ghiChu;
+        private int soLuong;
 
         public string MaMonAn { get => maMonAn; set => maMonAn = value; }
         public string TenMonAn { get => tenMonAn; set => tenMonAn = value; }
@@ -25,5 +26,6 @@ namespace DTO
         public string DonViTinh { get => donViTinh; set => donViTinh = value; }
         public double Gia { get => gia; set => gia = value; }
         public string GhiChu { get => ghiChu; set => ghiChu = value; }
+        public int SoLuong { get => soLuong; set => soLuong = value; }
     }
 }

@@ -42,11 +42,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChiTietDanhSachMonAn.cs" />
+    <Compile Include="ChiTietDanhSachNguyenLieu.cs" />
     <Compile Include="DonViTinh.cs" />
     <Compile Include="HoaDonMonAn.cs" />
     <Compile Include="KhachHang.cs" />
     <Compile Include="LoaiMonAn.cs" />
+    <Compile Include="LoaiNguyenLieu.cs" />
     <Compile Include="MonAn.cs" />
+    <Compile Include="NguyenLieu.cs" />
+    <Compile Include="PhieuNhapKho.cs" />
+    <Compile Include="PhieuThanhToan.cs" />
+    <Compile Include="PhieuXuatKho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuiRo.cs" />
     <Compile Include="TinhTrang.cs" />

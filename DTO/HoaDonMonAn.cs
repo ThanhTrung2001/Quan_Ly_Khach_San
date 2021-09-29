@@ -19,6 +19,7 @@ namespace DTO
         private string maRR;
         private double soTienHoan;
         private string maTinhTrang;
+        private string tinhTrang;
         private string ghiChu;
 
         public string MaHoaDon { get => maHoaDon; set => maHoaDon = value; }
@@ -33,5 +34,6 @@ namespace DTO
         public double SoTienHoan { get => soTienHoan; set => soTienHoan = value; }
         public string MaTinhTrang { get => maTinhTrang; set => maTinhTrang = value; }
         public string GhiChu { get => ghiChu; set => ghiChu = value; }
+        public string TinhTrang { get => tinhTrang; set => tinhTrang = value; }
     }
 }

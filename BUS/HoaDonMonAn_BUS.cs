@@ -29,5 +29,15 @@ namespace BUS
         {
             return HoaDonMonAn_DAO.UpdateBillPaid(bill);
         }
+
+        public static List<HoaDonMonAn> BillListWithCustomerID(string id)
+        {
+            return HoaDonMonAn_DAO.BillListWithCustomerID(id);
+        }
+
+        public static List<HoaDonMonAn> BillPendingListWithCustomerID(string id)
+        {
+            return HoaDonMonAn_DAO.BillPendingListWithCustomerID(id);
+        }
     }
 }

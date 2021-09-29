@@ -12,12 +12,12 @@ namespace BUS
     {
         public static List<DonViTinh> MeasureList()
         {
-            return DonViTinh_DAO.MeasureList();
+            return DonViTinh_DAL.MeasureList();
         }
 
         public static string GetMeasure(string id)
         {
-            return DonViTinh_DAO.GetMeasure(id);
+            return DonViTinh_DAL.GetMeasure(id);
         }
     }
 }
