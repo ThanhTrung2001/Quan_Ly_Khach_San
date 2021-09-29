@@ -28,7 +28,7 @@ namespace DAL
 
         public static List<MonAn> FoodList(string maDS)
         {
-            string command = $"select maMonAn from CTDSMonAn where maDSMA = '{maDS}'";
+            string command = $"select maMonAn, soLuong from CTDSMonAn where maDSMA = '{maDS}'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
@@ -40,6 +40,7 @@ namespace DAL
                 string maMonAn = dt.Rows[i]["maMonAn"].ToString();
 
                 MonAn ma = MonAn_DAO.FoodWithID(maMonAn);
+                ma.SoLuong = int.Parse(dt.Rows[i]["soLuong"].ToString());
 
                 danhSach.Add(ma);
             }

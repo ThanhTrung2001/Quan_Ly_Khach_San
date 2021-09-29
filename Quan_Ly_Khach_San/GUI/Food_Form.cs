@@ -95,8 +95,6 @@ namespace Quan_Ly_Khach_San
             this.MenuFoodDGV.DataSource = list;
         }
 
-
-        //have bugs
         private void FoodTypeCb_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -111,7 +109,6 @@ namespace Quan_Ly_Khach_San
                 return;
             }
         }
-
 
 
         private void AddSelectedList(MonAn selectedFood)
@@ -237,7 +234,6 @@ namespace Quan_Ly_Khach_San
                 chiTiet.SoLuong = amount;
                 chiTiet.MaDVT = ma.MaDVT;
                 chiTiet.Gia = ma.Gia;
-                //have bug here, dont add with double
                 chiTiet.ThanhTien = ma.Gia * amount;
                 chiTiet.GhiChu = "null";
 
@@ -277,7 +273,7 @@ namespace Quan_Ly_Khach_San
         private void RequestFoodLoad()
         {
             BillLoad();
-            this.FListRequestDGV.Rows.Clear();
+            this.FListRequestDGV.DataSource = new List<MonAn>();
 
             this.TotalPriceFoodTxb.Text = "0";
             this.ReceiveMoneyTxb.Text = "0";
@@ -419,6 +415,7 @@ namespace Quan_Ly_Khach_San
         private void RecommentText()
         {
             List<ChiTietDanhSachNguyenLieu> list = ChiTietDanhSachNguyenLieu_BUS.IngredientLists();
+            if (list == null) return;
             AutoCompleteStringCollection l = new AutoCompleteStringCollection();
             foreach (ChiTietDanhSachNguyenLieu nl in list)
             {
