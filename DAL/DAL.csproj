@@ -54,6 +54,7 @@
     <Compile Include="PhieuNhapKho_DAL.cs" />
     <Compile Include="PhieuThanhToan_DAL.cs" />
     <Compile Include="PhieuXuatKho_DAL.cs" />
+    <Compile Include="Phong_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuiRo_DAL.cs" />
     <Compile Include="TinhTrang_DAL.cs" />

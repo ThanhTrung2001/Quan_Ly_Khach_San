@@ -53,6 +53,7 @@
     <Compile Include="PhieuNhapKho_BUS.cs" />
     <Compile Include="PhieuThanhToan_BUS.cs" />
     <Compile Include="PhieuXuatKho_BUS.cs" />
+    <Compile Include="Phong_BUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuiRo_BUS.cs" />
     <Compile Include="TinhTrang_BUS.cs" />

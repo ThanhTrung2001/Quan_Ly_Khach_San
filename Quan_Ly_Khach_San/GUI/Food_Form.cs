@@ -649,6 +649,7 @@ namespace Quan_Ly_Khach_San
         private void SuggestionLoad()
         {
             List<NguyenLieu> list = NguyenLieu_BUS.IngredientList();
+            if (list == null) return;
             AutoCompleteStringCollection l = new AutoCompleteStringCollection();
             foreach (NguyenLieu nl in list)
             {
