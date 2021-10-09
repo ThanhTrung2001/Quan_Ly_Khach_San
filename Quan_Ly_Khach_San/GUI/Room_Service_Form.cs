@@ -22,8 +22,10 @@ namespace Quan_Ly_Khach_San
         private void Room_Service_Form_Load(object sender, EventArgs e)
         {
             CustomerLoad();
+            BillLoad();
         }
 
+        #region Room
         private void AddCustomer_Click(object sender, EventArgs e)
         {
             Add_Customer_Form add = new Add_Customer_Form();
@@ -163,5 +165,54 @@ namespace Quan_Ly_Khach_San
                 this.CustomerSelect.Items.Add(khachHang);
             }
         }
+
+        private void RoomRequestBtn_Click(object sender, EventArgs e)
+        {
+            if(RoomTxb.Text == "" || CustomerSelect.Text == "")
+            {
+                MessageBox.Show("Fill full information !");
+            }
+            else if(StatusTxb.Text == "Hired")
+            {
+                MessageBox.Show("Room is hired !");
+            } else
+            {
+
+
+                HoaDonPhong hoaDon = new HoaDonPhong();
+                hoaDon.MaHoaDon = "R" + getRandomID();
+                //hoaDon.NgayLap = DateTime.Now.ToString();
+                //hoaDon.Checkin = checkInDpk.Value.ToString();
+                //hoaDon.Checkout = checkOutDpk.Value.ToString();
+                hoaDon.MaKH = this.CustomerSelect.Text;
+                hoaDon.MaPhong = RoomTxb.Text;
+                hoaDon.TongTien = Double.Parse(this.RoomPriceTxb.Text);
+                hoaDon.TienNhan = 0.0;
+                hoaDon.TienThua = 0.0;
+                hoaDon.MaTinhTrang = "Pe";
+
+                if (HoaDonPhong_BUS.AddNewBill(hoaDon))
+                {
+                    HoaDonPhong_BUS.UpdateRoom(RoomTxb.Text);
+                    MessageBox.Show("Successfully. Click 'OK' to continue !");
+                    BillLoad();
+                }
+            }
+        }
+
+        private string getRandomID()
+        {
+            return String.Format("{0:d8}", (DateTime.Now.Ticks / 10) % 1000000000);
+        }
+        #endregion
+
+        #region Request
+        private void BillLoad()
+        {
+            List<HoaDonPhong> roomBillList = HoaDonPhong_BUS.RoomBillPendingList();
+            if (roomBillList == null) roomBillList = new List<HoaDonPhong>();
+            this.RoomBillDgv.DataSource = roomBillList;
+        }
+        #endregion
     }
 }

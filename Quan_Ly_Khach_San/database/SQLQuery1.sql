@@ -281,6 +281,7 @@ create table RuiRo
 	loaiRR varchar(10),
 	phanHoanTien float,
 )
+ALTER TABLE RUIRO ALTER COLUMN loaiRR varchar(100)
 
 alter table  HoaDonPhong add constraint FK_HoaDonPhong_Phong foreign key (maPhong) references Phong (maPhong)
 
@@ -395,7 +396,7 @@ insert into LoaiBaoCao values ('T003','Supplier Report')
 insert into MonAn values('F001','Beafsteak','TF002','pl', 100,'')
 insert into MonAn values('F002','Soup','TF002','pl', 50,'')
 
-ALTER TABLE RUIRO ALTER COLUMN loaiRR varchar(100)
+
 
 insert into RuiRo values('RR999','Security', 50)
 insert into RuiRo values('RR888','Poor service', 30)

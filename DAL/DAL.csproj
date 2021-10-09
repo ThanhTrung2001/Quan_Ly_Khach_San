@@ -46,6 +46,7 @@
     <Compile Include="DataProvider.cs" />
     <Compile Include="DonViTinh_DAL.cs" />
     <Compile Include="HoaDonMonAn_DAL.cs" />
+    <Compile Include="HoaDonPhong_DAL.cs" />
     <Compile Include="KhachHang_DAL.cs" />
     <Compile Include="LoaiMonAn_DAL.cs" />
     <Compile Include="LoaiNguyenLieu_DAL.cs" />
