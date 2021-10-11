@@ -177,22 +177,20 @@ namespace Quan_Ly_Khach_San
                 MessageBox.Show("Room is hired !");
             } else
             {
-
-
                 HoaDonPhong hoaDon = new HoaDonPhong();
                 hoaDon.MaHoaDon = "R" + getRandomID();
-                //hoaDon.NgayLap = DateTime.Now.ToString();
-                //hoaDon.Checkin = checkInDpk.Value.ToString();
-                //hoaDon.Checkout = checkOutDpk.Value.ToString();
+                hoaDon.Checkin = DateTime.Now.ToString();
+                hoaDon.Checkout = DateTime.Now.AddDays(int.Parse(numberDayUpDown.Value.ToString())).ToString();
                 hoaDon.MaKH = this.CustomerSelect.Text;
                 hoaDon.MaPhong = RoomTxb.Text;
-                hoaDon.TongTien = Double.Parse(this.RoomPriceTxb.Text);
+                hoaDon.SoNgayO = int.Parse(numberDayUpDown.Value.ToString());
+                hoaDon.TongTien = Double.Parse(this.RoomPriceTxb.Text) * hoaDon.SoNgayO;
                 hoaDon.TienNhan = 0.0;
                 hoaDon.TienThua = 0.0;
                 hoaDon.MaTinhTrang = "Pe";
 
                 if (HoaDonPhong_BUS.AddNewBill(hoaDon))
-                {
+                {   
                     HoaDonPhong_BUS.UpdateRoom(RoomTxb.Text);
                     MessageBox.Show("Successfully. Click 'OK' to continue !");
                     BillLoad();

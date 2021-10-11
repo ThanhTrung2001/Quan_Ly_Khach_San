@@ -26,12 +26,12 @@ namespace DAL
             {
                 HoaDonPhong hoaDon = new HoaDonPhong();
                 hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
-                hoaDon.NgayLap = dt.Rows[i]["ngayLap"].ToString();
                 hoaDon.Checkin = dt.Rows[i]["checkin"].ToString();
                 hoaDon.Checkout = dt.Rows[i]["checkout"].ToString();
                 hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
                 hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
                 hoaDon.MaPhong = dt.Rows[i]["maPhong"].ToString();
+                hoaDon.SoNgayO = int.Parse(dt.Rows[i]["soNgayO"].ToString());
                 hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
                 hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
                 hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
@@ -48,7 +48,7 @@ namespace DAL
 
         public static bool AddNewBill(HoaDonPhong hoaDon)
         {
-            string command = $"insert into HoaDonPhong(maHoaDon, MaKH, maPhong, tongTien, tienNhan, tienThua, maTinhTrang) values ('{hoaDon.MaHoaDon}', '{hoaDon.MaKH}', '{hoaDon.MaPhong}', {hoaDon.TongTien}, {hoaDon.TienNhan}, {hoaDon.TienThua}, '{hoaDon.MaTinhTrang}')";
+            string command = $"insert into HoaDonPhong(maHoaDon, checkin, checkout, maKH, maPhong, soNgayO, tongTien, tienNhan, tienThua, maTinhTrang) values ('{hoaDon.MaHoaDon}', '{hoaDon.Checkin}', '{hoaDon.Checkout}', '{hoaDon.MaKH}', '{hoaDon.MaPhong}', '{hoaDon.SoNgayO}', {hoaDon.TongTien}, {hoaDon.TienNhan}, {hoaDon.TienThua}, '{hoaDon.MaTinhTrang}')";
             conn = DataProvider.MoKetNoiDatabase();
             try
             {
@@ -65,7 +65,7 @@ namespace DAL
 
         public static List<HoaDonPhong> RoomBillPendingList()
         {
-            string command = "select maHoaDon, maNV, maKH, maPhong, tongTien, maTinhTrang from HoaDonPhong where maTinhTrang = 'Pe'";
+            string command = "select maHoaDon, checkin, checkout, maNV, maKH, maPhong, soNgayO, tongTien, maTinhTrang from HoaDonPhong where maTinhTrang = 'Pe'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
@@ -76,9 +76,12 @@ namespace DAL
             {
                 HoaDonPhong hoaDon = new HoaDonPhong();
                 hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.Checkin = dt.Rows[i]["checkin"].ToString();
+                hoaDon.Checkout = dt.Rows[i]["checkout"].ToString();
                 hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
                 hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
                 hoaDon.MaPhong = dt.Rows[i]["maPhong"].ToString();
+                hoaDon.SoNgayO = int.Parse(dt.Rows[i]["soNgayO"].ToString());
                 hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
                 hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
                 danhSach.Add(hoaDon);

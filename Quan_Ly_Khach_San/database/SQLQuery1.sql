@@ -1,4 +1,4 @@
-﻿use QLKS
+﻿use QLHT
 
 create table TaiKhoan
 (
@@ -223,13 +223,13 @@ create table Phong
 create table HoaDonPhong
 (
 	maHoaDon varchar(10) primary key,
-	ngayLap datetime,
 	checkin datetime,
 	checkout datetime,
 	maNV varchar(10),
 	maKH varchar(10),
 
 	maPhong varchar(10),
+	soNgayO int,
 
 	tongTien money,
 	tienNhan money,
@@ -407,3 +407,6 @@ insert into RuiRo values('RR555','Bad quality, unlike advertising', 45)
 insert into KhachHang values('285771511','Dang Duy Bang','0358695320','285771511','Binh Phuoc','')
 insert into KhachHang values('285551882','Nguyen Nhut Tan','0328795320','285551882','Quan 2 TpHCM','')
 insert into KhachHang values('285020111','Nguyen Thanh Trung','0328795320','285020111','Da Nang','')
+
+
+

@@ -9,12 +9,12 @@ namespace DTO
     public class HoaDonPhong
     {
         private string maHoaDon;
-        private string ngayLap;
         private string checkin;
         private string checkout;
         private string maNV;
         private string maKH;
         private string maPhong;
+        private int soNgayO;
         private double tongTien;
         private double tienNhan;
         private double tienThua;
@@ -24,12 +24,12 @@ namespace DTO
         private string ghiChu;
 
         public string MaHoaDon { get => maHoaDon; set => maHoaDon = value; }
-        public string NgayLap { get => ngayLap; set => ngayLap = value; }
         public string Checkin { get => checkin; set => checkin = value; }
         public string Checkout { get => checkout; set => checkout = value; }
         public string MaNV { get => maNV; set => maNV = value; }
         public string MaKH { get => maKH; set => maKH = value; }
         public string MaPhong { get => maPhong; set => maPhong = value; }
+        public int SoNgayO { get => soNgayO; set => soNgayO = value; }
         public double TongTien { get => tongTien; set => tongTien = value; }
         public double TienNhan { get => tienNhan; set => tienNhan = value; }
         public double TienThua { get => tienThua; set => tienThua = value; }
