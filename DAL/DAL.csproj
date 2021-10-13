@@ -46,6 +46,7 @@
     <Compile Include="DataProvider.cs" />
     <Compile Include="DonViTinh_DAL.cs" />
     <Compile Include="HoaDonMonAn_DAL.cs" />
+    <Compile Include="HoaDonPhong_DAL.cs" />
     <Compile Include="KhachHang_DAL.cs" />
     <Compile Include="LoaiMonAn_DAL.cs" />
     <Compile Include="LoaiNguyenLieu_DAL.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="PhieuNhapKho_DAL.cs" />
     <Compile Include="PhieuThanhToan_DAL.cs" />
     <Compile Include="PhieuXuatKho_DAL.cs" />
+    <Compile Include="Phong_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuiRo_DAL.cs" />
     <Compile Include="TinhTrang_DAL.cs" />

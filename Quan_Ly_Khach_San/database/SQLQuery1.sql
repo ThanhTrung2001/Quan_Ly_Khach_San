@@ -1,5 +1,4 @@
-﻿
-use QLKS
+﻿use QLHT
 
 create table TaiKhoan
 (
@@ -212,44 +211,25 @@ create table LoaiDichVu
 	loaiDichVu varchar(10),
 )
 
-create table CTDSPhong
-(
-	maChiTiet varchar(10) primary key,
-	maDSP varchar(10),
-	maPhong varchar(10),
-	maLoaiPhong varchar(10),
-	thanhTien money,
-)
-
 create table Phong
 (
 	maPhong varchar(10) primary key,
-	tenPhong varchar(100),
-	maLoaiPhong varchar(10),
-	tang int,
+	loaiPhong varchar(20),
 	/*giá tính theo loại phòng*/
 	gia money,
-	maTinhTrang varchar(10),
+	tinhTrang varchar(10),
 )
 
-create table LoaiPhong
-(
-	maLoaiPhong varchar(10) primary key,
-	loaiPhong varchar(10),
-	gia money,
-)
-
-create table HoaDonPhongVaDichVu
+create table HoaDonPhong
 (
 	maHoaDon varchar(10) primary key,
-	ngayLap datetime,
 	checkin datetime,
 	checkout datetime,
 	maNV varchar(10),
 	maKH varchar(10),
 
-	maDSP varchar(10), /*dsnl lấy từ bảng CTDSPhong*/
-	maDSDV varchar(10), /*dsnl lấy từ bảng CTDSDichVu*/
+	maPhong varchar(10),
+	soNgayO int,
 
 	tongTien money,
 	tienNhan money,
@@ -301,6 +281,9 @@ create table RuiRo
 	loaiRR varchar(10),
 	phanHoanTien float,
 )
+ALTER TABLE RUIRO ALTER COLUMN loaiRR varchar(100)
+
+alter table  HoaDonPhong add constraint FK_HoaDonPhong_Phong foreign key (maPhong) references Phong (maPhong)
 
 alter table NhanVien add constraint FK_NhanVien_ChucVu foreign key (maChucVu) references ChucVu (maChucVu)
 alter table NhanVien add constraint FK_NhanVien_TaiKhoan foreign key (maTaiKhoan) references TaiKhoan (maTaiKhoan)
@@ -345,15 +328,11 @@ alter table DichVu add constraint FK_DichVu_DonViTinh foreign key (maDVT) refere
 
 alter table DichVu add constraint FK_DichVu_TinhTrang foreign key (maTinhTrang) references TinhTrang (maTinhTrang)
 
-alter table CTDSPhong add constraint FK_CTDSPhong_Phong foreign key (maPhong) references Phong (maPhong)
 --alter table CTDSPhong add constraint FK_CTDSPhong_HoaDonPhongVaDichVu foreign key (maHoaDon) references HoaDonPhongVaDichVu (maHoaDon)
 
-alter table Phong add constraint FK_Phong_LoaiPhong foreign key (maLoaiPhong) references LoaiPhong (maLoaiPhong)
-alter table Phong add constraint FK_Phong_TinhTrang foreign key (maTinhTrang) references TinhTrang (maTinhTrang)
-
-alter table HoaDonPhongVaDichVu add constraint FK_HoaDonPhongVaDichVu_NhanVien foreign key (maNV) references NhanVien (maNV)
-alter table HoaDonPhongVaDichVu add constraint FK_HoaDonPhongVaDichVu_KhachHang foreign key (maKH) references KhachHang (maKH)
-alter table HoaDonPhongVaDichVu add constraint FK_HoaDonPhongVaDichVu_RuiRo foreign key (maRR) references RuiRo (maRR)
+alter table HoaDonPhong add constraint FK_HoaDonPhong_NhanVien foreign key (maNV) references NhanVien (maNV)
+alter table HoaDonPhong add constraint FK_HoaDonPhong_KhachHang foreign key (maKH) references KhachHang (maKH)
+alter table HoaDonPhong add constraint FK_HoaDonPhong_RuiRo foreign key (maRR) references RuiRo (maRR)
 
 alter table BaoCaoNgay add constraint FK_BaoCaoNgay_LoaiBaoCao foreign key (maLoaiBC) references LoaiBaoCao (maLoaiBC)
 alter table BaoCaoThang add constraint FK_BaoCaoThang_LoaiBaoCao foreign key (maLoaiBC) references LoaiBaoCao (maLoaiBC)
@@ -383,13 +362,32 @@ insert into LoaiMonAn values ('TF006','Drinks')
 
 insert into LoaiDichVu values ('TS001','Sauna')
 insert into LoaiDichVu values ('TS002','Massage')
-insert into LoaiDichVu values ('TS003','Hot waterfall')
+insert into LoaiDichVu values ('TS003','Hot water')
 
-insert into LoaiPhong values ('TR001','Single',3000)
-insert into LoaiPhong values ('TR002','Double', 4000)
-insert into LoaiPhong values ('TR003','Queen', 6000)
-insert into LoaiPhong values ('TR004','King', 7000)
-insert into LoaiPhong values ('TR005','Twin', 5000)
+--Tang 1
+insert into Phong values ('P101','Single',3000,'Empty')
+insert into Phong values ('P103','Single',3000,'Empty')
+insert into Phong values ('P105','Single',3000,'Empty')
+insert into Phong values ('P102','Double',5000,'Empty')
+insert into Phong values ('P104','Double',5000,'Empty')
+insert into Phong values ('P106','Double',5000,'Empty')
+--Tang 2
+insert into Phong values ('P201','Single',4500,'Empty')
+insert into Phong values ('P203','Single',4500,'Empty')
+insert into Phong values ('P205','Single',4500,'Empty')
+insert into Phong values ('P202','Double',7000,'Empty')
+insert into Phong values ('P204','Double', 7000,'Empty')
+insert into Phong values ('P206','Double',7000,'Empty')
+--Tang 3
+insert into Phong values ('P301','Twin', 9000,'Empty')
+insert into Phong values ('P302','Twin', 9000,'Empty')
+insert into Phong values ('P303','Twin', 9000,'Empty')
+insert into Phong values ('P304','Twin', 9000,'Empty')
+--Tang 4
+insert into Phong values ('P401','King', 12000,'Empty')
+insert into Phong values ('P402','King', 12000,'Empty')
+insert into Phong values ('P403','King', 12000,'Empty')
+insert into Phong values ('P404','King', 12000,'Empty')
 
 insert into LoaiBaoCao values ('T001','Food Report')
 insert into LoaiBaoCao values ('T002','Room and Service Report')
@@ -398,10 +396,17 @@ insert into LoaiBaoCao values ('T003','Supplier Report')
 insert into MonAn values('F001','Beafsteak','TF002','pl', 100,'')
 insert into MonAn values('F002','Soup','TF002','pl', 50,'')
 
-ALTER TABLE RUIRO ALTER COLUMN loaiRR varchar(100)
+
 
 insert into RuiRo values('RR999','Security', 50)
 insert into RuiRo values('RR888','Poor service', 30)
 insert into RuiRo values('RR777','Infrastructure', 27)
 insert into RuiRo values('RR666','Dirty', 20)
 insert into RuiRo values('RR555','Bad quality, unlike advertising', 45)
+
+insert into KhachHang values('285771511','Dang Duy Bang','0358695320','285771511','Binh Phuoc','')
+insert into KhachHang values('285551882','Nguyen Nhut Tan','0328795320','285551882','Quan 2 TpHCM','')
+insert into KhachHang values('285020111','Nguyen Thanh Trung','0328795320','285020111','Da Nang','')
+
+
+
