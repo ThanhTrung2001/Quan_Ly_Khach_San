@@ -286,7 +286,7 @@ namespace Quan_Ly_Khach_San
             this.FoodBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.FoodBtn.DisabledState.Parent = this.FoodBtn;
             this.FoodBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.FoodBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodBtn.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.FoodBtn.ForeColor = System.Drawing.Color.DarkGray;
             this.FoodBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
             this.FoodBtn.HoverState.ForeColor = System.Drawing.Color.White;

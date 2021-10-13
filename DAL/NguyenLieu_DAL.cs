@@ -58,7 +58,8 @@ namespace DAL
 
         public static List<NguyenLieu> IngredientListWithSearch(string name, string type)
         {
-            string command = $"select * from NguyenLieu where tenNL like '{name}%' and maLoaiNL = '{type}'";
+            string command = $"select * from NguyenLieu where tenNL like '{name}%' ";
+            if (type != "") command += $"and maLoaiNL = '{type}'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
