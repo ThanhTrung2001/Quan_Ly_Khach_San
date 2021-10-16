@@ -30,19 +30,24 @@ namespace Quan_Ly_Khach_San
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Room_Service_Form));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Room_Service_Form));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ServiceTabManage = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.RoomTab = new System.Windows.Forms.TabPage();
             this.siticonePanel14 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.numberDayUpDown = new System.Windows.Forms.NumericUpDown();
+            this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.AddCustomer = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.CustomerSelect = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
@@ -125,31 +130,32 @@ namespace Quan_Ly_Khach_San
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.RequestTab = new System.Windows.Forms.TabPage();
+            this.riskDgv = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.marr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loairr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phanhoantien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.siticoneHtmlLabel26 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel10 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneTextBox2 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.roomBillId = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.CancelRequestBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ConfirmRequestBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.siticoneHtmlLabel32 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel31 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel30 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.MoneyReceiveTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel29 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.MoneyReturnTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel28 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel27 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.TotalPriceTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.returnTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.MultiServiceLb = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.ServiceAmountLb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.dayNumber = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel24 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.Room_Service_Name = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.CheckOutDate = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
-            this.CheckInDate = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
+            this.roomId = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.checkOutDate = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
+            this.checkInDate = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
             this.siticoneHtmlLabel25 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.Che = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.SearchBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.CustomerNameTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.customerId = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel23 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.RoomBillDgv = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.label6 = new System.Windows.Forms.Label();
-            this.numberDayUpDown = new System.Windows.Forms.NumericUpDown();
             this.mahoadon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.checkin = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.checkout = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -164,24 +170,27 @@ namespace Quan_Ly_Khach_San
             this.sotienhoan = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.matinhtrang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ghichu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.siticoneTextBox1 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneTextBox2 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel10 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.siticoneHtmlLabel26 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneTextBox3 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel33 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneTextBox4 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel34 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel35 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.riskCb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
+            this.risk = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.refundTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel36 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel35 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel34 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel33 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.noteRoomBill = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.totalPriceTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.siticoneHtmlLabel27 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.receiveTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.siticoneHtmlLabel30 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel28 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneHtmlLabel31 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
+            this.panel8 = new System.Windows.Forms.Panel();
             this.ServiceTabManage.SuspendLayout();
             this.RoomTab.SuspendLayout();
             this.siticonePanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numberDayUpDown)).BeginInit();
             this.siticonePanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -194,8 +203,8 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ServiceListTxb)).BeginInit();
             this.RequestTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.riskDgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoomBillDgv)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numberDayUpDown)).BeginInit();
             this.panel7.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -267,6 +276,34 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel14.ShadowDecoration.Parent = this.siticonePanel14;
             this.siticonePanel14.Size = new System.Drawing.Size(304, 332);
             this.siticonePanel14.TabIndex = 29;
+            // 
+            // numberDayUpDown
+            // 
+            this.numberDayUpDown.Location = new System.Drawing.Point(203, 204);
+            this.numberDayUpDown.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numberDayUpDown.Name = "numberDayUpDown";
+            this.numberDayUpDown.Size = new System.Drawing.Size(80, 23);
+            this.numberDayUpDown.TabIndex = 37;
+            this.numberDayUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(6, 204);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(170, 25);
+            this.label6.TabIndex = 36;
+            this.label6.Text = "Number of days:";
             // 
             // label8
             // 
@@ -1085,33 +1122,33 @@ namespace Quan_Ly_Khach_San
             // 
             // ServicePickedDGV
             // 
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
-            this.ServicePickedDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
+            this.ServicePickedDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
             this.ServicePickedDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ServicePickedDGV.BackgroundColor = System.Drawing.Color.White;
             this.ServicePickedDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ServicePickedDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServicePickedDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ServicePickedDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ServicePickedDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
             this.ServicePickedDGV.ColumnHeadersHeight = 40;
             this.ServicePickedDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ServicePickedDGV.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ServicePickedDGV.DefaultCellStyle = dataGridViewCellStyle21;
             this.ServicePickedDGV.EnableHeadersVisualStyles = false;
             this.ServicePickedDGV.GridColor = System.Drawing.Color.White;
             this.ServicePickedDGV.Location = new System.Drawing.Point(836, 33);
@@ -1675,33 +1712,33 @@ namespace Quan_Ly_Khach_San
             // 
             // ServiceListTxb
             // 
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
-            this.ServiceListTxb.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
+            this.ServiceListTxb.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
             this.ServiceListTxb.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ServiceListTxb.BackgroundColor = System.Drawing.Color.White;
             this.ServiceListTxb.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ServiceListTxb.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServiceListTxb.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ServiceListTxb.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ServiceListTxb.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
             this.ServiceListTxb.ColumnHeadersHeight = 40;
             this.ServiceListTxb.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ServiceListTxb.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ServiceListTxb.DefaultCellStyle = dataGridViewCellStyle24;
             this.ServiceListTxb.EnableHeadersVisualStyles = false;
             this.ServiceListTxb.GridColor = System.Drawing.Color.White;
             this.ServiceListTxb.Location = new System.Drawing.Point(11, 33);
@@ -1750,26 +1787,27 @@ namespace Quan_Ly_Khach_San
             // RequestTab
             // 
             this.RequestTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.RequestTab.Controls.Add(this.riskDgv);
             this.RequestTab.Controls.Add(this.siticoneHtmlLabel26);
             this.RequestTab.Controls.Add(this.siticoneHtmlLabel10);
             this.RequestTab.Controls.Add(this.siticoneTextBox2);
             this.RequestTab.Controls.Add(this.siticoneHtmlLabel6);
-            this.RequestTab.Controls.Add(this.siticoneTextBox1);
+            this.RequestTab.Controls.Add(this.roomBillId);
             this.RequestTab.Controls.Add(this.CancelRequestBtn);
             this.RequestTab.Controls.Add(this.ConfirmRequestBtn);
             this.RequestTab.Controls.Add(this.siticoneHtmlLabel32);
             this.RequestTab.Controls.Add(this.siticoneHtmlLabel29);
-            this.RequestTab.Controls.Add(this.MoneyReturnTxb);
+            this.RequestTab.Controls.Add(this.returnTxb);
             this.RequestTab.Controls.Add(this.MultiServiceLb);
-            this.RequestTab.Controls.Add(this.ServiceAmountLb);
+            this.RequestTab.Controls.Add(this.dayNumber);
             this.RequestTab.Controls.Add(this.siticoneHtmlLabel24);
-            this.RequestTab.Controls.Add(this.Room_Service_Name);
-            this.RequestTab.Controls.Add(this.CheckOutDate);
-            this.RequestTab.Controls.Add(this.CheckInDate);
+            this.RequestTab.Controls.Add(this.roomId);
+            this.RequestTab.Controls.Add(this.checkOutDate);
+            this.RequestTab.Controls.Add(this.checkInDate);
             this.RequestTab.Controls.Add(this.siticoneHtmlLabel25);
             this.RequestTab.Controls.Add(this.Che);
             this.RequestTab.Controls.Add(this.SearchBtn);
-            this.RequestTab.Controls.Add(this.CustomerNameTxb);
+            this.RequestTab.Controls.Add(this.customerId);
             this.RequestTab.Controls.Add(this.siticoneHtmlLabel23);
             this.RequestTab.Controls.Add(this.RoomBillDgv);
             this.RequestTab.Controls.Add(this.panel6);
@@ -1781,6 +1819,189 @@ namespace Quan_Ly_Khach_San
             this.RequestTab.Size = new System.Drawing.Size(1325, 752);
             this.RequestTab.TabIndex = 2;
             this.RequestTab.Text = "REQUEST";
+            // 
+            // riskDgv
+            // 
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.riskDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            this.riskDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.riskDgv.BackgroundColor = System.Drawing.Color.White;
+            this.riskDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.riskDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.riskDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.riskDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            this.riskDgv.ColumnHeadersHeight = 40;
+            this.riskDgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.marr,
+            this.loairr,
+            this.phanhoantien});
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.riskDgv.DefaultCellStyle = dataGridViewCellStyle15;
+            this.riskDgv.EnableHeadersVisualStyles = false;
+            this.riskDgv.GridColor = System.Drawing.Color.White;
+            this.riskDgv.Location = new System.Drawing.Point(997, 499);
+            this.riskDgv.Name = "riskDgv";
+            this.riskDgv.RowHeadersVisible = false;
+            this.riskDgv.RowHeadersWidth = 51;
+            this.riskDgv.RowTemplate.Height = 24;
+            this.riskDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.riskDgv.Size = new System.Drawing.Size(309, 232);
+            this.riskDgv.TabIndex = 48;
+            this.riskDgv.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.riskDgv.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.riskDgv.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.riskDgv.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.riskDgv.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.riskDgv.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.riskDgv.ThemeStyle.GridColor = System.Drawing.Color.White;
+            this.riskDgv.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.riskDgv.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.riskDgv.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.riskDgv.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.riskDgv.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.riskDgv.ThemeStyle.HeaderStyle.Height = 40;
+            this.riskDgv.ThemeStyle.ReadOnly = false;
+            this.riskDgv.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.riskDgv.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.riskDgv.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.riskDgv.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.riskDgv.ThemeStyle.RowsStyle.Height = 24;
+            this.riskDgv.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.riskDgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.riskDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.riskDgv_CellContentClick);
+            // 
+            // marr
+            // 
+            this.marr.DataPropertyName = "MaRR";
+            this.marr.HeaderText = "Risk Id";
+            this.marr.MinimumWidth = 6;
+            this.marr.Name = "marr";
+            // 
+            // loairr
+            // 
+            this.loairr.DataPropertyName = "LoaiRR";
+            this.loairr.HeaderText = "Risk Type";
+            this.loairr.MinimumWidth = 6;
+            this.loairr.Name = "loairr";
+            // 
+            // phanhoantien
+            // 
+            this.phanhoantien.DataPropertyName = "PhanHoanTien";
+            this.phanhoantien.HeaderText = "Refund";
+            this.phanhoantien.MinimumWidth = 6;
+            this.phanhoantien.Name = "phanhoantien";
+            // 
+            // siticoneHtmlLabel26
+            // 
+            this.siticoneHtmlLabel26.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel26.Font = new System.Drawing.Font("Segoe UI Emoji", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel26.ForeColor = System.Drawing.Color.DarkGray;
+            this.siticoneHtmlLabel26.Location = new System.Drawing.Point(522, 4);
+            this.siticoneHtmlLabel26.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel26.Name = "siticoneHtmlLabel26";
+            this.siticoneHtmlLabel26.Size = new System.Drawing.Size(261, 46);
+            this.siticoneHtmlLabel26.TabIndex = 47;
+            this.siticoneHtmlLabel26.Text = "ROOM REQUEST";
+            // 
+            // siticoneHtmlLabel10
+            // 
+            this.siticoneHtmlLabel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.siticoneHtmlLabel10.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel10.ForeColor = System.Drawing.Color.DarkGray;
+            this.siticoneHtmlLabel10.Location = new System.Drawing.Point(340, 305);
+            this.siticoneHtmlLabel10.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel10.Name = "siticoneHtmlLabel10";
+            this.siticoneHtmlLabel10.Size = new System.Drawing.Size(157, 29);
+            this.siticoneHtmlLabel10.TabIndex = 44;
+            this.siticoneHtmlLabel10.Text = "Number of days";
+            // 
+            // siticoneTextBox2
+            // 
+            this.siticoneTextBox2.BorderColor = System.Drawing.Color.White;
+            this.siticoneTextBox2.BorderRadius = 10;
+            this.siticoneTextBox2.BorderThickness = 2;
+            this.siticoneTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.siticoneTextBox2.DefaultText = "Search";
+            this.siticoneTextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.siticoneTextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.siticoneTextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.siticoneTextBox2.DisabledState.Parent = this.siticoneTextBox2;
+            this.siticoneTextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.siticoneTextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.siticoneTextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneTextBox2.FocusedState.Parent = this.siticoneTextBox2;
+            this.siticoneTextBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneTextBox2.ForeColor = System.Drawing.Color.White;
+            this.siticoneTextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneTextBox2.HoverState.Parent = this.siticoneTextBox2;
+            this.siticoneTextBox2.Location = new System.Drawing.Point(12, 436);
+            this.siticoneTextBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneTextBox2.Name = "siticoneTextBox2";
+            this.siticoneTextBox2.PasswordChar = '\0';
+            this.siticoneTextBox2.PlaceholderText = "";
+            this.siticoneTextBox2.SelectedText = "";
+            this.siticoneTextBox2.SelectionStart = 6;
+            this.siticoneTextBox2.ShadowDecoration.Parent = this.siticoneTextBox2;
+            this.siticoneTextBox2.Size = new System.Drawing.Size(375, 54);
+            this.siticoneTextBox2.TabIndex = 43;
+            this.siticoneTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // siticoneHtmlLabel6
+            // 
+            this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.DarkGray;
+            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(62, 77);
+            this.siticoneHtmlLabel6.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
+            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(123, 29);
+            this.siticoneHtmlLabel6.TabIndex = 42;
+            this.siticoneHtmlLabel6.Text = "Room Bill ID";
+            // 
+            // roomBillId
+            // 
+            this.roomBillId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.roomBillId.BorderColor = System.Drawing.Color.White;
+            this.roomBillId.BorderRadius = 10;
+            this.roomBillId.BorderThickness = 2;
+            this.roomBillId.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.roomBillId.DefaultText = "";
+            this.roomBillId.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.roomBillId.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.roomBillId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.roomBillId.DisabledState.Parent = this.roomBillId;
+            this.roomBillId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.roomBillId.Enabled = false;
+            this.roomBillId.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.roomBillId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.roomBillId.FocusedState.Parent = this.roomBillId;
+            this.roomBillId.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roomBillId.ForeColor = System.Drawing.Color.White;
+            this.roomBillId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.roomBillId.HoverState.Parent = this.roomBillId;
+            this.roomBillId.Location = new System.Drawing.Point(32, 114);
+            this.roomBillId.Margin = new System.Windows.Forms.Padding(4);
+            this.roomBillId.Name = "roomBillId";
+            this.roomBillId.PasswordChar = '\0';
+            this.roomBillId.PlaceholderText = "";
+            this.roomBillId.SelectedText = "";
+            this.roomBillId.ShadowDecoration.Parent = this.roomBillId;
+            this.roomBillId.Size = new System.Drawing.Size(228, 54);
+            this.roomBillId.TabIndex = 41;
+            this.roomBillId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // CancelRequestBtn
             // 
@@ -1805,6 +2026,7 @@ namespace Quan_Ly_Khach_San
             this.CancelRequestBtn.Size = new System.Drawing.Size(144, 55);
             this.CancelRequestBtn.TabIndex = 40;
             this.CancelRequestBtn.Text = "Cancel";
+            this.CancelRequestBtn.Click += new System.EventHandler(this.CancelRequestBtn_Click);
             // 
             // ConfirmRequestBtn
             // 
@@ -1827,6 +2049,7 @@ namespace Quan_Ly_Khach_San
             this.ConfirmRequestBtn.Size = new System.Drawing.Size(144, 55);
             this.ConfirmRequestBtn.TabIndex = 39;
             this.ConfirmRequestBtn.Text = "Confirm";
+            this.ConfirmRequestBtn.Click += new System.EventHandler(this.ConfirmRequestBtn_Click);
             // 
             // siticoneHtmlLabel32
             // 
@@ -1840,61 +2063,6 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel32.TabIndex = 38;
             this.siticoneHtmlLabel32.Text = "USD";
             // 
-            // siticoneHtmlLabel31
-            // 
-            this.siticoneHtmlLabel31.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel31.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel31.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel31.Location = new System.Drawing.Point(471, 313);
-            this.siticoneHtmlLabel31.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel31.Name = "siticoneHtmlLabel31";
-            this.siticoneHtmlLabel31.Size = new System.Drawing.Size(35, 22);
-            this.siticoneHtmlLabel31.TabIndex = 37;
-            this.siticoneHtmlLabel31.Text = "USD";
-            // 
-            // siticoneHtmlLabel30
-            // 
-            this.siticoneHtmlLabel30.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel30.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel30.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel30.Location = new System.Drawing.Point(294, 258);
-            this.siticoneHtmlLabel30.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel30.Name = "siticoneHtmlLabel30";
-            this.siticoneHtmlLabel30.Size = new System.Drawing.Size(76, 29);
-            this.siticoneHtmlLabel30.TabIndex = 36;
-            this.siticoneHtmlLabel30.Text = "Receive";
-            // 
-            // MoneyReceiveTxb
-            // 
-            this.MoneyReceiveTxb.BorderColor = System.Drawing.Color.White;
-            this.MoneyReceiveTxb.BorderRadius = 15;
-            this.MoneyReceiveTxb.BorderThickness = 2;
-            this.MoneyReceiveTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.MoneyReceiveTxb.DefaultText = "0";
-            this.MoneyReceiveTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.MoneyReceiveTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.MoneyReceiveTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.MoneyReceiveTxb.DisabledState.Parent = this.MoneyReceiveTxb;
-            this.MoneyReceiveTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.MoneyReceiveTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.MoneyReceiveTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.MoneyReceiveTxb.FocusedState.Parent = this.MoneyReceiveTxb;
-            this.MoneyReceiveTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MoneyReceiveTxb.ForeColor = System.Drawing.Color.White;
-            this.MoneyReceiveTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.MoneyReceiveTxb.HoverState.Parent = this.MoneyReceiveTxb;
-            this.MoneyReceiveTxb.Location = new System.Drawing.Point(294, 281);
-            this.MoneyReceiveTxb.Margin = new System.Windows.Forms.Padding(4);
-            this.MoneyReceiveTxb.Name = "MoneyReceiveTxb";
-            this.MoneyReceiveTxb.PasswordChar = '\0';
-            this.MoneyReceiveTxb.PlaceholderText = "";
-            this.MoneyReceiveTxb.SelectedText = "";
-            this.MoneyReceiveTxb.ShadowDecoration.Parent = this.MoneyReceiveTxb;
-            this.MoneyReceiveTxb.Size = new System.Drawing.Size(169, 54);
-            this.MoneyReceiveTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.MoneyReceiveTxb.TabIndex = 35;
-            this.MoneyReceiveTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // siticoneHtmlLabel29
             // 
             this.siticoneHtmlLabel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
@@ -1907,93 +2075,38 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel29.TabIndex = 34;
             this.siticoneHtmlLabel29.Text = "Return";
             // 
-            // MoneyReturnTxb
+            // returnTxb
             // 
-            this.MoneyReturnTxb.BorderColor = System.Drawing.Color.White;
-            this.MoneyReturnTxb.BorderRadius = 15;
-            this.MoneyReturnTxb.BorderThickness = 2;
-            this.MoneyReturnTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.MoneyReturnTxb.DefaultText = "0";
-            this.MoneyReturnTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.MoneyReturnTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.MoneyReturnTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.MoneyReturnTxb.DisabledState.Parent = this.MoneyReturnTxb;
-            this.MoneyReturnTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.MoneyReturnTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.MoneyReturnTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.MoneyReturnTxb.FocusedState.Parent = this.MoneyReturnTxb;
-            this.MoneyReturnTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MoneyReturnTxb.ForeColor = System.Drawing.Color.White;
-            this.MoneyReturnTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.MoneyReturnTxb.HoverState.Parent = this.MoneyReturnTxb;
-            this.MoneyReturnTxb.Location = new System.Drawing.Point(1107, 341);
-            this.MoneyReturnTxb.Margin = new System.Windows.Forms.Padding(4);
-            this.MoneyReturnTxb.Name = "MoneyReturnTxb";
-            this.MoneyReturnTxb.PasswordChar = '\0';
-            this.MoneyReturnTxb.PlaceholderText = "";
-            this.MoneyReturnTxb.ReadOnly = true;
-            this.MoneyReturnTxb.SelectedText = "";
-            this.MoneyReturnTxb.ShadowDecoration.Parent = this.MoneyReturnTxb;
-            this.MoneyReturnTxb.Size = new System.Drawing.Size(150, 54);
-            this.MoneyReturnTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.MoneyReturnTxb.TabIndex = 33;
-            this.MoneyReturnTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneHtmlLabel28
-            // 
-            this.siticoneHtmlLabel28.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel28.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel28.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel28.Location = new System.Drawing.Point(183, 313);
-            this.siticoneHtmlLabel28.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel28.Name = "siticoneHtmlLabel28";
-            this.siticoneHtmlLabel28.Size = new System.Drawing.Size(35, 22);
-            this.siticoneHtmlLabel28.TabIndex = 32;
-            this.siticoneHtmlLabel28.Text = "USD";
-            // 
-            // siticoneHtmlLabel27
-            // 
-            this.siticoneHtmlLabel27.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel27.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel27.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel27.Location = new System.Drawing.Point(19, 258);
-            this.siticoneHtmlLabel27.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel27.Name = "siticoneHtmlLabel27";
-            this.siticoneHtmlLabel27.Size = new System.Drawing.Size(52, 29);
-            this.siticoneHtmlLabel27.TabIndex = 31;
-            this.siticoneHtmlLabel27.Text = "Total";
-            // 
-            // TotalPriceTxb
-            // 
-            this.TotalPriceTxb.BorderColor = System.Drawing.Color.White;
-            this.TotalPriceTxb.BorderRadius = 15;
-            this.TotalPriceTxb.BorderThickness = 2;
-            this.TotalPriceTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TotalPriceTxb.DefaultText = "0";
-            this.TotalPriceTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TotalPriceTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TotalPriceTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TotalPriceTxb.DisabledState.Parent = this.TotalPriceTxb;
-            this.TotalPriceTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TotalPriceTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.TotalPriceTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TotalPriceTxb.FocusedState.Parent = this.TotalPriceTxb;
-            this.TotalPriceTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalPriceTxb.ForeColor = System.Drawing.Color.White;
-            this.TotalPriceTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TotalPriceTxb.HoverState.Parent = this.TotalPriceTxb;
-            this.TotalPriceTxb.Location = new System.Drawing.Point(19, 281);
-            this.TotalPriceTxb.Margin = new System.Windows.Forms.Padding(4);
-            this.TotalPriceTxb.Name = "TotalPriceTxb";
-            this.TotalPriceTxb.PasswordChar = '\0';
-            this.TotalPriceTxb.PlaceholderText = "";
-            this.TotalPriceTxb.ReadOnly = true;
-            this.TotalPriceTxb.SelectedText = "";
-            this.TotalPriceTxb.ShadowDecoration.Parent = this.TotalPriceTxb;
-            this.TotalPriceTxb.Size = new System.Drawing.Size(156, 54);
-            this.TotalPriceTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.TotalPriceTxb.TabIndex = 30;
-            this.TotalPriceTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.returnTxb.BorderColor = System.Drawing.Color.White;
+            this.returnTxb.BorderRadius = 15;
+            this.returnTxb.BorderThickness = 2;
+            this.returnTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.returnTxb.DefaultText = "0";
+            this.returnTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.returnTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.returnTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.returnTxb.DisabledState.Parent = this.returnTxb;
+            this.returnTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.returnTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.returnTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.returnTxb.FocusedState.Parent = this.returnTxb;
+            this.returnTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.returnTxb.ForeColor = System.Drawing.Color.White;
+            this.returnTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.returnTxb.HoverState.Parent = this.returnTxb;
+            this.returnTxb.Location = new System.Drawing.Point(1107, 341);
+            this.returnTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.returnTxb.Name = "returnTxb";
+            this.returnTxb.PasswordChar = '\0';
+            this.returnTxb.PlaceholderText = "";
+            this.returnTxb.ReadOnly = true;
+            this.returnTxb.SelectedText = "";
+            this.returnTxb.SelectionStart = 1;
+            this.returnTxb.ShadowDecoration.Parent = this.returnTxb;
+            this.returnTxb.Size = new System.Drawing.Size(150, 54);
+            this.returnTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.returnTxb.TabIndex = 33;
+            this.returnTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // MultiServiceLb
             // 
@@ -2007,37 +2120,38 @@ namespace Quan_Ly_Khach_San
             this.MultiServiceLb.TabIndex = 29;
             this.MultiServiceLb.Text = "Days";
             // 
-            // ServiceAmountLb
+            // dayNumber
             // 
-            this.ServiceAmountLb.BorderColor = System.Drawing.Color.White;
-            this.ServiceAmountLb.BorderRadius = 15;
-            this.ServiceAmountLb.BorderThickness = 2;
-            this.ServiceAmountLb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ServiceAmountLb.DefaultText = "0";
-            this.ServiceAmountLb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.ServiceAmountLb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.ServiceAmountLb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ServiceAmountLb.DisabledState.Parent = this.ServiceAmountLb;
-            this.ServiceAmountLb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ServiceAmountLb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.ServiceAmountLb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ServiceAmountLb.FocusedState.Parent = this.ServiceAmountLb;
-            this.ServiceAmountLb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ServiceAmountLb.ForeColor = System.Drawing.Color.White;
-            this.ServiceAmountLb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ServiceAmountLb.HoverState.Parent = this.ServiceAmountLb;
-            this.ServiceAmountLb.Location = new System.Drawing.Point(314, 332);
-            this.ServiceAmountLb.Margin = new System.Windows.Forms.Padding(4);
-            this.ServiceAmountLb.Name = "ServiceAmountLb";
-            this.ServiceAmountLb.PasswordChar = '\0';
-            this.ServiceAmountLb.PlaceholderText = "";
-            this.ServiceAmountLb.SelectedText = "";
-            this.ServiceAmountLb.SelectionStart = 1;
-            this.ServiceAmountLb.ShadowDecoration.Parent = this.ServiceAmountLb;
-            this.ServiceAmountLb.Size = new System.Drawing.Size(173, 54);
-            this.ServiceAmountLb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.ServiceAmountLb.TabIndex = 28;
-            this.ServiceAmountLb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.dayNumber.BorderColor = System.Drawing.Color.White;
+            this.dayNumber.BorderRadius = 15;
+            this.dayNumber.BorderThickness = 2;
+            this.dayNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.dayNumber.DefaultText = "0";
+            this.dayNumber.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.dayNumber.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.dayNumber.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.dayNumber.DisabledState.Parent = this.dayNumber;
+            this.dayNumber.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.dayNumber.Enabled = false;
+            this.dayNumber.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.dayNumber.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.dayNumber.FocusedState.Parent = this.dayNumber;
+            this.dayNumber.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dayNumber.ForeColor = System.Drawing.Color.White;
+            this.dayNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.dayNumber.HoverState.Parent = this.dayNumber;
+            this.dayNumber.Location = new System.Drawing.Point(314, 332);
+            this.dayNumber.Margin = new System.Windows.Forms.Padding(4);
+            this.dayNumber.Name = "dayNumber";
+            this.dayNumber.PasswordChar = '\0';
+            this.dayNumber.PlaceholderText = "";
+            this.dayNumber.SelectedText = "";
+            this.dayNumber.SelectionStart = 1;
+            this.dayNumber.ShadowDecoration.Parent = this.dayNumber;
+            this.dayNumber.Size = new System.Drawing.Size(173, 54);
+            this.dayNumber.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.dayNumber.TabIndex = 28;
+            this.dayNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // siticoneHtmlLabel24
             // 
@@ -2051,78 +2165,80 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel24.TabIndex = 27;
             this.siticoneHtmlLabel24.Text = "Room";
             // 
-            // Room_Service_Name
+            // roomId
             // 
-            this.Room_Service_Name.BorderColor = System.Drawing.Color.White;
-            this.Room_Service_Name.BorderRadius = 10;
-            this.Room_Service_Name.BorderThickness = 2;
-            this.Room_Service_Name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Room_Service_Name.DefaultText = "Name";
-            this.Room_Service_Name.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.Room_Service_Name.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.Room_Service_Name.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Room_Service_Name.DisabledState.Parent = this.Room_Service_Name;
-            this.Room_Service_Name.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.Room_Service_Name.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.Room_Service_Name.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Room_Service_Name.FocusedState.Parent = this.Room_Service_Name;
-            this.Room_Service_Name.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Room_Service_Name.ForeColor = System.Drawing.Color.White;
-            this.Room_Service_Name.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.Room_Service_Name.HoverState.Parent = this.Room_Service_Name;
-            this.Room_Service_Name.Location = new System.Drawing.Point(314, 220);
-            this.Room_Service_Name.Margin = new System.Windows.Forms.Padding(4);
-            this.Room_Service_Name.Name = "Room_Service_Name";
-            this.Room_Service_Name.PasswordChar = '\0';
-            this.Room_Service_Name.PlaceholderText = "";
-            this.Room_Service_Name.SelectedText = "";
-            this.Room_Service_Name.SelectionStart = 4;
-            this.Room_Service_Name.ShadowDecoration.Parent = this.Room_Service_Name;
-            this.Room_Service_Name.Size = new System.Drawing.Size(225, 54);
-            this.Room_Service_Name.TabIndex = 26;
-            this.Room_Service_Name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.roomId.BorderColor = System.Drawing.Color.White;
+            this.roomId.BorderRadius = 10;
+            this.roomId.BorderThickness = 2;
+            this.roomId.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.roomId.DefaultText = "";
+            this.roomId.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.roomId.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.roomId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.roomId.DisabledState.Parent = this.roomId;
+            this.roomId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.roomId.Enabled = false;
+            this.roomId.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.roomId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.roomId.FocusedState.Parent = this.roomId;
+            this.roomId.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roomId.ForeColor = System.Drawing.Color.White;
+            this.roomId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.roomId.HoverState.Parent = this.roomId;
+            this.roomId.Location = new System.Drawing.Point(314, 220);
+            this.roomId.Margin = new System.Windows.Forms.Padding(4);
+            this.roomId.Name = "roomId";
+            this.roomId.PasswordChar = '\0';
+            this.roomId.PlaceholderText = "";
+            this.roomId.SelectedText = "";
+            this.roomId.ShadowDecoration.Parent = this.roomId;
+            this.roomId.Size = new System.Drawing.Size(225, 54);
+            this.roomId.TabIndex = 26;
+            this.roomId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // CheckOutDate
+            // checkOutDate
             // 
-            this.CheckOutDate.BorderColor = System.Drawing.Color.White;
-            this.CheckOutDate.BorderRadius = 10;
-            this.CheckOutDate.BorderThickness = 2;
-            this.CheckOutDate.CheckedState.Parent = this.CheckOutDate;
-            this.CheckOutDate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.CheckOutDate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CheckOutDate.ForeColor = System.Drawing.Color.White;
-            this.CheckOutDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.CheckOutDate.HoverState.Parent = this.CheckOutDate;
-            this.CheckOutDate.Location = new System.Drawing.Point(32, 332);
-            this.CheckOutDate.Margin = new System.Windows.Forms.Padding(4);
-            this.CheckOutDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.CheckOutDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.CheckOutDate.Name = "CheckOutDate";
-            this.CheckOutDate.ShadowDecoration.Parent = this.CheckOutDate;
-            this.CheckOutDate.Size = new System.Drawing.Size(206, 63);
-            this.CheckOutDate.TabIndex = 25;
-            this.CheckOutDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
+            this.checkOutDate.BorderColor = System.Drawing.Color.White;
+            this.checkOutDate.BorderRadius = 10;
+            this.checkOutDate.BorderThickness = 2;
+            this.checkOutDate.CheckedState.Parent = this.checkOutDate;
+            this.checkOutDate.Enabled = false;
+            this.checkOutDate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.checkOutDate.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.checkOutDate.ForeColor = System.Drawing.Color.White;
+            this.checkOutDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.checkOutDate.HoverState.Parent = this.checkOutDate;
+            this.checkOutDate.Location = new System.Drawing.Point(32, 332);
+            this.checkOutDate.Margin = new System.Windows.Forms.Padding(4);
+            this.checkOutDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.checkOutDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.checkOutDate.Name = "checkOutDate";
+            this.checkOutDate.ShadowDecoration.Parent = this.checkOutDate;
+            this.checkOutDate.Size = new System.Drawing.Size(228, 63);
+            this.checkOutDate.TabIndex = 25;
+            this.checkOutDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
             // 
-            // CheckInDate
+            // checkInDate
             // 
-            this.CheckInDate.BorderColor = System.Drawing.Color.White;
-            this.CheckInDate.BorderRadius = 10;
-            this.CheckInDate.BorderThickness = 2;
-            this.CheckInDate.CheckedState.Parent = this.CheckInDate;
-            this.CheckInDate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.CheckInDate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CheckInDate.ForeColor = System.Drawing.Color.White;
-            this.CheckInDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.CheckInDate.HoverState.Parent = this.CheckInDate;
-            this.CheckInDate.Location = new System.Drawing.Point(32, 213);
-            this.CheckInDate.Margin = new System.Windows.Forms.Padding(4);
-            this.CheckInDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.CheckInDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.CheckInDate.Name = "CheckInDate";
-            this.CheckInDate.ShadowDecoration.Parent = this.CheckInDate;
-            this.CheckInDate.Size = new System.Drawing.Size(206, 63);
-            this.CheckInDate.TabIndex = 24;
-            this.CheckInDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
+            this.checkInDate.BorderColor = System.Drawing.Color.White;
+            this.checkInDate.BorderRadius = 10;
+            this.checkInDate.BorderThickness = 2;
+            this.checkInDate.CheckedState.Parent = this.checkInDate;
+            this.checkInDate.Enabled = false;
+            this.checkInDate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.checkInDate.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.checkInDate.ForeColor = System.Drawing.Color.White;
+            this.checkInDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.checkInDate.HoverState.Parent = this.checkInDate;
+            this.checkInDate.Location = new System.Drawing.Point(32, 213);
+            this.checkInDate.Margin = new System.Windows.Forms.Padding(4);
+            this.checkInDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.checkInDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.checkInDate.Name = "checkInDate";
+            this.checkInDate.ShadowDecoration.Parent = this.checkInDate;
+            this.checkInDate.Size = new System.Drawing.Size(228, 63);
+            this.checkInDate.TabIndex = 24;
+            this.checkInDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
             // 
             // siticoneHtmlLabel25
             // 
@@ -2141,7 +2257,7 @@ namespace Quan_Ly_Khach_San
             this.Che.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.Che.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Che.ForeColor = System.Drawing.Color.DarkGray;
-            this.Che.Location = new System.Drawing.Point(94, 176);
+            this.Che.Location = new System.Drawing.Point(101, 176);
             this.Che.Margin = new System.Windows.Forms.Padding(4);
             this.Che.Name = "Che";
             this.Che.Size = new System.Drawing.Size(84, 29);
@@ -2170,36 +2286,36 @@ namespace Quan_Ly_Khach_San
             this.SearchBtn.Size = new System.Drawing.Size(47, 48);
             this.SearchBtn.TabIndex = 20;
             // 
-            // CustomerNameTxb
+            // customerId
             // 
-            this.CustomerNameTxb.BorderColor = System.Drawing.Color.White;
-            this.CustomerNameTxb.BorderRadius = 10;
-            this.CustomerNameTxb.BorderThickness = 2;
-            this.CustomerNameTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.CustomerNameTxb.DefaultText = "Name";
-            this.CustomerNameTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.CustomerNameTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.CustomerNameTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.CustomerNameTxb.DisabledState.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.CustomerNameTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.CustomerNameTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CustomerNameTxb.FocusedState.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CustomerNameTxb.ForeColor = System.Drawing.Color.White;
-            this.CustomerNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CustomerNameTxb.HoverState.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Location = new System.Drawing.Point(307, 115);
-            this.CustomerNameTxb.Margin = new System.Windows.Forms.Padding(4);
-            this.CustomerNameTxb.Name = "CustomerNameTxb";
-            this.CustomerNameTxb.PasswordChar = '\0';
-            this.CustomerNameTxb.PlaceholderText = "";
-            this.CustomerNameTxb.SelectedText = "";
-            this.CustomerNameTxb.SelectionStart = 4;
-            this.CustomerNameTxb.ShadowDecoration.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Size = new System.Drawing.Size(232, 54);
-            this.CustomerNameTxb.TabIndex = 6;
-            this.CustomerNameTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.customerId.BorderColor = System.Drawing.Color.White;
+            this.customerId.BorderRadius = 10;
+            this.customerId.BorderThickness = 2;
+            this.customerId.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.customerId.DefaultText = "";
+            this.customerId.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.customerId.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.customerId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.customerId.DisabledState.Parent = this.customerId;
+            this.customerId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.customerId.Enabled = false;
+            this.customerId.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.customerId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.customerId.FocusedState.Parent = this.customerId;
+            this.customerId.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerId.ForeColor = System.Drawing.Color.White;
+            this.customerId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.customerId.HoverState.Parent = this.customerId;
+            this.customerId.Location = new System.Drawing.Point(307, 115);
+            this.customerId.Margin = new System.Windows.Forms.Padding(4);
+            this.customerId.Name = "customerId";
+            this.customerId.PasswordChar = '\0';
+            this.customerId.PlaceholderText = "";
+            this.customerId.SelectedText = "";
+            this.customerId.ShadowDecoration.Parent = this.customerId;
+            this.customerId.Size = new System.Drawing.Size(232, 54);
+            this.customerId.TabIndex = 6;
+            this.customerId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // siticoneHtmlLabel23
             // 
@@ -2209,27 +2325,27 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel23.Location = new System.Drawing.Point(352, 78);
             this.siticoneHtmlLabel23.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel23.Name = "siticoneHtmlLabel23";
-            this.siticoneHtmlLabel23.Size = new System.Drawing.Size(157, 29);
+            this.siticoneHtmlLabel23.Size = new System.Drawing.Size(122, 29);
             this.siticoneHtmlLabel23.TabIndex = 5;
-            this.siticoneHtmlLabel23.Text = "Customer Name";
+            this.siticoneHtmlLabel23.Text = "Customer ID";
             // 
             // RoomBillDgv
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.RoomBillDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
+            this.RoomBillDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
             this.RoomBillDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.RoomBillDgv.BackgroundColor = System.Drawing.Color.White;
             this.RoomBillDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RoomBillDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.RoomBillDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RoomBillDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RoomBillDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.RoomBillDgv.ColumnHeadersHeight = 40;
             this.RoomBillDgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.mahoadon,
@@ -2246,14 +2362,14 @@ namespace Quan_Ly_Khach_San
             this.sotienhoan,
             this.matinhtrang,
             this.ghichu});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.RoomBillDgv.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.RoomBillDgv.DefaultCellStyle = dataGridViewCellStyle18;
             this.RoomBillDgv.EnableHeadersVisualStyles = false;
             this.RoomBillDgv.GridColor = System.Drawing.Color.White;
             this.RoomBillDgv.Location = new System.Drawing.Point(12, 499);
@@ -2263,7 +2379,7 @@ namespace Quan_Ly_Khach_San
             this.RoomBillDgv.RowHeadersVisible = false;
             this.RoomBillDgv.RowHeadersWidth = 51;
             this.RoomBillDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.RoomBillDgv.Size = new System.Drawing.Size(1301, 232);
+            this.RoomBillDgv.Size = new System.Drawing.Size(978, 232);
             this.RoomBillDgv.TabIndex = 3;
             this.RoomBillDgv.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.RoomBillDgv.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -2286,34 +2402,7 @@ namespace Quan_Ly_Khach_San
             this.RoomBillDgv.ThemeStyle.RowsStyle.Height = 22;
             this.RoomBillDgv.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.RoomBillDgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(6, 204);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(170, 25);
-            this.label6.TabIndex = 36;
-            this.label6.Text = "Number of days:";
-            // 
-            // numberDayUpDown
-            // 
-            this.numberDayUpDown.Location = new System.Drawing.Point(203, 204);
-            this.numberDayUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numberDayUpDown.Name = "numberDayUpDown";
-            this.numberDayUpDown.Size = new System.Drawing.Size(80, 23);
-            this.numberDayUpDown.TabIndex = 37;
-            this.numberDayUpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.RoomBillDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.RoomBillDgv_CellContentClick);
             // 
             // mahoadon
             // 
@@ -2346,7 +2435,7 @@ namespace Quan_Ly_Khach_San
             // makh
             // 
             this.makh.DataPropertyName = "MaKH";
-            this.makh.HeaderText = "Customer Code";
+            this.makh.HeaderText = "Customer ID";
             this.makh.MinimumWidth = 6;
             this.makh.Name = "makh";
             // 
@@ -2388,7 +2477,7 @@ namespace Quan_Ly_Khach_San
             // maruiro
             // 
             this.maruiro.DataPropertyName = "MaRR";
-            this.maruiro.HeaderText = "Risk Code";
+            this.maruiro.HeaderText = "Risk ID";
             this.maruiro.MinimumWidth = 6;
             this.maruiro.Name = "maruiro";
             // 
@@ -2413,91 +2502,6 @@ namespace Quan_Ly_Khach_San
             this.ghichu.MinimumWidth = 6;
             this.ghichu.Name = "ghichu";
             // 
-            // siticoneTextBox1
-            // 
-            this.siticoneTextBox1.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox1.BorderRadius = 10;
-            this.siticoneTextBox1.BorderThickness = 2;
-            this.siticoneTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox1.DefaultText = "Name";
-            this.siticoneTextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox1.DisabledState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneTextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox1.FocusedState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox1.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox1.HoverState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Location = new System.Drawing.Point(32, 114);
-            this.siticoneTextBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneTextBox1.Name = "siticoneTextBox1";
-            this.siticoneTextBox1.PasswordChar = '\0';
-            this.siticoneTextBox1.PlaceholderText = "";
-            this.siticoneTextBox1.SelectedText = "";
-            this.siticoneTextBox1.SelectionStart = 4;
-            this.siticoneTextBox1.ShadowDecoration.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Size = new System.Drawing.Size(228, 54);
-            this.siticoneTextBox1.TabIndex = 41;
-            this.siticoneTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneHtmlLabel6
-            // 
-            this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(37, 77);
-            this.siticoneHtmlLabel6.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
-            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(152, 29);
-            this.siticoneHtmlLabel6.TabIndex = 42;
-            this.siticoneHtmlLabel6.Text = "Room Bill Code";
-            // 
-            // siticoneTextBox2
-            // 
-            this.siticoneTextBox2.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox2.BorderRadius = 10;
-            this.siticoneTextBox2.BorderThickness = 2;
-            this.siticoneTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox2.DefaultText = "Search";
-            this.siticoneTextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.DisabledState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.siticoneTextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.FocusedState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox2.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.HoverState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Location = new System.Drawing.Point(12, 436);
-            this.siticoneTextBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneTextBox2.Name = "siticoneTextBox2";
-            this.siticoneTextBox2.PasswordChar = '\0';
-            this.siticoneTextBox2.PlaceholderText = "";
-            this.siticoneTextBox2.SelectedText = "";
-            this.siticoneTextBox2.ShadowDecoration.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Size = new System.Drawing.Size(375, 54);
-            this.siticoneTextBox2.TabIndex = 43;
-            this.siticoneTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneHtmlLabel10
-            // 
-            this.siticoneHtmlLabel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneHtmlLabel10.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel10.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel10.Location = new System.Drawing.Point(340, 305);
-            this.siticoneHtmlLabel10.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel10.Name = "siticoneHtmlLabel10";
-            this.siticoneHtmlLabel10.Size = new System.Drawing.Size(157, 29);
-            this.siticoneHtmlLabel10.TabIndex = 44;
-            this.siticoneHtmlLabel10.Text = "Number of days";
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
@@ -2511,65 +2515,125 @@ namespace Quan_Ly_Khach_San
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.risk);
+            this.panel7.Controls.Add(this.refundTxb);
             this.panel7.Controls.Add(this.siticoneHtmlLabel36);
-            this.panel7.Controls.Add(this.riskCb);
-            this.panel7.Controls.Add(this.siticoneTextBox4);
-            this.panel7.Controls.Add(this.siticoneHtmlLabel34);
             this.panel7.Controls.Add(this.siticoneHtmlLabel35);
+            this.panel7.Controls.Add(this.siticoneHtmlLabel34);
             this.panel7.Controls.Add(this.siticoneHtmlLabel33);
-            this.panel7.Controls.Add(this.siticoneTextBox3);
-            this.panel7.Controls.Add(this.TotalPriceTxb);
+            this.panel7.Controls.Add(this.noteRoomBill);
+            this.panel7.Controls.Add(this.totalPriceTxb);
             this.panel7.Controls.Add(this.siticoneHtmlLabel27);
-            this.panel7.Controls.Add(this.MoneyReceiveTxb);
+            this.panel7.Controls.Add(this.receiveTxb);
             this.panel7.Controls.Add(this.siticoneHtmlLabel30);
             this.panel7.Controls.Add(this.siticoneHtmlLabel28);
             this.panel7.Controls.Add(this.siticoneHtmlLabel31);
-            this.panel7.Location = new System.Drawing.Point(582, 60);
+            this.panel7.Controls.Add(this.panel8);
+            this.panel7.Location = new System.Drawing.Point(569, 60);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(724, 360);
+            this.panel7.Size = new System.Drawing.Size(737, 360);
             this.panel7.TabIndex = 46;
             // 
-            // siticoneHtmlLabel26
+            // risk
             // 
-            this.siticoneHtmlLabel26.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel26.Font = new System.Drawing.Font("Segoe UI Emoji", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel26.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel26.Location = new System.Drawing.Point(522, 4);
-            this.siticoneHtmlLabel26.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel26.Name = "siticoneHtmlLabel26";
-            this.siticoneHtmlLabel26.Size = new System.Drawing.Size(261, 46);
-            this.siticoneHtmlLabel26.TabIndex = 47;
-            this.siticoneHtmlLabel26.Text = "ROOM REQUEST";
+            this.risk.BorderColor = System.Drawing.Color.White;
+            this.risk.BorderRadius = 10;
+            this.risk.BorderThickness = 2;
+            this.risk.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.risk.DefaultText = "";
+            this.risk.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.risk.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.risk.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.risk.DisabledState.Parent = this.risk;
+            this.risk.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.risk.Enabled = false;
+            this.risk.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.risk.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.risk.FocusedState.Parent = this.risk;
+            this.risk.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.risk.ForeColor = System.Drawing.Color.White;
+            this.risk.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.risk.HoverState.Parent = this.risk;
+            this.risk.Location = new System.Drawing.Point(17, 55);
+            this.risk.Margin = new System.Windows.Forms.Padding(4);
+            this.risk.Name = "risk";
+            this.risk.PasswordChar = '\0';
+            this.risk.PlaceholderText = "";
+            this.risk.SelectedText = "";
+            this.risk.ShadowDecoration.Parent = this.risk;
+            this.risk.Size = new System.Drawing.Size(201, 54);
+            this.risk.TabIndex = 48;
+            this.risk.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // siticoneTextBox3
+            // refundTxb
             // 
-            this.siticoneTextBox3.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox3.BorderRadius = 10;
-            this.siticoneTextBox3.BorderThickness = 2;
-            this.siticoneTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox3.DefaultText = "Notes";
-            this.siticoneTextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox3.DisabledState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneTextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox3.FocusedState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox3.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox3.HoverState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.Location = new System.Drawing.Point(287, 55);
-            this.siticoneTextBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneTextBox3.Name = "siticoneTextBox3";
-            this.siticoneTextBox3.PasswordChar = '\0';
-            this.siticoneTextBox3.PlaceholderText = "";
-            this.siticoneTextBox3.SelectedText = "";
-            this.siticoneTextBox3.ShadowDecoration.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.Size = new System.Drawing.Size(419, 195);
-            this.siticoneTextBox3.TabIndex = 48;
-            this.siticoneTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.refundTxb.BorderColor = System.Drawing.Color.White;
+            this.refundTxb.BorderRadius = 15;
+            this.refundTxb.BorderThickness = 2;
+            this.refundTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.refundTxb.DefaultText = "0";
+            this.refundTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.refundTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.refundTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.refundTxb.DisabledState.Parent = this.refundTxb;
+            this.refundTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.refundTxb.Enabled = false;
+            this.refundTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.refundTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.refundTxb.FocusedState.Parent = this.refundTxb;
+            this.refundTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.refundTxb.ForeColor = System.Drawing.Color.White;
+            this.refundTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.refundTxb.HoverState.Parent = this.refundTxb;
+            this.refundTxb.Location = new System.Drawing.Point(19, 177);
+            this.refundTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.refundTxb.Name = "refundTxb";
+            this.refundTxb.PasswordChar = '\0';
+            this.refundTxb.PlaceholderText = "";
+            this.refundTxb.ReadOnly = true;
+            this.refundTxb.SelectedText = "";
+            this.refundTxb.SelectionStart = 1;
+            this.refundTxb.ShadowDecoration.Parent = this.refundTxb;
+            this.refundTxb.Size = new System.Drawing.Size(156, 54);
+            this.refundTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.refundTxb.TabIndex = 50;
+            this.refundTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // siticoneHtmlLabel36
+            // 
+            this.siticoneHtmlLabel36.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel36.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel36.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel36.Location = new System.Drawing.Point(183, 209);
+            this.siticoneHtmlLabel36.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel36.Name = "siticoneHtmlLabel36";
+            this.siticoneHtmlLabel36.Size = new System.Drawing.Size(35, 22);
+            this.siticoneHtmlLabel36.TabIndex = 51;
+            this.siticoneHtmlLabel36.Text = "USD";
+            // 
+            // siticoneHtmlLabel35
+            // 
+            this.siticoneHtmlLabel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.siticoneHtmlLabel35.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel35.ForeColor = System.Drawing.Color.DarkGray;
+            this.siticoneHtmlLabel35.Location = new System.Drawing.Point(23, 18);
+            this.siticoneHtmlLabel35.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel35.Name = "siticoneHtmlLabel35";
+            this.siticoneHtmlLabel35.Size = new System.Drawing.Size(69, 29);
+            this.siticoneHtmlLabel35.TabIndex = 49;
+            this.siticoneHtmlLabel35.Text = "Risk ID";
+            // 
+            // siticoneHtmlLabel34
+            // 
+            this.siticoneHtmlLabel34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.siticoneHtmlLabel34.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel34.ForeColor = System.Drawing.Color.DarkGray;
+            this.siticoneHtmlLabel34.Location = new System.Drawing.Point(19, 135);
+            this.siticoneHtmlLabel34.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel34.Name = "siticoneHtmlLabel34";
+            this.siticoneHtmlLabel34.Size = new System.Drawing.Size(71, 29);
+            this.siticoneHtmlLabel34.TabIndex = 48;
+            this.siticoneHtmlLabel34.Text = "Refund";
             // 
             // siticoneHtmlLabel33
             // 
@@ -2583,97 +2647,161 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel33.TabIndex = 48;
             this.siticoneHtmlLabel33.Text = "Notes";
             // 
-            // siticoneTextBox4
+            // noteRoomBill
             // 
-            this.siticoneTextBox4.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox4.BorderRadius = 15;
-            this.siticoneTextBox4.BorderThickness = 2;
-            this.siticoneTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox4.DefaultText = "0";
-            this.siticoneTextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox4.DisabledState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneTextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox4.FocusedState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox4.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox4.HoverState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.Location = new System.Drawing.Point(19, 157);
-            this.siticoneTextBox4.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneTextBox4.Name = "siticoneTextBox4";
-            this.siticoneTextBox4.PasswordChar = '\0';
-            this.siticoneTextBox4.PlaceholderText = "";
-            this.siticoneTextBox4.ReadOnly = true;
-            this.siticoneTextBox4.SelectedText = "";
-            this.siticoneTextBox4.ShadowDecoration.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.Size = new System.Drawing.Size(156, 54);
-            this.siticoneTextBox4.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.siticoneTextBox4.TabIndex = 49;
-            this.siticoneTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.noteRoomBill.BorderColor = System.Drawing.Color.White;
+            this.noteRoomBill.BorderRadius = 10;
+            this.noteRoomBill.BorderThickness = 2;
+            this.noteRoomBill.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.noteRoomBill.DefaultText = "";
+            this.noteRoomBill.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.noteRoomBill.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.noteRoomBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.noteRoomBill.DisabledState.Parent = this.noteRoomBill;
+            this.noteRoomBill.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.noteRoomBill.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.noteRoomBill.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.noteRoomBill.FocusedState.Parent = this.noteRoomBill;
+            this.noteRoomBill.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noteRoomBill.ForeColor = System.Drawing.Color.White;
+            this.noteRoomBill.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.noteRoomBill.HoverState.Parent = this.noteRoomBill;
+            this.noteRoomBill.Location = new System.Drawing.Point(287, 55);
+            this.noteRoomBill.Margin = new System.Windows.Forms.Padding(4);
+            this.noteRoomBill.Name = "noteRoomBill";
+            this.noteRoomBill.PasswordChar = '\0';
+            this.noteRoomBill.PlaceholderText = "";
+            this.noteRoomBill.SelectedText = "";
+            this.noteRoomBill.ShadowDecoration.Parent = this.noteRoomBill;
+            this.noteRoomBill.Size = new System.Drawing.Size(419, 195);
+            this.noteRoomBill.TabIndex = 48;
+            this.noteRoomBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // siticoneHtmlLabel34
+            // totalPriceTxb
             // 
-            this.siticoneHtmlLabel34.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel34.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel34.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel34.Location = new System.Drawing.Point(19, 134);
-            this.siticoneHtmlLabel34.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel34.Name = "siticoneHtmlLabel34";
-            this.siticoneHtmlLabel34.Size = new System.Drawing.Size(71, 29);
-            this.siticoneHtmlLabel34.TabIndex = 50;
-            this.siticoneHtmlLabel34.Text = "Refund";
+            this.totalPriceTxb.BorderColor = System.Drawing.Color.White;
+            this.totalPriceTxb.BorderRadius = 15;
+            this.totalPriceTxb.BorderThickness = 2;
+            this.totalPriceTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.totalPriceTxb.DefaultText = "0";
+            this.totalPriceTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.totalPriceTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.totalPriceTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalPriceTxb.DisabledState.Parent = this.totalPriceTxb;
+            this.totalPriceTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalPriceTxb.Enabled = false;
+            this.totalPriceTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.totalPriceTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalPriceTxb.FocusedState.Parent = this.totalPriceTxb;
+            this.totalPriceTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalPriceTxb.ForeColor = System.Drawing.Color.White;
+            this.totalPriceTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalPriceTxb.HoverState.Parent = this.totalPriceTxb;
+            this.totalPriceTxb.Location = new System.Drawing.Point(19, 281);
+            this.totalPriceTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.totalPriceTxb.Name = "totalPriceTxb";
+            this.totalPriceTxb.PasswordChar = '\0';
+            this.totalPriceTxb.PlaceholderText = "";
+            this.totalPriceTxb.ReadOnly = true;
+            this.totalPriceTxb.SelectedText = "";
+            this.totalPriceTxb.SelectionStart = 1;
+            this.totalPriceTxb.ShadowDecoration.Parent = this.totalPriceTxb;
+            this.totalPriceTxb.Size = new System.Drawing.Size(156, 54);
+            this.totalPriceTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.totalPriceTxb.TabIndex = 30;
+            this.totalPriceTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // siticoneHtmlLabel35
+            // siticoneHtmlLabel27
             // 
-            this.siticoneHtmlLabel35.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel35.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel35.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel35.Location = new System.Drawing.Point(183, 189);
-            this.siticoneHtmlLabel35.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel35.Name = "siticoneHtmlLabel35";
-            this.siticoneHtmlLabel35.Size = new System.Drawing.Size(35, 22);
-            this.siticoneHtmlLabel35.TabIndex = 51;
-            this.siticoneHtmlLabel35.Text = "USD";
+            this.siticoneHtmlLabel27.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel27.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel27.ForeColor = System.Drawing.Color.DarkGray;
+            this.siticoneHtmlLabel27.Location = new System.Drawing.Point(19, 258);
+            this.siticoneHtmlLabel27.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel27.Name = "siticoneHtmlLabel27";
+            this.siticoneHtmlLabel27.Size = new System.Drawing.Size(52, 29);
+            this.siticoneHtmlLabel27.TabIndex = 31;
+            this.siticoneHtmlLabel27.Text = "Total";
             // 
-            // riskCb
+            // receiveTxb
             // 
-            this.riskCb.BackColor = System.Drawing.Color.Transparent;
-            this.riskCb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.riskCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.riskCb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.riskCb.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.riskCb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.riskCb.FocusedState.Parent = this.riskCb;
-            this.riskCb.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.riskCb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.riskCb.HoverState.Parent = this.riskCb;
-            this.riskCb.ItemHeight = 30;
-            this.riskCb.ItemsAppearance.Parent = this.riskCb;
-            this.riskCb.Location = new System.Drawing.Point(19, 55);
-            this.riskCb.Name = "riskCb";
-            this.riskCb.ShadowDecoration.Parent = this.riskCb;
-            this.riskCb.Size = new System.Drawing.Size(222, 36);
-            this.riskCb.TabIndex = 52;
+            this.receiveTxb.BorderColor = System.Drawing.Color.White;
+            this.receiveTxb.BorderRadius = 15;
+            this.receiveTxb.BorderThickness = 2;
+            this.receiveTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.receiveTxb.DefaultText = "";
+            this.receiveTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.receiveTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.receiveTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.receiveTxb.DisabledState.Parent = this.receiveTxb;
+            this.receiveTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.receiveTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.receiveTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.receiveTxb.FocusedState.Parent = this.receiveTxb;
+            this.receiveTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.receiveTxb.ForeColor = System.Drawing.Color.White;
+            this.receiveTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.receiveTxb.HoverState.Parent = this.receiveTxb;
+            this.receiveTxb.Location = new System.Drawing.Point(294, 281);
+            this.receiveTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.receiveTxb.Name = "receiveTxb";
+            this.receiveTxb.PasswordChar = '\0';
+            this.receiveTxb.PlaceholderText = "";
+            this.receiveTxb.SelectedText = "";
+            this.receiveTxb.ShadowDecoration.Parent = this.receiveTxb;
+            this.receiveTxb.Size = new System.Drawing.Size(169, 54);
+            this.receiveTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.receiveTxb.TabIndex = 35;
+            this.receiveTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.receiveTxb.TextChanged += new System.EventHandler(this.receiveTxb_TextChanged);
             // 
-            // siticoneHtmlLabel36
+            // siticoneHtmlLabel30
             // 
-            this.siticoneHtmlLabel36.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel36.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel36.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel36.Location = new System.Drawing.Point(19, 17);
-            this.siticoneHtmlLabel36.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel36.Name = "siticoneHtmlLabel36";
-            this.siticoneHtmlLabel36.Size = new System.Drawing.Size(98, 29);
-            this.siticoneHtmlLabel36.TabIndex = 48;
-            this.siticoneHtmlLabel36.Text = "Risk Code";
+            this.siticoneHtmlLabel30.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel30.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel30.ForeColor = System.Drawing.Color.DarkGray;
+            this.siticoneHtmlLabel30.Location = new System.Drawing.Point(294, 258);
+            this.siticoneHtmlLabel30.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel30.Name = "siticoneHtmlLabel30";
+            this.siticoneHtmlLabel30.Size = new System.Drawing.Size(76, 29);
+            this.siticoneHtmlLabel30.TabIndex = 36;
+            this.siticoneHtmlLabel30.Text = "Receive";
+            // 
+            // siticoneHtmlLabel28
+            // 
+            this.siticoneHtmlLabel28.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel28.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel28.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel28.Location = new System.Drawing.Point(183, 313);
+            this.siticoneHtmlLabel28.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel28.Name = "siticoneHtmlLabel28";
+            this.siticoneHtmlLabel28.Size = new System.Drawing.Size(35, 22);
+            this.siticoneHtmlLabel28.TabIndex = 32;
+            this.siticoneHtmlLabel28.Text = "USD";
+            // 
+            // siticoneHtmlLabel31
+            // 
+            this.siticoneHtmlLabel31.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel31.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel31.ForeColor = System.Drawing.Color.White;
+            this.siticoneHtmlLabel31.Location = new System.Drawing.Point(471, 313);
+            this.siticoneHtmlLabel31.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneHtmlLabel31.Name = "siticoneHtmlLabel31";
+            this.siticoneHtmlLabel31.Size = new System.Drawing.Size(35, 22);
+            this.siticoneHtmlLabel31.TabIndex = 37;
+            this.siticoneHtmlLabel31.Text = "USD";
             // 
             // siticoneBorderlessForm1
             // 
             this.siticoneBorderlessForm1.ContainerControl = this;
+            // 
+            // panel8
+            // 
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel8.Location = new System.Drawing.Point(-2, -2);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(253, 360);
+            this.panel8.TabIndex = 52;
             // 
             // Room_Service_Form
             // 
@@ -2692,6 +2820,7 @@ namespace Quan_Ly_Khach_San
             this.RoomTab.PerformLayout();
             this.siticonePanel14.ResumeLayout(false);
             this.siticonePanel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numberDayUpDown)).EndInit();
             this.siticonePanel1.ResumeLayout(false);
             this.siticonePanel1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -2709,8 +2838,8 @@ namespace Quan_Ly_Khach_San
             ((System.ComponentModel.ISupportInitialize)(this.ServiceListTxb)).EndInit();
             this.RequestTab.ResumeLayout(false);
             this.RequestTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.riskDgv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoomBillDgv)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numberDayUpDown)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ResumeLayout(false);
@@ -2769,27 +2898,27 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton8;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel22;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel21;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerNameTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox customerId;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel23;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddCustomer;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel MultiServiceLb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ServiceAmountLb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox dayNumber;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel24;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox Room_Service_Name;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker CheckOutDate;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker CheckInDate;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox roomId;
+        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker checkOutDate;
+        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker checkInDate;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel25;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel Che;
         private Siticone.Desktop.UI.WinForms.SiticoneButton SearchBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel32;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel31;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel30;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox MoneyReceiveTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox receiveTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel29;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox MoneyReturnTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox returnTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel28;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel27;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalPriceTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox totalPriceTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton ConfirmRequestBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton CancelRequestBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox TypeTxb;
@@ -2829,6 +2958,25 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.NumericUpDown numberDayUpDown;
         private System.Windows.Forms.Label label6;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel10;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox2;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel6;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox roomBillId;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel26;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel panel7;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox noteRoomBill;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel33;
+        private Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm siticoneBorderlessForm1;
+        private Guna.UI2.WinForms.Guna2DataGridView riskDgv;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox risk;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox refundTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel36;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel35;
+        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel34;
+        private System.Windows.Forms.DataGridViewTextBoxColumn marr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn loairr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phanhoantien;
         private System.Windows.Forms.DataGridViewTextBoxColumn mahoadon;
         private System.Windows.Forms.DataGridViewTextBoxColumn checkin;
         private System.Windows.Forms.DataGridViewTextBoxColumn checkout;
@@ -2843,20 +2991,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn sotienhoan;
         private System.Windows.Forms.DataGridViewTextBoxColumn matinhtrang;
         private System.Windows.Forms.DataGridViewTextBoxColumn ghichu;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel10;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox2;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel6;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox1;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel26;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel7;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox3;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel36;
-        private Siticone.Desktop.UI.WinForms.SiticoneComboBox riskCb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox4;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel34;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel35;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel33;
-        private Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm siticoneBorderlessForm1;
+        private System.Windows.Forms.Panel panel8;
     }
 }

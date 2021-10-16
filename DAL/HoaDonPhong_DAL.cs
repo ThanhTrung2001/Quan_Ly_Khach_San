@@ -106,5 +106,39 @@ namespace DAL
                 return false;
             }
         }
+
+        public static bool UpdateRoomBill(HoaDonPhong hoaDonPhong)
+        {
+            string command = $"update HoaDonPhong set tongTien = {hoaDonPhong.TongTien}, maRR = '{hoaDonPhong.MaRR}', soTienHoan = {hoaDonPhong.SoTienHoan}, tienNhan = {hoaDonPhong.TienNhan}, tienThua = {hoaDonPhong.TienThua}, maTinhTrang = '{hoaDonPhong.MaTinhTrang}', ghiChu = '{hoaDonPhong.GhiChu}'" + $"where maHoaDon = '{hoaDonPhong.MaHoaDon}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
+
+        public static bool UpdateRoomAfter(String idPhong)
+        {
+            string command = $"update Phong set tinhTrang = 'Empty' where maPhong = '{idPhong}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
     }
 }

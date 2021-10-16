@@ -29,5 +29,15 @@ namespace BUS
         {
             return HoaDonPhong_DAL.UpdateRoom(idPhong);
         }
+
+        public static bool UpdateRoomBill(HoaDonPhong hoaDonPhong)
+        {
+            return HoaDonPhong_DAL.UpdateRoomBill(hoaDonPhong);
+        }
+
+        public static bool UpdateRoomAfter(String idPhong)
+        {
+            return HoaDonPhong_DAL.UpdateRoomAfter(idPhong);
+        }
     }
 }
