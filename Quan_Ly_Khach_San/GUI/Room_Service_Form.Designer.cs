@@ -185,8 +185,8 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel30 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel28 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticoneHtmlLabel31 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.panel8 = new System.Windows.Forms.Panel();
+            this.siticoneBorderlessForm1 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
             this.ServiceTabManage.SuspendLayout();
             this.RoomTab.SuspendLayout();
             this.siticonePanel14.SuspendLayout();
@@ -1921,7 +1921,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticoneHtmlLabel10.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel10.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel10.Location = new System.Drawing.Point(340, 305);
+            this.siticoneHtmlLabel10.Location = new System.Drawing.Point(362, 305);
             this.siticoneHtmlLabel10.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel10.Name = "siticoneHtmlLabel10";
             this.siticoneHtmlLabel10.Size = new System.Drawing.Size(157, 29);
@@ -1999,7 +1999,7 @@ namespace Quan_Ly_Khach_San
             this.roomBillId.PlaceholderText = "";
             this.roomBillId.SelectedText = "";
             this.roomBillId.ShadowDecoration.Parent = this.roomBillId;
-            this.roomBillId.Size = new System.Drawing.Size(228, 54);
+            this.roomBillId.Size = new System.Drawing.Size(270, 54);
             this.roomBillId.TabIndex = 41;
             this.roomBillId.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -2056,7 +2056,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticoneHtmlLabel32.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel32.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel32.Location = new System.Drawing.Point(1265, 373);
+            this.siticoneHtmlLabel32.Location = new System.Drawing.Point(1257, 373);
             this.siticoneHtmlLabel32.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel32.Name = "siticoneHtmlLabel32";
             this.siticoneHtmlLabel32.Size = new System.Drawing.Size(35, 22);
@@ -2068,7 +2068,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticoneHtmlLabel29.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel29.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel29.Location = new System.Drawing.Point(1107, 314);
+            this.siticoneHtmlLabel29.Location = new System.Drawing.Point(1099, 314);
             this.siticoneHtmlLabel29.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel29.Name = "siticoneHtmlLabel29";
             this.siticoneHtmlLabel29.Size = new System.Drawing.Size(67, 29);
@@ -2094,7 +2094,7 @@ namespace Quan_Ly_Khach_San
             this.returnTxb.ForeColor = System.Drawing.Color.White;
             this.returnTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnTxb.HoverState.Parent = this.returnTxb;
-            this.returnTxb.Location = new System.Drawing.Point(1107, 341);
+            this.returnTxb.Location = new System.Drawing.Point(1099, 341);
             this.returnTxb.Margin = new System.Windows.Forms.Padding(4);
             this.returnTxb.Name = "returnTxb";
             this.returnTxb.PasswordChar = '\0';
@@ -2113,7 +2113,7 @@ namespace Quan_Ly_Khach_San
             this.MultiServiceLb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.MultiServiceLb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MultiServiceLb.ForeColor = System.Drawing.Color.White;
-            this.MultiServiceLb.Location = new System.Drawing.Point(495, 359);
+            this.MultiServiceLb.Location = new System.Drawing.Point(517, 359);
             this.MultiServiceLb.Margin = new System.Windows.Forms.Padding(4);
             this.MultiServiceLb.Name = "MultiServiceLb";
             this.MultiServiceLb.Size = new System.Drawing.Size(52, 27);
@@ -2140,7 +2140,7 @@ namespace Quan_Ly_Khach_San
             this.dayNumber.ForeColor = System.Drawing.Color.White;
             this.dayNumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.dayNumber.HoverState.Parent = this.dayNumber;
-            this.dayNumber.Location = new System.Drawing.Point(314, 332);
+            this.dayNumber.Location = new System.Drawing.Point(336, 332);
             this.dayNumber.Margin = new System.Windows.Forms.Padding(4);
             this.dayNumber.Name = "dayNumber";
             this.dayNumber.PasswordChar = '\0';
@@ -2158,7 +2158,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticoneHtmlLabel24.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel24.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel24.Location = new System.Drawing.Point(384, 183);
+            this.siticoneHtmlLabel24.Location = new System.Drawing.Point(406, 183);
             this.siticoneHtmlLabel24.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel24.Name = "siticoneHtmlLabel24";
             this.siticoneHtmlLabel24.Size = new System.Drawing.Size(60, 29);
@@ -2185,7 +2185,7 @@ namespace Quan_Ly_Khach_San
             this.roomId.ForeColor = System.Drawing.Color.White;
             this.roomId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.roomId.HoverState.Parent = this.roomId;
-            this.roomId.Location = new System.Drawing.Point(314, 220);
+            this.roomId.Location = new System.Drawing.Point(336, 220);
             this.roomId.Margin = new System.Windows.Forms.Padding(4);
             this.roomId.Name = "roomId";
             this.roomId.PasswordChar = '\0';
@@ -2214,7 +2214,7 @@ namespace Quan_Ly_Khach_San
             this.checkOutDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.checkOutDate.Name = "checkOutDate";
             this.checkOutDate.ShadowDecoration.Parent = this.checkOutDate;
-            this.checkOutDate.Size = new System.Drawing.Size(228, 63);
+            this.checkOutDate.Size = new System.Drawing.Size(270, 63);
             this.checkOutDate.TabIndex = 25;
             this.checkOutDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
             // 
@@ -2236,7 +2236,7 @@ namespace Quan_Ly_Khach_San
             this.checkInDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.checkInDate.Name = "checkInDate";
             this.checkInDate.ShadowDecoration.Parent = this.checkInDate;
-            this.checkInDate.Size = new System.Drawing.Size(228, 63);
+            this.checkInDate.Size = new System.Drawing.Size(270, 63);
             this.checkInDate.TabIndex = 24;
             this.checkInDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
             // 
@@ -2306,7 +2306,7 @@ namespace Quan_Ly_Khach_San
             this.customerId.ForeColor = System.Drawing.Color.White;
             this.customerId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.customerId.HoverState.Parent = this.customerId;
-            this.customerId.Location = new System.Drawing.Point(307, 115);
+            this.customerId.Location = new System.Drawing.Point(329, 115);
             this.customerId.Margin = new System.Windows.Forms.Padding(4);
             this.customerId.Name = "customerId";
             this.customerId.PasswordChar = '\0';
@@ -2322,7 +2322,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticoneHtmlLabel23.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel23.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel23.Location = new System.Drawing.Point(352, 78);
+            this.siticoneHtmlLabel23.Location = new System.Drawing.Point(374, 78);
             this.siticoneHtmlLabel23.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel23.Name = "siticoneHtmlLabel23";
             this.siticoneHtmlLabel23.Size = new System.Drawing.Size(122, 29);
@@ -2508,7 +2508,7 @@ namespace Quan_Ly_Khach_San
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Location = new System.Drawing.Point(12, 60);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(551, 360);
+            this.panel6.Size = new System.Drawing.Size(572, 360);
             this.panel6.TabIndex = 45;
             // 
             // panel7
@@ -2529,9 +2529,9 @@ namespace Quan_Ly_Khach_San
             this.panel7.Controls.Add(this.siticoneHtmlLabel28);
             this.panel7.Controls.Add(this.siticoneHtmlLabel31);
             this.panel7.Controls.Add(this.panel8);
-            this.panel7.Location = new System.Drawing.Point(569, 60);
+            this.panel7.Location = new System.Drawing.Point(590, 60);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(737, 360);
+            this.panel7.Size = new System.Drawing.Size(716, 360);
             this.panel7.TabIndex = 46;
             // 
             // risk
@@ -2554,7 +2554,7 @@ namespace Quan_Ly_Khach_San
             this.risk.ForeColor = System.Drawing.Color.White;
             this.risk.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.risk.HoverState.Parent = this.risk;
-            this.risk.Location = new System.Drawing.Point(17, 55);
+            this.risk.Location = new System.Drawing.Point(33, 55);
             this.risk.Margin = new System.Windows.Forms.Padding(4);
             this.risk.Name = "risk";
             this.risk.PasswordChar = '\0';
@@ -2585,7 +2585,7 @@ namespace Quan_Ly_Khach_San
             this.refundTxb.ForeColor = System.Drawing.Color.White;
             this.refundTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.refundTxb.HoverState.Parent = this.refundTxb;
-            this.refundTxb.Location = new System.Drawing.Point(19, 177);
+            this.refundTxb.Location = new System.Drawing.Point(35, 177);
             this.refundTxb.Margin = new System.Windows.Forms.Padding(4);
             this.refundTxb.Name = "refundTxb";
             this.refundTxb.PasswordChar = '\0';
@@ -2604,7 +2604,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel36.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel36.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel36.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel36.Location = new System.Drawing.Point(183, 209);
+            this.siticoneHtmlLabel36.Location = new System.Drawing.Point(199, 209);
             this.siticoneHtmlLabel36.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel36.Name = "siticoneHtmlLabel36";
             this.siticoneHtmlLabel36.Size = new System.Drawing.Size(35, 22);
@@ -2616,7 +2616,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticoneHtmlLabel35.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel35.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel35.Location = new System.Drawing.Point(23, 18);
+            this.siticoneHtmlLabel35.Location = new System.Drawing.Point(39, 18);
             this.siticoneHtmlLabel35.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel35.Name = "siticoneHtmlLabel35";
             this.siticoneHtmlLabel35.Size = new System.Drawing.Size(69, 29);
@@ -2628,7 +2628,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticoneHtmlLabel34.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel34.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel34.Location = new System.Drawing.Point(19, 135);
+            this.siticoneHtmlLabel34.Location = new System.Drawing.Point(35, 135);
             this.siticoneHtmlLabel34.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel34.Name = "siticoneHtmlLabel34";
             this.siticoneHtmlLabel34.Size = new System.Drawing.Size(71, 29);
@@ -2640,7 +2640,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel33.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel33.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel33.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel33.Location = new System.Drawing.Point(291, 18);
+            this.siticoneHtmlLabel33.Location = new System.Drawing.Point(288, 18);
             this.siticoneHtmlLabel33.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel33.Name = "siticoneHtmlLabel33";
             this.siticoneHtmlLabel33.Size = new System.Drawing.Size(60, 29);
@@ -2666,7 +2666,7 @@ namespace Quan_Ly_Khach_San
             this.noteRoomBill.ForeColor = System.Drawing.Color.White;
             this.noteRoomBill.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.noteRoomBill.HoverState.Parent = this.noteRoomBill;
-            this.noteRoomBill.Location = new System.Drawing.Point(287, 55);
+            this.noteRoomBill.Location = new System.Drawing.Point(275, 55);
             this.noteRoomBill.Margin = new System.Windows.Forms.Padding(4);
             this.noteRoomBill.Name = "noteRoomBill";
             this.noteRoomBill.PasswordChar = '\0';
@@ -2697,7 +2697,7 @@ namespace Quan_Ly_Khach_San
             this.totalPriceTxb.ForeColor = System.Drawing.Color.White;
             this.totalPriceTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalPriceTxb.HoverState.Parent = this.totalPriceTxb;
-            this.totalPriceTxb.Location = new System.Drawing.Point(19, 281);
+            this.totalPriceTxb.Location = new System.Drawing.Point(35, 281);
             this.totalPriceTxb.Margin = new System.Windows.Forms.Padding(4);
             this.totalPriceTxb.Name = "totalPriceTxb";
             this.totalPriceTxb.PasswordChar = '\0';
@@ -2716,7 +2716,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel27.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel27.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel27.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel27.Location = new System.Drawing.Point(19, 258);
+            this.siticoneHtmlLabel27.Location = new System.Drawing.Point(35, 258);
             this.siticoneHtmlLabel27.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel27.Name = "siticoneHtmlLabel27";
             this.siticoneHtmlLabel27.Size = new System.Drawing.Size(52, 29);
@@ -2742,7 +2742,7 @@ namespace Quan_Ly_Khach_San
             this.receiveTxb.ForeColor = System.Drawing.Color.White;
             this.receiveTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveTxb.HoverState.Parent = this.receiveTxb;
-            this.receiveTxb.Location = new System.Drawing.Point(294, 281);
+            this.receiveTxb.Location = new System.Drawing.Point(280, 281);
             this.receiveTxb.Margin = new System.Windows.Forms.Padding(4);
             this.receiveTxb.Name = "receiveTxb";
             this.receiveTxb.PasswordChar = '\0';
@@ -2760,7 +2760,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel30.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel30.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel30.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel30.Location = new System.Drawing.Point(294, 258);
+            this.siticoneHtmlLabel30.Location = new System.Drawing.Point(280, 258);
             this.siticoneHtmlLabel30.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel30.Name = "siticoneHtmlLabel30";
             this.siticoneHtmlLabel30.Size = new System.Drawing.Size(76, 29);
@@ -2772,7 +2772,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel28.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel28.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel28.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel28.Location = new System.Drawing.Point(183, 313);
+            this.siticoneHtmlLabel28.Location = new System.Drawing.Point(199, 313);
             this.siticoneHtmlLabel28.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel28.Name = "siticoneHtmlLabel28";
             this.siticoneHtmlLabel28.Size = new System.Drawing.Size(35, 22);
@@ -2784,16 +2784,12 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel31.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel31.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel31.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel31.Location = new System.Drawing.Point(471, 313);
+            this.siticoneHtmlLabel31.Location = new System.Drawing.Point(457, 313);
             this.siticoneHtmlLabel31.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneHtmlLabel31.Name = "siticoneHtmlLabel31";
             this.siticoneHtmlLabel31.Size = new System.Drawing.Size(35, 22);
             this.siticoneHtmlLabel31.TabIndex = 37;
             this.siticoneHtmlLabel31.Text = "USD";
-            // 
-            // siticoneBorderlessForm1
-            // 
-            this.siticoneBorderlessForm1.ContainerControl = this;
             // 
             // panel8
             // 
@@ -2802,6 +2798,10 @@ namespace Quan_Ly_Khach_San
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(253, 360);
             this.panel8.TabIndex = 52;
+            // 
+            // siticoneBorderlessForm1
+            // 
+            this.siticoneBorderlessForm1.ContainerControl = this;
             // 
             // Room_Service_Form
             // 

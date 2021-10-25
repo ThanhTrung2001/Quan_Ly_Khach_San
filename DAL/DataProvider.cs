@@ -13,7 +13,7 @@ namespace DAL
 
         public static SqlConnection MoKetNoiDatabase()
         {
-            string chuoiKetNoi = @"Data Source=.\SQLEXPRESS;Initial Catalog=QLKS;Integrated Security=True";
+            string chuoiKetNoi = @"Data Source=.\SQLEXPRESS;Initial Catalog=KSQL;Integrated Security=True";
             SqlConnection conn = new SqlConnection(chuoiKetNoi);
             conn.Open();
             return conn;

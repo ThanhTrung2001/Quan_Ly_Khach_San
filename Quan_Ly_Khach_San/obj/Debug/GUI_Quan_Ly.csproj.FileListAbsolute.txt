@@ -91,7 +91,6 @@ E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Statistic_Form.resources
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\GUI_Quan_Ly.csproj.GenerateResource.cache
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\GUI_Quan_Ly.csproj.CoreCompileInputs.cache
-E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\GUI_Quan_Ly.csproj.CopyComplete
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.exe
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.pdb
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\BUS.dll

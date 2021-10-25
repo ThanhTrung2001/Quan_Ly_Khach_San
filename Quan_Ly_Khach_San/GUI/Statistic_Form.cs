@@ -388,6 +388,32 @@ namespace Quan_Ly_Khach_San
         {
             RequestFoodLoad();
             PaidLoad();
+            BillRoomLoad();
+        }
+
+        #region statistic day
+
+        private void BillRoomLoad()
+        {
+            List<HoaDonPhong> roomBillList = HoaDonPhong_BUS.RoomBillCompletedList();
+            if (roomBillList == null) roomBillList = new List<HoaDonPhong>();
+            this.BillRoomDgv.DataSource = roomBillList;
+        }
+
+        #endregion
+
+        private void BillRoomDgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int i;
+            i = BillRoomDgv.CurrentRow.Index;
+            this.CheckInDate.Text = BillRoomDgv.Rows[i].Cells[1].Value.ToString();
+            this.CheckOutDate.Text = BillRoomDgv.Rows[i].Cells[2].Value.ToString();
+            this.CustomerCodeTxb.Text = BillRoomDgv.Rows[i].Cells[4].Value.ToString();
+            this.RoomIDTxb.Text = BillRoomDgv.Rows[i].Cells[5].Value.ToString();
+            this.DaysTxb.Text = BillRoomDgv.Rows[i].Cells[6].Value.ToString();
+            this.TotalPriceTxb.Text = BillRoomDgv.Rows[i].Cells[7].Value.ToString();
+            this.ReceiveTxb.Text = BillRoomDgv.Rows[i].Cells[8].Value.ToString();
+            this.ReturnTxb.Text = BillRoomDgv.Rows[i].Cells[9].Value.ToString();
         }
     }
 }

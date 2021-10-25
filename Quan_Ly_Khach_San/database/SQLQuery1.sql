@@ -1,4 +1,4 @@
-﻿use QLKS
+﻿use KSQL
 
 create table TaiKhoan
 (
@@ -184,7 +184,7 @@ create table HoaDonMonAn
 
 create table CTDSDichVu
 (
-	maChiTiet varchar(10) primary key,
+	maChiTietDV varchar(10) primary key,
 	maDSDV varchar(10),
 	maDV varchar(10),
 	maLoaiDichVu varchar(10),
@@ -241,6 +241,26 @@ create table HoaDonPhong
 	ghiChu varchar(100),
 )
 
+create table HoaDonDichVu
+(
+	maHoaDon varchar(10) primary key,
+	checkin datetime,
+	checkout datetime,
+	maNV varchar(10),
+	maKH varchar(10),
+
+	maChiTietDV varchar(10),
+
+	tongTien money,
+	tienNhan money,
+	tienThua money,
+
+	maRR varchar(10),
+	soTienHoan int,
+	maTinhTrang varchar(10),
+	ghiChu varchar(100),
+)
+
 create table BaoCaoNgay
 (
 	maBC varchar(10) primary key,
@@ -278,12 +298,10 @@ create table KhachHang
 create table RuiRo 
 (
 	maRR varchar(10) primary key,
-	loaiRR varchar(10),
+	loaiRR varchar(100),
 	phanHoanTien float,
 )
-ALTER TABLE RUIRO ALTER COLUMN loaiRR varchar(100)
-
-alter table  HoaDonPhong add constraint FK_HoaDonPhong_Phong foreign key (maPhong) references Phong (maPhong)
+--ALTER TABLE RUIRO ALTER COLUMN loaiRR varchar(100)
 
 alter table NhanVien add constraint FK_NhanVien_ChucVu foreign key (maChucVu) references ChucVu (maChucVu)
 alter table NhanVien add constraint FK_NhanVien_TaiKhoan foreign key (maTaiKhoan) references TaiKhoan (maTaiKhoan)
@@ -333,6 +351,12 @@ alter table DichVu add constraint FK_DichVu_TinhTrang foreign key (maTinhTrang) 
 alter table HoaDonPhong add constraint FK_HoaDonPhong_NhanVien foreign key (maNV) references NhanVien (maNV)
 alter table HoaDonPhong add constraint FK_HoaDonPhong_KhachHang foreign key (maKH) references KhachHang (maKH)
 alter table HoaDonPhong add constraint FK_HoaDonPhong_RuiRo foreign key (maRR) references RuiRo (maRR)
+alter table HoaDonPhong add constraint FK_HoaDonPhong_Phong foreign key (maPhong) references Phong (maPhong)
+
+alter table HoaDonDichVu add constraint FK_HoaDonDichVu_NhanVien foreign key (maNV) references NhanVien (maNV)
+alter table HoaDonDichVu add constraint FK_HoaDonDichVu_KhachHang foreign key (maKH) references KhachHang (maKH)
+alter table HoaDonDichVu add constraint FK_HoaDonDichVu_RuiRo foreign key (maRR) references RuiRo (maRR)
+alter table HoaDonDichVu add constraint FK_HoaDonDichVu_CTDSDichVu foreign key (maChiTietDV) references CTDSDichVu (maChiTietDV)
 
 alter table BaoCaoNgay add constraint FK_BaoCaoNgay_LoaiBaoCao foreign key (maLoaiBC) references LoaiBaoCao (maLoaiBC)
 alter table BaoCaoThang add constraint FK_BaoCaoThang_LoaiBaoCao foreign key (maLoaiBC) references LoaiBaoCao (maLoaiBC)

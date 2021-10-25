@@ -25,6 +25,11 @@ namespace BUS
             return HoaDonPhong_DAL.RoomBillPendingList();
         }
 
+        public static List<HoaDonPhong> RoomBillCompletedList()
+        {
+            return HoaDonPhong_DAL.RoomBillCompletedList();
+        }
+
         public static bool UpdateRoom(String idPhong)
         {
             return HoaDonPhong_DAL.UpdateRoom(idPhong);

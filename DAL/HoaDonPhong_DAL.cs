@@ -90,6 +90,38 @@ namespace DAL
             return danhSach;
         }
 
+        public static List<HoaDonPhong> RoomBillCompletedList()
+        {
+            string command = "select maHoaDon, checkin, checkout, maNV, maKH, maPhong, soNgayO, tongTien, tienNhan, tienThua, maRR, soTienHoan, maTinhTrang, ghiChu from HoaDonPhong where maTinhTrang = 'Co'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<HoaDonPhong> danhSach = new List<HoaDonPhong>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                HoaDonPhong hoaDon = new HoaDonPhong();
+                hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.Checkin = dt.Rows[i]["checkin"].ToString();
+                hoaDon.Checkout = dt.Rows[i]["checkout"].ToString();
+                hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
+                hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
+                hoaDon.MaPhong = dt.Rows[i]["maPhong"].ToString();
+                hoaDon.SoNgayO = int.Parse(dt.Rows[i]["soNgayO"].ToString());
+                hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
+                hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
+                hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
+                hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
+                hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
+                danhSach.Add(hoaDon);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+        }
+
         public static bool UpdateRoom(String idPhong)
         {
             string command = $"update Phong set tinhTrang = 'Hired' where maPhong = '{idPhong}'";
