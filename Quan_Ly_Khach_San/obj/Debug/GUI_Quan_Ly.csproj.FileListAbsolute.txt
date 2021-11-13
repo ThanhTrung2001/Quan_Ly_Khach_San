@@ -35,7 +35,6 @@ D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.Properties.Resources.resources
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\GUI_Quan_Ly.csproj.GenerateResource.cache
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\GUI_Quan_Ly.csproj.CoreCompileInputs.cache
-D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\GUI_Quan_Ly.csproj.CopyComplete
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.exe
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.pdb
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Bunifu_UI_v1.5.3.dll
@@ -105,3 +104,7 @@ D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tư�
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\BUS.pdb
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\DTO.pdb
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\DAL.pdb
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\DTO.dll
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\DTO.pdb
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Service_Form.resources
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\GUI_Quan_Ly.csproj.CopyComplete

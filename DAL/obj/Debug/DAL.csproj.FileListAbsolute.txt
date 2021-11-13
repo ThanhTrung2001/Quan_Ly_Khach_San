@@ -15,3 +15,12 @@ D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tư�
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\DAL\obj\Debug\DAL.dll
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\DAL\obj\Debug\DAL.pdb
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\bin\Debug\DAL.dll
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\bin\Debug\DAL.pdb
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\bin\Debug\DTO.dll
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\bin\Debug\DTO.pdb
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\obj\Debug\DAL.dll
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DAL\obj\Debug\DAL.pdb

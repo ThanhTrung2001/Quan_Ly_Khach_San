@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Quan_Ly_Khach_San.GUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,12 @@ namespace Quan_Ly_Khach_San
 {
     public partial class Home : Form
     {
-        public Home()
+        public int role;
+        public Home(int roleLogin)
         {
             InitializeComponent();
             //
+            role = roleLogin;
         }
 
         private void ServiceBtn_Click(object sender, EventArgs e)
@@ -93,9 +96,38 @@ namespace Quan_Ly_Khach_San
             } 
         }
 
+       
+        private void ServiceBtn_Click_1(object sender, EventArgs e)
+        {
+            ParentPanel.Controls.Clear();
+            Service_Form form4 = new Service_Form();
+            form4.TopLevel = false;
+            ParentPanel.Controls.Add(form4);
+            form4.Show();
+        }
+        
         private void Home_Load(object sender, EventArgs e)
         {
-            
+
+            switch (role)
+            {
+                case 0:
+
+                    break;
+                case 1:
+
+                    break;
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+                case 4:
+
+                    break;
+            }
         }
+
     }
 }

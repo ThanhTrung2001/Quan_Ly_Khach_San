@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietDanhSachDichVu_DAO.cs" />
     <Compile Include="ChiTietDanhSachMonAn_DAL.cs" />
     <Compile Include="ChiTietDanhSachNguyenLieu_DAL.cs" />
     <Compile Include="DataProvider.cs" />

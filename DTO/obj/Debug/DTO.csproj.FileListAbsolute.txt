@@ -10,3 +10,9 @@ D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tư�
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.dll
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.pdb
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DTO\bin\Debug\DTO.dll
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DTO\bin\Debug\DTO.pdb
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.dll
+D:\Learn-CODE\My Software\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.pdb

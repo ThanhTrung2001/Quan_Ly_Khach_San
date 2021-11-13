@@ -120,7 +120,7 @@ namespace Quan_Ly_Khach_San
             this.PasswordTxb.Location = new System.Drawing.Point(160, 236);
             this.PasswordTxb.Margin = new System.Windows.Forms.Padding(5);
             this.PasswordTxb.Name = "PasswordTxb";
-            this.PasswordTxb.PasswordChar = '\0';
+            this.PasswordTxb.PasswordChar = '*';
             this.PasswordTxb.PlaceholderText = "Password";
             this.PasswordTxb.SelectedText = "";
             this.PasswordTxb.ShadowDecoration.Parent = this.PasswordTxb;
