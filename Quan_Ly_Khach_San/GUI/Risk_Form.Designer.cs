@@ -35,17 +35,17 @@ namespace Quan_Ly_Khach_San
             this.DeleteBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.CreateBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.RiskTypeTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.RiskCodeTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.RiskGrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel26 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.RiskCostTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.riskid = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.risktype = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.refund = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RiskCostTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.RiskGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,11 +65,10 @@ namespace Quan_Ly_Khach_San
             this.DeleteBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
             this.DeleteBtn.HoverState.Parent = this.DeleteBtn;
-            this.DeleteBtn.Location = new System.Drawing.Point(247, 668);
-            this.DeleteBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.DeleteBtn.Location = new System.Drawing.Point(185, 543);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.ShadowDecoration.Parent = this.DeleteBtn;
-            this.DeleteBtn.Size = new System.Drawing.Size(196, 60);
+            this.DeleteBtn.Size = new System.Drawing.Size(147, 49);
             this.DeleteBtn.TabIndex = 30;
             this.DeleteBtn.Text = "Delete";
             this.DeleteBtn.Click += new System.EventHandler(this.DeleteBtn_Click);
@@ -90,11 +89,10 @@ namespace Quan_Ly_Khach_San
             this.CreateBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CreateBtn.ForeColor = System.Drawing.Color.White;
             this.CreateBtn.HoverState.Parent = this.CreateBtn;
-            this.CreateBtn.Location = new System.Drawing.Point(34, 668);
-            this.CreateBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.CreateBtn.Location = new System.Drawing.Point(26, 543);
             this.CreateBtn.Name = "CreateBtn";
             this.CreateBtn.ShadowDecoration.Parent = this.CreateBtn;
-            this.CreateBtn.Size = new System.Drawing.Size(196, 60);
+            this.CreateBtn.Size = new System.Drawing.Size(147, 49);
             this.CreateBtn.TabIndex = 29;
             this.CreateBtn.Text = "Create";
             this.CreateBtn.Click += new System.EventHandler(this.CreateBtn_Click);
@@ -118,29 +116,16 @@ namespace Quan_Ly_Khach_San
             this.RiskTypeTxb.ForeColor = System.Drawing.Color.White;
             this.RiskTypeTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.RiskTypeTxb.HoverState.Parent = this.RiskTypeTxb;
-            this.RiskTypeTxb.Location = new System.Drawing.Point(16, 305);
-            this.RiskTypeTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.RiskTypeTxb.Location = new System.Drawing.Point(12, 248);
             this.RiskTypeTxb.Name = "RiskTypeTxb";
             this.RiskTypeTxb.PasswordChar = '\0';
             this.RiskTypeTxb.PlaceholderText = "";
             this.RiskTypeTxb.SelectedText = "";
             this.RiskTypeTxb.SelectionStart = 4;
             this.RiskTypeTxb.ShadowDecoration.Parent = this.RiskTypeTxb;
-            this.RiskTypeTxb.Size = new System.Drawing.Size(417, 48);
+            this.RiskTypeTxb.Size = new System.Drawing.Size(313, 39);
             this.RiskTypeTxb.TabIndex = 24;
             this.RiskTypeTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneHtmlLabel3
-            // 
-            this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel3.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(16, 269);
-            this.siticoneHtmlLabel3.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
-            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(60, 29);
-            this.siticoneHtmlLabel3.TabIndex = 23;
-            this.siticoneHtmlLabel3.Text = "Type :";
             // 
             // RiskCodeTxb
             // 
@@ -161,28 +146,16 @@ namespace Quan_Ly_Khach_San
             this.RiskCodeTxb.ForeColor = System.Drawing.Color.White;
             this.RiskCodeTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.RiskCodeTxb.HoverState.Parent = this.RiskCodeTxb;
-            this.RiskCodeTxb.Location = new System.Drawing.Point(16, 171);
-            this.RiskCodeTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.RiskCodeTxb.Location = new System.Drawing.Point(12, 139);
             this.RiskCodeTxb.Name = "RiskCodeTxb";
             this.RiskCodeTxb.PasswordChar = '\0';
             this.RiskCodeTxb.PlaceholderText = "";
             this.RiskCodeTxb.SelectedText = "";
+            this.RiskCodeTxb.SelectionStart = 2;
             this.RiskCodeTxb.ShadowDecoration.Parent = this.RiskCodeTxb;
-            this.RiskCodeTxb.Size = new System.Drawing.Size(427, 48);
+            this.RiskCodeTxb.Size = new System.Drawing.Size(320, 39);
             this.RiskCodeTxb.TabIndex = 22;
             this.RiskCodeTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneHtmlLabel2
-            // 
-            this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel2.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(16, 135);
-            this.siticoneHtmlLabel2.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(69, 29);
-            this.siticoneHtmlLabel2.TabIndex = 21;
-            this.siticoneHtmlLabel2.Text = "Risk ID";
             // 
             // RiskGrid
             // 
@@ -216,15 +189,14 @@ namespace Quan_Ly_Khach_San
             this.RiskGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.RiskGrid.EnableHeadersVisualStyles = false;
             this.RiskGrid.GridColor = System.Drawing.Color.White;
-            this.RiskGrid.Location = new System.Drawing.Point(517, 137);
-            this.RiskGrid.Margin = new System.Windows.Forms.Padding(4);
+            this.RiskGrid.Location = new System.Drawing.Point(388, 111);
             this.RiskGrid.Name = "RiskGrid";
             this.RiskGrid.ReadOnly = true;
             this.RiskGrid.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.RiskGrid.RowHeadersVisible = false;
             this.RiskGrid.RowHeadersWidth = 51;
             this.RiskGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.RiskGrid.Size = new System.Drawing.Size(803, 624);
+            this.RiskGrid.Size = new System.Drawing.Size(602, 507);
             this.RiskGrid.TabIndex = 20;
             this.RiskGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.RiskGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -248,74 +220,6 @@ namespace Quan_Ly_Khach_San
             this.RiskGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.RiskGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.RiskGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.RiskGrid_CellContentClick);
-            // 
-            // siticoneHtmlLabel6
-            // 
-            this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(18, 410);
-            this.siticoneHtmlLabel6.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
-            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(76, 29);
-            this.siticoneHtmlLabel6.TabIndex = 36;
-            this.siticoneHtmlLabel6.Text = "Refund:";
-            // 
-            // siticoneHtmlLabel26
-            // 
-            this.siticoneHtmlLabel26.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel26.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel26.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel26.Location = new System.Drawing.Point(289, 457);
-            this.siticoneHtmlLabel26.Margin = new System.Windows.Forms.Padding(4);
-            this.siticoneHtmlLabel26.Name = "siticoneHtmlLabel26";
-            this.siticoneHtmlLabel26.Size = new System.Drawing.Size(32, 22);
-            this.siticoneHtmlLabel26.TabIndex = 71;
-            this.siticoneHtmlLabel26.Text = "USD";
-            // 
-            // RiskCostTxb
-            // 
-            this.RiskCostTxb.BackColor = System.Drawing.Color.Transparent;
-            this.RiskCostTxb.BorderColor = System.Drawing.Color.White;
-            this.RiskCostTxb.BorderRadius = 15;
-            this.RiskCostTxb.BorderThickness = 2;
-            this.RiskCostTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.RiskCostTxb.DefaultText = "Total";
-            this.RiskCostTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.RiskCostTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.RiskCostTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.RiskCostTxb.DisabledState.Parent = this.RiskCostTxb;
-            this.RiskCostTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.RiskCostTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.RiskCostTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RiskCostTxb.FocusedState.Parent = this.RiskCostTxb;
-            this.RiskCostTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RiskCostTxb.ForeColor = System.Drawing.Color.White;
-            this.RiskCostTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RiskCostTxb.HoverState.Parent = this.RiskCostTxb;
-            this.RiskCostTxb.Location = new System.Drawing.Point(107, 435);
-            this.RiskCostTxb.Margin = new System.Windows.Forms.Padding(4);
-            this.RiskCostTxb.Name = "RiskCostTxb";
-            this.RiskCostTxb.PasswordChar = '\0';
-            this.RiskCostTxb.PlaceholderText = "";
-            this.RiskCostTxb.SelectedText = "";
-            this.RiskCostTxb.SelectionStart = 5;
-            this.RiskCostTxb.ShadowDecoration.Parent = this.RiskCostTxb;
-            this.RiskCostTxb.Size = new System.Drawing.Size(149, 50);
-            this.RiskCostTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.RiskCostTxb.TabIndex = 70;
-            this.RiskCostTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneHtmlLabel1
-            // 
-            this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(477, 31);
-            this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(420, 48);
-            this.siticoneHtmlLabel1.TabIndex = 73;
-            this.siticoneHtmlLabel1.Text = "RISKS MANAGEMENT";
             // 
             // riskid
             // 
@@ -341,25 +245,112 @@ namespace Quan_Ly_Khach_San
             this.refund.Name = "refund";
             this.refund.ReadOnly = true;
             // 
+            // RiskCostTxb
+            // 
+            this.RiskCostTxb.BackColor = System.Drawing.Color.Transparent;
+            this.RiskCostTxb.BorderColor = System.Drawing.Color.White;
+            this.RiskCostTxb.BorderRadius = 15;
+            this.RiskCostTxb.BorderThickness = 2;
+            this.RiskCostTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.RiskCostTxb.DefaultText = "Total";
+            this.RiskCostTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.RiskCostTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.RiskCostTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.RiskCostTxb.DisabledState.Parent = this.RiskCostTxb;
+            this.RiskCostTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.RiskCostTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.RiskCostTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RiskCostTxb.FocusedState.Parent = this.RiskCostTxb;
+            this.RiskCostTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RiskCostTxb.ForeColor = System.Drawing.Color.White;
+            this.RiskCostTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RiskCostTxb.HoverState.Parent = this.RiskCostTxb;
+            this.RiskCostTxb.Location = new System.Drawing.Point(80, 353);
+            this.RiskCostTxb.Name = "RiskCostTxb";
+            this.RiskCostTxb.PasswordChar = '\0';
+            this.RiskCostTxb.PlaceholderText = "";
+            this.RiskCostTxb.SelectedText = "";
+            this.RiskCostTxb.SelectionStart = 5;
+            this.RiskCostTxb.ShadowDecoration.Parent = this.RiskCostTxb;
+            this.RiskCostTxb.Size = new System.Drawing.Size(112, 41);
+            this.RiskCostTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.RiskCostTxb.TabIndex = 70;
+            this.RiskCostTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // siticoneHtmlLabel1
+            // 
+            this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(358, 25);
+            this.siticoneHtmlLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
+            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(336, 39);
+            this.siticoneHtmlLabel1.TabIndex = 73;
+            this.siticoneHtmlLabel1.Text = "RISKS MANAGEMENT";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.DarkGray;
+            this.label1.Location = new System.Drawing.Point(12, 110);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 21);
+            this.label1.TabIndex = 74;
+            this.label1.Text = "Risk ID";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.DarkGray;
+            this.label2.Location = new System.Drawing.Point(12, 224);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(47, 21);
+            this.label2.TabIndex = 75;
+            this.label2.Text = "Type";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.DarkGray;
+            this.label3.Location = new System.Drawing.Point(12, 368);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 21);
+            this.label3.TabIndex = 76;
+            this.label3.Text = "Refund";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(211, 373);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(29, 16);
+            this.label4.TabIndex = 77;
+            this.label4.Text = "USD";
+            // 
             // Risk_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.ClientSize = new System.Drawing.Size(1333, 800);
+            this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.siticoneHtmlLabel1);
-            this.Controls.Add(this.siticoneHtmlLabel26);
             this.Controls.Add(this.RiskCostTxb);
-            this.Controls.Add(this.siticoneHtmlLabel6);
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.CreateBtn);
             this.Controls.Add(this.RiskTypeTxb);
-            this.Controls.Add(this.siticoneHtmlLabel3);
             this.Controls.Add(this.RiskCodeTxb);
-            this.Controls.Add(this.siticoneHtmlLabel2);
             this.Controls.Add(this.RiskGrid);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Risk_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Risk_Form";
@@ -374,16 +365,16 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton DeleteBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton CreateBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox RiskTypeTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel3;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox RiskCodeTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
         private Guna.UI2.WinForms.Guna2DataGridView RiskGrid;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel6;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel26;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox RiskCostTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
         private System.Windows.Forms.DataGridViewTextBoxColumn riskid;
         private System.Windows.Forms.DataGridViewTextBoxColumn risktype;
         private System.Windows.Forms.DataGridViewTextBoxColumn refund;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

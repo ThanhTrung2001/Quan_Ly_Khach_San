@@ -33,7 +33,6 @@ namespace Quan_Ly_Khach_San
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer_Form));
-            this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CustomerGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.maKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenKhachHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -41,33 +40,23 @@ namespace Quan_Ly_Khach_San
             this.CMND = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.diaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ghiChu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CustomerNameTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.CustomerPhonetxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel3 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CustomerIdentityTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel4 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CustomerNoteTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel5 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.EditBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.DeleteBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.SearchTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.SearchBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.siticoneHtmlLabel6 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CustomerAddress = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerGrid)).BeginInit();
             this.SuspendLayout();
-            // 
-            // siticoneHtmlLabel1
-            // 
-            this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI Emoji", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(426, 1);
-            this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(164, 45);
-            this.siticoneHtmlLabel1.TabIndex = 0;
-            this.siticoneHtmlLabel1.Text = "Customers";
             // 
             // CustomerGrid
             // 
@@ -184,17 +173,6 @@ namespace Quan_Ly_Khach_San
             this.ghiChu.Name = "ghiChu";
             this.ghiChu.ReadOnly = true;
             // 
-            // siticoneHtmlLabel2
-            // 
-            this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel2.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(123, 114);
-            this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(58, 23);
-            this.siticoneHtmlLabel2.TabIndex = 2;
-            this.siticoneHtmlLabel2.Text = "Name :";
-            // 
             // CustomerNameTxb
             // 
             this.CustomerNameTxb.BorderColor = System.Drawing.Color.White;
@@ -254,17 +232,6 @@ namespace Quan_Ly_Khach_San
             this.CustomerPhonetxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CustomerPhonetxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerPhonetxb_KeyPress);
             // 
-            // siticoneHtmlLabel3
-            // 
-            this.siticoneHtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel3.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel3.Location = new System.Drawing.Point(123, 188);
-            this.siticoneHtmlLabel3.Name = "siticoneHtmlLabel3";
-            this.siticoneHtmlLabel3.Size = new System.Drawing.Size(61, 23);
-            this.siticoneHtmlLabel3.TabIndex = 4;
-            this.siticoneHtmlLabel3.Text = "Phone :";
-            // 
             // CustomerIdentityTxb
             // 
             this.CustomerIdentityTxb.BorderColor = System.Drawing.Color.White;
@@ -295,17 +262,6 @@ namespace Quan_Ly_Khach_San
             this.CustomerIdentityTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CustomerIdentityTxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerIdentityTxb_KeyPress);
             // 
-            // siticoneHtmlLabel4
-            // 
-            this.siticoneHtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel4.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel4.Location = new System.Drawing.Point(123, 262);
-            this.siticoneHtmlLabel4.Name = "siticoneHtmlLabel4";
-            this.siticoneHtmlLabel4.Size = new System.Drawing.Size(72, 23);
-            this.siticoneHtmlLabel4.TabIndex = 6;
-            this.siticoneHtmlLabel4.Text = "Identity :";
-            // 
             // CustomerNoteTxb
             // 
             this.CustomerNoteTxb.BorderColor = System.Drawing.Color.White;
@@ -334,17 +290,6 @@ namespace Quan_Ly_Khach_San
             this.CustomerNoteTxb.Size = new System.Drawing.Size(323, 43);
             this.CustomerNoteTxb.TabIndex = 8;
             this.CustomerNoteTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneHtmlLabel5
-            // 
-            this.siticoneHtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel5.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel5.Location = new System.Drawing.Point(555, 203);
-            this.siticoneHtmlLabel5.Name = "siticoneHtmlLabel5";
-            this.siticoneHtmlLabel5.Size = new System.Drawing.Size(50, 23);
-            this.siticoneHtmlLabel5.TabIndex = 9;
-            this.siticoneHtmlLabel5.Text = "Note :";
             // 
             // EditBtn
             // 
@@ -445,17 +390,6 @@ namespace Quan_Ly_Khach_San
             this.SearchBtn.TabIndex = 18;
             this.SearchBtn.Click += new System.EventHandler(this.SearchBtn_Click);
             // 
-            // siticoneHtmlLabel6
-            // 
-            this.siticoneHtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel6.ForeColor = System.Drawing.Color.DarkGray;
-            this.siticoneHtmlLabel6.Location = new System.Drawing.Point(555, 110);
-            this.siticoneHtmlLabel6.Name = "siticoneHtmlLabel6";
-            this.siticoneHtmlLabel6.Size = new System.Drawing.Size(75, 23);
-            this.siticoneHtmlLabel6.TabIndex = 19;
-            this.siticoneHtmlLabel6.Text = "Address : ";
-            // 
             // CustomerAddress
             // 
             this.CustomerAddress.BorderColor = System.Drawing.Color.White;
@@ -485,28 +419,94 @@ namespace Quan_Ly_Khach_San
             this.CustomerAddress.TabIndex = 20;
             this.CustomerAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.DarkGray;
+            this.label1.Location = new System.Drawing.Point(119, 119);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 21);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "Name";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.DarkGray;
+            this.label2.Location = new System.Drawing.Point(119, 193);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 21);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "Phone";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.DarkGray;
+            this.label3.Location = new System.Drawing.Point(119, 267);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 21);
+            this.label3.TabIndex = 23;
+            this.label3.Text = "Identity";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.DarkGray;
+            this.label4.Location = new System.Drawing.Point(551, 119);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 21);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "Address";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.DarkGray;
+            this.label5.Location = new System.Drawing.Point(551, 208);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(48, 21);
+            this.label5.TabIndex = 25;
+            this.label5.Text = "Note";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Emoji", 24F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.Gainsboro;
+            this.label6.Location = new System.Drawing.Point(373, 6);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(242, 43);
+            this.label6.TabIndex = 26;
+            this.label6.Text = "Customers List";
+            // 
             // Customer_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.ClientSize = new System.Drawing.Size(1000, 640);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.CustomerAddress);
-            this.Controls.Add(this.siticoneHtmlLabel6);
             this.Controls.Add(this.SearchBtn);
             this.Controls.Add(this.SearchTxb);
             this.Controls.Add(this.DeleteBtn);
             this.Controls.Add(this.EditBtn);
-            this.Controls.Add(this.siticoneHtmlLabel5);
             this.Controls.Add(this.CustomerNoteTxb);
             this.Controls.Add(this.CustomerIdentityTxb);
-            this.Controls.Add(this.siticoneHtmlLabel4);
             this.Controls.Add(this.CustomerPhonetxb);
-            this.Controls.Add(this.siticoneHtmlLabel3);
             this.Controls.Add(this.CustomerNameTxb);
-            this.Controls.Add(this.siticoneHtmlLabel2);
             this.Controls.Add(this.CustomerGrid);
-            this.Controls.Add(this.siticoneHtmlLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Customer_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -519,22 +519,15 @@ namespace Quan_Ly_Khach_San
         }
 
         #endregion
-
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
         private Guna.UI2.WinForms.Guna2DataGridView CustomerGrid;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerNameTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerPhonetxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel3;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerIdentityTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel4;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerNoteTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel5;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton EditBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton DeleteBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox SearchTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneButton SearchBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel6;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerAddress;
         private System.Windows.Forms.DataGridViewTextBoxColumn maKH;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenKhachHang;
@@ -542,5 +535,11 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn CMND;
         private System.Windows.Forms.DataGridViewTextBoxColumn diaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn ghiChu;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

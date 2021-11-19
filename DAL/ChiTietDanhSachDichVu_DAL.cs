@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace DAL
 {
-    class ChiTietDanhSachDichVu_DAO
+    public class ChiTietDanhSachDichVu_DAL
     {
         static SqlConnection conn;
 

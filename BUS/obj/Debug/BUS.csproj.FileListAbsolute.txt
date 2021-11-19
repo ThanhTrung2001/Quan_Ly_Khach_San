@@ -31,3 +31,14 @@ D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.CoreCompile
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.CopyComplete
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.dll
 D:\Learn-CODE\My Software\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.pdb
+D:\Project\Quan_Ly_Khach_San\BUS\bin\Debug\BUS.dll
+D:\Project\Quan_Ly_Khach_San\BUS\bin\Debug\BUS.pdb
+D:\Project\Quan_Ly_Khach_San\BUS\bin\Debug\DAL.dll
+D:\Project\Quan_Ly_Khach_San\BUS\bin\Debug\DTO.dll
+D:\Project\Quan_Ly_Khach_San\BUS\bin\Debug\DAL.pdb
+D:\Project\Quan_Ly_Khach_San\BUS\bin\Debug\DTO.pdb
+D:\Project\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+D:\Project\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\Project\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.csproj.CopyComplete
+D:\Project\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.dll
+D:\Project\Quan_Ly_Khach_San\BUS\obj\Debug\BUS.pdb

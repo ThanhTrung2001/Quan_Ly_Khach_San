@@ -20,46 +20,94 @@ namespace Quan_Ly_Khach_San
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            if(UserNameTxb.Text == "thukho" && PasswordTxb.Text == "123456")
+            
+            if(UserNameTxb.Text == "thukho")
             {
-                role =4;
-                Home form = new Home(role);
-                this.Hide();
-                form.ShowDialog();
-                this.Close();
+                if (PasswordTxb.Text == "123456")
+                {
+                    role = 4;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
             }
-            else if (UserNameTxb.Text == "daubep" && PasswordTxb.Text == "123456")
+            else if (UserNameTxb.Text == "daubep")
             {
-                role = 3;
-                Home form = new Home(role);
-                this.Hide();
-                form.ShowDialog();
-                this.Close();
+                if (PasswordTxb.Text == "123456")
+                {
+                    role = 3;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
             }
-            else if (UserNameTxb.Text == "letan" && PasswordTxb.Text == "123456")
+            else if (UserNameTxb.Text == "letan")
             {
-                role = 2;
-                Home form = new Home(role);
-                this.Hide();
-                form.ShowDialog();
-                this.Close();
+                if (PasswordTxb.Text == "123456")
+                {
+                    role = 2;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
             }
-            else if (UserNameTxb.Text == "ketoan" && PasswordTxb.Text == "123456")
+            else if (UserNameTxb.Text == "ketoan")
             {
-                role = 1;
-                Home form = new Home(role);
-                this.Hide();
-                form.ShowDialog();
-                this.Close();
+                if (PasswordTxb.Text == "123456")
+                {
+                    role = 1;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
             }
-            else if (UserNameTxb.Text == "giamdoc" && PasswordTxb.Text == "admin")
+            else if (UserNameTxb.Text == "giamdoc")
             {
-                role = 0;
-                Home form = new Home(role);
-                this.Hide();
-                form.ShowDialog();
-                this.Close();
+                if (PasswordTxb.Text == "admin")
+                {
+                    role = 0;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else 
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
+                }
             }
+            else
+            {
+                MessageBox.Show("You type the wrong UserName!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }   
             /*Home form = new Home();
             this.Hide();
             form.ShowDialog();
