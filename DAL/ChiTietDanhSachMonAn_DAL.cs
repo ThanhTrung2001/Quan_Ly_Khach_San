@@ -25,7 +25,7 @@ namespace DAL
                 return false;
             }
         }
-
+        
         public static List<MonAn> FoodList(string maDS)
         {
             string command = $"select maMonAn, soLuong from CTDSMonAn where maDSMA = '{maDS}'";

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    class DichVu
+    public class DichVu
     {
         //	maDV varchar(10) primary key,
         //	tenDV varchar(100),

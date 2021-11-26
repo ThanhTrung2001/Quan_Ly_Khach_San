@@ -46,6 +46,7 @@
     <Compile Include="ChiTietDanhSachNguyenLieu.cs" />
     <Compile Include="DichVu.cs" />
     <Compile Include="DonViTinh.cs" />
+    <Compile Include="HoaDonDichVu.cs" />
     <Compile Include="HoaDonMonAn.cs" />
     <Compile Include="HoaDonPhong.cs" />
     <Compile Include="KhachHang.cs" />

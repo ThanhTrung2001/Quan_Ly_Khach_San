@@ -518,7 +518,7 @@ namespace Quan_Ly_Khach_San
             this.ImportMaterialBtn.ShadowDecoration.Parent = this.ImportMaterialBtn;
             this.ImportMaterialBtn.Size = new System.Drawing.Size(164, 47);
             this.ImportMaterialBtn.TabIndex = 29;
-            this.ImportMaterialBtn.Text = "Export List";
+            this.ImportMaterialBtn.Text = "Import List";
             this.ImportMaterialBtn.Click += new System.EventHandler(this.ImportMaterialBtn_Click);
             // 
             // siticonePanel24
