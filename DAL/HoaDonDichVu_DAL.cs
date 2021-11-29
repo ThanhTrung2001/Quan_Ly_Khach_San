@@ -47,7 +47,7 @@ namespace DAL
 
         public static bool AddNewServiceBill(HoaDonDichVu hoaDon)
         {
-            string command = $"insert into HoaDonDichVu(maHoaDon, checkin, checkout, maKH, maDSDV, tongTien, tienNhan, tienThua, maTinhTrang) values ('{hoaDon.MaHoaDon}', '{hoaDon.Checkin}', '{hoaDon.Checkout}', '{hoaDon.MaKH}', '{hoaDon.MaDSDV}', , {hoaDon.TongTien}, {hoaDon.TienNhan}, {hoaDon.TienThua}, '{hoaDon.MaTinhTrang}')";
+            string command = $"insert into HoaDonDichVu(maHoaDon, checkin, checkout, maKH, maDSDV, tongTien, tienNhan, tienThua, maTinhTrang) values ('{hoaDon.MaHoaDon}', '{hoaDon.Checkin}', '{hoaDon.Checkout}', '{hoaDon.MaKH}', '{hoaDon.MaDSDV}',  {hoaDon.TongTien}, {hoaDon.TienNhan}, {hoaDon.TienThua}, '{hoaDon.MaTinhTrang}')";
             conn = DataProvider.MoKetNoiDatabase();
             try
             {

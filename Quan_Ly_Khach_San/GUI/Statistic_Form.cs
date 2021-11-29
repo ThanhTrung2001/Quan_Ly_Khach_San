@@ -19,6 +19,28 @@ namespace Quan_Ly_Khach_San
             InitializeComponent();
         }
 
+        #region Supplier
+        private void LoadSupplier()
+        {
+            this.SupplierNameCb.Items.Clear();
+            List<DaiLy> list = DaiLy_BUS.SupplierList();
+            if (list == null) list = new List<DaiLy>();
+
+            DaiLy dly = new DaiLy();
+            dly.MaDL = "all";
+            dly.TenDL = "All";
+            list.Insert(0, dly);
+
+            this.SupplierNameCb.DataSource = list;
+
+            this.SupplierNameCb.ValueMember = "MaDL";
+            this.SupplierNameCb.DisplayMember = "TenDL";
+
+            this.SupplierNameCb.SelectedIndex = 0;
+        }
+
+        #endregion
+
         #region Food Request
         private void RequestFoodLoad()
         {
@@ -335,9 +357,9 @@ namespace Quan_Ly_Khach_San
             p.MaDSNL = listID;
             p.TongTien = Double.Parse(this.totaltxt.Text);
             p.MaTrangThai = "Co";
-            if (this.SupplierEmailTxb.Text == "")
+            if (this.NoteSupplierTxb.Text == "")
                 p.GhiChu = "none";
-            else p.GhiChu = this.SupplierEmailTxb.Text;
+            else p.GhiChu = this.NoteSupplierTxb.Text;
 
             if (PhieuThanhToan_BUS.AddNewAgent(p))
             {
@@ -348,7 +370,7 @@ namespace Quan_Ly_Khach_San
 
         private void FReset()
         {
-            this.SupplierEmailTxb.Text = "";
+            this.NoteSupplierTxb.Text = "";
             this.totaltxt.Text = "0";
 
             IList.Clear();
@@ -389,6 +411,7 @@ namespace Quan_Ly_Khach_San
             RequestFoodLoad();
             PaidLoad();
             BillRoomLoad();
+            LoadSupplier();
         }
 
         #region statistic day

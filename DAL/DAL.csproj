@@ -44,6 +44,7 @@
     <Compile Include="ChiTietDanhSachDichVu_DAL.cs" />
     <Compile Include="ChiTietDanhSachMonAn_DAL.cs" />
     <Compile Include="ChiTietDanhSachNguyenLieu_DAL.cs" />
+    <Compile Include="DaiLy_DAL.cs" />
     <Compile Include="DataProvider.cs" />
     <Compile Include="DichVu_DAL.cs" />
     <Compile Include="DonViTinh_DAL.cs" />

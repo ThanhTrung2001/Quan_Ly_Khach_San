@@ -327,6 +327,7 @@ namespace Quan_Ly_Khach_San
             this.Controls.Add(this.CustomerNameTxb);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Add_Customer_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add_Customer_Form";
             this.ResumeLayout(false);
             this.PerformLayout();

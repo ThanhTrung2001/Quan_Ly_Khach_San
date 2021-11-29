@@ -120,7 +120,7 @@ namespace Quan_Ly_Khach_San.GUI
 
             foreach (DichVu ma in selectedServiceList)
             {
-                total += ma.Gia * ma.SoLuong;
+                total += ma.Gia*ma.SoLuong;
             }
 
             this.TotalPriceTxb1.Text = total.ToString();
@@ -274,17 +274,17 @@ namespace Quan_Ly_Khach_San.GUI
         {
             int i = ServiceBillDgv.CurrentRow.Index;
 
-            this.ServiceBillid.Text =   ServiceBillDgv.Rows[i].Cells[0].ToString();
-            this.checkInDate.Text =     ServiceBillDgv.Rows[i].Cells[1].ToString();
-            this.checkOutDate.Text =    ServiceBillDgv.Rows[i].Cells[2].ToString();
-            this.customerId.Text =      ServiceBillDgv.Rows[i].Cells[4].ToString(); 
-            this.serviceListId.Text =   ServiceBillDgv.Rows[i].Cells[5].ToString();
-            this.totalPriceTxb.Text =   ServiceBillDgv.Rows[i].Cells[6].ToString();
-            this.receiveTxb.Text =      ServiceBillDgv.Rows[i].Cells[7].ToString();
-            this.returnTxb.Text =       ServiceBillDgv.Rows[i].Cells[8].ToString();
-            this.risk.Text =            ServiceBillDgv.Rows[i].Cells[9].ToString();
-            this.refundTxb.Text =       ServiceBillDgv.Rows[i].Cells[10].ToString();
-            this.noteServiceBill.Text = ServiceBillDgv.Rows[i].Cells[12].ToString();
+            this.ServiceBillid.Text =   ServiceBillDgv.Rows[i].Cells[0].Value.ToString();
+            this.checkInDate.Text =     ServiceBillDgv.Rows[i].Cells[1].Value.ToString();
+            this.checkOutDate.Text =    ServiceBillDgv.Rows[i].Cells[2].Value.ToString();
+            this.customerId.Text =      ServiceBillDgv.Rows[i].Cells[4].Value.ToString();
+            this.serviceListId.Text =   ServiceBillDgv.Rows[i].Cells[5].Value.ToString();
+            this.totalPriceTxb.Text =   ServiceBillDgv.Rows[i].Cells[6].Value.ToString();
+            //this.receiveTxb.Text =      ServiceBillDgv.Rows[i].Cells[7].Value.ToString();
+            this.returnTxb.Text =       ServiceBillDgv.Rows[i].Cells[8].Value.ToString();
+            //this.risk.Text =            ServiceBillDgv.Rows[i].Cells[9].Value.ToString();
+            this.refundTxb.Text =       ServiceBillDgv.Rows[i].Cells[10].Value.ToString();
+            //this.noteServiceBill.Text = ServiceBillDgv.Rows[i].Cells[12].Value.ToString();
 
         }
 
@@ -315,7 +315,7 @@ namespace Quan_Ly_Khach_San.GUI
             }
             int receive = int.Parse(receiveTxb.Text);
             int total = int.Parse(totalPriceTxb.Text);
-            if(receive < total)
+            if(receive < 0)
             {
                 MessageBox.Show("Not Enough Money!", "Error");
                 this.receiveTxb.Text = "";

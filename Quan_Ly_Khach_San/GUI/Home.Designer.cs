@@ -34,12 +34,12 @@ namespace Quan_Ly_Khach_San
             this.MinimizeBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.ExitBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.LeftPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.FoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.ServiceBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.LogOutBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.StatisticBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.CustomerBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.RiskBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.FoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.RoomBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.LogoPb = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
             this.ParentPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
@@ -124,6 +124,43 @@ namespace Quan_Ly_Khach_San
             this.LeftPanel.ShadowDecoration.Parent = this.LeftPanel;
             this.LeftPanel.Size = new System.Drawing.Size(200, 700);
             this.LeftPanel.TabIndex = 1;
+            // 
+            // FoodBtn
+            // 
+            this.FoodBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.FoodBtn.ButtonMode = Siticone.Desktop.UI.WinForms.Enums.ButtonMode.RadioButton;
+            this.FoodBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
+            this.FoodBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.FoodBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
+            this.FoodBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.FoodBtn.CheckedState.Parent = this.FoodBtn;
+            this.FoodBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FoodBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.FoodBtn.CustomImages.Parent = this.FoodBtn;
+            this.FoodBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.FoodBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.FoodBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.FoodBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.FoodBtn.DisabledState.Parent = this.FoodBtn;
+            this.FoodBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.FoodBtn.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.FoodBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.FoodBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
+            this.FoodBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.FoodBtn.HoverState.Parent = this.FoodBtn;
+            this.FoodBtn.Image = ((System.Drawing.Image)(resources.GetObject("FoodBtn.Image")));
+            this.FoodBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.FoodBtn.ImageOffset = new System.Drawing.Point(15, 0);
+            this.FoodBtn.ImageSize = new System.Drawing.Size(35, 35);
+            this.FoodBtn.Location = new System.Drawing.Point(2, 335);
+            this.FoodBtn.Name = "FoodBtn";
+            this.FoodBtn.ShadowDecoration.Parent = this.FoodBtn;
+            this.FoodBtn.Size = new System.Drawing.Size(197, 60);
+            this.FoodBtn.TabIndex = 2;
+            this.FoodBtn.Text = "Food";
+            this.FoodBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.FoodBtn.TextOffset = new System.Drawing.Point(30, 0);
+            this.FoodBtn.Click += new System.EventHandler(this.FoodBtn_Click);
             // 
             // ServiceBtn
             // 
@@ -307,43 +344,6 @@ namespace Quan_Ly_Khach_San
             this.RiskBtn.TextOffset = new System.Drawing.Point(30, 0);
             this.RiskBtn.Click += new System.EventHandler(this.RiskBtn_Click);
             // 
-            // FoodBtn
-            // 
-            this.FoodBtn.BorderColor = System.Drawing.Color.Transparent;
-            this.FoodBtn.ButtonMode = Siticone.Desktop.UI.WinForms.Enums.ButtonMode.RadioButton;
-            this.FoodBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
-            this.FoodBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.FoodBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
-            this.FoodBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.FoodBtn.CheckedState.Parent = this.FoodBtn;
-            this.FoodBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FoodBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.FoodBtn.CustomImages.Parent = this.FoodBtn;
-            this.FoodBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.FoodBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.FoodBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.FoodBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.FoodBtn.DisabledState.Parent = this.FoodBtn;
-            this.FoodBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.FoodBtn.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.FoodBtn.ForeColor = System.Drawing.Color.DarkGray;
-            this.FoodBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
-            this.FoodBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.FoodBtn.HoverState.Parent = this.FoodBtn;
-            this.FoodBtn.Image = ((System.Drawing.Image)(resources.GetObject("FoodBtn.Image")));
-            this.FoodBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.FoodBtn.ImageOffset = new System.Drawing.Point(15, 0);
-            this.FoodBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.FoodBtn.Location = new System.Drawing.Point(2, 335);
-            this.FoodBtn.Name = "FoodBtn";
-            this.FoodBtn.ShadowDecoration.Parent = this.FoodBtn;
-            this.FoodBtn.Size = new System.Drawing.Size(197, 60);
-            this.FoodBtn.TabIndex = 2;
-            this.FoodBtn.Text = "Food";
-            this.FoodBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.FoodBtn.TextOffset = new System.Drawing.Point(30, 0);
-            this.FoodBtn.Click += new System.EventHandler(this.FoodBtn_Click);
-            // 
             // RoomBtn
             // 
             this.RoomBtn.BorderColor = System.Drawing.Color.Transparent;
@@ -383,12 +383,16 @@ namespace Quan_Ly_Khach_San
             // 
             // LogoPb
             // 
+            this.LogoPb.BackColor = System.Drawing.Color.Transparent;
+            this.LogoPb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LogoPb.BackgroundImage")));
+            this.LogoPb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LogoPb.FillColor = System.Drawing.Color.Transparent;
             this.LogoPb.ImageRotate = 0F;
-            this.LogoPb.Location = new System.Drawing.Point(38, 12);
+            this.LogoPb.Location = new System.Drawing.Point(0, 2);
             this.LogoPb.Name = "LogoPb";
             this.LogoPb.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.LogoPb.ShadowDecoration.Parent = this.LogoPb;
-            this.LogoPb.Size = new System.Drawing.Size(124, 120);
+            this.LogoPb.Size = new System.Drawing.Size(200, 200);
             this.LogoPb.TabIndex = 0;
             this.LogoPb.TabStop = false;
             // 

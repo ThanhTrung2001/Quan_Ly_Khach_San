@@ -63,6 +63,18 @@
     <Compile Include="GUI\Add_Customer_Form.Designer.cs">
       <DependentUpon>Add_Customer_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Add_Ingredient_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Add_Ingredient_Form.Designer.cs">
+      <DependentUpon>Add_Ingredient_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Add_Supplier_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Add_Supplier_Form.Designer.cs">
+      <DependentUpon>Add_Supplier_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Customer_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +127,12 @@
     </Compile>
     <EmbeddedResource Include="GUI\Add_Customer_Form.resx">
       <DependentUpon>Add_Customer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Add_Ingredient_Form.resx">
+      <DependentUpon>Add_Ingredient_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Add_Supplier_Form.resx">
+      <DependentUpon>Add_Supplier_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Customer_Form.resx">
       <DependentUpon>Customer_Form.cs</DependentUpon>
