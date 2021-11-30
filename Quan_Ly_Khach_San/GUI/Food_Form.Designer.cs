@@ -42,9 +42,9 @@ namespace Quan_Ly_Khach_San
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ServiceTab = new System.Windows.Forms.TabPage();
+            this.label1 = new System.Windows.Forms.Label();
             this.IngredientTypeCBB = new Guna.UI2.WinForms.Guna2ComboBox();
             this.SearchMaterialTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel22 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.ListMaterialDGV = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,10 +62,12 @@ namespace Quan_Ly_Khach_San
             this.DVT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.siticonePanel15 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.label4 = new System.Windows.Forms.Label();
             this.ImportListTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.ImportMaterialBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.siticoneHtmlLabel11 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.siticonePanel24 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.MaterialReasonTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.RequestMaterialBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.DeleteMaterialBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
@@ -75,16 +77,14 @@ namespace Quan_Ly_Khach_San
             this.PlusBtn = new Siticone.Desktop.UI.WinForms.SiticoneCircleButton();
             this.MaterialNumberTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.MaterialNoteTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneHtmlLabel14 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.siticoneHtmlLabel16 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.RoomTab = new System.Windows.Forms.TabPage();
+            this.label6 = new System.Windows.Forms.Label();
             this.SearchFood = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.SubFoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneCircleButton();
             this.PlusFoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneCircleButton();
             this.FoodNumberTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.DeleteInListBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.AddToListBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.siticoneHtmlLabel2 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.ListFoodRequestDGV = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,9 +108,9 @@ namespace Quan_Ly_Khach_San
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.siticonePanel14 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.label5 = new System.Windows.Forms.Label();
             this.TotalPrice = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.AddCustomerBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.siticoneHtmlLabel10 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.CustomerPickCb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
             this.RequestFoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ServiceTabManage = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
@@ -129,9 +129,9 @@ namespace Quan_Ly_Khach_San
             // ServiceTab
             // 
             this.ServiceTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            this.ServiceTab.Controls.Add(this.label1);
             this.ServiceTab.Controls.Add(this.IngredientTypeCBB);
             this.ServiceTab.Controls.Add(this.SearchMaterialTxb);
-            this.ServiceTab.Controls.Add(this.siticoneHtmlLabel22);
             this.ServiceTab.Controls.Add(this.ListMaterialDGV);
             this.ServiceTab.Controls.Add(this.MaterialDGV);
             this.ServiceTab.Controls.Add(this.siticonePanel15);
@@ -142,6 +142,16 @@ namespace Quan_Ly_Khach_San
             this.ServiceTab.Size = new System.Drawing.Size(992, 602);
             this.ServiceTab.TabIndex = 1;
             this.ServiceTab.Text = "STORAGE";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label1.Location = new System.Drawing.Point(914, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 13);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "List chosen";
             // 
             // IngredientTypeCBB
             // 
@@ -195,17 +205,6 @@ namespace Quan_Ly_Khach_San
             this.SearchMaterialTxb.Size = new System.Drawing.Size(208, 39);
             this.SearchMaterialTxb.TabIndex = 35;
             this.SearchMaterialTxb.TextChanged += new System.EventHandler(this.SearchMaterialTxb_TextChanged);
-            // 
-            // siticoneHtmlLabel22
-            // 
-            this.siticoneHtmlLabel22.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel22.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.siticoneHtmlLabel22.Location = new System.Drawing.Point(908, 21);
-            this.siticoneHtmlLabel22.Name = "siticoneHtmlLabel22";
-            this.siticoneHtmlLabel22.Size = new System.Drawing.Size(75, 15);
-            this.siticoneHtmlLabel22.TabIndex = 34;
-            this.siticoneHtmlLabel22.Text = "List choosen";
             // 
             // ListMaterialDGV
             // 
@@ -450,15 +449,26 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel15.BorderColor = System.Drawing.Color.Black;
             this.siticonePanel15.BorderRadius = 15;
             this.siticonePanel15.BorderThickness = 2;
+            this.siticonePanel15.Controls.Add(this.label4);
             this.siticonePanel15.Controls.Add(this.ImportListTxt);
             this.siticonePanel15.Controls.Add(this.ImportMaterialBtn);
-            this.siticonePanel15.Controls.Add(this.siticoneHtmlLabel11);
             this.siticonePanel15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticonePanel15.Location = new System.Drawing.Point(758, 426);
             this.siticonePanel15.Name = "siticonePanel15";
             this.siticonePanel15.ShadowDecoration.Parent = this.siticonePanel15;
             this.siticonePanel15.Size = new System.Drawing.Size(228, 167);
             this.siticonePanel15.TabIndex = 31;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(81, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(70, 20);
+            this.label4.TabIndex = 34;
+            this.label4.Text = "List ID";
             // 
             // ImportListTxt
             // 
@@ -511,25 +521,14 @@ namespace Quan_Ly_Khach_San
             this.ImportMaterialBtn.Text = "Import List";
             this.ImportMaterialBtn.Click += new System.EventHandler(this.ImportMaterialBtn_Click);
             // 
-            // siticoneHtmlLabel11
-            // 
-            this.siticoneHtmlLabel11.AutoSize = false;
-            this.siticoneHtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel11.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel11.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel11.Location = new System.Drawing.Point(39, 6);
-            this.siticoneHtmlLabel11.Name = "siticoneHtmlLabel11";
-            this.siticoneHtmlLabel11.Size = new System.Drawing.Size(139, 27);
-            this.siticoneHtmlLabel11.TabIndex = 28;
-            this.siticoneHtmlLabel11.Text = "List ID";
-            this.siticoneHtmlLabel11.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // siticonePanel24
             // 
             this.siticonePanel24.BackColor = System.Drawing.Color.Transparent;
             this.siticonePanel24.BorderColor = System.Drawing.Color.Black;
             this.siticonePanel24.BorderRadius = 15;
             this.siticonePanel24.BorderThickness = 2;
+            this.siticonePanel24.Controls.Add(this.label3);
+            this.siticonePanel24.Controls.Add(this.label2);
             this.siticonePanel24.Controls.Add(this.MaterialReasonTxb);
             this.siticonePanel24.Controls.Add(this.RequestMaterialBtn);
             this.siticonePanel24.Controls.Add(this.DeleteMaterialBtn);
@@ -539,14 +538,34 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel24.Controls.Add(this.PlusBtn);
             this.siticonePanel24.Controls.Add(this.MaterialNumberTxb);
             this.siticonePanel24.Controls.Add(this.MaterialNoteTxb);
-            this.siticonePanel24.Controls.Add(this.siticoneHtmlLabel14);
-            this.siticonePanel24.Controls.Add(this.siticoneHtmlLabel16);
             this.siticonePanel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticonePanel24.Location = new System.Drawing.Point(8, 426);
             this.siticonePanel24.Name = "siticonePanel24";
             this.siticonePanel24.ShadowDecoration.Parent = this.siticonePanel24;
             this.siticonePanel24.Size = new System.Drawing.Size(744, 167);
             this.siticonePanel24.TabIndex = 30;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(44, 72);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 16);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "Reason";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(44, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(37, 16);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "Note";
             // 
             // MaterialReasonTxb
             // 
@@ -777,38 +796,16 @@ namespace Quan_Ly_Khach_San
             this.MaterialNoteTxb.Size = new System.Drawing.Size(329, 36);
             this.MaterialNoteTxb.TabIndex = 0;
             // 
-            // siticoneHtmlLabel14
-            // 
-            this.siticoneHtmlLabel14.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel14.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel14.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel14.Location = new System.Drawing.Point(13, 61);
-            this.siticoneHtmlLabel14.Name = "siticoneHtmlLabel14";
-            this.siticoneHtmlLabel14.Size = new System.Drawing.Size(47, 18);
-            this.siticoneHtmlLabel14.TabIndex = 9;
-            this.siticoneHtmlLabel14.Text = "Reason";
-            // 
-            // siticoneHtmlLabel16
-            // 
-            this.siticoneHtmlLabel16.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel16.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel16.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel16.Location = new System.Drawing.Point(13, 15);
-            this.siticoneHtmlLabel16.Name = "siticoneHtmlLabel16";
-            this.siticoneHtmlLabel16.Size = new System.Drawing.Size(33, 18);
-            this.siticoneHtmlLabel16.TabIndex = 3;
-            this.siticoneHtmlLabel16.Text = "Note";
-            // 
             // RoomTab
             // 
             this.RoomTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.RoomTab.Controls.Add(this.label6);
             this.RoomTab.Controls.Add(this.SearchFood);
             this.RoomTab.Controls.Add(this.SubFoodBtn);
             this.RoomTab.Controls.Add(this.PlusFoodBtn);
             this.RoomTab.Controls.Add(this.FoodNumberTxb);
             this.RoomTab.Controls.Add(this.DeleteInListBtn);
             this.RoomTab.Controls.Add(this.AddToListBtn);
-            this.RoomTab.Controls.Add(this.siticoneHtmlLabel2);
             this.RoomTab.Controls.Add(this.ListFoodRequestDGV);
             this.RoomTab.Controls.Add(this.FoodTypeCb);
             this.RoomTab.Controls.Add(this.siticoneHtmlLabel1);
@@ -820,6 +817,17 @@ namespace Quan_Ly_Khach_San
             this.RoomTab.Size = new System.Drawing.Size(992, 602);
             this.RoomTab.TabIndex = 0;
             this.RoomTab.Text = "FOOD";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label6.Location = new System.Drawing.Point(945, 54);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(31, 16);
+            this.label6.TabIndex = 41;
+            this.label6.Text = "List";
             // 
             // SearchFood
             // 
@@ -976,17 +984,6 @@ namespace Quan_Ly_Khach_San
             this.AddToListBtn.TabIndex = 35;
             this.AddToListBtn.Text = "Request";
             this.AddToListBtn.Click += new System.EventHandler(this.AddToListBtn_Click);
-            // 
-            // siticoneHtmlLabel2
-            // 
-            this.siticoneHtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.siticoneHtmlLabel2.Location = new System.Drawing.Point(949, 49);
-            this.siticoneHtmlLabel2.Name = "siticoneHtmlLabel2";
-            this.siticoneHtmlLabel2.Size = new System.Drawing.Size(27, 18);
-            this.siticoneHtmlLabel2.TabIndex = 34;
-            this.siticoneHtmlLabel2.Text = "List";
             // 
             // ListFoodRequestDGV
             // 
@@ -1304,9 +1301,9 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel14.BorderColor = System.Drawing.Color.Black;
             this.siticonePanel14.BorderRadius = 15;
             this.siticonePanel14.BorderThickness = 2;
+            this.siticonePanel14.Controls.Add(this.label5);
             this.siticonePanel14.Controls.Add(this.TotalPrice);
             this.siticonePanel14.Controls.Add(this.AddCustomerBtn);
-            this.siticonePanel14.Controls.Add(this.siticoneHtmlLabel10);
             this.siticonePanel14.Controls.Add(this.CustomerPickCb);
             this.siticonePanel14.Controls.Add(this.RequestFoodBtn);
             this.siticonePanel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
@@ -1315,6 +1312,17 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel14.ShadowDecoration.Parent = this.siticonePanel14;
             this.siticonePanel14.Size = new System.Drawing.Size(386, 162);
             this.siticonePanel14.TabIndex = 29;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(136, 11);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 20);
+            this.label5.TabIndex = 42;
+            this.label5.Text = "Customer";
             // 
             // TotalPrice
             // 
@@ -1366,19 +1374,6 @@ namespace Quan_Ly_Khach_San
             this.AddCustomerBtn.TabIndex = 29;
             this.AddCustomerBtn.Text = "New";
             this.AddCustomerBtn.Click += new System.EventHandler(this.AddCustomerBtn_Click);
-            // 
-            // siticoneHtmlLabel10
-            // 
-            this.siticoneHtmlLabel10.AutoSize = false;
-            this.siticoneHtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel10.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel10.ForeColor = System.Drawing.Color.White;
-            this.siticoneHtmlLabel10.Location = new System.Drawing.Point(3, 10);
-            this.siticoneHtmlLabel10.Name = "siticoneHtmlLabel10";
-            this.siticoneHtmlLabel10.Size = new System.Drawing.Size(139, 27);
-            this.siticoneHtmlLabel10.TabIndex = 28;
-            this.siticoneHtmlLabel10.Text = "Customer";
-            this.siticoneHtmlLabel10.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CustomerPickCb
             // 
@@ -1472,6 +1467,7 @@ namespace Quan_Ly_Khach_San
             ((System.ComponentModel.ISupportInitialize)(this.ListMaterialDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MaterialDGV)).EndInit();
             this.siticonePanel15.ResumeLayout(false);
+            this.siticonePanel15.PerformLayout();
             this.siticonePanel24.ResumeLayout(false);
             this.siticonePanel24.PerformLayout();
             this.RoomTab.ResumeLayout(false);
@@ -1479,6 +1475,7 @@ namespace Quan_Ly_Khach_San
             ((System.ComponentModel.ISupportInitialize)(this.ListFoodRequestDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MenuFoodDGV)).EndInit();
             this.siticonePanel14.ResumeLayout(false);
+            this.siticonePanel14.PerformLayout();
             this.ServiceTabManage.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -1486,12 +1483,10 @@ namespace Quan_Ly_Khach_San
 
         #endregion
         private System.Windows.Forms.TabPage ServiceTab;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel22;
         private Guna.UI2.WinForms.Guna2DataGridView ListMaterialDGV;
         private Guna.UI2.WinForms.Guna2DataGridView MaterialDGV;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel15;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton ImportMaterialBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel11;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel24;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton DeleteMaterialBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddMaterialBtn;
@@ -1500,11 +1495,8 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneCircleButton PlusBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox MaterialNumberTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox MaterialNoteTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel14;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel16;
         private System.Windows.Forms.TabPage RoomTab;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel14;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel10;
         private Siticone.Desktop.UI.WinForms.SiticoneComboBox CustomerPickCb;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton RequestFoodBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneTabControl ServiceTabManage;
@@ -1513,7 +1505,6 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneComboBox FoodTypeCb;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton DeleteInListBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddToListBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel2;
         private Guna.UI2.WinForms.Guna2DataGridView ListFoodRequestDGV;
         private Siticone.Desktop.UI.WinForms.SiticoneCircleButton SubFoodBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneCircleButton PlusFoodBtn;
@@ -1558,5 +1549,11 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column31;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox ImportListTxt;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
     }
 }

@@ -12,6 +12,7 @@ namespace Quan_Ly_Khach_San
 {
     public partial class Login : Form
     {
+        public int role;
         public Login()
         {
             InitializeComponent();
@@ -19,10 +20,98 @@ namespace Quan_Ly_Khach_San
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            Home form = new Home();
+            
+            if(UserNameTxb.Text == "thukho")
+            {
+                if (PasswordTxb.Text == "123456")
+                {
+                    role = 4;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+            }
+            else if (UserNameTxb.Text == "daubep")
+            {
+                if (PasswordTxb.Text == "123456")
+                {
+                    role = 3;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
+            }
+            else if (UserNameTxb.Text == "letan")
+            {
+                if (PasswordTxb.Text == "123456")
+                {
+                    role = 2;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
+            }
+            else if (UserNameTxb.Text == "ketoan")
+            {
+                if (PasswordTxb.Text == "123456")
+                {
+                    role = 1;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+
+            }
+            else if (UserNameTxb.Text == "giamdoc")
+            {
+                if (PasswordTxb.Text == "admin")
+                {
+                    role = 0;
+                    Home form = new Home(role);
+                    this.Hide();
+                    form.ShowDialog();
+                    this.Close();
+                }
+                else 
+                {
+                    MessageBox.Show("You type the wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
+                }
+            }
+            else
+            {
+                MessageBox.Show("You type the wrong UserName!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }   
+            /*Home form = new Home();
             this.Hide();
             form.ShowDialog();
-            this.Close();
+            this.Close();*/
         }
     }
 }

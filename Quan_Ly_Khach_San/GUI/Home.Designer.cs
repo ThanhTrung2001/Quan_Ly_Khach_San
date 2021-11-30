@@ -34,12 +34,13 @@ namespace Quan_Ly_Khach_San
             this.MinimizeBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.ExitBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.LeftPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.FoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.ServiceBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.LogOutBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.StatisticBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.CustomerBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.RiskBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.FoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.ServiceBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.RoomBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.LogoPb = new Siticone.Desktop.UI.WinForms.SiticoneCirclePictureBox();
             this.ParentPanel = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.TopPanel.SuspendLayout();
@@ -109,12 +110,13 @@ namespace Quan_Ly_Khach_San
             // LeftPanel
             // 
             this.LeftPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.LeftPanel.Controls.Add(this.FoodBtn);
+            this.LeftPanel.Controls.Add(this.ServiceBtn);
             this.LeftPanel.Controls.Add(this.LogOutBtn);
             this.LeftPanel.Controls.Add(this.StatisticBtn);
             this.LeftPanel.Controls.Add(this.CustomerBtn);
             this.LeftPanel.Controls.Add(this.RiskBtn);
-            this.LeftPanel.Controls.Add(this.FoodBtn);
-            this.LeftPanel.Controls.Add(this.ServiceBtn);
+            this.LeftPanel.Controls.Add(this.RoomBtn);
             this.LeftPanel.Controls.Add(this.LogoPb);
             this.LeftPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.LeftPanel.Location = new System.Drawing.Point(0, 0);
@@ -123,6 +125,80 @@ namespace Quan_Ly_Khach_San
             this.LeftPanel.Size = new System.Drawing.Size(200, 700);
             this.LeftPanel.TabIndex = 1;
             // 
+            // FoodBtn
+            // 
+            this.FoodBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.FoodBtn.ButtonMode = Siticone.Desktop.UI.WinForms.Enums.ButtonMode.RadioButton;
+            this.FoodBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
+            this.FoodBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.FoodBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
+            this.FoodBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.FoodBtn.CheckedState.Parent = this.FoodBtn;
+            this.FoodBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FoodBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.FoodBtn.CustomImages.Parent = this.FoodBtn;
+            this.FoodBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.FoodBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.FoodBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.FoodBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.FoodBtn.DisabledState.Parent = this.FoodBtn;
+            this.FoodBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.FoodBtn.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.FoodBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.FoodBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
+            this.FoodBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.FoodBtn.HoverState.Parent = this.FoodBtn;
+            this.FoodBtn.Image = ((System.Drawing.Image)(resources.GetObject("FoodBtn.Image")));
+            this.FoodBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.FoodBtn.ImageOffset = new System.Drawing.Point(15, 0);
+            this.FoodBtn.ImageSize = new System.Drawing.Size(35, 35);
+            this.FoodBtn.Location = new System.Drawing.Point(2, 335);
+            this.FoodBtn.Name = "FoodBtn";
+            this.FoodBtn.ShadowDecoration.Parent = this.FoodBtn;
+            this.FoodBtn.Size = new System.Drawing.Size(197, 60);
+            this.FoodBtn.TabIndex = 2;
+            this.FoodBtn.Text = "Food";
+            this.FoodBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.FoodBtn.TextOffset = new System.Drawing.Point(30, 0);
+            this.FoodBtn.Click += new System.EventHandler(this.FoodBtn_Click);
+            // 
+            // ServiceBtn
+            // 
+            this.ServiceBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.ServiceBtn.ButtonMode = Siticone.Desktop.UI.WinForms.Enums.ButtonMode.RadioButton;
+            this.ServiceBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
+            this.ServiceBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.ServiceBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
+            this.ServiceBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.ServiceBtn.CheckedState.Parent = this.ServiceBtn;
+            this.ServiceBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ServiceBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.ServiceBtn.CustomImages.Parent = this.ServiceBtn;
+            this.ServiceBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ServiceBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ServiceBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ServiceBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ServiceBtn.DisabledState.Parent = this.ServiceBtn;
+            this.ServiceBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.ServiceBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.ServiceBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
+            this.ServiceBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.ServiceBtn.HoverState.Parent = this.ServiceBtn;
+            this.ServiceBtn.Image = ((System.Drawing.Image)(resources.GetObject("ServiceBtn.Image")));
+            this.ServiceBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ServiceBtn.ImageOffset = new System.Drawing.Point(15, 0);
+            this.ServiceBtn.ImageSize = new System.Drawing.Size(35, 35);
+            this.ServiceBtn.Location = new System.Drawing.Point(2, 275);
+            this.ServiceBtn.Name = "ServiceBtn";
+            this.ServiceBtn.ShadowDecoration.Parent = this.ServiceBtn;
+            this.ServiceBtn.Size = new System.Drawing.Size(197, 60);
+            this.ServiceBtn.TabIndex = 7;
+            this.ServiceBtn.Text = "Service";
+            this.ServiceBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.ServiceBtn.TextOffset = new System.Drawing.Point(30, 0);
+            this.ServiceBtn.Click += new System.EventHandler(this.ServiceBtn_Click_1);
+            // 
             // LogOutBtn
             // 
             this.LogOutBtn.BorderColor = System.Drawing.Color.Transparent;
@@ -130,7 +206,7 @@ namespace Quan_Ly_Khach_San
             this.LogOutBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
             this.LogOutBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
             this.LogOutBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
-            this.LogOutBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.LogOutBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
             this.LogOutBtn.CheckedState.Parent = this.LogOutBtn;
             this.LogOutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LogOutBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
@@ -164,7 +240,7 @@ namespace Quan_Ly_Khach_San
             this.StatisticBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
             this.StatisticBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
             this.StatisticBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
-            this.StatisticBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.StatisticBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
             this.StatisticBtn.CheckedState.Parent = this.StatisticBtn;
             this.StatisticBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.StatisticBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
@@ -184,7 +260,7 @@ namespace Quan_Ly_Khach_San
             this.StatisticBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.StatisticBtn.ImageOffset = new System.Drawing.Point(15, 0);
             this.StatisticBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.StatisticBtn.Location = new System.Drawing.Point(2, 455);
+            this.StatisticBtn.Location = new System.Drawing.Point(2, 515);
             this.StatisticBtn.Name = "StatisticBtn";
             this.StatisticBtn.ShadowDecoration.Parent = this.StatisticBtn;
             this.StatisticBtn.Size = new System.Drawing.Size(197, 60);
@@ -201,7 +277,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
             this.CustomerBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
             this.CustomerBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
-            this.CustomerBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.CustomerBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
             this.CustomerBtn.CheckedState.Parent = this.CustomerBtn;
             this.CustomerBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CustomerBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
@@ -221,7 +297,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.CustomerBtn.ImageOffset = new System.Drawing.Point(15, 0);
             this.CustomerBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.CustomerBtn.Location = new System.Drawing.Point(2, 395);
+            this.CustomerBtn.Location = new System.Drawing.Point(2, 455);
             this.CustomerBtn.Name = "CustomerBtn";
             this.CustomerBtn.ShadowDecoration.Parent = this.CustomerBtn;
             this.CustomerBtn.Size = new System.Drawing.Size(197, 60);
@@ -238,7 +314,7 @@ namespace Quan_Ly_Khach_San
             this.RiskBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
             this.RiskBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
             this.RiskBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
-            this.RiskBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
+            this.RiskBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
             this.RiskBtn.CheckedState.Parent = this.RiskBtn;
             this.RiskBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RiskBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
@@ -258,7 +334,7 @@ namespace Quan_Ly_Khach_San
             this.RiskBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.RiskBtn.ImageOffset = new System.Drawing.Point(15, 0);
             this.RiskBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.RiskBtn.Location = new System.Drawing.Point(2, 335);
+            this.RiskBtn.Location = new System.Drawing.Point(2, 395);
             this.RiskBtn.Name = "RiskBtn";
             this.RiskBtn.ShadowDecoration.Parent = this.RiskBtn;
             this.RiskBtn.Size = new System.Drawing.Size(197, 60);
@@ -268,88 +344,55 @@ namespace Quan_Ly_Khach_San
             this.RiskBtn.TextOffset = new System.Drawing.Point(30, 0);
             this.RiskBtn.Click += new System.EventHandler(this.RiskBtn_Click);
             // 
-            // FoodBtn
+            // RoomBtn
             // 
-            this.FoodBtn.BorderColor = System.Drawing.Color.Transparent;
-            this.FoodBtn.ButtonMode = Siticone.Desktop.UI.WinForms.Enums.ButtonMode.RadioButton;
-            this.FoodBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
-            this.FoodBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.FoodBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
-            this.FoodBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
-            this.FoodBtn.CheckedState.Parent = this.FoodBtn;
-            this.FoodBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.FoodBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.FoodBtn.CustomImages.Parent = this.FoodBtn;
-            this.FoodBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.FoodBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.FoodBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.FoodBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.FoodBtn.DisabledState.Parent = this.FoodBtn;
-            this.FoodBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.FoodBtn.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.FoodBtn.ForeColor = System.Drawing.Color.DarkGray;
-            this.FoodBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
-            this.FoodBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.FoodBtn.HoverState.Parent = this.FoodBtn;
-            this.FoodBtn.Image = ((System.Drawing.Image)(resources.GetObject("FoodBtn.Image")));
-            this.FoodBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.FoodBtn.ImageOffset = new System.Drawing.Point(15, 0);
-            this.FoodBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.FoodBtn.Location = new System.Drawing.Point(2, 275);
-            this.FoodBtn.Name = "FoodBtn";
-            this.FoodBtn.ShadowDecoration.Parent = this.FoodBtn;
-            this.FoodBtn.Size = new System.Drawing.Size(197, 60);
-            this.FoodBtn.TabIndex = 2;
-            this.FoodBtn.Text = "Food";
-            this.FoodBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.FoodBtn.TextOffset = new System.Drawing.Point(30, 0);
-            this.FoodBtn.Click += new System.EventHandler(this.FoodBtn_Click);
-            // 
-            // ServiceBtn
-            // 
-            this.ServiceBtn.BorderColor = System.Drawing.Color.Transparent;
-            this.ServiceBtn.ButtonMode = Siticone.Desktop.UI.WinForms.Enums.ButtonMode.RadioButton;
-            this.ServiceBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
-            this.ServiceBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.ServiceBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
-            this.ServiceBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
-            this.ServiceBtn.CheckedState.Parent = this.ServiceBtn;
-            this.ServiceBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ServiceBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.ServiceBtn.CustomImages.Parent = this.ServiceBtn;
-            this.ServiceBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ServiceBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ServiceBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ServiceBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ServiceBtn.DisabledState.Parent = this.ServiceBtn;
-            this.ServiceBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.ServiceBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ServiceBtn.ForeColor = System.Drawing.Color.DarkGray;
-            this.ServiceBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
-            this.ServiceBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.ServiceBtn.HoverState.Parent = this.ServiceBtn;
-            this.ServiceBtn.Image = ((System.Drawing.Image)(resources.GetObject("ServiceBtn.Image")));
-            this.ServiceBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.ServiceBtn.ImageOffset = new System.Drawing.Point(15, 0);
-            this.ServiceBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.ServiceBtn.Location = new System.Drawing.Point(2, 215);
-            this.ServiceBtn.Name = "ServiceBtn";
-            this.ServiceBtn.ShadowDecoration.Parent = this.ServiceBtn;
-            this.ServiceBtn.Size = new System.Drawing.Size(197, 60);
-            this.ServiceBtn.TabIndex = 1;
-            this.ServiceBtn.Text = "Service";
-            this.ServiceBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.ServiceBtn.TextOffset = new System.Drawing.Point(30, 0);
-            this.ServiceBtn.Click += new System.EventHandler(this.ServiceBtn_Click);
+            this.RoomBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.RoomBtn.ButtonMode = Siticone.Desktop.UI.WinForms.Enums.ButtonMode.RadioButton;
+            this.RoomBtn.CheckedState.CustomBorderColor = System.Drawing.Color.Cyan;
+            this.RoomBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.RoomBtn.CheckedState.ForeColor = System.Drawing.Color.Cyan;
+            this.RoomBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
+            this.RoomBtn.CheckedState.Parent = this.RoomBtn;
+            this.RoomBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RoomBtn.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.RoomBtn.CustomImages.Parent = this.RoomBtn;
+            this.RoomBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.RoomBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.RoomBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.RoomBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.RoomBtn.DisabledState.Parent = this.RoomBtn;
+            this.RoomBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
+            this.RoomBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RoomBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.RoomBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
+            this.RoomBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.RoomBtn.HoverState.Parent = this.RoomBtn;
+            this.RoomBtn.Image = ((System.Drawing.Image)(resources.GetObject("RoomBtn.Image")));
+            this.RoomBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.RoomBtn.ImageOffset = new System.Drawing.Point(15, 0);
+            this.RoomBtn.ImageSize = new System.Drawing.Size(35, 35);
+            this.RoomBtn.Location = new System.Drawing.Point(2, 215);
+            this.RoomBtn.Name = "RoomBtn";
+            this.RoomBtn.ShadowDecoration.Parent = this.RoomBtn;
+            this.RoomBtn.Size = new System.Drawing.Size(197, 60);
+            this.RoomBtn.TabIndex = 1;
+            this.RoomBtn.Text = "Room";
+            this.RoomBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.RoomBtn.TextOffset = new System.Drawing.Point(30, 0);
+            this.RoomBtn.Click += new System.EventHandler(this.ServiceBtn_Click);
             // 
             // LogoPb
             // 
+            this.LogoPb.BackColor = System.Drawing.Color.Transparent;
+            this.LogoPb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LogoPb.BackgroundImage")));
+            this.LogoPb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LogoPb.FillColor = System.Drawing.Color.Transparent;
             this.LogoPb.ImageRotate = 0F;
-            this.LogoPb.Location = new System.Drawing.Point(38, 12);
+            this.LogoPb.Location = new System.Drawing.Point(0, 2);
             this.LogoPb.Name = "LogoPb";
             this.LogoPb.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.LogoPb.ShadowDecoration.Parent = this.LogoPb;
-            this.LogoPb.Size = new System.Drawing.Size(124, 120);
+            this.LogoPb.Size = new System.Drawing.Size(200, 200);
             this.LogoPb.TabIndex = 0;
             this.LogoPb.TabStop = false;
             // 
@@ -392,9 +435,10 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneButton CustomerBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneButton RiskBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneButton FoodBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneButton ServiceBtn;
+        private Siticone.Desktop.UI.WinForms.SiticoneButton RoomBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneButton StatisticBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneButton LogOutBtn;
         private Siticone.Desktop.UI.WinForms.SiticonePanel ParentPanel;
+        private Siticone.Desktop.UI.WinForms.SiticoneButton ServiceBtn;
     }
 }

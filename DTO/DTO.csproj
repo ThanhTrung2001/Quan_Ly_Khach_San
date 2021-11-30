@@ -41,12 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietDanhSachDichVu.cs" />
     <Compile Include="ChiTietDanhSachMonAn.cs" />
     <Compile Include="ChiTietDanhSachNguyenLieu.cs" />
+    <Compile Include="DaiLy.cs" />
+    <Compile Include="DichVu.cs" />
     <Compile Include="DonViTinh.cs" />
+    <Compile Include="HoaDonDichVu.cs" />
     <Compile Include="HoaDonMonAn.cs" />
     <Compile Include="HoaDonPhong.cs" />
     <Compile Include="KhachHang.cs" />
+    <Compile Include="LoaiDichVu.cs" />
     <Compile Include="LoaiMonAn.cs" />
     <Compile Include="LoaiNguyenLieu.cs" />
     <Compile Include="MonAn.cs" />

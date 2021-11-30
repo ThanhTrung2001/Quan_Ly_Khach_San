@@ -58,7 +58,7 @@ namespace Quan_Ly_Khach_San
             this.UserNameTxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.UserNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.UserNameTxb.HoverState.Parent = this.UserNameTxb;
-            this.UserNameTxb.Location = new System.Drawing.Point(160, 166);
+            this.UserNameTxb.Location = new System.Drawing.Point(160, 177);
             this.UserNameTxb.Margin = new System.Windows.Forms.Padding(5);
             this.UserNameTxb.Name = "UserNameTxb";
             this.UserNameTxb.PasswordChar = '\0';
@@ -77,7 +77,7 @@ namespace Quan_Ly_Khach_San
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Horizontal;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(118, 166);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(118, 177);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
             this.guna2PictureBox1.Size = new System.Drawing.Size(57, 57);
@@ -92,7 +92,7 @@ namespace Quan_Ly_Khach_San
             this.guna2PictureBox2.FillColor = System.Drawing.Color.DeepSkyBlue;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(118, 236);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(118, 247);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
             this.guna2PictureBox2.Size = new System.Drawing.Size(57, 57);
@@ -117,10 +117,10 @@ namespace Quan_Ly_Khach_San
             this.PasswordTxb.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.PasswordTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PasswordTxb.HoverState.Parent = this.PasswordTxb;
-            this.PasswordTxb.Location = new System.Drawing.Point(160, 236);
+            this.PasswordTxb.Location = new System.Drawing.Point(160, 247);
             this.PasswordTxb.Margin = new System.Windows.Forms.Padding(5);
             this.PasswordTxb.Name = "PasswordTxb";
-            this.PasswordTxb.PasswordChar = '\0';
+            this.PasswordTxb.PasswordChar = '*';
             this.PasswordTxb.PlaceholderText = "Password";
             this.PasswordTxb.SelectedText = "";
             this.PasswordTxb.ShadowDecoration.Parent = this.PasswordTxb;
@@ -142,7 +142,7 @@ namespace Quan_Ly_Khach_San
             this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.LoginBtn.ForeColor = System.Drawing.Color.White;
             this.LoginBtn.HoverState.Parent = this.LoginBtn;
-            this.LoginBtn.Location = new System.Drawing.Point(209, 320);
+            this.LoginBtn.Location = new System.Drawing.Point(208, 317);
             this.LoginBtn.Name = "LoginBtn";
             this.LoginBtn.ShadowDecoration.Parent = this.LoginBtn;
             this.LoginBtn.Size = new System.Drawing.Size(161, 52);
@@ -152,10 +152,12 @@ namespace Quan_Ly_Khach_San
             // 
             // LogoPb
             // 
-            this.LogoPb.BackColor = System.Drawing.Color.White;
-            this.LogoPb.Location = new System.Drawing.Point(198, 12);
+            this.LogoPb.BackColor = System.Drawing.Color.Transparent;
+            this.LogoPb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("LogoPb.BackgroundImage")));
+            this.LogoPb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.LogoPb.Location = new System.Drawing.Point(208, 1);
             this.LogoPb.Name = "LogoPb";
-            this.LogoPb.Size = new System.Drawing.Size(203, 106);
+            this.LogoPb.Size = new System.Drawing.Size(185, 170);
             this.LogoPb.TabIndex = 6;
             this.LogoPb.TabStop = false;
             // 

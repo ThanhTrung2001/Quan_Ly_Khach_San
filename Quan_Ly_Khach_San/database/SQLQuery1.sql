@@ -249,7 +249,7 @@ create table HoaDonDichVu
 	maNV varchar(10),
 	maKH varchar(10),
 
-	maChiTietDV varchar(10),
+	maDSDV varchar(10),
 
 	tongTien money,
 	tienNhan money,
@@ -356,7 +356,7 @@ alter table HoaDonPhong add constraint FK_HoaDonPhong_Phong foreign key (maPhong
 alter table HoaDonDichVu add constraint FK_HoaDonDichVu_NhanVien foreign key (maNV) references NhanVien (maNV)
 alter table HoaDonDichVu add constraint FK_HoaDonDichVu_KhachHang foreign key (maKH) references KhachHang (maKH)
 alter table HoaDonDichVu add constraint FK_HoaDonDichVu_RuiRo foreign key (maRR) references RuiRo (maRR)
-alter table HoaDonDichVu add constraint FK_HoaDonDichVu_CTDSDichVu foreign key (maChiTietDV) references CTDSDichVu (maChiTietDV)
+--alter table HoaDonDichVu add constraint FK_HoaDonDichVu_CTDSDichVu foreign key (maDSDV) references CTDSDichVu (maDSDV)
 
 alter table BaoCaoNgay add constraint FK_BaoCaoNgay_LoaiBaoCao foreign key (maLoaiBC) references LoaiBaoCao (maLoaiBC)
 alter table BaoCaoThang add constraint FK_BaoCaoThang_LoaiBaoCao foreign key (maLoaiBC) references LoaiBaoCao (maLoaiBC)
@@ -371,6 +371,7 @@ insert into DonViTinh values ('kg','kg')
 insert into DonViTinh values ('g','g')
 insert into DonViTinh values ('p','piece')
 insert into DonViTinh values ('pl','plate')
+insert into DonViTinh values ('ti', 'ticket')
 
 insert into LoaiNguyenLieu values ('TI001','Spice')
 insert into LoaiNguyenLieu values ('TI002','Vegetable')
@@ -412,6 +413,15 @@ insert into Phong values ('P401','King', 12000,'Empty')
 insert into Phong values ('P402','King', 12000,'Empty')
 insert into Phong values ('P403','King', 12000,'Empty')
 insert into Phong values ('P404','King', 12000,'Empty')
+
+--DichVu
+insert into DichVu values ('S001', 'Sauna Evening', 'TS001','ti', 100, 1,'St')
+insert into DichVu values ('S002', 'Message Fish', 'TS002','ti', 80, 1,'St')
+insert into DichVu values ('S003', 'Join Hot Water', 'TS003','ti', 150, 1,'St');
+
+--delete from DichVu
+--where maDV = 'S003'
+
 
 insert into LoaiBaoCao values ('T001','Food Report')
 insert into LoaiBaoCao values ('T002','Room and Service Report')
