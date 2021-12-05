@@ -54,5 +54,10 @@ namespace BUS
         {
             return HoaDonPhong_DAL.RoomListWithMonth(thang, nam, CustomerID);
         }
+
+        public static List<HoaDonPhong> SearchedHoaDonPhong(string searchString)
+        {
+            return HoaDonPhong_DAL.SearchedHoaDonPhong(searchString);
+        }
     }
 }

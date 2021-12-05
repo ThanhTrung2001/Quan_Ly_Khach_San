@@ -320,5 +320,27 @@ namespace Quan_Ly_Khach_San
         }
         #endregion
 
+        private void Search()
+        {
+            List<HoaDonPhong> list;
+            string searchString = this.searchPending.Text;
+            if (searchString == "")
+            {
+                list = HoaDonPhong_BUS.RoomBillPendingList();
+            }
+            else
+            {
+                list = HoaDonPhong_BUS.SearchedHoaDonPhong(searchString);
+            }
+
+            if (list == null) list = new List<HoaDonPhong>();
+
+            RoomBillDgv.DataSource = list;
+        }
+
+        private void searchPending_TextChanged(object sender, EventArgs e)
+        {
+            Search();
+        }
     }
 }

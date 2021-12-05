@@ -257,5 +257,32 @@ namespace DAL
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;
         }
+
+        public static List<HoaDonPhong> SearchedHoaDonPhong(string searchString)
+        {
+            string command = $"select * from HoaDonPhong where maKH like '%{searchString}%' and maTinhTrang = 'Pe' or maHoaDon like N'%{searchString}%' and maTinhTrang = 'Pe' or ghiChu like '{searchString}%' and maTinhTrang = 'Pe' ";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<HoaDonPhong> danhSach = new List<HoaDonPhong>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                HoaDonPhong hoaDon = new HoaDonPhong();
+                hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.Checkin = dt.Rows[i]["checkin"].ToString();
+                hoaDon.Checkout = dt.Rows[i]["checkout"].ToString();
+                hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
+                hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
+                hoaDon.MaPhong = dt.Rows[i]["maPhong"].ToString();
+                hoaDon.SoNgayO = int.Parse(dt.Rows[i]["soNgayO"].ToString());
+                hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                danhSach.Add(hoaDon);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+        }
     }
 }
