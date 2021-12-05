@@ -50,9 +50,9 @@ namespace BUS
             return HoaDonPhong_DAL.RoomListWithDate(date, CustomerID);
         }
 
-        public static List<HoaDonPhong> RoomListWithMonth(DateTime date, string CustomerID)
+        public static List<HoaDonPhong> RoomListWithMonth(string thang, string nam, string CustomerID)
         {
-            return HoaDonPhong_DAL.RoomListWithMonth(date, CustomerID);
+            return HoaDonPhong_DAL.RoomListWithMonth(thang, nam, CustomerID);
         }
     }
 }

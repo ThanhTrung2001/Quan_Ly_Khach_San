@@ -743,7 +743,7 @@ namespace Quan_Ly_Khach_San
             double receive = 0;
             double returnMoney = 0;
             double risk = 0;
-            List<HoaDonPhong> roomList = HoaDonPhong_BUS.RoomListWithMonth(this.monthReportPicker.Value, "");
+            List<HoaDonPhong> roomList = HoaDonPhong_BUS.RoomListWithMonth(this.PickMonth.Text, this.PickYear.Text, "");
             if (roomList == null) roomList = new List<HoaDonPhong>();
             foreach (HoaDonPhong room in roomList)
             {
@@ -764,7 +764,7 @@ namespace Quan_Ly_Khach_San
             double receive = 0;
             double returnMoney = 0;
             //double risk = 0;
-            List<HoaDonMonAn> roomList = HoaDonMonAn_BUS.FoodListWithMonth(this.monthReportPicker.Value, "");
+            List<HoaDonMonAn> roomList = HoaDonMonAn_BUS.FoodListWithMonth(this.PickMonth.Text, this.PickYear.Text, "");
             if (roomList == null) roomList = new List<HoaDonMonAn>();
             foreach (HoaDonMonAn room in roomList)
             {
@@ -785,7 +785,7 @@ namespace Quan_Ly_Khach_San
             double receive = 0;
             double returnMoney = 0;
             //double risk = 0;
-            List<HoaDonDichVu> roomList = HoaDonDichVu_BUS.ServiceListWithMonth(this.monthReportPicker.Value, "");
+            List<HoaDonDichVu> roomList = HoaDonDichVu_BUS.ServiceListWithMonth(this.PickMonth.Text, this.PickYear.Text, "");
             if (roomList == null) roomList = new List<HoaDonDichVu>();
             foreach (HoaDonDichVu room in roomList)
             {
@@ -798,11 +798,13 @@ namespace Quan_Ly_Khach_San
             roomDetail.Add(receive);
             return roomDetail;
         }
-        #endregion
 
-        private void monthReportPicker_ValueChanged(object sender, EventArgs e)
+        private void searchMonth_Click(object sender, EventArgs e)
         {
             AllMonthlyLoad();
         }
+        #endregion
+
+        
     }
 }

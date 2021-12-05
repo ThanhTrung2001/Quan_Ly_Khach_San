@@ -170,9 +170,9 @@ namespace DAL
             return danhSach;
         }
 
-        public static List<HoaDonDichVu> ServiceListWithMonth(DateTime date, string customerid)
+        public static List<HoaDonDichVu> ServiceListWithMonth(string thang, string nam, string customerid)
         {
-            string command = $"select * from HoaDonDichVu where Month(checkout) = '{date.Month}' and Year(checkout) = '{date.Year}' and maKH like '{customerid}%'";
+            string command = $"select * from HoaDonDichVu where Month(checkout) = '{thang}' and Year(checkout) = '{nam}' and maKH like '{customerid}%'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)

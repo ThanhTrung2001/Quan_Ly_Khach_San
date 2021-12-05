@@ -192,9 +192,9 @@ namespace DAL
             return danhSach;
         }
 
-        public static List<HoaDonMonAn> FoodListWithMonth(DateTime date, string customerid)
+        public static List<HoaDonMonAn> FoodListWithMonth(string thang, string nam, string customerid)
         {
-            string command = $"select * from HoaDonMonAn where Month(ngayLap) = '{date.Month}' and Year(ngayLap) = '{date.Year}' and maKH like '{customerid}%'";
+            string command = $"select * from HoaDonMonAn where Month(ngayLap) = '{thang}' and Year(ngayLap) = '{nam}' and maKH like '{customerid}%'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
