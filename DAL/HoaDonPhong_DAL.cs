@@ -175,7 +175,7 @@ namespace DAL
 
         public static List<HoaDonPhong> RoomListWithDate(DateTime date, string CustomerID)
         {
-            string command = $"select maHoaDon, checkin, checkout, maNV, maKH, maPhong, soNgayO, tongTien, tienNhan, tienThua, maRR, soTienHoan, maTinhTrang, ghiChu from HoaDonPhong where Day(checkout) = '{date.Day}' and Month(checkout) = '{date.Month}' and Year(checkout) = '{date.Year}' and maKH like '{CustomerID}%'";
+            string command = $"select maHoaDon, checkin, checkout, maNV, maKH, maPhong, soNgayO, tongTien, tienNhan, tienThua, maRR, soTienHoan, maTinhTrang, ghiChu " + $"from HoaDonPhong where Day(checkout) = '{date.Day}' and Month(checkout) = '{date.Month}' and Year(checkout) = '{date.Year}' and maKH like '{CustomerID}%'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
@@ -210,6 +210,49 @@ namespace DAL
                 //else
                 //    hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
                     danhSach.Add(hoaDon);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+        }
+
+        public static List<HoaDonPhong> RoomListWithMonth(DateTime date, string CustomerID)
+        {
+            string command = $"select maHoaDon, checkin, checkout, maNV, maKH, maPhong, soNgayO, tongTien, tienNhan, tienThua, maRR, soTienHoan, maTinhTrang, ghiChu " +
+                $"from HoaDonPhong where Month(checkout) = '{date.Month}' and Year(checkout) = '{date.Year}' and maKH like '{CustomerID}%'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<HoaDonPhong> danhSach = new List<HoaDonPhong>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                HoaDonPhong hoaDon = new HoaDonPhong();
+                hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.Checkin = dt.Rows[i]["checkin"].ToString();
+                hoaDon.Checkout = dt.Rows[i]["checkout"].ToString();
+                hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
+                hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
+                hoaDon.MaPhong = dt.Rows[i]["maPhong"].ToString();
+                hoaDon.SoNgayO = int.Parse(dt.Rows[i]["soNgayO"].ToString());
+                hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
+                hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
+                hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
+                //if (dt.Rows[i]["maRR"] == null)
+                //{
+                //    hoaDon.MaRR = "";
+                //    hoaDon.SoTienHoan = 0;
+                //} else
+                //{
+                //    hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
+                //    hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
+                //}
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                //if (dt.Rows[i]["ghiChu"] == null)
+                //    hoaDon.GhiChu = "";
+                //else
+                //    hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
+                danhSach.Add(hoaDon);
             }
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;

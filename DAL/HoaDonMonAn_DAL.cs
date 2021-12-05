@@ -191,5 +191,36 @@ namespace DAL
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;
         }
+
+        public static List<HoaDonMonAn> FoodListWithMonth(DateTime date, string customerid)
+        {
+            string command = $"select * from HoaDonMonAn where Month(ngayLap) = '{date.Month}' and Year(ngayLap) = '{date.Year}' and maKH like '{customerid}%'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<HoaDonMonAn> danhSach = new List<HoaDonMonAn>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                HoaDonMonAn hoaDon = new HoaDonMonAn();
+                hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.NgayLap = dt.Rows[i]["ngayLap"].ToString();
+                hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
+                hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
+                hoaDon.MaDSMA = dt.Rows[i]["maDSMA"].ToString();
+                hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
+                hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
+                hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
+                hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
+                //hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
+
+                danhSach.Add(hoaDon);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+        }
     }
 }

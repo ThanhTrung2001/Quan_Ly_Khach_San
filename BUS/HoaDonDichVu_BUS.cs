@@ -35,5 +35,10 @@ namespace BUS
         {
             return HoaDonDichVu_DAL.ServiceListWithDate(date, customerID);
         }
+
+        public static List<HoaDonDichVu> ServiceListWithMonth(DateTime date, string customerID)
+        {
+            return HoaDonDichVu_DAL.ServiceListWithDate(date, customerID);
+        }
     }
 }

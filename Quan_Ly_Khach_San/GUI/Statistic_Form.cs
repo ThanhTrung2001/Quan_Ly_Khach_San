@@ -693,5 +693,115 @@ namespace Quan_Ly_Khach_San
             AllDailyLoad();
         }
         #endregion
+
+        #region All Monthly
+        private void AllMonthlyLoad()
+        {
+            this.chart2.Series[0].Points.Clear();
+            this.chart2.Series[1].Points.Clear();
+
+            this.chart2.Series[0].IsValueShownAsLabel = true;
+            this.chart2.Series[1].IsValueShownAsLabel = true;
+
+
+            this.chart2.Series[0].Points.AddXY("Room", RoomMonthly()[0]);
+            this.chart2.Series[1].Points.AddXY("Room", RoomMonthly()[1]);
+
+            this.chart2.Series[0].Points.AddXY("Food", FoodMonthly()[0]);
+            this.chart2.Series[1].Points.AddXY("Food", FoodMonthly()[1]);
+
+            this.chart2.Series[0].Points.AddXY("Service", ServiceMonthly()[0]);
+            this.chart2.Series[1].Points.AddXY("Service", ServiceMonthly()[1]);
+
+            this.chart2.Series[0].Points.AddXY("This Month", RoomMonthly()[0] + FoodMonthly()[0] + ServiceMonthly()[0]);
+            this.chart2.Series[1].Points.AddXY("This Month", RoomMonthly()[1] + FoodMonthly()[1] + ServiceMonthly()[1]);
+
+
+            this.receiveRoom.Text = RoomMonthly()[2].ToString();
+            this.returnRoom.Text = RoomMonthly()[1].ToString();
+            this.collectTotalRoom.Text = RoomMonthly()[0].ToString();
+
+            this.receiveFood.Text = FoodMonthly()[2].ToString();
+            this.returnFood.Text = FoodMonthly()[1].ToString();
+            this.collectTotalFood.Text = FoodMonthly()[0].ToString();
+
+            this.receiveService.Text = ServiceMonthly()[2].ToString();
+            this.returnService.Text = ServiceMonthly()[1].ToString();
+            this.collectTotalService.Text = ServiceMonthly()[0].ToString();
+
+            this.receiveTotal.Text = (RoomMonthly()[2] + FoodMonthly()[2] + ServiceMonthly()[2]).ToString();
+            this.returnTotal.Text = (RoomMonthly()[1] + FoodMonthly()[1] + ServiceMonthly()[1]).ToString();
+            this.totalTotalTotal.Text = (RoomMonthly()[0] + FoodMonthly()[0] + ServiceMonthly()[0]).ToString();
+
+        }
+
+        private List<double> RoomMonthly()
+        {
+            List<double> roomDetail = new List<double>();
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            double risk = 0;
+            List<HoaDonPhong> roomList = HoaDonPhong_BUS.RoomListWithMonth(this.monthReportPicker.Value, "");
+            if (roomList == null) roomList = new List<HoaDonPhong>();
+            foreach (HoaDonPhong room in roomList)
+            {
+                total += room.TongTien;
+                receive += room.TienNhan;
+                returnMoney += room.TienThua;
+            }
+            roomDetail.Add(total);
+            roomDetail.Add(returnMoney);
+            roomDetail.Add(receive);
+            return roomDetail;
+        }
+
+        private List<double> FoodMonthly()
+        {
+            List<double> roomDetail = new List<double>();
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            //double risk = 0;
+            List<HoaDonMonAn> roomList = HoaDonMonAn_BUS.FoodListWithMonth(this.monthReportPicker.Value, "");
+            if (roomList == null) roomList = new List<HoaDonMonAn>();
+            foreach (HoaDonMonAn room in roomList)
+            {
+                total += room.TongTien;
+                receive += room.TienNhan;
+                returnMoney += room.TienThua;
+            }
+            roomDetail.Add(total);
+            roomDetail.Add(returnMoney);
+            roomDetail.Add(receive);
+            return roomDetail;
+        }
+
+        private List<double> ServiceMonthly()
+        {
+            List<double> roomDetail = new List<double>();
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            //double risk = 0;
+            List<HoaDonDichVu> roomList = HoaDonDichVu_BUS.ServiceListWithMonth(this.monthReportPicker.Value, "");
+            if (roomList == null) roomList = new List<HoaDonDichVu>();
+            foreach (HoaDonDichVu room in roomList)
+            {
+                total += room.TongTien;
+                receive += room.TienNhan;
+                returnMoney += room.TienThua;
+            }
+            roomDetail.Add(total);
+            roomDetail.Add(returnMoney);
+            roomDetail.Add(receive);
+            return roomDetail;
+        }
+        #endregion
+
+        private void monthReportPicker_ValueChanged(object sender, EventArgs e)
+        {
+            AllMonthlyLoad();
+        }
     }
 }

@@ -44,5 +44,10 @@ namespace BUS
         {
             return HoaDonMonAn_DAO.FoodListWithDate(date, customerid);
         }
+
+        public static List<HoaDonMonAn> FoodListWithMonth(DateTime date, string customerid)
+        {
+            return HoaDonMonAn_DAO.FoodListWithDate(date, customerid);
+        }
     }
 }
