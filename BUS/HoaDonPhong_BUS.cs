@@ -52,7 +52,7 @@ namespace BUS
 
         public static List<HoaDonPhong> RoomListWithMonth(DateTime date, string CustomerID)
         {
-            return HoaDonPhong_DAL.RoomListWithDate(date, CustomerID);
+            return HoaDonPhong_DAL.RoomListWithMonth(date, CustomerID);
         }
     }
 }
