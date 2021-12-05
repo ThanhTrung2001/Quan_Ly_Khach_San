@@ -44,5 +44,10 @@ namespace BUS
         {
             return HoaDonPhong_DAL.UpdateRoomAfter(idPhong);
         }
+
+        public static List<HoaDonPhong> RoomListWithDate(DateTime date, string CustomerID)
+        {
+            return HoaDonPhong_DAL.RoomListWithDate(date, CustomerID);
+        }
     }
 }

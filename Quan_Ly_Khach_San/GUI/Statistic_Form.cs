@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using Quan_Ly_Khach_San.GUI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace Quan_Ly_Khach_San
 {
@@ -20,7 +22,7 @@ namespace Quan_Ly_Khach_San
         }
 
         #region Supplier
-        private void LoadSupplier()
+        public void LoadSupplier()
         {
             this.SupplierNameCb.Items.Clear();
             List<DaiLy> list = DaiLy_BUS.SupplierList();
@@ -412,6 +414,10 @@ namespace Quan_Ly_Khach_San
             PaidLoad();
             BillRoomLoad();
             LoadSupplier();
+            AllDailyLoad();
+            SearchFoodList();
+            SearchServiceList();
+            SearchList();
         }
 
         #region statistic day
@@ -429,14 +435,263 @@ namespace Quan_Ly_Khach_San
         {
             int i;
             i = BillRoomDgv.CurrentRow.Index;
-            this.CheckInDate.Text = BillRoomDgv.Rows[i].Cells[1].Value.ToString();
-            this.CheckOutDate.Text = BillRoomDgv.Rows[i].Cells[2].Value.ToString();
-            this.CustomerCodeTxb.Text = BillRoomDgv.Rows[i].Cells[4].Value.ToString();
-            this.RoomIDTxb.Text = BillRoomDgv.Rows[i].Cells[5].Value.ToString();
-            this.DaysTxb.Text = BillRoomDgv.Rows[i].Cells[6].Value.ToString();
-            this.TotalPriceTxb.Text = BillRoomDgv.Rows[i].Cells[7].Value.ToString();
-            this.ReceiveTxb.Text = BillRoomDgv.Rows[i].Cells[8].Value.ToString();
-            this.ReturnTxb.Text = BillRoomDgv.Rows[i].Cells[9].Value.ToString();
+            
         }
+
+        private void DeleteSupplierBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddSupplierBtn_Click(object sender, EventArgs e)
+        {
+            Add_Supplier_Form add_Ingredient_Form = new Add_Supplier_Form();
+            add_Ingredient_Form.ShowDialog();
+        }
+
+        #region Daily Room
+
+        private void PrintBillServiceBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void siticoneRoundedDateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            SearchList();
+        }
+
+        private void SearchList()
+        {
+            string id = this.customerIDTxb.Text;
+            if (id == null) id = "";
+            List<HoaDonPhong> listDailyRoom = HoaDonPhong_BUS.RoomListWithDate(this.RoomDailyDateDTP.Value, id);
+            if (listDailyRoom == null) listDailyRoom = new List<HoaDonPhong>();
+            this.BillRoomDgv.DataSource = listDailyRoom;
+            CaculateFun(listDailyRoom);
+        }
+
+        private void CaculateFun(List<HoaDonPhong> listDailyRoom)
+        {
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            double riskRefun = 0;
+
+            foreach(HoaDonPhong bill in listDailyRoom)
+            {
+                total += bill.TongTien;
+                receive += bill.TienNhan;
+                returnMoney += bill.TienThua;
+                riskRefun += bill.SoTienHoan;
+            }
+
+            this.TotalPriceTxb.Text = total.ToString();
+            this.ReceiveTxb.Text = receive.ToString();
+            this.ReturnTxb.Text = returnMoney.ToString();
+            this.RiskRefurnTxt.Text = riskRefun.ToString();
+        }
+
+        private void customerIDTxb_TextChanged(object sender, EventArgs e)
+        {
+            SearchList();
+        }
+
+        #endregion
+        #region Service Daily
+
+        private void SearchServiceList()
+        {
+            string id = this.CustomerIDDailyTxt.Text;
+            if (id == null) id = "";
+            List<HoaDonDichVu> listDailyRoom = HoaDonDichVu_BUS.ServiceListWithDate(this.ServiceDailyDateTxt.Value, id);
+            if (listDailyRoom == null) listDailyRoom = new List<HoaDonDichVu>();
+            this.ServiceDailyDGV.DataSource = listDailyRoom;
+            CaculateServiceFun(listDailyRoom);
+        }
+
+        private void CaculateServiceFun(List<HoaDonDichVu> listDailyRoom)
+        {
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            double riskRefun = 0;
+
+            foreach (HoaDonDichVu bill in listDailyRoom)
+            {
+                total += bill.TongTien;
+                receive += bill.TienNhan;
+                returnMoney += bill.TienThua;
+                riskRefun += bill.SoTienHoan;
+            }
+
+            this.ServiceTotalDailyTxt.Text = total.ToString();
+            this.ServiceReceiveDailyTxt.Text = receive.ToString();
+            this.ServiceReturnDailyTxt.Text = returnMoney.ToString();
+            this.ServiceReturnDailyTxt.Text = riskRefun.ToString();
+        }
+
+        private void ServiceDailyDateTxt_ValueChanged(object sender, EventArgs e)
+        {
+            SearchServiceList();
+        }
+
+        private void CustomerIDDailyTxt_TextChanged(object sender, EventArgs e)
+        {
+            SearchServiceList();
+        }
+        #endregion
+        #region Food Daily
+        private void SearchFoodList()
+        {
+            string id = this.FoodCustomerIDTxt.Text;
+            if (id == null) id = "";
+            List<HoaDonMonAn> listDailyRoom = HoaDonMonAn_BUS.FoodListWithDate(this.FoodDateDailyDP.Value, id);
+            if (listDailyRoom == null) listDailyRoom = new List<HoaDonMonAn>();
+            this.FoodDGV.DataSource = listDailyRoom;
+            CaculateFoodFun(listDailyRoom);
+        }
+
+        private void CaculateFoodFun(List<HoaDonMonAn> listDailyRoom)
+        {
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            double riskRefun = 0;
+
+            foreach (HoaDonMonAn bill in listDailyRoom)
+            {
+                total += bill.TongTien;
+                receive += bill.TienNhan;
+                returnMoney += bill.TienThua;
+                riskRefun += bill.SoTienHoan;
+            }
+
+            this.FoodTotalDailyTxt.Text = total.ToString();
+            this.FoodReceiveDailyTxt.Text = receive.ToString();
+            this.FoodReturnDailyTxt.Text = returnMoney.ToString();
+            this.FoodReturnDailyTxt.Text = riskRefun.ToString();
+        }
+
+        private void FoodDateDailyDP_ValueChanged(object sender, EventArgs e)
+        {
+            SearchFoodList();
+        }
+
+        private void FoodCustomerIDTxt_TextChanged(object sender, EventArgs e)
+        {
+            SearchFoodList();
+        }
+        #endregion
+
+        #region All Daily
+        private void AllDailyLoad()
+        {
+            this.chart1.Series[0].Points.Clear();
+            this.chart1.Series[1].Points.Clear();
+
+            this.chart1.Series[0].IsValueShownAsLabel = true;
+            this.chart1.Series[1].IsValueShownAsLabel = true;
+           
+
+            this.chart1.Series[0].Points.AddXY("Room", RoomDaily()[0]);
+            this.chart1.Series[1].Points.AddXY("Room", RoomDaily()[1]);
+
+            this.chart1.Series[0].Points.AddXY("Food", FoodDaily()[0]);
+            this.chart1.Series[1].Points.AddXY("Food", FoodDaily()[1]);
+
+            this.chart1.Series[0].Points.AddXY("Service", ServiceDaily()[0]);
+            this.chart1.Series[1].Points.AddXY("Service", ServiceDaily()[1]);
+
+            this.chart1.Series[0].Points.AddXY("Today", RoomDaily()[0] + FoodDaily()[0] + ServiceDaily()[0]);
+            this.chart1.Series[1].Points.AddXY("Today", RoomDaily()[1] + FoodDaily()[1] + ServiceDaily()[1]);
+
+
+            this.CollectRoom.Text = RoomDaily()[2].ToString();
+            this.PayRoom.Text = RoomDaily()[1].ToString();
+            this.totalRoom.Text = RoomDaily()[0].ToString();
+
+            this.CollectFood.Text = FoodDaily()[2].ToString();
+            this.PayFood.Text = FoodDaily()[1].ToString();
+            this.totalFood.Text = FoodDaily()[0].ToString();
+
+            this.CollectService.Text = ServiceDaily()[2].ToString();
+            this.PayService.Text = ServiceDaily()[1].ToString();
+            this.totalService.Text = ServiceDaily()[0].ToString();
+
+            this.TotalCollect.Text = (RoomDaily()[2] + FoodDaily()[2] + ServiceDaily()[2]).ToString();
+            this.TotalPay.Text = (RoomDaily()[1] + FoodDaily()[1] + ServiceDaily()[1]).ToString();
+            this.Totaltotal.Text = (RoomDaily()[0] + FoodDaily()[0] + ServiceDaily()[0]).ToString();
+
+        }
+
+        private List<double> RoomDaily()
+        {
+            List<double> roomDetail = new List<double>();
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            double risk = 0;
+            List<HoaDonPhong> roomList = HoaDonPhong_BUS.RoomListWithDate(this.DateReportPicker.Value, "");
+            if (roomList == null) roomList = new List<HoaDonPhong>();
+            foreach(HoaDonPhong room in roomList)
+            {
+                total += room.TongTien;
+                receive += room.TienNhan;
+                returnMoney += room.TienThua;
+            }
+            roomDetail.Add(total);
+            roomDetail.Add(returnMoney);
+            roomDetail.Add(receive);
+            return roomDetail;
+        }
+
+        private List<double> FoodDaily()
+        {
+            List<double> roomDetail = new List<double>();
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            //double risk = 0;
+            List<HoaDonMonAn> roomList = HoaDonMonAn_BUS.FoodListWithDate(this.DateReportPicker.Value, "");
+            if (roomList == null) roomList = new List<HoaDonMonAn>();
+            foreach (HoaDonMonAn room in roomList)
+            {
+                total += room.TongTien;
+                receive += room.TienNhan;
+                returnMoney += room.TienThua;
+            }
+            roomDetail.Add(total);
+            roomDetail.Add(returnMoney);
+            roomDetail.Add(receive);
+            return roomDetail;
+        }
+
+        private List<double> ServiceDaily()
+        {
+            List<double> roomDetail = new List<double>();
+            double total = 0;
+            double receive = 0;
+            double returnMoney = 0;
+            //double risk = 0;
+            List<HoaDonDichVu> roomList = HoaDonDichVu_BUS.ServiceListWithDate(this.DateReportPicker.Value, "");
+            if (roomList == null) roomList = new List<HoaDonDichVu>();
+            foreach (HoaDonDichVu room in roomList)
+            {
+                total += room.TongTien;
+                receive += room.TienNhan;
+                returnMoney += room.TienThua;
+            }
+            roomDetail.Add(total);
+            roomDetail.Add(returnMoney);
+            roomDetail.Add(receive);
+            return roomDetail;
+        }
+
+        private void DateReportPicker_ValueChanged(object sender, EventArgs e)
+        {
+            AllDailyLoad();
+        }
+        #endregion
     }
 }

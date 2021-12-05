@@ -39,7 +39,7 @@ namespace DAL
 
         public static bool AddNewSupplier(DaiLy daiLy)
         {
-            string command = $"insert into DaiLy (maDL, tenDL, daiChi, SDT, email, ghiChu) values ('{daiLy.MaDL}','{daiLy.TenDL}','{daiLy.DiaChi}', '{daiLy.SDT1}', '{daiLy.Email}', '{daiLy.GhiChu}')";
+            string command = $"insert into DaiLy (maDL, tenDL, diaChi, SDT, email, ghiChu) values ('{daiLy.MaDL}','{daiLy.TenDL}','{daiLy.DiaChi}', '{daiLy.SDT1}', '{daiLy.Email}', '{daiLy.GhiChu}')";
             conn = DataProvider.MoKetNoiDatabase();
             try
             {

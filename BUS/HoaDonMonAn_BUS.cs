@@ -39,5 +39,10 @@ namespace BUS
         {
             return HoaDonMonAn_DAO.BillPendingListWithCustomerID(id);
         }
+
+        public static List<HoaDonMonAn> FoodListWithDate(DateTime date, string customerid)
+        {
+            return HoaDonMonAn_DAO.FoodListWithDate(date, customerid);
+        }
     }
 }

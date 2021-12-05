@@ -41,10 +41,10 @@ namespace Quan_Ly_Khach_San
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Statistic_Form));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Statistic_Form));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -54,15 +54,9 @@ namespace Quan_Ly_Khach_San
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.StatisticAll = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.payment = new System.Windows.Forms.TabPage();
             this.siticoneTabControl2 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
@@ -90,7 +84,7 @@ namespace Quan_Ly_Khach_San
             this.ReceiveMoneyTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneGradientButton13 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ConfirmRequest = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.siticoneTextBox1 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.TotalPriceFoodTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.CustomerFoodDGV = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -176,7 +170,7 @@ namespace Quan_Ly_Khach_San
             this.label41 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
-            this.DifferenceTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.Totaltotal = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.TotalPay = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.TotalCollect = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.PayFood = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -186,15 +180,10 @@ namespace Quan_Ly_Khach_San
             this.PayRoom = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.PrintBillBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.CollectRoom = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ResearchDailyBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.DateReportPicker = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.RoomDailyDateDTP = new Siticone.Desktop.UI.WinForms.SiticoneRoundedDateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.siticoneGradientButton2 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.DateCheckIn = new System.Windows.Forms.DateTimePicker();
             this.customerIDTxb = new Guna.UI2.WinForms.Guna2TextBox();
             this.SearchServiceBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.BillRoomDgv = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -213,54 +202,88 @@ namespace Quan_Ly_Khach_San
             this.tinhtrang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ghichu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.siticonePanel1 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
-            this.label38 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.RiskRefurnTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.label25 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.RoomIDTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.DaysTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.CheckOutDate = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
             this.ReturnTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.PrintBillServiceBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ReceiveTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.TotalPriceTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.CustomerCodeTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.CheckInDate = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
+            this.PrintBillServiceBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.SearchBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.guna2DataGridView3 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.siticonePanel14 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
-            this.label34 = new System.Windows.Forms.Label();
+            this.FoodDateDailyDP = new Siticone.Desktop.UI.WinForms.SiticoneRoundedDateTimePicker();
             this.label33 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.ReturnFoodTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.PrintBillFoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.ReceiveFoodTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.TotalPriceFoodTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneComboBox6 = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
-            this.CustomerCode1Txb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.CreateDate = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
-            this.DateFoodPicker = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
+            this.FoodCustomerIDTxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.siticoneButton3 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.FoodDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.siticonePanel6 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.FoodRiskRefurnTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.FoodReturnDailyTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.FoodReceiveDailyTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.FoodTotalDailyTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.siticoneGradientButton4 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.SearchBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.ServiceBillTab = new System.Windows.Forms.TabPage();
+            this.ServiceDailyDateTxt = new Siticone.Desktop.UI.WinForms.SiticoneRoundedDateTimePicker();
+            this.label83 = new System.Windows.Forms.Label();
+            this.CustomerIDDailyTxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.siticoneButton1 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
+            this.ServiceDailyDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.siticonePanel4 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.label84 = new System.Windows.Forms.Label();
+            this.ServiceRiskRefurnDailyTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.ServiceReturnDailyTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.ServiceReceiveDailyTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.ServiceTotalDailyTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.siticoneGradientButton3 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ServiceTab = new System.Windows.Forms.TabPage();
             this.label82 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
@@ -303,34 +326,16 @@ namespace Quan_Ly_Khach_San
             this.PrintBillMonthBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.CollectRoomMonth = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.RequestTab = new System.Windows.Forms.TabPage();
-            this.ServiceBillTab = new System.Windows.Forms.TabPage();
-            this.siticoneButton1 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
-            this.guna2DataGridView4 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.guna2DataGridView5 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.siticonePanel4 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
-            this.label83 = new System.Windows.Forms.Label();
-            this.label84 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.label86 = new System.Windows.Forms.Label();
-            this.label87 = new System.Windows.Forms.Label();
-            this.label88 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.siticoneTextBox2 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneGradientButton3 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.siticoneTextBox3 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneTextBox4 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneComboBox1 = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
-            this.siticoneTextBox5 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.siticoneDateTimePicker1 = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
-            this.siticoneDateTimePicker2 = new Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker();
-            this.DeleteSupplierBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.totalRoom = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.totalService = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.totalFood = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.StatisticAll.SuspendLayout();
             this.payment.SuspendLayout();
             this.siticoneTabControl2.SuspendLayout();
@@ -345,21 +350,19 @@ namespace Quan_Ly_Khach_San
             this.siticoneTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.siticonePanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BillRoomDgv)).BeginInit();
             this.siticonePanel1.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
-            this.siticonePanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FoodDGV)).BeginInit();
+            this.siticonePanel6.SuspendLayout();
+            this.ServiceBillTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ServiceDailyDGV)).BeginInit();
+            this.siticonePanel4.SuspendLayout();
             this.ServiceTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BillMonthDGV)).BeginInit();
             this.siticonePanel3.SuspendLayout();
-            this.ServiceBillTab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView5)).BeginInit();
-            this.siticonePanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.SuspendLayout();
             // 
             // StatisticAll
@@ -453,7 +456,7 @@ namespace Quan_Ly_Khach_San
             this.tabPage4.Controls.Add(this.ReceiveMoneyTxb);
             this.tabPage4.Controls.Add(this.siticoneGradientButton13);
             this.tabPage4.Controls.Add(this.ConfirmRequest);
-            this.tabPage4.Controls.Add(this.siticoneTextBox1);
+            this.tabPage4.Controls.Add(this.TotalPriceFoodTxb);
             this.tabPage4.Controls.Add(this.CustomerFoodDGV);
             this.tabPage4.Location = new System.Drawing.Point(4, 44);
             this.tabPage4.Name = "tabPage4";
@@ -480,7 +483,7 @@ namespace Quan_Ly_Khach_San
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(735, 466);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 16);
+            this.label8.Size = new System.Drawing.Size(30, 16);
             this.label8.TabIndex = 93;
             this.label8.Text = "USD";
             // 
@@ -491,7 +494,7 @@ namespace Quan_Ly_Khach_San
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(940, 400);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(29, 16);
+            this.label7.Size = new System.Drawing.Size(30, 16);
             this.label7.TabIndex = 92;
             this.label7.Text = "USD";
             // 
@@ -502,7 +505,7 @@ namespace Quan_Ly_Khach_San
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(716, 400);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 16);
+            this.label6.Size = new System.Drawing.Size(30, 16);
             this.label6.TabIndex = 91;
             this.label6.Text = "USD";
             // 
@@ -845,38 +848,38 @@ namespace Quan_Ly_Khach_San
             this.ConfirmRequest.Text = "Confirm";
             this.ConfirmRequest.Click += new System.EventHandler(this.ConfirmRequest_Click);
             // 
-            // siticoneTextBox1
+            // TotalPriceFoodTxb
             // 
-            this.siticoneTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneTextBox1.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox1.BorderRadius = 15;
-            this.siticoneTextBox1.BorderThickness = 2;
-            this.siticoneTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox1.DefaultText = "0";
-            this.siticoneTextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox1.DisabledState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.siticoneTextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox1.FocusedState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox1.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox1.HoverState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Location = new System.Drawing.Point(598, 375);
-            this.siticoneTextBox1.Name = "siticoneTextBox1";
-            this.siticoneTextBox1.PasswordChar = '\0';
-            this.siticoneTextBox1.PlaceholderText = "";
-            this.siticoneTextBox1.ReadOnly = true;
-            this.siticoneTextBox1.SelectedText = "";
-            this.siticoneTextBox1.SelectionStart = 1;
-            this.siticoneTextBox1.ShadowDecoration.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Size = new System.Drawing.Size(112, 41);
-            this.siticoneTextBox1.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.siticoneTextBox1.TabIndex = 72;
-            this.siticoneTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TotalPriceFoodTxb.BackColor = System.Drawing.Color.Transparent;
+            this.TotalPriceFoodTxb.BorderColor = System.Drawing.Color.White;
+            this.TotalPriceFoodTxb.BorderRadius = 15;
+            this.TotalPriceFoodTxb.BorderThickness = 2;
+            this.TotalPriceFoodTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TotalPriceFoodTxb.DefaultText = "0";
+            this.TotalPriceFoodTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TotalPriceFoodTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TotalPriceFoodTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TotalPriceFoodTxb.DisabledState.Parent = this.TotalPriceFoodTxb;
+            this.TotalPriceFoodTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TotalPriceFoodTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.TotalPriceFoodTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TotalPriceFoodTxb.FocusedState.Parent = this.TotalPriceFoodTxb;
+            this.TotalPriceFoodTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalPriceFoodTxb.ForeColor = System.Drawing.Color.White;
+            this.TotalPriceFoodTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TotalPriceFoodTxb.HoverState.Parent = this.TotalPriceFoodTxb;
+            this.TotalPriceFoodTxb.Location = new System.Drawing.Point(598, 375);
+            this.TotalPriceFoodTxb.Name = "TotalPriceFoodTxb";
+            this.TotalPriceFoodTxb.PasswordChar = '\0';
+            this.TotalPriceFoodTxb.PlaceholderText = "";
+            this.TotalPriceFoodTxb.ReadOnly = true;
+            this.TotalPriceFoodTxb.SelectedText = "";
+            this.TotalPriceFoodTxb.SelectionStart = 1;
+            this.TotalPriceFoodTxb.ShadowDecoration.Parent = this.TotalPriceFoodTxb;
+            this.TotalPriceFoodTxb.Size = new System.Drawing.Size(112, 41);
+            this.TotalPriceFoodTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.TotalPriceFoodTxb.TabIndex = 72;
+            this.TotalPriceFoodTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // CustomerFoodDGV
             // 
@@ -1067,7 +1070,6 @@ namespace Quan_Ly_Khach_San
             // tabPage5
             // 
             this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.tabPage5.Controls.Add(this.DeleteSupplierBtn);
             this.tabPage5.Controls.Add(this.label17);
             this.tabPage5.Controls.Add(this.label11);
             this.tabPage5.Controls.Add(this.label10);
@@ -1463,6 +1465,7 @@ namespace Quan_Ly_Khach_San
             this.AddSupplierBtn.Size = new System.Drawing.Size(58, 45);
             this.AddSupplierBtn.TabIndex = 72;
             this.AddSupplierBtn.Text = "Add";
+            this.AddSupplierBtn.Click += new System.EventHandler(this.AddSupplierBtn_Click);
             // 
             // NoteSupplierTxb
             // 
@@ -1944,9 +1947,8 @@ namespace Quan_Ly_Khach_San
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.tabPage1.Controls.Add(this.chart1);
             this.tabPage1.Controls.Add(this.siticonePanel2);
-            this.tabPage1.Controls.Add(this.guna2DataGridView2);
-            this.tabPage1.Controls.Add(this.ResearchDailyBtn);
             this.tabPage1.Controls.Add(this.DateReportPicker);
             this.tabPage1.Location = new System.Drawing.Point(4, 44);
             this.tabPage1.Name = "tabPage1";
@@ -1961,6 +1963,15 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel2.BorderColor = System.Drawing.Color.Black;
             this.siticonePanel2.BorderRadius = 15;
             this.siticonePanel2.BorderThickness = 2;
+            this.siticonePanel2.Controls.Add(this.label22);
+            this.siticonePanel2.Controls.Add(this.label23);
+            this.siticonePanel2.Controls.Add(this.totalFood);
+            this.siticonePanel2.Controls.Add(this.label20);
+            this.siticonePanel2.Controls.Add(this.label21);
+            this.siticonePanel2.Controls.Add(this.totalService);
+            this.siticonePanel2.Controls.Add(this.label18);
+            this.siticonePanel2.Controls.Add(this.label19);
+            this.siticonePanel2.Controls.Add(this.totalRoom);
             this.siticonePanel2.Controls.Add(this.label59);
             this.siticonePanel2.Controls.Add(this.label58);
             this.siticonePanel2.Controls.Add(this.label57);
@@ -1982,7 +1993,7 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel2.Controls.Add(this.label41);
             this.siticonePanel2.Controls.Add(this.label40);
             this.siticonePanel2.Controls.Add(this.label39);
-            this.siticonePanel2.Controls.Add(this.DifferenceTxb);
+            this.siticonePanel2.Controls.Add(this.Totaltotal);
             this.siticonePanel2.Controls.Add(this.TotalPay);
             this.siticonePanel2.Controls.Add(this.TotalCollect);
             this.siticonePanel2.Controls.Add(this.PayFood);
@@ -2004,9 +2015,9 @@ namespace Quan_Ly_Khach_San
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label59.ForeColor = System.Drawing.Color.Yellow;
-            this.label59.Location = new System.Drawing.Point(75, 254);
+            this.label59.Location = new System.Drawing.Point(13, 254);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(38, 16);
+            this.label59.Size = new System.Drawing.Size(39, 16);
             this.label59.TabIndex = 119;
             this.label59.Text = "Food";
             // 
@@ -2015,9 +2026,9 @@ namespace Quan_Ly_Khach_San
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label58.Location = new System.Drawing.Point(75, 160);
+            this.label58.Location = new System.Drawing.Point(13, 160);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(51, 16);
+            this.label58.Size = new System.Drawing.Size(52, 16);
             this.label58.TabIndex = 118;
             this.label58.Text = "Service";
             // 
@@ -2026,9 +2037,9 @@ namespace Quan_Ly_Khach_San
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label57.ForeColor = System.Drawing.Color.Tomato;
-            this.label57.Location = new System.Drawing.Point(75, 51);
+            this.label57.Location = new System.Drawing.Point(13, 51);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(43, 16);
+            this.label57.Size = new System.Drawing.Size(44, 16);
             this.label57.TabIndex = 117;
             this.label57.Text = "Room";
             // 
@@ -2037,11 +2048,11 @@ namespace Quan_Ly_Khach_San
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label55.ForeColor = System.Drawing.Color.White;
-            this.label55.Location = new System.Drawing.Point(33, 497);
+            this.label55.Location = new System.Drawing.Point(14, 497);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(29, 16);
+            this.label55.Size = new System.Drawing.Size(49, 16);
             this.label55.TabIndex = 116;
-            this.label55.Text = "Pay";
+            this.label55.Text = "Return";
             // 
             // label56
             // 
@@ -2050,75 +2061,75 @@ namespace Quan_Ly_Khach_San
             this.label56.ForeColor = System.Drawing.Color.White;
             this.label56.Location = new System.Drawing.Point(11, 417);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(51, 16);
+            this.label56.Size = new System.Drawing.Size(55, 16);
             this.label56.TabIndex = 115;
-            this.label56.Text = "Collect";
+            this.label56.Text = "Receive";
             // 
             // label53
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label53.ForeColor = System.Drawing.Color.White;
-            this.label53.Location = new System.Drawing.Point(125, 327);
+            this.label53.ForeColor = System.Drawing.Color.Gold;
+            this.label53.Location = new System.Drawing.Point(41, 326);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(29, 16);
+            this.label53.Size = new System.Drawing.Size(49, 16);
             this.label53.TabIndex = 114;
-            this.label53.Text = "Pay";
+            this.label53.Text = "Return";
             // 
             // label54
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label54.ForeColor = System.Drawing.Color.White;
-            this.label54.Location = new System.Drawing.Point(103, 277);
+            this.label54.Location = new System.Drawing.Point(41, 277);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(51, 16);
+            this.label54.Size = new System.Drawing.Size(55, 16);
             this.label54.TabIndex = 113;
-            this.label54.Text = "Collect";
+            this.label54.Text = "Receive";
             // 
             // label51
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label51.ForeColor = System.Drawing.Color.White;
-            this.label51.Location = new System.Drawing.Point(125, 226);
+            this.label51.ForeColor = System.Drawing.Color.Gold;
+            this.label51.Location = new System.Drawing.Point(41, 223);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(29, 16);
+            this.label51.Size = new System.Drawing.Size(49, 16);
             this.label51.TabIndex = 112;
-            this.label51.Text = "Pay";
+            this.label51.Text = "Return";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label52.ForeColor = System.Drawing.Color.White;
-            this.label52.Location = new System.Drawing.Point(103, 176);
+            this.label52.Location = new System.Drawing.Point(41, 176);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(51, 16);
+            this.label52.Size = new System.Drawing.Size(55, 16);
             this.label52.TabIndex = 111;
-            this.label52.Text = "Collect";
+            this.label52.Text = "Receive";
             // 
             // label50
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label50.ForeColor = System.Drawing.Color.White;
-            this.label50.Location = new System.Drawing.Point(125, 118);
+            this.label50.ForeColor = System.Drawing.Color.Gold;
+            this.label50.Location = new System.Drawing.Point(41, 115);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(29, 16);
+            this.label50.Size = new System.Drawing.Size(49, 16);
             this.label50.TabIndex = 110;
-            this.label50.Text = "Pay";
+            this.label50.Text = "Return";
             // 
             // label49
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label49.ForeColor = System.Drawing.Color.White;
-            this.label49.Location = new System.Drawing.Point(103, 68);
+            this.label49.Location = new System.Drawing.Point(41, 68);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(51, 16);
+            this.label49.Size = new System.Drawing.Size(55, 16);
             this.label49.TabIndex = 109;
-            this.label49.Text = "Collect";
+            this.label49.Text = "Receive";
             // 
             // label48
             // 
@@ -2149,7 +2160,7 @@ namespace Quan_Ly_Khach_San
             this.label46.ForeColor = System.Drawing.Color.White;
             this.label46.Location = new System.Drawing.Point(186, 497);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(29, 16);
+            this.label46.Size = new System.Drawing.Size(30, 16);
             this.label46.TabIndex = 106;
             this.label46.Text = "USD";
             // 
@@ -2160,7 +2171,7 @@ namespace Quan_Ly_Khach_San
             this.label45.ForeColor = System.Drawing.Color.White;
             this.label45.Location = new System.Drawing.Point(186, 419);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(29, 16);
+            this.label45.Size = new System.Drawing.Size(30, 16);
             this.label45.TabIndex = 105;
             this.label45.Text = "USD";
             // 
@@ -2169,9 +2180,9 @@ namespace Quan_Ly_Khach_San
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(287, 326);
+            this.label44.Location = new System.Drawing.Point(225, 326);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(29, 16);
+            this.label44.Size = new System.Drawing.Size(30, 16);
             this.label44.TabIndex = 104;
             this.label44.Text = "USD";
             // 
@@ -2180,9 +2191,9 @@ namespace Quan_Ly_Khach_San
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(287, 277);
+            this.label43.Location = new System.Drawing.Point(225, 277);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(29, 16);
+            this.label43.Size = new System.Drawing.Size(30, 16);
             this.label43.TabIndex = 103;
             this.label43.Text = "USD";
             // 
@@ -2191,9 +2202,9 @@ namespace Quan_Ly_Khach_San
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(287, 221);
+            this.label42.Location = new System.Drawing.Point(225, 221);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(29, 16);
+            this.label42.Size = new System.Drawing.Size(30, 16);
             this.label42.TabIndex = 102;
             this.label42.Text = "USD";
             // 
@@ -2202,9 +2213,9 @@ namespace Quan_Ly_Khach_San
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(287, 176);
+            this.label41.Location = new System.Drawing.Point(225, 176);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(29, 16);
+            this.label41.Size = new System.Drawing.Size(30, 16);
             this.label41.TabIndex = 101;
             this.label41.Text = "USD";
             // 
@@ -2213,9 +2224,9 @@ namespace Quan_Ly_Khach_San
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(287, 115);
+            this.label40.Location = new System.Drawing.Point(225, 115);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(29, 16);
+            this.label40.Size = new System.Drawing.Size(30, 16);
             this.label40.TabIndex = 100;
             this.label40.Text = "USD";
             // 
@@ -2224,37 +2235,38 @@ namespace Quan_Ly_Khach_San
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label39.ForeColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(287, 68);
+            this.label39.Location = new System.Drawing.Point(225, 68);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(29, 16);
+            this.label39.Size = new System.Drawing.Size(30, 16);
             this.label39.TabIndex = 99;
             this.label39.Text = "USD";
             // 
-            // DifferenceTxb
+            // Totaltotal
             // 
-            this.DifferenceTxb.BorderRadius = 10;
-            this.DifferenceTxb.BorderThickness = 2;
-            this.DifferenceTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DifferenceTxb.DefaultText = "";
-            this.DifferenceTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.DifferenceTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.DifferenceTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DifferenceTxb.DisabledState.Parent = this.DifferenceTxb;
-            this.DifferenceTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DifferenceTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
-            this.DifferenceTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DifferenceTxb.FocusedState.Parent = this.DifferenceTxb;
-            this.DifferenceTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DifferenceTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DifferenceTxb.HoverState.Parent = this.DifferenceTxb;
-            this.DifferenceTxb.Location = new System.Drawing.Point(249, 417);
-            this.DifferenceTxb.Name = "DifferenceTxb";
-            this.DifferenceTxb.PasswordChar = '\0';
-            this.DifferenceTxb.PlaceholderText = "";
-            this.DifferenceTxb.SelectedText = "";
-            this.DifferenceTxb.ShadowDecoration.Parent = this.DifferenceTxb;
-            this.DifferenceTxb.Size = new System.Drawing.Size(164, 36);
-            this.DifferenceTxb.TabIndex = 98;
+            this.Totaltotal.BorderRadius = 10;
+            this.Totaltotal.BorderThickness = 2;
+            this.Totaltotal.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Totaltotal.DefaultText = "";
+            this.Totaltotal.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.Totaltotal.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.Totaltotal.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Totaltotal.DisabledState.Parent = this.Totaltotal;
+            this.Totaltotal.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.Totaltotal.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
+            this.Totaltotal.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Totaltotal.FocusedState.Parent = this.Totaltotal;
+            this.Totaltotal.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Totaltotal.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Totaltotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.Totaltotal.HoverState.Parent = this.Totaltotal;
+            this.Totaltotal.Location = new System.Drawing.Point(249, 417);
+            this.Totaltotal.Name = "Totaltotal";
+            this.Totaltotal.PasswordChar = '\0';
+            this.Totaltotal.PlaceholderText = "";
+            this.Totaltotal.SelectedText = "";
+            this.Totaltotal.ShadowDecoration.Parent = this.Totaltotal;
+            this.Totaltotal.Size = new System.Drawing.Size(164, 36);
+            this.Totaltotal.TabIndex = 98;
             // 
             // TotalPay
             // 
@@ -2342,7 +2354,7 @@ namespace Quan_Ly_Khach_San
             this.PayFood.ForeColor = System.Drawing.Color.White;
             this.PayFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayFood.HoverState.Parent = this.PayFood;
-            this.PayFood.Location = new System.Drawing.Point(169, 301);
+            this.PayFood.Location = new System.Drawing.Point(107, 301);
             this.PayFood.Name = "PayFood";
             this.PayFood.PasswordChar = '\0';
             this.PayFood.PlaceholderText = "";
@@ -2375,7 +2387,7 @@ namespace Quan_Ly_Khach_San
             this.CollectFood.ForeColor = System.Drawing.Color.White;
             this.CollectFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectFood.HoverState.Parent = this.CollectFood;
-            this.CollectFood.Location = new System.Drawing.Point(169, 254);
+            this.CollectFood.Location = new System.Drawing.Point(107, 254);
             this.CollectFood.Name = "CollectFood";
             this.CollectFood.PasswordChar = '\0';
             this.CollectFood.PlaceholderText = "";
@@ -2408,7 +2420,7 @@ namespace Quan_Ly_Khach_San
             this.PayService.ForeColor = System.Drawing.Color.White;
             this.PayService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayService.HoverState.Parent = this.PayService;
-            this.PayService.Location = new System.Drawing.Point(169, 198);
+            this.PayService.Location = new System.Drawing.Point(107, 198);
             this.PayService.Name = "PayService";
             this.PayService.PasswordChar = '\0';
             this.PayService.PlaceholderText = "";
@@ -2441,7 +2453,7 @@ namespace Quan_Ly_Khach_San
             this.CollectService.ForeColor = System.Drawing.Color.White;
             this.CollectService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectService.HoverState.Parent = this.CollectService;
-            this.CollectService.Location = new System.Drawing.Point(169, 151);
+            this.CollectService.Location = new System.Drawing.Point(107, 151);
             this.CollectService.Name = "CollectService";
             this.CollectService.PasswordChar = '\0';
             this.CollectService.PlaceholderText = "";
@@ -2474,7 +2486,7 @@ namespace Quan_Ly_Khach_San
             this.PayRoom.ForeColor = System.Drawing.Color.White;
             this.PayRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayRoom.HoverState.Parent = this.PayRoom;
-            this.PayRoom.Location = new System.Drawing.Point(169, 90);
+            this.PayRoom.Location = new System.Drawing.Point(107, 90);
             this.PayRoom.Name = "PayRoom";
             this.PayRoom.PasswordChar = '\0';
             this.PayRoom.PlaceholderText = "";
@@ -2530,7 +2542,7 @@ namespace Quan_Ly_Khach_San
             this.CollectRoom.ForeColor = System.Drawing.Color.White;
             this.CollectRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectRoom.HoverState.Parent = this.CollectRoom;
-            this.CollectRoom.Location = new System.Drawing.Point(169, 43);
+            this.CollectRoom.Location = new System.Drawing.Point(107, 43);
             this.CollectRoom.Name = "CollectRoom";
             this.CollectRoom.PasswordChar = '\0';
             this.CollectRoom.PlaceholderText = "";
@@ -2543,100 +2555,6 @@ namespace Quan_Ly_Khach_San
             this.CollectRoom.TabIndex = 68;
             this.CollectRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // guna2DataGridView2
-            // 
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
-            this.guna2DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView2.BackgroundColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
-            this.guna2DataGridView2.ColumnHeadersHeight = 40;
-            this.guna2DataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6});
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle15;
-            this.guna2DataGridView2.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView2.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.Location = new System.Drawing.Point(436, 50);
-            this.guna2DataGridView2.Name = "guna2DataGridView2";
-            this.guna2DataGridView2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.guna2DataGridView2.RowHeadersVisible = false;
-            this.guna2DataGridView2.RowHeadersWidth = 51;
-            this.guna2DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(532, 498);
-            this.guna2DataGridView2.TabIndex = 52;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView2.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 40;
-            this.guna2DataGridView2.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            // 
-            // ResearchDailyBtn
-            // 
-            this.ResearchDailyBtn.BorderRadius = 10;
-            this.ResearchDailyBtn.CheckedState.Parent = this.ResearchDailyBtn;
-            this.ResearchDailyBtn.CustomImages.Parent = this.ResearchDailyBtn;
-            this.ResearchDailyBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.ResearchDailyBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.ResearchDailyBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ResearchDailyBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.ResearchDailyBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.ResearchDailyBtn.DisabledState.Parent = this.ResearchDailyBtn;
-            this.ResearchDailyBtn.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ResearchDailyBtn.ForeColor = System.Drawing.Color.White;
-            this.ResearchDailyBtn.HoverState.Parent = this.ResearchDailyBtn;
-            this.ResearchDailyBtn.Location = new System.Drawing.Point(863, 6);
-            this.ResearchDailyBtn.Name = "ResearchDailyBtn";
-            this.ResearchDailyBtn.ShadowDecoration.Parent = this.ResearchDailyBtn;
-            this.ResearchDailyBtn.Size = new System.Drawing.Size(105, 38);
-            this.ResearchDailyBtn.TabIndex = 50;
-            this.ResearchDailyBtn.Text = "Research";
-            // 
             // DateReportPicker
             // 
             this.DateReportPicker.BorderColor = System.Drawing.Color.White;
@@ -2648,25 +2566,26 @@ namespace Quan_Ly_Khach_San
             this.DateReportPicker.ForeColor = System.Drawing.Color.White;
             this.DateReportPicker.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.DateReportPicker.HoverState.Parent = this.DateReportPicker;
-            this.DateReportPicker.Location = new System.Drawing.Point(656, 6);
+            this.DateReportPicker.Location = new System.Drawing.Point(647, 9);
             this.DateReportPicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DateReportPicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DateReportPicker.Name = "DateReportPicker";
             this.DateReportPicker.ShadowDecoration.Parent = this.DateReportPicker;
-            this.DateReportPicker.Size = new System.Drawing.Size(201, 38);
+            this.DateReportPicker.Size = new System.Drawing.Size(331, 38);
             this.DateReportPicker.TabIndex = 49;
-            this.DateReportPicker.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
+            this.DateReportPicker.Value = new System.DateTime(2021, 12, 5, 0, 0, 0, 0);
+            this.DateReportPicker.ValueChanged += new System.EventHandler(this.DateReportPicker_ValueChanged);
             // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.tabPage2.Controls.Add(this.RoomDailyDateDTP);
             this.tabPage2.Controls.Add(this.label1);
-            this.tabPage2.Controls.Add(this.siticoneGradientButton2);
-            this.tabPage2.Controls.Add(this.DateCheckIn);
             this.tabPage2.Controls.Add(this.customerIDTxb);
             this.tabPage2.Controls.Add(this.SearchServiceBtn);
             this.tabPage2.Controls.Add(this.BillRoomDgv);
             this.tabPage2.Controls.Add(this.siticonePanel1);
+            this.tabPage2.Controls.Add(this.PrintBillServiceBtn);
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -2674,52 +2593,38 @@ namespace Quan_Ly_Khach_San
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ROOM";
             // 
+            // RoomDailyDateDTP
+            // 
+            this.RoomDailyDateDTP.Animated = true;
+            this.RoomDailyDateDTP.BorderRadius = 17;
+            this.RoomDailyDateDTP.CheckedState.Parent = this.RoomDailyDateDTP;
+            this.RoomDailyDateDTP.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.RoomDailyDateDTP.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.RoomDailyDateDTP.HoverState.Parent = this.RoomDailyDateDTP;
+            this.RoomDailyDateDTP.Location = new System.Drawing.Point(6, 37);
+            this.RoomDailyDateDTP.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.RoomDailyDateDTP.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.RoomDailyDateDTP.Name = "RoomDailyDateDTP";
+            this.RoomDailyDateDTP.ShadowDecoration.Parent = this.RoomDailyDateDTP;
+            this.RoomDailyDateDTP.Size = new System.Drawing.Size(319, 36);
+            this.RoomDailyDateDTP.TabIndex = 98;
+            this.RoomDailyDateDTP.Value = new System.DateTime(2021, 12, 5, 0, 0, 0, 0);
+            this.RoomDailyDateDTP.ValueChanged += new System.EventHandler(this.siticoneRoundedDateTimePicker1_ValueChanged);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(390, 12);
+            this.label1.Location = new System.Drawing.Point(6, 112);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 20);
             this.label1.TabIndex = 97;
             this.label1.Text = "Customer ID";
             // 
-            // siticoneGradientButton2
-            // 
-            this.siticoneGradientButton2.BorderRadius = 15;
-            this.siticoneGradientButton2.CheckedState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.CustomImages.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneGradientButton2.DisabledState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.siticoneGradientButton2.FillColor2 = System.Drawing.Color.Chartreuse;
-            this.siticoneGradientButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneGradientButton2.ForeColor = System.Drawing.Color.Black;
-            this.siticoneGradientButton2.HoverState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Location = new System.Drawing.Point(757, 39);
-            this.siticoneGradientButton2.Name = "siticoneGradientButton2";
-            this.siticoneGradientButton2.ShadowDecoration.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Size = new System.Drawing.Size(221, 37);
-            this.siticoneGradientButton2.TabIndex = 85;
-            this.siticoneGradientButton2.Text = "STATISTIC";
-            // 
-            // DateCheckIn
-            // 
-            this.DateCheckIn.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DateCheckIn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.DateCheckIn.Location = new System.Drawing.Point(757, 11);
-            this.DateCheckIn.Margin = new System.Windows.Forms.Padding(2);
-            this.DateCheckIn.Name = "DateCheckIn";
-            this.DateCheckIn.Size = new System.Drawing.Size(222, 20);
-            this.DateCheckIn.TabIndex = 59;
-            // 
             // customerIDTxb
             // 
+            this.customerIDTxb.BorderRadius = 18;
             this.customerIDTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.customerIDTxb.DefaultText = "";
             this.customerIDTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -2733,15 +2638,16 @@ namespace Quan_Ly_Khach_San
             this.customerIDTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.customerIDTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.customerIDTxb.HoverState.Parent = this.customerIDTxb;
-            this.customerIDTxb.Location = new System.Drawing.Point(390, 41);
+            this.customerIDTxb.Location = new System.Drawing.Point(6, 143);
             this.customerIDTxb.Margin = new System.Windows.Forms.Padding(2);
             this.customerIDTxb.Name = "customerIDTxb";
             this.customerIDTxb.PasswordChar = '\0';
             this.customerIDTxb.PlaceholderText = "";
             this.customerIDTxb.SelectedText = "";
             this.customerIDTxb.ShadowDecoration.Parent = this.customerIDTxb;
-            this.customerIDTxb.Size = new System.Drawing.Size(204, 35);
+            this.customerIDTxb.Size = new System.Drawing.Size(320, 35);
             this.customerIDTxb.TabIndex = 57;
+            this.customerIDTxb.TextChanged += new System.EventHandler(this.customerIDTxb_TextChanged);
             // 
             // SearchServiceBtn
             // 
@@ -2758,7 +2664,7 @@ namespace Quan_Ly_Khach_San
             this.SearchServiceBtn.HoverState.Parent = this.SearchServiceBtn;
             this.SearchServiceBtn.Image = ((System.Drawing.Image)(resources.GetObject("SearchServiceBtn.Image")));
             this.SearchServiceBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.SearchServiceBtn.Location = new System.Drawing.Point(599, 39);
+            this.SearchServiceBtn.Location = new System.Drawing.Point(331, 139);
             this.SearchServiceBtn.Name = "SearchServiceBtn";
             this.SearchServiceBtn.ShadowDecoration.Parent = this.SearchServiceBtn;
             this.SearchServiceBtn.Size = new System.Drawing.Size(35, 39);
@@ -2766,21 +2672,22 @@ namespace Quan_Ly_Khach_San
             // 
             // BillRoomDgv
             // 
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
-            this.BillRoomDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
-            this.BillRoomDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.BillRoomDgv.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.BillRoomDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            this.BillRoomDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.BillRoomDgv.BackgroundColor = System.Drawing.Color.White;
             this.BillRoomDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.BillRoomDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.BillRoomDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.BillRoomDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.BillRoomDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.BillRoomDgv.ColumnHeadersHeight = 40;
             this.BillRoomDgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.mahoadon,
@@ -2797,23 +2704,24 @@ namespace Quan_Ly_Khach_San
             this.tienhoan,
             this.tinhtrang,
             this.ghichu});
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.BillRoomDgv.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.BillRoomDgv.DefaultCellStyle = dataGridViewCellStyle15;
             this.BillRoomDgv.EnableHeadersVisualStyles = false;
             this.BillRoomDgv.GridColor = System.Drawing.Color.White;
-            this.BillRoomDgv.Location = new System.Drawing.Point(390, 82);
+            this.BillRoomDgv.Location = new System.Drawing.Point(390, 15);
             this.BillRoomDgv.Name = "BillRoomDgv";
+            this.BillRoomDgv.ReadOnly = true;
             this.BillRoomDgv.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.BillRoomDgv.RowHeadersVisible = false;
             this.BillRoomDgv.RowHeadersWidth = 51;
             this.BillRoomDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.BillRoomDgv.Size = new System.Drawing.Size(588, 463);
+            this.BillRoomDgv.Size = new System.Drawing.Size(588, 530);
             this.BillRoomDgv.TabIndex = 54;
             this.BillRoomDgv.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.BillRoomDgv.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -2828,7 +2736,7 @@ namespace Quan_Ly_Khach_San
             this.BillRoomDgv.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.BillRoomDgv.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.BillRoomDgv.ThemeStyle.HeaderStyle.Height = 40;
-            this.BillRoomDgv.ThemeStyle.ReadOnly = false;
+            this.BillRoomDgv.ThemeStyle.ReadOnly = true;
             this.BillRoomDgv.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.BillRoomDgv.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.BillRoomDgv.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -2844,6 +2752,8 @@ namespace Quan_Ly_Khach_San
             this.mahoadon.HeaderText = "Room Bill ID";
             this.mahoadon.MinimumWidth = 6;
             this.mahoadon.Name = "mahoadon";
+            this.mahoadon.ReadOnly = true;
+            this.mahoadon.Width = 80;
             // 
             // checkin
             // 
@@ -2851,6 +2761,8 @@ namespace Quan_Ly_Khach_San
             this.checkin.HeaderText = "Check In";
             this.checkin.MinimumWidth = 6;
             this.checkin.Name = "checkin";
+            this.checkin.ReadOnly = true;
+            this.checkin.Width = 75;
             // 
             // checkout
             // 
@@ -2858,6 +2770,8 @@ namespace Quan_Ly_Khach_San
             this.checkout.HeaderText = "Check Out";
             this.checkout.MinimumWidth = 6;
             this.checkout.Name = "checkout";
+            this.checkout.ReadOnly = true;
+            this.checkout.Width = 83;
             // 
             // manv
             // 
@@ -2865,6 +2779,8 @@ namespace Quan_Ly_Khach_San
             this.manv.HeaderText = "Staff ID";
             this.manv.MinimumWidth = 6;
             this.manv.Name = "manv";
+            this.manv.ReadOnly = true;
+            this.manv.Width = 57;
             // 
             // makh
             // 
@@ -2872,6 +2788,8 @@ namespace Quan_Ly_Khach_San
             this.makh.HeaderText = "Customer ID";
             this.makh.MinimumWidth = 6;
             this.makh.Name = "makh";
+            this.makh.ReadOnly = true;
+            this.makh.Width = 91;
             // 
             // phong
             // 
@@ -2879,6 +2797,8 @@ namespace Quan_Ly_Khach_San
             this.phong.HeaderText = "Room ";
             this.phong.MinimumWidth = 6;
             this.phong.Name = "phong";
+            this.phong.ReadOnly = true;
+            this.phong.Width = 66;
             // 
             // songayo
             // 
@@ -2886,6 +2806,8 @@ namespace Quan_Ly_Khach_San
             this.songayo.HeaderText = "Days";
             this.songayo.MinimumWidth = 6;
             this.songayo.Name = "songayo";
+            this.songayo.ReadOnly = true;
+            this.songayo.Width = 58;
             // 
             // tong
             // 
@@ -2893,6 +2815,8 @@ namespace Quan_Ly_Khach_San
             this.tong.HeaderText = "Total";
             this.tong.MinimumWidth = 6;
             this.tong.Name = "tong";
+            this.tong.ReadOnly = true;
+            this.tong.Width = 59;
             // 
             // tiennhan
             // 
@@ -2900,6 +2824,8 @@ namespace Quan_Ly_Khach_San
             this.tiennhan.HeaderText = "Receive";
             this.tiennhan.MinimumWidth = 6;
             this.tiennhan.Name = "tiennhan";
+            this.tiennhan.ReadOnly = true;
+            this.tiennhan.Width = 77;
             // 
             // tienthua
             // 
@@ -2907,6 +2833,8 @@ namespace Quan_Ly_Khach_San
             this.tienthua.HeaderText = "Return";
             this.tienthua.MinimumWidth = 6;
             this.tienthua.Name = "tienthua";
+            this.tienthua.ReadOnly = true;
+            this.tienthua.Width = 68;
             // 
             // marr
             // 
@@ -2914,6 +2842,8 @@ namespace Quan_Ly_Khach_San
             this.marr.HeaderText = "Risk ID";
             this.marr.MinimumWidth = 6;
             this.marr.Name = "marr";
+            this.marr.ReadOnly = true;
+            this.marr.Width = 55;
             // 
             // tienhoan
             // 
@@ -2921,6 +2851,8 @@ namespace Quan_Ly_Khach_San
             this.tienhoan.HeaderText = "Refund";
             this.tienhoan.MinimumWidth = 6;
             this.tienhoan.Name = "tienhoan";
+            this.tienhoan.ReadOnly = true;
+            this.tienhoan.Width = 71;
             // 
             // tinhtrang
             // 
@@ -2928,6 +2860,8 @@ namespace Quan_Ly_Khach_San
             this.tinhtrang.HeaderText = "Status";
             this.tinhtrang.MinimumWidth = 6;
             this.tinhtrang.Name = "tinhtrang";
+            this.tinhtrang.ReadOnly = true;
+            this.tinhtrang.Width = 66;
             // 
             // ghichu
             // 
@@ -2935,6 +2869,8 @@ namespace Quan_Ly_Khach_San
             this.ghichu.HeaderText = "Notes";
             this.ghichu.MinimumWidth = 6;
             this.ghichu.Name = "ghichu";
+            this.ghichu.ReadOnly = true;
+            this.ghichu.Width = 63;
             // 
             // siticonePanel1
             // 
@@ -2942,53 +2878,90 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel1.BorderColor = System.Drawing.Color.Black;
             this.siticonePanel1.BorderRadius = 15;
             this.siticonePanel1.BorderThickness = 2;
-            this.siticonePanel1.Controls.Add(this.label38);
+            this.siticonePanel1.Controls.Add(this.label26);
+            this.siticonePanel1.Controls.Add(this.RiskRefurnTxt);
+            this.siticonePanel1.Controls.Add(this.label25);
             this.siticonePanel1.Controls.Add(this.label37);
             this.siticonePanel1.Controls.Add(this.label36);
             this.siticonePanel1.Controls.Add(this.label35);
-            this.siticonePanel1.Controls.Add(this.label31);
             this.siticonePanel1.Controls.Add(this.label30);
             this.siticonePanel1.Controls.Add(this.label29);
             this.siticonePanel1.Controls.Add(this.label28);
-            this.siticonePanel1.Controls.Add(this.label27);
-            this.siticonePanel1.Controls.Add(this.label26);
-            this.siticonePanel1.Controls.Add(this.label25);
             this.siticonePanel1.Controls.Add(this.label2);
-            this.siticonePanel1.Controls.Add(this.RoomIDTxb);
-            this.siticonePanel1.Controls.Add(this.DaysTxb);
-            this.siticonePanel1.Controls.Add(this.CheckOutDate);
             this.siticonePanel1.Controls.Add(this.ReturnTxb);
-            this.siticonePanel1.Controls.Add(this.PrintBillServiceBtn);
             this.siticonePanel1.Controls.Add(this.ReceiveTxb);
             this.siticonePanel1.Controls.Add(this.TotalPriceTxb);
-            this.siticonePanel1.Controls.Add(this.CustomerCodeTxb);
-            this.siticonePanel1.Controls.Add(this.CheckInDate);
             this.siticonePanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel1.Location = new System.Drawing.Point(4, 4);
+            this.siticonePanel1.Location = new System.Drawing.Point(6, 192);
             this.siticonePanel1.Name = "siticonePanel1";
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
-            this.siticonePanel1.Size = new System.Drawing.Size(380, 548);
+            this.siticonePanel1.Size = new System.Drawing.Size(380, 295);
             this.siticonePanel1.TabIndex = 52;
             // 
-            // label38
+            // label26
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(234, 232);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(49, 20);
-            this.label38.TabIndex = 96;
-            this.label38.Text = "Days";
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label26.ForeColor = System.Drawing.Color.White;
+            this.label26.Location = new System.Drawing.Point(269, 243);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(30, 16);
+            this.label26.TabIndex = 98;
+            this.label26.Text = "USD";
+            // 
+            // RiskRefurnTxt
+            // 
+            this.RiskRefurnTxt.BackColor = System.Drawing.Color.Transparent;
+            this.RiskRefurnTxt.BorderColor = System.Drawing.Color.White;
+            this.RiskRefurnTxt.BorderRadius = 15;
+            this.RiskRefurnTxt.BorderThickness = 2;
+            this.RiskRefurnTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.RiskRefurnTxt.DefaultText = "0.0";
+            this.RiskRefurnTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.RiskRefurnTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.RiskRefurnTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.RiskRefurnTxt.DisabledState.Parent = this.RiskRefurnTxt;
+            this.RiskRefurnTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.RiskRefurnTxt.Enabled = false;
+            this.RiskRefurnTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.RiskRefurnTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RiskRefurnTxt.FocusedState.Parent = this.RiskRefurnTxt;
+            this.RiskRefurnTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RiskRefurnTxt.ForeColor = System.Drawing.Color.White;
+            this.RiskRefurnTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RiskRefurnTxt.HoverState.Parent = this.RiskRefurnTxt;
+            this.RiskRefurnTxt.Location = new System.Drawing.Point(123, 231);
+            this.RiskRefurnTxt.Name = "RiskRefurnTxt";
+            this.RiskRefurnTxt.PasswordChar = '\0';
+            this.RiskRefurnTxt.PlaceholderText = "";
+            this.RiskRefurnTxt.ReadOnly = true;
+            this.RiskRefurnTxt.SelectedText = "";
+            this.RiskRefurnTxt.SelectionStart = 3;
+            this.RiskRefurnTxt.ShadowDecoration.Parent = this.RiskRefurnTxt;
+            this.RiskRefurnTxt.Size = new System.Drawing.Size(121, 41);
+            this.RiskRefurnTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.RiskRefurnTxt.TabIndex = 97;
+            this.RiskRefurnTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.Location = new System.Drawing.Point(34, 243);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(75, 16);
+            this.label25.TabIndex = 96;
+            this.label25.Text = "Risk refurn";
             // 
             // label37
             // 
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(253, 431);
+            this.label37.Location = new System.Drawing.Point(269, 176);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(29, 16);
+            this.label37.Size = new System.Drawing.Size(30, 16);
             this.label37.TabIndex = 95;
             this.label37.Text = "USD";
             // 
@@ -2997,9 +2970,9 @@ namespace Quan_Ly_Khach_San
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(253, 364);
+            this.label36.Location = new System.Drawing.Point(269, 108);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(29, 16);
+            this.label36.Size = new System.Drawing.Size(30, 16);
             this.label36.TabIndex = 94;
             this.label36.Text = "USD";
             // 
@@ -3008,31 +2981,20 @@ namespace Quan_Ly_Khach_San
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(249, 299);
+            this.label35.Location = new System.Drawing.Point(269, 42);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(29, 16);
+            this.label35.Size = new System.Drawing.Size(30, 16);
             this.label35.TabIndex = 93;
             this.label35.Text = "USD";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(43, 236);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(43, 16);
-            this.label31.TabIndex = 92;
-            this.label31.Text = "Room";
             // 
             // label30
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(43, 431);
+            this.label30.Location = new System.Drawing.Point(34, 176);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(48, 16);
+            this.label30.Size = new System.Drawing.Size(49, 16);
             this.label30.TabIndex = 91;
             this.label30.Text = "Return";
             // 
@@ -3041,9 +3003,9 @@ namespace Quan_Ly_Khach_San
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(43, 364);
+            this.label29.Location = new System.Drawing.Point(34, 108);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(54, 16);
+            this.label29.Size = new System.Drawing.Size(55, 16);
             this.label29.TabIndex = 90;
             this.label29.Text = "Receive";
             // 
@@ -3052,44 +3014,11 @@ namespace Quan_Ly_Khach_San
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(43, 299);
+            this.label28.Location = new System.Drawing.Point(34, 48);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(39, 16);
+            this.label28.Size = new System.Drawing.Size(52, 16);
             this.label28.TabIndex = 89;
-            this.label28.Text = "Total";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(20, 189);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(92, 16);
-            this.label27.TabIndex = 88;
-            this.label27.Text = "Customer ID :";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(32, 128);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(80, 16);
-            this.label26.TabIndex = 87;
-            this.label26.Text = "Check Out :";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(43, 56);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(69, 16);
-            this.label25.TabIndex = 86;
-            this.label25.Text = "Check In :";
+            this.label28.Text = "Collect";
             // 
             // label2
             // 
@@ -3101,86 +3030,6 @@ namespace Quan_Ly_Khach_San
             this.label2.Size = new System.Drawing.Size(101, 20);
             this.label2.TabIndex = 85;
             this.label2.Text = "Information";
-            // 
-            // RoomIDTxb
-            // 
-            this.RoomIDTxb.BorderRadius = 10;
-            this.RoomIDTxb.BorderThickness = 2;
-            this.RoomIDTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.RoomIDTxb.DefaultText = "";
-            this.RoomIDTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.RoomIDTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.RoomIDTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.RoomIDTxb.DisabledState.Parent = this.RoomIDTxb;
-            this.RoomIDTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.RoomIDTxb.Enabled = false;
-            this.RoomIDTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
-            this.RoomIDTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RoomIDTxb.FocusedState.Parent = this.RoomIDTxb;
-            this.RoomIDTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.RoomIDTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.RoomIDTxb.HoverState.Parent = this.RoomIDTxb;
-            this.RoomIDTxb.Location = new System.Drawing.Point(126, 222);
-            this.RoomIDTxb.Name = "RoomIDTxb";
-            this.RoomIDTxb.PasswordChar = '\0';
-            this.RoomIDTxb.PlaceholderText = "";
-            this.RoomIDTxb.SelectedText = "";
-            this.RoomIDTxb.ShadowDecoration.Parent = this.RoomIDTxb;
-            this.RoomIDTxb.Size = new System.Drawing.Size(99, 36);
-            this.RoomIDTxb.TabIndex = 84;
-            // 
-            // DaysTxb
-            // 
-            this.DaysTxb.BorderColor = System.Drawing.Color.White;
-            this.DaysTxb.BorderRadius = 15;
-            this.DaysTxb.BorderThickness = 2;
-            this.DaysTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.DaysTxb.DefaultText = "0";
-            this.DaysTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.DaysTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.DaysTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DaysTxb.DisabledState.Parent = this.DaysTxb;
-            this.DaysTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.DaysTxb.Enabled = false;
-            this.DaysTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.DaysTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DaysTxb.FocusedState.Parent = this.DaysTxb;
-            this.DaysTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DaysTxb.ForeColor = System.Drawing.Color.White;
-            this.DaysTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DaysTxb.HoverState.Parent = this.DaysTxb;
-            this.DaysTxb.Location = new System.Drawing.Point(289, 214);
-            this.DaysTxb.Name = "DaysTxb";
-            this.DaysTxb.PasswordChar = '\0';
-            this.DaysTxb.PlaceholderText = "";
-            this.DaysTxb.SelectedText = "";
-            this.DaysTxb.SelectionStart = 1;
-            this.DaysTxb.ShadowDecoration.Parent = this.DaysTxb;
-            this.DaysTxb.Size = new System.Drawing.Size(62, 44);
-            this.DaysTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.DaysTxb.TabIndex = 81;
-            this.DaysTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // CheckOutDate
-            // 
-            this.CheckOutDate.BorderColor = System.Drawing.Color.White;
-            this.CheckOutDate.BorderRadius = 10;
-            this.CheckOutDate.BorderThickness = 2;
-            this.CheckOutDate.CheckedState.Parent = this.CheckOutDate;
-            this.CheckOutDate.Enabled = false;
-            this.CheckOutDate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.CheckOutDate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CheckOutDate.ForeColor = System.Drawing.Color.White;
-            this.CheckOutDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.CheckOutDate.HoverState.Parent = this.CheckOutDate;
-            this.CheckOutDate.Location = new System.Drawing.Point(126, 109);
-            this.CheckOutDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.CheckOutDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.CheckOutDate.Name = "CheckOutDate";
-            this.CheckOutDate.ShadowDecoration.Parent = this.CheckOutDate;
-            this.CheckOutDate.Size = new System.Drawing.Size(225, 45);
-            this.CheckOutDate.TabIndex = 77;
-            this.CheckOutDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
             // 
             // ReturnTxb
             // 
@@ -3203,7 +3052,7 @@ namespace Quan_Ly_Khach_San
             this.ReturnTxb.ForeColor = System.Drawing.Color.White;
             this.ReturnTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReturnTxb.HoverState.Parent = this.ReturnTxb;
-            this.ReturnTxb.Location = new System.Drawing.Point(126, 412);
+            this.ReturnTxb.Location = new System.Drawing.Point(126, 166);
             this.ReturnTxb.Name = "ReturnTxb";
             this.ReturnTxb.PasswordChar = '\0';
             this.ReturnTxb.PlaceholderText = "";
@@ -3215,29 +3064,6 @@ namespace Quan_Ly_Khach_San
             this.ReturnTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ReturnTxb.TabIndex = 74;
             this.ReturnTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // PrintBillServiceBtn
-            // 
-            this.PrintBillServiceBtn.BorderRadius = 15;
-            this.PrintBillServiceBtn.CheckedState.Parent = this.PrintBillServiceBtn;
-            this.PrintBillServiceBtn.CustomImages.Parent = this.PrintBillServiceBtn;
-            this.PrintBillServiceBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.PrintBillServiceBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.PrintBillServiceBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.PrintBillServiceBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.PrintBillServiceBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.PrintBillServiceBtn.DisabledState.Parent = this.PrintBillServiceBtn;
-            this.PrintBillServiceBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.PrintBillServiceBtn.FillColor2 = System.Drawing.Color.LightSkyBlue;
-            this.PrintBillServiceBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrintBillServiceBtn.ForeColor = System.Drawing.Color.Black;
-            this.PrintBillServiceBtn.HoverState.Parent = this.PrintBillServiceBtn;
-            this.PrintBillServiceBtn.Location = new System.Drawing.Point(14, 486);
-            this.PrintBillServiceBtn.Name = "PrintBillServiceBtn";
-            this.PrintBillServiceBtn.ShadowDecoration.Parent = this.PrintBillServiceBtn;
-            this.PrintBillServiceBtn.Size = new System.Drawing.Size(356, 47);
-            this.PrintBillServiceBtn.TabIndex = 25;
-            this.PrintBillServiceBtn.Text = "Print Bill";
             // 
             // ReceiveTxb
             // 
@@ -3260,7 +3086,7 @@ namespace Quan_Ly_Khach_San
             this.ReceiveTxb.ForeColor = System.Drawing.Color.White;
             this.ReceiveTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReceiveTxb.HoverState.Parent = this.ReceiveTxb;
-            this.ReceiveTxb.Location = new System.Drawing.Point(126, 341);
+            this.ReceiveTxb.Location = new System.Drawing.Point(123, 95);
             this.ReceiveTxb.Name = "ReceiveTxb";
             this.ReceiveTxb.PasswordChar = '\0';
             this.ReceiveTxb.PlaceholderText = "";
@@ -3294,7 +3120,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceTxb.ForeColor = System.Drawing.Color.White;
             this.TotalPriceTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalPriceTxb.HoverState.Parent = this.TotalPriceTxb;
-            this.TotalPriceTxb.Location = new System.Drawing.Point(126, 276);
+            this.TotalPriceTxb.Location = new System.Drawing.Point(126, 31);
             this.TotalPriceTxb.Name = "TotalPriceTxb";
             this.TotalPriceTxb.PasswordChar = '\0';
             this.TotalPriceTxb.PlaceholderText = "";
@@ -3307,68 +3133,588 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceTxb.TabIndex = 68;
             this.TotalPriceTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // CustomerCodeTxb
+            // PrintBillServiceBtn
             // 
-            this.CustomerCodeTxb.BorderRadius = 10;
-            this.CustomerCodeTxb.BorderThickness = 2;
-            this.CustomerCodeTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.CustomerCodeTxb.DefaultText = "";
-            this.CustomerCodeTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.CustomerCodeTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.CustomerCodeTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.CustomerCodeTxb.DisabledState.Parent = this.CustomerCodeTxb;
-            this.CustomerCodeTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.CustomerCodeTxb.Enabled = false;
-            this.CustomerCodeTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
-            this.CustomerCodeTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CustomerCodeTxb.FocusedState.Parent = this.CustomerCodeTxb;
-            this.CustomerCodeTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CustomerCodeTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CustomerCodeTxb.HoverState.Parent = this.CustomerCodeTxb;
-            this.CustomerCodeTxb.Location = new System.Drawing.Point(126, 169);
-            this.CustomerCodeTxb.Name = "CustomerCodeTxb";
-            this.CustomerCodeTxb.PasswordChar = '\0';
-            this.CustomerCodeTxb.PlaceholderText = "";
-            this.CustomerCodeTxb.SelectedText = "";
-            this.CustomerCodeTxb.ShadowDecoration.Parent = this.CustomerCodeTxb;
-            this.CustomerCodeTxb.Size = new System.Drawing.Size(225, 36);
-            this.CustomerCodeTxb.TabIndex = 54;
-            // 
-            // CheckInDate
-            // 
-            this.CheckInDate.BorderColor = System.Drawing.Color.White;
-            this.CheckInDate.BorderRadius = 10;
-            this.CheckInDate.BorderThickness = 2;
-            this.CheckInDate.CheckedState.Parent = this.CheckInDate;
-            this.CheckInDate.Enabled = false;
-            this.CheckInDate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.CheckInDate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CheckInDate.ForeColor = System.Drawing.Color.White;
-            this.CheckInDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.CheckInDate.HoverState.Parent = this.CheckInDate;
-            this.CheckInDate.Location = new System.Drawing.Point(126, 43);
-            this.CheckInDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.CheckInDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.CheckInDate.Name = "CheckInDate";
-            this.CheckInDate.ShadowDecoration.Parent = this.CheckInDate;
-            this.CheckInDate.Size = new System.Drawing.Size(225, 45);
-            this.CheckInDate.TabIndex = 51;
-            this.CheckInDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
+            this.PrintBillServiceBtn.BorderRadius = 15;
+            this.PrintBillServiceBtn.CheckedState.Parent = this.PrintBillServiceBtn;
+            this.PrintBillServiceBtn.CustomImages.Parent = this.PrintBillServiceBtn;
+            this.PrintBillServiceBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.PrintBillServiceBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.PrintBillServiceBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.PrintBillServiceBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.PrintBillServiceBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.PrintBillServiceBtn.DisabledState.Parent = this.PrintBillServiceBtn;
+            this.PrintBillServiceBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.PrintBillServiceBtn.FillColor2 = System.Drawing.Color.LightSkyBlue;
+            this.PrintBillServiceBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PrintBillServiceBtn.ForeColor = System.Drawing.Color.Black;
+            this.PrintBillServiceBtn.HoverState.Parent = this.PrintBillServiceBtn;
+            this.PrintBillServiceBtn.Location = new System.Drawing.Point(228, 493);
+            this.PrintBillServiceBtn.Name = "PrintBillServiceBtn";
+            this.PrintBillServiceBtn.ShadowDecoration.Parent = this.PrintBillServiceBtn;
+            this.PrintBillServiceBtn.Size = new System.Drawing.Size(156, 47);
+            this.PrintBillServiceBtn.TabIndex = 25;
+            this.PrintBillServiceBtn.Text = "Print Bill";
+            this.PrintBillServiceBtn.Click += new System.EventHandler(this.PrintBillServiceBtn_Click);
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.tabPage3.Controls.Add(this.FoodDateDailyDP);
+            this.tabPage3.Controls.Add(this.label33);
+            this.tabPage3.Controls.Add(this.FoodCustomerIDTxt);
+            this.tabPage3.Controls.Add(this.siticoneButton3);
+            this.tabPage3.Controls.Add(this.FoodDGV);
+            this.tabPage3.Controls.Add(this.siticonePanel6);
+            this.tabPage3.Controls.Add(this.siticoneGradientButton4);
             this.tabPage3.Controls.Add(this.SearchBtn);
-            this.tabPage3.Controls.Add(this.guna2DataGridView3);
-            this.tabPage3.Controls.Add(this.guna2DataGridView1);
-            this.tabPage3.Controls.Add(this.siticonePanel14);
-            this.tabPage3.Controls.Add(this.DateFoodPicker);
             this.tabPage3.Location = new System.Drawing.Point(4, 44);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(984, 554);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "FOOD";
+            // 
+            // FoodDateDailyDP
+            // 
+            this.FoodDateDailyDP.Animated = true;
+            this.FoodDateDailyDP.BorderRadius = 17;
+            this.FoodDateDailyDP.CheckedState.Parent = this.FoodDateDailyDP;
+            this.FoodDateDailyDP.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.FoodDateDailyDP.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.FoodDateDailyDP.HoverState.Parent = this.FoodDateDailyDP;
+            this.FoodDateDailyDP.Location = new System.Drawing.Point(6, 34);
+            this.FoodDateDailyDP.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.FoodDateDailyDP.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.FoodDateDailyDP.Name = "FoodDateDailyDP";
+            this.FoodDateDailyDP.ShadowDecoration.Parent = this.FoodDateDailyDP;
+            this.FoodDateDailyDP.Size = new System.Drawing.Size(319, 36);
+            this.FoodDateDailyDP.TabIndex = 105;
+            this.FoodDateDailyDP.Value = new System.DateTime(2021, 12, 5, 0, 0, 0, 0);
+            this.FoodDateDailyDP.ValueChanged += new System.EventHandler(this.FoodDateDailyDP_ValueChanged);
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label33.ForeColor = System.Drawing.Color.White;
+            this.label33.Location = new System.Drawing.Point(6, 109);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(110, 20);
+            this.label33.TabIndex = 104;
+            this.label33.Text = "Customer ID";
+            // 
+            // FoodCustomerIDTxt
+            // 
+            this.FoodCustomerIDTxt.BorderRadius = 18;
+            this.FoodCustomerIDTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodCustomerIDTxt.DefaultText = "";
+            this.FoodCustomerIDTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FoodCustomerIDTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FoodCustomerIDTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodCustomerIDTxt.DisabledState.Parent = this.FoodCustomerIDTxt;
+            this.FoodCustomerIDTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodCustomerIDTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.FoodCustomerIDTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodCustomerIDTxt.FocusedState.Parent = this.FoodCustomerIDTxt;
+            this.FoodCustomerIDTxt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.FoodCustomerIDTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodCustomerIDTxt.HoverState.Parent = this.FoodCustomerIDTxt;
+            this.FoodCustomerIDTxt.Location = new System.Drawing.Point(6, 140);
+            this.FoodCustomerIDTxt.Margin = new System.Windows.Forms.Padding(2);
+            this.FoodCustomerIDTxt.Name = "FoodCustomerIDTxt";
+            this.FoodCustomerIDTxt.PasswordChar = '\0';
+            this.FoodCustomerIDTxt.PlaceholderText = "";
+            this.FoodCustomerIDTxt.SelectedText = "";
+            this.FoodCustomerIDTxt.ShadowDecoration.Parent = this.FoodCustomerIDTxt;
+            this.FoodCustomerIDTxt.Size = new System.Drawing.Size(320, 35);
+            this.FoodCustomerIDTxt.TabIndex = 103;
+            this.FoodCustomerIDTxt.TextChanged += new System.EventHandler(this.FoodCustomerIDTxt_TextChanged);
+            // 
+            // siticoneButton3
+            // 
+            this.siticoneButton3.CheckedState.Parent = this.siticoneButton3;
+            this.siticoneButton3.CustomImages.Parent = this.siticoneButton3;
+            this.siticoneButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneButton3.DisabledState.Parent = this.siticoneButton3;
+            this.siticoneButton3.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneButton3.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton3.HoverState.Parent = this.siticoneButton3;
+            this.siticoneButton3.Image = ((System.Drawing.Image)(resources.GetObject("siticoneButton3.Image")));
+            this.siticoneButton3.ImageSize = new System.Drawing.Size(35, 35);
+            this.siticoneButton3.Location = new System.Drawing.Point(331, 136);
+            this.siticoneButton3.Name = "siticoneButton3";
+            this.siticoneButton3.ShadowDecoration.Parent = this.siticoneButton3;
+            this.siticoneButton3.Size = new System.Drawing.Size(35, 39);
+            this.siticoneButton3.TabIndex = 102;
+            // 
+            // FoodDGV
+            // 
+            this.FoodDGV.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
+            this.FoodDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
+            this.FoodDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.FoodDGV.BackgroundColor = System.Drawing.Color.White;
+            this.FoodDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FoodDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.FoodDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.FoodDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            this.FoodDGV.ColumnHeadersHeight = 40;
+            this.FoodDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn33,
+            this.Column1,
+            this.dataGridViewTextBoxColumn36,
+            this.dataGridViewTextBoxColumn37,
+            this.dataGridViewTextBoxColumn39,
+            this.dataGridViewTextBoxColumn40,
+            this.dataGridViewTextBoxColumn41,
+            this.dataGridViewTextBoxColumn42,
+            this.dataGridViewTextBoxColumn43,
+            this.dataGridViewTextBoxColumn44,
+            this.dataGridViewTextBoxColumn45,
+            this.dataGridViewTextBoxColumn46});
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.FoodDGV.DefaultCellStyle = dataGridViewCellStyle18;
+            this.FoodDGV.EnableHeadersVisualStyles = false;
+            this.FoodDGV.GridColor = System.Drawing.Color.White;
+            this.FoodDGV.Location = new System.Drawing.Point(390, 12);
+            this.FoodDGV.Name = "FoodDGV";
+            this.FoodDGV.ReadOnly = true;
+            this.FoodDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.FoodDGV.RowHeadersVisible = false;
+            this.FoodDGV.RowHeadersWidth = 51;
+            this.FoodDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.FoodDGV.Size = new System.Drawing.Size(588, 530);
+            this.FoodDGV.TabIndex = 101;
+            this.FoodDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.FoodDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.FoodDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.FoodDGV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.FoodDGV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.FoodDGV.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.FoodDGV.ThemeStyle.GridColor = System.Drawing.Color.White;
+            this.FoodDGV.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.FoodDGV.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.FoodDGV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.FoodDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.FoodDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.FoodDGV.ThemeStyle.HeaderStyle.Height = 40;
+            this.FoodDGV.ThemeStyle.ReadOnly = true;
+            this.FoodDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.FoodDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.FoodDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.FoodDGV.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.FoodDGV.ThemeStyle.RowsStyle.Height = 22;
+            this.FoodDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.FoodDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // dataGridViewTextBoxColumn33
+            // 
+            this.dataGridViewTextBoxColumn33.DataPropertyName = "MaHoaDon";
+            this.dataGridViewTextBoxColumn33.HeaderText = "Room Bill ID";
+            this.dataGridViewTextBoxColumn33.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
+            this.dataGridViewTextBoxColumn33.ReadOnly = true;
+            this.dataGridViewTextBoxColumn33.Width = 80;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "ngayLap";
+            this.Column1.HeaderText = "Date";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 57;
+            // 
+            // dataGridViewTextBoxColumn36
+            // 
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "MaNV";
+            this.dataGridViewTextBoxColumn36.HeaderText = "Staff ID";
+            this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
+            this.dataGridViewTextBoxColumn36.ReadOnly = true;
+            this.dataGridViewTextBoxColumn36.Width = 57;
+            // 
+            // dataGridViewTextBoxColumn37
+            // 
+            this.dataGridViewTextBoxColumn37.DataPropertyName = "MaKH";
+            this.dataGridViewTextBoxColumn37.HeaderText = "Customer ID";
+            this.dataGridViewTextBoxColumn37.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
+            this.dataGridViewTextBoxColumn37.ReadOnly = true;
+            this.dataGridViewTextBoxColumn37.Width = 91;
+            // 
+            // dataGridViewTextBoxColumn39
+            // 
+            this.dataGridViewTextBoxColumn39.DataPropertyName = "maDSMA";
+            this.dataGridViewTextBoxColumn39.HeaderText = "Foods List";
+            this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
+            this.dataGridViewTextBoxColumn39.ReadOnly = true;
+            this.dataGridViewTextBoxColumn39.Width = 81;
+            // 
+            // dataGridViewTextBoxColumn40
+            // 
+            this.dataGridViewTextBoxColumn40.DataPropertyName = "TongTien";
+            this.dataGridViewTextBoxColumn40.HeaderText = "Total";
+            this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
+            this.dataGridViewTextBoxColumn40.ReadOnly = true;
+            this.dataGridViewTextBoxColumn40.Width = 59;
+            // 
+            // dataGridViewTextBoxColumn41
+            // 
+            this.dataGridViewTextBoxColumn41.DataPropertyName = "TienNhan";
+            this.dataGridViewTextBoxColumn41.HeaderText = "Receive";
+            this.dataGridViewTextBoxColumn41.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
+            this.dataGridViewTextBoxColumn41.ReadOnly = true;
+            this.dataGridViewTextBoxColumn41.Width = 77;
+            // 
+            // dataGridViewTextBoxColumn42
+            // 
+            this.dataGridViewTextBoxColumn42.DataPropertyName = "TienThua";
+            this.dataGridViewTextBoxColumn42.HeaderText = "Return";
+            this.dataGridViewTextBoxColumn42.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
+            this.dataGridViewTextBoxColumn42.ReadOnly = true;
+            this.dataGridViewTextBoxColumn42.Width = 68;
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.DataPropertyName = "MaRR";
+            this.dataGridViewTextBoxColumn43.HeaderText = "Risk ID";
+            this.dataGridViewTextBoxColumn43.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            this.dataGridViewTextBoxColumn43.ReadOnly = true;
+            this.dataGridViewTextBoxColumn43.Width = 55;
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.DataPropertyName = "SoTienHoan";
+            this.dataGridViewTextBoxColumn44.HeaderText = "Refund";
+            this.dataGridViewTextBoxColumn44.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            this.dataGridViewTextBoxColumn44.ReadOnly = true;
+            this.dataGridViewTextBoxColumn44.Width = 71;
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.DataPropertyName = "MaTinhTrang";
+            this.dataGridViewTextBoxColumn45.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn45.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
+            this.dataGridViewTextBoxColumn45.ReadOnly = true;
+            this.dataGridViewTextBoxColumn45.Width = 66;
+            // 
+            // dataGridViewTextBoxColumn46
+            // 
+            this.dataGridViewTextBoxColumn46.DataPropertyName = "GhiChu";
+            this.dataGridViewTextBoxColumn46.HeaderText = "Notes";
+            this.dataGridViewTextBoxColumn46.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
+            this.dataGridViewTextBoxColumn46.ReadOnly = true;
+            this.dataGridViewTextBoxColumn46.Width = 63;
+            // 
+            // siticonePanel6
+            // 
+            this.siticonePanel6.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePanel6.BorderColor = System.Drawing.Color.Black;
+            this.siticonePanel6.BorderRadius = 15;
+            this.siticonePanel6.BorderThickness = 2;
+            this.siticonePanel6.Controls.Add(this.label34);
+            this.siticonePanel6.Controls.Add(this.FoodRiskRefurnTxt);
+            this.siticonePanel6.Controls.Add(this.label38);
+            this.siticonePanel6.Controls.Add(this.label93);
+            this.siticonePanel6.Controls.Add(this.label94);
+            this.siticonePanel6.Controls.Add(this.label95);
+            this.siticonePanel6.Controls.Add(this.label96);
+            this.siticonePanel6.Controls.Add(this.label97);
+            this.siticonePanel6.Controls.Add(this.label98);
+            this.siticonePanel6.Controls.Add(this.label99);
+            this.siticonePanel6.Controls.Add(this.FoodReturnDailyTxt);
+            this.siticonePanel6.Controls.Add(this.FoodReceiveDailyTxt);
+            this.siticonePanel6.Controls.Add(this.FoodTotalDailyTxt);
+            this.siticonePanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.siticonePanel6.Location = new System.Drawing.Point(6, 189);
+            this.siticonePanel6.Name = "siticonePanel6";
+            this.siticonePanel6.ShadowDecoration.Parent = this.siticonePanel6;
+            this.siticonePanel6.Size = new System.Drawing.Size(380, 295);
+            this.siticonePanel6.TabIndex = 100;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label34.ForeColor = System.Drawing.Color.White;
+            this.label34.Location = new System.Drawing.Point(269, 243);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(30, 16);
+            this.label34.TabIndex = 98;
+            this.label34.Text = "USD";
+            // 
+            // FoodRiskRefurnTxt
+            // 
+            this.FoodRiskRefurnTxt.BackColor = System.Drawing.Color.Transparent;
+            this.FoodRiskRefurnTxt.BorderColor = System.Drawing.Color.White;
+            this.FoodRiskRefurnTxt.BorderRadius = 15;
+            this.FoodRiskRefurnTxt.BorderThickness = 2;
+            this.FoodRiskRefurnTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodRiskRefurnTxt.DefaultText = "0.0";
+            this.FoodRiskRefurnTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FoodRiskRefurnTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FoodRiskRefurnTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodRiskRefurnTxt.DisabledState.Parent = this.FoodRiskRefurnTxt;
+            this.FoodRiskRefurnTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodRiskRefurnTxt.Enabled = false;
+            this.FoodRiskRefurnTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.FoodRiskRefurnTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodRiskRefurnTxt.FocusedState.Parent = this.FoodRiskRefurnTxt;
+            this.FoodRiskRefurnTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodRiskRefurnTxt.ForeColor = System.Drawing.Color.White;
+            this.FoodRiskRefurnTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodRiskRefurnTxt.HoverState.Parent = this.FoodRiskRefurnTxt;
+            this.FoodRiskRefurnTxt.Location = new System.Drawing.Point(123, 231);
+            this.FoodRiskRefurnTxt.Name = "FoodRiskRefurnTxt";
+            this.FoodRiskRefurnTxt.PasswordChar = '\0';
+            this.FoodRiskRefurnTxt.PlaceholderText = "";
+            this.FoodRiskRefurnTxt.ReadOnly = true;
+            this.FoodRiskRefurnTxt.SelectedText = "";
+            this.FoodRiskRefurnTxt.SelectionStart = 3;
+            this.FoodRiskRefurnTxt.ShadowDecoration.Parent = this.FoodRiskRefurnTxt;
+            this.FoodRiskRefurnTxt.Size = new System.Drawing.Size(121, 41);
+            this.FoodRiskRefurnTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.FoodRiskRefurnTxt.TabIndex = 97;
+            this.FoodRiskRefurnTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label38.ForeColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(34, 243);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(75, 16);
+            this.label38.TabIndex = 96;
+            this.label38.Text = "Risk refurn";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label93.ForeColor = System.Drawing.Color.White;
+            this.label93.Location = new System.Drawing.Point(269, 176);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(30, 16);
+            this.label93.TabIndex = 95;
+            this.label93.Text = "USD";
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label94.ForeColor = System.Drawing.Color.White;
+            this.label94.Location = new System.Drawing.Point(269, 108);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(30, 16);
+            this.label94.TabIndex = 94;
+            this.label94.Text = "USD";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label95.ForeColor = System.Drawing.Color.White;
+            this.label95.Location = new System.Drawing.Point(269, 42);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(30, 16);
+            this.label95.TabIndex = 93;
+            this.label95.Text = "USD";
+            // 
+            // label96
+            // 
+            this.label96.AutoSize = true;
+            this.label96.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label96.ForeColor = System.Drawing.Color.White;
+            this.label96.Location = new System.Drawing.Point(34, 176);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(49, 16);
+            this.label96.TabIndex = 91;
+            this.label96.Text = "Return";
+            // 
+            // label97
+            // 
+            this.label97.AutoSize = true;
+            this.label97.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label97.ForeColor = System.Drawing.Color.White;
+            this.label97.Location = new System.Drawing.Point(34, 108);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(55, 16);
+            this.label97.TabIndex = 90;
+            this.label97.Text = "Receive";
+            // 
+            // label98
+            // 
+            this.label98.AutoSize = true;
+            this.label98.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label98.ForeColor = System.Drawing.Color.White;
+            this.label98.Location = new System.Drawing.Point(34, 48);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(40, 16);
+            this.label98.TabIndex = 89;
+            this.label98.Text = "Total";
+            // 
+            // label99
+            // 
+            this.label99.AutoSize = true;
+            this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label99.ForeColor = System.Drawing.Color.White;
+            this.label99.Location = new System.Drawing.Point(146, 7);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(101, 20);
+            this.label99.TabIndex = 85;
+            this.label99.Text = "Information";
+            // 
+            // FoodReturnDailyTxt
+            // 
+            this.FoodReturnDailyTxt.BackColor = System.Drawing.Color.Transparent;
+            this.FoodReturnDailyTxt.BorderColor = System.Drawing.Color.White;
+            this.FoodReturnDailyTxt.BorderRadius = 15;
+            this.FoodReturnDailyTxt.BorderThickness = 2;
+            this.FoodReturnDailyTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodReturnDailyTxt.DefaultText = "0.0";
+            this.FoodReturnDailyTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FoodReturnDailyTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FoodReturnDailyTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodReturnDailyTxt.DisabledState.Parent = this.FoodReturnDailyTxt;
+            this.FoodReturnDailyTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodReturnDailyTxt.Enabled = false;
+            this.FoodReturnDailyTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.FoodReturnDailyTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodReturnDailyTxt.FocusedState.Parent = this.FoodReturnDailyTxt;
+            this.FoodReturnDailyTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodReturnDailyTxt.ForeColor = System.Drawing.Color.White;
+            this.FoodReturnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodReturnDailyTxt.HoverState.Parent = this.FoodReturnDailyTxt;
+            this.FoodReturnDailyTxt.Location = new System.Drawing.Point(126, 166);
+            this.FoodReturnDailyTxt.Name = "FoodReturnDailyTxt";
+            this.FoodReturnDailyTxt.PasswordChar = '\0';
+            this.FoodReturnDailyTxt.PlaceholderText = "";
+            this.FoodReturnDailyTxt.ReadOnly = true;
+            this.FoodReturnDailyTxt.SelectedText = "";
+            this.FoodReturnDailyTxt.SelectionStart = 3;
+            this.FoodReturnDailyTxt.ShadowDecoration.Parent = this.FoodReturnDailyTxt;
+            this.FoodReturnDailyTxt.Size = new System.Drawing.Size(121, 41);
+            this.FoodReturnDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.FoodReturnDailyTxt.TabIndex = 74;
+            this.FoodReturnDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // FoodReceiveDailyTxt
+            // 
+            this.FoodReceiveDailyTxt.BackColor = System.Drawing.Color.Transparent;
+            this.FoodReceiveDailyTxt.BorderColor = System.Drawing.Color.White;
+            this.FoodReceiveDailyTxt.BorderRadius = 15;
+            this.FoodReceiveDailyTxt.BorderThickness = 2;
+            this.FoodReceiveDailyTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodReceiveDailyTxt.DefaultText = "0.0";
+            this.FoodReceiveDailyTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FoodReceiveDailyTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FoodReceiveDailyTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodReceiveDailyTxt.DisabledState.Parent = this.FoodReceiveDailyTxt;
+            this.FoodReceiveDailyTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodReceiveDailyTxt.Enabled = false;
+            this.FoodReceiveDailyTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.FoodReceiveDailyTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodReceiveDailyTxt.FocusedState.Parent = this.FoodReceiveDailyTxt;
+            this.FoodReceiveDailyTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodReceiveDailyTxt.ForeColor = System.Drawing.Color.White;
+            this.FoodReceiveDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodReceiveDailyTxt.HoverState.Parent = this.FoodReceiveDailyTxt;
+            this.FoodReceiveDailyTxt.Location = new System.Drawing.Point(123, 95);
+            this.FoodReceiveDailyTxt.Name = "FoodReceiveDailyTxt";
+            this.FoodReceiveDailyTxt.PasswordChar = '\0';
+            this.FoodReceiveDailyTxt.PlaceholderText = "";
+            this.FoodReceiveDailyTxt.ReadOnly = true;
+            this.FoodReceiveDailyTxt.SelectedText = "";
+            this.FoodReceiveDailyTxt.SelectionStart = 3;
+            this.FoodReceiveDailyTxt.ShadowDecoration.Parent = this.FoodReceiveDailyTxt;
+            this.FoodReceiveDailyTxt.Size = new System.Drawing.Size(121, 41);
+            this.FoodReceiveDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.FoodReceiveDailyTxt.TabIndex = 71;
+            this.FoodReceiveDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // FoodTotalDailyTxt
+            // 
+            this.FoodTotalDailyTxt.BackColor = System.Drawing.Color.Transparent;
+            this.FoodTotalDailyTxt.BorderColor = System.Drawing.Color.White;
+            this.FoodTotalDailyTxt.BorderRadius = 15;
+            this.FoodTotalDailyTxt.BorderThickness = 2;
+            this.FoodTotalDailyTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodTotalDailyTxt.DefaultText = "0.0";
+            this.FoodTotalDailyTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FoodTotalDailyTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FoodTotalDailyTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodTotalDailyTxt.DisabledState.Parent = this.FoodTotalDailyTxt;
+            this.FoodTotalDailyTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodTotalDailyTxt.Enabled = false;
+            this.FoodTotalDailyTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.FoodTotalDailyTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodTotalDailyTxt.FocusedState.Parent = this.FoodTotalDailyTxt;
+            this.FoodTotalDailyTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodTotalDailyTxt.ForeColor = System.Drawing.Color.White;
+            this.FoodTotalDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodTotalDailyTxt.HoverState.Parent = this.FoodTotalDailyTxt;
+            this.FoodTotalDailyTxt.Location = new System.Drawing.Point(126, 31);
+            this.FoodTotalDailyTxt.Name = "FoodTotalDailyTxt";
+            this.FoodTotalDailyTxt.PasswordChar = '\0';
+            this.FoodTotalDailyTxt.PlaceholderText = "";
+            this.FoodTotalDailyTxt.ReadOnly = true;
+            this.FoodTotalDailyTxt.SelectedText = "";
+            this.FoodTotalDailyTxt.SelectionStart = 3;
+            this.FoodTotalDailyTxt.ShadowDecoration.Parent = this.FoodTotalDailyTxt;
+            this.FoodTotalDailyTxt.Size = new System.Drawing.Size(121, 41);
+            this.FoodTotalDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.FoodTotalDailyTxt.TabIndex = 68;
+            this.FoodTotalDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // siticoneGradientButton4
+            // 
+            this.siticoneGradientButton4.BorderRadius = 15;
+            this.siticoneGradientButton4.CheckedState.Parent = this.siticoneGradientButton4;
+            this.siticoneGradientButton4.CustomImages.Parent = this.siticoneGradientButton4;
+            this.siticoneGradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneGradientButton4.DisabledState.Parent = this.siticoneGradientButton4;
+            this.siticoneGradientButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.siticoneGradientButton4.FillColor2 = System.Drawing.Color.LightSkyBlue;
+            this.siticoneGradientButton4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneGradientButton4.ForeColor = System.Drawing.Color.Black;
+            this.siticoneGradientButton4.HoverState.Parent = this.siticoneGradientButton4;
+            this.siticoneGradientButton4.Location = new System.Drawing.Point(228, 490);
+            this.siticoneGradientButton4.Name = "siticoneGradientButton4";
+            this.siticoneGradientButton4.ShadowDecoration.Parent = this.siticoneGradientButton4;
+            this.siticoneGradientButton4.Size = new System.Drawing.Size(156, 47);
+            this.siticoneGradientButton4.TabIndex = 99;
+            this.siticoneGradientButton4.Text = "Print Bill";
             // 
             // SearchBtn
             // 
@@ -3391,15 +3737,110 @@ namespace Quan_Ly_Khach_San
             this.SearchBtn.Size = new System.Drawing.Size(35, 39);
             this.SearchBtn.TabIndex = 55;
             // 
-            // guna2DataGridView3
+            // ServiceBillTab
             // 
+            this.ServiceBillTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.ServiceBillTab.Controls.Add(this.ServiceDailyDateTxt);
+            this.ServiceBillTab.Controls.Add(this.label83);
+            this.ServiceBillTab.Controls.Add(this.CustomerIDDailyTxt);
+            this.ServiceBillTab.Controls.Add(this.siticoneButton1);
+            this.ServiceBillTab.Controls.Add(this.ServiceDailyDGV);
+            this.ServiceBillTab.Controls.Add(this.siticonePanel4);
+            this.ServiceBillTab.Controls.Add(this.siticoneGradientButton3);
+            this.ServiceBillTab.Location = new System.Drawing.Point(4, 44);
+            this.ServiceBillTab.Name = "ServiceBillTab";
+            this.ServiceBillTab.Padding = new System.Windows.Forms.Padding(3);
+            this.ServiceBillTab.Size = new System.Drawing.Size(984, 554);
+            this.ServiceBillTab.TabIndex = 3;
+            this.ServiceBillTab.Text = "SERVICE";
+            // 
+            // ServiceDailyDateTxt
+            // 
+            this.ServiceDailyDateTxt.Animated = true;
+            this.ServiceDailyDateTxt.BorderRadius = 17;
+            this.ServiceDailyDateTxt.CheckedState.Parent = this.ServiceDailyDateTxt;
+            this.ServiceDailyDateTxt.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.ServiceDailyDateTxt.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.ServiceDailyDateTxt.HoverState.Parent = this.ServiceDailyDateTxt;
+            this.ServiceDailyDateTxt.Location = new System.Drawing.Point(6, 34);
+            this.ServiceDailyDateTxt.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.ServiceDailyDateTxt.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.ServiceDailyDateTxt.Name = "ServiceDailyDateTxt";
+            this.ServiceDailyDateTxt.ShadowDecoration.Parent = this.ServiceDailyDateTxt;
+            this.ServiceDailyDateTxt.Size = new System.Drawing.Size(319, 36);
+            this.ServiceDailyDateTxt.TabIndex = 105;
+            this.ServiceDailyDateTxt.Value = new System.DateTime(2021, 12, 5, 0, 0, 0, 0);
+            this.ServiceDailyDateTxt.ValueChanged += new System.EventHandler(this.ServiceDailyDateTxt_ValueChanged);
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label83.ForeColor = System.Drawing.Color.White;
+            this.label83.Location = new System.Drawing.Point(6, 109);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(110, 20);
+            this.label83.TabIndex = 104;
+            this.label83.Text = "Customer ID";
+            // 
+            // CustomerIDDailyTxt
+            // 
+            this.CustomerIDDailyTxt.BorderRadius = 18;
+            this.CustomerIDDailyTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CustomerIDDailyTxt.DefaultText = "";
+            this.CustomerIDDailyTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.CustomerIDDailyTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.CustomerIDDailyTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerIDDailyTxt.DisabledState.Parent = this.CustomerIDDailyTxt;
+            this.CustomerIDDailyTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.CustomerIDDailyTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.CustomerIDDailyTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerIDDailyTxt.FocusedState.Parent = this.CustomerIDDailyTxt;
+            this.CustomerIDDailyTxt.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.CustomerIDDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.CustomerIDDailyTxt.HoverState.Parent = this.CustomerIDDailyTxt;
+            this.CustomerIDDailyTxt.Location = new System.Drawing.Point(6, 140);
+            this.CustomerIDDailyTxt.Margin = new System.Windows.Forms.Padding(2);
+            this.CustomerIDDailyTxt.Name = "CustomerIDDailyTxt";
+            this.CustomerIDDailyTxt.PasswordChar = '\0';
+            this.CustomerIDDailyTxt.PlaceholderText = "";
+            this.CustomerIDDailyTxt.SelectedText = "";
+            this.CustomerIDDailyTxt.ShadowDecoration.Parent = this.CustomerIDDailyTxt;
+            this.CustomerIDDailyTxt.Size = new System.Drawing.Size(320, 35);
+            this.CustomerIDDailyTxt.TabIndex = 103;
+            this.CustomerIDDailyTxt.TextChanged += new System.EventHandler(this.CustomerIDDailyTxt_TextChanged);
+            // 
+            // siticoneButton1
+            // 
+            this.siticoneButton1.CheckedState.Parent = this.siticoneButton1;
+            this.siticoneButton1.CustomImages.Parent = this.siticoneButton1;
+            this.siticoneButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneButton1.DisabledState.Parent = this.siticoneButton1;
+            this.siticoneButton1.FillColor = System.Drawing.Color.Transparent;
+            this.siticoneButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.siticoneButton1.ForeColor = System.Drawing.Color.White;
+            this.siticoneButton1.HoverState.Parent = this.siticoneButton1;
+            this.siticoneButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneButton1.Image")));
+            this.siticoneButton1.ImageSize = new System.Drawing.Size(35, 35);
+            this.siticoneButton1.Location = new System.Drawing.Point(331, 136);
+            this.siticoneButton1.Name = "siticoneButton1";
+            this.siticoneButton1.ShadowDecoration.Parent = this.siticoneButton1;
+            this.siticoneButton1.Size = new System.Drawing.Size(35, 39);
+            this.siticoneButton1.TabIndex = 102;
+            // 
+            // ServiceDailyDGV
+            // 
+            this.ServiceDailyDGV.AllowUserToDeleteRows = false;
             dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
-            this.guna2DataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView3.BackgroundColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.ServiceDailyDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
+            this.ServiceDailyDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.ServiceDailyDGV.BackgroundColor = System.Drawing.Color.White;
+            this.ServiceDailyDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ServiceDailyDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.ServiceDailyDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -3407,11 +3848,22 @@ namespace Quan_Ly_Khach_San
             dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
-            this.guna2DataGridView3.ColumnHeadersHeight = 40;
-            this.guna2DataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4});
+            this.ServiceDailyDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
+            this.ServiceDailyDGV.ColumnHeadersHeight = 40;
+            this.ServiceDailyDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn15,
+            this.dataGridViewTextBoxColumn16,
+            this.dataGridViewTextBoxColumn47,
+            this.dataGridViewTextBoxColumn48,
+            this.dataGridViewTextBoxColumn50,
+            this.dataGridViewTextBoxColumn51,
+            this.dataGridViewTextBoxColumn52,
+            this.dataGridViewTextBoxColumn53,
+            this.dataGridViewTextBoxColumn54,
+            this.dataGridViewTextBoxColumn55,
+            this.dataGridViewTextBoxColumn56});
             dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle21.BackColor = System.Drawing.Color.CornflowerBlue;
             dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -3419,477 +3871,440 @@ namespace Quan_Ly_Khach_San
             dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView3.DefaultCellStyle = dataGridViewCellStyle21;
-            this.guna2DataGridView3.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView3.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.Location = new System.Drawing.Point(442, 340);
-            this.guna2DataGridView3.Name = "guna2DataGridView3";
-            this.guna2DataGridView3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.guna2DataGridView3.RowHeadersVisible = false;
-            this.guna2DataGridView3.RowHeadersWidth = 51;
-            this.guna2DataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView3.Size = new System.Drawing.Size(536, 208);
-            this.guna2DataGridView3.TabIndex = 54;
-            this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView3.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView3.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.ThemeStyle.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView3.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView3.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView3.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView3.ThemeStyle.HeaderStyle.Height = 40;
-            this.guna2DataGridView3.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView3.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView3.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView3.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView3.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView3.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView3.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView3.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.ServiceDailyDGV.DefaultCellStyle = dataGridViewCellStyle21;
+            this.ServiceDailyDGV.EnableHeadersVisualStyles = false;
+            this.ServiceDailyDGV.GridColor = System.Drawing.Color.White;
+            this.ServiceDailyDGV.Location = new System.Drawing.Point(390, 12);
+            this.ServiceDailyDGV.Name = "ServiceDailyDGV";
+            this.ServiceDailyDGV.ReadOnly = true;
+            this.ServiceDailyDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ServiceDailyDGV.RowHeadersVisible = false;
+            this.ServiceDailyDGV.RowHeadersWidth = 51;
+            this.ServiceDailyDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.ServiceDailyDGV.Size = new System.Drawing.Size(588, 530);
+            this.ServiceDailyDGV.TabIndex = 101;
+            this.ServiceDailyDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.ServiceDailyDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.ServiceDailyDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.ServiceDailyDGV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.ServiceDailyDGV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.ServiceDailyDGV.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.ServiceDailyDGV.ThemeStyle.GridColor = System.Drawing.Color.White;
+            this.ServiceDailyDGV.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.ServiceDailyDGV.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.ServiceDailyDGV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.ServiceDailyDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.ServiceDailyDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.ServiceDailyDGV.ThemeStyle.HeaderStyle.Height = 40;
+            this.ServiceDailyDGV.ThemeStyle.ReadOnly = true;
+            this.ServiceDailyDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.ServiceDailyDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.ServiceDailyDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.ServiceDailyDGV.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.ServiceDailyDGV.ThemeStyle.RowsStyle.Height = 22;
+            this.ServiceDailyDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.ServiceDailyDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // dataGridViewTextBoxColumn3
+            // dataGridViewTextBoxColumn7
             // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "MaHoaDon";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Room Bill ID";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.Width = 80;
             // 
-            // dataGridViewTextBoxColumn4
+            // dataGridViewTextBoxColumn8
             // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Checkin";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Check In";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            this.dataGridViewTextBoxColumn8.Width = 75;
             // 
-            // guna2DataGridView1
+            // dataGridViewTextBoxColumn15
             // 
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
-            this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
-            this.guna2DataGridView1.ColumnHeadersHeight = 40;
-            this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2});
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle24;
-            this.guna2DataGridView1.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.Location = new System.Drawing.Point(442, 55);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(536, 279);
-            this.guna2DataGridView1.TabIndex = 53;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 40;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "Checkout";
+            this.dataGridViewTextBoxColumn15.HeaderText = "Check Out";
+            this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.ReadOnly = true;
+            this.dataGridViewTextBoxColumn15.Width = 83;
             // 
-            // dataGridViewTextBoxColumn1
+            // dataGridViewTextBoxColumn16
             // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "MaNV";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Staff ID";
+            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.ReadOnly = true;
+            this.dataGridViewTextBoxColumn16.Width = 57;
             // 
-            // dataGridViewTextBoxColumn2
+            // dataGridViewTextBoxColumn47
             // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn47.DataPropertyName = "MaKH";
+            this.dataGridViewTextBoxColumn47.HeaderText = "Customer ID";
+            this.dataGridViewTextBoxColumn47.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
+            this.dataGridViewTextBoxColumn47.ReadOnly = true;
+            this.dataGridViewTextBoxColumn47.Width = 91;
             // 
-            // siticonePanel14
+            // dataGridViewTextBoxColumn48
             // 
-            this.siticonePanel14.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePanel14.BorderColor = System.Drawing.Color.Black;
-            this.siticonePanel14.BorderRadius = 15;
-            this.siticonePanel14.BorderThickness = 2;
-            this.siticonePanel14.Controls.Add(this.label34);
-            this.siticonePanel14.Controls.Add(this.label33);
-            this.siticonePanel14.Controls.Add(this.label32);
-            this.siticonePanel14.Controls.Add(this.label24);
-            this.siticonePanel14.Controls.Add(this.label23);
-            this.siticonePanel14.Controls.Add(this.label22);
-            this.siticonePanel14.Controls.Add(this.label21);
-            this.siticonePanel14.Controls.Add(this.label20);
-            this.siticonePanel14.Controls.Add(this.label19);
-            this.siticonePanel14.Controls.Add(this.label18);
-            this.siticonePanel14.Controls.Add(this.ReturnFoodTxb);
-            this.siticonePanel14.Controls.Add(this.PrintBillFoodBtn);
-            this.siticonePanel14.Controls.Add(this.ReceiveFoodTxb);
-            this.siticonePanel14.Controls.Add(this.TotalPriceFoodTxb);
-            this.siticonePanel14.Controls.Add(this.siticoneComboBox6);
-            this.siticonePanel14.Controls.Add(this.CustomerCode1Txb);
-            this.siticonePanel14.Controls.Add(this.CreateDate);
-            this.siticonePanel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel14.Location = new System.Drawing.Point(3, 0);
-            this.siticonePanel14.Name = "siticonePanel14";
-            this.siticonePanel14.ShadowDecoration.Parent = this.siticonePanel14;
-            this.siticonePanel14.Size = new System.Drawing.Size(433, 548);
-            this.siticonePanel14.TabIndex = 51;
+            this.dataGridViewTextBoxColumn48.DataPropertyName = "MaDSDV";
+            this.dataGridViewTextBoxColumn48.HeaderText = "Services List";
+            this.dataGridViewTextBoxColumn48.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
+            this.dataGridViewTextBoxColumn48.ReadOnly = true;
+            this.dataGridViewTextBoxColumn48.Width = 94;
             // 
-            // label34
+            // dataGridViewTextBoxColumn50
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
-            this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(297, 448);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(29, 16);
-            this.label34.TabIndex = 86;
-            this.label34.Text = "USD";
+            this.dataGridViewTextBoxColumn50.DataPropertyName = "TongTien";
+            this.dataGridViewTextBoxColumn50.HeaderText = "Total";
+            this.dataGridViewTextBoxColumn50.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
+            this.dataGridViewTextBoxColumn50.ReadOnly = true;
+            this.dataGridViewTextBoxColumn50.Width = 59;
             // 
-            // label33
+            // dataGridViewTextBoxColumn51
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
-            this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(297, 376);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(29, 16);
-            this.label33.TabIndex = 85;
-            this.label33.Text = "USD";
+            this.dataGridViewTextBoxColumn51.DataPropertyName = "TienNhan";
+            this.dataGridViewTextBoxColumn51.HeaderText = "Receive";
+            this.dataGridViewTextBoxColumn51.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
+            this.dataGridViewTextBoxColumn51.ReadOnly = true;
+            this.dataGridViewTextBoxColumn51.Width = 77;
             // 
-            // label32
+            // dataGridViewTextBoxColumn52
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(297, 303);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(29, 16);
-            this.label32.TabIndex = 84;
-            this.label32.Text = "USD";
+            this.dataGridViewTextBoxColumn52.DataPropertyName = "TienThua";
+            this.dataGridViewTextBoxColumn52.HeaderText = "Return";
+            this.dataGridViewTextBoxColumn52.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
+            this.dataGridViewTextBoxColumn52.ReadOnly = true;
+            this.dataGridViewTextBoxColumn52.Width = 68;
             // 
-            // label24
+            // dataGridViewTextBoxColumn53
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(115, 448);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(54, 16);
-            this.label24.TabIndex = 83;
-            this.label24.Text = "Receive";
+            this.dataGridViewTextBoxColumn53.DataPropertyName = "MaRR";
+            this.dataGridViewTextBoxColumn53.HeaderText = "Risk ID";
+            this.dataGridViewTextBoxColumn53.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
+            this.dataGridViewTextBoxColumn53.ReadOnly = true;
+            this.dataGridViewTextBoxColumn53.Width = 55;
             // 
-            // label23
+            // dataGridViewTextBoxColumn54
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(115, 376);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(48, 16);
-            this.label23.TabIndex = 82;
-            this.label23.Text = "Return";
+            this.dataGridViewTextBoxColumn54.DataPropertyName = "SoTienHoan";
+            this.dataGridViewTextBoxColumn54.HeaderText = "Refund";
+            this.dataGridViewTextBoxColumn54.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
+            this.dataGridViewTextBoxColumn54.ReadOnly = true;
+            this.dataGridViewTextBoxColumn54.Width = 71;
             // 
-            // label22
+            // dataGridViewTextBoxColumn55
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(115, 303);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(39, 16);
-            this.label22.TabIndex = 81;
-            this.label22.Text = "Total";
+            this.dataGridViewTextBoxColumn55.DataPropertyName = "MaTinhTrang";
+            this.dataGridViewTextBoxColumn55.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn55.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
+            this.dataGridViewTextBoxColumn55.ReadOnly = true;
+            this.dataGridViewTextBoxColumn55.Width = 66;
             // 
-            // label21
+            // dataGridViewTextBoxColumn56
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(185, 194);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(37, 16);
-            this.label21.TabIndex = 80;
-            this.label21.Text = "Type";
+            this.dataGridViewTextBoxColumn56.DataPropertyName = "GhiChu";
+            this.dataGridViewTextBoxColumn56.HeaderText = "Notes";
+            this.dataGridViewTextBoxColumn56.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
+            this.dataGridViewTextBoxColumn56.ReadOnly = true;
+            this.dataGridViewTextBoxColumn56.Width = 63;
             // 
-            // label20
+            // siticonePanel4
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(23, 133);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(103, 16);
-            this.label20.TabIndex = 79;
-            this.label20.Text = "Customer Code";
+            this.siticonePanel4.BackColor = System.Drawing.Color.Transparent;
+            this.siticonePanel4.BorderColor = System.Drawing.Color.Black;
+            this.siticonePanel4.BorderRadius = 15;
+            this.siticonePanel4.BorderThickness = 2;
+            this.siticonePanel4.Controls.Add(this.label84);
+            this.siticonePanel4.Controls.Add(this.ServiceRiskRefurnDailyTxt);
+            this.siticonePanel4.Controls.Add(this.label85);
+            this.siticonePanel4.Controls.Add(this.label86);
+            this.siticonePanel4.Controls.Add(this.label87);
+            this.siticonePanel4.Controls.Add(this.label88);
+            this.siticonePanel4.Controls.Add(this.label89);
+            this.siticonePanel4.Controls.Add(this.label90);
+            this.siticonePanel4.Controls.Add(this.label91);
+            this.siticonePanel4.Controls.Add(this.label92);
+            this.siticonePanel4.Controls.Add(this.ServiceReturnDailyTxt);
+            this.siticonePanel4.Controls.Add(this.ServiceReceiveDailyTxt);
+            this.siticonePanel4.Controls.Add(this.ServiceTotalDailyTxt);
+            this.siticonePanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.siticonePanel4.Location = new System.Drawing.Point(6, 189);
+            this.siticonePanel4.Name = "siticonePanel4";
+            this.siticonePanel4.ShadowDecoration.Parent = this.siticonePanel4;
+            this.siticonePanel4.Size = new System.Drawing.Size(380, 295);
+            this.siticonePanel4.TabIndex = 100;
             // 
-            // label19
+            // label84
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(47, 66);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(79, 16);
-            this.label19.TabIndex = 78;
-            this.label19.Text = "Create Date";
+            this.label84.AutoSize = true;
+            this.label84.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label84.ForeColor = System.Drawing.Color.White;
+            this.label84.Location = new System.Drawing.Point(269, 243);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(30, 16);
+            this.label84.TabIndex = 98;
+            this.label84.Text = "USD";
             // 
-            // label18
+            // ServiceRiskRefurnDailyTxt
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label18.ForeColor = System.Drawing.Color.White;
-            this.label18.Location = new System.Drawing.Point(160, 10);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(101, 20);
-            this.label18.TabIndex = 77;
-            this.label18.Text = "Information";
+            this.ServiceRiskRefurnDailyTxt.BackColor = System.Drawing.Color.Transparent;
+            this.ServiceRiskRefurnDailyTxt.BorderColor = System.Drawing.Color.White;
+            this.ServiceRiskRefurnDailyTxt.BorderRadius = 15;
+            this.ServiceRiskRefurnDailyTxt.BorderThickness = 2;
+            this.ServiceRiskRefurnDailyTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ServiceRiskRefurnDailyTxt.DefaultText = "0.0";
+            this.ServiceRiskRefurnDailyTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ServiceRiskRefurnDailyTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ServiceRiskRefurnDailyTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ServiceRiskRefurnDailyTxt.DisabledState.Parent = this.ServiceRiskRefurnDailyTxt;
+            this.ServiceRiskRefurnDailyTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ServiceRiskRefurnDailyTxt.Enabled = false;
+            this.ServiceRiskRefurnDailyTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.ServiceRiskRefurnDailyTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ServiceRiskRefurnDailyTxt.FocusedState.Parent = this.ServiceRiskRefurnDailyTxt;
+            this.ServiceRiskRefurnDailyTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceRiskRefurnDailyTxt.ForeColor = System.Drawing.Color.White;
+            this.ServiceRiskRefurnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ServiceRiskRefurnDailyTxt.HoverState.Parent = this.ServiceRiskRefurnDailyTxt;
+            this.ServiceRiskRefurnDailyTxt.Location = new System.Drawing.Point(123, 231);
+            this.ServiceRiskRefurnDailyTxt.Name = "ServiceRiskRefurnDailyTxt";
+            this.ServiceRiskRefurnDailyTxt.PasswordChar = '\0';
+            this.ServiceRiskRefurnDailyTxt.PlaceholderText = "";
+            this.ServiceRiskRefurnDailyTxt.ReadOnly = true;
+            this.ServiceRiskRefurnDailyTxt.SelectedText = "";
+            this.ServiceRiskRefurnDailyTxt.SelectionStart = 3;
+            this.ServiceRiskRefurnDailyTxt.ShadowDecoration.Parent = this.ServiceRiskRefurnDailyTxt;
+            this.ServiceRiskRefurnDailyTxt.Size = new System.Drawing.Size(121, 41);
+            this.ServiceRiskRefurnDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.ServiceRiskRefurnDailyTxt.TabIndex = 97;
+            this.ServiceRiskRefurnDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // ReturnFoodTxb
+            // label85
             // 
-            this.ReturnFoodTxb.BackColor = System.Drawing.Color.Transparent;
-            this.ReturnFoodTxb.BorderColor = System.Drawing.Color.White;
-            this.ReturnFoodTxb.BorderRadius = 15;
-            this.ReturnFoodTxb.BorderThickness = 2;
-            this.ReturnFoodTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ReturnFoodTxb.DefaultText = "Total";
-            this.ReturnFoodTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.ReturnFoodTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.ReturnFoodTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ReturnFoodTxb.DisabledState.Parent = this.ReturnFoodTxb;
-            this.ReturnFoodTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ReturnFoodTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.ReturnFoodTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ReturnFoodTxb.FocusedState.Parent = this.ReturnFoodTxb;
-            this.ReturnFoodTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReturnFoodTxb.ForeColor = System.Drawing.Color.White;
-            this.ReturnFoodTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ReturnFoodTxb.HoverState.Parent = this.ReturnFoodTxb;
-            this.ReturnFoodTxb.Location = new System.Drawing.Point(179, 351);
-            this.ReturnFoodTxb.Name = "ReturnFoodTxb";
-            this.ReturnFoodTxb.PasswordChar = '\0';
-            this.ReturnFoodTxb.PlaceholderText = "";
-            this.ReturnFoodTxb.ReadOnly = true;
-            this.ReturnFoodTxb.SelectedText = "";
-            this.ReturnFoodTxb.SelectionStart = 5;
-            this.ReturnFoodTxb.ShadowDecoration.Parent = this.ReturnFoodTxb;
-            this.ReturnFoodTxb.Size = new System.Drawing.Size(112, 41);
-            this.ReturnFoodTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.ReturnFoodTxb.TabIndex = 74;
-            this.ReturnFoodTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label85.AutoSize = true;
+            this.label85.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label85.ForeColor = System.Drawing.Color.White;
+            this.label85.Location = new System.Drawing.Point(34, 243);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(75, 16);
+            this.label85.TabIndex = 96;
+            this.label85.Text = "Risk refurn";
             // 
-            // PrintBillFoodBtn
+            // label86
             // 
-            this.PrintBillFoodBtn.BorderRadius = 15;
-            this.PrintBillFoodBtn.CheckedState.Parent = this.PrintBillFoodBtn;
-            this.PrintBillFoodBtn.CustomImages.Parent = this.PrintBillFoodBtn;
-            this.PrintBillFoodBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.PrintBillFoodBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.PrintBillFoodBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.PrintBillFoodBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.PrintBillFoodBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.PrintBillFoodBtn.DisabledState.Parent = this.PrintBillFoodBtn;
-            this.PrintBillFoodBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.PrintBillFoodBtn.FillColor2 = System.Drawing.Color.LightSkyBlue;
-            this.PrintBillFoodBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrintBillFoodBtn.ForeColor = System.Drawing.Color.Black;
-            this.PrintBillFoodBtn.HoverState.Parent = this.PrintBillFoodBtn;
-            this.PrintBillFoodBtn.Location = new System.Drawing.Point(255, 489);
-            this.PrintBillFoodBtn.Name = "PrintBillFoodBtn";
-            this.PrintBillFoodBtn.ShadowDecoration.Parent = this.PrintBillFoodBtn;
-            this.PrintBillFoodBtn.Size = new System.Drawing.Size(164, 47);
-            this.PrintBillFoodBtn.TabIndex = 25;
-            this.PrintBillFoodBtn.Text = "Print Bill";
+            this.label86.AutoSize = true;
+            this.label86.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label86.ForeColor = System.Drawing.Color.White;
+            this.label86.Location = new System.Drawing.Point(269, 176);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(30, 16);
+            this.label86.TabIndex = 95;
+            this.label86.Text = "USD";
             // 
-            // ReceiveFoodTxb
+            // label87
             // 
-            this.ReceiveFoodTxb.BackColor = System.Drawing.Color.Transparent;
-            this.ReceiveFoodTxb.BorderColor = System.Drawing.Color.White;
-            this.ReceiveFoodTxb.BorderRadius = 15;
-            this.ReceiveFoodTxb.BorderThickness = 2;
-            this.ReceiveFoodTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ReceiveFoodTxb.DefaultText = "Total";
-            this.ReceiveFoodTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.ReceiveFoodTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.ReceiveFoodTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ReceiveFoodTxb.DisabledState.Parent = this.ReceiveFoodTxb;
-            this.ReceiveFoodTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ReceiveFoodTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.ReceiveFoodTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ReceiveFoodTxb.FocusedState.Parent = this.ReceiveFoodTxb;
-            this.ReceiveFoodTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ReceiveFoodTxb.ForeColor = System.Drawing.Color.White;
-            this.ReceiveFoodTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ReceiveFoodTxb.HoverState.Parent = this.ReceiveFoodTxb;
-            this.ReceiveFoodTxb.Location = new System.Drawing.Point(179, 423);
-            this.ReceiveFoodTxb.Name = "ReceiveFoodTxb";
-            this.ReceiveFoodTxb.PasswordChar = '\0';
-            this.ReceiveFoodTxb.PlaceholderText = "";
-            this.ReceiveFoodTxb.ReadOnly = true;
-            this.ReceiveFoodTxb.SelectedText = "";
-            this.ReceiveFoodTxb.SelectionStart = 5;
-            this.ReceiveFoodTxb.ShadowDecoration.Parent = this.ReceiveFoodTxb;
-            this.ReceiveFoodTxb.Size = new System.Drawing.Size(112, 41);
-            this.ReceiveFoodTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.ReceiveFoodTxb.TabIndex = 71;
-            this.ReceiveFoodTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label87.AutoSize = true;
+            this.label87.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label87.ForeColor = System.Drawing.Color.White;
+            this.label87.Location = new System.Drawing.Point(269, 108);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(30, 16);
+            this.label87.TabIndex = 94;
+            this.label87.Text = "USD";
             // 
-            // TotalPriceFoodTxb
+            // label88
             // 
-            this.TotalPriceFoodTxb.BackColor = System.Drawing.Color.Transparent;
-            this.TotalPriceFoodTxb.BorderColor = System.Drawing.Color.White;
-            this.TotalPriceFoodTxb.BorderRadius = 15;
-            this.TotalPriceFoodTxb.BorderThickness = 2;
-            this.TotalPriceFoodTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TotalPriceFoodTxb.DefaultText = "Total";
-            this.TotalPriceFoodTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.TotalPriceFoodTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.TotalPriceFoodTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TotalPriceFoodTxb.DisabledState.Parent = this.TotalPriceFoodTxb;
-            this.TotalPriceFoodTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.TotalPriceFoodTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.TotalPriceFoodTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TotalPriceFoodTxb.FocusedState.Parent = this.TotalPriceFoodTxb;
-            this.TotalPriceFoodTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalPriceFoodTxb.ForeColor = System.Drawing.Color.White;
-            this.TotalPriceFoodTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.TotalPriceFoodTxb.HoverState.Parent = this.TotalPriceFoodTxb;
-            this.TotalPriceFoodTxb.Location = new System.Drawing.Point(179, 280);
-            this.TotalPriceFoodTxb.Name = "TotalPriceFoodTxb";
-            this.TotalPriceFoodTxb.PasswordChar = '\0';
-            this.TotalPriceFoodTxb.PlaceholderText = "";
-            this.TotalPriceFoodTxb.ReadOnly = true;
-            this.TotalPriceFoodTxb.SelectedText = "";
-            this.TotalPriceFoodTxb.SelectionStart = 5;
-            this.TotalPriceFoodTxb.ShadowDecoration.Parent = this.TotalPriceFoodTxb;
-            this.TotalPriceFoodTxb.Size = new System.Drawing.Size(112, 41);
-            this.TotalPriceFoodTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.TotalPriceFoodTxb.TabIndex = 68;
-            this.TotalPriceFoodTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label88.AutoSize = true;
+            this.label88.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label88.ForeColor = System.Drawing.Color.White;
+            this.label88.Location = new System.Drawing.Point(269, 42);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(30, 16);
+            this.label88.TabIndex = 93;
+            this.label88.Text = "USD";
             // 
-            // siticoneComboBox6
+            // label89
             // 
-            this.siticoneComboBox6.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneComboBox6.BorderRadius = 10;
-            this.siticoneComboBox6.BorderThickness = 2;
-            this.siticoneComboBox6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.siticoneComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.siticoneComboBox6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
-            this.siticoneComboBox6.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneComboBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneComboBox6.FocusedState.Parent = this.siticoneComboBox6;
-            this.siticoneComboBox6.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.siticoneComboBox6.ForeColor = System.Drawing.Color.White;
-            this.siticoneComboBox6.HoverState.Parent = this.siticoneComboBox6;
-            this.siticoneComboBox6.ItemHeight = 30;
-            this.siticoneComboBox6.Items.AddRange(new object[] {
-            "Risk",
-            "Bill"});
-            this.siticoneComboBox6.ItemsAppearance.Parent = this.siticoneComboBox6;
-            this.siticoneComboBox6.Location = new System.Drawing.Point(128, 222);
-            this.siticoneComboBox6.Name = "siticoneComboBox6";
-            this.siticoneComboBox6.ShadowDecoration.Parent = this.siticoneComboBox6;
-            this.siticoneComboBox6.Size = new System.Drawing.Size(158, 36);
-            this.siticoneComboBox6.StartIndex = 0;
-            this.siticoneComboBox6.TabIndex = 56;
+            this.label89.AutoSize = true;
+            this.label89.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label89.ForeColor = System.Drawing.Color.White;
+            this.label89.Location = new System.Drawing.Point(34, 176);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(49, 16);
+            this.label89.TabIndex = 91;
+            this.label89.Text = "Return";
             // 
-            // CustomerCode1Txb
+            // label90
             // 
-            this.CustomerCode1Txb.BorderRadius = 10;
-            this.CustomerCode1Txb.BorderThickness = 2;
-            this.CustomerCode1Txb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.CustomerCode1Txb.DefaultText = "";
-            this.CustomerCode1Txb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.CustomerCode1Txb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.CustomerCode1Txb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.CustomerCode1Txb.DisabledState.Parent = this.CustomerCode1Txb;
-            this.CustomerCode1Txb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.CustomerCode1Txb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
-            this.CustomerCode1Txb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CustomerCode1Txb.FocusedState.Parent = this.CustomerCode1Txb;
-            this.CustomerCode1Txb.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CustomerCode1Txb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.CustomerCode1Txb.HoverState.Parent = this.CustomerCode1Txb;
-            this.CustomerCode1Txb.Location = new System.Drawing.Point(147, 113);
-            this.CustomerCode1Txb.Name = "CustomerCode1Txb";
-            this.CustomerCode1Txb.PasswordChar = '\0';
-            this.CustomerCode1Txb.PlaceholderText = "";
-            this.CustomerCode1Txb.SelectedText = "";
-            this.CustomerCode1Txb.ShadowDecoration.Parent = this.CustomerCode1Txb;
-            this.CustomerCode1Txb.Size = new System.Drawing.Size(101, 36);
-            this.CustomerCode1Txb.TabIndex = 54;
+            this.label90.AutoSize = true;
+            this.label90.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label90.ForeColor = System.Drawing.Color.White;
+            this.label90.Location = new System.Drawing.Point(34, 108);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(55, 16);
+            this.label90.TabIndex = 90;
+            this.label90.Text = "Receive";
             // 
-            // CreateDate
+            // label91
             // 
-            this.CreateDate.BorderColor = System.Drawing.Color.White;
-            this.CreateDate.BorderRadius = 10;
-            this.CreateDate.BorderThickness = 2;
-            this.CreateDate.CheckedState.Parent = this.CreateDate;
-            this.CreateDate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.CreateDate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CreateDate.ForeColor = System.Drawing.Color.White;
-            this.CreateDate.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.CreateDate.HoverState.Parent = this.CreateDate;
-            this.CreateDate.Location = new System.Drawing.Point(147, 43);
-            this.CreateDate.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.CreateDate.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.CreateDate.Name = "CreateDate";
-            this.CreateDate.ShadowDecoration.Parent = this.CreateDate;
-            this.CreateDate.Size = new System.Drawing.Size(201, 45);
-            this.CreateDate.TabIndex = 51;
-            this.CreateDate.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label91.ForeColor = System.Drawing.Color.White;
+            this.label91.Location = new System.Drawing.Point(34, 48);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(40, 16);
+            this.label91.TabIndex = 89;
+            this.label91.Text = "Total";
             // 
-            // DateFoodPicker
+            // label92
             // 
-            this.DateFoodPicker.BorderColor = System.Drawing.Color.White;
-            this.DateFoodPicker.BorderRadius = 10;
-            this.DateFoodPicker.BorderThickness = 2;
-            this.DateFoodPicker.CheckedState.Parent = this.DateFoodPicker;
-            this.DateFoodPicker.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.DateFoodPicker.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.DateFoodPicker.ForeColor = System.Drawing.Color.White;
-            this.DateFoodPicker.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.DateFoodPicker.HoverState.Parent = this.DateFoodPicker;
-            this.DateFoodPicker.Location = new System.Drawing.Point(738, 6);
-            this.DateFoodPicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.DateFoodPicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.DateFoodPicker.Name = "DateFoodPicker";
-            this.DateFoodPicker.ShadowDecoration.Parent = this.DateFoodPicker;
-            this.DateFoodPicker.Size = new System.Drawing.Size(201, 43);
-            this.DateFoodPicker.TabIndex = 50;
-            this.DateFoodPicker.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label92.ForeColor = System.Drawing.Color.White;
+            this.label92.Location = new System.Drawing.Point(146, 7);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(101, 20);
+            this.label92.TabIndex = 85;
+            this.label92.Text = "Information";
+            // 
+            // ServiceReturnDailyTxt
+            // 
+            this.ServiceReturnDailyTxt.BackColor = System.Drawing.Color.Transparent;
+            this.ServiceReturnDailyTxt.BorderColor = System.Drawing.Color.White;
+            this.ServiceReturnDailyTxt.BorderRadius = 15;
+            this.ServiceReturnDailyTxt.BorderThickness = 2;
+            this.ServiceReturnDailyTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ServiceReturnDailyTxt.DefaultText = "0.0";
+            this.ServiceReturnDailyTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ServiceReturnDailyTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ServiceReturnDailyTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ServiceReturnDailyTxt.DisabledState.Parent = this.ServiceReturnDailyTxt;
+            this.ServiceReturnDailyTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ServiceReturnDailyTxt.Enabled = false;
+            this.ServiceReturnDailyTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.ServiceReturnDailyTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ServiceReturnDailyTxt.FocusedState.Parent = this.ServiceReturnDailyTxt;
+            this.ServiceReturnDailyTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceReturnDailyTxt.ForeColor = System.Drawing.Color.White;
+            this.ServiceReturnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ServiceReturnDailyTxt.HoverState.Parent = this.ServiceReturnDailyTxt;
+            this.ServiceReturnDailyTxt.Location = new System.Drawing.Point(126, 166);
+            this.ServiceReturnDailyTxt.Name = "ServiceReturnDailyTxt";
+            this.ServiceReturnDailyTxt.PasswordChar = '\0';
+            this.ServiceReturnDailyTxt.PlaceholderText = "";
+            this.ServiceReturnDailyTxt.ReadOnly = true;
+            this.ServiceReturnDailyTxt.SelectedText = "";
+            this.ServiceReturnDailyTxt.SelectionStart = 3;
+            this.ServiceReturnDailyTxt.ShadowDecoration.Parent = this.ServiceReturnDailyTxt;
+            this.ServiceReturnDailyTxt.Size = new System.Drawing.Size(121, 41);
+            this.ServiceReturnDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.ServiceReturnDailyTxt.TabIndex = 74;
+            this.ServiceReturnDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ServiceReceiveDailyTxt
+            // 
+            this.ServiceReceiveDailyTxt.BackColor = System.Drawing.Color.Transparent;
+            this.ServiceReceiveDailyTxt.BorderColor = System.Drawing.Color.White;
+            this.ServiceReceiveDailyTxt.BorderRadius = 15;
+            this.ServiceReceiveDailyTxt.BorderThickness = 2;
+            this.ServiceReceiveDailyTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ServiceReceiveDailyTxt.DefaultText = "0.0";
+            this.ServiceReceiveDailyTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ServiceReceiveDailyTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ServiceReceiveDailyTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ServiceReceiveDailyTxt.DisabledState.Parent = this.ServiceReceiveDailyTxt;
+            this.ServiceReceiveDailyTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ServiceReceiveDailyTxt.Enabled = false;
+            this.ServiceReceiveDailyTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.ServiceReceiveDailyTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ServiceReceiveDailyTxt.FocusedState.Parent = this.ServiceReceiveDailyTxt;
+            this.ServiceReceiveDailyTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceReceiveDailyTxt.ForeColor = System.Drawing.Color.White;
+            this.ServiceReceiveDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ServiceReceiveDailyTxt.HoverState.Parent = this.ServiceReceiveDailyTxt;
+            this.ServiceReceiveDailyTxt.Location = new System.Drawing.Point(123, 95);
+            this.ServiceReceiveDailyTxt.Name = "ServiceReceiveDailyTxt";
+            this.ServiceReceiveDailyTxt.PasswordChar = '\0';
+            this.ServiceReceiveDailyTxt.PlaceholderText = "";
+            this.ServiceReceiveDailyTxt.ReadOnly = true;
+            this.ServiceReceiveDailyTxt.SelectedText = "";
+            this.ServiceReceiveDailyTxt.SelectionStart = 3;
+            this.ServiceReceiveDailyTxt.ShadowDecoration.Parent = this.ServiceReceiveDailyTxt;
+            this.ServiceReceiveDailyTxt.Size = new System.Drawing.Size(121, 41);
+            this.ServiceReceiveDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.ServiceReceiveDailyTxt.TabIndex = 71;
+            this.ServiceReceiveDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // ServiceTotalDailyTxt
+            // 
+            this.ServiceTotalDailyTxt.BackColor = System.Drawing.Color.Transparent;
+            this.ServiceTotalDailyTxt.BorderColor = System.Drawing.Color.White;
+            this.ServiceTotalDailyTxt.BorderRadius = 15;
+            this.ServiceTotalDailyTxt.BorderThickness = 2;
+            this.ServiceTotalDailyTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ServiceTotalDailyTxt.DefaultText = "0.0";
+            this.ServiceTotalDailyTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ServiceTotalDailyTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ServiceTotalDailyTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ServiceTotalDailyTxt.DisabledState.Parent = this.ServiceTotalDailyTxt;
+            this.ServiceTotalDailyTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ServiceTotalDailyTxt.Enabled = false;
+            this.ServiceTotalDailyTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.ServiceTotalDailyTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ServiceTotalDailyTxt.FocusedState.Parent = this.ServiceTotalDailyTxt;
+            this.ServiceTotalDailyTxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceTotalDailyTxt.ForeColor = System.Drawing.Color.White;
+            this.ServiceTotalDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ServiceTotalDailyTxt.HoverState.Parent = this.ServiceTotalDailyTxt;
+            this.ServiceTotalDailyTxt.Location = new System.Drawing.Point(126, 31);
+            this.ServiceTotalDailyTxt.Name = "ServiceTotalDailyTxt";
+            this.ServiceTotalDailyTxt.PasswordChar = '\0';
+            this.ServiceTotalDailyTxt.PlaceholderText = "";
+            this.ServiceTotalDailyTxt.ReadOnly = true;
+            this.ServiceTotalDailyTxt.SelectedText = "";
+            this.ServiceTotalDailyTxt.SelectionStart = 3;
+            this.ServiceTotalDailyTxt.ShadowDecoration.Parent = this.ServiceTotalDailyTxt;
+            this.ServiceTotalDailyTxt.Size = new System.Drawing.Size(121, 41);
+            this.ServiceTotalDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.ServiceTotalDailyTxt.TabIndex = 68;
+            this.ServiceTotalDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // siticoneGradientButton3
+            // 
+            this.siticoneGradientButton3.BorderRadius = 15;
+            this.siticoneGradientButton3.CheckedState.Parent = this.siticoneGradientButton3;
+            this.siticoneGradientButton3.CustomImages.Parent = this.siticoneGradientButton3;
+            this.siticoneGradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneGradientButton3.DisabledState.Parent = this.siticoneGradientButton3;
+            this.siticoneGradientButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.siticoneGradientButton3.FillColor2 = System.Drawing.Color.LightSkyBlue;
+            this.siticoneGradientButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneGradientButton3.ForeColor = System.Drawing.Color.Black;
+            this.siticoneGradientButton3.HoverState.Parent = this.siticoneGradientButton3;
+            this.siticoneGradientButton3.Location = new System.Drawing.Point(228, 490);
+            this.siticoneGradientButton3.Name = "siticoneGradientButton3";
+            this.siticoneGradientButton3.ShadowDecoration.Parent = this.siticoneGradientButton3;
+            this.siticoneGradientButton3.Size = new System.Drawing.Size(156, 47);
+            this.siticoneGradientButton3.TabIndex = 99;
+            this.siticoneGradientButton3.Text = "Print Bill";
             // 
             // ServiceTab
             // 
@@ -3979,33 +4394,33 @@ namespace Quan_Ly_Khach_San
             // 
             // BillMonthDGV
             // 
-            dataGridViewCellStyle31.BackColor = System.Drawing.Color.White;
-            this.BillMonthDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
+            this.BillMonthDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
             this.BillMonthDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.BillMonthDGV.BackgroundColor = System.Drawing.Color.White;
             this.BillMonthDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.BillMonthDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.BillMonthDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.BillMonthDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.BillMonthDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
             this.BillMonthDGV.ColumnHeadersHeight = 40;
             this.BillMonthDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10});
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.BillMonthDGV.DefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.BillMonthDGV.DefaultCellStyle = dataGridViewCellStyle24;
             this.BillMonthDGV.EnableHeadersVisualStyles = false;
             this.BillMonthDGV.GridColor = System.Drawing.Color.White;
             this.BillMonthDGV.Location = new System.Drawing.Point(441, 51);
@@ -4127,7 +4542,7 @@ namespace Quan_Ly_Khach_San
             this.label60.ForeColor = System.Drawing.Color.Yellow;
             this.label60.Location = new System.Drawing.Point(78, 278);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(38, 16);
+            this.label60.Size = new System.Drawing.Size(39, 16);
             this.label60.TabIndex = 150;
             this.label60.Text = "Food";
             // 
@@ -4138,7 +4553,7 @@ namespace Quan_Ly_Khach_San
             this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.label61.Location = new System.Drawing.Point(78, 184);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(51, 16);
+            this.label61.Size = new System.Drawing.Size(52, 16);
             this.label61.TabIndex = 149;
             this.label61.Text = "Service";
             // 
@@ -4149,7 +4564,7 @@ namespace Quan_Ly_Khach_San
             this.label62.ForeColor = System.Drawing.Color.Tomato;
             this.label62.Location = new System.Drawing.Point(78, 75);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(43, 16);
+            this.label62.Size = new System.Drawing.Size(44, 16);
             this.label62.TabIndex = 148;
             this.label62.Text = "Room";
             // 
@@ -4160,7 +4575,7 @@ namespace Quan_Ly_Khach_San
             this.label63.ForeColor = System.Drawing.Color.White;
             this.label63.Location = new System.Drawing.Point(36, 542);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(29, 16);
+            this.label63.Size = new System.Drawing.Size(30, 16);
             this.label63.TabIndex = 147;
             this.label63.Text = "Pay";
             // 
@@ -4171,7 +4586,7 @@ namespace Quan_Ly_Khach_San
             this.label64.ForeColor = System.Drawing.Color.White;
             this.label64.Location = new System.Drawing.Point(14, 477);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(51, 16);
+            this.label64.Size = new System.Drawing.Size(52, 16);
             this.label64.TabIndex = 146;
             this.label64.Text = "Collect";
             // 
@@ -4182,7 +4597,7 @@ namespace Quan_Ly_Khach_San
             this.label65.ForeColor = System.Drawing.Color.White;
             this.label65.Location = new System.Drawing.Point(128, 351);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(29, 16);
+            this.label65.Size = new System.Drawing.Size(30, 16);
             this.label65.TabIndex = 145;
             this.label65.Text = "Pay";
             // 
@@ -4193,7 +4608,7 @@ namespace Quan_Ly_Khach_San
             this.label66.ForeColor = System.Drawing.Color.White;
             this.label66.Location = new System.Drawing.Point(106, 301);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(51, 16);
+            this.label66.Size = new System.Drawing.Size(52, 16);
             this.label66.TabIndex = 144;
             this.label66.Text = "Collect";
             // 
@@ -4204,7 +4619,7 @@ namespace Quan_Ly_Khach_San
             this.label67.ForeColor = System.Drawing.Color.White;
             this.label67.Location = new System.Drawing.Point(128, 250);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(29, 16);
+            this.label67.Size = new System.Drawing.Size(30, 16);
             this.label67.TabIndex = 143;
             this.label67.Text = "Pay";
             // 
@@ -4215,7 +4630,7 @@ namespace Quan_Ly_Khach_San
             this.label68.ForeColor = System.Drawing.Color.White;
             this.label68.Location = new System.Drawing.Point(106, 200);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(51, 16);
+            this.label68.Size = new System.Drawing.Size(52, 16);
             this.label68.TabIndex = 142;
             this.label68.Text = "Collect";
             // 
@@ -4226,7 +4641,7 @@ namespace Quan_Ly_Khach_San
             this.label69.ForeColor = System.Drawing.Color.White;
             this.label69.Location = new System.Drawing.Point(128, 142);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(29, 16);
+            this.label69.Size = new System.Drawing.Size(30, 16);
             this.label69.TabIndex = 141;
             this.label69.Text = "Pay";
             // 
@@ -4237,7 +4652,7 @@ namespace Quan_Ly_Khach_San
             this.label70.ForeColor = System.Drawing.Color.White;
             this.label70.Location = new System.Drawing.Point(106, 92);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(51, 16);
+            this.label70.Size = new System.Drawing.Size(52, 16);
             this.label70.TabIndex = 140;
             this.label70.Text = "Collect";
             // 
@@ -4270,7 +4685,7 @@ namespace Quan_Ly_Khach_San
             this.label73.ForeColor = System.Drawing.Color.White;
             this.label73.Location = new System.Drawing.Point(189, 554);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(29, 16);
+            this.label73.Size = new System.Drawing.Size(30, 16);
             this.label73.TabIndex = 137;
             this.label73.Text = "USD";
             // 
@@ -4281,7 +4696,7 @@ namespace Quan_Ly_Khach_San
             this.label74.ForeColor = System.Drawing.Color.White;
             this.label74.Location = new System.Drawing.Point(189, 486);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(29, 16);
+            this.label74.Size = new System.Drawing.Size(30, 16);
             this.label74.TabIndex = 136;
             this.label74.Text = "USD";
             // 
@@ -4292,7 +4707,7 @@ namespace Quan_Ly_Khach_San
             this.label75.ForeColor = System.Drawing.Color.White;
             this.label75.Location = new System.Drawing.Point(290, 350);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(29, 16);
+            this.label75.Size = new System.Drawing.Size(30, 16);
             this.label75.TabIndex = 135;
             this.label75.Text = "USD";
             // 
@@ -4303,7 +4718,7 @@ namespace Quan_Ly_Khach_San
             this.label76.ForeColor = System.Drawing.Color.White;
             this.label76.Location = new System.Drawing.Point(290, 301);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(29, 16);
+            this.label76.Size = new System.Drawing.Size(30, 16);
             this.label76.TabIndex = 134;
             this.label76.Text = "USD";
             // 
@@ -4314,7 +4729,7 @@ namespace Quan_Ly_Khach_San
             this.label77.ForeColor = System.Drawing.Color.White;
             this.label77.Location = new System.Drawing.Point(290, 245);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(29, 16);
+            this.label77.Size = new System.Drawing.Size(30, 16);
             this.label77.TabIndex = 133;
             this.label77.Text = "USD";
             // 
@@ -4325,7 +4740,7 @@ namespace Quan_Ly_Khach_San
             this.label78.ForeColor = System.Drawing.Color.White;
             this.label78.Location = new System.Drawing.Point(290, 200);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(29, 16);
+            this.label78.Size = new System.Drawing.Size(30, 16);
             this.label78.TabIndex = 132;
             this.label78.Text = "USD";
             // 
@@ -4336,7 +4751,7 @@ namespace Quan_Ly_Khach_San
             this.label79.ForeColor = System.Drawing.Color.White;
             this.label79.Location = new System.Drawing.Point(290, 139);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(29, 16);
+            this.label79.Size = new System.Drawing.Size(30, 16);
             this.label79.TabIndex = 131;
             this.label79.Text = "USD";
             // 
@@ -4347,7 +4762,7 @@ namespace Quan_Ly_Khach_San
             this.label80.ForeColor = System.Drawing.Color.White;
             this.label80.Location = new System.Drawing.Point(290, 92);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(29, 16);
+            this.label80.Size = new System.Drawing.Size(30, 16);
             this.label80.TabIndex = 130;
             this.label80.Text = "USD";
             // 
@@ -4674,562 +5089,209 @@ namespace Quan_Ly_Khach_San
             this.RequestTab.TabIndex = 2;
             this.RequestTab.Text = "ANALYSIS";
             // 
-            // ServiceBillTab
+            // label18
             // 
-            this.ServiceBillTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.ServiceBillTab.Controls.Add(this.siticoneButton1);
-            this.ServiceBillTab.Controls.Add(this.guna2DataGridView4);
-            this.ServiceBillTab.Controls.Add(this.guna2DataGridView5);
-            this.ServiceBillTab.Controls.Add(this.siticonePanel4);
-            this.ServiceBillTab.Controls.Add(this.siticoneDateTimePicker2);
-            this.ServiceBillTab.Location = new System.Drawing.Point(4, 44);
-            this.ServiceBillTab.Name = "ServiceBillTab";
-            this.ServiceBillTab.Padding = new System.Windows.Forms.Padding(3);
-            this.ServiceBillTab.Size = new System.Drawing.Size(984, 554);
-            this.ServiceBillTab.TabIndex = 3;
-            this.ServiceBillTab.Text = "SERVICE";
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label18.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.label18.Location = new System.Drawing.Point(278, 68);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(52, 16);
+            this.label18.TabIndex = 122;
+            this.label18.Text = "Collect";
             // 
-            // siticoneButton1
+            // label19
             // 
-            this.siticoneButton1.CheckedState.Parent = this.siticoneButton1;
-            this.siticoneButton1.CustomImages.Parent = this.siticoneButton1;
-            this.siticoneButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneButton1.DisabledState.Parent = this.siticoneButton1;
-            this.siticoneButton1.FillColor = System.Drawing.Color.Transparent;
-            this.siticoneButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.siticoneButton1.ForeColor = System.Drawing.Color.White;
-            this.siticoneButton1.HoverState.Parent = this.siticoneButton1;
-            this.siticoneButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneButton1.Image")));
-            this.siticoneButton1.ImageSize = new System.Drawing.Size(35, 35);
-            this.siticoneButton1.Location = new System.Drawing.Point(945, 13);
-            this.siticoneButton1.Name = "siticoneButton1";
-            this.siticoneButton1.ShadowDecoration.Parent = this.siticoneButton1;
-            this.siticoneButton1.Size = new System.Drawing.Size(35, 39);
-            this.siticoneButton1.TabIndex = 60;
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(393, 99);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(30, 16);
+            this.label19.TabIndex = 121;
+            this.label19.Text = "USD";
             // 
-            // guna2DataGridView4
+            // totalRoom
             // 
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
-            this.guna2DataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView4.BackgroundColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
-            this.guna2DataGridView4.ColumnHeadersHeight = 40;
-            this.guna2DataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8});
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView4.DefaultCellStyle = dataGridViewCellStyle27;
-            this.guna2DataGridView4.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView4.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.Location = new System.Drawing.Point(444, 343);
-            this.guna2DataGridView4.Name = "guna2DataGridView4";
-            this.guna2DataGridView4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.guna2DataGridView4.RowHeadersVisible = false;
-            this.guna2DataGridView4.RowHeadersWidth = 51;
-            this.guna2DataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView4.Size = new System.Drawing.Size(536, 208);
-            this.guna2DataGridView4.TabIndex = 59;
-            this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView4.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView4.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.ThemeStyle.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView4.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView4.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView4.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView4.ThemeStyle.HeaderStyle.Height = 40;
-            this.guna2DataGridView4.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView4.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView4.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView4.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView4.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView4.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView4.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView4.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.totalRoom.BackColor = System.Drawing.Color.Transparent;
+            this.totalRoom.BorderColor = System.Drawing.Color.White;
+            this.totalRoom.BorderRadius = 15;
+            this.totalRoom.BorderThickness = 2;
+            this.totalRoom.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.totalRoom.DefaultText = "Total";
+            this.totalRoom.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.totalRoom.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.totalRoom.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalRoom.DisabledState.Parent = this.totalRoom;
+            this.totalRoom.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalRoom.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.totalRoom.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalRoom.FocusedState.Parent = this.totalRoom;
+            this.totalRoom.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalRoom.ForeColor = System.Drawing.Color.White;
+            this.totalRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalRoom.HoverState.Parent = this.totalRoom;
+            this.totalRoom.Location = new System.Drawing.Point(281, 87);
+            this.totalRoom.Name = "totalRoom";
+            this.totalRoom.PasswordChar = '\0';
+            this.totalRoom.PlaceholderText = "";
+            this.totalRoom.ReadOnly = true;
+            this.totalRoom.SelectedText = "";
+            this.totalRoom.SelectionStart = 5;
+            this.totalRoom.ShadowDecoration.Parent = this.totalRoom;
+            this.totalRoom.Size = new System.Drawing.Size(112, 41);
+            this.totalRoom.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.totalRoom.TabIndex = 120;
+            this.totalRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // dataGridViewTextBoxColumn7
+            // label20
             // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label20.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.label20.Location = new System.Drawing.Point(278, 177);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(52, 16);
+            this.label20.TabIndex = 125;
+            this.label20.Text = "Collect";
             // 
-            // dataGridViewTextBoxColumn8
+            // label21
             // 
-            this.dataGridViewTextBoxColumn8.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(393, 208);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(30, 16);
+            this.label21.TabIndex = 124;
+            this.label21.Text = "USD";
             // 
-            // guna2DataGridView5
+            // totalService
             // 
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView5.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
-            this.guna2DataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.guna2DataGridView5.BackgroundColor = System.Drawing.Color.White;
-            this.guna2DataGridView5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.guna2DataGridView5.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView5.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
-            this.guna2DataGridView5.ColumnHeadersHeight = 40;
-            this.guna2DataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn15,
-            this.dataGridViewTextBoxColumn16});
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView5.DefaultCellStyle = dataGridViewCellStyle30;
-            this.guna2DataGridView5.EnableHeadersVisualStyles = false;
-            this.guna2DataGridView5.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView5.Location = new System.Drawing.Point(444, 58);
-            this.guna2DataGridView5.Name = "guna2DataGridView5";
-            this.guna2DataGridView5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.guna2DataGridView5.RowHeadersVisible = false;
-            this.guna2DataGridView5.RowHeadersWidth = 51;
-            this.guna2DataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView5.Size = new System.Drawing.Size(536, 279);
-            this.guna2DataGridView5.TabIndex = 58;
-            this.guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView5.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView5.ThemeStyle.GridColor = System.Drawing.Color.White;
-            this.guna2DataGridView5.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView5.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView5.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView5.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView5.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView5.ThemeStyle.HeaderStyle.Height = 40;
-            this.guna2DataGridView5.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView5.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView5.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView5.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.guna2DataGridView5.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView5.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView5.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView5.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.totalService.BackColor = System.Drawing.Color.Transparent;
+            this.totalService.BorderColor = System.Drawing.Color.White;
+            this.totalService.BorderRadius = 15;
+            this.totalService.BorderThickness = 2;
+            this.totalService.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.totalService.DefaultText = "Total";
+            this.totalService.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.totalService.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.totalService.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalService.DisabledState.Parent = this.totalService;
+            this.totalService.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalService.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.totalService.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalService.FocusedState.Parent = this.totalService;
+            this.totalService.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalService.ForeColor = System.Drawing.Color.White;
+            this.totalService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalService.HoverState.Parent = this.totalService;
+            this.totalService.Location = new System.Drawing.Point(281, 196);
+            this.totalService.Name = "totalService";
+            this.totalService.PasswordChar = '\0';
+            this.totalService.PlaceholderText = "";
+            this.totalService.ReadOnly = true;
+            this.totalService.SelectedText = "";
+            this.totalService.SelectionStart = 5;
+            this.totalService.ShadowDecoration.Parent = this.totalService;
+            this.totalService.Size = new System.Drawing.Size(112, 41);
+            this.totalService.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.totalService.TabIndex = 123;
+            this.totalService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // dataGridViewTextBoxColumn15
+            // label22
             // 
-            this.dataGridViewTextBoxColumn15.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label22.ForeColor = System.Drawing.Color.LightSkyBlue;
+            this.label22.Location = new System.Drawing.Point(278, 282);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(52, 16);
+            this.label22.TabIndex = 128;
+            this.label22.Text = "Collect";
             // 
-            // dataGridViewTextBoxColumn16
+            // label23
             // 
-            this.dataGridViewTextBoxColumn16.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(393, 313);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(30, 16);
+            this.label23.TabIndex = 127;
+            this.label23.Text = "USD";
             // 
-            // siticonePanel4
+            // totalFood
             // 
-            this.siticonePanel4.BackColor = System.Drawing.Color.Transparent;
-            this.siticonePanel4.BorderColor = System.Drawing.Color.Black;
-            this.siticonePanel4.BorderRadius = 15;
-            this.siticonePanel4.BorderThickness = 2;
-            this.siticonePanel4.Controls.Add(this.label83);
-            this.siticonePanel4.Controls.Add(this.label84);
-            this.siticonePanel4.Controls.Add(this.label85);
-            this.siticonePanel4.Controls.Add(this.label86);
-            this.siticonePanel4.Controls.Add(this.label87);
-            this.siticonePanel4.Controls.Add(this.label88);
-            this.siticonePanel4.Controls.Add(this.label89);
-            this.siticonePanel4.Controls.Add(this.label90);
-            this.siticonePanel4.Controls.Add(this.label91);
-            this.siticonePanel4.Controls.Add(this.label92);
-            this.siticonePanel4.Controls.Add(this.siticoneTextBox2);
-            this.siticonePanel4.Controls.Add(this.siticoneGradientButton3);
-            this.siticonePanel4.Controls.Add(this.siticoneTextBox3);
-            this.siticonePanel4.Controls.Add(this.siticoneTextBox4);
-            this.siticonePanel4.Controls.Add(this.siticoneComboBox1);
-            this.siticonePanel4.Controls.Add(this.siticoneTextBox5);
-            this.siticonePanel4.Controls.Add(this.siticoneDateTimePicker1);
-            this.siticonePanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel4.Location = new System.Drawing.Point(5, 3);
-            this.siticonePanel4.Name = "siticonePanel4";
-            this.siticonePanel4.ShadowDecoration.Parent = this.siticonePanel4;
-            this.siticonePanel4.Size = new System.Drawing.Size(433, 548);
-            this.siticonePanel4.TabIndex = 57;
+            this.totalFood.BackColor = System.Drawing.Color.Transparent;
+            this.totalFood.BorderColor = System.Drawing.Color.White;
+            this.totalFood.BorderRadius = 15;
+            this.totalFood.BorderThickness = 2;
+            this.totalFood.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.totalFood.DefaultText = "Total";
+            this.totalFood.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.totalFood.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.totalFood.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalFood.DisabledState.Parent = this.totalFood;
+            this.totalFood.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.totalFood.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
+            this.totalFood.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalFood.FocusedState.Parent = this.totalFood;
+            this.totalFood.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalFood.ForeColor = System.Drawing.Color.White;
+            this.totalFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.totalFood.HoverState.Parent = this.totalFood;
+            this.totalFood.Location = new System.Drawing.Point(281, 301);
+            this.totalFood.Name = "totalFood";
+            this.totalFood.PasswordChar = '\0';
+            this.totalFood.PlaceholderText = "";
+            this.totalFood.ReadOnly = true;
+            this.totalFood.SelectedText = "";
+            this.totalFood.SelectionStart = 5;
+            this.totalFood.ShadowDecoration.Parent = this.totalFood;
+            this.totalFood.Size = new System.Drawing.Size(112, 41);
+            this.totalFood.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.totalFood.TabIndex = 126;
+            this.totalFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label83
+            // chart1
             // 
-            this.label83.AutoSize = true;
-            this.label83.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
-            this.label83.ForeColor = System.Drawing.Color.White;
-            this.label83.Location = new System.Drawing.Point(297, 448);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(29, 16);
-            this.label83.TabIndex = 86;
-            this.label83.Text = "USD";
-            // 
-            // label84
-            // 
-            this.label84.AutoSize = true;
-            this.label84.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
-            this.label84.ForeColor = System.Drawing.Color.White;
-            this.label84.Location = new System.Drawing.Point(297, 376);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(29, 16);
-            this.label84.TabIndex = 85;
-            this.label84.Text = "USD";
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
-            this.label85.ForeColor = System.Drawing.Color.White;
-            this.label85.Location = new System.Drawing.Point(297, 303);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(29, 16);
-            this.label85.TabIndex = 84;
-            this.label85.Text = "USD";
-            // 
-            // label86
-            // 
-            this.label86.AutoSize = true;
-            this.label86.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label86.ForeColor = System.Drawing.Color.White;
-            this.label86.Location = new System.Drawing.Point(115, 448);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(54, 16);
-            this.label86.TabIndex = 83;
-            this.label86.Text = "Receive";
-            // 
-            // label87
-            // 
-            this.label87.AutoSize = true;
-            this.label87.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label87.ForeColor = System.Drawing.Color.White;
-            this.label87.Location = new System.Drawing.Point(115, 376);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(48, 16);
-            this.label87.TabIndex = 82;
-            this.label87.Text = "Return";
-            // 
-            // label88
-            // 
-            this.label88.AutoSize = true;
-            this.label88.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label88.ForeColor = System.Drawing.Color.White;
-            this.label88.Location = new System.Drawing.Point(115, 303);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(39, 16);
-            this.label88.TabIndex = 81;
-            this.label88.Text = "Total";
-            // 
-            // label89
-            // 
-            this.label89.AutoSize = true;
-            this.label89.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label89.ForeColor = System.Drawing.Color.White;
-            this.label89.Location = new System.Drawing.Point(185, 194);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(37, 16);
-            this.label89.TabIndex = 80;
-            this.label89.Text = "Type";
-            // 
-            // label90
-            // 
-            this.label90.AutoSize = true;
-            this.label90.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label90.ForeColor = System.Drawing.Color.White;
-            this.label90.Location = new System.Drawing.Point(23, 133);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(103, 16);
-            this.label90.TabIndex = 79;
-            this.label90.Text = "Customer Code";
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
-            this.label91.ForeColor = System.Drawing.Color.White;
-            this.label91.Location = new System.Drawing.Point(47, 66);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(79, 16);
-            this.label91.TabIndex = 78;
-            this.label91.Text = "Create Date";
-            // 
-            // label92
-            // 
-            this.label92.AutoSize = true;
-            this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.label92.ForeColor = System.Drawing.Color.White;
-            this.label92.Location = new System.Drawing.Point(160, 10);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(101, 20);
-            this.label92.TabIndex = 77;
-            this.label92.Text = "Information";
-            // 
-            // siticoneTextBox2
-            // 
-            this.siticoneTextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneTextBox2.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox2.BorderRadius = 15;
-            this.siticoneTextBox2.BorderThickness = 2;
-            this.siticoneTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox2.DefaultText = "Total";
-            this.siticoneTextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.DisabledState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneTextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.FocusedState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox2.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.HoverState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Location = new System.Drawing.Point(179, 351);
-            this.siticoneTextBox2.Name = "siticoneTextBox2";
-            this.siticoneTextBox2.PasswordChar = '\0';
-            this.siticoneTextBox2.PlaceholderText = "";
-            this.siticoneTextBox2.ReadOnly = true;
-            this.siticoneTextBox2.SelectedText = "";
-            this.siticoneTextBox2.SelectionStart = 5;
-            this.siticoneTextBox2.ShadowDecoration.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Size = new System.Drawing.Size(112, 41);
-            this.siticoneTextBox2.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.siticoneTextBox2.TabIndex = 74;
-            this.siticoneTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneGradientButton3
-            // 
-            this.siticoneGradientButton3.BorderRadius = 15;
-            this.siticoneGradientButton3.CheckedState.Parent = this.siticoneGradientButton3;
-            this.siticoneGradientButton3.CustomImages.Parent = this.siticoneGradientButton3;
-            this.siticoneGradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneGradientButton3.DisabledState.Parent = this.siticoneGradientButton3;
-            this.siticoneGradientButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.siticoneGradientButton3.FillColor2 = System.Drawing.Color.LightSkyBlue;
-            this.siticoneGradientButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneGradientButton3.ForeColor = System.Drawing.Color.Black;
-            this.siticoneGradientButton3.HoverState.Parent = this.siticoneGradientButton3;
-            this.siticoneGradientButton3.Location = new System.Drawing.Point(255, 489);
-            this.siticoneGradientButton3.Name = "siticoneGradientButton3";
-            this.siticoneGradientButton3.ShadowDecoration.Parent = this.siticoneGradientButton3;
-            this.siticoneGradientButton3.Size = new System.Drawing.Size(164, 47);
-            this.siticoneGradientButton3.TabIndex = 25;
-            this.siticoneGradientButton3.Text = "Print Bill";
-            // 
-            // siticoneTextBox3
-            // 
-            this.siticoneTextBox3.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneTextBox3.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox3.BorderRadius = 15;
-            this.siticoneTextBox3.BorderThickness = 2;
-            this.siticoneTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox3.DefaultText = "Total";
-            this.siticoneTextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox3.DisabledState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneTextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox3.FocusedState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox3.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox3.HoverState.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.Location = new System.Drawing.Point(179, 423);
-            this.siticoneTextBox3.Name = "siticoneTextBox3";
-            this.siticoneTextBox3.PasswordChar = '\0';
-            this.siticoneTextBox3.PlaceholderText = "";
-            this.siticoneTextBox3.ReadOnly = true;
-            this.siticoneTextBox3.SelectedText = "";
-            this.siticoneTextBox3.SelectionStart = 5;
-            this.siticoneTextBox3.ShadowDecoration.Parent = this.siticoneTextBox3;
-            this.siticoneTextBox3.Size = new System.Drawing.Size(112, 41);
-            this.siticoneTextBox3.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.siticoneTextBox3.TabIndex = 71;
-            this.siticoneTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneTextBox4
-            // 
-            this.siticoneTextBox4.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneTextBox4.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox4.BorderRadius = 15;
-            this.siticoneTextBox4.BorderThickness = 2;
-            this.siticoneTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox4.DefaultText = "Total";
-            this.siticoneTextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox4.DisabledState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneTextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox4.FocusedState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox4.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox4.HoverState.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.Location = new System.Drawing.Point(179, 280);
-            this.siticoneTextBox4.Name = "siticoneTextBox4";
-            this.siticoneTextBox4.PasswordChar = '\0';
-            this.siticoneTextBox4.PlaceholderText = "";
-            this.siticoneTextBox4.ReadOnly = true;
-            this.siticoneTextBox4.SelectedText = "";
-            this.siticoneTextBox4.SelectionStart = 5;
-            this.siticoneTextBox4.ShadowDecoration.Parent = this.siticoneTextBox4;
-            this.siticoneTextBox4.Size = new System.Drawing.Size(112, 41);
-            this.siticoneTextBox4.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
-            this.siticoneTextBox4.TabIndex = 68;
-            this.siticoneTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // siticoneComboBox1
-            // 
-            this.siticoneComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneComboBox1.BorderRadius = 10;
-            this.siticoneComboBox1.BorderThickness = 2;
-            this.siticoneComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.siticoneComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.siticoneComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
-            this.siticoneComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneComboBox1.FocusedState.Parent = this.siticoneComboBox1;
-            this.siticoneComboBox1.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.siticoneComboBox1.ForeColor = System.Drawing.Color.White;
-            this.siticoneComboBox1.HoverState.Parent = this.siticoneComboBox1;
-            this.siticoneComboBox1.ItemHeight = 30;
-            this.siticoneComboBox1.Items.AddRange(new object[] {
-            "Risk",
-            "Bill"});
-            this.siticoneComboBox1.ItemsAppearance.Parent = this.siticoneComboBox1;
-            this.siticoneComboBox1.Location = new System.Drawing.Point(128, 222);
-            this.siticoneComboBox1.Name = "siticoneComboBox1";
-            this.siticoneComboBox1.ShadowDecoration.Parent = this.siticoneComboBox1;
-            this.siticoneComboBox1.Size = new System.Drawing.Size(158, 36);
-            this.siticoneComboBox1.StartIndex = 0;
-            this.siticoneComboBox1.TabIndex = 56;
-            // 
-            // siticoneTextBox5
-            // 
-            this.siticoneTextBox5.BorderRadius = 10;
-            this.siticoneTextBox5.BorderThickness = 2;
-            this.siticoneTextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox5.DefaultText = "";
-            this.siticoneTextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox5.DisabledState.Parent = this.siticoneTextBox5;
-            this.siticoneTextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
-            this.siticoneTextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox5.FocusedState.Parent = this.siticoneTextBox5;
-            this.siticoneTextBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.siticoneTextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox5.HoverState.Parent = this.siticoneTextBox5;
-            this.siticoneTextBox5.Location = new System.Drawing.Point(147, 113);
-            this.siticoneTextBox5.Name = "siticoneTextBox5";
-            this.siticoneTextBox5.PasswordChar = '\0';
-            this.siticoneTextBox5.PlaceholderText = "";
-            this.siticoneTextBox5.SelectedText = "";
-            this.siticoneTextBox5.ShadowDecoration.Parent = this.siticoneTextBox5;
-            this.siticoneTextBox5.Size = new System.Drawing.Size(101, 36);
-            this.siticoneTextBox5.TabIndex = 54;
-            // 
-            // siticoneDateTimePicker1
-            // 
-            this.siticoneDateTimePicker1.BorderColor = System.Drawing.Color.White;
-            this.siticoneDateTimePicker1.BorderRadius = 10;
-            this.siticoneDateTimePicker1.BorderThickness = 2;
-            this.siticoneDateTimePicker1.CheckedState.Parent = this.siticoneDateTimePicker1;
-            this.siticoneDateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticoneDateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.siticoneDateTimePicker1.ForeColor = System.Drawing.Color.White;
-            this.siticoneDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.siticoneDateTimePicker1.HoverState.Parent = this.siticoneDateTimePicker1;
-            this.siticoneDateTimePicker1.Location = new System.Drawing.Point(147, 43);
-            this.siticoneDateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.siticoneDateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.siticoneDateTimePicker1.Name = "siticoneDateTimePicker1";
-            this.siticoneDateTimePicker1.ShadowDecoration.Parent = this.siticoneDateTimePicker1;
-            this.siticoneDateTimePicker1.Size = new System.Drawing.Size(201, 45);
-            this.siticoneDateTimePicker1.TabIndex = 51;
-            this.siticoneDateTimePicker1.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
-            // 
-            // siticoneDateTimePicker2
-            // 
-            this.siticoneDateTimePicker2.BorderColor = System.Drawing.Color.White;
-            this.siticoneDateTimePicker2.BorderRadius = 10;
-            this.siticoneDateTimePicker2.BorderThickness = 2;
-            this.siticoneDateTimePicker2.CheckedState.Parent = this.siticoneDateTimePicker2;
-            this.siticoneDateTimePicker2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.siticoneDateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.siticoneDateTimePicker2.ForeColor = System.Drawing.Color.White;
-            this.siticoneDateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.siticoneDateTimePicker2.HoverState.Parent = this.siticoneDateTimePicker2;
-            this.siticoneDateTimePicker2.Location = new System.Drawing.Point(740, 9);
-            this.siticoneDateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.siticoneDateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.siticoneDateTimePicker2.Name = "siticoneDateTimePicker2";
-            this.siticoneDateTimePicker2.ShadowDecoration.Parent = this.siticoneDateTimePicker2;
-            this.siticoneDateTimePicker2.Size = new System.Drawing.Size(201, 43);
-            this.siticoneDateTimePicker2.TabIndex = 56;
-            this.siticoneDateTimePicker2.Value = new System.DateTime(2021, 9, 19, 18, 20, 27, 751);
-            // 
-            // DeleteSupplierBtn
-            // 
-            this.DeleteSupplierBtn.BorderRadius = 10;
-            this.DeleteSupplierBtn.CheckedState.Parent = this.DeleteSupplierBtn;
-            this.DeleteSupplierBtn.CustomImages.Parent = this.DeleteSupplierBtn;
-            this.DeleteSupplierBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.DeleteSupplierBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.DeleteSupplierBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.DeleteSupplierBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.DeleteSupplierBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.DeleteSupplierBtn.DisabledState.Parent = this.DeleteSupplierBtn;
-            this.DeleteSupplierBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeleteSupplierBtn.ForeColor = System.Drawing.Color.White;
-            this.DeleteSupplierBtn.HoverState.Parent = this.DeleteSupplierBtn;
-            this.DeleteSupplierBtn.Location = new System.Drawing.Point(420, 19);
-            this.DeleteSupplierBtn.Name = "DeleteSupplierBtn";
-            this.DeleteSupplierBtn.ShadowDecoration.Parent = this.DeleteSupplierBtn;
-            this.DeleteSupplierBtn.Size = new System.Drawing.Size(74, 45);
-            this.DeleteSupplierBtn.TabIndex = 99;
-            this.DeleteSupplierBtn.Text = "Delete";
+            this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.chart1.BorderSkin.BorderColor = System.Drawing.Color.White;
+            this.chart1.BorderSkin.PageColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            chartArea1.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea1.AxisX.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX.TitleForeColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisX2.TitleForeColor = System.Drawing.Color.White;
+            chartArea1.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea1.AxisY.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY.TitleForeColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.LineColor = System.Drawing.Color.White;
+            chartArea1.AxisY2.TitleForeColor = System.Drawing.Color.White;
+            chartArea1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            chartArea1.BorderColor = System.Drawing.Color.White;
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            this.chart1.Location = new System.Drawing.Point(436, 102);
+            this.chart1.Name = "chart1";
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series1.LabelBackColor = System.Drawing.Color.Transparent;
+            series1.LabelForeColor = System.Drawing.Color.White;
+            series1.Name = "Series1";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series2.Name = "Series2";
+            this.chart1.Series.Add(series1);
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(542, 378);
+            this.chart1.TabIndex = 54;
+            this.chart1.Text = "chart1";
             // 
             // Statistic_Form
             // 
@@ -5259,27 +5321,27 @@ namespace Quan_Ly_Khach_San
             this.tabPage1.ResumeLayout(false);
             this.siticonePanel2.ResumeLayout(false);
             this.siticonePanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BillRoomDgv)).EndInit();
             this.siticonePanel1.ResumeLayout(false);
             this.siticonePanel1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
-            this.siticonePanel14.ResumeLayout(false);
-            this.siticonePanel14.PerformLayout();
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FoodDGV)).EndInit();
+            this.siticonePanel6.ResumeLayout(false);
+            this.siticonePanel6.PerformLayout();
+            this.ServiceBillTab.ResumeLayout(false);
+            this.ServiceBillTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ServiceDailyDGV)).EndInit();
+            this.siticonePanel4.ResumeLayout(false);
+            this.siticonePanel4.PerformLayout();
             this.ServiceTab.ResumeLayout(false);
             this.ServiceTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BillMonthDGV)).EndInit();
             this.siticonePanel3.ResumeLayout(false);
             this.siticonePanel3.PerformLayout();
-            this.ServiceBillTab.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView5)).EndInit();
-            this.siticonePanel4.ResumeLayout(false);
-            this.siticonePanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -5290,54 +5352,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.TabPage RoomTab;
         private System.Windows.Forms.TabPage ServiceTab;
         private System.Windows.Forms.TabPage RequestTab;
-        private Siticone.Desktop.UI.WinForms.SiticoneTabControl siticoneTabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton ResearchDailyBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker DateReportPicker;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel14;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerCode1Txb;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker CreateDate;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker DateFoodPicker;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton PrintBillFoodBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneComboBox siticoneComboBox6;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ReturnFoodTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ReceiveFoodTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalPriceFoodTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneButton SearchBtn;
-        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel1;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker CheckOutDate;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ReturnTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton PrintBillServiceBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ReceiveTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalPriceTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerCodeTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker CheckInDate;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox RoomIDTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox DaysTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneButton SearchServiceBtn;
-        private Guna.UI2.WinForms.Guna2DataGridView BillRoomDgv;
-        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel2;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox PayFood;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CollectFood;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox PayService;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CollectService;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox PayRoom;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton PrintBillBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CollectRoom;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox DifferenceTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalPay;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalCollect;
         private Siticone.Desktop.UI.WinForms.SiticoneComboBox PickYear;
         private Siticone.Desktop.UI.WinForms.SiticoneButton SearchMonthBillBtn;
         private Guna.UI2.WinForms.Guna2DataGridView BillMonthDGV;
@@ -5375,7 +5389,7 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox ReceiveMoneyTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton13;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton ConfirmRequest;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox1;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalPriceFoodTxb;
         private Guna.UI2.WinForms.Guna2DataGridView CustomerFoodDGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column19;
@@ -5427,23 +5441,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn Column46;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column47;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column48;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mahoadon;
-        private System.Windows.Forms.DataGridViewTextBoxColumn checkin;
-        private System.Windows.Forms.DataGridViewTextBoxColumn checkout;
-        private System.Windows.Forms.DataGridViewTextBoxColumn manv;
-        private System.Windows.Forms.DataGridViewTextBoxColumn makh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phong;
-        private System.Windows.Forms.DataGridViewTextBoxColumn songayo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tong;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tiennhan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tienthua;
-        private System.Windows.Forms.DataGridViewTextBoxColumn marr;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tienhoan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tinhtrang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ghichu;
-        private Guna.UI2.WinForms.Guna2TextBox customerIDTxb;
-        private System.Windows.Forms.DateTimePicker DateCheckIn;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -5459,50 +5456,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.Label label60;
@@ -5526,17 +5479,120 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label78;
         private System.Windows.Forms.Label label79;
         private System.Windows.Forms.Label label80;
+        private Siticone.Desktop.UI.WinForms.SiticoneTabControl siticoneTabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel2;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label39;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox Totaltotal;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalPay;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalCollect;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox PayFood;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CollectFood;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox PayService;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CollectService;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox PayRoom;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton PrintBillBtn;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox CollectRoom;
+        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker DateReportPicker;
+        private System.Windows.Forms.TabPage tabPage2;
+        private Siticone.Desktop.UI.WinForms.SiticoneRoundedDateTimePicker RoomDailyDateDTP;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2TextBox customerIDTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneButton SearchServiceBtn;
+        private Guna.UI2.WinForms.Guna2DataGridView BillRoomDgv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mahoadon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn checkin;
+        private System.Windows.Forms.DataGridViewTextBoxColumn checkout;
+        private System.Windows.Forms.DataGridViewTextBoxColumn manv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn makh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn songayo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tiennhan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tienthua;
+        private System.Windows.Forms.DataGridViewTextBoxColumn marr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tienhoan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tinhtrang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ghichu;
+        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel1;
+        private System.Windows.Forms.Label label26;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox RiskRefurnTxt;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label2;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ReturnTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ReceiveTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TotalPriceTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton PrintBillServiceBtn;
+        private System.Windows.Forms.TabPage tabPage3;
+        private Siticone.Desktop.UI.WinForms.SiticoneRoundedDateTimePicker FoodDateDailyDP;
+        private System.Windows.Forms.Label label33;
+        private Guna.UI2.WinForms.Guna2TextBox FoodCustomerIDTxt;
+        private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton3;
+        private Guna.UI2.WinForms.Guna2DataGridView FoodDGV;
+        private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel6;
+        private System.Windows.Forms.Label label34;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox FoodRiskRefurnTxt;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label93;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label label96;
+        private System.Windows.Forms.Label label97;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.Label label99;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox FoodReturnDailyTxt;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox FoodReceiveDailyTxt;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox FoodTotalDailyTxt;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton4;
+        private Siticone.Desktop.UI.WinForms.SiticoneButton SearchBtn;
         private System.Windows.Forms.TabPage ServiceBillTab;
+        private Siticone.Desktop.UI.WinForms.SiticoneRoundedDateTimePicker ServiceDailyDateTxt;
+        private System.Windows.Forms.Label label83;
+        private Guna.UI2.WinForms.Guna2TextBox CustomerIDDailyTxt;
         private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView4;
+        private Guna.UI2.WinForms.Guna2DataGridView ServiceDailyDGV;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView5;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn47;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn48;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn50;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn51;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn52;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn53;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn54;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn55;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn56;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel4;
-        private System.Windows.Forms.Label label83;
         private System.Windows.Forms.Label label84;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ServiceRiskRefurnDailyTxt;
         private System.Windows.Forms.Label label85;
         private System.Windows.Forms.Label label86;
         private System.Windows.Forms.Label label87;
@@ -5545,14 +5601,31 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label90;
         private System.Windows.Forms.Label label91;
         private System.Windows.Forms.Label label92;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox2;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ServiceReturnDailyTxt;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ServiceReceiveDailyTxt;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ServiceTotalDailyTxt;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton3;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox3;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox4;
-        private Siticone.Desktop.UI.WinForms.SiticoneComboBox siticoneComboBox1;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox5;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker siticoneDateTimePicker1;
-        private Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker siticoneDateTimePicker2;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton DeleteSupplierBtn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn33;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn46;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox totalFood;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox totalService;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox totalRoom;
     }
 }
