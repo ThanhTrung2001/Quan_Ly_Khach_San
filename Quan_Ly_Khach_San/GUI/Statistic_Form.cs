@@ -415,6 +415,7 @@ namespace Quan_Ly_Khach_San
             BillRoomLoad();
             LoadSupplier();
             AllDailyLoad();
+            AllMonthlyLoad();
             SearchFoodList();
             SearchServiceList();
             SearchList();
