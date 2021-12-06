@@ -48,7 +48,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.DarkGray;
-            this.label4.Location = new System.Drawing.Point(163, 307);
+            this.label4.Location = new System.Drawing.Point(166, 283);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 21);
             this.label4.TabIndex = 41;
@@ -59,7 +59,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(126, 223);
+            this.label3.Location = new System.Drawing.Point(126, 207);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(142, 21);
             this.label3.TabIndex = 40;
@@ -71,7 +71,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.DarkGray;
-            this.label2.Location = new System.Drawing.Point(153, 139);
+            this.label2.Location = new System.Drawing.Point(151, 131);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 21);
             this.label2.TabIndex = 39;
@@ -104,7 +104,7 @@
             this.CancelBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.CancelBtn.ForeColor = System.Drawing.Color.White;
             this.CancelBtn.HoverState.Parent = this.CancelBtn;
-            this.CancelBtn.Location = new System.Drawing.Point(207, 498);
+            this.CancelBtn.Location = new System.Drawing.Point(207, 470);
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.ShadowDecoration.Parent = this.CancelBtn;
             this.CancelBtn.Size = new System.Drawing.Size(147, 49);
@@ -140,7 +140,7 @@
             this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddBtn.ForeColor = System.Drawing.Color.White;
             this.AddBtn.HoverState.Parent = this.AddBtn;
-            this.AddBtn.Location = new System.Drawing.Point(31, 498);
+            this.AddBtn.Location = new System.Drawing.Point(31, 470);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.ShadowDecoration.Parent = this.AddBtn;
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
@@ -167,7 +167,7 @@
             this.SupplierEmailTxb.ForeColor = System.Drawing.Color.White;
             this.SupplierEmailTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierEmailTxb.HoverState.Parent = this.SupplierEmailTxb;
-            this.SupplierEmailTxb.Location = new System.Drawing.Point(93, 331);
+            this.SupplierEmailTxb.Location = new System.Drawing.Point(93, 307);
             this.SupplierEmailTxb.Name = "SupplierEmailTxb";
             this.SupplierEmailTxb.PasswordChar = '\0';
             this.SupplierEmailTxb.PlaceholderText = "Email";
@@ -196,7 +196,7 @@
             this.SupplierPhoneNumberxb.ForeColor = System.Drawing.Color.White;
             this.SupplierPhoneNumberxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierPhoneNumberxb.HoverState.Parent = this.SupplierPhoneNumberxb;
-            this.SupplierPhoneNumberxb.Location = new System.Drawing.Point(57, 247);
+            this.SupplierPhoneNumberxb.Location = new System.Drawing.Point(57, 231);
             this.SupplierPhoneNumberxb.Name = "SupplierPhoneNumberxb";
             this.SupplierPhoneNumberxb.PasswordChar = '\0';
             this.SupplierPhoneNumberxb.PlaceholderText = "Phone numbers";
@@ -226,7 +226,7 @@
             this.SupplierAddressTxb.ForeColor = System.Drawing.Color.White;
             this.SupplierAddressTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierAddressTxb.HoverState.Parent = this.SupplierAddressTxb;
-            this.SupplierAddressTxb.Location = new System.Drawing.Point(57, 163);
+            this.SupplierAddressTxb.Location = new System.Drawing.Point(57, 155);
             this.SupplierAddressTxb.Name = "SupplierAddressTxb";
             this.SupplierAddressTxb.PasswordChar = '\0';
             this.SupplierAddressTxb.PlaceholderText = "Address";
@@ -270,7 +270,7 @@
             this.NoteTxt.AutoSize = true;
             this.NoteTxt.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.NoteTxt.ForeColor = System.Drawing.Color.DarkGray;
-            this.NoteTxt.Location = new System.Drawing.Point(163, 403);
+            this.NoteTxt.Location = new System.Drawing.Point(163, 369);
             this.NoteTxt.Name = "NoteTxt";
             this.NoteTxt.Size = new System.Drawing.Size(57, 21);
             this.NoteTxt.TabIndex = 43;
@@ -295,7 +295,7 @@
             this.SupplierNoteText.ForeColor = System.Drawing.Color.White;
             this.SupplierNoteText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierNoteText.HoverState.Parent = this.SupplierNoteText;
-            this.SupplierNoteText.Location = new System.Drawing.Point(31, 427);
+            this.SupplierNoteText.Location = new System.Drawing.Point(31, 393);
             this.SupplierNoteText.Name = "SupplierNoteText";
             this.SupplierNoteText.PasswordChar = '\0';
             this.SupplierNoteText.PlaceholderText = "Note";
@@ -310,7 +310,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(385, 559);
+            this.ClientSize = new System.Drawing.Size(385, 531);
             this.Controls.Add(this.NoteTxt);
             this.Controls.Add(this.SupplierNoteText);
             this.Controls.Add(this.label4);

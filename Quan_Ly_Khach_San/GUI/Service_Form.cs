@@ -88,9 +88,7 @@ namespace Quan_Ly_Khach_San.GUI
         private void ServiceListDGV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int i = ServiceListDGV.CurrentRow.Index;
-            this.ServiceNameTxb.Text = ServiceListDGV.Rows[i].Cells[2].Value.ToString();
-            this.ServiceTypeTxb.Text = ServiceListDGV.Rows[i].Cells[3].Value.ToString();
-            this.ServicePriceTxb.Text = ServiceListDGV.Rows[i].Cells[5].Value.ToString();
+           
         }
         //Add new or Remove Service 
         private void AddServiceBtn_Click(object sender, EventArgs e)
@@ -388,9 +386,10 @@ namespace Quan_Ly_Khach_San.GUI
         }
 
 
+
         #endregion
 
-        
+
     }
 
 

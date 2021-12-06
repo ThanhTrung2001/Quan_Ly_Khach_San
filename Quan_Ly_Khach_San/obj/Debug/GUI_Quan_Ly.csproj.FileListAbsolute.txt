@@ -143,3 +143,5 @@ E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Add_Supplier_Form.resources
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Service_Form.resources
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\GUI_Quan_Ly.csproj.CopyComplete
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Add_Ingredient_Form.resources
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Add_Supplier_Form.resources

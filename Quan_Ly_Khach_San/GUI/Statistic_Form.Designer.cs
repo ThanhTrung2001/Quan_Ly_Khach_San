@@ -381,10 +381,9 @@ namespace Quan_Ly_Khach_San
             this.StatisticAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatisticAll.ItemSize = new System.Drawing.Size(180, 40);
             this.StatisticAll.Location = new System.Drawing.Point(0, 0);
-            this.StatisticAll.Margin = new System.Windows.Forms.Padding(4);
             this.StatisticAll.Name = "StatisticAll";
             this.StatisticAll.SelectedIndex = 0;
-            this.StatisticAll.Size = new System.Drawing.Size(1333, 800);
+            this.StatisticAll.Size = new System.Drawing.Size(1000, 650);
             this.StatisticAll.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.StatisticAll.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(34)))), ((int)(((byte)(55)))));
             this.StatisticAll.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -411,10 +410,9 @@ namespace Quan_Ly_Khach_San
             this.payment.Controls.Add(this.siticoneTabControl2);
             this.payment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.payment.Location = new System.Drawing.Point(4, 44);
-            this.payment.Margin = new System.Windows.Forms.Padding(4);
             this.payment.Name = "payment";
-            this.payment.Padding = new System.Windows.Forms.Padding(4);
-            this.payment.Size = new System.Drawing.Size(1325, 752);
+            this.payment.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.payment.Size = new System.Drawing.Size(992, 602);
             this.payment.TabIndex = 3;
             this.payment.Text = "PAYMENT";
             // 
@@ -424,23 +422,22 @@ namespace Quan_Ly_Khach_San
             this.siticoneTabControl2.Controls.Add(this.tabPage5);
             this.siticoneTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.siticoneTabControl2.ItemSize = new System.Drawing.Size(180, 40);
-            this.siticoneTabControl2.Location = new System.Drawing.Point(4, 4);
-            this.siticoneTabControl2.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneTabControl2.Location = new System.Drawing.Point(3, 3);
             this.siticoneTabControl2.Name = "siticoneTabControl2";
             this.siticoneTabControl2.SelectedIndex = 0;
-            this.siticoneTabControl2.Size = new System.Drawing.Size(1317, 744);
+            this.siticoneTabControl2.Size = new System.Drawing.Size(986, 596);
             this.siticoneTabControl2.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.siticoneTabControl2.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.siticoneTabControl2.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.siticoneTabControl2.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
             this.siticoneTabControl2.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
-            this.siticoneTabControl2.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.siticoneTabControl2.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.siticoneTabControl2.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.siticoneTabControl2.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.siticoneTabControl2.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.siticoneTabControl2.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
             this.siticoneTabControl2.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.siticoneTabControl2.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.siticoneTabControl2.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.siticoneTabControl2.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.siticoneTabControl2.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
+            this.siticoneTabControl2.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.siticoneTabControl2.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
             this.siticoneTabControl2.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
             this.siticoneTabControl2.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
@@ -469,22 +466,20 @@ namespace Quan_Ly_Khach_San
             this.tabPage4.Controls.Add(this.TotalPriceFoodTxb);
             this.tabPage4.Controls.Add(this.CustomerFoodDGV);
             this.tabPage4.Location = new System.Drawing.Point(4, 44);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage4.Size = new System.Drawing.Size(1309, 696);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Size = new System.Drawing.Size(978, 548);
             this.tabPage4.TabIndex = 0;
-            this.tabPage4.Text = "Food";
+            this.tabPage4.Text = "FOOD";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.DarkGray;
-            this.label9.Location = new System.Drawing.Point(1176, 34);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(882, 28);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(110, 27);
+            this.label9.Size = new System.Drawing.Size(90, 21);
             this.label9.TabIndex = 94;
             this.label9.Text = "List Foods";
             // 
@@ -493,10 +488,9 @@ namespace Quan_Ly_Khach_San
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(980, 574);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(735, 466);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 20);
+            this.label8.Size = new System.Drawing.Size(29, 16);
             this.label8.TabIndex = 93;
             this.label8.Text = "USD";
             // 
@@ -505,10 +499,9 @@ namespace Quan_Ly_Khach_San
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(1253, 492);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(940, 400);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 20);
+            this.label7.Size = new System.Drawing.Size(29, 16);
             this.label7.TabIndex = 92;
             this.label7.Text = "USD";
             // 
@@ -517,10 +510,9 @@ namespace Quan_Ly_Khach_San
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(955, 492);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(716, 400);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 20);
+            this.label6.Size = new System.Drawing.Size(29, 16);
             this.label6.TabIndex = 91;
             this.label6.Text = "USD";
             // 
@@ -529,10 +521,9 @@ namespace Quan_Ly_Khach_San
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.DarkGray;
-            this.label5.Location = new System.Drawing.Point(739, 572);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(554, 465);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 22);
+            this.label5.Size = new System.Drawing.Size(52, 17);
             this.label5.TabIndex = 90;
             this.label5.Text = "Return";
             // 
@@ -541,10 +532,9 @@ namespace Quan_Ly_Khach_San
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.DarkGray;
-            this.label4.Location = new System.Drawing.Point(1016, 485);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(762, 394);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 22);
+            this.label4.Size = new System.Drawing.Size(59, 17);
             this.label4.TabIndex = 89;
             this.label4.Text = "Receive";
             // 
@@ -553,10 +543,9 @@ namespace Quan_Ly_Khach_San
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(739, 485);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(554, 394);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 22);
+            this.label3.Size = new System.Drawing.Size(42, 17);
             this.label3.TabIndex = 88;
             this.label3.Text = "Total";
             // 
@@ -578,11 +567,10 @@ namespace Quan_Ly_Khach_San
             "Pending",
             "All"});
             this.StatusCbb.ItemsAppearance.Parent = this.StatusCbb;
-            this.StatusCbb.Location = new System.Drawing.Point(249, 16);
-            this.StatusCbb.Margin = new System.Windows.Forms.Padding(4);
+            this.StatusCbb.Location = new System.Drawing.Point(187, 13);
             this.StatusCbb.Name = "StatusCbb";
             this.StatusCbb.ShadowDecoration.Parent = this.StatusCbb;
-            this.StatusCbb.Size = new System.Drawing.Size(185, 36);
+            this.StatusCbb.Size = new System.Drawing.Size(140, 36);
             this.StatusCbb.TabIndex = 87;
             this.StatusCbb.SelectedIndexChanged += new System.EventHandler(this.StatusCbb_SelectedIndexChanged);
             // 
@@ -602,14 +590,13 @@ namespace Quan_Ly_Khach_San
             this.SearchTextTxt.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.SearchTextTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SearchTextTxt.HoverState.Parent = this.SearchTextTxt;
-            this.SearchTextTxt.Location = new System.Drawing.Point(1, 16);
-            this.SearchTextTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.SearchTextTxt.Location = new System.Drawing.Point(1, 13);
             this.SearchTextTxt.Name = "SearchTextTxt";
             this.SearchTextTxt.PasswordChar = '\0';
             this.SearchTextTxt.PlaceholderText = "Search customer ID";
             this.SearchTextTxt.SelectedText = "";
             this.SearchTextTxt.ShadowDecoration.Parent = this.SearchTextTxt;
-            this.SearchTextTxt.Size = new System.Drawing.Size(237, 44);
+            this.SearchTextTxt.Size = new System.Drawing.Size(178, 36);
             this.SearchTextTxt.TabIndex = 77;
             this.SearchTextTxt.TextChanged += new System.EventHandler(this.SearchTextTxt_TextChanged);
             // 
@@ -651,15 +638,14 @@ namespace Quan_Ly_Khach_San
             this.FListRequestDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.FListRequestDGV.EnableHeadersVisualStyles = false;
             this.FListRequestDGV.GridColor = System.Drawing.Color.White;
-            this.FListRequestDGV.Location = new System.Drawing.Point(732, 68);
-            this.FListRequestDGV.Margin = new System.Windows.Forms.Padding(4);
+            this.FListRequestDGV.Location = new System.Drawing.Point(549, 55);
             this.FListRequestDGV.Name = "FListRequestDGV";
             this.FListRequestDGV.ReadOnly = true;
             this.FListRequestDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.FListRequestDGV.RowHeadersVisible = false;
             this.FListRequestDGV.RowHeadersWidth = 51;
             this.FListRequestDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.FListRequestDGV.Size = new System.Drawing.Size(576, 386);
+            this.FListRequestDGV.Size = new System.Drawing.Size(432, 314);
             this.FListRequestDGV.TabIndex = 86;
             this.FListRequestDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.FListRequestDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -780,15 +766,14 @@ namespace Quan_Ly_Khach_San
             this.ReturnMoneyTxb.ForeColor = System.Drawing.Color.White;
             this.ReturnMoneyTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReturnMoneyTxb.HoverState.Parent = this.ReturnMoneyTxb;
-            this.ReturnMoneyTxb.Location = new System.Drawing.Point(823, 548);
-            this.ReturnMoneyTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.ReturnMoneyTxb.Location = new System.Drawing.Point(617, 445);
             this.ReturnMoneyTxb.Name = "ReturnMoneyTxb";
             this.ReturnMoneyTxb.PasswordChar = '\0';
             this.ReturnMoneyTxb.PlaceholderText = "0";
             this.ReturnMoneyTxb.ReadOnly = true;
             this.ReturnMoneyTxb.SelectedText = "";
             this.ReturnMoneyTxb.ShadowDecoration.Parent = this.ReturnMoneyTxb;
-            this.ReturnMoneyTxb.Size = new System.Drawing.Size(149, 50);
+            this.ReturnMoneyTxb.Size = new System.Drawing.Size(112, 41);
             this.ReturnMoneyTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ReturnMoneyTxb.TabIndex = 74;
             this.ReturnMoneyTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -813,14 +798,13 @@ namespace Quan_Ly_Khach_San
             this.ReceiveMoneyTxb.ForeColor = System.Drawing.Color.White;
             this.ReceiveMoneyTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReceiveMoneyTxb.HoverState.Parent = this.ReceiveMoneyTxb;
-            this.ReceiveMoneyTxb.Location = new System.Drawing.Point(1103, 462);
-            this.ReceiveMoneyTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.ReceiveMoneyTxb.Location = new System.Drawing.Point(827, 375);
             this.ReceiveMoneyTxb.Name = "ReceiveMoneyTxb";
             this.ReceiveMoneyTxb.PasswordChar = '\0';
             this.ReceiveMoneyTxb.PlaceholderText = "0";
             this.ReceiveMoneyTxb.SelectedText = "";
             this.ReceiveMoneyTxb.ShadowDecoration.Parent = this.ReceiveMoneyTxb;
-            this.ReceiveMoneyTxb.Size = new System.Drawing.Size(143, 50);
+            this.ReceiveMoneyTxb.Size = new System.Drawing.Size(107, 41);
             this.ReceiveMoneyTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ReceiveMoneyTxb.TabIndex = 73;
             this.ReceiveMoneyTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -842,11 +826,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold);
             this.siticoneGradientButton13.ForeColor = System.Drawing.Color.White;
             this.siticoneGradientButton13.HoverState.Parent = this.siticoneGradientButton13;
-            this.siticoneGradientButton13.Location = new System.Drawing.Point(1129, 612);
-            this.siticoneGradientButton13.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneGradientButton13.Location = new System.Drawing.Point(847, 497);
             this.siticoneGradientButton13.Name = "siticoneGradientButton13";
             this.siticoneGradientButton13.ShadowDecoration.Parent = this.siticoneGradientButton13;
-            this.siticoneGradientButton13.Size = new System.Drawing.Size(167, 55);
+            this.siticoneGradientButton13.Size = new System.Drawing.Size(125, 45);
             this.siticoneGradientButton13.TabIndex = 76;
             this.siticoneGradientButton13.Text = "Cancel";
             // 
@@ -864,11 +847,10 @@ namespace Quan_Ly_Khach_San
             this.ConfirmRequest.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConfirmRequest.ForeColor = System.Drawing.Color.White;
             this.ConfirmRequest.HoverState.Parent = this.ConfirmRequest;
-            this.ConfirmRequest.Location = new System.Drawing.Point(928, 612);
-            this.ConfirmRequest.Margin = new System.Windows.Forms.Padding(4);
+            this.ConfirmRequest.Location = new System.Drawing.Point(696, 497);
             this.ConfirmRequest.Name = "ConfirmRequest";
             this.ConfirmRequest.ShadowDecoration.Parent = this.ConfirmRequest;
-            this.ConfirmRequest.Size = new System.Drawing.Size(167, 55);
+            this.ConfirmRequest.Size = new System.Drawing.Size(125, 45);
             this.ConfirmRequest.TabIndex = 75;
             this.ConfirmRequest.Text = "Confirm";
             this.ConfirmRequest.Click += new System.EventHandler(this.ConfirmRequest_Click);
@@ -893,8 +875,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceFoodTxb.ForeColor = System.Drawing.Color.White;
             this.TotalPriceFoodTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalPriceFoodTxb.HoverState.Parent = this.TotalPriceFoodTxb;
-            this.TotalPriceFoodTxb.Location = new System.Drawing.Point(797, 462);
-            this.TotalPriceFoodTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.TotalPriceFoodTxb.Location = new System.Drawing.Point(598, 375);
             this.TotalPriceFoodTxb.Name = "TotalPriceFoodTxb";
             this.TotalPriceFoodTxb.PasswordChar = '\0';
             this.TotalPriceFoodTxb.PlaceholderText = "";
@@ -902,7 +883,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceFoodTxb.SelectedText = "";
             this.TotalPriceFoodTxb.SelectionStart = 1;
             this.TotalPriceFoodTxb.ShadowDecoration.Parent = this.TotalPriceFoodTxb;
-            this.TotalPriceFoodTxb.Size = new System.Drawing.Size(149, 50);
+            this.TotalPriceFoodTxb.Size = new System.Drawing.Size(112, 41);
             this.TotalPriceFoodTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.TotalPriceFoodTxb.TabIndex = 72;
             this.TotalPriceFoodTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -949,15 +930,14 @@ namespace Quan_Ly_Khach_San
             this.CustomerFoodDGV.DefaultCellStyle = dataGridViewCellStyle6;
             this.CustomerFoodDGV.EnableHeadersVisualStyles = false;
             this.CustomerFoodDGV.GridColor = System.Drawing.Color.White;
-            this.CustomerFoodDGV.Location = new System.Drawing.Point(-4, 68);
-            this.CustomerFoodDGV.Margin = new System.Windows.Forms.Padding(4);
+            this.CustomerFoodDGV.Location = new System.Drawing.Point(-3, 55);
             this.CustomerFoodDGV.Name = "CustomerFoodDGV";
             this.CustomerFoodDGV.ReadOnly = true;
             this.CustomerFoodDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.CustomerFoodDGV.RowHeadersVisible = false;
             this.CustomerFoodDGV.RowHeadersWidth = 51;
             this.CustomerFoodDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.CustomerFoodDGV.Size = new System.Drawing.Size(728, 599);
+            this.CustomerFoodDGV.Size = new System.Drawing.Size(546, 487);
             this.CustomerFoodDGV.TabIndex = 78;
             this.CustomerFoodDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.CustomerFoodDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1111,22 +1091,20 @@ namespace Quan_Ly_Khach_San
             this.tabPage5.Controls.Add(this.ConfirmRequestBtn);
             this.tabPage5.Controls.Add(this.RequestImportDGV);
             this.tabPage5.Location = new System.Drawing.Point(4, 44);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage5.Size = new System.Drawing.Size(1309, 696);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Size = new System.Drawing.Size(978, 548);
             this.tabPage5.TabIndex = 1;
-            this.tabPage5.Text = "Supplier";
+            this.tabPage5.Text = "SUPPLIER";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.Color.DarkGray;
-            this.label17.Location = new System.Drawing.Point(737, 639);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Location = new System.Drawing.Point(553, 519);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(61, 27);
+            this.label17.Size = new System.Drawing.Size(49, 21);
             this.label17.TabIndex = 98;
             this.label17.Text = "Total";
             // 
@@ -1135,10 +1113,9 @@ namespace Quan_Ly_Khach_San
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.DarkGray;
-            this.label11.Location = new System.Drawing.Point(4, 90);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(3, 73);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(60, 27);
+            this.label11.Size = new System.Drawing.Size(48, 21);
             this.label11.TabIndex = 96;
             this.label11.Text = "Note";
             // 
@@ -1147,10 +1124,9 @@ namespace Quan_Ly_Khach_San
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.DarkGray;
-            this.label10.Location = new System.Drawing.Point(4, 34);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(3, 28);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(97, 27);
+            this.label10.Size = new System.Drawing.Size(78, 21);
             this.label10.TabIndex = 95;
             this.label10.Text = "Agent ID";
             // 
@@ -1173,8 +1149,7 @@ namespace Quan_Ly_Khach_San
             this.totaltxt.ForeColor = System.Drawing.Color.White;
             this.totaltxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totaltxt.HoverState.Parent = this.totaltxt;
-            this.totaltxt.Location = new System.Drawing.Point(811, 620);
-            this.totaltxt.Margin = new System.Windows.Forms.Padding(4);
+            this.totaltxt.Location = new System.Drawing.Point(608, 504);
             this.totaltxt.Name = "totaltxt";
             this.totaltxt.PasswordChar = '\0';
             this.totaltxt.PlaceholderText = "";
@@ -1182,7 +1157,7 @@ namespace Quan_Ly_Khach_San
             this.totaltxt.SelectedText = "";
             this.totaltxt.SelectionStart = 4;
             this.totaltxt.ShadowDecoration.Parent = this.totaltxt;
-            this.totaltxt.Size = new System.Drawing.Size(191, 54);
+            this.totaltxt.Size = new System.Drawing.Size(143, 44);
             this.totaltxt.TabIndex = 74;
             this.totaltxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1206,11 +1181,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneGroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.siticoneGroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneGroupBox1.ForeColor = System.Drawing.Color.White;
-            this.siticoneGroupBox1.Location = new System.Drawing.Point(680, 0);
-            this.siticoneGroupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneGroupBox1.Location = new System.Drawing.Point(510, 0);
             this.siticoneGroupBox1.Name = "siticoneGroupBox1";
             this.siticoneGroupBox1.ShadowDecoration.Parent = this.siticoneGroupBox1;
-            this.siticoneGroupBox1.Size = new System.Drawing.Size(617, 270);
+            this.siticoneGroupBox1.Size = new System.Drawing.Size(463, 219);
             this.siticoneGroupBox1.TabIndex = 73;
             this.siticoneGroupBox1.Text = "New Ingredient";
             // 
@@ -1219,10 +1193,9 @@ namespace Quan_Ly_Khach_San
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label16.ForeColor = System.Drawing.Color.DarkGray;
-            this.label16.Location = new System.Drawing.Point(380, 135);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(285, 110);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(59, 27);
+            this.label16.Size = new System.Drawing.Size(49, 21);
             this.label16.TabIndex = 100;
             this.label16.Text = "Price";
             // 
@@ -1231,10 +1204,9 @@ namespace Quan_Ly_Khach_San
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label15.ForeColor = System.Drawing.Color.DarkGray;
-            this.label15.Location = new System.Drawing.Point(353, 73);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(265, 59);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(89, 27);
+            this.label15.Size = new System.Drawing.Size(72, 21);
             this.label15.TabIndex = 99;
             this.label15.Text = "Amount";
             // 
@@ -1243,10 +1215,9 @@ namespace Quan_Ly_Khach_San
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.DarkGray;
-            this.label14.Location = new System.Drawing.Point(11, 203);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(8, 165);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(58, 27);
+            this.label14.Size = new System.Drawing.Size(47, 21);
             this.label14.TabIndex = 98;
             this.label14.Text = "Type";
             // 
@@ -1255,10 +1226,9 @@ namespace Quan_Ly_Khach_San
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label13.ForeColor = System.Drawing.Color.DarkGray;
-            this.label13.Location = new System.Drawing.Point(11, 135);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(8, 110);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(68, 27);
+            this.label13.Size = new System.Drawing.Size(56, 21);
             this.label13.TabIndex = 97;
             this.label13.Text = "Name";
             // 
@@ -1267,10 +1237,9 @@ namespace Quan_Ly_Khach_San
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.DarkGray;
-            this.label12.Location = new System.Drawing.Point(29, 73);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(22, 59);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(33, 27);
+            this.label12.Size = new System.Drawing.Size(27, 21);
             this.label12.TabIndex = 96;
             this.label12.Text = "ID";
             // 
@@ -1290,11 +1259,10 @@ namespace Quan_Ly_Khach_San
             this.IngredientUnittxt.HoverState.Parent = this.IngredientUnittxt;
             this.IngredientUnittxt.ItemHeight = 30;
             this.IngredientUnittxt.ItemsAppearance.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.Location = new System.Drawing.Point(247, 191);
-            this.IngredientUnittxt.Margin = new System.Windows.Forms.Padding(4);
+            this.IngredientUnittxt.Location = new System.Drawing.Point(185, 155);
             this.IngredientUnittxt.Name = "IngredientUnittxt";
             this.IngredientUnittxt.ShadowDecoration.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.Size = new System.Drawing.Size(101, 36);
+            this.IngredientUnittxt.Size = new System.Drawing.Size(77, 36);
             this.IngredientUnittxt.TabIndex = 3;
             // 
             // siticoneGradientButton1
@@ -1311,11 +1279,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneGradientButton1.ForeColor = System.Drawing.Color.White;
             this.siticoneGradientButton1.HoverState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Location = new System.Drawing.Point(497, 191);
-            this.siticoneGradientButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneGradientButton1.Location = new System.Drawing.Point(373, 155);
             this.siticoneGradientButton1.Name = "siticoneGradientButton1";
             this.siticoneGradientButton1.ShadowDecoration.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Size = new System.Drawing.Size(101, 55);
+            this.siticoneGradientButton1.Size = new System.Drawing.Size(76, 45);
             this.siticoneGradientButton1.TabIndex = 7;
             this.siticoneGradientButton1.Text = "Delete";
             this.siticoneGradientButton1.Click += new System.EventHandler(this.siticoneGradientButton1_Click);
@@ -1339,14 +1306,13 @@ namespace Quan_Ly_Khach_San
             this.IngredientAmounttxt.ForeColor = System.Drawing.Color.White;
             this.IngredientAmounttxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientAmounttxt.HoverState.Parent = this.IngredientAmounttxt;
-            this.IngredientAmounttxt.Location = new System.Drawing.Point(453, 62);
-            this.IngredientAmounttxt.Margin = new System.Windows.Forms.Padding(4);
+            this.IngredientAmounttxt.Location = new System.Drawing.Point(340, 50);
             this.IngredientAmounttxt.Name = "IngredientAmounttxt";
             this.IngredientAmounttxt.PasswordChar = '\0';
             this.IngredientAmounttxt.PlaceholderText = "Amount";
             this.IngredientAmounttxt.SelectedText = "";
             this.IngredientAmounttxt.ShadowDecoration.Parent = this.IngredientAmounttxt;
-            this.IngredientAmounttxt.Size = new System.Drawing.Size(145, 54);
+            this.IngredientAmounttxt.Size = new System.Drawing.Size(109, 44);
             this.IngredientAmounttxt.TabIndex = 4;
             this.IngredientAmounttxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.IngredientAmounttxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.IngredientAmounttxt_KeyPress);
@@ -1365,11 +1331,10 @@ namespace Quan_Ly_Khach_San
             this.IngredientAddbtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IngredientAddbtn.ForeColor = System.Drawing.Color.White;
             this.IngredientAddbtn.HoverState.Parent = this.IngredientAddbtn;
-            this.IngredientAddbtn.Location = new System.Drawing.Point(359, 191);
-            this.IngredientAddbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.IngredientAddbtn.Location = new System.Drawing.Point(269, 155);
             this.IngredientAddbtn.Name = "IngredientAddbtn";
             this.IngredientAddbtn.ShadowDecoration.Parent = this.IngredientAddbtn;
-            this.IngredientAddbtn.Size = new System.Drawing.Size(135, 55);
+            this.IngredientAddbtn.Size = new System.Drawing.Size(101, 45);
             this.IngredientAddbtn.TabIndex = 6;
             this.IngredientAddbtn.Text = "Add";
             this.IngredientAddbtn.Click += new System.EventHandler(this.IngredientAddbtn_Click);
@@ -1393,14 +1358,13 @@ namespace Quan_Ly_Khach_San
             this.IngredientPricetxt.ForeColor = System.Drawing.Color.White;
             this.IngredientPricetxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientPricetxt.HoverState.Parent = this.IngredientPricetxt;
-            this.IngredientPricetxt.Location = new System.Drawing.Point(453, 123);
-            this.IngredientPricetxt.Margin = new System.Windows.Forms.Padding(4);
+            this.IngredientPricetxt.Location = new System.Drawing.Point(340, 100);
             this.IngredientPricetxt.Name = "IngredientPricetxt";
             this.IngredientPricetxt.PasswordChar = '\0';
             this.IngredientPricetxt.PlaceholderText = "Price";
             this.IngredientPricetxt.SelectedText = "";
             this.IngredientPricetxt.ShadowDecoration.Parent = this.IngredientPricetxt;
-            this.IngredientPricetxt.Size = new System.Drawing.Size(145, 54);
+            this.IngredientPricetxt.Size = new System.Drawing.Size(109, 44);
             this.IngredientPricetxt.TabIndex = 5;
             this.IngredientPricetxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.IngredientPricetxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.IngredientPricetxt_KeyPress);
@@ -1421,11 +1385,10 @@ namespace Quan_Ly_Khach_San
             this.IngredientStyletxt.HoverState.Parent = this.IngredientStyletxt;
             this.IngredientStyletxt.ItemHeight = 30;
             this.IngredientStyletxt.ItemsAppearance.Parent = this.IngredientStyletxt;
-            this.IngredientStyletxt.Location = new System.Drawing.Point(93, 191);
-            this.IngredientStyletxt.Margin = new System.Windows.Forms.Padding(4);
+            this.IngredientStyletxt.Location = new System.Drawing.Point(70, 155);
             this.IngredientStyletxt.Name = "IngredientStyletxt";
             this.IngredientStyletxt.ShadowDecoration.Parent = this.IngredientStyletxt;
-            this.IngredientStyletxt.Size = new System.Drawing.Size(144, 36);
+            this.IngredientStyletxt.Size = new System.Drawing.Size(109, 36);
             this.IngredientStyletxt.TabIndex = 2;
             // 
             // IngredientNametxt
@@ -1447,14 +1410,13 @@ namespace Quan_Ly_Khach_San
             this.IngredientNametxt.ForeColor = System.Drawing.Color.White;
             this.IngredientNametxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientNametxt.HoverState.Parent = this.IngredientNametxt;
-            this.IngredientNametxt.Location = new System.Drawing.Point(93, 123);
-            this.IngredientNametxt.Margin = new System.Windows.Forms.Padding(4);
+            this.IngredientNametxt.Location = new System.Drawing.Point(70, 100);
             this.IngredientNametxt.Name = "IngredientNametxt";
             this.IngredientNametxt.PasswordChar = '\0';
             this.IngredientNametxt.PlaceholderText = "Name";
             this.IngredientNametxt.SelectedText = "";
             this.IngredientNametxt.ShadowDecoration.Parent = this.IngredientNametxt;
-            this.IngredientNametxt.Size = new System.Drawing.Size(256, 54);
+            this.IngredientNametxt.Size = new System.Drawing.Size(192, 44);
             this.IngredientNametxt.TabIndex = 1;
             this.IngredientNametxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1479,14 +1441,13 @@ namespace Quan_Ly_Khach_San
             this.IngredientIDtxt.ForeColor = System.Drawing.Color.White;
             this.IngredientIDtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientIDtxt.HoverState.Parent = this.IngredientIDtxt;
-            this.IngredientIDtxt.Location = new System.Drawing.Point(93, 62);
-            this.IngredientIDtxt.Margin = new System.Windows.Forms.Padding(4);
+            this.IngredientIDtxt.Location = new System.Drawing.Point(70, 50);
             this.IngredientIDtxt.Name = "IngredientIDtxt";
             this.IngredientIDtxt.PasswordChar = '\0';
             this.IngredientIDtxt.PlaceholderText = "Should\'t enter when you add new";
             this.IngredientIDtxt.SelectedText = "";
             this.IngredientIDtxt.ShadowDecoration.Parent = this.IngredientIDtxt;
-            this.IngredientIDtxt.Size = new System.Drawing.Size(256, 54);
+            this.IngredientIDtxt.Size = new System.Drawing.Size(192, 44);
             this.IngredientIDtxt.TabIndex = 0;
             this.IngredientIDtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.IngredientIDtxt.TextChanged += new System.EventHandler(this.IngredientIDtxt_TextChanged);
@@ -1505,11 +1466,10 @@ namespace Quan_Ly_Khach_San
             this.AddSupplierBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddSupplierBtn.ForeColor = System.Drawing.Color.White;
             this.AddSupplierBtn.HoverState.Parent = this.AddSupplierBtn;
-            this.AddSupplierBtn.Location = new System.Drawing.Point(475, 23);
-            this.AddSupplierBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.AddSupplierBtn.Location = new System.Drawing.Point(356, 19);
             this.AddSupplierBtn.Name = "AddSupplierBtn";
             this.AddSupplierBtn.ShadowDecoration.Parent = this.AddSupplierBtn;
-            this.AddSupplierBtn.Size = new System.Drawing.Size(77, 55);
+            this.AddSupplierBtn.Size = new System.Drawing.Size(58, 45);
             this.AddSupplierBtn.TabIndex = 72;
             this.AddSupplierBtn.Text = "Add";
             this.AddSupplierBtn.Click += new System.EventHandler(this.AddSupplierBtn_Click);
@@ -1533,15 +1493,14 @@ namespace Quan_Ly_Khach_San
             this.NoteSupplierTxb.ForeColor = System.Drawing.Color.White;
             this.NoteSupplierTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.NoteSupplierTxb.HoverState.Parent = this.NoteSupplierTxb;
-            this.NoteSupplierTxb.Location = new System.Drawing.Point(121, 89);
-            this.NoteSupplierTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.NoteSupplierTxb.Location = new System.Drawing.Point(91, 72);
             this.NoteSupplierTxb.Name = "NoteSupplierTxb";
             this.NoteSupplierTxb.PasswordChar = '\0';
             this.NoteSupplierTxb.PlaceholderText = "";
             this.NoteSupplierTxb.SelectedText = "";
             this.NoteSupplierTxb.SelectionStart = 4;
             this.NoteSupplierTxb.ShadowDecoration.Parent = this.NoteSupplierTxb;
-            this.NoteSupplierTxb.Size = new System.Drawing.Size(431, 95);
+            this.NoteSupplierTxb.Size = new System.Drawing.Size(323, 77);
             this.NoteSupplierTxb.TabIndex = 64;
             this.NoteSupplierTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1563,14 +1522,13 @@ namespace Quan_Ly_Khach_San
             this.SupplierPhoneTxb.ForeColor = System.Drawing.Color.White;
             this.SupplierPhoneTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierPhoneTxb.HoverState.Parent = this.SupplierPhoneTxb;
-            this.SupplierPhoneTxb.Location = new System.Drawing.Point(7, 203);
-            this.SupplierPhoneTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.SupplierPhoneTxb.Location = new System.Drawing.Point(5, 165);
             this.SupplierPhoneTxb.Name = "SupplierPhoneTxb";
             this.SupplierPhoneTxb.PasswordChar = '\0';
             this.SupplierPhoneTxb.PlaceholderText = "Search here";
             this.SupplierPhoneTxb.SelectedText = "";
             this.SupplierPhoneTxb.ShadowDecoration.Parent = this.SupplierPhoneTxb;
-            this.SupplierPhoneTxb.Size = new System.Drawing.Size(280, 44);
+            this.SupplierPhoneTxb.Size = new System.Drawing.Size(210, 36);
             this.SupplierPhoneTxb.TabIndex = 70;
             this.SupplierPhoneTxb.TextChanged += new System.EventHandler(this.SupplierPhoneTxb_TextChanged);
             // 
@@ -1592,11 +1550,10 @@ namespace Quan_Ly_Khach_San
             this.SupplierNameCb.Items.AddRange(new object[] {
             "A1"});
             this.SupplierNameCb.ItemsAppearance.Parent = this.SupplierNameCb;
-            this.SupplierNameCb.Location = new System.Drawing.Point(121, 34);
-            this.SupplierNameCb.Margin = new System.Windows.Forms.Padding(4);
+            this.SupplierNameCb.Location = new System.Drawing.Point(91, 28);
             this.SupplierNameCb.Name = "SupplierNameCb";
             this.SupplierNameCb.ShadowDecoration.Parent = this.SupplierNameCb;
-            this.SupplierNameCb.Size = new System.Drawing.Size(327, 36);
+            this.SupplierNameCb.Size = new System.Drawing.Size(246, 36);
             this.SupplierNameCb.TabIndex = 63;
             // 
             // MaterialImportDGV
@@ -1638,15 +1595,14 @@ namespace Quan_Ly_Khach_San
             this.MaterialImportDGV.DefaultCellStyle = dataGridViewCellStyle9;
             this.MaterialImportDGV.EnableHeadersVisualStyles = false;
             this.MaterialImportDGV.GridColor = System.Drawing.Color.White;
-            this.MaterialImportDGV.Location = new System.Drawing.Point(743, 277);
-            this.MaterialImportDGV.Margin = new System.Windows.Forms.Padding(4);
+            this.MaterialImportDGV.Location = new System.Drawing.Point(557, 225);
             this.MaterialImportDGV.Name = "MaterialImportDGV";
             this.MaterialImportDGV.ReadOnly = true;
             this.MaterialImportDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.MaterialImportDGV.RowHeadersVisible = false;
             this.MaterialImportDGV.RowHeadersWidth = 51;
             this.MaterialImportDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.MaterialImportDGV.Size = new System.Drawing.Size(555, 336);
+            this.MaterialImportDGV.Size = new System.Drawing.Size(416, 273);
             this.MaterialImportDGV.TabIndex = 68;
             this.MaterialImportDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.MaterialImportDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1770,11 +1726,10 @@ namespace Quan_Ly_Khach_San
             this.CancelRequestBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelRequestBtn.ForeColor = System.Drawing.Color.White;
             this.CancelRequestBtn.HoverState.Parent = this.CancelRequestBtn;
-            this.CancelRequestBtn.Location = new System.Drawing.Point(1197, 620);
-            this.CancelRequestBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.CancelRequestBtn.Location = new System.Drawing.Point(898, 504);
             this.CancelRequestBtn.Name = "CancelRequestBtn";
             this.CancelRequestBtn.ShadowDecoration.Parent = this.CancelRequestBtn;
-            this.CancelRequestBtn.Size = new System.Drawing.Size(100, 55);
+            this.CancelRequestBtn.Size = new System.Drawing.Size(75, 45);
             this.CancelRequestBtn.TabIndex = 66;
             this.CancelRequestBtn.Text = "Clear";
             this.CancelRequestBtn.Click += new System.EventHandler(this.CancelRequestBtn_Click);
@@ -1793,11 +1748,10 @@ namespace Quan_Ly_Khach_San
             this.ConfirmRequestBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConfirmRequestBtn.ForeColor = System.Drawing.Color.White;
             this.ConfirmRequestBtn.HoverState.Parent = this.ConfirmRequestBtn;
-            this.ConfirmRequestBtn.Location = new System.Drawing.Point(1045, 620);
-            this.ConfirmRequestBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.ConfirmRequestBtn.Location = new System.Drawing.Point(784, 504);
             this.ConfirmRequestBtn.Name = "ConfirmRequestBtn";
             this.ConfirmRequestBtn.ShadowDecoration.Parent = this.ConfirmRequestBtn;
-            this.ConfirmRequestBtn.Size = new System.Drawing.Size(144, 55);
+            this.ConfirmRequestBtn.Size = new System.Drawing.Size(108, 45);
             this.ConfirmRequestBtn.TabIndex = 65;
             this.ConfirmRequestBtn.Text = "Paid";
             this.ConfirmRequestBtn.Click += new System.EventHandler(this.ConfirmRequestBtn_Click);
@@ -1840,15 +1794,14 @@ namespace Quan_Ly_Khach_San
             this.RequestImportDGV.DefaultCellStyle = dataGridViewCellStyle12;
             this.RequestImportDGV.EnableHeadersVisualStyles = false;
             this.RequestImportDGV.GridColor = System.Drawing.Color.White;
-            this.RequestImportDGV.Location = new System.Drawing.Point(7, 277);
-            this.RequestImportDGV.Margin = new System.Windows.Forms.Padding(4);
+            this.RequestImportDGV.Location = new System.Drawing.Point(5, 225);
             this.RequestImportDGV.Name = "RequestImportDGV";
             this.RequestImportDGV.ReadOnly = true;
             this.RequestImportDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.RequestImportDGV.RowHeadersVisible = false;
             this.RequestImportDGV.RowHeadersWidth = 51;
             this.RequestImportDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.RequestImportDGV.Size = new System.Drawing.Size(727, 398);
+            this.RequestImportDGV.Size = new System.Drawing.Size(545, 323);
             this.RequestImportDGV.TabIndex = 67;
             this.RequestImportDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.RequestImportDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1880,7 +1833,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn14.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
             this.dataGridViewTextBoxColumn14.ReadOnly = true;
-            this.dataGridViewTextBoxColumn14.Width = 50;
+            this.dataGridViewTextBoxColumn14.Width = 43;
             // 
             // Column42
             // 
@@ -1889,7 +1842,7 @@ namespace Quan_Ly_Khach_San
             this.Column42.MinimumWidth = 6;
             this.Column42.Name = "Column42";
             this.Column42.ReadOnly = true;
-            this.Column42.Width = 69;
+            this.Column42.Width = 57;
             // 
             // Column43
             // 
@@ -1898,7 +1851,7 @@ namespace Quan_Ly_Khach_San
             this.Column43.MinimumWidth = 6;
             this.Column43.Name = "Column43";
             this.Column43.ReadOnly = true;
-            this.Column43.Width = 77;
+            this.Column43.Width = 63;
             // 
             // Column44
             // 
@@ -1907,7 +1860,7 @@ namespace Quan_Ly_Khach_San
             this.Column44.MinimumWidth = 6;
             this.Column44.Name = "Column44";
             this.Column44.ReadOnly = true;
-            this.Column44.Width = 69;
+            this.Column44.Width = 57;
             // 
             // ListID
             // 
@@ -1916,7 +1869,7 @@ namespace Quan_Ly_Khach_San
             this.ListID.MinimumWidth = 6;
             this.ListID.Name = "ListID";
             this.ListID.ReadOnly = true;
-            this.ListID.Width = 62;
+            this.ListID.Width = 50;
             // 
             // Column45
             // 
@@ -1925,7 +1878,7 @@ namespace Quan_Ly_Khach_San
             this.Column45.MinimumWidth = 6;
             this.Column45.Name = "Column45";
             this.Column45.ReadOnly = true;
-            this.Column45.Width = 72;
+            this.Column45.Width = 59;
             // 
             // Column46
             // 
@@ -1935,7 +1888,7 @@ namespace Quan_Ly_Khach_San
             this.Column46.Name = "Column46";
             this.Column46.ReadOnly = true;
             this.Column46.Visible = false;
-            this.Column46.Width = 106;
+            this.Column46.Width = 85;
             // 
             // Column47
             // 
@@ -1944,7 +1897,7 @@ namespace Quan_Ly_Khach_San
             this.Column47.MinimumWidth = 6;
             this.Column47.Name = "Column47";
             this.Column47.ReadOnly = true;
-            this.Column47.Width = 81;
+            this.Column47.Width = 66;
             // 
             // Column48
             // 
@@ -1953,17 +1906,16 @@ namespace Quan_Ly_Khach_San
             this.Column48.MinimumWidth = 6;
             this.Column48.Name = "Column48";
             this.Column48.ReadOnly = true;
-            this.Column48.Width = 69;
+            this.Column48.Width = 57;
             // 
             // RoomTab
             // 
             this.RoomTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.RoomTab.Controls.Add(this.siticoneTabControl1);
             this.RoomTab.Location = new System.Drawing.Point(4, 44);
-            this.RoomTab.Margin = new System.Windows.Forms.Padding(4);
             this.RoomTab.Name = "RoomTab";
-            this.RoomTab.Padding = new System.Windows.Forms.Padding(4);
-            this.RoomTab.Size = new System.Drawing.Size(1325, 752);
+            this.RoomTab.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.RoomTab.Size = new System.Drawing.Size(992, 602);
             this.RoomTab.TabIndex = 0;
             this.RoomTab.Text = "DAILY REPORT";
             // 
@@ -1976,10 +1928,9 @@ namespace Quan_Ly_Khach_San
             this.siticoneTabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneTabControl1.ItemSize = new System.Drawing.Size(180, 40);
             this.siticoneTabControl1.Location = new System.Drawing.Point(0, 0);
-            this.siticoneTabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneTabControl1.Name = "siticoneTabControl1";
             this.siticoneTabControl1.SelectedIndex = 0;
-            this.siticoneTabControl1.Size = new System.Drawing.Size(1323, 741);
+            this.siticoneTabControl1.Size = new System.Drawing.Size(992, 602);
             this.siticoneTabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.siticoneTabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(34)))), ((int)(((byte)(55)))));
             this.siticoneTabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -2007,10 +1958,9 @@ namespace Quan_Ly_Khach_San
             this.tabPage1.Controls.Add(this.siticonePanel2);
             this.tabPage1.Controls.Add(this.DateReportPicker);
             this.tabPage1.Location = new System.Drawing.Point(4, 44);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1315, 693);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(984, 554);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "ALL";
             // 
@@ -2037,8 +1987,7 @@ namespace Quan_Ly_Khach_San
             chartArea1.BorderColor = System.Drawing.Color.White;
             chartArea1.Name = "ChartArea1";
             this.chart1.ChartAreas.Add(chartArea1);
-            this.chart1.Location = new System.Drawing.Point(581, 126);
-            this.chart1.Margin = new System.Windows.Forms.Padding(4);
+            this.chart1.Location = new System.Drawing.Point(436, 102);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
@@ -2050,7 +1999,7 @@ namespace Quan_Ly_Khach_San
             series2.Name = "Series2";
             this.chart1.Series.Add(series1);
             this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(723, 465);
+            this.chart1.Size = new System.Drawing.Size(542, 378);
             this.chart1.TabIndex = 54;
             this.chart1.Text = "chart1";
             // 
@@ -2101,11 +2050,10 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel2.Controls.Add(this.PrintBillBtn);
             this.siticonePanel2.Controls.Add(this.CollectRoom);
             this.siticonePanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel2.Location = new System.Drawing.Point(5, 4);
-            this.siticonePanel2.Margin = new System.Windows.Forms.Padding(4);
+            this.siticonePanel2.Location = new System.Drawing.Point(4, 3);
             this.siticonePanel2.Name = "siticonePanel2";
             this.siticonePanel2.ShadowDecoration.Parent = this.siticonePanel2;
-            this.siticonePanel2.Size = new System.Drawing.Size(568, 674);
+            this.siticonePanel2.Size = new System.Drawing.Size(426, 548);
             this.siticonePanel2.TabIndex = 53;
             // 
             // label22
@@ -2113,10 +2061,9 @@ namespace Quan_Ly_Khach_San
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label22.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.label22.Location = new System.Drawing.Point(371, 347);
-            this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label22.Location = new System.Drawing.Point(278, 282);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(62, 20);
+            this.label22.Size = new System.Drawing.Size(51, 16);
             this.label22.TabIndex = 128;
             this.label22.Text = "Collect";
             // 
@@ -2125,10 +2072,9 @@ namespace Quan_Ly_Khach_San
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(524, 385);
-            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label23.Location = new System.Drawing.Point(393, 313);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(38, 20);
+            this.label23.Size = new System.Drawing.Size(29, 16);
             this.label23.TabIndex = 127;
             this.label23.Text = "USD";
             // 
@@ -2152,8 +2098,7 @@ namespace Quan_Ly_Khach_San
             this.totalFood.ForeColor = System.Drawing.Color.White;
             this.totalFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalFood.HoverState.Parent = this.totalFood;
-            this.totalFood.Location = new System.Drawing.Point(375, 370);
-            this.totalFood.Margin = new System.Windows.Forms.Padding(4);
+            this.totalFood.Location = new System.Drawing.Point(281, 301);
             this.totalFood.Name = "totalFood";
             this.totalFood.PasswordChar = '\0';
             this.totalFood.PlaceholderText = "";
@@ -2161,7 +2106,7 @@ namespace Quan_Ly_Khach_San
             this.totalFood.SelectedText = "";
             this.totalFood.SelectionStart = 5;
             this.totalFood.ShadowDecoration.Parent = this.totalFood;
-            this.totalFood.Size = new System.Drawing.Size(149, 50);
+            this.totalFood.Size = new System.Drawing.Size(112, 41);
             this.totalFood.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.totalFood.TabIndex = 126;
             this.totalFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2171,10 +2116,9 @@ namespace Quan_Ly_Khach_San
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label20.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.label20.Location = new System.Drawing.Point(371, 218);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Location = new System.Drawing.Point(278, 177);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(62, 20);
+            this.label20.Size = new System.Drawing.Size(51, 16);
             this.label20.TabIndex = 125;
             this.label20.Text = "Collect";
             // 
@@ -2183,10 +2127,9 @@ namespace Quan_Ly_Khach_San
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Location = new System.Drawing.Point(524, 256);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Location = new System.Drawing.Point(393, 208);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(38, 20);
+            this.label21.Size = new System.Drawing.Size(29, 16);
             this.label21.TabIndex = 124;
             this.label21.Text = "USD";
             // 
@@ -2210,8 +2153,7 @@ namespace Quan_Ly_Khach_San
             this.totalService.ForeColor = System.Drawing.Color.White;
             this.totalService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalService.HoverState.Parent = this.totalService;
-            this.totalService.Location = new System.Drawing.Point(375, 241);
-            this.totalService.Margin = new System.Windows.Forms.Padding(4);
+            this.totalService.Location = new System.Drawing.Point(281, 196);
             this.totalService.Name = "totalService";
             this.totalService.PasswordChar = '\0';
             this.totalService.PlaceholderText = "";
@@ -2219,7 +2161,7 @@ namespace Quan_Ly_Khach_San
             this.totalService.SelectedText = "";
             this.totalService.SelectionStart = 5;
             this.totalService.ShadowDecoration.Parent = this.totalService;
-            this.totalService.Size = new System.Drawing.Size(149, 50);
+            this.totalService.Size = new System.Drawing.Size(112, 41);
             this.totalService.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.totalService.TabIndex = 123;
             this.totalService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2229,10 +2171,9 @@ namespace Quan_Ly_Khach_San
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label18.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.label18.Location = new System.Drawing.Point(371, 84);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Location = new System.Drawing.Point(278, 68);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(62, 20);
+            this.label18.Size = new System.Drawing.Size(51, 16);
             this.label18.TabIndex = 122;
             this.label18.Text = "Collect";
             // 
@@ -2241,10 +2182,9 @@ namespace Quan_Ly_Khach_San
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(524, 122);
-            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label19.Location = new System.Drawing.Point(393, 99);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(38, 20);
+            this.label19.Size = new System.Drawing.Size(29, 16);
             this.label19.TabIndex = 121;
             this.label19.Text = "USD";
             // 
@@ -2268,8 +2208,7 @@ namespace Quan_Ly_Khach_San
             this.totalRoom.ForeColor = System.Drawing.Color.White;
             this.totalRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalRoom.HoverState.Parent = this.totalRoom;
-            this.totalRoom.Location = new System.Drawing.Point(375, 107);
-            this.totalRoom.Margin = new System.Windows.Forms.Padding(4);
+            this.totalRoom.Location = new System.Drawing.Point(281, 87);
             this.totalRoom.Name = "totalRoom";
             this.totalRoom.PasswordChar = '\0';
             this.totalRoom.PlaceholderText = "";
@@ -2277,7 +2216,7 @@ namespace Quan_Ly_Khach_San
             this.totalRoom.SelectedText = "";
             this.totalRoom.SelectionStart = 5;
             this.totalRoom.ShadowDecoration.Parent = this.totalRoom;
-            this.totalRoom.Size = new System.Drawing.Size(149, 50);
+            this.totalRoom.Size = new System.Drawing.Size(112, 41);
             this.totalRoom.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.totalRoom.TabIndex = 120;
             this.totalRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2287,10 +2226,9 @@ namespace Quan_Ly_Khach_San
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label59.ForeColor = System.Drawing.Color.Yellow;
-            this.label59.Location = new System.Drawing.Point(17, 313);
-            this.label59.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label59.Location = new System.Drawing.Point(13, 254);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(47, 20);
+            this.label59.Size = new System.Drawing.Size(38, 16);
             this.label59.TabIndex = 119;
             this.label59.Text = "Food";
             // 
@@ -2299,10 +2237,9 @@ namespace Quan_Ly_Khach_San
             this.label58.AutoSize = true;
             this.label58.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label58.Location = new System.Drawing.Point(17, 197);
-            this.label58.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label58.Location = new System.Drawing.Point(13, 160);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(63, 20);
+            this.label58.Size = new System.Drawing.Size(51, 16);
             this.label58.TabIndex = 118;
             this.label58.Text = "Service";
             // 
@@ -2311,10 +2248,9 @@ namespace Quan_Ly_Khach_San
             this.label57.AutoSize = true;
             this.label57.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label57.ForeColor = System.Drawing.Color.Tomato;
-            this.label57.Location = new System.Drawing.Point(17, 63);
-            this.label57.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label57.Location = new System.Drawing.Point(13, 51);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(53, 20);
+            this.label57.Size = new System.Drawing.Size(43, 16);
             this.label57.TabIndex = 117;
             this.label57.Text = "Room";
             // 
@@ -2323,10 +2259,9 @@ namespace Quan_Ly_Khach_San
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label55.ForeColor = System.Drawing.Color.White;
-            this.label55.Location = new System.Drawing.Point(19, 612);
-            this.label55.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label55.Location = new System.Drawing.Point(14, 497);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(58, 20);
+            this.label55.Size = new System.Drawing.Size(48, 16);
             this.label55.TabIndex = 116;
             this.label55.Text = "Return";
             // 
@@ -2335,10 +2270,9 @@ namespace Quan_Ly_Khach_San
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label56.ForeColor = System.Drawing.Color.White;
-            this.label56.Location = new System.Drawing.Point(15, 513);
-            this.label56.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label56.Location = new System.Drawing.Point(11, 417);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(67, 20);
+            this.label56.Size = new System.Drawing.Size(54, 16);
             this.label56.TabIndex = 115;
             this.label56.Text = "Receive";
             // 
@@ -2347,10 +2281,9 @@ namespace Quan_Ly_Khach_San
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label53.ForeColor = System.Drawing.Color.Gold;
-            this.label53.Location = new System.Drawing.Point(55, 401);
-            this.label53.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label53.Location = new System.Drawing.Point(41, 326);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(58, 20);
+            this.label53.Size = new System.Drawing.Size(48, 16);
             this.label53.TabIndex = 114;
             this.label53.Text = "Return";
             // 
@@ -2359,10 +2292,9 @@ namespace Quan_Ly_Khach_San
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label54.ForeColor = System.Drawing.Color.White;
-            this.label54.Location = new System.Drawing.Point(55, 341);
-            this.label54.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label54.Location = new System.Drawing.Point(41, 277);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(67, 20);
+            this.label54.Size = new System.Drawing.Size(54, 16);
             this.label54.TabIndex = 113;
             this.label54.Text = "Receive";
             // 
@@ -2371,10 +2303,9 @@ namespace Quan_Ly_Khach_San
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label51.ForeColor = System.Drawing.Color.Gold;
-            this.label51.Location = new System.Drawing.Point(55, 274);
-            this.label51.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label51.Location = new System.Drawing.Point(41, 223);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(58, 20);
+            this.label51.Size = new System.Drawing.Size(48, 16);
             this.label51.TabIndex = 112;
             this.label51.Text = "Return";
             // 
@@ -2383,10 +2314,9 @@ namespace Quan_Ly_Khach_San
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label52.ForeColor = System.Drawing.Color.White;
-            this.label52.Location = new System.Drawing.Point(55, 217);
-            this.label52.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label52.Location = new System.Drawing.Point(41, 176);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(67, 20);
+            this.label52.Size = new System.Drawing.Size(54, 16);
             this.label52.TabIndex = 111;
             this.label52.Text = "Receive";
             // 
@@ -2395,10 +2325,9 @@ namespace Quan_Ly_Khach_San
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label50.ForeColor = System.Drawing.Color.Gold;
-            this.label50.Location = new System.Drawing.Point(55, 142);
-            this.label50.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label50.Location = new System.Drawing.Point(41, 115);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(58, 20);
+            this.label50.Size = new System.Drawing.Size(48, 16);
             this.label50.TabIndex = 110;
             this.label50.Text = "Return";
             // 
@@ -2407,10 +2336,9 @@ namespace Quan_Ly_Khach_San
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label49.ForeColor = System.Drawing.Color.White;
-            this.label49.Location = new System.Drawing.Point(55, 84);
-            this.label49.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label49.Location = new System.Drawing.Point(41, 68);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(67, 20);
+            this.label49.Size = new System.Drawing.Size(54, 16);
             this.label49.TabIndex = 109;
             this.label49.Text = "Receive";
             // 
@@ -2419,10 +2347,9 @@ namespace Quan_Ly_Khach_San
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label48.ForeColor = System.Drawing.Color.White;
-            this.label48.Location = new System.Drawing.Point(247, 438);
-            this.label48.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label48.Location = new System.Drawing.Point(185, 356);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(61, 25);
+            this.label48.Size = new System.Drawing.Size(49, 20);
             this.label48.TabIndex = 108;
             this.label48.Text = "Total";
             // 
@@ -2431,10 +2358,9 @@ namespace Quan_Ly_Khach_San
             this.label47.AutoSize = true;
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label47.ForeColor = System.Drawing.Color.White;
-            this.label47.Location = new System.Drawing.Point(220, 7);
-            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label47.Location = new System.Drawing.Point(165, 6);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(119, 25);
+            this.label47.Size = new System.Drawing.Size(101, 20);
             this.label47.TabIndex = 107;
             this.label47.Text = "Information";
             // 
@@ -2443,10 +2369,9 @@ namespace Quan_Ly_Khach_San
             this.label46.AutoSize = true;
             this.label46.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label46.ForeColor = System.Drawing.Color.White;
-            this.label46.Location = new System.Drawing.Point(248, 612);
-            this.label46.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label46.Location = new System.Drawing.Point(186, 497);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(38, 20);
+            this.label46.Size = new System.Drawing.Size(29, 16);
             this.label46.TabIndex = 106;
             this.label46.Text = "USD";
             // 
@@ -2455,10 +2380,9 @@ namespace Quan_Ly_Khach_San
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label45.ForeColor = System.Drawing.Color.White;
-            this.label45.Location = new System.Drawing.Point(248, 516);
-            this.label45.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label45.Location = new System.Drawing.Point(186, 419);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(38, 20);
+            this.label45.Size = new System.Drawing.Size(29, 16);
             this.label45.TabIndex = 105;
             this.label45.Text = "USD";
             // 
@@ -2467,10 +2391,9 @@ namespace Quan_Ly_Khach_San
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(300, 401);
-            this.label44.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label44.Location = new System.Drawing.Point(225, 326);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(38, 20);
+            this.label44.Size = new System.Drawing.Size(29, 16);
             this.label44.TabIndex = 104;
             this.label44.Text = "USD";
             // 
@@ -2479,10 +2402,9 @@ namespace Quan_Ly_Khach_San
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(300, 341);
-            this.label43.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label43.Location = new System.Drawing.Point(225, 277);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(38, 20);
+            this.label43.Size = new System.Drawing.Size(29, 16);
             this.label43.TabIndex = 103;
             this.label43.Text = "USD";
             // 
@@ -2491,10 +2413,9 @@ namespace Quan_Ly_Khach_San
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(300, 272);
-            this.label42.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label42.Location = new System.Drawing.Point(225, 221);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(38, 20);
+            this.label42.Size = new System.Drawing.Size(29, 16);
             this.label42.TabIndex = 102;
             this.label42.Text = "USD";
             // 
@@ -2503,10 +2424,9 @@ namespace Quan_Ly_Khach_San
             this.label41.AutoSize = true;
             this.label41.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(300, 217);
-            this.label41.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label41.Location = new System.Drawing.Point(225, 176);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(38, 20);
+            this.label41.Size = new System.Drawing.Size(29, 16);
             this.label41.TabIndex = 101;
             this.label41.Text = "USD";
             // 
@@ -2515,10 +2435,9 @@ namespace Quan_Ly_Khach_San
             this.label40.AutoSize = true;
             this.label40.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(300, 142);
-            this.label40.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label40.Location = new System.Drawing.Point(225, 115);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(38, 20);
+            this.label40.Size = new System.Drawing.Size(29, 16);
             this.label40.TabIndex = 100;
             this.label40.Text = "USD";
             // 
@@ -2527,10 +2446,9 @@ namespace Quan_Ly_Khach_San
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label39.ForeColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(300, 84);
-            this.label39.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label39.Location = new System.Drawing.Point(225, 68);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(38, 20);
+            this.label39.Size = new System.Drawing.Size(29, 16);
             this.label39.TabIndex = 99;
             this.label39.Text = "USD";
             // 
@@ -2552,14 +2470,13 @@ namespace Quan_Ly_Khach_San
             this.Totaltotal.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.Totaltotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Totaltotal.HoverState.Parent = this.Totaltotal;
-            this.Totaltotal.Location = new System.Drawing.Point(332, 513);
-            this.Totaltotal.Margin = new System.Windows.Forms.Padding(4);
+            this.Totaltotal.Location = new System.Drawing.Point(249, 417);
             this.Totaltotal.Name = "Totaltotal";
             this.Totaltotal.PasswordChar = '\0';
             this.Totaltotal.PlaceholderText = "";
             this.Totaltotal.SelectedText = "";
             this.Totaltotal.ShadowDecoration.Parent = this.Totaltotal;
-            this.Totaltotal.Size = new System.Drawing.Size(219, 44);
+            this.Totaltotal.Size = new System.Drawing.Size(164, 36);
             this.Totaltotal.TabIndex = 98;
             // 
             // TotalPay
@@ -2582,8 +2499,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPay.ForeColor = System.Drawing.Color.White;
             this.TotalPay.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalPay.HoverState.Parent = this.TotalPay;
-            this.TotalPay.Location = new System.Drawing.Point(91, 581);
-            this.TotalPay.Margin = new System.Windows.Forms.Padding(4);
+            this.TotalPay.Location = new System.Drawing.Point(68, 472);
             this.TotalPay.Name = "TotalPay";
             this.TotalPay.PasswordChar = '\0';
             this.TotalPay.PlaceholderText = "";
@@ -2591,7 +2507,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPay.SelectedText = "";
             this.TotalPay.SelectionStart = 5;
             this.TotalPay.ShadowDecoration.Parent = this.TotalPay;
-            this.TotalPay.Size = new System.Drawing.Size(149, 50);
+            this.TotalPay.Size = new System.Drawing.Size(112, 41);
             this.TotalPay.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.TotalPay.TabIndex = 95;
             this.TotalPay.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2616,8 +2532,7 @@ namespace Quan_Ly_Khach_San
             this.TotalCollect.ForeColor = System.Drawing.Color.White;
             this.TotalCollect.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalCollect.HoverState.Parent = this.TotalCollect;
-            this.TotalCollect.Location = new System.Drawing.Point(91, 487);
-            this.TotalCollect.Margin = new System.Windows.Forms.Padding(4);
+            this.TotalCollect.Location = new System.Drawing.Point(68, 396);
             this.TotalCollect.Name = "TotalCollect";
             this.TotalCollect.PasswordChar = '\0';
             this.TotalCollect.PlaceholderText = "";
@@ -2625,7 +2540,7 @@ namespace Quan_Ly_Khach_San
             this.TotalCollect.SelectedText = "";
             this.TotalCollect.SelectionStart = 5;
             this.TotalCollect.ShadowDecoration.Parent = this.TotalCollect;
-            this.TotalCollect.Size = new System.Drawing.Size(149, 50);
+            this.TotalCollect.Size = new System.Drawing.Size(112, 41);
             this.TotalCollect.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.TotalCollect.TabIndex = 92;
             this.TotalCollect.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2650,8 +2565,7 @@ namespace Quan_Ly_Khach_San
             this.PayFood.ForeColor = System.Drawing.Color.White;
             this.PayFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayFood.HoverState.Parent = this.PayFood;
-            this.PayFood.Location = new System.Drawing.Point(143, 370);
-            this.PayFood.Margin = new System.Windows.Forms.Padding(4);
+            this.PayFood.Location = new System.Drawing.Point(107, 301);
             this.PayFood.Name = "PayFood";
             this.PayFood.PasswordChar = '\0';
             this.PayFood.PlaceholderText = "";
@@ -2659,7 +2573,7 @@ namespace Quan_Ly_Khach_San
             this.PayFood.SelectedText = "";
             this.PayFood.SelectionStart = 5;
             this.PayFood.ShadowDecoration.Parent = this.PayFood;
-            this.PayFood.Size = new System.Drawing.Size(149, 50);
+            this.PayFood.Size = new System.Drawing.Size(112, 41);
             this.PayFood.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.PayFood.TabIndex = 88;
             this.PayFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2684,8 +2598,7 @@ namespace Quan_Ly_Khach_San
             this.CollectFood.ForeColor = System.Drawing.Color.White;
             this.CollectFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectFood.HoverState.Parent = this.CollectFood;
-            this.CollectFood.Location = new System.Drawing.Point(143, 313);
-            this.CollectFood.Margin = new System.Windows.Forms.Padding(4);
+            this.CollectFood.Location = new System.Drawing.Point(107, 254);
             this.CollectFood.Name = "CollectFood";
             this.CollectFood.PasswordChar = '\0';
             this.CollectFood.PlaceholderText = "";
@@ -2693,7 +2606,7 @@ namespace Quan_Ly_Khach_San
             this.CollectFood.SelectedText = "";
             this.CollectFood.SelectionStart = 5;
             this.CollectFood.ShadowDecoration.Parent = this.CollectFood;
-            this.CollectFood.Size = new System.Drawing.Size(149, 50);
+            this.CollectFood.Size = new System.Drawing.Size(112, 41);
             this.CollectFood.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.CollectFood.TabIndex = 85;
             this.CollectFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2718,8 +2631,7 @@ namespace Quan_Ly_Khach_San
             this.PayService.ForeColor = System.Drawing.Color.White;
             this.PayService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayService.HoverState.Parent = this.PayService;
-            this.PayService.Location = new System.Drawing.Point(143, 244);
-            this.PayService.Margin = new System.Windows.Forms.Padding(4);
+            this.PayService.Location = new System.Drawing.Point(107, 198);
             this.PayService.Name = "PayService";
             this.PayService.PasswordChar = '\0';
             this.PayService.PlaceholderText = "";
@@ -2727,7 +2639,7 @@ namespace Quan_Ly_Khach_San
             this.PayService.SelectedText = "";
             this.PayService.SelectionStart = 5;
             this.PayService.ShadowDecoration.Parent = this.PayService;
-            this.PayService.Size = new System.Drawing.Size(149, 50);
+            this.PayService.Size = new System.Drawing.Size(112, 41);
             this.PayService.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.PayService.TabIndex = 81;
             this.PayService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2752,8 +2664,7 @@ namespace Quan_Ly_Khach_San
             this.CollectService.ForeColor = System.Drawing.Color.White;
             this.CollectService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectService.HoverState.Parent = this.CollectService;
-            this.CollectService.Location = new System.Drawing.Point(143, 186);
-            this.CollectService.Margin = new System.Windows.Forms.Padding(4);
+            this.CollectService.Location = new System.Drawing.Point(107, 151);
             this.CollectService.Name = "CollectService";
             this.CollectService.PasswordChar = '\0';
             this.CollectService.PlaceholderText = "";
@@ -2761,7 +2672,7 @@ namespace Quan_Ly_Khach_San
             this.CollectService.SelectedText = "";
             this.CollectService.SelectionStart = 5;
             this.CollectService.ShadowDecoration.Parent = this.CollectService;
-            this.CollectService.Size = new System.Drawing.Size(149, 50);
+            this.CollectService.Size = new System.Drawing.Size(112, 41);
             this.CollectService.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.CollectService.TabIndex = 78;
             this.CollectService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2786,8 +2697,7 @@ namespace Quan_Ly_Khach_San
             this.PayRoom.ForeColor = System.Drawing.Color.White;
             this.PayRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayRoom.HoverState.Parent = this.PayRoom;
-            this.PayRoom.Location = new System.Drawing.Point(143, 111);
-            this.PayRoom.Margin = new System.Windows.Forms.Padding(4);
+            this.PayRoom.Location = new System.Drawing.Point(107, 90);
             this.PayRoom.Name = "PayRoom";
             this.PayRoom.PasswordChar = '\0';
             this.PayRoom.PlaceholderText = "";
@@ -2795,7 +2705,7 @@ namespace Quan_Ly_Khach_San
             this.PayRoom.SelectedText = "";
             this.PayRoom.SelectionStart = 5;
             this.PayRoom.ShadowDecoration.Parent = this.PayRoom;
-            this.PayRoom.Size = new System.Drawing.Size(149, 50);
+            this.PayRoom.Size = new System.Drawing.Size(112, 41);
             this.PayRoom.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.PayRoom.TabIndex = 74;
             this.PayRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2816,11 +2726,10 @@ namespace Quan_Ly_Khach_San
             this.PrintBillBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PrintBillBtn.ForeColor = System.Drawing.Color.Black;
             this.PrintBillBtn.HoverState.Parent = this.PrintBillBtn;
-            this.PrintBillBtn.Location = new System.Drawing.Point(332, 594);
-            this.PrintBillBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.PrintBillBtn.Location = new System.Drawing.Point(249, 483);
             this.PrintBillBtn.Name = "PrintBillBtn";
             this.PrintBillBtn.ShadowDecoration.Parent = this.PrintBillBtn;
-            this.PrintBillBtn.Size = new System.Drawing.Size(219, 58);
+            this.PrintBillBtn.Size = new System.Drawing.Size(164, 47);
             this.PrintBillBtn.TabIndex = 25;
             this.PrintBillBtn.Text = "Print Bill";
             // 
@@ -2844,8 +2753,7 @@ namespace Quan_Ly_Khach_San
             this.CollectRoom.ForeColor = System.Drawing.Color.White;
             this.CollectRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectRoom.HoverState.Parent = this.CollectRoom;
-            this.CollectRoom.Location = new System.Drawing.Point(143, 53);
-            this.CollectRoom.Margin = new System.Windows.Forms.Padding(4);
+            this.CollectRoom.Location = new System.Drawing.Point(107, 43);
             this.CollectRoom.Name = "CollectRoom";
             this.CollectRoom.PasswordChar = '\0';
             this.CollectRoom.PlaceholderText = "";
@@ -2853,7 +2761,7 @@ namespace Quan_Ly_Khach_San
             this.CollectRoom.SelectedText = "";
             this.CollectRoom.SelectionStart = 5;
             this.CollectRoom.ShadowDecoration.Parent = this.CollectRoom;
-            this.CollectRoom.Size = new System.Drawing.Size(149, 50);
+            this.CollectRoom.Size = new System.Drawing.Size(112, 41);
             this.CollectRoom.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.CollectRoom.TabIndex = 68;
             this.CollectRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2869,13 +2777,12 @@ namespace Quan_Ly_Khach_San
             this.DateReportPicker.ForeColor = System.Drawing.Color.White;
             this.DateReportPicker.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.DateReportPicker.HoverState.Parent = this.DateReportPicker;
-            this.DateReportPicker.Location = new System.Drawing.Point(863, 11);
-            this.DateReportPicker.Margin = new System.Windows.Forms.Padding(4);
+            this.DateReportPicker.Location = new System.Drawing.Point(647, 9);
             this.DateReportPicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DateReportPicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DateReportPicker.Name = "DateReportPicker";
             this.DateReportPicker.ShadowDecoration.Parent = this.DateReportPicker;
-            this.DateReportPicker.Size = new System.Drawing.Size(441, 47);
+            this.DateReportPicker.Size = new System.Drawing.Size(331, 38);
             this.DateReportPicker.TabIndex = 49;
             this.DateReportPicker.Value = new System.DateTime(2021, 12, 5, 0, 0, 0, 0);
             this.DateReportPicker.ValueChanged += new System.EventHandler(this.DateReportPicker_ValueChanged);
@@ -2891,28 +2798,26 @@ namespace Quan_Ly_Khach_San
             this.tabPage2.Controls.Add(this.siticonePanel1);
             this.tabPage2.Controls.Add(this.PrintBillServiceBtn);
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage2.Size = new System.Drawing.Size(1315, 693);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Size = new System.Drawing.Size(984, 554);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ROOM";
             // 
             // RoomDailyDateDTP
             // 
             this.RoomDailyDateDTP.Animated = true;
-            this.RoomDailyDateDTP.BorderRadius = 21;
+            this.RoomDailyDateDTP.BorderRadius = 17;
             this.RoomDailyDateDTP.CheckedState.Parent = this.RoomDailyDateDTP;
             this.RoomDailyDateDTP.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.RoomDailyDateDTP.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.RoomDailyDateDTP.HoverState.Parent = this.RoomDailyDateDTP;
-            this.RoomDailyDateDTP.Location = new System.Drawing.Point(8, 46);
-            this.RoomDailyDateDTP.Margin = new System.Windows.Forms.Padding(4);
+            this.RoomDailyDateDTP.Location = new System.Drawing.Point(6, 37);
             this.RoomDailyDateDTP.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.RoomDailyDateDTP.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.RoomDailyDateDTP.Name = "RoomDailyDateDTP";
             this.RoomDailyDateDTP.ShadowDecoration.Parent = this.RoomDailyDateDTP;
-            this.RoomDailyDateDTP.Size = new System.Drawing.Size(425, 44);
+            this.RoomDailyDateDTP.Size = new System.Drawing.Size(319, 36);
             this.RoomDailyDateDTP.TabIndex = 98;
             this.RoomDailyDateDTP.Value = new System.DateTime(2021, 12, 5, 0, 0, 0, 0);
             this.RoomDailyDateDTP.ValueChanged += new System.EventHandler(this.siticoneRoundedDateTimePicker1_ValueChanged);
@@ -2922,10 +2827,9 @@ namespace Quan_Ly_Khach_San
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(8, 138);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(6, 112);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 25);
+            this.label1.Size = new System.Drawing.Size(110, 20);
             this.label1.TabIndex = 97;
             this.label1.Text = "Customer ID";
             // 
@@ -2945,14 +2849,14 @@ namespace Quan_Ly_Khach_San
             this.customerIDTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.customerIDTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.customerIDTxb.HoverState.Parent = this.customerIDTxb;
-            this.customerIDTxb.Location = new System.Drawing.Point(8, 176);
-            this.customerIDTxb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.customerIDTxb.Location = new System.Drawing.Point(6, 143);
+            this.customerIDTxb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.customerIDTxb.Name = "customerIDTxb";
             this.customerIDTxb.PasswordChar = '\0';
             this.customerIDTxb.PlaceholderText = "";
             this.customerIDTxb.SelectedText = "";
             this.customerIDTxb.ShadowDecoration.Parent = this.customerIDTxb;
-            this.customerIDTxb.Size = new System.Drawing.Size(427, 43);
+            this.customerIDTxb.Size = new System.Drawing.Size(320, 35);
             this.customerIDTxb.TabIndex = 57;
             this.customerIDTxb.TextChanged += new System.EventHandler(this.customerIDTxb_TextChanged);
             // 
@@ -2971,11 +2875,10 @@ namespace Quan_Ly_Khach_San
             this.SearchServiceBtn.HoverState.Parent = this.SearchServiceBtn;
             this.SearchServiceBtn.Image = ((System.Drawing.Image)(resources.GetObject("SearchServiceBtn.Image")));
             this.SearchServiceBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.SearchServiceBtn.Location = new System.Drawing.Point(441, 171);
-            this.SearchServiceBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.SearchServiceBtn.Location = new System.Drawing.Point(331, 139);
             this.SearchServiceBtn.Name = "SearchServiceBtn";
             this.SearchServiceBtn.ShadowDecoration.Parent = this.SearchServiceBtn;
-            this.SearchServiceBtn.Size = new System.Drawing.Size(47, 48);
+            this.SearchServiceBtn.Size = new System.Drawing.Size(35, 39);
             this.SearchServiceBtn.TabIndex = 56;
             // 
             // BillRoomDgv
@@ -3022,15 +2925,14 @@ namespace Quan_Ly_Khach_San
             this.BillRoomDgv.DefaultCellStyle = dataGridViewCellStyle15;
             this.BillRoomDgv.EnableHeadersVisualStyles = false;
             this.BillRoomDgv.GridColor = System.Drawing.Color.White;
-            this.BillRoomDgv.Location = new System.Drawing.Point(520, 18);
-            this.BillRoomDgv.Margin = new System.Windows.Forms.Padding(4);
+            this.BillRoomDgv.Location = new System.Drawing.Point(390, 15);
             this.BillRoomDgv.Name = "BillRoomDgv";
             this.BillRoomDgv.ReadOnly = true;
             this.BillRoomDgv.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.BillRoomDgv.RowHeadersVisible = false;
             this.BillRoomDgv.RowHeadersWidth = 51;
             this.BillRoomDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.BillRoomDgv.Size = new System.Drawing.Size(784, 652);
+            this.BillRoomDgv.Size = new System.Drawing.Size(588, 530);
             this.BillRoomDgv.TabIndex = 54;
             this.BillRoomDgv.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.BillRoomDgv.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -3062,7 +2964,7 @@ namespace Quan_Ly_Khach_San
             this.mahoadon.MinimumWidth = 6;
             this.mahoadon.Name = "mahoadon";
             this.mahoadon.ReadOnly = true;
-            this.mahoadon.Width = 99;
+            this.mahoadon.Width = 80;
             // 
             // checkin
             // 
@@ -3071,7 +2973,7 @@ namespace Quan_Ly_Khach_San
             this.checkin.MinimumWidth = 6;
             this.checkin.Name = "checkin";
             this.checkin.ReadOnly = true;
-            this.checkin.Width = 89;
+            this.checkin.Width = 75;
             // 
             // checkout
             // 
@@ -3080,7 +2982,7 @@ namespace Quan_Ly_Khach_San
             this.checkout.MinimumWidth = 6;
             this.checkout.Name = "checkout";
             this.checkout.ReadOnly = true;
-            this.checkout.Width = 101;
+            this.checkout.Width = 83;
             // 
             // manv
             // 
@@ -3089,7 +2991,7 @@ namespace Quan_Ly_Khach_San
             this.manv.MinimumWidth = 6;
             this.manv.Name = "manv";
             this.manv.ReadOnly = true;
-            this.manv.Width = 69;
+            this.manv.Width = 57;
             // 
             // makh
             // 
@@ -3098,7 +3000,7 @@ namespace Quan_Ly_Khach_San
             this.makh.MinimumWidth = 6;
             this.makh.Name = "makh";
             this.makh.ReadOnly = true;
-            this.makh.Width = 113;
+            this.makh.Width = 91;
             // 
             // phong
             // 
@@ -3107,7 +3009,7 @@ namespace Quan_Ly_Khach_San
             this.phong.MinimumWidth = 6;
             this.phong.Name = "phong";
             this.phong.ReadOnly = true;
-            this.phong.Width = 81;
+            this.phong.Width = 66;
             // 
             // songayo
             // 
@@ -3116,7 +3018,7 @@ namespace Quan_Ly_Khach_San
             this.songayo.MinimumWidth = 6;
             this.songayo.Name = "songayo";
             this.songayo.ReadOnly = true;
-            this.songayo.Width = 71;
+            this.songayo.Width = 58;
             // 
             // tong
             // 
@@ -3125,7 +3027,7 @@ namespace Quan_Ly_Khach_San
             this.tong.MinimumWidth = 6;
             this.tong.Name = "tong";
             this.tong.ReadOnly = true;
-            this.tong.Width = 72;
+            this.tong.Width = 59;
             // 
             // tiennhan
             // 
@@ -3134,7 +3036,7 @@ namespace Quan_Ly_Khach_San
             this.tiennhan.MinimumWidth = 6;
             this.tiennhan.Name = "tiennhan";
             this.tiennhan.ReadOnly = true;
-            this.tiennhan.Width = 93;
+            this.tiennhan.Width = 77;
             // 
             // tienthua
             // 
@@ -3143,7 +3045,7 @@ namespace Quan_Ly_Khach_San
             this.tienthua.MinimumWidth = 6;
             this.tienthua.Name = "tienthua";
             this.tienthua.ReadOnly = true;
-            this.tienthua.Width = 84;
+            this.tienthua.Width = 68;
             // 
             // marr
             // 
@@ -3152,7 +3054,7 @@ namespace Quan_Ly_Khach_San
             this.marr.MinimumWidth = 6;
             this.marr.Name = "marr";
             this.marr.ReadOnly = true;
-            this.marr.Width = 66;
+            this.marr.Width = 55;
             // 
             // tienhoan
             // 
@@ -3161,7 +3063,7 @@ namespace Quan_Ly_Khach_San
             this.tienhoan.MinimumWidth = 6;
             this.tienhoan.Name = "tienhoan";
             this.tienhoan.ReadOnly = true;
-            this.tienhoan.Width = 87;
+            this.tienhoan.Width = 71;
             // 
             // tinhtrang
             // 
@@ -3170,7 +3072,7 @@ namespace Quan_Ly_Khach_San
             this.tinhtrang.MinimumWidth = 6;
             this.tinhtrang.Name = "tinhtrang";
             this.tinhtrang.ReadOnly = true;
-            this.tinhtrang.Width = 81;
+            this.tinhtrang.Width = 66;
             // 
             // ghichu
             // 
@@ -3179,7 +3081,7 @@ namespace Quan_Ly_Khach_San
             this.ghichu.MinimumWidth = 6;
             this.ghichu.Name = "ghichu";
             this.ghichu.ReadOnly = true;
-            this.ghichu.Width = 77;
+            this.ghichu.Width = 63;
             // 
             // siticonePanel1
             // 
@@ -3201,11 +3103,10 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel1.Controls.Add(this.ReceiveTxb);
             this.siticonePanel1.Controls.Add(this.TotalPriceTxb);
             this.siticonePanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel1.Location = new System.Drawing.Point(8, 236);
-            this.siticonePanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.siticonePanel1.Location = new System.Drawing.Point(6, 192);
             this.siticonePanel1.Name = "siticonePanel1";
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
-            this.siticonePanel1.Size = new System.Drawing.Size(507, 363);
+            this.siticonePanel1.Size = new System.Drawing.Size(380, 295);
             this.siticonePanel1.TabIndex = 52;
             // 
             // label26
@@ -3213,10 +3114,9 @@ namespace Quan_Ly_Khach_San
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label26.ForeColor = System.Drawing.Color.White;
-            this.label26.Location = new System.Drawing.Point(359, 299);
-            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label26.Location = new System.Drawing.Point(269, 243);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(38, 20);
+            this.label26.Size = new System.Drawing.Size(29, 16);
             this.label26.TabIndex = 98;
             this.label26.Text = "USD";
             // 
@@ -3241,8 +3141,7 @@ namespace Quan_Ly_Khach_San
             this.RiskRefurnTxt.ForeColor = System.Drawing.Color.White;
             this.RiskRefurnTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.RiskRefurnTxt.HoverState.Parent = this.RiskRefurnTxt;
-            this.RiskRefurnTxt.Location = new System.Drawing.Point(164, 284);
-            this.RiskRefurnTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.RiskRefurnTxt.Location = new System.Drawing.Point(123, 231);
             this.RiskRefurnTxt.Name = "RiskRefurnTxt";
             this.RiskRefurnTxt.PasswordChar = '\0';
             this.RiskRefurnTxt.PlaceholderText = "";
@@ -3250,7 +3149,7 @@ namespace Quan_Ly_Khach_San
             this.RiskRefurnTxt.SelectedText = "";
             this.RiskRefurnTxt.SelectionStart = 3;
             this.RiskRefurnTxt.ShadowDecoration.Parent = this.RiskRefurnTxt;
-            this.RiskRefurnTxt.Size = new System.Drawing.Size(161, 50);
+            this.RiskRefurnTxt.Size = new System.Drawing.Size(121, 41);
             this.RiskRefurnTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.RiskRefurnTxt.TabIndex = 97;
             this.RiskRefurnTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3260,10 +3159,9 @@ namespace Quan_Ly_Khach_San
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label25.ForeColor = System.Drawing.Color.White;
-            this.label25.Location = new System.Drawing.Point(45, 299);
-            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label25.Location = new System.Drawing.Point(34, 243);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(89, 20);
+            this.label25.Size = new System.Drawing.Size(74, 16);
             this.label25.TabIndex = 96;
             this.label25.Text = "Risk refurn";
             // 
@@ -3272,10 +3170,9 @@ namespace Quan_Ly_Khach_San
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(359, 217);
-            this.label37.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label37.Location = new System.Drawing.Point(269, 176);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(38, 20);
+            this.label37.Size = new System.Drawing.Size(29, 16);
             this.label37.TabIndex = 95;
             this.label37.Text = "USD";
             // 
@@ -3284,10 +3181,9 @@ namespace Quan_Ly_Khach_San
             this.label36.AutoSize = true;
             this.label36.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(359, 133);
-            this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label36.Location = new System.Drawing.Point(269, 108);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(38, 20);
+            this.label36.Size = new System.Drawing.Size(29, 16);
             this.label36.TabIndex = 94;
             this.label36.Text = "USD";
             // 
@@ -3296,10 +3192,9 @@ namespace Quan_Ly_Khach_San
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(359, 52);
-            this.label35.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label35.Location = new System.Drawing.Point(269, 42);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(38, 20);
+            this.label35.Size = new System.Drawing.Size(29, 16);
             this.label35.TabIndex = 93;
             this.label35.Text = "USD";
             // 
@@ -3308,10 +3203,9 @@ namespace Quan_Ly_Khach_San
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(45, 217);
-            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label30.Location = new System.Drawing.Point(34, 176);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(58, 20);
+            this.label30.Size = new System.Drawing.Size(48, 16);
             this.label30.TabIndex = 91;
             this.label30.Text = "Return";
             // 
@@ -3320,10 +3214,9 @@ namespace Quan_Ly_Khach_San
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(45, 133);
-            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label29.Location = new System.Drawing.Point(34, 108);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(67, 20);
+            this.label29.Size = new System.Drawing.Size(54, 16);
             this.label29.TabIndex = 90;
             this.label29.Text = "Receive";
             // 
@@ -3332,22 +3225,20 @@ namespace Quan_Ly_Khach_San
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(45, 59);
-            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label28.Location = new System.Drawing.Point(34, 48);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(62, 20);
+            this.label28.Size = new System.Drawing.Size(39, 16);
             this.label28.TabIndex = 89;
-            this.label28.Text = "Collect";
+            this.label28.Text = "Total";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(195, 9);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(146, 7);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 25);
+            this.label2.Size = new System.Drawing.Size(101, 20);
             this.label2.TabIndex = 85;
             this.label2.Text = "Information";
             // 
@@ -3372,8 +3263,7 @@ namespace Quan_Ly_Khach_San
             this.ReturnTxb.ForeColor = System.Drawing.Color.White;
             this.ReturnTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReturnTxb.HoverState.Parent = this.ReturnTxb;
-            this.ReturnTxb.Location = new System.Drawing.Point(168, 204);
-            this.ReturnTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.ReturnTxb.Location = new System.Drawing.Point(126, 166);
             this.ReturnTxb.Name = "ReturnTxb";
             this.ReturnTxb.PasswordChar = '\0';
             this.ReturnTxb.PlaceholderText = "";
@@ -3381,7 +3271,7 @@ namespace Quan_Ly_Khach_San
             this.ReturnTxb.SelectedText = "";
             this.ReturnTxb.SelectionStart = 3;
             this.ReturnTxb.ShadowDecoration.Parent = this.ReturnTxb;
-            this.ReturnTxb.Size = new System.Drawing.Size(161, 50);
+            this.ReturnTxb.Size = new System.Drawing.Size(121, 41);
             this.ReturnTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ReturnTxb.TabIndex = 74;
             this.ReturnTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3407,8 +3297,7 @@ namespace Quan_Ly_Khach_San
             this.ReceiveTxb.ForeColor = System.Drawing.Color.White;
             this.ReceiveTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReceiveTxb.HoverState.Parent = this.ReceiveTxb;
-            this.ReceiveTxb.Location = new System.Drawing.Point(164, 117);
-            this.ReceiveTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.ReceiveTxb.Location = new System.Drawing.Point(123, 95);
             this.ReceiveTxb.Name = "ReceiveTxb";
             this.ReceiveTxb.PasswordChar = '\0';
             this.ReceiveTxb.PlaceholderText = "";
@@ -3416,7 +3305,7 @@ namespace Quan_Ly_Khach_San
             this.ReceiveTxb.SelectedText = "";
             this.ReceiveTxb.SelectionStart = 3;
             this.ReceiveTxb.ShadowDecoration.Parent = this.ReceiveTxb;
-            this.ReceiveTxb.Size = new System.Drawing.Size(161, 50);
+            this.ReceiveTxb.Size = new System.Drawing.Size(121, 41);
             this.ReceiveTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ReceiveTxb.TabIndex = 71;
             this.ReceiveTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3442,8 +3331,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceTxb.ForeColor = System.Drawing.Color.White;
             this.TotalPriceTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalPriceTxb.HoverState.Parent = this.TotalPriceTxb;
-            this.TotalPriceTxb.Location = new System.Drawing.Point(168, 38);
-            this.TotalPriceTxb.Margin = new System.Windows.Forms.Padding(4);
+            this.TotalPriceTxb.Location = new System.Drawing.Point(126, 31);
             this.TotalPriceTxb.Name = "TotalPriceTxb";
             this.TotalPriceTxb.PasswordChar = '\0';
             this.TotalPriceTxb.PlaceholderText = "";
@@ -3451,7 +3339,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceTxb.SelectedText = "";
             this.TotalPriceTxb.SelectionStart = 3;
             this.TotalPriceTxb.ShadowDecoration.Parent = this.TotalPriceTxb;
-            this.TotalPriceTxb.Size = new System.Drawing.Size(161, 50);
+            this.TotalPriceTxb.Size = new System.Drawing.Size(121, 41);
             this.TotalPriceTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.TotalPriceTxb.TabIndex = 68;
             this.TotalPriceTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3472,11 +3360,10 @@ namespace Quan_Ly_Khach_San
             this.PrintBillServiceBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PrintBillServiceBtn.ForeColor = System.Drawing.Color.Black;
             this.PrintBillServiceBtn.HoverState.Parent = this.PrintBillServiceBtn;
-            this.PrintBillServiceBtn.Location = new System.Drawing.Point(304, 607);
-            this.PrintBillServiceBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.PrintBillServiceBtn.Location = new System.Drawing.Point(228, 493);
             this.PrintBillServiceBtn.Name = "PrintBillServiceBtn";
             this.PrintBillServiceBtn.ShadowDecoration.Parent = this.PrintBillServiceBtn;
-            this.PrintBillServiceBtn.Size = new System.Drawing.Size(208, 58);
+            this.PrintBillServiceBtn.Size = new System.Drawing.Size(156, 47);
             this.PrintBillServiceBtn.TabIndex = 25;
             this.PrintBillServiceBtn.Text = "Print Bill";
             this.PrintBillServiceBtn.Click += new System.EventHandler(this.PrintBillServiceBtn_Click);
@@ -3493,28 +3380,26 @@ namespace Quan_Ly_Khach_San
             this.tabPage3.Controls.Add(this.siticoneGradientButton4);
             this.tabPage3.Controls.Add(this.SearchBtn);
             this.tabPage3.Location = new System.Drawing.Point(4, 44);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage3.Size = new System.Drawing.Size(1315, 693);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Size = new System.Drawing.Size(984, 554);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "FOOD";
             // 
             // FoodDateDailyDP
             // 
             this.FoodDateDailyDP.Animated = true;
-            this.FoodDateDailyDP.BorderRadius = 21;
+            this.FoodDateDailyDP.BorderRadius = 17;
             this.FoodDateDailyDP.CheckedState.Parent = this.FoodDateDailyDP;
             this.FoodDateDailyDP.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.FoodDateDailyDP.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.FoodDateDailyDP.HoverState.Parent = this.FoodDateDailyDP;
-            this.FoodDateDailyDP.Location = new System.Drawing.Point(8, 42);
-            this.FoodDateDailyDP.Margin = new System.Windows.Forms.Padding(4);
+            this.FoodDateDailyDP.Location = new System.Drawing.Point(6, 34);
             this.FoodDateDailyDP.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.FoodDateDailyDP.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.FoodDateDailyDP.Name = "FoodDateDailyDP";
             this.FoodDateDailyDP.ShadowDecoration.Parent = this.FoodDateDailyDP;
-            this.FoodDateDailyDP.Size = new System.Drawing.Size(425, 44);
+            this.FoodDateDailyDP.Size = new System.Drawing.Size(319, 36);
             this.FoodDateDailyDP.TabIndex = 105;
             this.FoodDateDailyDP.Value = new System.DateTime(2021, 12, 5, 0, 0, 0, 0);
             this.FoodDateDailyDP.ValueChanged += new System.EventHandler(this.FoodDateDailyDP_ValueChanged);
@@ -3524,10 +3409,9 @@ namespace Quan_Ly_Khach_San
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(8, 134);
-            this.label33.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label33.Location = new System.Drawing.Point(6, 109);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(132, 25);
+            this.label33.Size = new System.Drawing.Size(110, 20);
             this.label33.TabIndex = 104;
             this.label33.Text = "Customer ID";
             // 
@@ -3547,14 +3431,14 @@ namespace Quan_Ly_Khach_San
             this.FoodCustomerIDTxt.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.FoodCustomerIDTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodCustomerIDTxt.HoverState.Parent = this.FoodCustomerIDTxt;
-            this.FoodCustomerIDTxt.Location = new System.Drawing.Point(8, 172);
-            this.FoodCustomerIDTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FoodCustomerIDTxt.Location = new System.Drawing.Point(6, 140);
+            this.FoodCustomerIDTxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.FoodCustomerIDTxt.Name = "FoodCustomerIDTxt";
             this.FoodCustomerIDTxt.PasswordChar = '\0';
             this.FoodCustomerIDTxt.PlaceholderText = "";
             this.FoodCustomerIDTxt.SelectedText = "";
             this.FoodCustomerIDTxt.ShadowDecoration.Parent = this.FoodCustomerIDTxt;
-            this.FoodCustomerIDTxt.Size = new System.Drawing.Size(427, 43);
+            this.FoodCustomerIDTxt.Size = new System.Drawing.Size(320, 35);
             this.FoodCustomerIDTxt.TabIndex = 103;
             this.FoodCustomerIDTxt.TextChanged += new System.EventHandler(this.FoodCustomerIDTxt_TextChanged);
             // 
@@ -3573,11 +3457,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneButton3.HoverState.Parent = this.siticoneButton3;
             this.siticoneButton3.Image = ((System.Drawing.Image)(resources.GetObject("siticoneButton3.Image")));
             this.siticoneButton3.ImageSize = new System.Drawing.Size(35, 35);
-            this.siticoneButton3.Location = new System.Drawing.Point(441, 167);
-            this.siticoneButton3.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneButton3.Location = new System.Drawing.Point(331, 136);
             this.siticoneButton3.Name = "siticoneButton3";
             this.siticoneButton3.ShadowDecoration.Parent = this.siticoneButton3;
-            this.siticoneButton3.Size = new System.Drawing.Size(47, 48);
+            this.siticoneButton3.Size = new System.Drawing.Size(35, 39);
             this.siticoneButton3.TabIndex = 102;
             // 
             // FoodDGV
@@ -3622,15 +3505,14 @@ namespace Quan_Ly_Khach_San
             this.FoodDGV.DefaultCellStyle = dataGridViewCellStyle18;
             this.FoodDGV.EnableHeadersVisualStyles = false;
             this.FoodDGV.GridColor = System.Drawing.Color.White;
-            this.FoodDGV.Location = new System.Drawing.Point(520, 15);
-            this.FoodDGV.Margin = new System.Windows.Forms.Padding(4);
+            this.FoodDGV.Location = new System.Drawing.Point(390, 12);
             this.FoodDGV.Name = "FoodDGV";
             this.FoodDGV.ReadOnly = true;
             this.FoodDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.FoodDGV.RowHeadersVisible = false;
             this.FoodDGV.RowHeadersWidth = 51;
             this.FoodDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.FoodDGV.Size = new System.Drawing.Size(784, 652);
+            this.FoodDGV.Size = new System.Drawing.Size(588, 530);
             this.FoodDGV.TabIndex = 101;
             this.FoodDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.FoodDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -3661,7 +3543,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn33.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
             this.dataGridViewTextBoxColumn33.ReadOnly = true;
-            this.dataGridViewTextBoxColumn33.Width = 99;
+            this.dataGridViewTextBoxColumn33.Width = 80;
             // 
             // Column1
             // 
@@ -3670,7 +3552,7 @@ namespace Quan_Ly_Khach_San
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
-            this.Column1.Width = 69;
+            this.Column1.Width = 57;
             // 
             // dataGridViewTextBoxColumn36
             // 
@@ -3679,7 +3561,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
             this.dataGridViewTextBoxColumn36.ReadOnly = true;
-            this.dataGridViewTextBoxColumn36.Width = 69;
+            this.dataGridViewTextBoxColumn36.Width = 57;
             // 
             // dataGridViewTextBoxColumn37
             // 
@@ -3688,7 +3570,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn37.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
             this.dataGridViewTextBoxColumn37.ReadOnly = true;
-            this.dataGridViewTextBoxColumn37.Width = 113;
+            this.dataGridViewTextBoxColumn37.Width = 91;
             // 
             // dataGridViewTextBoxColumn39
             // 
@@ -3697,7 +3579,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
             this.dataGridViewTextBoxColumn39.ReadOnly = true;
-            this.dataGridViewTextBoxColumn39.Width = 101;
+            this.dataGridViewTextBoxColumn39.Width = 81;
             // 
             // dataGridViewTextBoxColumn40
             // 
@@ -3706,7 +3588,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
             this.dataGridViewTextBoxColumn40.ReadOnly = true;
-            this.dataGridViewTextBoxColumn40.Width = 72;
+            this.dataGridViewTextBoxColumn40.Width = 59;
             // 
             // dataGridViewTextBoxColumn41
             // 
@@ -3715,7 +3597,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn41.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
             this.dataGridViewTextBoxColumn41.ReadOnly = true;
-            this.dataGridViewTextBoxColumn41.Width = 93;
+            this.dataGridViewTextBoxColumn41.Width = 77;
             // 
             // dataGridViewTextBoxColumn42
             // 
@@ -3724,7 +3606,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn42.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
             this.dataGridViewTextBoxColumn42.ReadOnly = true;
-            this.dataGridViewTextBoxColumn42.Width = 84;
+            this.dataGridViewTextBoxColumn42.Width = 68;
             // 
             // dataGridViewTextBoxColumn43
             // 
@@ -3733,7 +3615,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn43.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
             this.dataGridViewTextBoxColumn43.ReadOnly = true;
-            this.dataGridViewTextBoxColumn43.Width = 66;
+            this.dataGridViewTextBoxColumn43.Width = 55;
             // 
             // dataGridViewTextBoxColumn44
             // 
@@ -3742,7 +3624,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn44.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
             this.dataGridViewTextBoxColumn44.ReadOnly = true;
-            this.dataGridViewTextBoxColumn44.Width = 87;
+            this.dataGridViewTextBoxColumn44.Width = 71;
             // 
             // dataGridViewTextBoxColumn45
             // 
@@ -3751,7 +3633,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn45.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
             this.dataGridViewTextBoxColumn45.ReadOnly = true;
-            this.dataGridViewTextBoxColumn45.Width = 81;
+            this.dataGridViewTextBoxColumn45.Width = 66;
             // 
             // dataGridViewTextBoxColumn46
             // 
@@ -3760,7 +3642,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn46.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
             this.dataGridViewTextBoxColumn46.ReadOnly = true;
-            this.dataGridViewTextBoxColumn46.Width = 77;
+            this.dataGridViewTextBoxColumn46.Width = 63;
             // 
             // siticonePanel6
             // 
@@ -3782,11 +3664,10 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel6.Controls.Add(this.FoodReceiveDailyTxt);
             this.siticonePanel6.Controls.Add(this.FoodTotalDailyTxt);
             this.siticonePanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel6.Location = new System.Drawing.Point(8, 233);
-            this.siticonePanel6.Margin = new System.Windows.Forms.Padding(4);
+            this.siticonePanel6.Location = new System.Drawing.Point(6, 189);
             this.siticonePanel6.Name = "siticonePanel6";
             this.siticonePanel6.ShadowDecoration.Parent = this.siticonePanel6;
-            this.siticonePanel6.Size = new System.Drawing.Size(507, 363);
+            this.siticonePanel6.Size = new System.Drawing.Size(380, 295);
             this.siticonePanel6.TabIndex = 100;
             // 
             // label34
@@ -3794,10 +3675,9 @@ namespace Quan_Ly_Khach_San
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(359, 299);
-            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label34.Location = new System.Drawing.Point(269, 243);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(38, 20);
+            this.label34.Size = new System.Drawing.Size(29, 16);
             this.label34.TabIndex = 98;
             this.label34.Text = "USD";
             // 
@@ -3822,8 +3702,7 @@ namespace Quan_Ly_Khach_San
             this.FoodRiskRefurnTxt.ForeColor = System.Drawing.Color.White;
             this.FoodRiskRefurnTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodRiskRefurnTxt.HoverState.Parent = this.FoodRiskRefurnTxt;
-            this.FoodRiskRefurnTxt.Location = new System.Drawing.Point(164, 284);
-            this.FoodRiskRefurnTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.FoodRiskRefurnTxt.Location = new System.Drawing.Point(123, 231);
             this.FoodRiskRefurnTxt.Name = "FoodRiskRefurnTxt";
             this.FoodRiskRefurnTxt.PasswordChar = '\0';
             this.FoodRiskRefurnTxt.PlaceholderText = "";
@@ -3831,7 +3710,7 @@ namespace Quan_Ly_Khach_San
             this.FoodRiskRefurnTxt.SelectedText = "";
             this.FoodRiskRefurnTxt.SelectionStart = 3;
             this.FoodRiskRefurnTxt.ShadowDecoration.Parent = this.FoodRiskRefurnTxt;
-            this.FoodRiskRefurnTxt.Size = new System.Drawing.Size(161, 50);
+            this.FoodRiskRefurnTxt.Size = new System.Drawing.Size(121, 41);
             this.FoodRiskRefurnTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.FoodRiskRefurnTxt.TabIndex = 97;
             this.FoodRiskRefurnTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3841,10 +3720,9 @@ namespace Quan_Ly_Khach_San
             this.label38.AutoSize = true;
             this.label38.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(45, 299);
-            this.label38.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label38.Location = new System.Drawing.Point(34, 243);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(89, 20);
+            this.label38.Size = new System.Drawing.Size(74, 16);
             this.label38.TabIndex = 96;
             this.label38.Text = "Risk refurn";
             // 
@@ -3853,10 +3731,9 @@ namespace Quan_Ly_Khach_San
             this.label93.AutoSize = true;
             this.label93.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label93.ForeColor = System.Drawing.Color.White;
-            this.label93.Location = new System.Drawing.Point(359, 217);
-            this.label93.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label93.Location = new System.Drawing.Point(269, 176);
             this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(38, 20);
+            this.label93.Size = new System.Drawing.Size(29, 16);
             this.label93.TabIndex = 95;
             this.label93.Text = "USD";
             // 
@@ -3865,10 +3742,9 @@ namespace Quan_Ly_Khach_San
             this.label94.AutoSize = true;
             this.label94.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label94.ForeColor = System.Drawing.Color.White;
-            this.label94.Location = new System.Drawing.Point(359, 133);
-            this.label94.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label94.Location = new System.Drawing.Point(269, 108);
             this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(38, 20);
+            this.label94.Size = new System.Drawing.Size(29, 16);
             this.label94.TabIndex = 94;
             this.label94.Text = "USD";
             // 
@@ -3877,10 +3753,9 @@ namespace Quan_Ly_Khach_San
             this.label95.AutoSize = true;
             this.label95.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label95.ForeColor = System.Drawing.Color.White;
-            this.label95.Location = new System.Drawing.Point(359, 52);
-            this.label95.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label95.Location = new System.Drawing.Point(269, 42);
             this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(38, 20);
+            this.label95.Size = new System.Drawing.Size(29, 16);
             this.label95.TabIndex = 93;
             this.label95.Text = "USD";
             // 
@@ -3889,10 +3764,9 @@ namespace Quan_Ly_Khach_San
             this.label96.AutoSize = true;
             this.label96.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label96.ForeColor = System.Drawing.Color.White;
-            this.label96.Location = new System.Drawing.Point(45, 217);
-            this.label96.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label96.Location = new System.Drawing.Point(34, 176);
             this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(58, 20);
+            this.label96.Size = new System.Drawing.Size(48, 16);
             this.label96.TabIndex = 91;
             this.label96.Text = "Return";
             // 
@@ -3901,10 +3775,9 @@ namespace Quan_Ly_Khach_San
             this.label97.AutoSize = true;
             this.label97.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label97.ForeColor = System.Drawing.Color.White;
-            this.label97.Location = new System.Drawing.Point(45, 133);
-            this.label97.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label97.Location = new System.Drawing.Point(34, 108);
             this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(67, 20);
+            this.label97.Size = new System.Drawing.Size(54, 16);
             this.label97.TabIndex = 90;
             this.label97.Text = "Receive";
             // 
@@ -3913,10 +3786,9 @@ namespace Quan_Ly_Khach_San
             this.label98.AutoSize = true;
             this.label98.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label98.ForeColor = System.Drawing.Color.White;
-            this.label98.Location = new System.Drawing.Point(45, 59);
-            this.label98.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label98.Location = new System.Drawing.Point(34, 48);
             this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(48, 20);
+            this.label98.Size = new System.Drawing.Size(39, 16);
             this.label98.TabIndex = 89;
             this.label98.Text = "Total";
             // 
@@ -3925,10 +3797,9 @@ namespace Quan_Ly_Khach_San
             this.label99.AutoSize = true;
             this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label99.ForeColor = System.Drawing.Color.White;
-            this.label99.Location = new System.Drawing.Point(195, 9);
-            this.label99.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label99.Location = new System.Drawing.Point(146, 7);
             this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(119, 25);
+            this.label99.Size = new System.Drawing.Size(101, 20);
             this.label99.TabIndex = 85;
             this.label99.Text = "Information";
             // 
@@ -3953,8 +3824,7 @@ namespace Quan_Ly_Khach_San
             this.FoodReturnDailyTxt.ForeColor = System.Drawing.Color.White;
             this.FoodReturnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodReturnDailyTxt.HoverState.Parent = this.FoodReturnDailyTxt;
-            this.FoodReturnDailyTxt.Location = new System.Drawing.Point(168, 204);
-            this.FoodReturnDailyTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.FoodReturnDailyTxt.Location = new System.Drawing.Point(126, 166);
             this.FoodReturnDailyTxt.Name = "FoodReturnDailyTxt";
             this.FoodReturnDailyTxt.PasswordChar = '\0';
             this.FoodReturnDailyTxt.PlaceholderText = "";
@@ -3962,7 +3832,7 @@ namespace Quan_Ly_Khach_San
             this.FoodReturnDailyTxt.SelectedText = "";
             this.FoodReturnDailyTxt.SelectionStart = 3;
             this.FoodReturnDailyTxt.ShadowDecoration.Parent = this.FoodReturnDailyTxt;
-            this.FoodReturnDailyTxt.Size = new System.Drawing.Size(161, 50);
+            this.FoodReturnDailyTxt.Size = new System.Drawing.Size(121, 41);
             this.FoodReturnDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.FoodReturnDailyTxt.TabIndex = 74;
             this.FoodReturnDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3988,8 +3858,7 @@ namespace Quan_Ly_Khach_San
             this.FoodReceiveDailyTxt.ForeColor = System.Drawing.Color.White;
             this.FoodReceiveDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodReceiveDailyTxt.HoverState.Parent = this.FoodReceiveDailyTxt;
-            this.FoodReceiveDailyTxt.Location = new System.Drawing.Point(164, 117);
-            this.FoodReceiveDailyTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.FoodReceiveDailyTxt.Location = new System.Drawing.Point(123, 95);
             this.FoodReceiveDailyTxt.Name = "FoodReceiveDailyTxt";
             this.FoodReceiveDailyTxt.PasswordChar = '\0';
             this.FoodReceiveDailyTxt.PlaceholderText = "";
@@ -3997,7 +3866,7 @@ namespace Quan_Ly_Khach_San
             this.FoodReceiveDailyTxt.SelectedText = "";
             this.FoodReceiveDailyTxt.SelectionStart = 3;
             this.FoodReceiveDailyTxt.ShadowDecoration.Parent = this.FoodReceiveDailyTxt;
-            this.FoodReceiveDailyTxt.Size = new System.Drawing.Size(161, 50);
+            this.FoodReceiveDailyTxt.Size = new System.Drawing.Size(121, 41);
             this.FoodReceiveDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.FoodReceiveDailyTxt.TabIndex = 71;
             this.FoodReceiveDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4023,8 +3892,7 @@ namespace Quan_Ly_Khach_San
             this.FoodTotalDailyTxt.ForeColor = System.Drawing.Color.White;
             this.FoodTotalDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodTotalDailyTxt.HoverState.Parent = this.FoodTotalDailyTxt;
-            this.FoodTotalDailyTxt.Location = new System.Drawing.Point(168, 38);
-            this.FoodTotalDailyTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.FoodTotalDailyTxt.Location = new System.Drawing.Point(126, 31);
             this.FoodTotalDailyTxt.Name = "FoodTotalDailyTxt";
             this.FoodTotalDailyTxt.PasswordChar = '\0';
             this.FoodTotalDailyTxt.PlaceholderText = "";
@@ -4032,7 +3900,7 @@ namespace Quan_Ly_Khach_San
             this.FoodTotalDailyTxt.SelectedText = "";
             this.FoodTotalDailyTxt.SelectionStart = 3;
             this.FoodTotalDailyTxt.ShadowDecoration.Parent = this.FoodTotalDailyTxt;
-            this.FoodTotalDailyTxt.Size = new System.Drawing.Size(161, 50);
+            this.FoodTotalDailyTxt.Size = new System.Drawing.Size(121, 41);
             this.FoodTotalDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.FoodTotalDailyTxt.TabIndex = 68;
             this.FoodTotalDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4053,11 +3921,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneGradientButton4.ForeColor = System.Drawing.Color.Black;
             this.siticoneGradientButton4.HoverState.Parent = this.siticoneGradientButton4;
-            this.siticoneGradientButton4.Location = new System.Drawing.Point(304, 603);
-            this.siticoneGradientButton4.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneGradientButton4.Location = new System.Drawing.Point(228, 490);
             this.siticoneGradientButton4.Name = "siticoneGradientButton4";
             this.siticoneGradientButton4.ShadowDecoration.Parent = this.siticoneGradientButton4;
-            this.siticoneGradientButton4.Size = new System.Drawing.Size(208, 58);
+            this.siticoneGradientButton4.Size = new System.Drawing.Size(156, 47);
             this.siticoneGradientButton4.TabIndex = 99;
             this.siticoneGradientButton4.Text = "Print Bill";
             // 
@@ -4076,11 +3943,10 @@ namespace Quan_Ly_Khach_San
             this.SearchBtn.HoverState.Parent = this.SearchBtn;
             this.SearchBtn.Image = ((System.Drawing.Image)(resources.GetObject("SearchBtn.Image")));
             this.SearchBtn.ImageSize = new System.Drawing.Size(35, 35);
-            this.SearchBtn.Location = new System.Drawing.Point(1257, 12);
-            this.SearchBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.SearchBtn.Location = new System.Drawing.Point(943, 10);
             this.SearchBtn.Name = "SearchBtn";
             this.SearchBtn.ShadowDecoration.Parent = this.SearchBtn;
-            this.SearchBtn.Size = new System.Drawing.Size(47, 48);
+            this.SearchBtn.Size = new System.Drawing.Size(35, 39);
             this.SearchBtn.TabIndex = 55;
             // 
             // ServiceBillTab
@@ -4094,28 +3960,26 @@ namespace Quan_Ly_Khach_San
             this.ServiceBillTab.Controls.Add(this.siticonePanel4);
             this.ServiceBillTab.Controls.Add(this.siticoneGradientButton3);
             this.ServiceBillTab.Location = new System.Drawing.Point(4, 44);
-            this.ServiceBillTab.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceBillTab.Name = "ServiceBillTab";
-            this.ServiceBillTab.Padding = new System.Windows.Forms.Padding(4);
-            this.ServiceBillTab.Size = new System.Drawing.Size(1315, 693);
+            this.ServiceBillTab.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.ServiceBillTab.Size = new System.Drawing.Size(984, 554);
             this.ServiceBillTab.TabIndex = 3;
             this.ServiceBillTab.Text = "SERVICE";
             // 
             // ServiceDailyDateTxt
             // 
             this.ServiceDailyDateTxt.Animated = true;
-            this.ServiceDailyDateTxt.BorderRadius = 21;
+            this.ServiceDailyDateTxt.BorderRadius = 17;
             this.ServiceDailyDateTxt.CheckedState.Parent = this.ServiceDailyDateTxt;
             this.ServiceDailyDateTxt.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.ServiceDailyDateTxt.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.ServiceDailyDateTxt.HoverState.Parent = this.ServiceDailyDateTxt;
-            this.ServiceDailyDateTxt.Location = new System.Drawing.Point(8, 42);
-            this.ServiceDailyDateTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.ServiceDailyDateTxt.Location = new System.Drawing.Point(6, 34);
             this.ServiceDailyDateTxt.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.ServiceDailyDateTxt.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.ServiceDailyDateTxt.Name = "ServiceDailyDateTxt";
             this.ServiceDailyDateTxt.ShadowDecoration.Parent = this.ServiceDailyDateTxt;
-            this.ServiceDailyDateTxt.Size = new System.Drawing.Size(425, 44);
+            this.ServiceDailyDateTxt.Size = new System.Drawing.Size(319, 36);
             this.ServiceDailyDateTxt.TabIndex = 105;
             this.ServiceDailyDateTxt.Value = new System.DateTime(2021, 12, 5, 0, 0, 0, 0);
             this.ServiceDailyDateTxt.ValueChanged += new System.EventHandler(this.ServiceDailyDateTxt_ValueChanged);
@@ -4125,10 +3989,9 @@ namespace Quan_Ly_Khach_San
             this.label83.AutoSize = true;
             this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label83.ForeColor = System.Drawing.Color.White;
-            this.label83.Location = new System.Drawing.Point(8, 134);
-            this.label83.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label83.Location = new System.Drawing.Point(6, 109);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(132, 25);
+            this.label83.Size = new System.Drawing.Size(110, 20);
             this.label83.TabIndex = 104;
             this.label83.Text = "Customer ID";
             // 
@@ -4148,14 +4011,14 @@ namespace Quan_Ly_Khach_San
             this.CustomerIDDailyTxt.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.CustomerIDDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerIDDailyTxt.HoverState.Parent = this.CustomerIDDailyTxt;
-            this.CustomerIDDailyTxt.Location = new System.Drawing.Point(8, 172);
-            this.CustomerIDDailyTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CustomerIDDailyTxt.Location = new System.Drawing.Point(6, 140);
+            this.CustomerIDDailyTxt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CustomerIDDailyTxt.Name = "CustomerIDDailyTxt";
             this.CustomerIDDailyTxt.PasswordChar = '\0';
             this.CustomerIDDailyTxt.PlaceholderText = "";
             this.CustomerIDDailyTxt.SelectedText = "";
             this.CustomerIDDailyTxt.ShadowDecoration.Parent = this.CustomerIDDailyTxt;
-            this.CustomerIDDailyTxt.Size = new System.Drawing.Size(427, 43);
+            this.CustomerIDDailyTxt.Size = new System.Drawing.Size(320, 35);
             this.CustomerIDDailyTxt.TabIndex = 103;
             this.CustomerIDDailyTxt.TextChanged += new System.EventHandler(this.CustomerIDDailyTxt_TextChanged);
             // 
@@ -4174,11 +4037,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneButton1.HoverState.Parent = this.siticoneButton1;
             this.siticoneButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneButton1.Image")));
             this.siticoneButton1.ImageSize = new System.Drawing.Size(35, 35);
-            this.siticoneButton1.Location = new System.Drawing.Point(441, 167);
-            this.siticoneButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneButton1.Location = new System.Drawing.Point(331, 136);
             this.siticoneButton1.Name = "siticoneButton1";
             this.siticoneButton1.ShadowDecoration.Parent = this.siticoneButton1;
-            this.siticoneButton1.Size = new System.Drawing.Size(47, 48);
+            this.siticoneButton1.Size = new System.Drawing.Size(35, 39);
             this.siticoneButton1.TabIndex = 102;
             // 
             // ServiceDailyDGV
@@ -4224,15 +4086,14 @@ namespace Quan_Ly_Khach_San
             this.ServiceDailyDGV.DefaultCellStyle = dataGridViewCellStyle21;
             this.ServiceDailyDGV.EnableHeadersVisualStyles = false;
             this.ServiceDailyDGV.GridColor = System.Drawing.Color.White;
-            this.ServiceDailyDGV.Location = new System.Drawing.Point(520, 15);
-            this.ServiceDailyDGV.Margin = new System.Windows.Forms.Padding(4);
+            this.ServiceDailyDGV.Location = new System.Drawing.Point(390, 12);
             this.ServiceDailyDGV.Name = "ServiceDailyDGV";
             this.ServiceDailyDGV.ReadOnly = true;
             this.ServiceDailyDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ServiceDailyDGV.RowHeadersVisible = false;
             this.ServiceDailyDGV.RowHeadersWidth = 51;
             this.ServiceDailyDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ServiceDailyDGV.Size = new System.Drawing.Size(784, 652);
+            this.ServiceDailyDGV.Size = new System.Drawing.Size(588, 530);
             this.ServiceDailyDGV.TabIndex = 101;
             this.ServiceDailyDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.ServiceDailyDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -4263,7 +4124,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            this.dataGridViewTextBoxColumn7.Width = 99;
+            this.dataGridViewTextBoxColumn7.Width = 80;
             // 
             // dataGridViewTextBoxColumn8
             // 
@@ -4272,7 +4133,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            this.dataGridViewTextBoxColumn8.Width = 89;
+            this.dataGridViewTextBoxColumn8.Width = 75;
             // 
             // dataGridViewTextBoxColumn15
             // 
@@ -4281,7 +4142,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
             this.dataGridViewTextBoxColumn15.ReadOnly = true;
-            this.dataGridViewTextBoxColumn15.Width = 101;
+            this.dataGridViewTextBoxColumn15.Width = 83;
             // 
             // dataGridViewTextBoxColumn16
             // 
@@ -4290,7 +4151,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.ReadOnly = true;
-            this.dataGridViewTextBoxColumn16.Width = 69;
+            this.dataGridViewTextBoxColumn16.Width = 57;
             // 
             // dataGridViewTextBoxColumn47
             // 
@@ -4299,7 +4160,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn47.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
             this.dataGridViewTextBoxColumn47.ReadOnly = true;
-            this.dataGridViewTextBoxColumn47.Width = 113;
+            this.dataGridViewTextBoxColumn47.Width = 91;
             // 
             // dataGridViewTextBoxColumn48
             // 
@@ -4308,7 +4169,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn48.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
             this.dataGridViewTextBoxColumn48.ReadOnly = true;
-            this.dataGridViewTextBoxColumn48.Width = 117;
+            this.dataGridViewTextBoxColumn48.Width = 95;
             // 
             // dataGridViewTextBoxColumn50
             // 
@@ -4317,7 +4178,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn50.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
             this.dataGridViewTextBoxColumn50.ReadOnly = true;
-            this.dataGridViewTextBoxColumn50.Width = 72;
+            this.dataGridViewTextBoxColumn50.Width = 59;
             // 
             // dataGridViewTextBoxColumn51
             // 
@@ -4326,7 +4187,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn51.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
             this.dataGridViewTextBoxColumn51.ReadOnly = true;
-            this.dataGridViewTextBoxColumn51.Width = 93;
+            this.dataGridViewTextBoxColumn51.Width = 77;
             // 
             // dataGridViewTextBoxColumn52
             // 
@@ -4335,7 +4196,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn52.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
             this.dataGridViewTextBoxColumn52.ReadOnly = true;
-            this.dataGridViewTextBoxColumn52.Width = 84;
+            this.dataGridViewTextBoxColumn52.Width = 68;
             // 
             // dataGridViewTextBoxColumn53
             // 
@@ -4344,7 +4205,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn53.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
             this.dataGridViewTextBoxColumn53.ReadOnly = true;
-            this.dataGridViewTextBoxColumn53.Width = 66;
+            this.dataGridViewTextBoxColumn53.Width = 55;
             // 
             // dataGridViewTextBoxColumn54
             // 
@@ -4353,7 +4214,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn54.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
             this.dataGridViewTextBoxColumn54.ReadOnly = true;
-            this.dataGridViewTextBoxColumn54.Width = 87;
+            this.dataGridViewTextBoxColumn54.Width = 71;
             // 
             // dataGridViewTextBoxColumn55
             // 
@@ -4362,7 +4223,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn55.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
             this.dataGridViewTextBoxColumn55.ReadOnly = true;
-            this.dataGridViewTextBoxColumn55.Width = 81;
+            this.dataGridViewTextBoxColumn55.Width = 66;
             // 
             // dataGridViewTextBoxColumn56
             // 
@@ -4371,7 +4232,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn56.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
             this.dataGridViewTextBoxColumn56.ReadOnly = true;
-            this.dataGridViewTextBoxColumn56.Width = 77;
+            this.dataGridViewTextBoxColumn56.Width = 63;
             // 
             // siticonePanel4
             // 
@@ -4393,11 +4254,10 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel4.Controls.Add(this.ServiceReceiveDailyTxt);
             this.siticonePanel4.Controls.Add(this.ServiceTotalDailyTxt);
             this.siticonePanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel4.Location = new System.Drawing.Point(8, 233);
-            this.siticonePanel4.Margin = new System.Windows.Forms.Padding(4);
+            this.siticonePanel4.Location = new System.Drawing.Point(6, 189);
             this.siticonePanel4.Name = "siticonePanel4";
             this.siticonePanel4.ShadowDecoration.Parent = this.siticonePanel4;
-            this.siticonePanel4.Size = new System.Drawing.Size(507, 363);
+            this.siticonePanel4.Size = new System.Drawing.Size(380, 295);
             this.siticonePanel4.TabIndex = 100;
             // 
             // label84
@@ -4405,10 +4265,9 @@ namespace Quan_Ly_Khach_San
             this.label84.AutoSize = true;
             this.label84.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label84.ForeColor = System.Drawing.Color.White;
-            this.label84.Location = new System.Drawing.Point(359, 299);
-            this.label84.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label84.Location = new System.Drawing.Point(269, 243);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(38, 20);
+            this.label84.Size = new System.Drawing.Size(29, 16);
             this.label84.TabIndex = 98;
             this.label84.Text = "USD";
             // 
@@ -4433,8 +4292,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceRiskRefurnDailyTxt.ForeColor = System.Drawing.Color.White;
             this.ServiceRiskRefurnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceRiskRefurnDailyTxt.HoverState.Parent = this.ServiceRiskRefurnDailyTxt;
-            this.ServiceRiskRefurnDailyTxt.Location = new System.Drawing.Point(164, 284);
-            this.ServiceRiskRefurnDailyTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.ServiceRiskRefurnDailyTxt.Location = new System.Drawing.Point(123, 231);
             this.ServiceRiskRefurnDailyTxt.Name = "ServiceRiskRefurnDailyTxt";
             this.ServiceRiskRefurnDailyTxt.PasswordChar = '\0';
             this.ServiceRiskRefurnDailyTxt.PlaceholderText = "";
@@ -4442,7 +4300,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceRiskRefurnDailyTxt.SelectedText = "";
             this.ServiceRiskRefurnDailyTxt.SelectionStart = 3;
             this.ServiceRiskRefurnDailyTxt.ShadowDecoration.Parent = this.ServiceRiskRefurnDailyTxt;
-            this.ServiceRiskRefurnDailyTxt.Size = new System.Drawing.Size(161, 50);
+            this.ServiceRiskRefurnDailyTxt.Size = new System.Drawing.Size(121, 41);
             this.ServiceRiskRefurnDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ServiceRiskRefurnDailyTxt.TabIndex = 97;
             this.ServiceRiskRefurnDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4452,10 +4310,9 @@ namespace Quan_Ly_Khach_San
             this.label85.AutoSize = true;
             this.label85.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label85.ForeColor = System.Drawing.Color.White;
-            this.label85.Location = new System.Drawing.Point(45, 299);
-            this.label85.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label85.Location = new System.Drawing.Point(34, 243);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(89, 20);
+            this.label85.Size = new System.Drawing.Size(74, 16);
             this.label85.TabIndex = 96;
             this.label85.Text = "Risk refurn";
             // 
@@ -4464,10 +4321,9 @@ namespace Quan_Ly_Khach_San
             this.label86.AutoSize = true;
             this.label86.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label86.ForeColor = System.Drawing.Color.White;
-            this.label86.Location = new System.Drawing.Point(359, 217);
-            this.label86.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label86.Location = new System.Drawing.Point(269, 176);
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(38, 20);
+            this.label86.Size = new System.Drawing.Size(29, 16);
             this.label86.TabIndex = 95;
             this.label86.Text = "USD";
             // 
@@ -4476,10 +4332,9 @@ namespace Quan_Ly_Khach_San
             this.label87.AutoSize = true;
             this.label87.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label87.ForeColor = System.Drawing.Color.White;
-            this.label87.Location = new System.Drawing.Point(359, 133);
-            this.label87.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label87.Location = new System.Drawing.Point(269, 108);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(38, 20);
+            this.label87.Size = new System.Drawing.Size(29, 16);
             this.label87.TabIndex = 94;
             this.label87.Text = "USD";
             // 
@@ -4488,10 +4343,9 @@ namespace Quan_Ly_Khach_San
             this.label88.AutoSize = true;
             this.label88.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label88.ForeColor = System.Drawing.Color.White;
-            this.label88.Location = new System.Drawing.Point(359, 52);
-            this.label88.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label88.Location = new System.Drawing.Point(269, 42);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(38, 20);
+            this.label88.Size = new System.Drawing.Size(29, 16);
             this.label88.TabIndex = 93;
             this.label88.Text = "USD";
             // 
@@ -4500,10 +4354,9 @@ namespace Quan_Ly_Khach_San
             this.label89.AutoSize = true;
             this.label89.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label89.ForeColor = System.Drawing.Color.White;
-            this.label89.Location = new System.Drawing.Point(45, 217);
-            this.label89.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label89.Location = new System.Drawing.Point(34, 176);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(58, 20);
+            this.label89.Size = new System.Drawing.Size(48, 16);
             this.label89.TabIndex = 91;
             this.label89.Text = "Return";
             // 
@@ -4512,10 +4365,9 @@ namespace Quan_Ly_Khach_San
             this.label90.AutoSize = true;
             this.label90.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label90.ForeColor = System.Drawing.Color.White;
-            this.label90.Location = new System.Drawing.Point(45, 133);
-            this.label90.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label90.Location = new System.Drawing.Point(34, 108);
             this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(67, 20);
+            this.label90.Size = new System.Drawing.Size(54, 16);
             this.label90.TabIndex = 90;
             this.label90.Text = "Receive";
             // 
@@ -4524,10 +4376,9 @@ namespace Quan_Ly_Khach_San
             this.label91.AutoSize = true;
             this.label91.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label91.ForeColor = System.Drawing.Color.White;
-            this.label91.Location = new System.Drawing.Point(45, 59);
-            this.label91.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label91.Location = new System.Drawing.Point(34, 48);
             this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(48, 20);
+            this.label91.Size = new System.Drawing.Size(39, 16);
             this.label91.TabIndex = 89;
             this.label91.Text = "Total";
             // 
@@ -4536,10 +4387,9 @@ namespace Quan_Ly_Khach_San
             this.label92.AutoSize = true;
             this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label92.ForeColor = System.Drawing.Color.White;
-            this.label92.Location = new System.Drawing.Point(195, 9);
-            this.label92.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label92.Location = new System.Drawing.Point(146, 7);
             this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(119, 25);
+            this.label92.Size = new System.Drawing.Size(101, 20);
             this.label92.TabIndex = 85;
             this.label92.Text = "Information";
             // 
@@ -4564,8 +4414,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceReturnDailyTxt.ForeColor = System.Drawing.Color.White;
             this.ServiceReturnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceReturnDailyTxt.HoverState.Parent = this.ServiceReturnDailyTxt;
-            this.ServiceReturnDailyTxt.Location = new System.Drawing.Point(168, 204);
-            this.ServiceReturnDailyTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.ServiceReturnDailyTxt.Location = new System.Drawing.Point(126, 166);
             this.ServiceReturnDailyTxt.Name = "ServiceReturnDailyTxt";
             this.ServiceReturnDailyTxt.PasswordChar = '\0';
             this.ServiceReturnDailyTxt.PlaceholderText = "";
@@ -4573,7 +4422,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceReturnDailyTxt.SelectedText = "";
             this.ServiceReturnDailyTxt.SelectionStart = 3;
             this.ServiceReturnDailyTxt.ShadowDecoration.Parent = this.ServiceReturnDailyTxt;
-            this.ServiceReturnDailyTxt.Size = new System.Drawing.Size(161, 50);
+            this.ServiceReturnDailyTxt.Size = new System.Drawing.Size(121, 41);
             this.ServiceReturnDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ServiceReturnDailyTxt.TabIndex = 74;
             this.ServiceReturnDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4599,8 +4448,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceReceiveDailyTxt.ForeColor = System.Drawing.Color.White;
             this.ServiceReceiveDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceReceiveDailyTxt.HoverState.Parent = this.ServiceReceiveDailyTxt;
-            this.ServiceReceiveDailyTxt.Location = new System.Drawing.Point(164, 117);
-            this.ServiceReceiveDailyTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.ServiceReceiveDailyTxt.Location = new System.Drawing.Point(123, 95);
             this.ServiceReceiveDailyTxt.Name = "ServiceReceiveDailyTxt";
             this.ServiceReceiveDailyTxt.PasswordChar = '\0';
             this.ServiceReceiveDailyTxt.PlaceholderText = "";
@@ -4608,7 +4456,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceReceiveDailyTxt.SelectedText = "";
             this.ServiceReceiveDailyTxt.SelectionStart = 3;
             this.ServiceReceiveDailyTxt.ShadowDecoration.Parent = this.ServiceReceiveDailyTxt;
-            this.ServiceReceiveDailyTxt.Size = new System.Drawing.Size(161, 50);
+            this.ServiceReceiveDailyTxt.Size = new System.Drawing.Size(121, 41);
             this.ServiceReceiveDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ServiceReceiveDailyTxt.TabIndex = 71;
             this.ServiceReceiveDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4634,8 +4482,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceTotalDailyTxt.ForeColor = System.Drawing.Color.White;
             this.ServiceTotalDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceTotalDailyTxt.HoverState.Parent = this.ServiceTotalDailyTxt;
-            this.ServiceTotalDailyTxt.Location = new System.Drawing.Point(168, 38);
-            this.ServiceTotalDailyTxt.Margin = new System.Windows.Forms.Padding(4);
+            this.ServiceTotalDailyTxt.Location = new System.Drawing.Point(126, 31);
             this.ServiceTotalDailyTxt.Name = "ServiceTotalDailyTxt";
             this.ServiceTotalDailyTxt.PasswordChar = '\0';
             this.ServiceTotalDailyTxt.PlaceholderText = "";
@@ -4643,7 +4490,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceTotalDailyTxt.SelectedText = "";
             this.ServiceTotalDailyTxt.SelectionStart = 3;
             this.ServiceTotalDailyTxt.ShadowDecoration.Parent = this.ServiceTotalDailyTxt;
-            this.ServiceTotalDailyTxt.Size = new System.Drawing.Size(161, 50);
+            this.ServiceTotalDailyTxt.Size = new System.Drawing.Size(121, 41);
             this.ServiceTotalDailyTxt.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ServiceTotalDailyTxt.TabIndex = 68;
             this.ServiceTotalDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4664,11 +4511,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneGradientButton3.ForeColor = System.Drawing.Color.Black;
             this.siticoneGradientButton3.HoverState.Parent = this.siticoneGradientButton3;
-            this.siticoneGradientButton3.Location = new System.Drawing.Point(304, 603);
-            this.siticoneGradientButton3.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneGradientButton3.Location = new System.Drawing.Point(228, 490);
             this.siticoneGradientButton3.Name = "siticoneGradientButton3";
             this.siticoneGradientButton3.ShadowDecoration.Parent = this.siticoneGradientButton3;
-            this.siticoneGradientButton3.Size = new System.Drawing.Size(208, 58);
+            this.siticoneGradientButton3.Size = new System.Drawing.Size(156, 47);
             this.siticoneGradientButton3.TabIndex = 99;
             this.siticoneGradientButton3.Text = "Print Bill";
             // 
@@ -4683,10 +4529,9 @@ namespace Quan_Ly_Khach_San
             this.ServiceTab.Controls.Add(this.siticonePanel3);
             this.ServiceTab.Controls.Add(this.chart2);
             this.ServiceTab.Location = new System.Drawing.Point(4, 44);
-            this.ServiceTab.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceTab.Name = "ServiceTab";
-            this.ServiceTab.Padding = new System.Windows.Forms.Padding(4);
-            this.ServiceTab.Size = new System.Drawing.Size(1325, 752);
+            this.ServiceTab.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.ServiceTab.Size = new System.Drawing.Size(992, 602);
             this.ServiceTab.TabIndex = 1;
             this.ServiceTab.Text = "MONTHLY REPORT";
             // 
@@ -4695,10 +4540,9 @@ namespace Quan_Ly_Khach_San
             this.label82.AutoSize = true;
             this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label82.ForeColor = System.Drawing.Color.White;
-            this.label82.Location = new System.Drawing.Point(1068, 19);
-            this.label82.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label82.Location = new System.Drawing.Point(801, 15);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(64, 25);
+            this.label82.Size = new System.Drawing.Size(52, 20);
             this.label82.TabIndex = 99;
             this.label82.Text = "Year:";
             // 
@@ -4707,10 +4551,9 @@ namespace Quan_Ly_Khach_San
             this.label81.AutoSize = true;
             this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label81.ForeColor = System.Drawing.Color.White;
-            this.label81.Location = new System.Drawing.Point(885, 19);
-            this.label81.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label81.Location = new System.Drawing.Point(664, 15);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(79, 25);
+            this.label81.Size = new System.Drawing.Size(64, 20);
             this.label81.TabIndex = 98;
             this.label81.Text = "Month:";
             // 
@@ -4729,11 +4572,10 @@ namespace Quan_Ly_Khach_San
             this.searchMonth.HoverState.Parent = this.searchMonth;
             this.searchMonth.Image = ((System.Drawing.Image)(resources.GetObject("searchMonth.Image")));
             this.searchMonth.ImageSize = new System.Drawing.Size(35, 35);
-            this.searchMonth.Location = new System.Drawing.Point(1269, 8);
-            this.searchMonth.Margin = new System.Windows.Forms.Padding(4);
+            this.searchMonth.Location = new System.Drawing.Point(952, 6);
             this.searchMonth.Name = "searchMonth";
             this.searchMonth.ShadowDecoration.Parent = this.searchMonth;
-            this.searchMonth.Size = new System.Drawing.Size(47, 48);
+            this.searchMonth.Size = new System.Drawing.Size(35, 39);
             this.searchMonth.TabIndex = 79;
             this.searchMonth.Click += new System.EventHandler(this.searchMonth_Click);
             // 
@@ -4765,11 +4607,10 @@ namespace Quan_Ly_Khach_San
             "2029",
             "2030"});
             this.PickYear.ItemsAppearance.Parent = this.PickYear;
-            this.PickYear.Location = new System.Drawing.Point(1140, 8);
-            this.PickYear.Margin = new System.Windows.Forms.Padding(4);
+            this.PickYear.Location = new System.Drawing.Point(855, 6);
             this.PickYear.Name = "PickYear";
             this.PickYear.ShadowDecoration.Parent = this.PickYear;
-            this.PickYear.Size = new System.Drawing.Size(121, 36);
+            this.PickYear.Size = new System.Drawing.Size(92, 36);
             this.PickYear.TabIndex = 78;
             // 
             // PickMonth
@@ -4802,11 +4643,10 @@ namespace Quan_Ly_Khach_San
             "11",
             "12"});
             this.PickMonth.ItemsAppearance.Parent = this.PickMonth;
-            this.PickMonth.Location = new System.Drawing.Point(972, 8);
-            this.PickMonth.Margin = new System.Windows.Forms.Padding(4);
+            this.PickMonth.Location = new System.Drawing.Point(729, 6);
             this.PickMonth.Name = "PickMonth";
             this.PickMonth.ShadowDecoration.Parent = this.PickMonth;
-            this.PickMonth.Size = new System.Drawing.Size(88, 36);
+            this.PickMonth.Size = new System.Drawing.Size(67, 36);
             this.PickMonth.TabIndex = 77;
             // 
             // siticonePanel3
@@ -4856,11 +4696,10 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel3.Controls.Add(this.siticoneGradientButton2);
             this.siticonePanel3.Controls.Add(this.receiveRoom);
             this.siticonePanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel3.Location = new System.Drawing.Point(18, 39);
-            this.siticonePanel3.Margin = new System.Windows.Forms.Padding(4);
+            this.siticonePanel3.Location = new System.Drawing.Point(14, 32);
             this.siticonePanel3.Name = "siticonePanel3";
             this.siticonePanel3.ShadowDecoration.Parent = this.siticonePanel3;
-            this.siticonePanel3.Size = new System.Drawing.Size(568, 674);
+            this.siticonePanel3.Size = new System.Drawing.Size(426, 548);
             this.siticonePanel3.TabIndex = 75;
             // 
             // label24
@@ -4868,10 +4707,9 @@ namespace Quan_Ly_Khach_San
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label24.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.label24.Location = new System.Drawing.Point(371, 347);
-            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Location = new System.Drawing.Point(278, 282);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(62, 20);
+            this.label24.Size = new System.Drawing.Size(51, 16);
             this.label24.TabIndex = 128;
             this.label24.Text = "Collect";
             // 
@@ -4880,10 +4718,9 @@ namespace Quan_Ly_Khach_San
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label27.ForeColor = System.Drawing.Color.White;
-            this.label27.Location = new System.Drawing.Point(524, 385);
-            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label27.Location = new System.Drawing.Point(393, 313);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(38, 20);
+            this.label27.Size = new System.Drawing.Size(29, 16);
             this.label27.TabIndex = 127;
             this.label27.Text = "USD";
             // 
@@ -4907,8 +4744,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalFood.ForeColor = System.Drawing.Color.White;
             this.collectTotalFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.collectTotalFood.HoverState.Parent = this.collectTotalFood;
-            this.collectTotalFood.Location = new System.Drawing.Point(375, 370);
-            this.collectTotalFood.Margin = new System.Windows.Forms.Padding(4);
+            this.collectTotalFood.Location = new System.Drawing.Point(281, 301);
             this.collectTotalFood.Name = "collectTotalFood";
             this.collectTotalFood.PasswordChar = '\0';
             this.collectTotalFood.PlaceholderText = "";
@@ -4916,7 +4752,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalFood.SelectedText = "";
             this.collectTotalFood.SelectionStart = 5;
             this.collectTotalFood.ShadowDecoration.Parent = this.collectTotalFood;
-            this.collectTotalFood.Size = new System.Drawing.Size(149, 50);
+            this.collectTotalFood.Size = new System.Drawing.Size(112, 41);
             this.collectTotalFood.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.collectTotalFood.TabIndex = 126;
             this.collectTotalFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4926,10 +4762,9 @@ namespace Quan_Ly_Khach_San
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label31.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.label31.Location = new System.Drawing.Point(371, 218);
-            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label31.Location = new System.Drawing.Point(278, 177);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(62, 20);
+            this.label31.Size = new System.Drawing.Size(51, 16);
             this.label31.TabIndex = 125;
             this.label31.Text = "Collect";
             // 
@@ -4938,10 +4773,9 @@ namespace Quan_Ly_Khach_San
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(524, 256);
-            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label32.Location = new System.Drawing.Point(393, 208);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(38, 20);
+            this.label32.Size = new System.Drawing.Size(29, 16);
             this.label32.TabIndex = 124;
             this.label32.Text = "USD";
             // 
@@ -4965,8 +4799,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalService.ForeColor = System.Drawing.Color.White;
             this.collectTotalService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.collectTotalService.HoverState.Parent = this.collectTotalService;
-            this.collectTotalService.Location = new System.Drawing.Point(375, 241);
-            this.collectTotalService.Margin = new System.Windows.Forms.Padding(4);
+            this.collectTotalService.Location = new System.Drawing.Point(281, 196);
             this.collectTotalService.Name = "collectTotalService";
             this.collectTotalService.PasswordChar = '\0';
             this.collectTotalService.PlaceholderText = "";
@@ -4974,7 +4807,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalService.SelectedText = "";
             this.collectTotalService.SelectionStart = 5;
             this.collectTotalService.ShadowDecoration.Parent = this.collectTotalService;
-            this.collectTotalService.Size = new System.Drawing.Size(149, 50);
+            this.collectTotalService.Size = new System.Drawing.Size(112, 41);
             this.collectTotalService.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.collectTotalService.TabIndex = 123;
             this.collectTotalService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4984,10 +4817,9 @@ namespace Quan_Ly_Khach_San
             this.label60.AutoSize = true;
             this.label60.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label60.ForeColor = System.Drawing.Color.LightSkyBlue;
-            this.label60.Location = new System.Drawing.Point(371, 84);
-            this.label60.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label60.Location = new System.Drawing.Point(278, 68);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(62, 20);
+            this.label60.Size = new System.Drawing.Size(51, 16);
             this.label60.TabIndex = 122;
             this.label60.Text = "Collect";
             // 
@@ -4996,10 +4828,9 @@ namespace Quan_Ly_Khach_San
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label61.ForeColor = System.Drawing.Color.White;
-            this.label61.Location = new System.Drawing.Point(524, 122);
-            this.label61.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label61.Location = new System.Drawing.Point(393, 99);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(38, 20);
+            this.label61.Size = new System.Drawing.Size(29, 16);
             this.label61.TabIndex = 121;
             this.label61.Text = "USD";
             // 
@@ -5023,8 +4854,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalRoom.ForeColor = System.Drawing.Color.White;
             this.collectTotalRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.collectTotalRoom.HoverState.Parent = this.collectTotalRoom;
-            this.collectTotalRoom.Location = new System.Drawing.Point(375, 107);
-            this.collectTotalRoom.Margin = new System.Windows.Forms.Padding(4);
+            this.collectTotalRoom.Location = new System.Drawing.Point(281, 87);
             this.collectTotalRoom.Name = "collectTotalRoom";
             this.collectTotalRoom.PasswordChar = '\0';
             this.collectTotalRoom.PlaceholderText = "";
@@ -5032,7 +4862,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalRoom.SelectedText = "";
             this.collectTotalRoom.SelectionStart = 5;
             this.collectTotalRoom.ShadowDecoration.Parent = this.collectTotalRoom;
-            this.collectTotalRoom.Size = new System.Drawing.Size(149, 50);
+            this.collectTotalRoom.Size = new System.Drawing.Size(112, 41);
             this.collectTotalRoom.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.collectTotalRoom.TabIndex = 120;
             this.collectTotalRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5042,10 +4872,9 @@ namespace Quan_Ly_Khach_San
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label62.ForeColor = System.Drawing.Color.Yellow;
-            this.label62.Location = new System.Drawing.Point(17, 313);
-            this.label62.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label62.Location = new System.Drawing.Point(13, 254);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(47, 20);
+            this.label62.Size = new System.Drawing.Size(38, 16);
             this.label62.TabIndex = 119;
             this.label62.Text = "Food";
             // 
@@ -5054,10 +4883,9 @@ namespace Quan_Ly_Khach_San
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label63.Location = new System.Drawing.Point(17, 197);
-            this.label63.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label63.Location = new System.Drawing.Point(13, 160);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(63, 20);
+            this.label63.Size = new System.Drawing.Size(51, 16);
             this.label63.TabIndex = 118;
             this.label63.Text = "Service";
             // 
@@ -5066,10 +4894,9 @@ namespace Quan_Ly_Khach_San
             this.label64.AutoSize = true;
             this.label64.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
             this.label64.ForeColor = System.Drawing.Color.Tomato;
-            this.label64.Location = new System.Drawing.Point(17, 63);
-            this.label64.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label64.Location = new System.Drawing.Point(13, 51);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(53, 20);
+            this.label64.Size = new System.Drawing.Size(43, 16);
             this.label64.TabIndex = 117;
             this.label64.Text = "Room";
             // 
@@ -5078,10 +4905,9 @@ namespace Quan_Ly_Khach_San
             this.label65.AutoSize = true;
             this.label65.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label65.ForeColor = System.Drawing.Color.White;
-            this.label65.Location = new System.Drawing.Point(19, 612);
-            this.label65.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label65.Location = new System.Drawing.Point(14, 497);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(58, 20);
+            this.label65.Size = new System.Drawing.Size(48, 16);
             this.label65.TabIndex = 116;
             this.label65.Text = "Return";
             // 
@@ -5090,10 +4916,9 @@ namespace Quan_Ly_Khach_San
             this.label66.AutoSize = true;
             this.label66.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label66.ForeColor = System.Drawing.Color.White;
-            this.label66.Location = new System.Drawing.Point(15, 513);
-            this.label66.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label66.Location = new System.Drawing.Point(11, 417);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(67, 20);
+            this.label66.Size = new System.Drawing.Size(54, 16);
             this.label66.TabIndex = 115;
             this.label66.Text = "Receive";
             // 
@@ -5102,10 +4927,9 @@ namespace Quan_Ly_Khach_San
             this.label67.AutoSize = true;
             this.label67.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label67.ForeColor = System.Drawing.Color.Gold;
-            this.label67.Location = new System.Drawing.Point(55, 401);
-            this.label67.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label67.Location = new System.Drawing.Point(41, 326);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(58, 20);
+            this.label67.Size = new System.Drawing.Size(48, 16);
             this.label67.TabIndex = 114;
             this.label67.Text = "Return";
             // 
@@ -5114,10 +4938,9 @@ namespace Quan_Ly_Khach_San
             this.label68.AutoSize = true;
             this.label68.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label68.ForeColor = System.Drawing.Color.White;
-            this.label68.Location = new System.Drawing.Point(55, 341);
-            this.label68.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label68.Location = new System.Drawing.Point(41, 277);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(67, 20);
+            this.label68.Size = new System.Drawing.Size(54, 16);
             this.label68.TabIndex = 113;
             this.label68.Text = "Receive";
             // 
@@ -5126,10 +4949,9 @@ namespace Quan_Ly_Khach_San
             this.label69.AutoSize = true;
             this.label69.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label69.ForeColor = System.Drawing.Color.Gold;
-            this.label69.Location = new System.Drawing.Point(55, 274);
-            this.label69.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label69.Location = new System.Drawing.Point(41, 223);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(58, 20);
+            this.label69.Size = new System.Drawing.Size(48, 16);
             this.label69.TabIndex = 112;
             this.label69.Text = "Return";
             // 
@@ -5138,10 +4960,9 @@ namespace Quan_Ly_Khach_San
             this.label70.AutoSize = true;
             this.label70.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label70.ForeColor = System.Drawing.Color.White;
-            this.label70.Location = new System.Drawing.Point(55, 217);
-            this.label70.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label70.Location = new System.Drawing.Point(41, 176);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(67, 20);
+            this.label70.Size = new System.Drawing.Size(54, 16);
             this.label70.TabIndex = 111;
             this.label70.Text = "Receive";
             // 
@@ -5150,10 +4971,9 @@ namespace Quan_Ly_Khach_San
             this.label71.AutoSize = true;
             this.label71.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label71.ForeColor = System.Drawing.Color.Gold;
-            this.label71.Location = new System.Drawing.Point(55, 142);
-            this.label71.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label71.Location = new System.Drawing.Point(41, 115);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(58, 20);
+            this.label71.Size = new System.Drawing.Size(48, 16);
             this.label71.TabIndex = 110;
             this.label71.Text = "Return";
             // 
@@ -5162,10 +4982,9 @@ namespace Quan_Ly_Khach_San
             this.label72.AutoSize = true;
             this.label72.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label72.ForeColor = System.Drawing.Color.White;
-            this.label72.Location = new System.Drawing.Point(55, 84);
-            this.label72.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label72.Location = new System.Drawing.Point(41, 68);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(67, 20);
+            this.label72.Size = new System.Drawing.Size(54, 16);
             this.label72.TabIndex = 109;
             this.label72.Text = "Receive";
             // 
@@ -5174,10 +4993,9 @@ namespace Quan_Ly_Khach_San
             this.label73.AutoSize = true;
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label73.ForeColor = System.Drawing.Color.White;
-            this.label73.Location = new System.Drawing.Point(247, 438);
-            this.label73.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label73.Location = new System.Drawing.Point(185, 356);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(61, 25);
+            this.label73.Size = new System.Drawing.Size(49, 20);
             this.label73.TabIndex = 108;
             this.label73.Text = "Total";
             // 
@@ -5186,10 +5004,9 @@ namespace Quan_Ly_Khach_San
             this.label74.AutoSize = true;
             this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.label74.ForeColor = System.Drawing.Color.White;
-            this.label74.Location = new System.Drawing.Point(220, 7);
-            this.label74.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label74.Location = new System.Drawing.Point(165, 6);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(119, 25);
+            this.label74.Size = new System.Drawing.Size(101, 20);
             this.label74.TabIndex = 107;
             this.label74.Text = "Information";
             // 
@@ -5198,10 +5015,9 @@ namespace Quan_Ly_Khach_San
             this.label75.AutoSize = true;
             this.label75.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label75.ForeColor = System.Drawing.Color.White;
-            this.label75.Location = new System.Drawing.Point(248, 612);
-            this.label75.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label75.Location = new System.Drawing.Point(186, 497);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(38, 20);
+            this.label75.Size = new System.Drawing.Size(29, 16);
             this.label75.TabIndex = 106;
             this.label75.Text = "USD";
             // 
@@ -5210,10 +5026,9 @@ namespace Quan_Ly_Khach_San
             this.label76.AutoSize = true;
             this.label76.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Location = new System.Drawing.Point(248, 516);
-            this.label76.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label76.Location = new System.Drawing.Point(186, 419);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(38, 20);
+            this.label76.Size = new System.Drawing.Size(29, 16);
             this.label76.TabIndex = 105;
             this.label76.Text = "USD";
             // 
@@ -5222,10 +5037,9 @@ namespace Quan_Ly_Khach_San
             this.label77.AutoSize = true;
             this.label77.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label77.ForeColor = System.Drawing.Color.White;
-            this.label77.Location = new System.Drawing.Point(300, 401);
-            this.label77.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label77.Location = new System.Drawing.Point(225, 326);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(38, 20);
+            this.label77.Size = new System.Drawing.Size(29, 16);
             this.label77.TabIndex = 104;
             this.label77.Text = "USD";
             // 
@@ -5234,10 +5048,9 @@ namespace Quan_Ly_Khach_San
             this.label78.AutoSize = true;
             this.label78.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label78.ForeColor = System.Drawing.Color.White;
-            this.label78.Location = new System.Drawing.Point(300, 341);
-            this.label78.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label78.Location = new System.Drawing.Point(225, 277);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(38, 20);
+            this.label78.Size = new System.Drawing.Size(29, 16);
             this.label78.TabIndex = 103;
             this.label78.Text = "USD";
             // 
@@ -5246,10 +5059,9 @@ namespace Quan_Ly_Khach_San
             this.label79.AutoSize = true;
             this.label79.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label79.ForeColor = System.Drawing.Color.White;
-            this.label79.Location = new System.Drawing.Point(300, 272);
-            this.label79.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label79.Location = new System.Drawing.Point(225, 221);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(38, 20);
+            this.label79.Size = new System.Drawing.Size(29, 16);
             this.label79.TabIndex = 102;
             this.label79.Text = "USD";
             // 
@@ -5258,10 +5070,9 @@ namespace Quan_Ly_Khach_San
             this.label80.AutoSize = true;
             this.label80.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label80.ForeColor = System.Drawing.Color.White;
-            this.label80.Location = new System.Drawing.Point(300, 217);
-            this.label80.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label80.Location = new System.Drawing.Point(225, 176);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(38, 20);
+            this.label80.Size = new System.Drawing.Size(29, 16);
             this.label80.TabIndex = 101;
             this.label80.Text = "USD";
             // 
@@ -5270,10 +5081,9 @@ namespace Quan_Ly_Khach_San
             this.label100.AutoSize = true;
             this.label100.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label100.ForeColor = System.Drawing.Color.White;
-            this.label100.Location = new System.Drawing.Point(300, 142);
-            this.label100.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label100.Location = new System.Drawing.Point(225, 115);
             this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(38, 20);
+            this.label100.Size = new System.Drawing.Size(29, 16);
             this.label100.TabIndex = 100;
             this.label100.Text = "USD";
             // 
@@ -5282,10 +5092,9 @@ namespace Quan_Ly_Khach_San
             this.label101.AutoSize = true;
             this.label101.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label101.ForeColor = System.Drawing.Color.White;
-            this.label101.Location = new System.Drawing.Point(300, 84);
-            this.label101.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label101.Location = new System.Drawing.Point(225, 68);
             this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(38, 20);
+            this.label101.Size = new System.Drawing.Size(29, 16);
             this.label101.TabIndex = 99;
             this.label101.Text = "USD";
             // 
@@ -5307,14 +5116,13 @@ namespace Quan_Ly_Khach_San
             this.totalTotalTotal.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.totalTotalTotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalTotalTotal.HoverState.Parent = this.totalTotalTotal;
-            this.totalTotalTotal.Location = new System.Drawing.Point(332, 513);
-            this.totalTotalTotal.Margin = new System.Windows.Forms.Padding(4);
+            this.totalTotalTotal.Location = new System.Drawing.Point(249, 417);
             this.totalTotalTotal.Name = "totalTotalTotal";
             this.totalTotalTotal.PasswordChar = '\0';
             this.totalTotalTotal.PlaceholderText = "";
             this.totalTotalTotal.SelectedText = "";
             this.totalTotalTotal.ShadowDecoration.Parent = this.totalTotalTotal;
-            this.totalTotalTotal.Size = new System.Drawing.Size(219, 44);
+            this.totalTotalTotal.Size = new System.Drawing.Size(164, 36);
             this.totalTotalTotal.TabIndex = 98;
             // 
             // returnTotal
@@ -5337,8 +5145,7 @@ namespace Quan_Ly_Khach_San
             this.returnTotal.ForeColor = System.Drawing.Color.White;
             this.returnTotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnTotal.HoverState.Parent = this.returnTotal;
-            this.returnTotal.Location = new System.Drawing.Point(91, 581);
-            this.returnTotal.Margin = new System.Windows.Forms.Padding(4);
+            this.returnTotal.Location = new System.Drawing.Point(68, 472);
             this.returnTotal.Name = "returnTotal";
             this.returnTotal.PasswordChar = '\0';
             this.returnTotal.PlaceholderText = "";
@@ -5346,7 +5153,7 @@ namespace Quan_Ly_Khach_San
             this.returnTotal.SelectedText = "";
             this.returnTotal.SelectionStart = 5;
             this.returnTotal.ShadowDecoration.Parent = this.returnTotal;
-            this.returnTotal.Size = new System.Drawing.Size(149, 50);
+            this.returnTotal.Size = new System.Drawing.Size(112, 41);
             this.returnTotal.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.returnTotal.TabIndex = 95;
             this.returnTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5371,8 +5178,7 @@ namespace Quan_Ly_Khach_San
             this.receiveTotal.ForeColor = System.Drawing.Color.White;
             this.receiveTotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveTotal.HoverState.Parent = this.receiveTotal;
-            this.receiveTotal.Location = new System.Drawing.Point(91, 487);
-            this.receiveTotal.Margin = new System.Windows.Forms.Padding(4);
+            this.receiveTotal.Location = new System.Drawing.Point(68, 396);
             this.receiveTotal.Name = "receiveTotal";
             this.receiveTotal.PasswordChar = '\0';
             this.receiveTotal.PlaceholderText = "";
@@ -5380,7 +5186,7 @@ namespace Quan_Ly_Khach_San
             this.receiveTotal.SelectedText = "";
             this.receiveTotal.SelectionStart = 5;
             this.receiveTotal.ShadowDecoration.Parent = this.receiveTotal;
-            this.receiveTotal.Size = new System.Drawing.Size(149, 50);
+            this.receiveTotal.Size = new System.Drawing.Size(112, 41);
             this.receiveTotal.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.receiveTotal.TabIndex = 92;
             this.receiveTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5405,8 +5211,7 @@ namespace Quan_Ly_Khach_San
             this.returnFood.ForeColor = System.Drawing.Color.White;
             this.returnFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnFood.HoverState.Parent = this.returnFood;
-            this.returnFood.Location = new System.Drawing.Point(143, 370);
-            this.returnFood.Margin = new System.Windows.Forms.Padding(4);
+            this.returnFood.Location = new System.Drawing.Point(107, 301);
             this.returnFood.Name = "returnFood";
             this.returnFood.PasswordChar = '\0';
             this.returnFood.PlaceholderText = "";
@@ -5414,7 +5219,7 @@ namespace Quan_Ly_Khach_San
             this.returnFood.SelectedText = "";
             this.returnFood.SelectionStart = 5;
             this.returnFood.ShadowDecoration.Parent = this.returnFood;
-            this.returnFood.Size = new System.Drawing.Size(149, 50);
+            this.returnFood.Size = new System.Drawing.Size(112, 41);
             this.returnFood.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.returnFood.TabIndex = 88;
             this.returnFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5439,8 +5244,7 @@ namespace Quan_Ly_Khach_San
             this.receiveFood.ForeColor = System.Drawing.Color.White;
             this.receiveFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveFood.HoverState.Parent = this.receiveFood;
-            this.receiveFood.Location = new System.Drawing.Point(143, 313);
-            this.receiveFood.Margin = new System.Windows.Forms.Padding(4);
+            this.receiveFood.Location = new System.Drawing.Point(107, 254);
             this.receiveFood.Name = "receiveFood";
             this.receiveFood.PasswordChar = '\0';
             this.receiveFood.PlaceholderText = "";
@@ -5448,7 +5252,7 @@ namespace Quan_Ly_Khach_San
             this.receiveFood.SelectedText = "";
             this.receiveFood.SelectionStart = 5;
             this.receiveFood.ShadowDecoration.Parent = this.receiveFood;
-            this.receiveFood.Size = new System.Drawing.Size(149, 50);
+            this.receiveFood.Size = new System.Drawing.Size(112, 41);
             this.receiveFood.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.receiveFood.TabIndex = 85;
             this.receiveFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5473,8 +5277,7 @@ namespace Quan_Ly_Khach_San
             this.returnService.ForeColor = System.Drawing.Color.White;
             this.returnService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnService.HoverState.Parent = this.returnService;
-            this.returnService.Location = new System.Drawing.Point(143, 244);
-            this.returnService.Margin = new System.Windows.Forms.Padding(4);
+            this.returnService.Location = new System.Drawing.Point(107, 198);
             this.returnService.Name = "returnService";
             this.returnService.PasswordChar = '\0';
             this.returnService.PlaceholderText = "";
@@ -5482,7 +5285,7 @@ namespace Quan_Ly_Khach_San
             this.returnService.SelectedText = "";
             this.returnService.SelectionStart = 5;
             this.returnService.ShadowDecoration.Parent = this.returnService;
-            this.returnService.Size = new System.Drawing.Size(149, 50);
+            this.returnService.Size = new System.Drawing.Size(112, 41);
             this.returnService.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.returnService.TabIndex = 81;
             this.returnService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5507,8 +5310,7 @@ namespace Quan_Ly_Khach_San
             this.receiveService.ForeColor = System.Drawing.Color.White;
             this.receiveService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveService.HoverState.Parent = this.receiveService;
-            this.receiveService.Location = new System.Drawing.Point(143, 186);
-            this.receiveService.Margin = new System.Windows.Forms.Padding(4);
+            this.receiveService.Location = new System.Drawing.Point(107, 151);
             this.receiveService.Name = "receiveService";
             this.receiveService.PasswordChar = '\0';
             this.receiveService.PlaceholderText = "";
@@ -5516,7 +5318,7 @@ namespace Quan_Ly_Khach_San
             this.receiveService.SelectedText = "";
             this.receiveService.SelectionStart = 5;
             this.receiveService.ShadowDecoration.Parent = this.receiveService;
-            this.receiveService.Size = new System.Drawing.Size(149, 50);
+            this.receiveService.Size = new System.Drawing.Size(112, 41);
             this.receiveService.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.receiveService.TabIndex = 78;
             this.receiveService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5541,8 +5343,7 @@ namespace Quan_Ly_Khach_San
             this.returnRoom.ForeColor = System.Drawing.Color.White;
             this.returnRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnRoom.HoverState.Parent = this.returnRoom;
-            this.returnRoom.Location = new System.Drawing.Point(143, 111);
-            this.returnRoom.Margin = new System.Windows.Forms.Padding(4);
+            this.returnRoom.Location = new System.Drawing.Point(107, 90);
             this.returnRoom.Name = "returnRoom";
             this.returnRoom.PasswordChar = '\0';
             this.returnRoom.PlaceholderText = "";
@@ -5550,7 +5351,7 @@ namespace Quan_Ly_Khach_San
             this.returnRoom.SelectedText = "";
             this.returnRoom.SelectionStart = 5;
             this.returnRoom.ShadowDecoration.Parent = this.returnRoom;
-            this.returnRoom.Size = new System.Drawing.Size(149, 50);
+            this.returnRoom.Size = new System.Drawing.Size(112, 41);
             this.returnRoom.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.returnRoom.TabIndex = 74;
             this.returnRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5571,11 +5372,10 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneGradientButton2.ForeColor = System.Drawing.Color.Black;
             this.siticoneGradientButton2.HoverState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Location = new System.Drawing.Point(332, 594);
-            this.siticoneGradientButton2.Margin = new System.Windows.Forms.Padding(4);
+            this.siticoneGradientButton2.Location = new System.Drawing.Point(249, 483);
             this.siticoneGradientButton2.Name = "siticoneGradientButton2";
             this.siticoneGradientButton2.ShadowDecoration.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Size = new System.Drawing.Size(219, 58);
+            this.siticoneGradientButton2.Size = new System.Drawing.Size(164, 47);
             this.siticoneGradientButton2.TabIndex = 25;
             this.siticoneGradientButton2.Text = "Print Bill";
             // 
@@ -5599,8 +5399,7 @@ namespace Quan_Ly_Khach_San
             this.receiveRoom.ForeColor = System.Drawing.Color.White;
             this.receiveRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveRoom.HoverState.Parent = this.receiveRoom;
-            this.receiveRoom.Location = new System.Drawing.Point(143, 53);
-            this.receiveRoom.Margin = new System.Windows.Forms.Padding(4);
+            this.receiveRoom.Location = new System.Drawing.Point(107, 43);
             this.receiveRoom.Name = "receiveRoom";
             this.receiveRoom.PasswordChar = '\0';
             this.receiveRoom.PlaceholderText = "";
@@ -5608,7 +5407,7 @@ namespace Quan_Ly_Khach_San
             this.receiveRoom.SelectedText = "";
             this.receiveRoom.SelectionStart = 5;
             this.receiveRoom.ShadowDecoration.Parent = this.receiveRoom;
-            this.receiveRoom.Size = new System.Drawing.Size(149, 50);
+            this.receiveRoom.Size = new System.Drawing.Size(112, 41);
             this.receiveRoom.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.receiveRoom.TabIndex = 68;
             this.receiveRoom.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -5636,8 +5435,7 @@ namespace Quan_Ly_Khach_San
             chartArea2.BorderColor = System.Drawing.Color.White;
             chartArea2.Name = "ChartArea2";
             this.chart2.ChartAreas.Add(chartArea2);
-            this.chart2.Location = new System.Drawing.Point(594, 160);
-            this.chart2.Margin = new System.Windows.Forms.Padding(4);
+            this.chart2.Location = new System.Drawing.Point(446, 130);
             this.chart2.Name = "chart2";
             series3.ChartArea = "ChartArea2";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
@@ -5649,7 +5447,7 @@ namespace Quan_Ly_Khach_San
             series4.Name = "Series2";
             this.chart2.Series.Add(series3);
             this.chart2.Series.Add(series4);
-            this.chart2.Size = new System.Drawing.Size(723, 465);
+            this.chart2.Size = new System.Drawing.Size(542, 378);
             this.chart2.TabIndex = 74;
             this.chart2.Text = "chart2";
             // 
@@ -5657,22 +5455,20 @@ namespace Quan_Ly_Khach_San
             // 
             this.RequestTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.RequestTab.Location = new System.Drawing.Point(4, 44);
-            this.RequestTab.Margin = new System.Windows.Forms.Padding(4);
             this.RequestTab.Name = "RequestTab";
-            this.RequestTab.Padding = new System.Windows.Forms.Padding(4);
-            this.RequestTab.Size = new System.Drawing.Size(1325, 752);
+            this.RequestTab.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.RequestTab.Size = new System.Drawing.Size(992, 602);
             this.RequestTab.TabIndex = 2;
             this.RequestTab.Text = "ANALYSIS";
             // 
             // Statistic_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.ClientSize = new System.Drawing.Size(1333, 788);
+            this.ClientSize = new System.Drawing.Size(1000, 640);
             this.Controls.Add(this.StatisticAll);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Statistic_Form";
             this.Load += new System.EventHandler(this.Statistic_Form_Load);
             this.StatisticAll.ResumeLayout(false);

@@ -29,9 +29,9 @@ namespace Quan_Ly_Khach_San
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer_Form));
             this.CustomerGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.maKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,21 +60,21 @@ namespace Quan_Ly_Khach_San
             // 
             // CustomerGrid
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.CustomerGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            this.CustomerGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.CustomerGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.CustomerGrid.BackgroundColor = System.Drawing.Color.White;
             this.CustomerGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CustomerGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.CustomerGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.CustomerGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.CustomerGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.CustomerGrid.ColumnHeadersHeight = 40;
             this.CustomerGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.maKH,
@@ -83,24 +83,24 @@ namespace Quan_Ly_Khach_San
             this.CMND,
             this.diaChi,
             this.ghiChu});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.CustomerGrid.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.CustomerGrid.DefaultCellStyle = dataGridViewCellStyle6;
             this.CustomerGrid.EnableHeadersVisualStyles = false;
             this.CustomerGrid.GridColor = System.Drawing.Color.White;
-            this.CustomerGrid.Location = new System.Drawing.Point(3, 352);
+            this.CustomerGrid.Location = new System.Drawing.Point(8, 352);
             this.CustomerGrid.Name = "CustomerGrid";
             this.CustomerGrid.ReadOnly = true;
             this.CustomerGrid.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.CustomerGrid.RowHeadersVisible = false;
             this.CustomerGrid.RowHeadersWidth = 51;
             this.CustomerGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.CustomerGrid.Size = new System.Drawing.Size(976, 288);
+            this.CustomerGrid.Size = new System.Drawing.Size(985, 288);
             this.CustomerGrid.TabIndex = 1;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -281,7 +281,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerNoteTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerNoteTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNoteTxb.HoverState.Parent = this.CustomerNoteTxb;
-            this.CustomerNoteTxb.Location = new System.Drawing.Point(555, 232);
+            this.CustomerNoteTxb.Location = new System.Drawing.Point(555, 217);
             this.CustomerNoteTxb.Name = "CustomerNoteTxb";
             this.CustomerNoteTxb.PasswordChar = '\0';
             this.CustomerNoteTxb.PlaceholderText = "Note";
@@ -415,7 +415,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerAddress.PlaceholderText = "Address";
             this.CustomerAddress.SelectedText = "";
             this.CustomerAddress.ShadowDecoration.Parent = this.CustomerAddress;
-            this.CustomerAddress.Size = new System.Drawing.Size(323, 58);
+            this.CustomerAddress.Size = new System.Drawing.Size(323, 43);
             this.CustomerAddress.TabIndex = 20;
             this.CustomerAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -468,7 +468,7 @@ namespace Quan_Ly_Khach_San
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.DarkGray;
-            this.label5.Location = new System.Drawing.Point(551, 208);
+            this.label5.Location = new System.Drawing.Point(551, 193);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 21);
             this.label5.TabIndex = 25;
