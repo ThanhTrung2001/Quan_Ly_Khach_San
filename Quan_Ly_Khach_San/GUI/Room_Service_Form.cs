@@ -24,9 +24,268 @@ namespace Quan_Ly_Khach_San
             CustomerLoad();
             BillLoad();
             LoadRisk();
+            Room101ColorLoad();
+            Room102ColorLoad();
+            Room103ColorLoad();
+            Room104ColorLoad();
+            Room105ColorLoad();
+            Room106ColorLoad();
+
+            Room201ColorLoad();
+            Room202ColorLoad();
+            Room203ColorLoad();
+            Room204ColorLoad();
+            Room205ColorLoad();
+            Room206ColorLoad();
+
+            Room301ColorLoad();
+            Room302ColorLoad();
+            Room303ColorLoad();
+            Room304ColorLoad();
+
+            Room401ColorLoad();
+            Room402ColorLoad();
+            Room403ColorLoad();
+            Room404ColorLoad();
         }
 
         #region Room
+
+        #region ColorRoom
+        //Tang 1
+
+        void Room101ColorLoad()
+        {
+            if(Phong_BUS.CheckEmptyHired("P101"))
+            {
+                p101.BackColor = Color.LightGreen;
+            } else
+            {
+                p101.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room102ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P102"))
+            {
+                p102.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p102.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room103ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P103"))
+            {
+                p103.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p103.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room104ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P104"))
+            {
+                p104.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p104.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room105ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P105"))
+            {
+                p105.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p105.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room106ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P106"))
+            {
+                p106.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p106.BackColor = Color.LightSalmon;
+            }
+        }
+
+        // Tang 2
+        void Room201ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P201"))
+            {
+                p201.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p201.BackColor = Color.LightSalmon;
+            }
+        }
+
+        void Room202ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P202"))
+            {
+                p202.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p202.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room203ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P203"))
+            {
+                p203.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p203.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room204ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P204"))
+            {
+                p204.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p204.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room205ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P205"))
+            {
+                p205.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p205.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room206ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P206"))
+            {
+                p206.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p206.BackColor = Color.LightSalmon;
+            }
+        }
+
+        //Tang 3
+
+        void Room301ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P301"))
+            {
+                p301.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p301.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room302ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P302"))
+            {
+                p302.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p302.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room303ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P303"))
+            {
+                p303.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p303.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room304ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P304"))
+            {
+                p304.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p304.BackColor = Color.LightSalmon;
+            }
+        }
+
+        //Tang 4
+
+        void Room401ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P401"))
+            {
+                p401.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p401.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room402ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P402"))
+            {
+                p402.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p402.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room403ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P403"))
+            {
+                p403.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p403.BackColor = Color.LightSalmon;
+            }
+        }
+        void Room404ColorLoad()
+        {
+            if (Phong_BUS.CheckEmptyHired("P404"))
+            {
+                p404.BackColor = Color.LightGreen;
+            }
+            else
+            {
+                p404.BackColor = Color.LightSalmon;
+            }
+        }
+
+        #endregion
+
+
         private void AddCustomer_Click(object sender, EventArgs e)
         {
             Add_Customer_Form add = new Add_Customer_Form();

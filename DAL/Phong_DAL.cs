@@ -52,5 +52,23 @@ namespace DAL
             DataProvider.DongKetNoiDatabase(conn);
             return phong;
         }
+
+        public static bool CheckEmptyHired(string maPhong)
+        {
+            string command = $"select tinhTrang from Phong where maPhong = '{maPhong}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+
+            Phong phong = new Phong();
+            phong.TinhTrang = dt.Rows[0]["tinhTrang"].ToString();
+
+            if(phong.TinhTrang == "Empty")
+            {
+                return true;
+            }
+
+            DataProvider.DongKetNoiDatabase(conn);
+            return false;
+        }
     }
 }

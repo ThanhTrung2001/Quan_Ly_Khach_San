@@ -14,5 +14,10 @@ namespace BUS
         {
             return Phong_DAL.RoomList(maPhong);
         }
+
+        public static bool CheckEmptyHired(string maPhong)
+        {
+            return Phong_DAL.CheckEmptyHired(maPhong);
+        }
     }
 }
