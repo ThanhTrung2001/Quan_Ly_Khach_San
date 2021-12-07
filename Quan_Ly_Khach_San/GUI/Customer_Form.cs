@@ -128,6 +128,9 @@ namespace Quan_Ly_Khach_San
 
         private void CustomerGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            //Get id Customer
+            ClassPublic.Customerid = CustomerGrid.Rows[e.RowIndex].Cells[0].Value.ToString();
+            //
             this.CustomerNameTxb.Text = CustomerGrid.Rows[e.RowIndex].Cells[1].Value.ToString();
             this.CustomerPhonetxb.Text = CustomerGrid.Rows[e.RowIndex].Cells[3].Value.ToString();
             this.CustomerIdentityTxb.Text = CustomerGrid.Rows[e.RowIndex].Cells[2].Value.ToString();
@@ -152,6 +155,24 @@ namespace Quan_Ly_Khach_San
             {
                 e.Handled = true;
             }
+        }
+
+        private void FoodNavigationBtn_Click(object sender, EventArgs e)
+        {
+            ClassPublic.NavigationVar = "Food";
+            MessageBox.Show("Apply Success. Please go to Food Form");
+        }
+
+        private void RoomNavigationBtn_Click(object sender, EventArgs e)
+        {
+            ClassPublic.NavigationVar = "Room";
+            MessageBox.Show("Apply Success. Please go to Room Form");
+        }
+
+        private void ServiceNavigationBtn_Click(object sender, EventArgs e)
+        {
+            ClassPublic.NavigationVar = "Service";
+            MessageBox.Show("Apply Success. Please go to Service Form");
         }
     }
 }

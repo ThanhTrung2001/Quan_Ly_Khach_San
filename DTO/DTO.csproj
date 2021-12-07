@@ -44,6 +44,7 @@
     <Compile Include="ChiTietDanhSachDichVu.cs" />
     <Compile Include="ChiTietDanhSachMonAn.cs" />
     <Compile Include="ChiTietDanhSachNguyenLieu.cs" />
+    <Compile Include="ClassPublic.cs" />
     <Compile Include="DaiLy.cs" />
     <Compile Include="DichVu.cs" />
     <Compile Include="DonViTinh.cs" />

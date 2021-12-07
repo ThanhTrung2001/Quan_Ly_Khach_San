@@ -24,7 +24,7 @@ namespace Quan_Ly_Khach_San.GUI
             CustomerLoad();
             BillLoad();
             LoadRisk();
-                
+            
         }
         
         
@@ -54,6 +54,11 @@ namespace Quan_Ly_Khach_San.GUI
             foreach (KhachHang khachHang in list)
             {
                 this.CustomerSelectCb.Items.Add(khachHang);
+            }
+            if (ClassPublic.NavigationVar == "Service")
+            {
+                this.CustomerSelectCb.Text = ClassPublic.Customerid;
+                ClassPublic.NavigationVar = "";
             }
         }
 

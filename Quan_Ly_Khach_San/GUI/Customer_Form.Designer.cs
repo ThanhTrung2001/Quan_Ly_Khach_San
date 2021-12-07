@@ -55,6 +55,9 @@ namespace Quan_Ly_Khach_San
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.FoodNavigationBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.RoomNavigationBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.ServiceNavigationBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,14 +96,14 @@ namespace Quan_Ly_Khach_San
             this.CustomerGrid.DefaultCellStyle = dataGridViewCellStyle6;
             this.CustomerGrid.EnableHeadersVisualStyles = false;
             this.CustomerGrid.GridColor = System.Drawing.Color.White;
-            this.CustomerGrid.Location = new System.Drawing.Point(8, 352);
+            this.CustomerGrid.Location = new System.Drawing.Point(26, 352);
             this.CustomerGrid.Name = "CustomerGrid";
             this.CustomerGrid.ReadOnly = true;
             this.CustomerGrid.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.CustomerGrid.RowHeadersVisible = false;
             this.CustomerGrid.RowHeadersWidth = 51;
             this.CustomerGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.CustomerGrid.Size = new System.Drawing.Size(985, 288);
+            this.CustomerGrid.Size = new System.Drawing.Size(949, 288);
             this.CustomerGrid.TabIndex = 1;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -192,7 +195,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerNameTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNameTxb.HoverState.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Location = new System.Drawing.Point(123, 143);
+            this.CustomerNameTxb.Location = new System.Drawing.Point(125, 143);
             this.CustomerNameTxb.Name = "CustomerNameTxb";
             this.CustomerNameTxb.PasswordChar = '\0';
             this.CustomerNameTxb.PlaceholderText = "Name";
@@ -221,7 +224,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerPhonetxb.ForeColor = System.Drawing.Color.White;
             this.CustomerPhonetxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerPhonetxb.HoverState.Parent = this.CustomerPhonetxb;
-            this.CustomerPhonetxb.Location = new System.Drawing.Point(123, 217);
+            this.CustomerPhonetxb.Location = new System.Drawing.Point(125, 217);
             this.CustomerPhonetxb.Name = "CustomerPhonetxb";
             this.CustomerPhonetxb.PasswordChar = '\0';
             this.CustomerPhonetxb.PlaceholderText = "Phone Numbers";
@@ -251,7 +254,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerIdentityTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerIdentityTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerIdentityTxb.HoverState.Parent = this.CustomerIdentityTxb;
-            this.CustomerIdentityTxb.Location = new System.Drawing.Point(123, 291);
+            this.CustomerIdentityTxb.Location = new System.Drawing.Point(125, 291);
             this.CustomerIdentityTxb.Name = "CustomerIdentityTxb";
             this.CustomerIdentityTxb.PasswordChar = '\0';
             this.CustomerIdentityTxb.PlaceholderText = "Identity Numbers";
@@ -281,7 +284,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerNoteTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerNoteTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNoteTxb.HoverState.Parent = this.CustomerNoteTxb;
-            this.CustomerNoteTxb.Location = new System.Drawing.Point(555, 217);
+            this.CustomerNoteTxb.Location = new System.Drawing.Point(557, 217);
             this.CustomerNoteTxb.Name = "CustomerNoteTxb";
             this.CustomerNoteTxb.PasswordChar = '\0';
             this.CustomerNoteTxb.PlaceholderText = "Note";
@@ -307,7 +310,7 @@ namespace Quan_Ly_Khach_San
             this.EditBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EditBtn.ForeColor = System.Drawing.Color.White;
             this.EditBtn.HoverState.Parent = this.EditBtn;
-            this.EditBtn.Location = new System.Drawing.Point(555, 281);
+            this.EditBtn.Location = new System.Drawing.Point(557, 281);
             this.EditBtn.Name = "EditBtn";
             this.EditBtn.ShadowDecoration.Parent = this.EditBtn;
             this.EditBtn.Size = new System.Drawing.Size(147, 49);
@@ -331,7 +334,7 @@ namespace Quan_Ly_Khach_San
             this.DeleteBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteBtn.ForeColor = System.Drawing.Color.White;
             this.DeleteBtn.HoverState.Parent = this.DeleteBtn;
-            this.DeleteBtn.Location = new System.Drawing.Point(731, 281);
+            this.DeleteBtn.Location = new System.Drawing.Point(733, 281);
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.ShadowDecoration.Parent = this.DeleteBtn;
             this.DeleteBtn.Size = new System.Drawing.Size(147, 49);
@@ -409,7 +412,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerAddress.ForeColor = System.Drawing.Color.White;
             this.CustomerAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerAddress.HoverState.Parent = this.CustomerAddress;
-            this.CustomerAddress.Location = new System.Drawing.Point(555, 139);
+            this.CustomerAddress.Location = new System.Drawing.Point(557, 139);
             this.CustomerAddress.Name = "CustomerAddress";
             this.CustomerAddress.PasswordChar = '\0';
             this.CustomerAddress.PlaceholderText = "Address";
@@ -424,7 +427,7 @@ namespace Quan_Ly_Khach_San
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkGray;
-            this.label1.Location = new System.Drawing.Point(119, 119);
+            this.label1.Location = new System.Drawing.Point(121, 119);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 21);
             this.label1.TabIndex = 21;
@@ -435,7 +438,7 @@ namespace Quan_Ly_Khach_San
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.DarkGray;
-            this.label2.Location = new System.Drawing.Point(119, 193);
+            this.label2.Location = new System.Drawing.Point(121, 193);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 21);
             this.label2.TabIndex = 22;
@@ -446,7 +449,7 @@ namespace Quan_Ly_Khach_San
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(119, 267);
+            this.label3.Location = new System.Drawing.Point(121, 267);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 21);
             this.label3.TabIndex = 23;
@@ -457,7 +460,7 @@ namespace Quan_Ly_Khach_San
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.DarkGray;
-            this.label4.Location = new System.Drawing.Point(551, 119);
+            this.label4.Location = new System.Drawing.Point(553, 119);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(73, 21);
             this.label4.TabIndex = 24;
@@ -468,7 +471,7 @@ namespace Quan_Ly_Khach_San
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.DarkGray;
-            this.label5.Location = new System.Drawing.Point(551, 193);
+            this.label5.Location = new System.Drawing.Point(553, 193);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 21);
             this.label5.TabIndex = 25;
@@ -485,12 +488,84 @@ namespace Quan_Ly_Khach_San
             this.label6.TabIndex = 26;
             this.label6.Text = "Customers List";
             // 
+            // FoodNavigationBtn
+            // 
+            this.FoodNavigationBtn.CheckedState.Parent = this.FoodNavigationBtn;
+            this.FoodNavigationBtn.CustomImages.Parent = this.FoodNavigationBtn;
+            this.FoodNavigationBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.FoodNavigationBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.FoodNavigationBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.FoodNavigationBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.FoodNavigationBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.FoodNavigationBtn.DisabledState.Parent = this.FoodNavigationBtn;
+            this.FoodNavigationBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.FoodNavigationBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.FoodNavigationBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodNavigationBtn.ForeColor = System.Drawing.Color.White;
+            this.FoodNavigationBtn.HoverState.Parent = this.FoodNavigationBtn;
+            this.FoodNavigationBtn.Location = new System.Drawing.Point(900, 50);
+            this.FoodNavigationBtn.Name = "FoodNavigationBtn";
+            this.FoodNavigationBtn.ShadowDecoration.Parent = this.FoodNavigationBtn;
+            this.FoodNavigationBtn.Size = new System.Drawing.Size(100, 49);
+            this.FoodNavigationBtn.TabIndex = 27;
+            this.FoodNavigationBtn.Text = "Food";
+            this.FoodNavigationBtn.Click += new System.EventHandler(this.FoodNavigationBtn_Click);
+            // 
+            // RoomNavigationBtn
+            // 
+            this.RoomNavigationBtn.CheckedState.Parent = this.RoomNavigationBtn;
+            this.RoomNavigationBtn.CustomImages.Parent = this.RoomNavigationBtn;
+            this.RoomNavigationBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.RoomNavigationBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.RoomNavigationBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.RoomNavigationBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.RoomNavigationBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.RoomNavigationBtn.DisabledState.Parent = this.RoomNavigationBtn;
+            this.RoomNavigationBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.RoomNavigationBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.RoomNavigationBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RoomNavigationBtn.ForeColor = System.Drawing.Color.White;
+            this.RoomNavigationBtn.HoverState.Parent = this.RoomNavigationBtn;
+            this.RoomNavigationBtn.Location = new System.Drawing.Point(900, 120);
+            this.RoomNavigationBtn.Name = "RoomNavigationBtn";
+            this.RoomNavigationBtn.ShadowDecoration.Parent = this.RoomNavigationBtn;
+            this.RoomNavigationBtn.Size = new System.Drawing.Size(100, 49);
+            this.RoomNavigationBtn.TabIndex = 28;
+            this.RoomNavigationBtn.Text = "Room";
+            this.RoomNavigationBtn.Click += new System.EventHandler(this.RoomNavigationBtn_Click);
+            // 
+            // ServiceNavigationBtn
+            // 
+            this.ServiceNavigationBtn.CheckedState.Parent = this.ServiceNavigationBtn;
+            this.ServiceNavigationBtn.CustomImages.Parent = this.ServiceNavigationBtn;
+            this.ServiceNavigationBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.ServiceNavigationBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.ServiceNavigationBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ServiceNavigationBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.ServiceNavigationBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.ServiceNavigationBtn.DisabledState.Parent = this.ServiceNavigationBtn;
+            this.ServiceNavigationBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.ServiceNavigationBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.ServiceNavigationBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceNavigationBtn.ForeColor = System.Drawing.Color.White;
+            this.ServiceNavigationBtn.HoverState.Parent = this.ServiceNavigationBtn;
+            this.ServiceNavigationBtn.Location = new System.Drawing.Point(900, 190);
+            this.ServiceNavigationBtn.Name = "ServiceNavigationBtn";
+            this.ServiceNavigationBtn.ShadowDecoration.Parent = this.ServiceNavigationBtn;
+            this.ServiceNavigationBtn.Size = new System.Drawing.Size(100, 49);
+            this.ServiceNavigationBtn.TabIndex = 29;
+            this.ServiceNavigationBtn.Text = "Service";
+            this.ServiceNavigationBtn.Click += new System.EventHandler(this.ServiceNavigationBtn_Click);
+            // 
             // Customer_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.ClientSize = new System.Drawing.Size(1000, 640);
+            this.Controls.Add(this.ServiceNavigationBtn);
+            this.Controls.Add(this.RoomNavigationBtn);
+            this.Controls.Add(this.FoodNavigationBtn);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -541,5 +616,8 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton FoodNavigationBtn;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton RoomNavigationBtn;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton ServiceNavigationBtn;
     }
 }

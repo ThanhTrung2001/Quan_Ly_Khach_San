@@ -76,6 +76,11 @@ namespace Quan_Ly_Khach_San
             {
                 this.CustomerPickCb.Items.Add(khachHang);
             }
+            if (ClassPublic.NavigationVar == "Food")
+            {
+                this.CustomerPickCb.Text = ClassPublic.Customerid;
+                ClassPublic.NavigationVar = "";
+            }
         }
 
         private void AddCustomerBtn_Click(object sender, EventArgs e)

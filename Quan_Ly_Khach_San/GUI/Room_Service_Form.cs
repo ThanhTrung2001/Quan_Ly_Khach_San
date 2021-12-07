@@ -424,6 +424,13 @@ namespace Quan_Ly_Khach_San
             {
                 this.CustomerSelect.Items.Add(khachHang);
             }
+
+            //
+            if (ClassPublic.NavigationVar == "Room")
+            {
+                this.CustomerSelect.Text = ClassPublic.Customerid;
+                ClassPublic.NavigationVar = "";
+            }
         }
 
         private void RoomRequestBtn_Click(object sender, EventArgs e)
