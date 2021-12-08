@@ -53,7 +53,7 @@ namespace DAL
             return phong;
         }
 
-        public static bool CheckEmptyHired(string maPhong)
+        public static bool CheckEmpty(string maPhong)
         {
             string command = $"select tinhTrang from Phong where maPhong = '{maPhong}'";
             conn = DataProvider.MoKetNoiDatabase();

@@ -175,7 +175,7 @@ namespace DAL
 
         public static List<HoaDonPhong> RoomListWithDate(DateTime date, string CustomerID)
         {
-            string command = $"select maHoaDon, checkin, checkout, maNV, maKH, maPhong, soNgayO, tongTien, tienNhan, tienThua, maRR, soTienHoan, maTinhTrang, ghiChu " + $"from HoaDonPhong where Day(checkout) = '{date.Day}' and Month(checkout) = '{date.Month}' and Year(checkout) = '{date.Year}' and maKH like '{CustomerID}%'";
+            string command = $"select maHoaDon, checkin, checkout, maNV, maKH, maPhong, soNgayO, tongTien, tienNhan, tienThua, maRR, soTienHoan, maTinhTrang, ghiChu " + $"from HoaDonPhong where maTinhTrang = 'Co' and Day(checkout) = '{date.Day}' and Month(checkout) = '{date.Month}' and Year(checkout) = '{date.Year}' and maKH like '{CustomerID}%'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
@@ -218,7 +218,7 @@ namespace DAL
         public static List<HoaDonPhong> RoomListWithMonth(string thang, string nam, string CustomerID)
         {
             string command = $"select maHoaDon, checkin, checkout, maNV, maKH, maPhong, soNgayO, tongTien, tienNhan, tienThua, maRR, soTienHoan, maTinhTrang, ghiChu " +
-                $"from HoaDonPhong where Month(checkout) = '{thang}' and Year(checkout) = '{nam}' and maKH like '{CustomerID}%'";
+                $"from HoaDonPhong where maTinhTrang = 'Co' and Month(checkout) = '{thang}' and Year(checkout) = '{nam}' and maKH like '{CustomerID}%'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)

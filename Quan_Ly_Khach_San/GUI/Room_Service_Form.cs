@@ -52,140 +52,144 @@ namespace Quan_Ly_Khach_San
         #region Room
 
         #region ColorRoom
-        //Tang 1
+      
+        // Color
+        Color colorEmpty = Color.SkyBlue;
+        Color colorHired = Color.DarkGray;
 
+        // Tang 1
         void Room101ColorLoad()
         {
-            if(Phong_BUS.CheckEmptyHired("P101"))
+            if(Phong_BUS.CheckEmpty("P101"))
             {
-                p101.BackColor = Color.LightGreen;
+                p101.BackColor = colorEmpty;
             } else
             {
-                p101.BackColor = Color.LightSalmon;
+                p101.BackColor = colorHired;
             }
         }
         void Room102ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P102"))
+            if (Phong_BUS.CheckEmpty("P102"))
             {
-                p102.BackColor = Color.LightGreen;
+                p102.BackColor = colorEmpty;
             }
             else
             {
-                p102.BackColor = Color.LightSalmon;
+                p102.BackColor = colorHired;
             }
         }
         void Room103ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P103"))
+            if (Phong_BUS.CheckEmpty("P103"))
             {
-                p103.BackColor = Color.LightGreen;
+                p103.BackColor = colorEmpty;
             }
             else
             {
-                p103.BackColor = Color.LightSalmon;
+                p103.BackColor = colorHired;
             }
         }
         void Room104ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P104"))
+            if (Phong_BUS.CheckEmpty("P104"))
             {
-                p104.BackColor = Color.LightGreen;
+                p104.BackColor = colorEmpty;
             }
             else
             {
-                p104.BackColor = Color.LightSalmon;
+                p104.BackColor = colorHired;
             }
         }
         void Room105ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P105"))
+            if (Phong_BUS.CheckEmpty("P105"))
             {
-                p105.BackColor = Color.LightGreen;
+                p105.BackColor = colorEmpty;
             }
             else
             {
-                p105.BackColor = Color.LightSalmon;
+                p105.BackColor = colorHired;
             }
         }
         void Room106ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P106"))
+            if (Phong_BUS.CheckEmpty("P106"))
             {
-                p106.BackColor = Color.LightGreen;
+                p106.BackColor = colorEmpty;
             }
             else
             {
-                p106.BackColor = Color.LightSalmon;
+                p106.BackColor = colorHired;
             }
         }
 
         // Tang 2
         void Room201ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P201"))
+            if (Phong_BUS.CheckEmpty("P201"))
             {
-                p201.BackColor = Color.LightGreen;
+                p201.BackColor = colorEmpty;
             }
             else
             {
-                p201.BackColor = Color.LightSalmon;
+                p201.BackColor = colorHired;
             }
         }
 
         void Room202ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P202"))
+            if (Phong_BUS.CheckEmpty("P202"))
             {
-                p202.BackColor = Color.LightGreen;
+                p202.BackColor = colorEmpty;
             }
             else
             {
-                p202.BackColor = Color.LightSalmon;
+                p202.BackColor = colorHired;
             }
         }
         void Room203ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P203"))
+            if (Phong_BUS.CheckEmpty("P203"))
             {
-                p203.BackColor = Color.LightGreen;
+                p203.BackColor = colorEmpty;
             }
             else
             {
-                p203.BackColor = Color.LightSalmon;
+                p203.BackColor = colorHired;
             }
         }
         void Room204ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P204"))
+            if (Phong_BUS.CheckEmpty("P204"))
             {
-                p204.BackColor = Color.LightGreen;
+                p204.BackColor = colorEmpty;
             }
             else
             {
-                p204.BackColor = Color.LightSalmon;
+                p204.BackColor = colorHired;
             }
         }
         void Room205ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P205"))
+            if (Phong_BUS.CheckEmpty("P205"))
             {
-                p205.BackColor = Color.LightGreen;
+                p205.BackColor = colorEmpty;
             }
             else
             {
-                p205.BackColor = Color.LightSalmon;
+                p205.BackColor = colorHired;
             }
         }
         void Room206ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P206"))
+            if (Phong_BUS.CheckEmpty("P206"))
             {
-                p206.BackColor = Color.LightGreen;
+                p206.BackColor = colorEmpty;
             }
             else
             {
-                p206.BackColor = Color.LightSalmon;
+                p206.BackColor = colorHired;
             }
         }
 
@@ -193,46 +197,46 @@ namespace Quan_Ly_Khach_San
 
         void Room301ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P301"))
+            if (Phong_BUS.CheckEmpty("P301"))
             {
-                p301.BackColor = Color.LightGreen;
+                p301.BackColor = colorEmpty;
             }
             else
             {
-                p301.BackColor = Color.LightSalmon;
+                p301.BackColor = colorHired;
             }
         }
         void Room302ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P302"))
+            if (Phong_BUS.CheckEmpty("P302"))
             {
-                p302.BackColor = Color.LightGreen;
+                p302.BackColor = colorEmpty;
             }
             else
             {
-                p302.BackColor = Color.LightSalmon;
+                p302.BackColor = colorHired;
             }
         }
         void Room303ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P303"))
+            if (Phong_BUS.CheckEmpty("P303"))
             {
-                p303.BackColor = Color.LightGreen;
+                p303.BackColor = colorEmpty;
             }
             else
             {
-                p303.BackColor = Color.LightSalmon;
+                p303.BackColor = colorHired;
             }
         }
         void Room304ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P304"))
+            if (Phong_BUS.CheckEmpty("P304"))
             {
-                p304.BackColor = Color.LightGreen;
+                p304.BackColor = colorEmpty;
             }
             else
             {
-                p304.BackColor = Color.LightSalmon;
+                p304.BackColor = colorHired;
             }
         }
 
@@ -240,46 +244,46 @@ namespace Quan_Ly_Khach_San
 
         void Room401ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P401"))
+            if (Phong_BUS.CheckEmpty("P401"))
             {
-                p401.BackColor = Color.LightGreen;
+                p401.BackColor = colorEmpty;
             }
             else
             {
-                p401.BackColor = Color.LightSalmon;
+                p401.BackColor = colorHired;
             }
         }
         void Room402ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P402"))
+            if (Phong_BUS.CheckEmpty("P402"))
             {
-                p402.BackColor = Color.LightGreen;
+                p402.BackColor = colorEmpty;
             }
             else
             {
-                p402.BackColor = Color.LightSalmon;
+                p402.BackColor = colorHired;
             }
         }
         void Room403ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P403"))
+            if (Phong_BUS.CheckEmpty("P403"))
             {
-                p403.BackColor = Color.LightGreen;
+                p403.BackColor = colorEmpty;
             }
             else
             {
-                p403.BackColor = Color.LightSalmon;
+                p403.BackColor = colorHired;
             }
         }
         void Room404ColorLoad()
         {
-            if (Phong_BUS.CheckEmptyHired("P404"))
+            if (Phong_BUS.CheckEmpty("P404"))
             {
-                p404.BackColor = Color.LightGreen;
+                p404.BackColor = colorEmpty;
             }
             else
             {
-                p404.BackColor = Color.LightSalmon;
+                p404.BackColor = colorHired;
             }
         }
 
@@ -462,6 +466,30 @@ namespace Quan_Ly_Khach_San
                     MessageBox.Show("Successfully. Click 'OK' to continue !");
                     BillLoad();
 
+                    Room101ColorLoad();
+                    Room102ColorLoad();
+                    Room103ColorLoad();
+                    Room104ColorLoad();
+                    Room105ColorLoad();
+                    Room106ColorLoad();
+
+                    Room201ColorLoad();
+                    Room202ColorLoad();
+                    Room203ColorLoad();
+                    Room204ColorLoad();
+                    Room205ColorLoad();
+                    Room206ColorLoad();
+
+                    Room301ColorLoad();
+                    Room302ColorLoad();
+                    Room303ColorLoad();
+                    Room304ColorLoad();
+
+                    Room401ColorLoad();
+                    Room402ColorLoad();
+                    Room403ColorLoad();
+                    Room404ColorLoad();
+
                     ShowRoom(RoomTxb.Text);
                 }
             }
@@ -562,7 +590,7 @@ namespace Quan_Ly_Khach_San
                     roomId.Text = "";
                     dayNumber.Text = "";
                     risk.Text = "";
-                    refundTxb.Text = "";
+                    refundTxb.Text = "0.0";
                     totalPriceTxb.Text = "";
                     receiveTxb.Text = "";
                     returnTxb.Text = "";
