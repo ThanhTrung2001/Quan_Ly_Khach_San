@@ -24,6 +24,12 @@ namespace Quan_Ly_Khach_San
             CustomerLoad();
             BillLoad();
             LoadRisk();
+
+            LoadColorRoom();
+        }
+
+        private void LoadColorRoom()
+        {
             Room101ColorLoad();
             Room102ColorLoad();
             Room103ColorLoad();
@@ -466,29 +472,7 @@ namespace Quan_Ly_Khach_San
                     MessageBox.Show("Successfully. Click 'OK' to continue !");
                     BillLoad();
 
-                    Room101ColorLoad();
-                    Room102ColorLoad();
-                    Room103ColorLoad();
-                    Room104ColorLoad();
-                    Room105ColorLoad();
-                    Room106ColorLoad();
-
-                    Room201ColorLoad();
-                    Room202ColorLoad();
-                    Room203ColorLoad();
-                    Room204ColorLoad();
-                    Room205ColorLoad();
-                    Room206ColorLoad();
-
-                    Room301ColorLoad();
-                    Room302ColorLoad();
-                    Room303ColorLoad();
-                    Room304ColorLoad();
-
-                    Room401ColorLoad();
-                    Room402ColorLoad();
-                    Room403ColorLoad();
-                    Room404ColorLoad();
+                    LoadColorRoom();
 
                     ShowRoom(RoomTxb.Text);
                 }
@@ -584,6 +568,7 @@ namespace Quan_Ly_Khach_San
                     HoaDonPhong_BUS.UpdateRoomAfter(roomId.Text);
                     MessageBox.Show("Payment completed");
                     BillLoad();
+                    LoadColorRoom();
 
                     roomBillId.Text = "";
                     customerId.Text = "";
