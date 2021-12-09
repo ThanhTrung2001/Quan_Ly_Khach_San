@@ -98,5 +98,28 @@ namespace Quan_Ly_Khach_San
             this.RiskTypeTxb.Text = RiskGrid.Rows[i].Cells[1].Value.ToString();
             this.RiskCostTxb.Text = RiskGrid.Rows[i].Cells[2].Value.ToString();
         }
+
+        private void Search()
+        {
+            List<RuiRo> list;
+            string searchString = this.searchRisk.Text;
+            if (searchString == "")
+            {
+                list = RuiRo_BUS.RiskList();
+            }
+            else
+            {
+                list = RuiRo_BUS.SearchedRisk(searchString);
+            }
+
+            if (list == null) list = new List<RuiRo>();
+
+            RiskGrid.DataSource = list;
+        }
+
+        private void searchRisk_TextChanged(object sender, EventArgs e)
+        {
+            Search();
+        }
     }
 }
