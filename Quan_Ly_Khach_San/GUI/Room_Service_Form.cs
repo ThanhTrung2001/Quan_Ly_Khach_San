@@ -551,19 +551,15 @@ namespace Quan_Ly_Khach_San
             {
                 MessageBox.Show("Not enought Money !");
             }
-            else if(risk.Text == "")
-            {
-                MessageBox.Show("Please Choose Risk !");
-            }
             else
             {
                 HoaDonPhong hoaDonPhong = new HoaDonPhong();
                 hoaDonPhong.MaHoaDon = this.roomBillId.Text;
-                hoaDonPhong.TongTien = Double.Parse(this.totalPriceTxb.Text);
+                hoaDonPhong.TongTien = double.Parse(this.totalPriceTxb.Text);
                 hoaDonPhong.MaRR = this.risk.Text;
-                hoaDonPhong.SoTienHoan = Double.Parse(this.refundTxb.Text);
-                hoaDonPhong.TienNhan = Double.Parse(this.receiveTxb.Text);
-                hoaDonPhong.TienThua = Double.Parse(this.returnTxb.Text);
+                hoaDonPhong.SoTienHoan = double.Parse(this.refundTxb.Text);
+                hoaDonPhong.TienNhan = double.Parse(this.receiveTxb.Text);
+                hoaDonPhong.TienThua = double.Parse(this.returnTxb.Text);
                 hoaDonPhong.GhiChu = this.noteRoomBill.Text;
                 hoaDonPhong.MaTinhTrang = "Co";
 
@@ -579,11 +575,11 @@ namespace Quan_Ly_Khach_San
                     roomId.Text = "";
                     dayNumber.Text = "";
                     risk.Text = "";
-                    refundTxb.Text = "0";
+                    refundTxb.Text = "0.0";
                     totalPriceTxb.Text = "";
                     receiveTxb.Text = "";
                     returnTxb.Text = "";
-                    noteRoomBill.Text = "None";
+                    noteRoomBill.Text = "";
                 }
             }          
         }

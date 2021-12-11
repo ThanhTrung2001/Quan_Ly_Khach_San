@@ -195,11 +195,21 @@ namespace DAL
                 hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
                 hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
                 hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
-                hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
-                hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
+                //if (dt.Rows[i]["maRR"] == null)
+                //{
+                //    hoaDon.MaRR = "";
+                //    hoaDon.SoTienHoan = 0;
+                //} else
+                //{
+                //    hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
+                //    hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
+                //}
                 hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
-                hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
-                danhSach.Add(hoaDon);
+                //if (dt.Rows[i]["ghiChu"] == null)
+                //    hoaDon.GhiChu = "";
+                //else
+                //    hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
+                    danhSach.Add(hoaDon);
             }
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;
@@ -228,10 +238,6 @@ namespace DAL
                 hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
                 hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
                 hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
-                hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
-                hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
-                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
-                hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
                 //if (dt.Rows[i]["maRR"] == null)
                 //{
                 //    hoaDon.MaRR = "";
@@ -241,6 +247,7 @@ namespace DAL
                 //    hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
                 //    hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
                 //}
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
                 //if (dt.Rows[i]["ghiChu"] == null)
                 //    hoaDon.GhiChu = "";
                 //else
