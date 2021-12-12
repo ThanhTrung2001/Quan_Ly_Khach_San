@@ -11,6 +11,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
+using Aspose.Words;
+using Aspose.Words.Tables;
+using ThuVienWinform.Report.AsposeWordExtension;
 
 namespace Quan_Ly_Khach_San
 {
@@ -803,8 +806,59 @@ namespace Quan_Ly_Khach_San
         {
             AllMonthlyLoad();
         }
+
         #endregion
 
-        
+        private void printReportDay_Click(object sender, EventArgs e)
+        {
+            if (Totaltotal.Text != "")
+            {
+                Document baoCao = new Document("TemplateReport\\Report_Date.doc");
+
+                baoCao.MailMerge.Execute(new[] { "Ngay_Thang_Nam_BC" }, new[] { DateReportPicker.Value.ToString("dd/MM/yyyy") });//Value.ToString("dd/MM/yyyy")
+
+                baoCao.MailMerge.Execute(new[] { "Room_Receive" }, new[] { CollectRoom.Text });
+                baoCao.MailMerge.Execute(new[] { "Room_Return" }, new[] { PayRoom.Text });
+
+                baoCao.MailMerge.Execute(new[] { "Service_Receive" }, new[] { CollectService.Text });
+                baoCao.MailMerge.Execute(new[] { "Service_Return" }, new[] { PayService.Text });
+
+                baoCao.MailMerge.Execute(new[] { "Food_Receive" }, new[] { CollectFood.Text });
+                baoCao.MailMerge.Execute(new[] { "Food_Return" }, new[] { PayFood.Text });
+
+                baoCao.MailMerge.Execute(new[] { "Total_Receive" }, new[] { TotalCollect.Text });
+                baoCao.MailMerge.Execute(new[] { "Total_Return" }, new[] { TotalPay.Text });
+
+                baoCao.MailMerge.Execute(new[] { "Total_Revenue" }, new[] { Totaltotal.Text });
+
+                baoCao.SaveAndOpenFile("BaoCaoDay.doc");
+            }
+        }
+
+        private void printReportMonth_Click(object sender, EventArgs e)
+        {
+            if (totalTotalTotal.Text != "")
+            {
+                Document baoCao = new Document("TemplateReport\\Report_Month.doc");
+
+                baoCao.MailMerge.Execute(new[] { "Ngay_Thang_Nam_BC" }, new[] { "Thang " + PickMonth.Text + " Nam " + PickYear.Text });//Value.ToString("dd/MM/yyyy")
+
+                baoCao.MailMerge.Execute(new[] { "Room_Receive" }, new[] { receiveRoom.Text });
+                baoCao.MailMerge.Execute(new[] { "Room_Return" }, new[] { returnRoom.Text });
+
+                baoCao.MailMerge.Execute(new[] { "Service_Receive" }, new[] { receiveService.Text });
+                baoCao.MailMerge.Execute(new[] { "Service_Return" }, new[] { returnService.Text });
+
+                baoCao.MailMerge.Execute(new[] { "Food_Receive" }, new[] { receiveFood.Text });
+                baoCao.MailMerge.Execute(new[] { "Food_Return" }, new[] { returnFood.Text });
+
+                baoCao.MailMerge.Execute(new[] { "Total_Receive" }, new[] { receiveTotal.Text });
+                baoCao.MailMerge.Execute(new[] { "Total_Return" }, new[] { returnTotal.Text });
+
+                baoCao.MailMerge.Execute(new[] { "Total_Revenue" }, new[] { totalTotalTotal.Text });
+
+                baoCao.SaveAndOpenFile("BaoCaoMonth.doc");
+            }
+        }
     }
 }
