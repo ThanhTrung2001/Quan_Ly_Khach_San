@@ -13,21 +13,21 @@ namespace AutomationTesting
 {
     public class Login_Testing
     {
-        public int Login_Valid( string username, string password)
+        public bool Login_Valid( string username, string password)
         {
             if (username == "" || password == "")
             {
-                return -1;
+                return false;
             }
             else if (username == "thukho")
             {
                 if (password == "123456")
                 {
-                    return 4;
+                    return true;
                 }
                 else
                 {
-                    return -1;
+                    return false;
 
                 }
             }
@@ -35,11 +35,11 @@ namespace AutomationTesting
             {
                 if (password == "123456")
                 {
-                    return 3;
+                    return true;
                 }
                 else
                 {
-                    return -1;
+                    return false;
 
                 }
 
@@ -48,11 +48,11 @@ namespace AutomationTesting
             {
                 if (password == "123456")
                 {
-                    return 2;
+                    return true;
                 }
                 else
                 {
-                    return -1;
+                    return false;
 
                 }
 
@@ -61,11 +61,11 @@ namespace AutomationTesting
             {
                 if (password == "123456")
                 {
-                    return 1;
+                    return true;
                 }
                 else
                 {
-                    return -1;
+                    return false;
 
                 }
 
@@ -74,17 +74,28 @@ namespace AutomationTesting
             {
                 if (password == "admin")
                 {
-                    return 0;
+                    return true;
                 }
                 else
                 {
-                    return -1;
+                    return false;
 
                 }
             }
+            //else if (username == "")
+            //{
+            //    if (password != "")
+            //    {
+            //        return false;
+            //    }
+            //    else
+            //    {
+            //        return false;
+            //    }
+            //}
             else
             {
-                return -1;
+                return false;
             }
         }
     }

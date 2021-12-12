@@ -114,3 +114,5 @@ D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\runtimes\win-x64
 D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
 D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\TemplateReport\Report_Date.doc
+D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\Aspose.Words.dll

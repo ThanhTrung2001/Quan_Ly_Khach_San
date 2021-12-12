@@ -760,6 +760,14 @@
           "Quan_Ly_Khach_San.exe": {}
         }
       },
+      "Aspose.Words/11.3.0.0": {
+        "runtime": {
+          "Aspose.Words.dll": {
+            "assemblyVersion": "11.3.0.0",
+            "fileVersion": "11.3.0.0"
+          }
+        }
+      },
       "Siticone.Desktop.UI/2.0.8.0": {
         "runtime": {
           "Siticone.Desktop.UI.dll": {
@@ -1179,6 +1187,11 @@
     },
     "GUI_Quan_Ly/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aspose.Words/11.3.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

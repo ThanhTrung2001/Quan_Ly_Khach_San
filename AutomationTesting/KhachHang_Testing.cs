@@ -12,6 +12,16 @@ namespace AutomationTesting
 {
     public class KhachHang_Testing
     {
+        bool IsDigitsOnly(string str)
+        {
+            foreach (char c in str)
+            {
+                if (c < '0' || c > '9')
+                    return false;
+            }
+
+            return true;
+        }
         public bool Search_Customer(string text)
         {
             if(KhachHang_DAO.SearchedCustomer(text) != null)
@@ -30,7 +40,11 @@ namespace AutomationTesting
             {
                 return false;
             }
-            else if(Search_Customer(name) == true || Search_Customer(identity) == true)
+            else if(Search_Customer(identity) == true)
+            {
+                return false;
+            }
+            else if(IsDigitsOnly(identity) == false || IsDigitsOnly(SDT) == false)
             {
                 return false;
             }    

@@ -27,10 +27,10 @@ namespace AutomationTesting
 
         public bool Add_Risk(string id, string type, double refund)
         {
-            if(id == ""|| type == "" || refund <=0)
+            if(id == ""|| type == "" || refund <0)
             {
                 return false;
-            }    
+            }
             RuiRo ruiro = new RuiRo();
             ruiro.MaRR = id;
             ruiro.LoaiRR = type;

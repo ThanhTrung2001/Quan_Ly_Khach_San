@@ -147,3 +147,5 @@ D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.A
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Bunifu_UI_v1.5.3.xml
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Date.doc
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Aspose.Words.dll
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Date.doc
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Aspose.Words.dll

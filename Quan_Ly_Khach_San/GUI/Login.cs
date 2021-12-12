@@ -26,6 +26,7 @@ namespace Quan_Ly_Khach_San
                 if (PasswordTxb.Text == "123456")
                 {
                     role = 4;
+                    MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK);
                     Home form = new Home(role);
                     this.Hide();
                     form.ShowDialog();
@@ -42,6 +43,7 @@ namespace Quan_Ly_Khach_San
                 if (PasswordTxb.Text == "123456")
                 {
                     role = 3;
+                    MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK);
                     Home form = new Home(role);
                     this.Hide();
                     form.ShowDialog();
@@ -59,6 +61,7 @@ namespace Quan_Ly_Khach_San
                 if (PasswordTxb.Text == "123456")
                 {
                     role = 2;
+                    MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK);
                     Home form = new Home(role);
                     this.Hide();
                     form.ShowDialog();
@@ -76,6 +79,7 @@ namespace Quan_Ly_Khach_San
                 if (PasswordTxb.Text == "123456")
                 {
                     role = 1;
+                    MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK);
                     Home form = new Home(role);
                     this.Hide();
                     form.ShowDialog();
@@ -93,6 +97,7 @@ namespace Quan_Ly_Khach_San
                 if (PasswordTxb.Text == "admin")
                 {
                     role = 0;
+                    MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK);
                     Home form = new Home(role);
                     this.Hide();
                     form.ShowDialog();
@@ -104,6 +109,17 @@ namespace Quan_Ly_Khach_San
                 
                 }
             }
+            else if(UserNameTxb.Text == "")
+            {
+                if (PasswordTxb.Text != "")
+                {
+                    MessageBox.Show("You must type UserName!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show("UserName & Password are null!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }    
+            }    
             else
             {
                 MessageBox.Show("You type the wrong UserName!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
