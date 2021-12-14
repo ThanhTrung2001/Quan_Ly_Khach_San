@@ -480,7 +480,7 @@ namespace Quan_Ly_Khach_San
             double total = 0;
             double receive = 0;
             double returnMoney = 0;
-            double riskRefun = 0;
+            double riskRefun = 0; 
 
             foreach(HoaDonPhong bill in listDailyRoom)
             {

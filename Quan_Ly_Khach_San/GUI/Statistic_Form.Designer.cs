@@ -29,34 +29,34 @@ namespace Quan_Ly_Khach_San
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Statistic_Form));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.StatisticAll = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.payment = new System.Windows.Forms.TabPage();
             this.siticoneTabControl2 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
@@ -197,20 +197,6 @@ namespace Quan_Ly_Khach_San
             this.customerIDTxb = new Guna.UI2.WinForms.Guna2TextBox();
             this.SearchServiceBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.BillRoomDgv = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.mahoadon = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.checkin = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.checkout = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.manv = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.makh = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.phong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.songayo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tiennhan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tienthua = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.marr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tienhoan = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tinhtrang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ghichu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.siticonePanel1 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.label26 = new System.Windows.Forms.Label();
             this.RiskRefurnTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -232,18 +218,6 @@ namespace Quan_Ly_Khach_San
             this.FoodCustomerIDTxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.siticoneButton3 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.FoodDGV = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.siticonePanel6 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.label34 = new System.Windows.Forms.Label();
             this.FoodRiskRefurnTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -266,19 +240,6 @@ namespace Quan_Ly_Khach_San
             this.CustomerIDDailyTxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.siticoneButton1 = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.ServiceDailyDGV = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.siticonePanel4 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.label84 = new System.Windows.Forms.Label();
             this.ServiceRiskRefurnDailyTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -343,6 +304,45 @@ namespace Quan_Ly_Khach_San
             this.receiveRoom = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.RequestTab = new System.Windows.Forms.TabPage();
+            this.mahoadon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.checkin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.checkout = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.manv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.makh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.songayo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tiennhan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tienthua = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.marr = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tienhoan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tinhtrang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ghichu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn55 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn56 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.StatisticAll.SuspendLayout();
             this.payment.SuspendLayout();
             this.siticoneTabControl2.SuspendLayout();
@@ -381,7 +381,7 @@ namespace Quan_Ly_Khach_San
             this.StatisticAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StatisticAll.ItemSize = new System.Drawing.Size(180, 40);
             this.StatisticAll.Location = new System.Drawing.Point(0, 0);
-            this.StatisticAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.StatisticAll.Margin = new System.Windows.Forms.Padding(4);
             this.StatisticAll.Name = "StatisticAll";
             this.StatisticAll.SelectedIndex = 0;
             this.StatisticAll.Size = new System.Drawing.Size(1333, 800);
@@ -411,9 +411,9 @@ namespace Quan_Ly_Khach_San
             this.payment.Controls.Add(this.siticoneTabControl2);
             this.payment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.payment.Location = new System.Drawing.Point(4, 44);
-            this.payment.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.payment.Margin = new System.Windows.Forms.Padding(4);
             this.payment.Name = "payment";
-            this.payment.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.payment.Padding = new System.Windows.Forms.Padding(4);
             this.payment.Size = new System.Drawing.Size(1325, 752);
             this.payment.TabIndex = 3;
             this.payment.Text = "PAYMENT";
@@ -425,7 +425,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.siticoneTabControl2.ItemSize = new System.Drawing.Size(180, 40);
             this.siticoneTabControl2.Location = new System.Drawing.Point(4, 4);
-            this.siticoneTabControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneTabControl2.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneTabControl2.Name = "siticoneTabControl2";
             this.siticoneTabControl2.SelectedIndex = 0;
             this.siticoneTabControl2.Size = new System.Drawing.Size(1317, 744);
@@ -469,9 +469,9 @@ namespace Quan_Ly_Khach_San
             this.tabPage4.Controls.Add(this.TotalPriceFoodTxb);
             this.tabPage4.Controls.Add(this.CustomerFoodDGV);
             this.tabPage4.Location = new System.Drawing.Point(4, 44);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage4.Size = new System.Drawing.Size(1309, 696);
             this.tabPage4.TabIndex = 0;
             this.tabPage4.Text = "FOOD";
@@ -493,7 +493,7 @@ namespace Quan_Ly_Khach_San
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(980, 574);
+            this.label8.Location = new System.Drawing.Point(970, 559);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(38, 20);
@@ -517,7 +517,7 @@ namespace Quan_Ly_Khach_San
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Emoji", 9F);
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(955, 492);
+            this.label6.Location = new System.Drawing.Point(970, 492);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 20);
@@ -529,12 +529,12 @@ namespace Quan_Ly_Khach_San
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.DarkGray;
-            this.label5.Location = new System.Drawing.Point(739, 572);
+            this.label5.Location = new System.Drawing.Point(739, 557);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 22);
+            this.label5.Size = new System.Drawing.Size(79, 22);
             this.label5.TabIndex = 90;
-            this.label5.Text = "Return";
+            this.label5.Text = "RETURN";
             // 
             // label4
             // 
@@ -544,21 +544,21 @@ namespace Quan_Ly_Khach_San
             this.label4.Location = new System.Drawing.Point(1016, 485);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 22);
+            this.label4.Size = new System.Drawing.Size(81, 22);
             this.label4.TabIndex = 89;
-            this.label4.Text = "Receive";
+            this.label4.Text = "RECEIVE";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 9.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(739, 485);
+            this.label3.Location = new System.Drawing.Point(753, 485);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 22);
+            this.label3.Size = new System.Drawing.Size(65, 22);
             this.label3.TabIndex = 88;
-            this.label3.Text = "Total";
+            this.label3.Text = "TOTAL";
             // 
             // StatusCbb
             // 
@@ -579,7 +579,7 @@ namespace Quan_Ly_Khach_San
             "All"});
             this.StatusCbb.ItemsAppearance.Parent = this.StatusCbb;
             this.StatusCbb.Location = new System.Drawing.Point(249, 16);
-            this.StatusCbb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.StatusCbb.Margin = new System.Windows.Forms.Padding(4);
             this.StatusCbb.Name = "StatusCbb";
             this.StatusCbb.ShadowDecoration.Parent = this.StatusCbb;
             this.StatusCbb.Size = new System.Drawing.Size(185, 36);
@@ -603,7 +603,7 @@ namespace Quan_Ly_Khach_San
             this.SearchTextTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SearchTextTxt.HoverState.Parent = this.SearchTextTxt;
             this.SearchTextTxt.Location = new System.Drawing.Point(1, 16);
-            this.SearchTextTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SearchTextTxt.Margin = new System.Windows.Forms.Padding(4);
             this.SearchTextTxt.Name = "SearchTextTxt";
             this.SearchTextTxt.PasswordChar = '\0';
             this.SearchTextTxt.PlaceholderText = "Search customer ID";
@@ -615,21 +615,21 @@ namespace Quan_Ly_Khach_San
             // 
             // FListRequestDGV
             // 
-            dataGridViewCellStyle43.BackColor = System.Drawing.Color.White;
-            this.FListRequestDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
+            this.FListRequestDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
             this.FListRequestDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.FListRequestDGV.BackgroundColor = System.Drawing.Color.White;
             this.FListRequestDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.FListRequestDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.FListRequestDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle44.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.FListRequestDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.FListRequestDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
             this.FListRequestDGV.ColumnHeadersHeight = 40;
             this.FListRequestDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn11,
@@ -641,18 +641,18 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn21,
             this.dataGridViewTextBoxColumn22,
             this.Column27});
-            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle45.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.FListRequestDGV.DefaultCellStyle = dataGridViewCellStyle45;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.FListRequestDGV.DefaultCellStyle = dataGridViewCellStyle24;
             this.FListRequestDGV.EnableHeadersVisualStyles = false;
             this.FListRequestDGV.GridColor = System.Drawing.Color.White;
             this.FListRequestDGV.Location = new System.Drawing.Point(732, 68);
-            this.FListRequestDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FListRequestDGV.Margin = new System.Windows.Forms.Padding(4);
             this.FListRequestDGV.Name = "FListRequestDGV";
             this.FListRequestDGV.ReadOnly = true;
             this.FListRequestDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -780,15 +780,15 @@ namespace Quan_Ly_Khach_San
             this.ReturnMoneyTxb.ForeColor = System.Drawing.Color.White;
             this.ReturnMoneyTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReturnMoneyTxb.HoverState.Parent = this.ReturnMoneyTxb;
-            this.ReturnMoneyTxb.Location = new System.Drawing.Point(823, 548);
-            this.ReturnMoneyTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReturnMoneyTxb.Location = new System.Drawing.Point(828, 530);
+            this.ReturnMoneyTxb.Margin = new System.Windows.Forms.Padding(4);
             this.ReturnMoneyTxb.Name = "ReturnMoneyTxb";
             this.ReturnMoneyTxb.PasswordChar = '\0';
             this.ReturnMoneyTxb.PlaceholderText = "0";
             this.ReturnMoneyTxb.ReadOnly = true;
             this.ReturnMoneyTxb.SelectedText = "";
             this.ReturnMoneyTxb.ShadowDecoration.Parent = this.ReturnMoneyTxb;
-            this.ReturnMoneyTxb.Size = new System.Drawing.Size(149, 50);
+            this.ReturnMoneyTxb.Size = new System.Drawing.Size(134, 50);
             this.ReturnMoneyTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.ReturnMoneyTxb.TabIndex = 74;
             this.ReturnMoneyTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -814,7 +814,7 @@ namespace Quan_Ly_Khach_San
             this.ReceiveMoneyTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReceiveMoneyTxb.HoverState.Parent = this.ReceiveMoneyTxb;
             this.ReceiveMoneyTxb.Location = new System.Drawing.Point(1103, 462);
-            this.ReceiveMoneyTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReceiveMoneyTxb.Margin = new System.Windows.Forms.Padding(4);
             this.ReceiveMoneyTxb.Name = "ReceiveMoneyTxb";
             this.ReceiveMoneyTxb.PasswordChar = '\0';
             this.ReceiveMoneyTxb.PlaceholderText = "0";
@@ -843,7 +843,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton13.ForeColor = System.Drawing.Color.White;
             this.siticoneGradientButton13.HoverState.Parent = this.siticoneGradientButton13;
             this.siticoneGradientButton13.Location = new System.Drawing.Point(1129, 612);
-            this.siticoneGradientButton13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneGradientButton13.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneGradientButton13.Name = "siticoneGradientButton13";
             this.siticoneGradientButton13.ShadowDecoration.Parent = this.siticoneGradientButton13;
             this.siticoneGradientButton13.Size = new System.Drawing.Size(167, 55);
@@ -865,7 +865,7 @@ namespace Quan_Ly_Khach_San
             this.ConfirmRequest.ForeColor = System.Drawing.Color.White;
             this.ConfirmRequest.HoverState.Parent = this.ConfirmRequest;
             this.ConfirmRequest.Location = new System.Drawing.Point(928, 612);
-            this.ConfirmRequest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConfirmRequest.Margin = new System.Windows.Forms.Padding(4);
             this.ConfirmRequest.Name = "ConfirmRequest";
             this.ConfirmRequest.ShadowDecoration.Parent = this.ConfirmRequest;
             this.ConfirmRequest.Size = new System.Drawing.Size(167, 55);
@@ -893,8 +893,8 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceFoodTxb.ForeColor = System.Drawing.Color.White;
             this.TotalPriceFoodTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalPriceFoodTxb.HoverState.Parent = this.TotalPriceFoodTxb;
-            this.TotalPriceFoodTxb.Location = new System.Drawing.Point(797, 462);
-            this.TotalPriceFoodTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TotalPriceFoodTxb.Location = new System.Drawing.Point(828, 462);
+            this.TotalPriceFoodTxb.Margin = new System.Windows.Forms.Padding(4);
             this.TotalPriceFoodTxb.Name = "TotalPriceFoodTxb";
             this.TotalPriceFoodTxb.PasswordChar = '\0';
             this.TotalPriceFoodTxb.PlaceholderText = "";
@@ -902,28 +902,28 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceFoodTxb.SelectedText = "";
             this.TotalPriceFoodTxb.SelectionStart = 1;
             this.TotalPriceFoodTxb.ShadowDecoration.Parent = this.TotalPriceFoodTxb;
-            this.TotalPriceFoodTxb.Size = new System.Drawing.Size(149, 50);
+            this.TotalPriceFoodTxb.Size = new System.Drawing.Size(134, 50);
             this.TotalPriceFoodTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.TotalPriceFoodTxb.TabIndex = 72;
             this.TotalPriceFoodTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // CustomerFoodDGV
             // 
-            dataGridViewCellStyle46.BackColor = System.Drawing.Color.White;
-            this.CustomerFoodDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
+            this.CustomerFoodDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
             this.CustomerFoodDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.CustomerFoodDGV.BackgroundColor = System.Drawing.Color.White;
             this.CustomerFoodDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CustomerFoodDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.CustomerFoodDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle47.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.CustomerFoodDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.CustomerFoodDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.CustomerFoodDGV.ColumnHeadersHeight = 40;
             this.CustomerFoodDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn13,
@@ -939,18 +939,18 @@ namespace Quan_Ly_Khach_San
             this.tongTien,
             this.Column23,
             this.Column24});
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.CustomerFoodDGV.DefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.CustomerFoodDGV.DefaultCellStyle = dataGridViewCellStyle27;
             this.CustomerFoodDGV.EnableHeadersVisualStyles = false;
             this.CustomerFoodDGV.GridColor = System.Drawing.Color.White;
             this.CustomerFoodDGV.Location = new System.Drawing.Point(-4, 68);
-            this.CustomerFoodDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CustomerFoodDGV.Margin = new System.Windows.Forms.Padding(4);
             this.CustomerFoodDGV.Name = "CustomerFoodDGV";
             this.CustomerFoodDGV.ReadOnly = true;
             this.CustomerFoodDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1111,10 +1111,10 @@ namespace Quan_Ly_Khach_San
             this.tabPage5.Controls.Add(this.ConfirmRequestBtn);
             this.tabPage5.Controls.Add(this.RequestImportDGV);
             this.tabPage5.Location = new System.Drawing.Point(4, 44);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage5.Size = new System.Drawing.Size(1307, 686);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(4);
+            this.tabPage5.Size = new System.Drawing.Size(1309, 696);
             this.tabPage5.TabIndex = 1;
             this.tabPage5.Text = "SUPPLIER";
             // 
@@ -1174,7 +1174,7 @@ namespace Quan_Ly_Khach_San
             this.totaltxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totaltxt.HoverState.Parent = this.totaltxt;
             this.totaltxt.Location = new System.Drawing.Point(811, 620);
-            this.totaltxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.totaltxt.Margin = new System.Windows.Forms.Padding(4);
             this.totaltxt.Name = "totaltxt";
             this.totaltxt.PasswordChar = '\0';
             this.totaltxt.PlaceholderText = "";
@@ -1207,7 +1207,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneGroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.siticoneGroupBox1.ForeColor = System.Drawing.Color.White;
             this.siticoneGroupBox1.Location = new System.Drawing.Point(680, 0);
-            this.siticoneGroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneGroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneGroupBox1.Name = "siticoneGroupBox1";
             this.siticoneGroupBox1.ShadowDecoration.Parent = this.siticoneGroupBox1;
             this.siticoneGroupBox1.Size = new System.Drawing.Size(617, 270);
@@ -1291,7 +1291,7 @@ namespace Quan_Ly_Khach_San
             this.IngredientUnittxt.ItemHeight = 30;
             this.IngredientUnittxt.ItemsAppearance.Parent = this.IngredientUnittxt;
             this.IngredientUnittxt.Location = new System.Drawing.Point(247, 191);
-            this.IngredientUnittxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IngredientUnittxt.Margin = new System.Windows.Forms.Padding(4);
             this.IngredientUnittxt.Name = "IngredientUnittxt";
             this.IngredientUnittxt.ShadowDecoration.Parent = this.IngredientUnittxt;
             this.IngredientUnittxt.Size = new System.Drawing.Size(101, 36);
@@ -1312,7 +1312,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton1.ForeColor = System.Drawing.Color.White;
             this.siticoneGradientButton1.HoverState.Parent = this.siticoneGradientButton1;
             this.siticoneGradientButton1.Location = new System.Drawing.Point(497, 191);
-            this.siticoneGradientButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneGradientButton1.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneGradientButton1.Name = "siticoneGradientButton1";
             this.siticoneGradientButton1.ShadowDecoration.Parent = this.siticoneGradientButton1;
             this.siticoneGradientButton1.Size = new System.Drawing.Size(101, 55);
@@ -1340,7 +1340,7 @@ namespace Quan_Ly_Khach_San
             this.IngredientAmounttxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientAmounttxt.HoverState.Parent = this.IngredientAmounttxt;
             this.IngredientAmounttxt.Location = new System.Drawing.Point(453, 62);
-            this.IngredientAmounttxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IngredientAmounttxt.Margin = new System.Windows.Forms.Padding(4);
             this.IngredientAmounttxt.Name = "IngredientAmounttxt";
             this.IngredientAmounttxt.PasswordChar = '\0';
             this.IngredientAmounttxt.PlaceholderText = "Amount";
@@ -1366,7 +1366,7 @@ namespace Quan_Ly_Khach_San
             this.IngredientAddbtn.ForeColor = System.Drawing.Color.White;
             this.IngredientAddbtn.HoverState.Parent = this.IngredientAddbtn;
             this.IngredientAddbtn.Location = new System.Drawing.Point(359, 191);
-            this.IngredientAddbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IngredientAddbtn.Margin = new System.Windows.Forms.Padding(4);
             this.IngredientAddbtn.Name = "IngredientAddbtn";
             this.IngredientAddbtn.ShadowDecoration.Parent = this.IngredientAddbtn;
             this.IngredientAddbtn.Size = new System.Drawing.Size(135, 55);
@@ -1394,7 +1394,7 @@ namespace Quan_Ly_Khach_San
             this.IngredientPricetxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientPricetxt.HoverState.Parent = this.IngredientPricetxt;
             this.IngredientPricetxt.Location = new System.Drawing.Point(453, 123);
-            this.IngredientPricetxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IngredientPricetxt.Margin = new System.Windows.Forms.Padding(4);
             this.IngredientPricetxt.Name = "IngredientPricetxt";
             this.IngredientPricetxt.PasswordChar = '\0';
             this.IngredientPricetxt.PlaceholderText = "Price";
@@ -1422,7 +1422,7 @@ namespace Quan_Ly_Khach_San
             this.IngredientStyletxt.ItemHeight = 30;
             this.IngredientStyletxt.ItemsAppearance.Parent = this.IngredientStyletxt;
             this.IngredientStyletxt.Location = new System.Drawing.Point(93, 191);
-            this.IngredientStyletxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IngredientStyletxt.Margin = new System.Windows.Forms.Padding(4);
             this.IngredientStyletxt.Name = "IngredientStyletxt";
             this.IngredientStyletxt.ShadowDecoration.Parent = this.IngredientStyletxt;
             this.IngredientStyletxt.Size = new System.Drawing.Size(144, 36);
@@ -1448,7 +1448,7 @@ namespace Quan_Ly_Khach_San
             this.IngredientNametxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientNametxt.HoverState.Parent = this.IngredientNametxt;
             this.IngredientNametxt.Location = new System.Drawing.Point(93, 123);
-            this.IngredientNametxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IngredientNametxt.Margin = new System.Windows.Forms.Padding(4);
             this.IngredientNametxt.Name = "IngredientNametxt";
             this.IngredientNametxt.PasswordChar = '\0';
             this.IngredientNametxt.PlaceholderText = "Name";
@@ -1480,7 +1480,7 @@ namespace Quan_Ly_Khach_San
             this.IngredientIDtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientIDtxt.HoverState.Parent = this.IngredientIDtxt;
             this.IngredientIDtxt.Location = new System.Drawing.Point(93, 62);
-            this.IngredientIDtxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IngredientIDtxt.Margin = new System.Windows.Forms.Padding(4);
             this.IngredientIDtxt.Name = "IngredientIDtxt";
             this.IngredientIDtxt.PasswordChar = '\0';
             this.IngredientIDtxt.PlaceholderText = "Should\'t enter when you add new";
@@ -1506,7 +1506,7 @@ namespace Quan_Ly_Khach_San
             this.AddSupplierBtn.ForeColor = System.Drawing.Color.White;
             this.AddSupplierBtn.HoverState.Parent = this.AddSupplierBtn;
             this.AddSupplierBtn.Location = new System.Drawing.Point(475, 23);
-            this.AddSupplierBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddSupplierBtn.Margin = new System.Windows.Forms.Padding(4);
             this.AddSupplierBtn.Name = "AddSupplierBtn";
             this.AddSupplierBtn.ShadowDecoration.Parent = this.AddSupplierBtn;
             this.AddSupplierBtn.Size = new System.Drawing.Size(77, 55);
@@ -1534,7 +1534,7 @@ namespace Quan_Ly_Khach_San
             this.NoteSupplierTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.NoteSupplierTxb.HoverState.Parent = this.NoteSupplierTxb;
             this.NoteSupplierTxb.Location = new System.Drawing.Point(121, 89);
-            this.NoteSupplierTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NoteSupplierTxb.Margin = new System.Windows.Forms.Padding(4);
             this.NoteSupplierTxb.Name = "NoteSupplierTxb";
             this.NoteSupplierTxb.PasswordChar = '\0';
             this.NoteSupplierTxb.PlaceholderText = "";
@@ -1564,7 +1564,7 @@ namespace Quan_Ly_Khach_San
             this.SupplierPhoneTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierPhoneTxb.HoverState.Parent = this.SupplierPhoneTxb;
             this.SupplierPhoneTxb.Location = new System.Drawing.Point(7, 203);
-            this.SupplierPhoneTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SupplierPhoneTxb.Margin = new System.Windows.Forms.Padding(4);
             this.SupplierPhoneTxb.Name = "SupplierPhoneTxb";
             this.SupplierPhoneTxb.PasswordChar = '\0';
             this.SupplierPhoneTxb.PlaceholderText = "Search here";
@@ -1593,7 +1593,7 @@ namespace Quan_Ly_Khach_San
             "A1"});
             this.SupplierNameCb.ItemsAppearance.Parent = this.SupplierNameCb;
             this.SupplierNameCb.Location = new System.Drawing.Point(121, 34);
-            this.SupplierNameCb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SupplierNameCb.Margin = new System.Windows.Forms.Padding(4);
             this.SupplierNameCb.Name = "SupplierNameCb";
             this.SupplierNameCb.ShadowDecoration.Parent = this.SupplierNameCb;
             this.SupplierNameCb.Size = new System.Drawing.Size(327, 36);
@@ -1601,21 +1601,21 @@ namespace Quan_Ly_Khach_San
             // 
             // MaterialImportDGV
             // 
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.White;
-            this.MaterialImportDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.White;
+            this.MaterialImportDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
             this.MaterialImportDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.MaterialImportDGV.BackgroundColor = System.Drawing.Color.White;
             this.MaterialImportDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.MaterialImportDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.MaterialImportDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.MaterialImportDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.MaterialImportDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
             this.MaterialImportDGV.ColumnHeadersHeight = 40;
             this.MaterialImportDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column32,
@@ -1628,18 +1628,18 @@ namespace Quan_Ly_Khach_San
             this.Column39,
             this.Column40,
             this.Column41});
-            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle51.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.MaterialImportDGV.DefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.MaterialImportDGV.DefaultCellStyle = dataGridViewCellStyle39;
             this.MaterialImportDGV.EnableHeadersVisualStyles = false;
             this.MaterialImportDGV.GridColor = System.Drawing.Color.White;
             this.MaterialImportDGV.Location = new System.Drawing.Point(743, 277);
-            this.MaterialImportDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaterialImportDGV.Margin = new System.Windows.Forms.Padding(4);
             this.MaterialImportDGV.Name = "MaterialImportDGV";
             this.MaterialImportDGV.ReadOnly = true;
             this.MaterialImportDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1771,7 +1771,7 @@ namespace Quan_Ly_Khach_San
             this.CancelRequestBtn.ForeColor = System.Drawing.Color.White;
             this.CancelRequestBtn.HoverState.Parent = this.CancelRequestBtn;
             this.CancelRequestBtn.Location = new System.Drawing.Point(1197, 620);
-            this.CancelRequestBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CancelRequestBtn.Margin = new System.Windows.Forms.Padding(4);
             this.CancelRequestBtn.Name = "CancelRequestBtn";
             this.CancelRequestBtn.ShadowDecoration.Parent = this.CancelRequestBtn;
             this.CancelRequestBtn.Size = new System.Drawing.Size(100, 55);
@@ -1794,7 +1794,7 @@ namespace Quan_Ly_Khach_San
             this.ConfirmRequestBtn.ForeColor = System.Drawing.Color.White;
             this.ConfirmRequestBtn.HoverState.Parent = this.ConfirmRequestBtn;
             this.ConfirmRequestBtn.Location = new System.Drawing.Point(1045, 620);
-            this.ConfirmRequestBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConfirmRequestBtn.Margin = new System.Windows.Forms.Padding(4);
             this.ConfirmRequestBtn.Name = "ConfirmRequestBtn";
             this.ConfirmRequestBtn.ShadowDecoration.Parent = this.ConfirmRequestBtn;
             this.ConfirmRequestBtn.Size = new System.Drawing.Size(144, 55);
@@ -1804,21 +1804,21 @@ namespace Quan_Ly_Khach_San
             // 
             // RequestImportDGV
             // 
-            dataGridViewCellStyle52.BackColor = System.Drawing.Color.White;
-            this.RequestImportDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle40.BackColor = System.Drawing.Color.White;
+            this.RequestImportDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle40;
             this.RequestImportDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
             this.RequestImportDGV.BackgroundColor = System.Drawing.Color.White;
             this.RequestImportDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RequestImportDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.RequestImportDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle53.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RequestImportDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle41.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RequestImportDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
             this.RequestImportDGV.ColumnHeadersHeight = 40;
             this.RequestImportDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn14,
@@ -1830,18 +1830,18 @@ namespace Quan_Ly_Khach_San
             this.Column46,
             this.Column47,
             this.Column48});
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle54.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.RequestImportDGV.DefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle42.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.RequestImportDGV.DefaultCellStyle = dataGridViewCellStyle42;
             this.RequestImportDGV.EnableHeadersVisualStyles = false;
             this.RequestImportDGV.GridColor = System.Drawing.Color.White;
             this.RequestImportDGV.Location = new System.Drawing.Point(7, 277);
-            this.RequestImportDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RequestImportDGV.Margin = new System.Windows.Forms.Padding(4);
             this.RequestImportDGV.Name = "RequestImportDGV";
             this.RequestImportDGV.ReadOnly = true;
             this.RequestImportDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -1960,9 +1960,9 @@ namespace Quan_Ly_Khach_San
             this.RoomTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.RoomTab.Controls.Add(this.siticoneTabControl1);
             this.RoomTab.Location = new System.Drawing.Point(4, 44);
-            this.RoomTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RoomTab.Margin = new System.Windows.Forms.Padding(4);
             this.RoomTab.Name = "RoomTab";
-            this.RoomTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RoomTab.Padding = new System.Windows.Forms.Padding(4);
             this.RoomTab.Size = new System.Drawing.Size(1325, 752);
             this.RoomTab.TabIndex = 0;
             this.RoomTab.Text = "DAILY REPORT";
@@ -1976,7 +1976,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneTabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneTabControl1.ItemSize = new System.Drawing.Size(180, 40);
             this.siticoneTabControl1.Location = new System.Drawing.Point(0, 0);
-            this.siticoneTabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneTabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneTabControl1.Name = "siticoneTabControl1";
             this.siticoneTabControl1.SelectedIndex = 0;
             this.siticoneTabControl1.Size = new System.Drawing.Size(1323, 741);
@@ -2007,9 +2007,9 @@ namespace Quan_Ly_Khach_San
             this.tabPage1.Controls.Add(this.siticonePanel2);
             this.tabPage1.Controls.Add(this.DateReportPicker);
             this.tabPage1.Location = new System.Drawing.Point(4, 44);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1315, 693);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "ALL";
@@ -2019,37 +2019,37 @@ namespace Quan_Ly_Khach_San
             this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.chart1.BorderSkin.BorderColor = System.Drawing.Color.White;
             this.chart1.BorderSkin.PageColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            chartArea6.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea6.AxisX.LineColor = System.Drawing.Color.White;
-            chartArea6.AxisX.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
-            chartArea6.AxisX.TitleForeColor = System.Drawing.Color.White;
-            chartArea6.AxisX2.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea6.AxisX2.LineColor = System.Drawing.Color.White;
-            chartArea6.AxisX2.TitleForeColor = System.Drawing.Color.White;
-            chartArea6.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea6.AxisY.LineColor = System.Drawing.Color.White;
-            chartArea6.AxisY.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
-            chartArea6.AxisY.TitleForeColor = System.Drawing.Color.White;
-            chartArea6.AxisY2.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea6.AxisY2.LineColor = System.Drawing.Color.White;
-            chartArea6.AxisY2.TitleForeColor = System.Drawing.Color.White;
-            chartArea6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            chartArea6.BorderColor = System.Drawing.Color.White;
-            chartArea6.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea6);
+            chartArea3.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea3.AxisX.LineColor = System.Drawing.Color.White;
+            chartArea3.AxisX.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
+            chartArea3.AxisX.TitleForeColor = System.Drawing.Color.White;
+            chartArea3.AxisX2.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea3.AxisX2.LineColor = System.Drawing.Color.White;
+            chartArea3.AxisX2.TitleForeColor = System.Drawing.Color.White;
+            chartArea3.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea3.AxisY.LineColor = System.Drawing.Color.White;
+            chartArea3.AxisY.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
+            chartArea3.AxisY.TitleForeColor = System.Drawing.Color.White;
+            chartArea3.AxisY2.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea3.AxisY2.LineColor = System.Drawing.Color.White;
+            chartArea3.AxisY2.TitleForeColor = System.Drawing.Color.White;
+            chartArea3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            chartArea3.BorderColor = System.Drawing.Color.White;
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
             this.chart1.Location = new System.Drawing.Point(581, 126);
-            this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chart1.Margin = new System.Windows.Forms.Padding(4);
             this.chart1.Name = "chart1";
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series11.LabelBackColor = System.Drawing.Color.Transparent;
-            series11.LabelForeColor = System.Drawing.Color.White;
-            series11.Name = "Series1";
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series12.Name = "Series2";
-            this.chart1.Series.Add(series11);
-            this.chart1.Series.Add(series12);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series5.LabelBackColor = System.Drawing.Color.Transparent;
+            series5.LabelForeColor = System.Drawing.Color.White;
+            series5.Name = "Series1";
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series6.Name = "Series2";
+            this.chart1.Series.Add(series5);
+            this.chart1.Series.Add(series6);
             this.chart1.Size = new System.Drawing.Size(723, 465);
             this.chart1.TabIndex = 54;
             this.chart1.Text = "chart1";
@@ -2102,7 +2102,7 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel2.Controls.Add(this.CollectRoom);
             this.siticonePanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticonePanel2.Location = new System.Drawing.Point(5, 4);
-            this.siticonePanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel2.Margin = new System.Windows.Forms.Padding(4);
             this.siticonePanel2.Name = "siticonePanel2";
             this.siticonePanel2.ShadowDecoration.Parent = this.siticonePanel2;
             this.siticonePanel2.Size = new System.Drawing.Size(568, 674);
@@ -2153,7 +2153,7 @@ namespace Quan_Ly_Khach_San
             this.totalFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalFood.HoverState.Parent = this.totalFood;
             this.totalFood.Location = new System.Drawing.Point(375, 370);
-            this.totalFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.totalFood.Margin = new System.Windows.Forms.Padding(4);
             this.totalFood.Name = "totalFood";
             this.totalFood.PasswordChar = '\0';
             this.totalFood.PlaceholderText = "";
@@ -2211,7 +2211,7 @@ namespace Quan_Ly_Khach_San
             this.totalService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalService.HoverState.Parent = this.totalService;
             this.totalService.Location = new System.Drawing.Point(375, 241);
-            this.totalService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.totalService.Margin = new System.Windows.Forms.Padding(4);
             this.totalService.Name = "totalService";
             this.totalService.PasswordChar = '\0';
             this.totalService.PlaceholderText = "";
@@ -2269,7 +2269,7 @@ namespace Quan_Ly_Khach_San
             this.totalRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalRoom.HoverState.Parent = this.totalRoom;
             this.totalRoom.Location = new System.Drawing.Point(375, 107);
-            this.totalRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.totalRoom.Margin = new System.Windows.Forms.Padding(4);
             this.totalRoom.Name = "totalRoom";
             this.totalRoom.PasswordChar = '\0';
             this.totalRoom.PlaceholderText = "";
@@ -2553,7 +2553,7 @@ namespace Quan_Ly_Khach_San
             this.Totaltotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.Totaltotal.HoverState.Parent = this.Totaltotal;
             this.Totaltotal.Location = new System.Drawing.Point(332, 513);
-            this.Totaltotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Totaltotal.Margin = new System.Windows.Forms.Padding(4);
             this.Totaltotal.Name = "Totaltotal";
             this.Totaltotal.PasswordChar = '\0';
             this.Totaltotal.PlaceholderText = "";
@@ -2583,7 +2583,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPay.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalPay.HoverState.Parent = this.TotalPay;
             this.TotalPay.Location = new System.Drawing.Point(91, 581);
-            this.TotalPay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TotalPay.Margin = new System.Windows.Forms.Padding(4);
             this.TotalPay.Name = "TotalPay";
             this.TotalPay.PasswordChar = '\0';
             this.TotalPay.PlaceholderText = "";
@@ -2617,7 +2617,7 @@ namespace Quan_Ly_Khach_San
             this.TotalCollect.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalCollect.HoverState.Parent = this.TotalCollect;
             this.TotalCollect.Location = new System.Drawing.Point(91, 487);
-            this.TotalCollect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TotalCollect.Margin = new System.Windows.Forms.Padding(4);
             this.TotalCollect.Name = "TotalCollect";
             this.TotalCollect.PasswordChar = '\0';
             this.TotalCollect.PlaceholderText = "";
@@ -2651,7 +2651,7 @@ namespace Quan_Ly_Khach_San
             this.PayFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayFood.HoverState.Parent = this.PayFood;
             this.PayFood.Location = new System.Drawing.Point(143, 370);
-            this.PayFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PayFood.Margin = new System.Windows.Forms.Padding(4);
             this.PayFood.Name = "PayFood";
             this.PayFood.PasswordChar = '\0';
             this.PayFood.PlaceholderText = "";
@@ -2685,7 +2685,7 @@ namespace Quan_Ly_Khach_San
             this.CollectFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectFood.HoverState.Parent = this.CollectFood;
             this.CollectFood.Location = new System.Drawing.Point(143, 313);
-            this.CollectFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CollectFood.Margin = new System.Windows.Forms.Padding(4);
             this.CollectFood.Name = "CollectFood";
             this.CollectFood.PasswordChar = '\0';
             this.CollectFood.PlaceholderText = "";
@@ -2719,7 +2719,7 @@ namespace Quan_Ly_Khach_San
             this.PayService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayService.HoverState.Parent = this.PayService;
             this.PayService.Location = new System.Drawing.Point(143, 244);
-            this.PayService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PayService.Margin = new System.Windows.Forms.Padding(4);
             this.PayService.Name = "PayService";
             this.PayService.PasswordChar = '\0';
             this.PayService.PlaceholderText = "";
@@ -2753,7 +2753,7 @@ namespace Quan_Ly_Khach_San
             this.CollectService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectService.HoverState.Parent = this.CollectService;
             this.CollectService.Location = new System.Drawing.Point(143, 186);
-            this.CollectService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CollectService.Margin = new System.Windows.Forms.Padding(4);
             this.CollectService.Name = "CollectService";
             this.CollectService.PasswordChar = '\0';
             this.CollectService.PlaceholderText = "";
@@ -2787,7 +2787,7 @@ namespace Quan_Ly_Khach_San
             this.PayRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PayRoom.HoverState.Parent = this.PayRoom;
             this.PayRoom.Location = new System.Drawing.Point(143, 111);
-            this.PayRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PayRoom.Margin = new System.Windows.Forms.Padding(4);
             this.PayRoom.Name = "PayRoom";
             this.PayRoom.PasswordChar = '\0';
             this.PayRoom.PlaceholderText = "";
@@ -2817,12 +2817,12 @@ namespace Quan_Ly_Khach_San
             this.printReportDay.ForeColor = System.Drawing.Color.Black;
             this.printReportDay.HoverState.Parent = this.printReportDay;
             this.printReportDay.Location = new System.Drawing.Point(332, 594);
-            this.printReportDay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.printReportDay.Margin = new System.Windows.Forms.Padding(4);
             this.printReportDay.Name = "printReportDay";
             this.printReportDay.ShadowDecoration.Parent = this.printReportDay;
             this.printReportDay.Size = new System.Drawing.Size(219, 58);
             this.printReportDay.TabIndex = 25;
-            this.printReportDay.Text = "Print Report";
+            this.printReportDay.Text = "PRINT REPORT";
             this.printReportDay.Click += new System.EventHandler(this.printReportDay_Click);
             // 
             // CollectRoom
@@ -2846,7 +2846,7 @@ namespace Quan_Ly_Khach_San
             this.CollectRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CollectRoom.HoverState.Parent = this.CollectRoom;
             this.CollectRoom.Location = new System.Drawing.Point(143, 53);
-            this.CollectRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CollectRoom.Margin = new System.Windows.Forms.Padding(4);
             this.CollectRoom.Name = "CollectRoom";
             this.CollectRoom.PasswordChar = '\0';
             this.CollectRoom.PlaceholderText = "";
@@ -2871,7 +2871,7 @@ namespace Quan_Ly_Khach_San
             this.DateReportPicker.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.DateReportPicker.HoverState.Parent = this.DateReportPicker;
             this.DateReportPicker.Location = new System.Drawing.Point(863, 11);
-            this.DateReportPicker.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DateReportPicker.Margin = new System.Windows.Forms.Padding(4);
             this.DateReportPicker.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.DateReportPicker.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.DateReportPicker.Name = "DateReportPicker";
@@ -2892,9 +2892,9 @@ namespace Quan_Ly_Khach_San
             this.tabPage2.Controls.Add(this.siticonePanel1);
             this.tabPage2.Controls.Add(this.PrintBillServiceBtn);
             this.tabPage2.Location = new System.Drawing.Point(4, 44);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1315, 693);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "ROOM";
@@ -2908,7 +2908,7 @@ namespace Quan_Ly_Khach_San
             this.RoomDailyDateDTP.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.RoomDailyDateDTP.HoverState.Parent = this.RoomDailyDateDTP;
             this.RoomDailyDateDTP.Location = new System.Drawing.Point(8, 46);
-            this.RoomDailyDateDTP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RoomDailyDateDTP.Margin = new System.Windows.Forms.Padding(4);
             this.RoomDailyDateDTP.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.RoomDailyDateDTP.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.RoomDailyDateDTP.Name = "RoomDailyDateDTP";
@@ -2950,11 +2950,12 @@ namespace Quan_Ly_Khach_San
             this.customerIDTxb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.customerIDTxb.Name = "customerIDTxb";
             this.customerIDTxb.PasswordChar = '\0';
-            this.customerIDTxb.PlaceholderText = "";
+            this.customerIDTxb.PlaceholderText = "Search";
             this.customerIDTxb.SelectedText = "";
             this.customerIDTxb.ShadowDecoration.Parent = this.customerIDTxb;
             this.customerIDTxb.Size = new System.Drawing.Size(427, 43);
             this.customerIDTxb.TabIndex = 57;
+            this.customerIDTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.customerIDTxb.TextChanged += new System.EventHandler(this.customerIDTxb_TextChanged);
             // 
             // SearchServiceBtn
@@ -2973,7 +2974,7 @@ namespace Quan_Ly_Khach_San
             this.SearchServiceBtn.Image = ((System.Drawing.Image)(resources.GetObject("SearchServiceBtn.Image")));
             this.SearchServiceBtn.ImageSize = new System.Drawing.Size(35, 35);
             this.SearchServiceBtn.Location = new System.Drawing.Point(441, 171);
-            this.SearchServiceBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SearchServiceBtn.Margin = new System.Windows.Forms.Padding(4);
             this.SearchServiceBtn.Name = "SearchServiceBtn";
             this.SearchServiceBtn.ShadowDecoration.Parent = this.SearchServiceBtn;
             this.SearchServiceBtn.Size = new System.Drawing.Size(47, 48);
@@ -2982,21 +2983,21 @@ namespace Quan_Ly_Khach_San
             // BillRoomDgv
             // 
             this.BillRoomDgv.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle55.BackColor = System.Drawing.Color.White;
-            this.BillRoomDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle55;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
+            this.BillRoomDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle28;
             this.BillRoomDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.BillRoomDgv.BackgroundColor = System.Drawing.Color.White;
             this.BillRoomDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.BillRoomDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.BillRoomDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle56.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.BillRoomDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle56;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.BillRoomDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
             this.BillRoomDgv.ColumnHeadersHeight = 40;
             this.BillRoomDgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.mahoadon,
@@ -3013,18 +3014,18 @@ namespace Quan_Ly_Khach_San
             this.tienhoan,
             this.tinhtrang,
             this.ghichu});
-            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle57.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle57.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle57.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.BillRoomDgv.DefaultCellStyle = dataGridViewCellStyle57;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.BillRoomDgv.DefaultCellStyle = dataGridViewCellStyle30;
             this.BillRoomDgv.EnableHeadersVisualStyles = false;
             this.BillRoomDgv.GridColor = System.Drawing.Color.White;
             this.BillRoomDgv.Location = new System.Drawing.Point(520, 18);
-            this.BillRoomDgv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BillRoomDgv.Margin = new System.Windows.Forms.Padding(4);
             this.BillRoomDgv.Name = "BillRoomDgv";
             this.BillRoomDgv.ReadOnly = true;
             this.BillRoomDgv.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -3056,132 +3057,6 @@ namespace Quan_Ly_Khach_San
             this.BillRoomDgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.BillRoomDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.BillRoomDgv_CellContentClick);
             // 
-            // mahoadon
-            // 
-            this.mahoadon.DataPropertyName = "MaHoaDon";
-            this.mahoadon.HeaderText = "Room Bill ID";
-            this.mahoadon.MinimumWidth = 6;
-            this.mahoadon.Name = "mahoadon";
-            this.mahoadon.ReadOnly = true;
-            this.mahoadon.Width = 99;
-            // 
-            // checkin
-            // 
-            this.checkin.DataPropertyName = "Checkin";
-            this.checkin.HeaderText = "Check In";
-            this.checkin.MinimumWidth = 6;
-            this.checkin.Name = "checkin";
-            this.checkin.ReadOnly = true;
-            this.checkin.Width = 89;
-            // 
-            // checkout
-            // 
-            this.checkout.DataPropertyName = "Checkout";
-            this.checkout.HeaderText = "Check Out";
-            this.checkout.MinimumWidth = 6;
-            this.checkout.Name = "checkout";
-            this.checkout.ReadOnly = true;
-            this.checkout.Width = 101;
-            // 
-            // manv
-            // 
-            this.manv.DataPropertyName = "MaNV";
-            this.manv.HeaderText = "Staff ID";
-            this.manv.MinimumWidth = 6;
-            this.manv.Name = "manv";
-            this.manv.ReadOnly = true;
-            this.manv.Width = 69;
-            // 
-            // makh
-            // 
-            this.makh.DataPropertyName = "MaKH";
-            this.makh.HeaderText = "Customer ID";
-            this.makh.MinimumWidth = 6;
-            this.makh.Name = "makh";
-            this.makh.ReadOnly = true;
-            this.makh.Width = 113;
-            // 
-            // phong
-            // 
-            this.phong.DataPropertyName = "MaPhong";
-            this.phong.HeaderText = "Room ";
-            this.phong.MinimumWidth = 6;
-            this.phong.Name = "phong";
-            this.phong.ReadOnly = true;
-            this.phong.Width = 81;
-            // 
-            // songayo
-            // 
-            this.songayo.DataPropertyName = "SoNgayO";
-            this.songayo.HeaderText = "Days";
-            this.songayo.MinimumWidth = 6;
-            this.songayo.Name = "songayo";
-            this.songayo.ReadOnly = true;
-            this.songayo.Width = 71;
-            // 
-            // tong
-            // 
-            this.tong.DataPropertyName = "TongTien";
-            this.tong.HeaderText = "Total";
-            this.tong.MinimumWidth = 6;
-            this.tong.Name = "tong";
-            this.tong.ReadOnly = true;
-            this.tong.Width = 72;
-            // 
-            // tiennhan
-            // 
-            this.tiennhan.DataPropertyName = "TienNhan";
-            this.tiennhan.HeaderText = "Receive";
-            this.tiennhan.MinimumWidth = 6;
-            this.tiennhan.Name = "tiennhan";
-            this.tiennhan.ReadOnly = true;
-            this.tiennhan.Width = 93;
-            // 
-            // tienthua
-            // 
-            this.tienthua.DataPropertyName = "TienThua";
-            this.tienthua.HeaderText = "Return";
-            this.tienthua.MinimumWidth = 6;
-            this.tienthua.Name = "tienthua";
-            this.tienthua.ReadOnly = true;
-            this.tienthua.Width = 84;
-            // 
-            // marr
-            // 
-            this.marr.DataPropertyName = "MaRR";
-            this.marr.HeaderText = "Risk ID";
-            this.marr.MinimumWidth = 6;
-            this.marr.Name = "marr";
-            this.marr.ReadOnly = true;
-            this.marr.Width = 66;
-            // 
-            // tienhoan
-            // 
-            this.tienhoan.DataPropertyName = "SoTienHoan";
-            this.tienhoan.HeaderText = "Refund";
-            this.tienhoan.MinimumWidth = 6;
-            this.tienhoan.Name = "tienhoan";
-            this.tienhoan.ReadOnly = true;
-            this.tienhoan.Width = 87;
-            // 
-            // tinhtrang
-            // 
-            this.tinhtrang.DataPropertyName = "MaTinhTrang";
-            this.tinhtrang.HeaderText = "Status";
-            this.tinhtrang.MinimumWidth = 6;
-            this.tinhtrang.Name = "tinhtrang";
-            this.tinhtrang.ReadOnly = true;
-            this.tinhtrang.Width = 81;
-            // 
-            // ghichu
-            // 
-            this.ghichu.DataPropertyName = "GhiChu";
-            this.ghichu.HeaderText = "Notes";
-            this.ghichu.MinimumWidth = 6;
-            this.ghichu.Name = "ghichu";
-            this.ghichu.ReadOnly = true;
-            this.ghichu.Width = 77;
-            // 
             // siticonePanel1
             // 
             this.siticonePanel1.BackColor = System.Drawing.Color.Transparent;
@@ -3203,7 +3078,7 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel1.Controls.Add(this.TotalPriceTxb);
             this.siticonePanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticonePanel1.Location = new System.Drawing.Point(8, 236);
-            this.siticonePanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel1.Margin = new System.Windows.Forms.Padding(4);
             this.siticonePanel1.Name = "siticonePanel1";
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
             this.siticonePanel1.Size = new System.Drawing.Size(507, 363);
@@ -3243,7 +3118,7 @@ namespace Quan_Ly_Khach_San
             this.RiskRefurnTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.RiskRefurnTxt.HoverState.Parent = this.RiskRefurnTxt;
             this.RiskRefurnTxt.Location = new System.Drawing.Point(164, 284);
-            this.RiskRefurnTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RiskRefurnTxt.Margin = new System.Windows.Forms.Padding(4);
             this.RiskRefurnTxt.Name = "RiskRefurnTxt";
             this.RiskRefurnTxt.PasswordChar = '\0';
             this.RiskRefurnTxt.PlaceholderText = "";
@@ -3374,7 +3249,7 @@ namespace Quan_Ly_Khach_San
             this.ReturnTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReturnTxb.HoverState.Parent = this.ReturnTxb;
             this.ReturnTxb.Location = new System.Drawing.Point(168, 204);
-            this.ReturnTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReturnTxb.Margin = new System.Windows.Forms.Padding(4);
             this.ReturnTxb.Name = "ReturnTxb";
             this.ReturnTxb.PasswordChar = '\0';
             this.ReturnTxb.PlaceholderText = "";
@@ -3409,7 +3284,7 @@ namespace Quan_Ly_Khach_San
             this.ReceiveTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ReceiveTxb.HoverState.Parent = this.ReceiveTxb;
             this.ReceiveTxb.Location = new System.Drawing.Point(164, 117);
-            this.ReceiveTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReceiveTxb.Margin = new System.Windows.Forms.Padding(4);
             this.ReceiveTxb.Name = "ReceiveTxb";
             this.ReceiveTxb.PasswordChar = '\0';
             this.ReceiveTxb.PlaceholderText = "";
@@ -3444,7 +3319,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPriceTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalPriceTxb.HoverState.Parent = this.TotalPriceTxb;
             this.TotalPriceTxb.Location = new System.Drawing.Point(168, 38);
-            this.TotalPriceTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TotalPriceTxb.Margin = new System.Windows.Forms.Padding(4);
             this.TotalPriceTxb.Name = "TotalPriceTxb";
             this.TotalPriceTxb.PasswordChar = '\0';
             this.TotalPriceTxb.PlaceholderText = "";
@@ -3474,7 +3349,7 @@ namespace Quan_Ly_Khach_San
             this.PrintBillServiceBtn.ForeColor = System.Drawing.Color.Black;
             this.PrintBillServiceBtn.HoverState.Parent = this.PrintBillServiceBtn;
             this.PrintBillServiceBtn.Location = new System.Drawing.Point(304, 607);
-            this.PrintBillServiceBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PrintBillServiceBtn.Margin = new System.Windows.Forms.Padding(4);
             this.PrintBillServiceBtn.Name = "PrintBillServiceBtn";
             this.PrintBillServiceBtn.ShadowDecoration.Parent = this.PrintBillServiceBtn;
             this.PrintBillServiceBtn.Size = new System.Drawing.Size(208, 58);
@@ -3494,9 +3369,9 @@ namespace Quan_Ly_Khach_San
             this.tabPage3.Controls.Add(this.siticoneGradientButton4);
             this.tabPage3.Controls.Add(this.SearchBtn);
             this.tabPage3.Location = new System.Drawing.Point(4, 44);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage3.Size = new System.Drawing.Size(1315, 693);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "FOOD";
@@ -3510,7 +3385,7 @@ namespace Quan_Ly_Khach_San
             this.FoodDateDailyDP.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.FoodDateDailyDP.HoverState.Parent = this.FoodDateDailyDP;
             this.FoodDateDailyDP.Location = new System.Drawing.Point(8, 42);
-            this.FoodDateDailyDP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FoodDateDailyDP.Margin = new System.Windows.Forms.Padding(4);
             this.FoodDateDailyDP.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.FoodDateDailyDP.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.FoodDateDailyDP.Name = "FoodDateDailyDP";
@@ -3552,11 +3427,12 @@ namespace Quan_Ly_Khach_San
             this.FoodCustomerIDTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FoodCustomerIDTxt.Name = "FoodCustomerIDTxt";
             this.FoodCustomerIDTxt.PasswordChar = '\0';
-            this.FoodCustomerIDTxt.PlaceholderText = "";
+            this.FoodCustomerIDTxt.PlaceholderText = "Search";
             this.FoodCustomerIDTxt.SelectedText = "";
             this.FoodCustomerIDTxt.ShadowDecoration.Parent = this.FoodCustomerIDTxt;
             this.FoodCustomerIDTxt.Size = new System.Drawing.Size(427, 43);
             this.FoodCustomerIDTxt.TabIndex = 103;
+            this.FoodCustomerIDTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.FoodCustomerIDTxt.TextChanged += new System.EventHandler(this.FoodCustomerIDTxt_TextChanged);
             // 
             // siticoneButton3
@@ -3575,7 +3451,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneButton3.Image = ((System.Drawing.Image)(resources.GetObject("siticoneButton3.Image")));
             this.siticoneButton3.ImageSize = new System.Drawing.Size(35, 35);
             this.siticoneButton3.Location = new System.Drawing.Point(441, 167);
-            this.siticoneButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneButton3.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneButton3.Name = "siticoneButton3";
             this.siticoneButton3.ShadowDecoration.Parent = this.siticoneButton3;
             this.siticoneButton3.Size = new System.Drawing.Size(47, 48);
@@ -3584,21 +3460,21 @@ namespace Quan_Ly_Khach_San
             // FoodDGV
             // 
             this.FoodDGV.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle58.BackColor = System.Drawing.Color.White;
-            this.FoodDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle58;
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.White;
+            this.FoodDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle31;
             this.FoodDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.FoodDGV.BackgroundColor = System.Drawing.Color.White;
             this.FoodDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.FoodDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.FoodDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle59.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle59.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.FoodDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle59;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.FoodDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle32;
             this.FoodDGV.ColumnHeadersHeight = 40;
             this.FoodDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn33,
@@ -3613,18 +3489,18 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn44,
             this.dataGridViewTextBoxColumn45,
             this.dataGridViewTextBoxColumn46});
-            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle60.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.FoodDGV.DefaultCellStyle = dataGridViewCellStyle60;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.FoodDGV.DefaultCellStyle = dataGridViewCellStyle33;
             this.FoodDGV.EnableHeadersVisualStyles = false;
             this.FoodDGV.GridColor = System.Drawing.Color.White;
             this.FoodDGV.Location = new System.Drawing.Point(520, 15);
-            this.FoodDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FoodDGV.Margin = new System.Windows.Forms.Padding(4);
             this.FoodDGV.Name = "FoodDGV";
             this.FoodDGV.ReadOnly = true;
             this.FoodDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -3655,114 +3531,6 @@ namespace Quan_Ly_Khach_San
             this.FoodDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.FoodDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // dataGridViewTextBoxColumn33
-            // 
-            this.dataGridViewTextBoxColumn33.DataPropertyName = "MaHoaDon";
-            this.dataGridViewTextBoxColumn33.HeaderText = "Room Bill ID";
-            this.dataGridViewTextBoxColumn33.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
-            this.dataGridViewTextBoxColumn33.ReadOnly = true;
-            this.dataGridViewTextBoxColumn33.Width = 99;
-            // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "ngayLap";
-            this.Column1.HeaderText = "Date";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 69;
-            // 
-            // dataGridViewTextBoxColumn36
-            // 
-            this.dataGridViewTextBoxColumn36.DataPropertyName = "MaNV";
-            this.dataGridViewTextBoxColumn36.HeaderText = "Staff ID";
-            this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
-            this.dataGridViewTextBoxColumn36.ReadOnly = true;
-            this.dataGridViewTextBoxColumn36.Width = 69;
-            // 
-            // dataGridViewTextBoxColumn37
-            // 
-            this.dataGridViewTextBoxColumn37.DataPropertyName = "MaKH";
-            this.dataGridViewTextBoxColumn37.HeaderText = "Customer ID";
-            this.dataGridViewTextBoxColumn37.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
-            this.dataGridViewTextBoxColumn37.ReadOnly = true;
-            this.dataGridViewTextBoxColumn37.Width = 113;
-            // 
-            // dataGridViewTextBoxColumn39
-            // 
-            this.dataGridViewTextBoxColumn39.DataPropertyName = "maDSMA";
-            this.dataGridViewTextBoxColumn39.HeaderText = "Foods List";
-            this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
-            this.dataGridViewTextBoxColumn39.ReadOnly = true;
-            this.dataGridViewTextBoxColumn39.Width = 101;
-            // 
-            // dataGridViewTextBoxColumn40
-            // 
-            this.dataGridViewTextBoxColumn40.DataPropertyName = "TongTien";
-            this.dataGridViewTextBoxColumn40.HeaderText = "Total";
-            this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
-            this.dataGridViewTextBoxColumn40.ReadOnly = true;
-            this.dataGridViewTextBoxColumn40.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn41
-            // 
-            this.dataGridViewTextBoxColumn41.DataPropertyName = "TienNhan";
-            this.dataGridViewTextBoxColumn41.HeaderText = "Receive";
-            this.dataGridViewTextBoxColumn41.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
-            this.dataGridViewTextBoxColumn41.ReadOnly = true;
-            this.dataGridViewTextBoxColumn41.Width = 93;
-            // 
-            // dataGridViewTextBoxColumn42
-            // 
-            this.dataGridViewTextBoxColumn42.DataPropertyName = "TienThua";
-            this.dataGridViewTextBoxColumn42.HeaderText = "Return";
-            this.dataGridViewTextBoxColumn42.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
-            this.dataGridViewTextBoxColumn42.ReadOnly = true;
-            this.dataGridViewTextBoxColumn42.Width = 84;
-            // 
-            // dataGridViewTextBoxColumn43
-            // 
-            this.dataGridViewTextBoxColumn43.DataPropertyName = "MaRR";
-            this.dataGridViewTextBoxColumn43.HeaderText = "Risk ID";
-            this.dataGridViewTextBoxColumn43.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
-            this.dataGridViewTextBoxColumn43.ReadOnly = true;
-            this.dataGridViewTextBoxColumn43.Width = 66;
-            // 
-            // dataGridViewTextBoxColumn44
-            // 
-            this.dataGridViewTextBoxColumn44.DataPropertyName = "SoTienHoan";
-            this.dataGridViewTextBoxColumn44.HeaderText = "Refund";
-            this.dataGridViewTextBoxColumn44.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
-            this.dataGridViewTextBoxColumn44.ReadOnly = true;
-            this.dataGridViewTextBoxColumn44.Width = 87;
-            // 
-            // dataGridViewTextBoxColumn45
-            // 
-            this.dataGridViewTextBoxColumn45.DataPropertyName = "MaTinhTrang";
-            this.dataGridViewTextBoxColumn45.HeaderText = "Status";
-            this.dataGridViewTextBoxColumn45.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
-            this.dataGridViewTextBoxColumn45.ReadOnly = true;
-            this.dataGridViewTextBoxColumn45.Width = 81;
-            // 
-            // dataGridViewTextBoxColumn46
-            // 
-            this.dataGridViewTextBoxColumn46.DataPropertyName = "GhiChu";
-            this.dataGridViewTextBoxColumn46.HeaderText = "Notes";
-            this.dataGridViewTextBoxColumn46.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
-            this.dataGridViewTextBoxColumn46.ReadOnly = true;
-            this.dataGridViewTextBoxColumn46.Width = 77;
-            // 
             // siticonePanel6
             // 
             this.siticonePanel6.BackColor = System.Drawing.Color.Transparent;
@@ -3784,7 +3552,7 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel6.Controls.Add(this.FoodTotalDailyTxt);
             this.siticonePanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticonePanel6.Location = new System.Drawing.Point(8, 233);
-            this.siticonePanel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel6.Margin = new System.Windows.Forms.Padding(4);
             this.siticonePanel6.Name = "siticonePanel6";
             this.siticonePanel6.ShadowDecoration.Parent = this.siticonePanel6;
             this.siticonePanel6.Size = new System.Drawing.Size(507, 363);
@@ -3824,7 +3592,7 @@ namespace Quan_Ly_Khach_San
             this.FoodRiskRefurnTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodRiskRefurnTxt.HoverState.Parent = this.FoodRiskRefurnTxt;
             this.FoodRiskRefurnTxt.Location = new System.Drawing.Point(164, 284);
-            this.FoodRiskRefurnTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FoodRiskRefurnTxt.Margin = new System.Windows.Forms.Padding(4);
             this.FoodRiskRefurnTxt.Name = "FoodRiskRefurnTxt";
             this.FoodRiskRefurnTxt.PasswordChar = '\0';
             this.FoodRiskRefurnTxt.PlaceholderText = "";
@@ -3955,7 +3723,7 @@ namespace Quan_Ly_Khach_San
             this.FoodReturnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodReturnDailyTxt.HoverState.Parent = this.FoodReturnDailyTxt;
             this.FoodReturnDailyTxt.Location = new System.Drawing.Point(168, 204);
-            this.FoodReturnDailyTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FoodReturnDailyTxt.Margin = new System.Windows.Forms.Padding(4);
             this.FoodReturnDailyTxt.Name = "FoodReturnDailyTxt";
             this.FoodReturnDailyTxt.PasswordChar = '\0';
             this.FoodReturnDailyTxt.PlaceholderText = "";
@@ -3990,7 +3758,7 @@ namespace Quan_Ly_Khach_San
             this.FoodReceiveDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodReceiveDailyTxt.HoverState.Parent = this.FoodReceiveDailyTxt;
             this.FoodReceiveDailyTxt.Location = new System.Drawing.Point(164, 117);
-            this.FoodReceiveDailyTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FoodReceiveDailyTxt.Margin = new System.Windows.Forms.Padding(4);
             this.FoodReceiveDailyTxt.Name = "FoodReceiveDailyTxt";
             this.FoodReceiveDailyTxt.PasswordChar = '\0';
             this.FoodReceiveDailyTxt.PlaceholderText = "";
@@ -4025,7 +3793,7 @@ namespace Quan_Ly_Khach_San
             this.FoodTotalDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodTotalDailyTxt.HoverState.Parent = this.FoodTotalDailyTxt;
             this.FoodTotalDailyTxt.Location = new System.Drawing.Point(168, 38);
-            this.FoodTotalDailyTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FoodTotalDailyTxt.Margin = new System.Windows.Forms.Padding(4);
             this.FoodTotalDailyTxt.Name = "FoodTotalDailyTxt";
             this.FoodTotalDailyTxt.PasswordChar = '\0';
             this.FoodTotalDailyTxt.PlaceholderText = "";
@@ -4055,7 +3823,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton4.ForeColor = System.Drawing.Color.Black;
             this.siticoneGradientButton4.HoverState.Parent = this.siticoneGradientButton4;
             this.siticoneGradientButton4.Location = new System.Drawing.Point(304, 603);
-            this.siticoneGradientButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneGradientButton4.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneGradientButton4.Name = "siticoneGradientButton4";
             this.siticoneGradientButton4.ShadowDecoration.Parent = this.siticoneGradientButton4;
             this.siticoneGradientButton4.Size = new System.Drawing.Size(208, 58);
@@ -4078,7 +3846,7 @@ namespace Quan_Ly_Khach_San
             this.SearchBtn.Image = ((System.Drawing.Image)(resources.GetObject("SearchBtn.Image")));
             this.SearchBtn.ImageSize = new System.Drawing.Size(35, 35);
             this.SearchBtn.Location = new System.Drawing.Point(1257, 12);
-            this.SearchBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SearchBtn.Margin = new System.Windows.Forms.Padding(4);
             this.SearchBtn.Name = "SearchBtn";
             this.SearchBtn.ShadowDecoration.Parent = this.SearchBtn;
             this.SearchBtn.Size = new System.Drawing.Size(47, 48);
@@ -4095,9 +3863,9 @@ namespace Quan_Ly_Khach_San
             this.ServiceBillTab.Controls.Add(this.siticonePanel4);
             this.ServiceBillTab.Controls.Add(this.siticoneGradientButton3);
             this.ServiceBillTab.Location = new System.Drawing.Point(4, 44);
-            this.ServiceBillTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceBillTab.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceBillTab.Name = "ServiceBillTab";
-            this.ServiceBillTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceBillTab.Padding = new System.Windows.Forms.Padding(4);
             this.ServiceBillTab.Size = new System.Drawing.Size(1315, 693);
             this.ServiceBillTab.TabIndex = 3;
             this.ServiceBillTab.Text = "SERVICE";
@@ -4111,7 +3879,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceDailyDateTxt.Format = System.Windows.Forms.DateTimePickerFormat.Long;
             this.ServiceDailyDateTxt.HoverState.Parent = this.ServiceDailyDateTxt;
             this.ServiceDailyDateTxt.Location = new System.Drawing.Point(8, 42);
-            this.ServiceDailyDateTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceDailyDateTxt.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceDailyDateTxt.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.ServiceDailyDateTxt.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.ServiceDailyDateTxt.Name = "ServiceDailyDateTxt";
@@ -4153,11 +3921,12 @@ namespace Quan_Ly_Khach_San
             this.CustomerIDDailyTxt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CustomerIDDailyTxt.Name = "CustomerIDDailyTxt";
             this.CustomerIDDailyTxt.PasswordChar = '\0';
-            this.CustomerIDDailyTxt.PlaceholderText = "";
+            this.CustomerIDDailyTxt.PlaceholderText = "Search";
             this.CustomerIDDailyTxt.SelectedText = "";
             this.CustomerIDDailyTxt.ShadowDecoration.Parent = this.CustomerIDDailyTxt;
             this.CustomerIDDailyTxt.Size = new System.Drawing.Size(427, 43);
             this.CustomerIDDailyTxt.TabIndex = 103;
+            this.CustomerIDDailyTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CustomerIDDailyTxt.TextChanged += new System.EventHandler(this.CustomerIDDailyTxt_TextChanged);
             // 
             // siticoneButton1
@@ -4176,7 +3945,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneButton1.Image = ((System.Drawing.Image)(resources.GetObject("siticoneButton1.Image")));
             this.siticoneButton1.ImageSize = new System.Drawing.Size(35, 35);
             this.siticoneButton1.Location = new System.Drawing.Point(441, 167);
-            this.siticoneButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneButton1.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneButton1.Name = "siticoneButton1";
             this.siticoneButton1.ShadowDecoration.Parent = this.siticoneButton1;
             this.siticoneButton1.Size = new System.Drawing.Size(47, 48);
@@ -4185,21 +3954,21 @@ namespace Quan_Ly_Khach_San
             // ServiceDailyDGV
             // 
             this.ServiceDailyDGV.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle61.BackColor = System.Drawing.Color.White;
-            this.ServiceDailyDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle61;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
+            this.ServiceDailyDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
             this.ServiceDailyDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.ServiceDailyDGV.BackgroundColor = System.Drawing.Color.White;
             this.ServiceDailyDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ServiceDailyDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServiceDailyDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle62.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ServiceDailyDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle62;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ServiceDailyDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
             this.ServiceDailyDGV.ColumnHeadersHeight = 40;
             this.ServiceDailyDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn7,
@@ -4215,18 +3984,18 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn54,
             this.dataGridViewTextBoxColumn55,
             this.dataGridViewTextBoxColumn56});
-            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle63.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle63.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ServiceDailyDGV.DefaultCellStyle = dataGridViewCellStyle63;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ServiceDailyDGV.DefaultCellStyle = dataGridViewCellStyle36;
             this.ServiceDailyDGV.EnableHeadersVisualStyles = false;
             this.ServiceDailyDGV.GridColor = System.Drawing.Color.White;
             this.ServiceDailyDGV.Location = new System.Drawing.Point(520, 15);
-            this.ServiceDailyDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceDailyDGV.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceDailyDGV.Name = "ServiceDailyDGV";
             this.ServiceDailyDGV.ReadOnly = true;
             this.ServiceDailyDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -4257,123 +4026,6 @@ namespace Quan_Ly_Khach_San
             this.ServiceDailyDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ServiceDailyDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "MaHoaDon";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Room Bill ID";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            this.dataGridViewTextBoxColumn7.Width = 99;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "Checkin";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Check In";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            this.dataGridViewTextBoxColumn8.Width = 89;
-            // 
-            // dataGridViewTextBoxColumn15
-            // 
-            this.dataGridViewTextBoxColumn15.DataPropertyName = "Checkout";
-            this.dataGridViewTextBoxColumn15.HeaderText = "Check Out";
-            this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
-            this.dataGridViewTextBoxColumn15.ReadOnly = true;
-            this.dataGridViewTextBoxColumn15.Width = 101;
-            // 
-            // dataGridViewTextBoxColumn16
-            // 
-            this.dataGridViewTextBoxColumn16.DataPropertyName = "MaNV";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Staff ID";
-            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.ReadOnly = true;
-            this.dataGridViewTextBoxColumn16.Width = 69;
-            // 
-            // dataGridViewTextBoxColumn47
-            // 
-            this.dataGridViewTextBoxColumn47.DataPropertyName = "MaKH";
-            this.dataGridViewTextBoxColumn47.HeaderText = "Customer ID";
-            this.dataGridViewTextBoxColumn47.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
-            this.dataGridViewTextBoxColumn47.ReadOnly = true;
-            this.dataGridViewTextBoxColumn47.Width = 113;
-            // 
-            // dataGridViewTextBoxColumn48
-            // 
-            this.dataGridViewTextBoxColumn48.DataPropertyName = "MaDSDV";
-            this.dataGridViewTextBoxColumn48.HeaderText = "Services List";
-            this.dataGridViewTextBoxColumn48.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
-            this.dataGridViewTextBoxColumn48.ReadOnly = true;
-            this.dataGridViewTextBoxColumn48.Width = 117;
-            // 
-            // dataGridViewTextBoxColumn50
-            // 
-            this.dataGridViewTextBoxColumn50.DataPropertyName = "TongTien";
-            this.dataGridViewTextBoxColumn50.HeaderText = "Total";
-            this.dataGridViewTextBoxColumn50.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
-            this.dataGridViewTextBoxColumn50.ReadOnly = true;
-            this.dataGridViewTextBoxColumn50.Width = 72;
-            // 
-            // dataGridViewTextBoxColumn51
-            // 
-            this.dataGridViewTextBoxColumn51.DataPropertyName = "TienNhan";
-            this.dataGridViewTextBoxColumn51.HeaderText = "Receive";
-            this.dataGridViewTextBoxColumn51.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
-            this.dataGridViewTextBoxColumn51.ReadOnly = true;
-            this.dataGridViewTextBoxColumn51.Width = 93;
-            // 
-            // dataGridViewTextBoxColumn52
-            // 
-            this.dataGridViewTextBoxColumn52.DataPropertyName = "TienThua";
-            this.dataGridViewTextBoxColumn52.HeaderText = "Return";
-            this.dataGridViewTextBoxColumn52.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
-            this.dataGridViewTextBoxColumn52.ReadOnly = true;
-            this.dataGridViewTextBoxColumn52.Width = 84;
-            // 
-            // dataGridViewTextBoxColumn53
-            // 
-            this.dataGridViewTextBoxColumn53.DataPropertyName = "MaRR";
-            this.dataGridViewTextBoxColumn53.HeaderText = "Risk ID";
-            this.dataGridViewTextBoxColumn53.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
-            this.dataGridViewTextBoxColumn53.ReadOnly = true;
-            this.dataGridViewTextBoxColumn53.Width = 66;
-            // 
-            // dataGridViewTextBoxColumn54
-            // 
-            this.dataGridViewTextBoxColumn54.DataPropertyName = "SoTienHoan";
-            this.dataGridViewTextBoxColumn54.HeaderText = "Refund";
-            this.dataGridViewTextBoxColumn54.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
-            this.dataGridViewTextBoxColumn54.ReadOnly = true;
-            this.dataGridViewTextBoxColumn54.Width = 87;
-            // 
-            // dataGridViewTextBoxColumn55
-            // 
-            this.dataGridViewTextBoxColumn55.DataPropertyName = "MaTinhTrang";
-            this.dataGridViewTextBoxColumn55.HeaderText = "Status";
-            this.dataGridViewTextBoxColumn55.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
-            this.dataGridViewTextBoxColumn55.ReadOnly = true;
-            this.dataGridViewTextBoxColumn55.Width = 81;
-            // 
-            // dataGridViewTextBoxColumn56
-            // 
-            this.dataGridViewTextBoxColumn56.DataPropertyName = "GhiChu";
-            this.dataGridViewTextBoxColumn56.HeaderText = "Notes";
-            this.dataGridViewTextBoxColumn56.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
-            this.dataGridViewTextBoxColumn56.ReadOnly = true;
-            this.dataGridViewTextBoxColumn56.Width = 77;
-            // 
             // siticonePanel4
             // 
             this.siticonePanel4.BackColor = System.Drawing.Color.Transparent;
@@ -4395,7 +4047,7 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel4.Controls.Add(this.ServiceTotalDailyTxt);
             this.siticonePanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticonePanel4.Location = new System.Drawing.Point(8, 233);
-            this.siticonePanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel4.Margin = new System.Windows.Forms.Padding(4);
             this.siticonePanel4.Name = "siticonePanel4";
             this.siticonePanel4.ShadowDecoration.Parent = this.siticonePanel4;
             this.siticonePanel4.Size = new System.Drawing.Size(507, 363);
@@ -4435,7 +4087,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceRiskRefurnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceRiskRefurnDailyTxt.HoverState.Parent = this.ServiceRiskRefurnDailyTxt;
             this.ServiceRiskRefurnDailyTxt.Location = new System.Drawing.Point(164, 284);
-            this.ServiceRiskRefurnDailyTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceRiskRefurnDailyTxt.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceRiskRefurnDailyTxt.Name = "ServiceRiskRefurnDailyTxt";
             this.ServiceRiskRefurnDailyTxt.PasswordChar = '\0';
             this.ServiceRiskRefurnDailyTxt.PlaceholderText = "";
@@ -4566,7 +4218,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceReturnDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceReturnDailyTxt.HoverState.Parent = this.ServiceReturnDailyTxt;
             this.ServiceReturnDailyTxt.Location = new System.Drawing.Point(168, 204);
-            this.ServiceReturnDailyTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceReturnDailyTxt.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceReturnDailyTxt.Name = "ServiceReturnDailyTxt";
             this.ServiceReturnDailyTxt.PasswordChar = '\0';
             this.ServiceReturnDailyTxt.PlaceholderText = "";
@@ -4601,7 +4253,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceReceiveDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceReceiveDailyTxt.HoverState.Parent = this.ServiceReceiveDailyTxt;
             this.ServiceReceiveDailyTxt.Location = new System.Drawing.Point(164, 117);
-            this.ServiceReceiveDailyTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceReceiveDailyTxt.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceReceiveDailyTxt.Name = "ServiceReceiveDailyTxt";
             this.ServiceReceiveDailyTxt.PasswordChar = '\0';
             this.ServiceReceiveDailyTxt.PlaceholderText = "";
@@ -4636,7 +4288,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceTotalDailyTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceTotalDailyTxt.HoverState.Parent = this.ServiceTotalDailyTxt;
             this.ServiceTotalDailyTxt.Location = new System.Drawing.Point(168, 38);
-            this.ServiceTotalDailyTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceTotalDailyTxt.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceTotalDailyTxt.Name = "ServiceTotalDailyTxt";
             this.ServiceTotalDailyTxt.PasswordChar = '\0';
             this.ServiceTotalDailyTxt.PlaceholderText = "";
@@ -4666,7 +4318,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneGradientButton3.ForeColor = System.Drawing.Color.Black;
             this.siticoneGradientButton3.HoverState.Parent = this.siticoneGradientButton3;
             this.siticoneGradientButton3.Location = new System.Drawing.Point(304, 603);
-            this.siticoneGradientButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneGradientButton3.Margin = new System.Windows.Forms.Padding(4);
             this.siticoneGradientButton3.Name = "siticoneGradientButton3";
             this.siticoneGradientButton3.ShadowDecoration.Parent = this.siticoneGradientButton3;
             this.siticoneGradientButton3.Size = new System.Drawing.Size(208, 58);
@@ -4684,9 +4336,9 @@ namespace Quan_Ly_Khach_San
             this.ServiceTab.Controls.Add(this.siticonePanel3);
             this.ServiceTab.Controls.Add(this.chart2);
             this.ServiceTab.Location = new System.Drawing.Point(4, 44);
-            this.ServiceTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceTab.Margin = new System.Windows.Forms.Padding(4);
             this.ServiceTab.Name = "ServiceTab";
-            this.ServiceTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ServiceTab.Padding = new System.Windows.Forms.Padding(4);
             this.ServiceTab.Size = new System.Drawing.Size(1325, 752);
             this.ServiceTab.TabIndex = 1;
             this.ServiceTab.Text = "MONTHLY REPORT";
@@ -4731,7 +4383,7 @@ namespace Quan_Ly_Khach_San
             this.searchMonth.Image = ((System.Drawing.Image)(resources.GetObject("searchMonth.Image")));
             this.searchMonth.ImageSize = new System.Drawing.Size(35, 35);
             this.searchMonth.Location = new System.Drawing.Point(1269, 7);
-            this.searchMonth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.searchMonth.Margin = new System.Windows.Forms.Padding(4);
             this.searchMonth.Name = "searchMonth";
             this.searchMonth.ShadowDecoration.Parent = this.searchMonth;
             this.searchMonth.Size = new System.Drawing.Size(47, 48);
@@ -4767,7 +4419,7 @@ namespace Quan_Ly_Khach_San
             "2030"});
             this.PickYear.ItemsAppearance.Parent = this.PickYear;
             this.PickYear.Location = new System.Drawing.Point(1140, 7);
-            this.PickYear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PickYear.Margin = new System.Windows.Forms.Padding(4);
             this.PickYear.Name = "PickYear";
             this.PickYear.ShadowDecoration.Parent = this.PickYear;
             this.PickYear.Size = new System.Drawing.Size(121, 36);
@@ -4804,7 +4456,7 @@ namespace Quan_Ly_Khach_San
             "12"});
             this.PickMonth.ItemsAppearance.Parent = this.PickMonth;
             this.PickMonth.Location = new System.Drawing.Point(972, 7);
-            this.PickMonth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PickMonth.Margin = new System.Windows.Forms.Padding(4);
             this.PickMonth.Name = "PickMonth";
             this.PickMonth.ShadowDecoration.Parent = this.PickMonth;
             this.PickMonth.Size = new System.Drawing.Size(88, 36);
@@ -4858,7 +4510,7 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel3.Controls.Add(this.receiveRoom);
             this.siticonePanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.siticonePanel3.Location = new System.Drawing.Point(19, 39);
-            this.siticonePanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel3.Margin = new System.Windows.Forms.Padding(4);
             this.siticonePanel3.Name = "siticonePanel3";
             this.siticonePanel3.ShadowDecoration.Parent = this.siticonePanel3;
             this.siticonePanel3.Size = new System.Drawing.Size(568, 674);
@@ -4909,7 +4561,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.collectTotalFood.HoverState.Parent = this.collectTotalFood;
             this.collectTotalFood.Location = new System.Drawing.Point(375, 370);
-            this.collectTotalFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.collectTotalFood.Margin = new System.Windows.Forms.Padding(4);
             this.collectTotalFood.Name = "collectTotalFood";
             this.collectTotalFood.PasswordChar = '\0';
             this.collectTotalFood.PlaceholderText = "";
@@ -4967,7 +4619,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.collectTotalService.HoverState.Parent = this.collectTotalService;
             this.collectTotalService.Location = new System.Drawing.Point(375, 241);
-            this.collectTotalService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.collectTotalService.Margin = new System.Windows.Forms.Padding(4);
             this.collectTotalService.Name = "collectTotalService";
             this.collectTotalService.PasswordChar = '\0';
             this.collectTotalService.PlaceholderText = "";
@@ -5025,7 +4677,7 @@ namespace Quan_Ly_Khach_San
             this.collectTotalRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.collectTotalRoom.HoverState.Parent = this.collectTotalRoom;
             this.collectTotalRoom.Location = new System.Drawing.Point(375, 107);
-            this.collectTotalRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.collectTotalRoom.Margin = new System.Windows.Forms.Padding(4);
             this.collectTotalRoom.Name = "collectTotalRoom";
             this.collectTotalRoom.PasswordChar = '\0';
             this.collectTotalRoom.PlaceholderText = "";
@@ -5309,7 +4961,7 @@ namespace Quan_Ly_Khach_San
             this.totalTotalTotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalTotalTotal.HoverState.Parent = this.totalTotalTotal;
             this.totalTotalTotal.Location = new System.Drawing.Point(332, 513);
-            this.totalTotalTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.totalTotalTotal.Margin = new System.Windows.Forms.Padding(4);
             this.totalTotalTotal.Name = "totalTotalTotal";
             this.totalTotalTotal.PasswordChar = '\0';
             this.totalTotalTotal.PlaceholderText = "";
@@ -5339,7 +4991,7 @@ namespace Quan_Ly_Khach_San
             this.returnTotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnTotal.HoverState.Parent = this.returnTotal;
             this.returnTotal.Location = new System.Drawing.Point(91, 581);
-            this.returnTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.returnTotal.Margin = new System.Windows.Forms.Padding(4);
             this.returnTotal.Name = "returnTotal";
             this.returnTotal.PasswordChar = '\0';
             this.returnTotal.PlaceholderText = "";
@@ -5373,7 +5025,7 @@ namespace Quan_Ly_Khach_San
             this.receiveTotal.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveTotal.HoverState.Parent = this.receiveTotal;
             this.receiveTotal.Location = new System.Drawing.Point(91, 487);
-            this.receiveTotal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.receiveTotal.Margin = new System.Windows.Forms.Padding(4);
             this.receiveTotal.Name = "receiveTotal";
             this.receiveTotal.PasswordChar = '\0';
             this.receiveTotal.PlaceholderText = "";
@@ -5407,7 +5059,7 @@ namespace Quan_Ly_Khach_San
             this.returnFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnFood.HoverState.Parent = this.returnFood;
             this.returnFood.Location = new System.Drawing.Point(143, 370);
-            this.returnFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.returnFood.Margin = new System.Windows.Forms.Padding(4);
             this.returnFood.Name = "returnFood";
             this.returnFood.PasswordChar = '\0';
             this.returnFood.PlaceholderText = "";
@@ -5441,7 +5093,7 @@ namespace Quan_Ly_Khach_San
             this.receiveFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveFood.HoverState.Parent = this.receiveFood;
             this.receiveFood.Location = new System.Drawing.Point(143, 313);
-            this.receiveFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.receiveFood.Margin = new System.Windows.Forms.Padding(4);
             this.receiveFood.Name = "receiveFood";
             this.receiveFood.PasswordChar = '\0';
             this.receiveFood.PlaceholderText = "";
@@ -5475,7 +5127,7 @@ namespace Quan_Ly_Khach_San
             this.returnService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnService.HoverState.Parent = this.returnService;
             this.returnService.Location = new System.Drawing.Point(143, 244);
-            this.returnService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.returnService.Margin = new System.Windows.Forms.Padding(4);
             this.returnService.Name = "returnService";
             this.returnService.PasswordChar = '\0';
             this.returnService.PlaceholderText = "";
@@ -5509,7 +5161,7 @@ namespace Quan_Ly_Khach_San
             this.receiveService.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveService.HoverState.Parent = this.receiveService;
             this.receiveService.Location = new System.Drawing.Point(143, 186);
-            this.receiveService.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.receiveService.Margin = new System.Windows.Forms.Padding(4);
             this.receiveService.Name = "receiveService";
             this.receiveService.PasswordChar = '\0';
             this.receiveService.PlaceholderText = "";
@@ -5543,7 +5195,7 @@ namespace Quan_Ly_Khach_San
             this.returnRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnRoom.HoverState.Parent = this.returnRoom;
             this.returnRoom.Location = new System.Drawing.Point(143, 111);
-            this.returnRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.returnRoom.Margin = new System.Windows.Forms.Padding(4);
             this.returnRoom.Name = "returnRoom";
             this.returnRoom.PasswordChar = '\0';
             this.returnRoom.PlaceholderText = "";
@@ -5573,12 +5225,12 @@ namespace Quan_Ly_Khach_San
             this.printReportMonth.ForeColor = System.Drawing.Color.Black;
             this.printReportMonth.HoverState.Parent = this.printReportMonth;
             this.printReportMonth.Location = new System.Drawing.Point(332, 594);
-            this.printReportMonth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.printReportMonth.Margin = new System.Windows.Forms.Padding(4);
             this.printReportMonth.Name = "printReportMonth";
             this.printReportMonth.ShadowDecoration.Parent = this.printReportMonth;
             this.printReportMonth.Size = new System.Drawing.Size(219, 58);
             this.printReportMonth.TabIndex = 25;
-            this.printReportMonth.Text = "Print Report";
+            this.printReportMonth.Text = "PRINT REPORT";
             this.printReportMonth.Click += new System.EventHandler(this.printReportMonth_Click);
             // 
             // receiveRoom
@@ -5602,7 +5254,7 @@ namespace Quan_Ly_Khach_San
             this.receiveRoom.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveRoom.HoverState.Parent = this.receiveRoom;
             this.receiveRoom.Location = new System.Drawing.Point(143, 53);
-            this.receiveRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.receiveRoom.Margin = new System.Windows.Forms.Padding(4);
             this.receiveRoom.Name = "receiveRoom";
             this.receiveRoom.PasswordChar = '\0';
             this.receiveRoom.PlaceholderText = "";
@@ -5620,37 +5272,37 @@ namespace Quan_Ly_Khach_San
             this.chart2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.chart2.BorderSkin.BorderColor = System.Drawing.Color.White;
             this.chart2.BorderSkin.PageColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            chartArea5.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea5.AxisX.LineColor = System.Drawing.Color.White;
-            chartArea5.AxisX.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
-            chartArea5.AxisX.TitleForeColor = System.Drawing.Color.White;
-            chartArea5.AxisX2.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea5.AxisX2.LineColor = System.Drawing.Color.White;
-            chartArea5.AxisX2.TitleForeColor = System.Drawing.Color.White;
-            chartArea5.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea5.AxisY.LineColor = System.Drawing.Color.White;
-            chartArea5.AxisY.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
-            chartArea5.AxisY.TitleForeColor = System.Drawing.Color.White;
-            chartArea5.AxisY2.LabelStyle.ForeColor = System.Drawing.Color.White;
-            chartArea5.AxisY2.LineColor = System.Drawing.Color.White;
-            chartArea5.AxisY2.TitleForeColor = System.Drawing.Color.White;
-            chartArea5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            chartArea5.BorderColor = System.Drawing.Color.White;
-            chartArea5.Name = "ChartArea2";
-            this.chart2.ChartAreas.Add(chartArea5);
+            chartArea4.AxisX.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea4.AxisX.LineColor = System.Drawing.Color.White;
+            chartArea4.AxisX.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
+            chartArea4.AxisX.TitleForeColor = System.Drawing.Color.White;
+            chartArea4.AxisX2.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea4.AxisX2.LineColor = System.Drawing.Color.White;
+            chartArea4.AxisX2.TitleForeColor = System.Drawing.Color.White;
+            chartArea4.AxisY.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea4.AxisY.LineColor = System.Drawing.Color.White;
+            chartArea4.AxisY.ScaleBreakStyle.LineColor = System.Drawing.Color.White;
+            chartArea4.AxisY.TitleForeColor = System.Drawing.Color.White;
+            chartArea4.AxisY2.LabelStyle.ForeColor = System.Drawing.Color.White;
+            chartArea4.AxisY2.LineColor = System.Drawing.Color.White;
+            chartArea4.AxisY2.TitleForeColor = System.Drawing.Color.White;
+            chartArea4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            chartArea4.BorderColor = System.Drawing.Color.White;
+            chartArea4.Name = "ChartArea2";
+            this.chart2.ChartAreas.Add(chartArea4);
             this.chart2.Location = new System.Drawing.Point(595, 160);
-            this.chart2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chart2.Margin = new System.Windows.Forms.Padding(4);
             this.chart2.Name = "chart2";
-            series9.ChartArea = "ChartArea2";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series9.LabelBackColor = System.Drawing.Color.Transparent;
-            series9.LabelForeColor = System.Drawing.Color.White;
-            series9.Name = "Series1";
-            series10.ChartArea = "ChartArea2";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series10.Name = "Series2";
-            this.chart2.Series.Add(series9);
-            this.chart2.Series.Add(series10);
+            series7.ChartArea = "ChartArea2";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series7.LabelBackColor = System.Drawing.Color.Transparent;
+            series7.LabelForeColor = System.Drawing.Color.White;
+            series7.Name = "Series1";
+            series8.ChartArea = "ChartArea2";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series8.Name = "Series2";
+            this.chart2.Series.Add(series7);
+            this.chart2.Series.Add(series8);
             this.chart2.Size = new System.Drawing.Size(723, 465);
             this.chart2.TabIndex = 74;
             this.chart2.Text = "chart2";
@@ -5659,12 +5311,369 @@ namespace Quan_Ly_Khach_San
             // 
             this.RequestTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.RequestTab.Location = new System.Drawing.Point(4, 44);
-            this.RequestTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RequestTab.Margin = new System.Windows.Forms.Padding(4);
             this.RequestTab.Name = "RequestTab";
-            this.RequestTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RequestTab.Padding = new System.Windows.Forms.Padding(4);
             this.RequestTab.Size = new System.Drawing.Size(1325, 752);
             this.RequestTab.TabIndex = 2;
             this.RequestTab.Text = "ANALYSIS";
+            // 
+            // mahoadon
+            // 
+            this.mahoadon.DataPropertyName = "MaHoaDon";
+            this.mahoadon.HeaderText = "Room Bill ID";
+            this.mahoadon.MinimumWidth = 6;
+            this.mahoadon.Name = "mahoadon";
+            this.mahoadon.ReadOnly = true;
+            this.mahoadon.Width = 99;
+            // 
+            // checkin
+            // 
+            this.checkin.DataPropertyName = "Checkin";
+            this.checkin.HeaderText = "Check In";
+            this.checkin.MinimumWidth = 6;
+            this.checkin.Name = "checkin";
+            this.checkin.ReadOnly = true;
+            this.checkin.Width = 89;
+            // 
+            // checkout
+            // 
+            this.checkout.DataPropertyName = "Checkout";
+            this.checkout.HeaderText = "Check Out";
+            this.checkout.MinimumWidth = 6;
+            this.checkout.Name = "checkout";
+            this.checkout.ReadOnly = true;
+            this.checkout.Width = 101;
+            // 
+            // manv
+            // 
+            this.manv.DataPropertyName = "MaNV";
+            this.manv.HeaderText = "Staff ID";
+            this.manv.MinimumWidth = 6;
+            this.manv.Name = "manv";
+            this.manv.ReadOnly = true;
+            this.manv.Visible = false;
+            this.manv.Width = 69;
+            // 
+            // makh
+            // 
+            this.makh.DataPropertyName = "MaKH";
+            this.makh.HeaderText = "Customer ID";
+            this.makh.MinimumWidth = 6;
+            this.makh.Name = "makh";
+            this.makh.ReadOnly = true;
+            this.makh.Width = 113;
+            // 
+            // phong
+            // 
+            this.phong.DataPropertyName = "MaPhong";
+            this.phong.HeaderText = "Room ";
+            this.phong.MinimumWidth = 6;
+            this.phong.Name = "phong";
+            this.phong.ReadOnly = true;
+            this.phong.Width = 81;
+            // 
+            // songayo
+            // 
+            this.songayo.DataPropertyName = "SoNgayO";
+            this.songayo.HeaderText = "Days";
+            this.songayo.MinimumWidth = 6;
+            this.songayo.Name = "songayo";
+            this.songayo.ReadOnly = true;
+            this.songayo.Width = 71;
+            // 
+            // tong
+            // 
+            this.tong.DataPropertyName = "TongTien";
+            this.tong.HeaderText = "Total";
+            this.tong.MinimumWidth = 6;
+            this.tong.Name = "tong";
+            this.tong.ReadOnly = true;
+            this.tong.Width = 72;
+            // 
+            // tiennhan
+            // 
+            this.tiennhan.DataPropertyName = "TienNhan";
+            this.tiennhan.HeaderText = "Receive";
+            this.tiennhan.MinimumWidth = 6;
+            this.tiennhan.Name = "tiennhan";
+            this.tiennhan.ReadOnly = true;
+            this.tiennhan.Width = 93;
+            // 
+            // tienthua
+            // 
+            this.tienthua.DataPropertyName = "TienThua";
+            this.tienthua.HeaderText = "Return";
+            this.tienthua.MinimumWidth = 6;
+            this.tienthua.Name = "tienthua";
+            this.tienthua.ReadOnly = true;
+            this.tienthua.Width = 84;
+            // 
+            // marr
+            // 
+            this.marr.DataPropertyName = "MaRR";
+            this.marr.HeaderText = "Risk ID";
+            this.marr.MinimumWidth = 6;
+            this.marr.Name = "marr";
+            this.marr.ReadOnly = true;
+            this.marr.Width = 66;
+            // 
+            // tienhoan
+            // 
+            this.tienhoan.DataPropertyName = "SoTienHoan";
+            this.tienhoan.HeaderText = "Refund";
+            this.tienhoan.MinimumWidth = 6;
+            this.tienhoan.Name = "tienhoan";
+            this.tienhoan.ReadOnly = true;
+            this.tienhoan.Width = 87;
+            // 
+            // tinhtrang
+            // 
+            this.tinhtrang.DataPropertyName = "MaTinhTrang";
+            this.tinhtrang.HeaderText = "Status";
+            this.tinhtrang.MinimumWidth = 6;
+            this.tinhtrang.Name = "tinhtrang";
+            this.tinhtrang.ReadOnly = true;
+            this.tinhtrang.Visible = false;
+            this.tinhtrang.Width = 81;
+            // 
+            // ghichu
+            // 
+            this.ghichu.DataPropertyName = "GhiChu";
+            this.ghichu.HeaderText = "Notes";
+            this.ghichu.MinimumWidth = 6;
+            this.ghichu.Name = "ghichu";
+            this.ghichu.ReadOnly = true;
+            this.ghichu.Width = 77;
+            // 
+            // dataGridViewTextBoxColumn33
+            // 
+            this.dataGridViewTextBoxColumn33.DataPropertyName = "MaHoaDon";
+            this.dataGridViewTextBoxColumn33.HeaderText = "Food Bill ID";
+            this.dataGridViewTextBoxColumn33.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
+            this.dataGridViewTextBoxColumn33.ReadOnly = true;
+            this.dataGridViewTextBoxColumn33.Width = 95;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "ngayLap";
+            this.Column1.HeaderText = "Date";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 69;
+            // 
+            // dataGridViewTextBoxColumn36
+            // 
+            this.dataGridViewTextBoxColumn36.DataPropertyName = "MaNV";
+            this.dataGridViewTextBoxColumn36.HeaderText = "Staff ID";
+            this.dataGridViewTextBoxColumn36.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn36.Name = "dataGridViewTextBoxColumn36";
+            this.dataGridViewTextBoxColumn36.ReadOnly = true;
+            this.dataGridViewTextBoxColumn36.Visible = false;
+            this.dataGridViewTextBoxColumn36.Width = 69;
+            // 
+            // dataGridViewTextBoxColumn37
+            // 
+            this.dataGridViewTextBoxColumn37.DataPropertyName = "MaKH";
+            this.dataGridViewTextBoxColumn37.HeaderText = "Customer ID";
+            this.dataGridViewTextBoxColumn37.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn37.Name = "dataGridViewTextBoxColumn37";
+            this.dataGridViewTextBoxColumn37.ReadOnly = true;
+            this.dataGridViewTextBoxColumn37.Width = 113;
+            // 
+            // dataGridViewTextBoxColumn39
+            // 
+            this.dataGridViewTextBoxColumn39.DataPropertyName = "maDSMA";
+            this.dataGridViewTextBoxColumn39.HeaderText = "Foods List";
+            this.dataGridViewTextBoxColumn39.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn39.Name = "dataGridViewTextBoxColumn39";
+            this.dataGridViewTextBoxColumn39.ReadOnly = true;
+            this.dataGridViewTextBoxColumn39.Width = 101;
+            // 
+            // dataGridViewTextBoxColumn40
+            // 
+            this.dataGridViewTextBoxColumn40.DataPropertyName = "TongTien";
+            this.dataGridViewTextBoxColumn40.HeaderText = "Total";
+            this.dataGridViewTextBoxColumn40.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
+            this.dataGridViewTextBoxColumn40.ReadOnly = true;
+            this.dataGridViewTextBoxColumn40.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn41
+            // 
+            this.dataGridViewTextBoxColumn41.DataPropertyName = "TienNhan";
+            this.dataGridViewTextBoxColumn41.HeaderText = "Receive";
+            this.dataGridViewTextBoxColumn41.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
+            this.dataGridViewTextBoxColumn41.ReadOnly = true;
+            this.dataGridViewTextBoxColumn41.Width = 93;
+            // 
+            // dataGridViewTextBoxColumn42
+            // 
+            this.dataGridViewTextBoxColumn42.DataPropertyName = "TienThua";
+            this.dataGridViewTextBoxColumn42.HeaderText = "Return";
+            this.dataGridViewTextBoxColumn42.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
+            this.dataGridViewTextBoxColumn42.ReadOnly = true;
+            this.dataGridViewTextBoxColumn42.Width = 84;
+            // 
+            // dataGridViewTextBoxColumn43
+            // 
+            this.dataGridViewTextBoxColumn43.DataPropertyName = "MaRR";
+            this.dataGridViewTextBoxColumn43.HeaderText = "Risk ID";
+            this.dataGridViewTextBoxColumn43.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
+            this.dataGridViewTextBoxColumn43.ReadOnly = true;
+            this.dataGridViewTextBoxColumn43.Width = 66;
+            // 
+            // dataGridViewTextBoxColumn44
+            // 
+            this.dataGridViewTextBoxColumn44.DataPropertyName = "SoTienHoan";
+            this.dataGridViewTextBoxColumn44.HeaderText = "Refund";
+            this.dataGridViewTextBoxColumn44.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn44.Name = "dataGridViewTextBoxColumn44";
+            this.dataGridViewTextBoxColumn44.ReadOnly = true;
+            this.dataGridViewTextBoxColumn44.Width = 87;
+            // 
+            // dataGridViewTextBoxColumn45
+            // 
+            this.dataGridViewTextBoxColumn45.DataPropertyName = "MaTinhTrang";
+            this.dataGridViewTextBoxColumn45.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn45.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn45.Name = "dataGridViewTextBoxColumn45";
+            this.dataGridViewTextBoxColumn45.ReadOnly = true;
+            this.dataGridViewTextBoxColumn45.Visible = false;
+            this.dataGridViewTextBoxColumn45.Width = 81;
+            // 
+            // dataGridViewTextBoxColumn46
+            // 
+            this.dataGridViewTextBoxColumn46.DataPropertyName = "GhiChu";
+            this.dataGridViewTextBoxColumn46.HeaderText = "Notes";
+            this.dataGridViewTextBoxColumn46.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn46.Name = "dataGridViewTextBoxColumn46";
+            this.dataGridViewTextBoxColumn46.ReadOnly = true;
+            this.dataGridViewTextBoxColumn46.Width = 77;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "MaHoaDon";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Service Bill ID";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.Width = 111;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Checkin";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Check In";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            this.dataGridViewTextBoxColumn8.Width = 89;
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.DataPropertyName = "Checkout";
+            this.dataGridViewTextBoxColumn15.HeaderText = "Check Out";
+            this.dataGridViewTextBoxColumn15.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.ReadOnly = true;
+            this.dataGridViewTextBoxColumn15.Width = 101;
+            // 
+            // dataGridViewTextBoxColumn16
+            // 
+            this.dataGridViewTextBoxColumn16.DataPropertyName = "MaNV";
+            this.dataGridViewTextBoxColumn16.HeaderText = "Staff ID";
+            this.dataGridViewTextBoxColumn16.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
+            this.dataGridViewTextBoxColumn16.ReadOnly = true;
+            this.dataGridViewTextBoxColumn16.Visible = false;
+            this.dataGridViewTextBoxColumn16.Width = 69;
+            // 
+            // dataGridViewTextBoxColumn47
+            // 
+            this.dataGridViewTextBoxColumn47.DataPropertyName = "MaKH";
+            this.dataGridViewTextBoxColumn47.HeaderText = "Customer ID";
+            this.dataGridViewTextBoxColumn47.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn47.Name = "dataGridViewTextBoxColumn47";
+            this.dataGridViewTextBoxColumn47.ReadOnly = true;
+            this.dataGridViewTextBoxColumn47.Width = 113;
+            // 
+            // dataGridViewTextBoxColumn48
+            // 
+            this.dataGridViewTextBoxColumn48.DataPropertyName = "MaDSDV";
+            this.dataGridViewTextBoxColumn48.HeaderText = "Services List";
+            this.dataGridViewTextBoxColumn48.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn48.Name = "dataGridViewTextBoxColumn48";
+            this.dataGridViewTextBoxColumn48.ReadOnly = true;
+            this.dataGridViewTextBoxColumn48.Width = 117;
+            // 
+            // dataGridViewTextBoxColumn50
+            // 
+            this.dataGridViewTextBoxColumn50.DataPropertyName = "TongTien";
+            this.dataGridViewTextBoxColumn50.HeaderText = "Total";
+            this.dataGridViewTextBoxColumn50.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn50.Name = "dataGridViewTextBoxColumn50";
+            this.dataGridViewTextBoxColumn50.ReadOnly = true;
+            this.dataGridViewTextBoxColumn50.Width = 72;
+            // 
+            // dataGridViewTextBoxColumn51
+            // 
+            this.dataGridViewTextBoxColumn51.DataPropertyName = "TienNhan";
+            this.dataGridViewTextBoxColumn51.HeaderText = "Receive";
+            this.dataGridViewTextBoxColumn51.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn51.Name = "dataGridViewTextBoxColumn51";
+            this.dataGridViewTextBoxColumn51.ReadOnly = true;
+            this.dataGridViewTextBoxColumn51.Width = 93;
+            // 
+            // dataGridViewTextBoxColumn52
+            // 
+            this.dataGridViewTextBoxColumn52.DataPropertyName = "TienThua";
+            this.dataGridViewTextBoxColumn52.HeaderText = "Return";
+            this.dataGridViewTextBoxColumn52.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn52.Name = "dataGridViewTextBoxColumn52";
+            this.dataGridViewTextBoxColumn52.ReadOnly = true;
+            this.dataGridViewTextBoxColumn52.Width = 84;
+            // 
+            // dataGridViewTextBoxColumn53
+            // 
+            this.dataGridViewTextBoxColumn53.DataPropertyName = "MaRR";
+            this.dataGridViewTextBoxColumn53.HeaderText = "Risk ID";
+            this.dataGridViewTextBoxColumn53.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn53.Name = "dataGridViewTextBoxColumn53";
+            this.dataGridViewTextBoxColumn53.ReadOnly = true;
+            this.dataGridViewTextBoxColumn53.Width = 66;
+            // 
+            // dataGridViewTextBoxColumn54
+            // 
+            this.dataGridViewTextBoxColumn54.DataPropertyName = "SoTienHoan";
+            this.dataGridViewTextBoxColumn54.HeaderText = "Refund";
+            this.dataGridViewTextBoxColumn54.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn54.Name = "dataGridViewTextBoxColumn54";
+            this.dataGridViewTextBoxColumn54.ReadOnly = true;
+            this.dataGridViewTextBoxColumn54.Width = 87;
+            // 
+            // dataGridViewTextBoxColumn55
+            // 
+            this.dataGridViewTextBoxColumn55.DataPropertyName = "MaTinhTrang";
+            this.dataGridViewTextBoxColumn55.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn55.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn55.Name = "dataGridViewTextBoxColumn55";
+            this.dataGridViewTextBoxColumn55.ReadOnly = true;
+            this.dataGridViewTextBoxColumn55.Visible = false;
+            this.dataGridViewTextBoxColumn55.Width = 81;
+            // 
+            // dataGridViewTextBoxColumn56
+            // 
+            this.dataGridViewTextBoxColumn56.DataPropertyName = "GhiChu";
+            this.dataGridViewTextBoxColumn56.HeaderText = "Notes";
+            this.dataGridViewTextBoxColumn56.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn56.Name = "dataGridViewTextBoxColumn56";
+            this.dataGridViewTextBoxColumn56.ReadOnly = true;
+            this.dataGridViewTextBoxColumn56.Width = 77;
             // 
             // Statistic_Form
             // 
@@ -5674,7 +5683,7 @@ namespace Quan_Ly_Khach_San
             this.ClientSize = new System.Drawing.Size(1333, 788);
             this.Controls.Add(this.StatisticAll);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Statistic_Form";
             this.Load += new System.EventHandler(this.Statistic_Form_Load);
             this.StatisticAll.ResumeLayout(false);
@@ -5854,20 +5863,6 @@ namespace Quan_Ly_Khach_San
         private Guna.UI2.WinForms.Guna2TextBox customerIDTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneButton SearchServiceBtn;
         private Guna.UI2.WinForms.Guna2DataGridView BillRoomDgv;
-        private System.Windows.Forms.DataGridViewTextBoxColumn mahoadon;
-        private System.Windows.Forms.DataGridViewTextBoxColumn checkin;
-        private System.Windows.Forms.DataGridViewTextBoxColumn checkout;
-        private System.Windows.Forms.DataGridViewTextBoxColumn manv;
-        private System.Windows.Forms.DataGridViewTextBoxColumn makh;
-        private System.Windows.Forms.DataGridViewTextBoxColumn phong;
-        private System.Windows.Forms.DataGridViewTextBoxColumn songayo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tong;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tiennhan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tienthua;
-        private System.Windows.Forms.DataGridViewTextBoxColumn marr;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tienhoan;
-        private System.Windows.Forms.DataGridViewTextBoxColumn tinhtrang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ghichu;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel1;
         private System.Windows.Forms.Label label26;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox RiskRefurnTxt;
@@ -5911,19 +5906,6 @@ namespace Quan_Ly_Khach_San
         private Guna.UI2.WinForms.Guna2TextBox CustomerIDDailyTxt;
         private Siticone.Desktop.UI.WinForms.SiticoneButton siticoneButton1;
         private Guna.UI2.WinForms.Guna2DataGridView ServiceDailyDGV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn47;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn48;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn50;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn51;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn52;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn53;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn54;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn55;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn56;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel4;
         private System.Windows.Forms.Label label84;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox ServiceRiskRefurnDailyTxt;
@@ -5939,18 +5921,6 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox ServiceReceiveDailyTxt;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox ServiceTotalDailyTxt;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn33;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn46;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
@@ -6008,5 +5978,44 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneButton searchMonth;
         private System.Windows.Forms.Label label82;
         private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mahoadon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn checkin;
+        private System.Windows.Forms.DataGridViewTextBoxColumn checkout;
+        private System.Windows.Forms.DataGridViewTextBoxColumn manv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn makh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn songayo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tiennhan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tienthua;
+        private System.Windows.Forms.DataGridViewTextBoxColumn marr;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tienhoan;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tinhtrang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ghichu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn33;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn36;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn37;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn39;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn43;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn44;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn45;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn46;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn47;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn48;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn50;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn51;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn52;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn53;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn54;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn55;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn56;
     }
 }
