@@ -625,5 +625,18 @@ namespace Quan_Ly_Khach_San
         {
             Search();
         }
+
+        private void btnAddRoom_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Controls.Add(new Button() { 
+                Text = "New Room",
+                Width = 170,
+                Height = 100,
+                BackColor = colorEmpty,
+                ForeColor = Color.Blue,
+                Font = new Font("Microsoft Sans Serif", 18),
+                
+            });
+        }
     }
 }
