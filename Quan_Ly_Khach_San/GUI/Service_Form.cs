@@ -138,7 +138,7 @@ namespace Quan_Ly_Khach_San.GUI
                 int amount = int.Parse(ServiceNumberTxb.Text);
                 DichVu dichVu = ServiceListDGV.SelectedRows[0].DataBoundItem as DichVu;
                 dichVu.SoLuong = amount;
-                    AddSelectedList(dichVu);
+                AddSelectedList(dichVu);
             }
             catch
             {
@@ -254,6 +254,7 @@ namespace Quan_Ly_Khach_San.GUI
                 var bindingList = new BindingList<DichVu>(selectedServiceList);
                 this.ServicePickedDGV.DataSource = bindingList;
                 this.TotalPriceTxb1.Text = "0";
+                BillLoad();
             }
 
         }

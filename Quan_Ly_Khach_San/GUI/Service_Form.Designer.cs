@@ -29,22 +29,21 @@ namespace Quan_Ly_Khach_San.GUI
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Service_Form));
             this.TotalPriceTxb1 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.label6 = new System.Windows.Forms.Label();
             this.RemoveServiceBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ServicePickedDGV = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -70,6 +69,13 @@ namespace Quan_Ly_Khach_San.GUI
             this.CustomerSelectCb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
             this.AddCustomerBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ServiceListDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DVT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.riskDgv = new Guna.UI2.WinForms.Guna2DataGridView();
             this.marr = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -107,8 +113,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.noteServiceBill = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -117,19 +121,11 @@ namespace Quan_Ly_Khach_San.GUI
             this.receiveTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.risk = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
             this.totalPriceTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DVT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label34 = new System.Windows.Forms.Label();
             this.TotalPriceTxb1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ServicePickedDGV)).BeginInit();
@@ -176,7 +172,7 @@ namespace Quan_Ly_Khach_San.GUI
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.tabPage1.Controls.Add(this.siticoneHtmlLabel1);
+            this.tabPage1.Controls.Add(this.label34);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.RemoveServiceBtn);
             this.tabPage1.Controls.Add(this.ServicePickedDGV);
@@ -195,27 +191,16 @@ namespace Quan_Ly_Khach_San.GUI
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "SERVICE";
             // 
-            // siticoneHtmlLabel1
-            // 
-            this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Ravie", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(402, 6);
-            this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(195, 45);
-            this.siticoneHtmlLabel1.TabIndex = 45;
-            this.siticoneHtmlLabel1.Text = "SERVICE";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label6.Location = new System.Drawing.Point(945, 54);
+            this.label6.Location = new System.Drawing.Point(893, 54);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 16);
+            this.label6.Size = new System.Drawing.Size(93, 16);
             this.label6.TabIndex = 44;
-            this.label6.Text = "List";
+            this.label6.Text = "Request List";
             // 
             // RemoveServiceBtn
             // 
@@ -243,21 +228,21 @@ namespace Quan_Ly_Khach_San.GUI
             // 
             // ServicePickedDGV
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.ServicePickedDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.ServicePickedDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.ServicePickedDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ServicePickedDGV.BackgroundColor = System.Drawing.Color.White;
             this.ServicePickedDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ServicePickedDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServicePickedDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ServicePickedDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ServicePickedDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.ServicePickedDGV.ColumnHeadersHeight = 40;
             this.ServicePickedDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -270,14 +255,14 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn8,
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ServicePickedDGV.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ServicePickedDGV.DefaultCellStyle = dataGridViewCellStyle15;
             this.ServicePickedDGV.EnableHeadersVisualStyles = false;
             this.ServicePickedDGV.GridColor = System.Drawing.Color.White;
             this.ServicePickedDGV.Location = new System.Drawing.Point(603, 73);
@@ -638,21 +623,21 @@ namespace Quan_Ly_Khach_San.GUI
             // 
             // ServiceListDGV
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.ServiceListDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
+            this.ServiceListDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle16;
             this.ServiceListDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ServiceListDGV.BackgroundColor = System.Drawing.Color.White;
             this.ServiceListDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ServiceListDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServiceListDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ServiceListDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ServiceListDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
             this.ServiceListDGV.ColumnHeadersHeight = 40;
             this.ServiceListDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -662,14 +647,14 @@ namespace Quan_Ly_Khach_San.GUI
             this.Column9,
             this.Column4,
             this.Column8});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ServiceListDGV.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ServiceListDGV.DefaultCellStyle = dataGridViewCellStyle18;
             this.ServiceListDGV.EnableHeadersVisualStyles = false;
             this.ServiceListDGV.GridColor = System.Drawing.Color.White;
             this.ServiceListDGV.Location = new System.Drawing.Point(21, 73);
@@ -704,6 +689,52 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceListDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ServiceListDGV_CellClick);
             this.ServiceListDGV.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ServiceListDGV_CellDoubleClick);
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "maDV";
+            this.Column1.HeaderText = "ID";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "tenDV";
+            this.Column2.HeaderText = "Name";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "maLoaiDV";
+            this.Column3.HeaderText = "TypeID";
+            this.Column3.Name = "Column3";
+            // 
+            // DVT
+            // 
+            this.DVT.DataPropertyName = "maDVT";
+            this.DVT.HeaderText = "DVT ID";
+            this.DVT.Name = "DVT";
+            this.DVT.Visible = false;
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "soLuong";
+            this.Column9.HeaderText = "Number";
+            this.Column9.Name = "Column9";
+            this.Column9.Visible = false;
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "gia";
+            this.Column4.HeaderText = "Price";
+            this.Column4.Name = "Column4";
+            // 
+            // Column8
+            // 
+            this.Column8.DataPropertyName = "maTinhTrang";
+            this.Column8.HeaderText = "StatusID";
+            this.Column8.Name = "Column8";
+            // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
@@ -730,34 +761,34 @@ namespace Quan_Ly_Khach_San.GUI
             // 
             // riskDgv
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.riskDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
+            this.riskDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle19;
             this.riskDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.riskDgv.BackgroundColor = System.Drawing.Color.White;
             this.riskDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.riskDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.riskDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.riskDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.riskDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle20;
             this.riskDgv.ColumnHeadersHeight = 40;
             this.riskDgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.marr,
             this.loairr,
             this.phanhoantien});
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.riskDgv.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.riskDgv.DefaultCellStyle = dataGridViewCellStyle21;
             this.riskDgv.EnableHeadersVisualStyles = false;
             this.riskDgv.GridColor = System.Drawing.Color.White;
             this.riskDgv.Location = new System.Drawing.Point(664, 397);
@@ -826,21 +857,21 @@ namespace Quan_Ly_Khach_San.GUI
             // 
             // ServiceBillDgv
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.ServiceBillDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
+            this.ServiceBillDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
             this.ServiceBillDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ServiceBillDgv.BackgroundColor = System.Drawing.Color.White;
             this.ServiceBillDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ServiceBillDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServiceBillDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ServiceBillDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ServiceBillDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
             this.ServiceBillDgv.ColumnHeadersHeight = 40;
             this.ServiceBillDgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.mahoadon,
@@ -856,14 +887,14 @@ namespace Quan_Ly_Khach_San.GUI
             this.Refund,
             this.StatusID,
             this.Note});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ServiceBillDgv.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ServiceBillDgv.DefaultCellStyle = dataGridViewCellStyle24;
             this.ServiceBillDgv.EnableHeadersVisualStyles = false;
             this.ServiceBillDgv.GridColor = System.Drawing.Color.White;
             this.ServiceBillDgv.Location = new System.Drawing.Point(11, 397);
@@ -1031,7 +1062,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceBillid.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.ServiceBillid.DisabledState.Parent = this.ServiceBillid;
             this.ServiceBillid.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ServiceBillid.Enabled = false;
             this.ServiceBillid.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.ServiceBillid.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceBillid.FocusedState.Parent = this.ServiceBillid;
@@ -1043,6 +1073,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceBillid.Name = "ServiceBillid";
             this.ServiceBillid.PasswordChar = '\0';
             this.ServiceBillid.PlaceholderText = "";
+            this.ServiceBillid.ReadOnly = true;
             this.ServiceBillid.SelectedText = "";
             this.ServiceBillid.ShadowDecoration.Parent = this.ServiceBillid;
             this.ServiceBillid.Size = new System.Drawing.Size(202, 44);
@@ -1114,7 +1145,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.returnTxb.ForeColor = System.Drawing.Color.White;
             this.returnTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.returnTxb.HoverState.Parent = this.returnTxb;
-            this.returnTxb.Location = new System.Drawing.Point(826, 280);
+            this.returnTxb.Location = new System.Drawing.Point(811, 280);
             this.returnTxb.Name = "returnTxb";
             this.returnTxb.PasswordChar = '\0';
             this.returnTxb.PlaceholderText = "";
@@ -1122,7 +1153,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.returnTxb.SelectedText = "";
             this.returnTxb.SelectionStart = 1;
             this.returnTxb.ShadowDecoration.Parent = this.returnTxb;
-            this.returnTxb.Size = new System.Drawing.Size(112, 44);
+            this.returnTxb.Size = new System.Drawing.Size(127, 44);
             this.returnTxb.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
             this.returnTxb.TabIndex = 56;
             this.returnTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1140,7 +1171,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.serviceListId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.serviceListId.DisabledState.Parent = this.serviceListId;
             this.serviceListId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.serviceListId.Enabled = false;
             this.serviceListId.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.serviceListId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.serviceListId.FocusedState.Parent = this.serviceListId;
@@ -1152,6 +1182,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.serviceListId.Name = "serviceListId";
             this.serviceListId.PasswordChar = '\0';
             this.serviceListId.PlaceholderText = "";
+            this.serviceListId.ReadOnly = true;
             this.serviceListId.SelectedText = "";
             this.serviceListId.ShadowDecoration.Parent = this.serviceListId;
             this.serviceListId.Size = new System.Drawing.Size(169, 44);
@@ -1214,7 +1245,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.customerId.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.customerId.DisabledState.Parent = this.customerId;
             this.customerId.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.customerId.Enabled = false;
             this.customerId.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.customerId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.customerId.FocusedState.Parent = this.customerId;
@@ -1226,6 +1256,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.customerId.Name = "customerId";
             this.customerId.PasswordChar = '\0';
             this.customerId.PlaceholderText = "";
+            this.customerId.ReadOnly = true;
             this.customerId.SelectedText = "";
             this.customerId.ShadowDecoration.Parent = this.customerId;
             this.customerId.Size = new System.Drawing.Size(174, 44);
@@ -1253,7 +1284,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.DarkGray;
-            this.label10.Location = new System.Drawing.Point(52, 195);
+            this.label10.Location = new System.Drawing.Point(11, 195);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(91, 21);
             this.label10.TabIndex = 66;
@@ -1308,7 +1339,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label18.ForeColor = System.Drawing.Color.DarkGray;
-            this.label18.Location = new System.Drawing.Point(50, 98);
+            this.label18.Location = new System.Drawing.Point(11, 98);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(77, 21);
             this.label18.TabIndex = 54;
@@ -1319,7 +1350,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label17.ForeColor = System.Drawing.Color.DarkGray;
-            this.label17.Location = new System.Drawing.Point(50, 14);
+            this.label17.Location = new System.Drawing.Point(11, 14);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(114, 21);
             this.label17.TabIndex = 53;
@@ -1329,8 +1360,6 @@ namespace Quan_Ly_Khach_San.GUI
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel7.Controls.Add(this.label32);
-            this.panel7.Controls.Add(this.label31);
             this.panel7.Controls.Add(this.label27);
             this.panel7.Controls.Add(this.label28);
             this.panel7.Controls.Add(this.noteServiceBill);
@@ -1344,34 +1373,12 @@ namespace Quan_Ly_Khach_San.GUI
             this.panel7.Size = new System.Drawing.Size(538, 293);
             this.panel7.TabIndex = 62;
             // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(498, 254);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(32, 16);
-            this.label32.TabIndex = 63;
-            this.label32.Text = "USD";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
-            this.label31.ForeColor = System.Drawing.Color.White;
-            this.label31.Location = new System.Drawing.Point(342, 254);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(32, 16);
-            this.label31.TabIndex = 62;
-            this.label31.Text = "USD";
-            // 
             // label27
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label27.ForeColor = System.Drawing.Color.DarkGray;
-            this.label27.Location = new System.Drawing.Point(206, 206);
+            this.label27.Location = new System.Drawing.Point(361, 76);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(70, 21);
             this.label27.TabIndex = 60;
@@ -1413,7 +1420,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.noteServiceBill.PlaceholderText = "";
             this.noteServiceBill.SelectedText = "";
             this.noteServiceBill.ShadowDecoration.Parent = this.noteServiceBill;
-            this.noteServiceBill.Size = new System.Drawing.Size(314, 158);
+            this.noteServiceBill.Size = new System.Drawing.Size(149, 225);
             this.noteServiceBill.TabIndex = 48;
             this.noteServiceBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1440,7 +1447,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.refundTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.refundTxb.DisabledState.Parent = this.refundTxb;
             this.refundTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.refundTxb.Enabled = false;
             this.refundTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.refundTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.refundTxb.FocusedState.Parent = this.refundTxb;
@@ -1480,7 +1486,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.receiveTxb.ForeColor = System.Drawing.Color.White;
             this.receiveTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.receiveTxb.HoverState.Parent = this.receiveTxb;
-            this.receiveTxb.Location = new System.Drawing.Point(210, 228);
+            this.receiveTxb.Location = new System.Drawing.Point(365, 98);
             this.receiveTxb.Name = "receiveTxb";
             this.receiveTxb.PasswordChar = '\0';
             this.receiveTxb.PlaceholderText = "";
@@ -1496,8 +1502,6 @@ namespace Quan_Ly_Khach_San.GUI
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel8.Controls.Add(this.risk);
-            this.panel8.Controls.Add(this.label30);
-            this.panel8.Controls.Add(this.label29);
             this.panel8.Controls.Add(this.totalPriceTxb);
             this.panel8.Controls.Add(this.label25);
             this.panel8.Controls.Add(this.label24);
@@ -1520,7 +1524,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.risk.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.risk.DisabledState.Parent = this.risk;
             this.risk.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.risk.Enabled = false;
             this.risk.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.risk.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.risk.FocusedState.Parent = this.risk;
@@ -1532,33 +1535,12 @@ namespace Quan_Ly_Khach_San.GUI
             this.risk.Name = "risk";
             this.risk.PasswordChar = '\0';
             this.risk.PlaceholderText = "";
+            this.risk.ReadOnly = true;
             this.risk.SelectedText = "";
             this.risk.ShadowDecoration.Parent = this.risk;
             this.risk.Size = new System.Drawing.Size(151, 44);
             this.risk.TabIndex = 62;
             this.risk.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
-            this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(149, 256);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(32, 16);
-            this.label30.TabIndex = 61;
-            this.label30.Text = "USD";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Bold);
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(149, 172);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(32, 16);
-            this.label29.TabIndex = 60;
-            this.label29.Text = "USD";
             // 
             // totalPriceTxb
             // 
@@ -1572,7 +1554,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.totalPriceTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.totalPriceTxb.DisabledState.Parent = this.totalPriceTxb;
             this.totalPriceTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.totalPriceTxb.Enabled = false;
             this.totalPriceTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
             this.totalPriceTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.totalPriceTxb.FocusedState.Parent = this.totalPriceTxb;
@@ -1626,51 +1607,16 @@ namespace Quan_Ly_Khach_San.GUI
             this.label23.TabIndex = 58;
             this.label23.Text = "Risk ID";
             // 
-            // Column1
+            // label34
             // 
-            this.Column1.DataPropertyName = "maDV";
-            this.Column1.HeaderText = "ID";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "tenDV";
-            this.Column2.HeaderText = "Name";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "maLoaiDV";
-            this.Column3.HeaderText = "TypeID";
-            this.Column3.Name = "Column3";
-            // 
-            // DVT
-            // 
-            this.DVT.DataPropertyName = "maDVT";
-            this.DVT.HeaderText = "DVT ID";
-            this.DVT.Name = "DVT";
-            this.DVT.Visible = false;
-            // 
-            // Column9
-            // 
-            this.Column9.DataPropertyName = "soLuong";
-            this.Column9.HeaderText = "Number";
-            this.Column9.Name = "Column9";
-            this.Column9.Visible = false;
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "gia";
-            this.Column4.HeaderText = "Price";
-            this.Column4.Name = "Column4";
-            // 
-            // Column8
-            // 
-            this.Column8.DataPropertyName = "maTinhTrang";
-            this.Column8.HeaderText = "StatusID";
-            this.Column8.Name = "Column8";
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Segoe UI Emoji", 19.8F, System.Drawing.FontStyle.Bold);
+            this.label34.ForeColor = System.Drawing.Color.DarkGray;
+            this.label34.Location = new System.Drawing.Point(436, 15);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(121, 36);
+            this.label34.TabIndex = 50;
+            this.label34.Text = "SERVICE";
             // 
             // Service_Form
             // 
@@ -1735,8 +1681,6 @@ namespace Quan_Ly_Khach_San.GUI
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label26;
@@ -1744,8 +1688,6 @@ namespace Quan_Ly_Khach_San.GUI
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox noteServiceBill;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox receiveTxb;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label29;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox totalPriceTxb;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
@@ -1785,7 +1727,6 @@ namespace Quan_Ly_Khach_San.GUI
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox totalPrice;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox SearchServiceTxb;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -1794,5 +1735,6 @@ namespace Quan_Ly_Khach_San.GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.Label label34;
     }
 }
