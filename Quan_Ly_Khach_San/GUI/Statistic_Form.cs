@@ -455,11 +455,6 @@ namespace Quan_Ly_Khach_San
 
         #region Daily Room
 
-        private void PrintBillServiceBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void siticoneRoundedDateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             SearchList();
@@ -815,7 +810,7 @@ namespace Quan_Ly_Khach_San
             {
                 Document baoCao = new Document("TemplateReport\\Report_Date.doc");
 
-                baoCao.MailMerge.Execute(new[] { "Ngay_Thang_Nam_BC" }, new[] { DateReportPicker.Value.ToString("dd/MM/yyyy") });//Value.ToString("dd/MM/yyyy")
+                baoCao.MailMerge.Execute(new[] { "Ngay_Thang_Nam_BC" }, new[] { DateReportPicker.Value.ToString("MM/dd/yyyy") });//Value.ToString("dd/MM/yyyy")
 
                 baoCao.MailMerge.Execute(new[] { "Room_Receive" }, new[] { CollectRoom.Text });
                 baoCao.MailMerge.Execute(new[] { "Room_Return" }, new[] { PayRoom.Text });
@@ -841,7 +836,7 @@ namespace Quan_Ly_Khach_San
             {
                 Document baoCao = new Document("TemplateReport\\Report_Month.doc");
 
-                baoCao.MailMerge.Execute(new[] { "Ngay_Thang_Nam_BC" }, new[] { "Thang " + PickMonth.Text + " Nam " + PickYear.Text });//Value.ToString("dd/MM/yyyy")
+                baoCao.MailMerge.Execute(new[] { "Ngay_Thang_Nam_BC" }, new[] { PickMonth.Text + "/" + PickYear.Text });//Value.ToString("dd/MM/yyyy")
 
                 baoCao.MailMerge.Execute(new[] { "Room_Receive" }, new[] { receiveRoom.Text });
                 baoCao.MailMerge.Execute(new[] { "Room_Return" }, new[] { returnRoom.Text });
@@ -858,6 +853,93 @@ namespace Quan_Ly_Khach_San
                 baoCao.MailMerge.Execute(new[] { "Total_Revenue" }, new[] { totalTotalTotal.Text });
 
                 baoCao.SaveAndOpenFile("BaoCaoMonth.doc");
+            }
+        }
+
+        private void printRoomBill_Click(object sender, EventArgs e)
+        {
+            if (customerIDTxb.Text != "")
+            {
+                Document baoCao = new Document("TemplateReport\\Bill_Payment.doc");
+
+                baoCao.MailMerge.Execute(new[] { "TYPE_HOTEL" }, new[] { "ROOM" });
+
+                baoCao.MailMerge.Execute(new[] { "date_bill" }, new[] { RoomDailyDateDTP.Value.ToString("MM/dd/yyyy") });
+
+                baoCao.MailMerge.Execute(new[] { "member_id" }, new[] { customerIDTxb.Text });
+
+                baoCao.MailMerge.Execute(new[] { "room" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "name" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "check_in" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "address" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "phone" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "days" }, new[] { " " });
+
+                baoCao.MailMerge.Execute(new[] { "check_out" }, new[] { RoomDailyDateDTP.Value.ToString("MM/dd/yyyy") });
+
+                baoCao.MailMerge.Execute(new[] { "total" }, new[] { TotalPriceTxb.Text });
+                baoCao.MailMerge.Execute(new[] { "receive" }, new[] { ReceiveTxb.Text });
+                baoCao.MailMerge.Execute(new[] { "return" }, new[] { ReturnTxb.Text + " (USD)" });
+
+                baoCao.SaveAndOpenFile("HoaDonRoom.doc");
+            }
+        }
+
+        private void printFoodBill_Click(object sender, EventArgs e)
+        {
+            if (FoodCustomerIDTxt.Text != "")
+            {
+                Document baoCao = new Document("TemplateReport\\Bill_Payment.doc");
+
+                baoCao.MailMerge.Execute(new[] { "TYPE_HOTEL" }, new[] { "FOOD" });
+
+                baoCao.MailMerge.Execute(new[] { "date_bill" }, new[] { FoodDateDailyDP.Value.ToString("MM/dd/yyyy") });
+
+                baoCao.MailMerge.Execute(new[] { "member_id" }, new[] { FoodCustomerIDTxt.Text });
+
+                baoCao.MailMerge.Execute(new[] { "room" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "name" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "check_in" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "address" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "phone" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "days" }, new[] { " " });
+
+                baoCao.MailMerge.Execute(new[] { "check_out" }, new[] { FoodDateDailyDP.Value.ToString("MM/dd/yyyy") });
+
+                baoCao.MailMerge.Execute(new[] { "total" }, new[] { FoodTotalDailyTxt.Text });
+                baoCao.MailMerge.Execute(new[] { "receive" }, new[] { FoodReceiveDailyTxt.Text });
+                baoCao.MailMerge.Execute(new[] { "return" }, new[] { FoodReturnDailyTxt.Text + " (USD)" });
+
+                baoCao.SaveAndOpenFile("HoaDonFood.doc");
+            }
+        }
+
+        private void printServiceBill_Click(object sender, EventArgs e)
+        {
+            if (CustomerIDDailyTxt.Text != "")
+            {
+                Document baoCao = new Document("TemplateReport\\Bill_Payment.doc");
+
+                baoCao.MailMerge.Execute(new[] { "TYPE_HOTEL" }, new[] { "SERVICE" });
+
+                baoCao.MailMerge.Execute(new[] { "date_bill" }, new[] { ServiceDailyDateTxt.Value.ToString("MM/dd/yyyy") });
+
+                baoCao.MailMerge.Execute(new[] { "member_id" }, new[] { CustomerIDDailyTxt.Text });
+
+                baoCao.MailMerge.Execute(new[] { "room" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "name" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "check_in" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "address" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "phone" }, new[] { " " });
+                baoCao.MailMerge.Execute(new[] { "days" }, new[] { " " });
+
+                baoCao.MailMerge.Execute(new[] { "check_out" }, new[] { ServiceDailyDateTxt.Value.ToString("MM/dd/yyyy") });
+
+                baoCao.MailMerge.Execute(new[] { "total" }, new[] { ServiceTotalDailyTxt.Text });
+                baoCao.MailMerge.Execute(new[] { "receive" }, new[] { ServiceReceiveDailyTxt.Text });
+                baoCao.MailMerge.Execute(new[] { "return" }, new[] { ServiceReturnDailyTxt.Text + " (USD)" });
+
+                baoCao.SaveAndOpenFile("HoaDonService.doc");
             }
         }
     }

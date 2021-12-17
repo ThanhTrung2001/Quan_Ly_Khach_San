@@ -149,3 +149,5 @@ E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Aspose.Words.dll
 D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Date.doc
 D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Aspose.Words.dll
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Bill_Payment.doc
+E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Month.doc
