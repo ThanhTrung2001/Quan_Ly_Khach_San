@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "4S5QgEd3k/4WzWwVw/aa4hz0eoKhTDo4pskt9kONKicpIn3tdwBYgTnnqauDPoWg+D6cfE2/H5Kwr3LRE6P2yg==",
+  "dgSpecHash": "vz9NGbg1uEvWYFYNRFJbfE27An+j6X+kKMHZnE+tobac/J45IKlh0AhJRl+eZcqqOKFR52oN5WuaI8g4ygarNA==",
   "success": true,
-  "projectFilePath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,5 +1,6 @@
 ﻿using BUS;
 using DTO;
+using Quan_Ly_Khach_San.GUI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -273,16 +274,15 @@ namespace Quan_Ly_Khach_San
 
         #region Storage
 
-        private List<NguyenLieu> ingredientSelectedList;
-        List<NguyenLieu> ingredientList;
+        public List<NguyenLieu> ingredientSelectedList;
+        public List<NguyenLieu> ingredientList;
         private void StorageLoad()
         {
-            RecommentText();
             TypeILoad();
             IngredientLoad();
         }
 
-        private void IngredientLoad()
+        public void IngredientLoad()
         {
             ingredientList = NguyenLieu_BUS.IngredientList();
             if (ingredientList == null) ingredientList = new List<NguyenLieu>();
@@ -297,7 +297,7 @@ namespace Quan_Ly_Khach_San
             LoaiNguyenLieu lnl = new LoaiNguyenLieu();
             lnl.MaLoaiNL = "";
             lnl.TLoaiNguyenLieu = "All";
-            list.Insert(0,lnl);
+            list.Insert(0, lnl);
             this.IngredientTypeCBB.DataSource = list;
             this.IngredientTypeCBB.DisplayMember = "TloaiNguyenLieu";
             this.IngredientTypeCBB.ValueMember = "MaLoaiNL";
@@ -331,19 +331,6 @@ namespace Quan_Ly_Khach_San
             this.MaterialNumberTxb.Text = "1";
         }
 
-        private void RecommentText()
-        {
-            List<ChiTietDanhSachNguyenLieu> list = ChiTietDanhSachNguyenLieu_BUS.IngredientLists();
-            if (list == null) return;
-            AutoCompleteStringCollection l = new AutoCompleteStringCollection();
-            foreach (ChiTietDanhSachNguyenLieu nl in list)
-            {
-                if (!l.Contains(nl.MaDSNL))
-                    l.Add(nl.MaDSNL);
-            }
-
-            this.ImportListTxt.AutoCompleteCustomSource = l;
-        }
 
         private void AddIEList()
         {
@@ -486,10 +473,26 @@ namespace Quan_Ly_Khach_San
 
             if (PhieuNhapKho_BUS.AddNewImport(p))
             {
+                AddAgentBill(listId);
                 IngredientLoad();
                 MessageBox.Show("Import completed");
             }
 
+        }
+
+        private void AddAgentBill(string ListID)
+        {
+            PhieuThanhToan phieuThanhToan = new PhieuThanhToan();
+            phieuThanhToan.MaPhieu = "A" + getRandomID();
+            phieuThanhToan.NgayLap = DateTime.Now.ToString();
+            phieuThanhToan.MaDSNL = ListID;
+            phieuThanhToan.MaTrangThai = "Pe";
+            phieuThanhToan.TongTien = 0.0;
+
+            if (PhieuThanhToan_BUS.AddNewAgent(phieuThanhToan))
+            {
+                Console.WriteLine(phieuThanhToan);
+            }
         }
 
         private void ExportMaterialBtn_Click(object sender, EventArgs e)
@@ -537,28 +540,14 @@ namespace Quan_Ly_Khach_San
 
         private void ImportMaterialBtn_Click(object sender, EventArgs e)
         {
-            string id = this.ImportListTxt.Text;
-            List<ChiTietDanhSachNguyenLieu> list = ChiTietDanhSachNguyenLieu_BUS.IngredientList(id);
-            if (list == null) return;
-
-            ingredientSelectedList.Clear();
-
-            foreach(ChiTietDanhSachNguyenLieu ct in list)
-            {
-                NguyenLieu nl = new NguyenLieu();
-                nl.MaNL = ct.MaNL;
-                nl.TenNL = ct.TenNL;
-                nl.SoLuong = ct.SoLuong;
-                ingredientSelectedList.Add(nl);
-            }
-
-            var bindingList = new BindingList<NguyenLieu>(ingredientSelectedList);
-            this.ListMaterialDGV.DataSource = bindingList;
+            Add_Ingredient_Form form = new Add_Ingredient_Form(this);
+            form.ShowDialog();
         }
 
 
         #endregion
 
-  
+
+
     }
 }

@@ -31,11 +31,6 @@ namespace Quan_Ly_Khach_San
             List<DaiLy> list = DaiLy_BUS.SupplierList();
             if (list == null) list = new List<DaiLy>();
 
-            DaiLy dly = new DaiLy();
-            dly.MaDL = "all";
-            dly.TenDL = "All";
-            list.Insert(0, dly);
-
             this.SupplierNameCb.DataSource = list;
 
             this.SupplierNameCb.ValueMember = "MaDL";
@@ -161,104 +156,7 @@ namespace Quan_Ly_Khach_San
 
         private void PaidLoad()
         {
-            TypeLoad();
-            UnitLoad();
-            SuggestionLoad();
             GLoad();
-        }
-
-        private void SuggestionLoad()
-        {
-            List<NguyenLieu> list = NguyenLieu_BUS.IngredientList();
-            if (list == null) return;
-            AutoCompleteStringCollection l = new AutoCompleteStringCollection();
-            foreach (NguyenLieu nl in list)
-            {
-                l.Add(nl.MaNL);
-            }
-
-            this.IngredientIDtxt.AutoCompleteCustomSource = l;
-        }
-
-        private void IngredientIDtxt_TextChanged(object sender, EventArgs e)
-        {
-            string id = this.IngredientIDtxt.Text;
-            NguyenLieu nl = NguyenLieu_BUS.IngredientWithID(id);
-            if (nl == null)
-            {
-                this.IngredientNametxt.Text = "";
-                return;
-            }
-
-            this.IngredientNametxt.Text = nl.TenNL;
-            this.IngredientStyletxt.SelectedValue = nl.MaLoaiNL;
-            this.IngredientUnittxt.SelectedValue = nl.MaDVT;
-        }
-
-        private void TypeLoad()
-        {
-            List<LoaiNguyenLieu> list = LoaiNguyenLieu_BUS.IngredientTypeList();
-            if (list == null) return;
-
-            this.IngredientStyletxt.DataSource = list;
-            this.IngredientStyletxt.DisplayMember = "TLoaiNguyenLieu";
-            this.IngredientStyletxt.ValueMember = "maLoaiNL";
-
-        }
-
-        private void UnitLoad()
-        {
-            List<DonViTinh> list = DonViTinh_BUS.MeasureList();
-            if (list == null) return;
-
-            this.IngredientUnittxt.DataSource = list;
-            this.IngredientUnittxt.DisplayMember = "DVT";
-            this.IngredientUnittxt.ValueMember = "maDVT";
-        }
-
-        private void IngredientAmounttxt_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
-                e.Handled = true;
-        }
-
-        private void IngredientPricetxt_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
-                e.Handled = true;
-        }
-
-        private void IngredientAddbtn_Click(object sender, EventArgs e)
-        {
-            if (this.IngredientAmounttxt.Text == "" || this.IngredientPricetxt.Text == "" || this.IngredientNametxt.Text == "")
-            {
-                MessageBox.Show("Enter fully informations");
-                return;
-            }
-            string id = this.IngredientIDtxt.Text;
-
-            if (NguyenLieu_BUS.IngredientWithID(this.IngredientIDtxt.Text) == null)
-                id = AddNewIngredient();
-
-            if (IList == null) IList = new List<ChiTietDanhSachNguyenLieu>();
-
-            ChiTietDanhSachNguyenLieu ct = new ChiTietDanhSachNguyenLieu();
-            ct.MaChiTiet = "D" + getRandomID();
-            ct.MaDSNL = "";
-            ct.MaNL = id;
-            ct.TenNL = this.IngredientNametxt.Text;
-            ct.SoLuong = int.Parse(this.IngredientAmounttxt.Text);
-            ct.MaDVT = this.IngredientUnittxt.SelectedValue.ToString();
-            ct.Gia = Double.Parse(this.IngredientPricetxt.Text);
-            ct.ThanhTien = ct.Gia * ct.SoLuong;
-
-            IList.Add(ct);
-            var bindingList = new BindingList<ChiTietDanhSachNguyenLieu>(IList);
-            this.MaterialImportDGV.DataSource = bindingList;
-
-            AgentTotal();
-
-            resetIngredient();
         }
 
         private void AgentTotal()
@@ -272,26 +170,37 @@ namespace Quan_Ly_Khach_San
             this.totaltxt.Text = total.ToString();
         }
 
-        private string AddNewIngredient()
+
+
+        private void MaterialImportDGV_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
-            NguyenLieu nl = new NguyenLieu();
-            if (this.IngredientIDtxt.Text != "")
-                nl.MaNL = this.IngredientIDtxt.Text;
-            else
-                nl.MaNL = "I" + getRandomID();
-            nl.TenNL = this.IngredientNametxt.Text;
-            nl.MaLoaiNL = this.IngredientStyletxt.SelectedValue.ToString();
-            nl.MaDVT = this.IngredientUnittxt.SelectedValue.ToString();
-            nl.SoLuong = 0;
-
-            if (NguyenLieu_BUS.AddNewIngredient(nl))
+            try
             {
-                //IngredientLoad();
-                return nl.MaNL;
+                ChiTietDanhSachNguyenLieu ct = new ChiTietDanhSachNguyenLieu();
+                ct.MaDSNL = this.MaterialImportDGV.Rows[e.RowIndex].Cells["MaDSNL"].Value.ToString();
+                ct.MaNL = this.MaterialImportDGV.Rows[e.RowIndex].Cells["MaNL"].Value.ToString();
+                ct.Gia = Double.Parse(this.MaterialImportDGV.Rows[e.RowIndex].Cells["gia"].Value.ToString());
+                ct.ThanhTien = ct.Gia * int.Parse(this.MaterialImportDGV.Rows[e.RowIndex].Cells["soLuong"].Value.ToString());
+                if (ChiTietDanhSachNguyenLieu_BUS.UpdateList(ct))
+                {
+                    IList = ChiTietDanhSachNguyenLieu_BUS.IngredientList(ct.MaDSNL);
+                    var bindingList = new BindingList<ChiTietDanhSachNguyenLieu>(IList);
+                    this.MaterialImportDGV.DataSource = bindingList;
+                    AgentTotal();
+                    if (PhieuThanhToan_BUS.UpdateTotal(Double.Parse(this.totaltxt.Text), ct.MaDSNL))
+                    {
+                        GLoad();
+                        Console.WriteLine(ct);
+                    }
+                }
             }
-
-            return "";
+            catch
+            {
+                return;
+            }
         }
+
+
 
         private void SupplierPhoneTxb_TextChanged(object sender, EventArgs e)
         {
@@ -307,36 +216,6 @@ namespace Quan_Ly_Khach_San
             this.RequestImportDGV.DataSource = list;
         }
 
-        private void siticoneGradientButton1_Click(object sender, EventArgs e)
-        {
-            DeleteI();
-
-        }
-
-        private void DeleteI()
-        {
-            try
-            {
-                IList.RemoveAt(this.MaterialImportDGV.SelectedRows[0].Index);
-                var bindingList = new BindingList<ChiTietDanhSachNguyenLieu>(IList);
-                this.MaterialImportDGV.DataSource = bindingList;
-
-                AgentTotal();
-            }
-            catch
-            {
-                return;
-            }
-        }
-
-        private void resetIngredient()
-        {
-            this.IngredientIDtxt.Text = "";
-            this.IngredientNametxt.Text = "";
-            this.IngredientAmounttxt.Text = "";
-            this.IngredientPricetxt.Text = "";
-        }
-
         private void ConfirmRequestBtn_Click(object sender, EventArgs e)
         {
             if (this.SupplierNameCb.Text == "" || IList.Count == 0)
@@ -344,29 +223,15 @@ namespace Quan_Ly_Khach_San
                 MessageBox.Show("Enter Agent ID");
                 return;
             }
-            string listID = "L" + getRandomID();
+
+            string mads = IList[0].MaDSNL;
+            string madl = this.SupplierNameCb.SelectedValue.ToString();
+            string note = "none";
+            if (this.NoteSupplierTxb.Text != "")
+                note = this.NoteSupplierTxb.Text;
 
 
-            foreach (ChiTietDanhSachNguyenLieu nl in IList)
-            {
-                nl.MaDSNL = listID;
-                if (ChiTietDanhSachNguyenLieu_BUS.AddNewIngredientListDetail(nl))
-                    //RecommentText();
-                    Console.WriteLine(nl);
-            }
-
-            PhieuThanhToan p = new PhieuThanhToan();
-            p.MaPhieu = "F" + getRandomID();
-            p.MaDL = this.SupplierNameCb.Text;
-            p.NgayLap = DateTime.Now.ToString();
-            p.MaDSNL = listID;
-            p.TongTien = Double.Parse(this.totaltxt.Text);
-            p.MaTrangThai = "Co";
-            if (this.NoteSupplierTxb.Text == "")
-                p.GhiChu = "none";
-            else p.GhiChu = this.NoteSupplierTxb.Text;
-
-            if (PhieuThanhToan_BUS.AddNewAgent(p))
+            if (PhieuThanhToan_BUS.UpdateConfirm(madl, note, mads))
             {
                 FReset();
                 MessageBox.Show("Add successfully");
@@ -381,6 +246,7 @@ namespace Quan_Ly_Khach_San
             IList.Clear();
             var bindingList = new BindingList<ChiTietDanhSachNguyenLieu>(IList);
             this.MaterialImportDGV.DataSource = bindingList;
+            this.ConfirmRequestBtn.Enabled = true;
 
             GLoad();
         }
@@ -392,10 +258,6 @@ namespace Quan_Ly_Khach_San
             this.MaterialImportDGV.DataSource = bindingList;
         }
 
-        private void MaterialImportDGV_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            DeleteI();
-        }
 
         private void RequestImportDGV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -403,8 +265,22 @@ namespace Quan_Ly_Khach_San
             IList = ChiTietDanhSachNguyenLieu_BUS.IngredientList(id);
             var bindingList = new BindingList<ChiTietDanhSachNguyenLieu>(IList);
             this.MaterialImportDGV.DataSource = bindingList;
+
+            if (this.RequestImportDGV.SelectedRows[0].Cells["tt"].Value.ToString() == "Complete")
+            {
+                this.ConfirmRequestBtn.Enabled = false;
+                this.MaterialImportDGV.Columns["gia"].ReadOnly = true;
+            }
+            else
+            {
+                this.ConfirmRequestBtn.Enabled = true;
+                this.MaterialImportDGV.ReadOnly = false;
+            }
+
+            AgentTotal();
         }
         #endregion
+
 
         private string getRandomID()
         {

@@ -21,3 +21,4 @@ D:\Project\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
 D:\Project\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\Project\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.dll
 D:\Project\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.pdb
+D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\DTO\obj\Debug\DTO.csprojAssemblyReference.cache

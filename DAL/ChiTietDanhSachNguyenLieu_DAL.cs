@@ -49,8 +49,8 @@ namespace DAL
                 nl.TenNL = dt.Rows[i]["tenNL"].ToString();
                 nl.SoLuong = int.Parse(dt.Rows[i]["soLuong"].ToString());
                 nl.TenNL = dt.Rows[i]["tenNL"].ToString();
-                nl.MaDVT =  dt.Rows[i]["maDonViTinh"].ToString();
-                nl.Gia =  Double.Parse(dt.Rows[i]["donGia"].ToString());
+                nl.MaDVT = dt.Rows[i]["maDonViTinh"].ToString();
+                nl.Gia = Double.Parse(dt.Rows[i]["donGia"].ToString());
                 nl.ThanhTien = Double.Parse(dt.Rows[i]["thanhTien"].ToString());
 
                 danhSach.Add(nl);
@@ -85,6 +85,23 @@ namespace DAL
             }
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;
+        }
+
+        public static bool UpdateList(ChiTietDanhSachNguyenLieu ct)
+        {
+            string command = $"update CTDSNguyenLieu set dongia = {ct.Gia}, thanhTien = {ct.ThanhTien} where maDSNL = '{ct.MaDSNL}' and maNL = '{ct.MaNL}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
         }
     }
 }

@@ -151,3 +151,8 @@ D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_D
 D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Aspose.Words.dll
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Bill_Payment.doc
 E:\University Data\UIT K14.1\HK_V\PP Phát triển PMHDT\Hotel MS\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Month.doc
+D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Bill_Payment.doc
+D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Date.doc
+D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Month.doc
+D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Aspose.Words.dll
+D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Bunifu_UI_v1.5.3.xml
