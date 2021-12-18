@@ -15,7 +15,7 @@ namespace DAL
 
         public static bool AddNewBillAgent(PhieuThanhToan p)
         {
-            string command = $"insert into PhieuThanhToan (maPhieu, ngayLap, maDL, maDSNL, tongTien, maTrangThai, ghiChu) values ('{p.MaPhieu}', '{p.NgayLap}', '{p.MaDL}', '{p.MaDSNL}', {p.TongTien}, '{p.MaTrangThai}', '{p.GhiChu}')";
+            string command = $"insert into PhieuThanhToan (maPhieu, ngayLap, maDSNL, tongTien, maTrangThai) values ('{p.MaPhieu}', '{p.NgayLap}', '{p.MaDSNL}', {p.TongTien}, '{p.MaTrangThai}')";
             conn = DataProvider.MoKetNoiDatabase();
             try
             {
@@ -57,6 +57,39 @@ namespace DAL
             }
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;
+        }
+
+        public static bool UpdateTotal(double total, string maDSNL)
+        {
+            string command = $"update PhieuThanhToan set tongTien = {total} where maDSNL = '{maDSNL}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
+        public static bool UpdateConfirm(string maDL, string note, string maDSNL)
+        {
+            string command = $"update PhieuThanhToan set maDL = '{maDL}', ghiChu = '{note}', maTrangThai = 'Co' where maDSNL = '{maDSNL}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
         }
     }
 }

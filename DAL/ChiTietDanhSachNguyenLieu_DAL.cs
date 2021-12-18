@@ -86,5 +86,22 @@ namespace DAL
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;
         }
+
+        public static bool UpdateList(ChiTietDanhSachNguyenLieu ct)
+        {
+            string command = $"update CTDSNguyenLieu set dongia = {ct.Gia}, thanhTien = {ct.ThanhTien} where maDSNL = '{ct.MaDSNL}' and maNL = '{ct.MaNL}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
     }
 }

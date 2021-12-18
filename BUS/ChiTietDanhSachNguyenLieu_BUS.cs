@@ -24,5 +24,10 @@ namespace BUS
         {
             return ChiTietDanhSachNguyenLieu_DAL.IngredientLists();
         }
+
+        public static bool UpdateList(ChiTietDanhSachNguyenLieu ct)
+        {
+            return ChiTietDanhSachNguyenLieu_DAL.UpdateList(ct);
+        }
     }
 }

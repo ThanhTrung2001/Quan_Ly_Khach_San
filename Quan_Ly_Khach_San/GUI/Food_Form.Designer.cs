@@ -63,7 +63,6 @@ namespace Quan_Ly_Khach_San
             this.soLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.siticonePanel15 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.label4 = new System.Windows.Forms.Label();
-            this.ImportListTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.ImportMaterialBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.siticonePanel24 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
             this.label3 = new System.Windows.Forms.Label();
@@ -78,6 +77,7 @@ namespace Quan_Ly_Khach_San
             this.MaterialNumberTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.MaterialNoteTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.RoomTab = new System.Windows.Forms.TabPage();
+            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.SearchFood = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.SubFoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneCircleButton();
@@ -114,7 +114,6 @@ namespace Quan_Ly_Khach_San
             this.CustomerPickCb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
             this.RequestFoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ServiceTabManage = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
-            this.label7 = new System.Windows.Forms.Label();
             this.ServiceTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListMaterialDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MaterialDGV)).BeginInit();
@@ -138,10 +137,9 @@ namespace Quan_Ly_Khach_San
             this.ServiceTab.Controls.Add(this.siticonePanel15);
             this.ServiceTab.Controls.Add(this.siticonePanel24);
             this.ServiceTab.Location = new System.Drawing.Point(4, 44);
-            this.ServiceTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ServiceTab.Name = "ServiceTab";
-            this.ServiceTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.ServiceTab.Size = new System.Drawing.Size(1325, 752);
+            this.ServiceTab.Padding = new System.Windows.Forms.Padding(3);
+            this.ServiceTab.Size = new System.Drawing.Size(992, 602);
             this.ServiceTab.TabIndex = 1;
             this.ServiceTab.Text = "STORAGE";
             // 
@@ -149,10 +147,9 @@ namespace Quan_Ly_Khach_San
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label1.Location = new System.Drawing.Point(1219, 39);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(914, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 17);
+            this.label1.Size = new System.Drawing.Size(72, 13);
             this.label1.TabIndex = 38;
             this.label1.Text = "List chosen";
             // 
@@ -173,11 +170,10 @@ namespace Quan_Ly_Khach_San
             this.IngredientTypeCBB.HoverState.Parent = this.IngredientTypeCBB;
             this.IngredientTypeCBB.ItemHeight = 30;
             this.IngredientTypeCBB.ItemsAppearance.Parent = this.IngredientTypeCBB;
-            this.IngredientTypeCBB.Location = new System.Drawing.Point(327, 11);
-            this.IngredientTypeCBB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IngredientTypeCBB.Location = new System.Drawing.Point(245, 9);
             this.IngredientTypeCBB.Name = "IngredientTypeCBB";
             this.IngredientTypeCBB.ShadowDecoration.Parent = this.IngredientTypeCBB;
-            this.IngredientTypeCBB.Size = new System.Drawing.Size(185, 36);
+            this.IngredientTypeCBB.Size = new System.Drawing.Size(140, 36);
             this.IngredientTypeCBB.TabIndex = 37;
             this.IngredientTypeCBB.SelectedIndexChanged += new System.EventHandler(this.IngredientTypeCBB_SelectedIndexChanged);
             // 
@@ -199,15 +195,14 @@ namespace Quan_Ly_Khach_San
             this.SearchMaterialTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.SearchMaterialTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SearchMaterialTxb.HoverState.Parent = this.SearchMaterialTxb;
-            this.SearchMaterialTxb.Location = new System.Drawing.Point(15, 7);
-            this.SearchMaterialTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SearchMaterialTxb.Location = new System.Drawing.Point(11, 6);
             this.SearchMaterialTxb.Name = "SearchMaterialTxb";
             this.SearchMaterialTxb.PasswordChar = '\0';
             this.SearchMaterialTxb.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.SearchMaterialTxb.PlaceholderText = "Search Material...";
             this.SearchMaterialTxb.SelectedText = "";
             this.SearchMaterialTxb.ShadowDecoration.Parent = this.SearchMaterialTxb;
-            this.SearchMaterialTxb.Size = new System.Drawing.Size(277, 48);
+            this.SearchMaterialTxb.Size = new System.Drawing.Size(208, 39);
             this.SearchMaterialTxb.TabIndex = 35;
             this.SearchMaterialTxb.TextChanged += new System.EventHandler(this.SearchMaterialTxb_TextChanged);
             // 
@@ -247,15 +242,14 @@ namespace Quan_Ly_Khach_San
             this.ListMaterialDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.ListMaterialDGV.EnableHeadersVisualStyles = false;
             this.ListMaterialDGV.GridColor = System.Drawing.Color.White;
-            this.ListMaterialDGV.Location = new System.Drawing.Point(836, 63);
-            this.ListMaterialDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ListMaterialDGV.Location = new System.Drawing.Point(627, 51);
             this.ListMaterialDGV.Name = "ListMaterialDGV";
             this.ListMaterialDGV.ReadOnly = true;
             this.ListMaterialDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ListMaterialDGV.RowHeadersVisible = false;
             this.ListMaterialDGV.RowHeadersWidth = 51;
             this.ListMaterialDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ListMaterialDGV.Size = new System.Drawing.Size(475, 454);
+            this.ListMaterialDGV.Size = new System.Drawing.Size(356, 369);
             this.ListMaterialDGV.TabIndex = 32;
             this.ListMaterialDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.ListMaterialDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -375,15 +369,14 @@ namespace Quan_Ly_Khach_San
             this.MaterialDGV.DefaultCellStyle = dataGridViewCellStyle6;
             this.MaterialDGV.EnableHeadersVisualStyles = false;
             this.MaterialDGV.GridColor = System.Drawing.Color.White;
-            this.MaterialDGV.Location = new System.Drawing.Point(15, 63);
-            this.MaterialDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaterialDGV.Location = new System.Drawing.Point(11, 51);
             this.MaterialDGV.Name = "MaterialDGV";
             this.MaterialDGV.ReadOnly = true;
             this.MaterialDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.MaterialDGV.RowHeadersVisible = false;
             this.MaterialDGV.RowHeadersWidth = 51;
             this.MaterialDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.MaterialDGV.Size = new System.Drawing.Size(813, 454);
+            this.MaterialDGV.Size = new System.Drawing.Size(610, 369);
             this.MaterialDGV.TabIndex = 2;
             this.MaterialDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.MaterialDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -473,14 +466,12 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel15.BorderRadius = 15;
             this.siticonePanel15.BorderThickness = 2;
             this.siticonePanel15.Controls.Add(this.label4);
-            this.siticonePanel15.Controls.Add(this.ImportListTxt);
             this.siticonePanel15.Controls.Add(this.ImportMaterialBtn);
             this.siticonePanel15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel15.Location = new System.Drawing.Point(1011, 524);
-            this.siticonePanel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel15.Location = new System.Drawing.Point(758, 426);
             this.siticonePanel15.Name = "siticonePanel15";
             this.siticonePanel15.ShadowDecoration.Parent = this.siticonePanel15;
-            this.siticonePanel15.Size = new System.Drawing.Size(304, 206);
+            this.siticonePanel15.Size = new System.Drawing.Size(228, 167);
             this.siticonePanel15.TabIndex = 31;
             // 
             // label4
@@ -488,40 +479,11 @@ namespace Quan_Ly_Khach_San
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(108, 12);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(15, 26);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 26);
+            this.label4.Size = new System.Drawing.Size(200, 20);
             this.label4.TabIndex = 34;
-            this.label4.Text = "List ID";
-            // 
-            // ImportListTxt
-            // 
-            this.ImportListTxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.ImportListTxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.ImportListTxt.BorderThickness = 2;
-            this.ImportListTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ImportListTxt.DefaultText = "";
-            this.ImportListTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.ImportListTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.ImportListTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ImportListTxt.DisabledState.Parent = this.ImportListTxt;
-            this.ImportListTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ImportListTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(70)))), ((int)(((byte)(119)))));
-            this.ImportListTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ImportListTxt.FocusedState.Parent = this.ImportListTxt;
-            this.ImportListTxt.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.ImportListTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ImportListTxt.HoverState.Parent = this.ImportListTxt;
-            this.ImportListTxt.Location = new System.Drawing.Point(16, 58);
-            this.ImportListTxt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.ImportListTxt.Name = "ImportListTxt";
-            this.ImportListTxt.PasswordChar = '\0';
-            this.ImportListTxt.PlaceholderText = "";
-            this.ImportListTxt.SelectedText = "";
-            this.ImportListTxt.ShadowDecoration.Parent = this.ImportListTxt;
-            this.ImportListTxt.Size = new System.Drawing.Size(275, 44);
-            this.ImportListTxt.TabIndex = 33;
+            this.label4.Text = "ADD NEW INGREDIENT";
             // 
             // ImportMaterialBtn
             // 
@@ -539,13 +501,12 @@ namespace Quan_Ly_Khach_San
             this.ImportMaterialBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ImportMaterialBtn.ForeColor = System.Drawing.Color.Black;
             this.ImportMaterialBtn.HoverState.Parent = this.ImportMaterialBtn;
-            this.ImportMaterialBtn.Location = new System.Drawing.Point(52, 137);
-            this.ImportMaterialBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ImportMaterialBtn.Location = new System.Drawing.Point(38, 72);
             this.ImportMaterialBtn.Name = "ImportMaterialBtn";
             this.ImportMaterialBtn.ShadowDecoration.Parent = this.ImportMaterialBtn;
-            this.ImportMaterialBtn.Size = new System.Drawing.Size(219, 58);
+            this.ImportMaterialBtn.Size = new System.Drawing.Size(164, 47);
             this.ImportMaterialBtn.TabIndex = 29;
-            this.ImportMaterialBtn.Text = "Import List";
+            this.ImportMaterialBtn.Text = "NEW INGREDIENT";
             this.ImportMaterialBtn.Click += new System.EventHandler(this.ImportMaterialBtn_Click);
             // 
             // siticonePanel24
@@ -566,11 +527,10 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel24.Controls.Add(this.MaterialNumberTxb);
             this.siticonePanel24.Controls.Add(this.MaterialNoteTxb);
             this.siticonePanel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel24.Location = new System.Drawing.Point(11, 524);
-            this.siticonePanel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel24.Location = new System.Drawing.Point(8, 426);
             this.siticonePanel24.Name = "siticonePanel24";
             this.siticonePanel24.ShadowDecoration.Parent = this.siticonePanel24;
-            this.siticonePanel24.Size = new System.Drawing.Size(992, 206);
+            this.siticonePanel24.Size = new System.Drawing.Size(744, 167);
             this.siticonePanel24.TabIndex = 30;
             // 
             // label3
@@ -578,10 +538,9 @@ namespace Quan_Ly_Khach_San
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(59, 89);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(44, 72);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 20);
+            this.label3.Size = new System.Drawing.Size(52, 16);
             this.label3.TabIndex = 31;
             this.label3.Text = "Reason";
             // 
@@ -590,10 +549,9 @@ namespace Quan_Ly_Khach_San
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(59, 37);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(44, 30);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 20);
+            this.label2.Size = new System.Drawing.Size(38, 16);
             this.label2.TabIndex = 30;
             this.label2.Text = "Note";
             // 
@@ -613,14 +571,13 @@ namespace Quan_Ly_Khach_San
             this.MaterialReasonTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MaterialReasonTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.MaterialReasonTxb.HoverState.Parent = this.MaterialReasonTxb;
-            this.MaterialReasonTxb.Location = new System.Drawing.Point(163, 64);
-            this.MaterialReasonTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaterialReasonTxb.Location = new System.Drawing.Point(122, 52);
             this.MaterialReasonTxb.Name = "MaterialReasonTxb";
             this.MaterialReasonTxb.PasswordChar = '\0';
             this.MaterialReasonTxb.PlaceholderText = "Place the reason when you export";
             this.MaterialReasonTxb.SelectedText = "";
             this.MaterialReasonTxb.ShadowDecoration.Parent = this.MaterialReasonTxb;
-            this.MaterialReasonTxb.Size = new System.Drawing.Size(439, 44);
+            this.MaterialReasonTxb.Size = new System.Drawing.Size(329, 36);
             this.MaterialReasonTxb.TabIndex = 1;
             // 
             // RequestMaterialBtn
@@ -639,11 +596,10 @@ namespace Quan_Ly_Khach_San
             this.RequestMaterialBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RequestMaterialBtn.ForeColor = System.Drawing.Color.Black;
             this.RequestMaterialBtn.HoverState.Parent = this.RequestMaterialBtn;
-            this.RequestMaterialBtn.Location = new System.Drawing.Point(149, 137);
-            this.RequestMaterialBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RequestMaterialBtn.Location = new System.Drawing.Point(112, 111);
             this.RequestMaterialBtn.Name = "RequestMaterialBtn";
             this.RequestMaterialBtn.ShadowDecoration.Parent = this.RequestMaterialBtn;
-            this.RequestMaterialBtn.Size = new System.Drawing.Size(215, 58);
+            this.RequestMaterialBtn.Size = new System.Drawing.Size(161, 47);
             this.RequestMaterialBtn.TabIndex = 2;
             this.RequestMaterialBtn.Text = "Import";
             this.RequestMaterialBtn.Click += new System.EventHandler(this.RequestMaterialBtn_Click);
@@ -664,11 +620,10 @@ namespace Quan_Ly_Khach_San
             this.DeleteMaterialBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteMaterialBtn.ForeColor = System.Drawing.Color.Black;
             this.DeleteMaterialBtn.HoverState.Parent = this.DeleteMaterialBtn;
-            this.DeleteMaterialBtn.Location = new System.Drawing.Point(829, 137);
-            this.DeleteMaterialBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DeleteMaterialBtn.Location = new System.Drawing.Point(622, 111);
             this.DeleteMaterialBtn.Name = "DeleteMaterialBtn";
             this.DeleteMaterialBtn.ShadowDecoration.Parent = this.DeleteMaterialBtn;
-            this.DeleteMaterialBtn.Size = new System.Drawing.Size(124, 58);
+            this.DeleteMaterialBtn.Size = new System.Drawing.Size(93, 47);
             this.DeleteMaterialBtn.TabIndex = 29;
             this.DeleteMaterialBtn.Text = "Delete";
             this.DeleteMaterialBtn.Click += new System.EventHandler(this.DeleteMaterialBtn_Click);
@@ -689,11 +644,10 @@ namespace Quan_Ly_Khach_San
             this.AddMaterialBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddMaterialBtn.ForeColor = System.Drawing.Color.Black;
             this.AddMaterialBtn.HoverState.Parent = this.AddMaterialBtn;
-            this.AddMaterialBtn.Location = new System.Drawing.Point(693, 137);
-            this.AddMaterialBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddMaterialBtn.Location = new System.Drawing.Point(520, 111);
             this.AddMaterialBtn.Name = "AddMaterialBtn";
             this.AddMaterialBtn.ShadowDecoration.Parent = this.AddMaterialBtn;
-            this.AddMaterialBtn.Size = new System.Drawing.Size(124, 58);
+            this.AddMaterialBtn.Size = new System.Drawing.Size(93, 47);
             this.AddMaterialBtn.TabIndex = 27;
             this.AddMaterialBtn.Text = "Add";
             this.AddMaterialBtn.Click += new System.EventHandler(this.AddMaterialBtn_Click);
@@ -714,11 +668,10 @@ namespace Quan_Ly_Khach_San
             this.ExportMaterialBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExportMaterialBtn.ForeColor = System.Drawing.Color.Black;
             this.ExportMaterialBtn.HoverState.Parent = this.ExportMaterialBtn;
-            this.ExportMaterialBtn.Location = new System.Drawing.Point(372, 137);
-            this.ExportMaterialBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ExportMaterialBtn.Location = new System.Drawing.Point(279, 111);
             this.ExportMaterialBtn.Name = "ExportMaterialBtn";
             this.ExportMaterialBtn.ShadowDecoration.Parent = this.ExportMaterialBtn;
-            this.ExportMaterialBtn.Size = new System.Drawing.Size(229, 58);
+            this.ExportMaterialBtn.Size = new System.Drawing.Size(172, 47);
             this.ExportMaterialBtn.TabIndex = 3;
             this.ExportMaterialBtn.Text = "Export";
             this.ExportMaterialBtn.Click += new System.EventHandler(this.ExportMaterialBtn_Click);
@@ -739,12 +692,11 @@ namespace Quan_Ly_Khach_San
             this.SubBtn.ForeColor = System.Drawing.Color.White;
             this.SubBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.SubBtn.HoverState.Parent = this.SubBtn;
-            this.SubBtn.Location = new System.Drawing.Point(689, 58);
-            this.SubBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SubBtn.Location = new System.Drawing.Point(517, 47);
             this.SubBtn.Name = "SubBtn";
             this.SubBtn.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.SubBtn.ShadowDecoration.Parent = this.SubBtn;
-            this.SubBtn.Size = new System.Drawing.Size(55, 50);
+            this.SubBtn.Size = new System.Drawing.Size(41, 41);
             this.SubBtn.TabIndex = 20;
             this.SubBtn.Text = "-";
             this.SubBtn.Click += new System.EventHandler(this.SubBtn_Click);
@@ -765,12 +717,11 @@ namespace Quan_Ly_Khach_San
             this.PlusBtn.ForeColor = System.Drawing.Color.White;
             this.PlusBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.PlusBtn.HoverState.Parent = this.PlusBtn;
-            this.PlusBtn.Location = new System.Drawing.Point(899, 58);
-            this.PlusBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PlusBtn.Location = new System.Drawing.Point(674, 47);
             this.PlusBtn.Name = "PlusBtn";
             this.PlusBtn.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.PlusBtn.ShadowDecoration.Parent = this.PlusBtn;
-            this.PlusBtn.Size = new System.Drawing.Size(55, 50);
+            this.PlusBtn.Size = new System.Drawing.Size(41, 41);
             this.PlusBtn.TabIndex = 19;
             this.PlusBtn.Text = "+";
             this.PlusBtn.Click += new System.EventHandler(this.PlusBtn_Click);
@@ -795,8 +746,7 @@ namespace Quan_Ly_Khach_San
             this.MaterialNumberTxb.ForeColor = System.Drawing.Color.White;
             this.MaterialNumberTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.MaterialNumberTxb.HoverState.Parent = this.MaterialNumberTxb;
-            this.MaterialNumberTxb.Location = new System.Drawing.Point(752, 58);
-            this.MaterialNumberTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaterialNumberTxb.Location = new System.Drawing.Point(564, 47);
             this.MaterialNumberTxb.Name = "MaterialNumberTxb";
             this.MaterialNumberTxb.PasswordChar = '\0';
             this.MaterialNumberTxb.PlaceholderText = "";
@@ -804,7 +754,7 @@ namespace Quan_Ly_Khach_San
             this.MaterialNumberTxb.SelectedText = "";
             this.MaterialNumberTxb.SelectionStart = 1;
             this.MaterialNumberTxb.ShadowDecoration.Parent = this.MaterialNumberTxb;
-            this.MaterialNumberTxb.Size = new System.Drawing.Size(137, 50);
+            this.MaterialNumberTxb.Size = new System.Drawing.Size(103, 41);
             this.MaterialNumberTxb.TabIndex = 18;
             this.MaterialNumberTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.MaterialNumberTxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.MaterialNumberTxb_KeyPress);
@@ -825,14 +775,13 @@ namespace Quan_Ly_Khach_San
             this.MaterialNoteTxb.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MaterialNoteTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.MaterialNoteTxb.HoverState.Parent = this.MaterialNoteTxb;
-            this.MaterialNoteTxb.Location = new System.Drawing.Point(163, 12);
-            this.MaterialNoteTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaterialNoteTxb.Location = new System.Drawing.Point(122, 10);
             this.MaterialNoteTxb.Name = "MaterialNoteTxb";
             this.MaterialNoteTxb.PasswordChar = '\0';
             this.MaterialNoteTxb.PlaceholderText = "";
             this.MaterialNoteTxb.SelectedText = "";
             this.MaterialNoteTxb.ShadowDecoration.Parent = this.MaterialNoteTxb;
-            this.MaterialNoteTxb.Size = new System.Drawing.Size(439, 44);
+            this.MaterialNoteTxb.Size = new System.Drawing.Size(329, 36);
             this.MaterialNoteTxb.TabIndex = 0;
             // 
             // RoomTab
@@ -852,22 +801,31 @@ namespace Quan_Ly_Khach_San
             this.RoomTab.Controls.Add(this.MenuFoodDGV);
             this.RoomTab.Controls.Add(this.siticonePanel14);
             this.RoomTab.Location = new System.Drawing.Point(4, 44);
-            this.RoomTab.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RoomTab.Name = "RoomTab";
-            this.RoomTab.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.RoomTab.Size = new System.Drawing.Size(1325, 752);
+            this.RoomTab.Padding = new System.Windows.Forms.Padding(3);
+            this.RoomTab.Size = new System.Drawing.Size(992, 602);
             this.RoomTab.TabIndex = 0;
             this.RoomTab.Text = "FOOD";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label7.Location = new System.Drawing.Point(25, 82);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(96, 16);
+            this.label7.TabIndex = 42;
+            this.label7.Text = "ORDER BILL";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label6.Location = new System.Drawing.Point(800, 101);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(600, 82);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 20);
+            this.label6.Size = new System.Drawing.Size(86, 16);
             this.label6.TabIndex = 41;
             this.label6.Text = "FOOD LIST";
             // 
@@ -887,14 +845,13 @@ namespace Quan_Ly_Khach_San
             this.SearchFood.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.SearchFood.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SearchFood.HoverState.Parent = this.SearchFood;
-            this.SearchFood.Location = new System.Drawing.Point(28, 38);
-            this.SearchFood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SearchFood.Location = new System.Drawing.Point(21, 31);
             this.SearchFood.Name = "SearchFood";
             this.SearchFood.PasswordChar = '\0';
             this.SearchFood.PlaceholderText = "Search food here";
             this.SearchFood.SelectedText = "";
             this.SearchFood.ShadowDecoration.Parent = this.SearchFood;
-            this.SearchFood.Size = new System.Drawing.Size(267, 44);
+            this.SearchFood.Size = new System.Drawing.Size(200, 36);
             this.SearchFood.TabIndex = 40;
             this.SearchFood.TextChanged += new System.EventHandler(this.SearchFood_TextChanged);
             // 
@@ -914,12 +871,11 @@ namespace Quan_Ly_Khach_San
             this.SubFoodBtn.ForeColor = System.Drawing.Color.White;
             this.SubFoodBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.SubFoodBtn.HoverState.Parent = this.SubFoodBtn;
-            this.SubFoodBtn.Location = new System.Drawing.Point(55, 663);
-            this.SubFoodBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SubFoodBtn.Location = new System.Drawing.Point(41, 539);
             this.SubFoodBtn.Name = "SubFoodBtn";
             this.SubFoodBtn.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.SubFoodBtn.ShadowDecoration.Parent = this.SubFoodBtn;
-            this.SubFoodBtn.Size = new System.Drawing.Size(55, 50);
+            this.SubFoodBtn.Size = new System.Drawing.Size(41, 41);
             this.SubFoodBtn.TabIndex = 39;
             this.SubFoodBtn.Text = "-";
             this.SubFoodBtn.Click += new System.EventHandler(this.SubFoodBtn_Click);
@@ -940,12 +896,11 @@ namespace Quan_Ly_Khach_San
             this.PlusFoodBtn.ForeColor = System.Drawing.Color.White;
             this.PlusFoodBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.PlusFoodBtn.HoverState.Parent = this.PlusFoodBtn;
-            this.PlusFoodBtn.Location = new System.Drawing.Point(297, 663);
-            this.PlusFoodBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PlusFoodBtn.Location = new System.Drawing.Point(223, 539);
             this.PlusFoodBtn.Name = "PlusFoodBtn";
             this.PlusFoodBtn.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.PlusFoodBtn.ShadowDecoration.Parent = this.PlusFoodBtn;
-            this.PlusFoodBtn.Size = new System.Drawing.Size(55, 50);
+            this.PlusFoodBtn.Size = new System.Drawing.Size(41, 41);
             this.PlusFoodBtn.TabIndex = 38;
             this.PlusFoodBtn.Text = "+";
             this.PlusFoodBtn.Click += new System.EventHandler(this.PlusFoodBtn_Click);
@@ -970,8 +925,7 @@ namespace Quan_Ly_Khach_San
             this.FoodNumberTxb.ForeColor = System.Drawing.Color.White;
             this.FoodNumberTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodNumberTxb.HoverState.Parent = this.FoodNumberTxb;
-            this.FoodNumberTxb.Location = new System.Drawing.Point(117, 663);
-            this.FoodNumberTxb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FoodNumberTxb.Location = new System.Drawing.Point(88, 539);
             this.FoodNumberTxb.Name = "FoodNumberTxb";
             this.FoodNumberTxb.PasswordChar = '\0';
             this.FoodNumberTxb.PlaceholderText = "";
@@ -979,7 +933,7 @@ namespace Quan_Ly_Khach_San
             this.FoodNumberTxb.SelectedText = "";
             this.FoodNumberTxb.SelectionStart = 1;
             this.FoodNumberTxb.ShadowDecoration.Parent = this.FoodNumberTxb;
-            this.FoodNumberTxb.Size = new System.Drawing.Size(172, 50);
+            this.FoodNumberTxb.Size = new System.Drawing.Size(129, 41);
             this.FoodNumberTxb.TabIndex = 37;
             this.FoodNumberTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -999,11 +953,10 @@ namespace Quan_Ly_Khach_San
             this.DeleteInListBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteInListBtn.ForeColor = System.Drawing.Color.Black;
             this.DeleteInListBtn.HoverState.Parent = this.DeleteInListBtn;
-            this.DeleteInListBtn.Location = new System.Drawing.Point(615, 665);
-            this.DeleteInListBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DeleteInListBtn.Location = new System.Drawing.Point(461, 540);
             this.DeleteInListBtn.Name = "DeleteInListBtn";
             this.DeleteInListBtn.ShadowDecoration.Parent = this.DeleteInListBtn;
-            this.DeleteInListBtn.Size = new System.Drawing.Size(181, 58);
+            this.DeleteInListBtn.Size = new System.Drawing.Size(136, 47);
             this.DeleteInListBtn.TabIndex = 36;
             this.DeleteInListBtn.Text = "Delete";
             this.DeleteInListBtn.Click += new System.EventHandler(this.DeleteInListBtn_Click);
@@ -1024,11 +977,10 @@ namespace Quan_Ly_Khach_San
             this.AddToListBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddToListBtn.ForeColor = System.Drawing.Color.Black;
             this.AddToListBtn.HoverState.Parent = this.AddToListBtn;
-            this.AddToListBtn.Location = new System.Drawing.Point(405, 663);
-            this.AddToListBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddToListBtn.Location = new System.Drawing.Point(304, 539);
             this.AddToListBtn.Name = "AddToListBtn";
             this.AddToListBtn.ShadowDecoration.Parent = this.AddToListBtn;
-            this.AddToListBtn.Size = new System.Drawing.Size(187, 58);
+            this.AddToListBtn.Size = new System.Drawing.Size(140, 47);
             this.AddToListBtn.TabIndex = 35;
             this.AddToListBtn.Text = "Request";
             this.AddToListBtn.Click += new System.EventHandler(this.AddToListBtn_Click);
@@ -1071,15 +1023,14 @@ namespace Quan_Ly_Khach_San
             this.ListFoodRequestDGV.DefaultCellStyle = dataGridViewCellStyle9;
             this.ListFoodRequestDGV.EnableHeadersVisualStyles = false;
             this.ListFoodRequestDGV.GridColor = System.Drawing.Color.White;
-            this.ListFoodRequestDGV.Location = new System.Drawing.Point(804, 125);
-            this.ListFoodRequestDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ListFoodRequestDGV.Location = new System.Drawing.Point(603, 102);
             this.ListFoodRequestDGV.Name = "ListFoodRequestDGV";
             this.ListFoodRequestDGV.ReadOnly = true;
             this.ListFoodRequestDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ListFoodRequestDGV.RowHeadersVisible = false;
             this.ListFoodRequestDGV.RowHeadersWidth = 51;
             this.ListFoodRequestDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ListFoodRequestDGV.Size = new System.Drawing.Size(511, 402);
+            this.ListFoodRequestDGV.Size = new System.Drawing.Size(383, 327);
             this.ListFoodRequestDGV.TabIndex = 33;
             this.ListFoodRequestDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.ListFoodRequestDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1199,11 +1150,10 @@ namespace Quan_Ly_Khach_San
             this.FoodTypeCb.HoverState.Parent = this.FoodTypeCb;
             this.FoodTypeCb.ItemHeight = 30;
             this.FoodTypeCb.ItemsAppearance.Parent = this.FoodTypeCb;
-            this.FoodTypeCb.Location = new System.Drawing.Point(320, 38);
-            this.FoodTypeCb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FoodTypeCb.Location = new System.Drawing.Point(240, 31);
             this.FoodTypeCb.Name = "FoodTypeCb";
             this.FoodTypeCb.ShadowDecoration.Parent = this.FoodTypeCb;
-            this.FoodTypeCb.Size = new System.Drawing.Size(187, 36);
+            this.FoodTypeCb.Size = new System.Drawing.Size(141, 36);
             this.FoodTypeCb.TabIndex = 32;
             this.FoodTypeCb.SelectedIndexChanged += new System.EventHandler(this.FoodTypeCb_SelectedIndexChanged);
             // 
@@ -1212,10 +1162,9 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Ravie", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(576, 7);
-            this.siticoneHtmlLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticoneHtmlLabel1.Location = new System.Drawing.Point(432, 6);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(159, 56);
+            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(128, 45);
             this.siticoneHtmlLabel1.TabIndex = 31;
             this.siticoneHtmlLabel1.Text = "MENU";
             // 
@@ -1259,15 +1208,14 @@ namespace Quan_Ly_Khach_San
             this.MenuFoodDGV.DefaultCellStyle = dataGridViewCellStyle12;
             this.MenuFoodDGV.EnableHeadersVisualStyles = false;
             this.MenuFoodDGV.GridColor = System.Drawing.Color.White;
-            this.MenuFoodDGV.Location = new System.Drawing.Point(28, 125);
-            this.MenuFoodDGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MenuFoodDGV.Location = new System.Drawing.Point(21, 102);
             this.MenuFoodDGV.Name = "MenuFoodDGV";
             this.MenuFoodDGV.ReadOnly = true;
             this.MenuFoodDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.MenuFoodDGV.RowHeadersVisible = false;
             this.MenuFoodDGV.RowHeadersWidth = 51;
             this.MenuFoodDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.MenuFoodDGV.Size = new System.Drawing.Size(768, 526);
+            this.MenuFoodDGV.Size = new System.Drawing.Size(576, 427);
             this.MenuFoodDGV.TabIndex = 30;
             this.MenuFoodDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.MenuFoodDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -1379,11 +1327,10 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel14.Controls.Add(this.CustomerPickCb);
             this.siticonePanel14.Controls.Add(this.RequestFoodBtn);
             this.siticonePanel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(58)))), ((int)(((byte)(99)))));
-            this.siticonePanel14.Location = new System.Drawing.Point(804, 534);
-            this.siticonePanel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.siticonePanel14.Location = new System.Drawing.Point(603, 434);
             this.siticonePanel14.Name = "siticonePanel14";
             this.siticonePanel14.ShadowDecoration.Parent = this.siticonePanel14;
-            this.siticonePanel14.Size = new System.Drawing.Size(511, 199);
+            this.siticonePanel14.Size = new System.Drawing.Size(383, 162);
             this.siticonePanel14.TabIndex = 29;
             // 
             // label5
@@ -1391,10 +1338,9 @@ namespace Quan_Ly_Khach_San
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(181, 14);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(136, 11);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 26);
+            this.label5.Size = new System.Drawing.Size(104, 20);
             this.label5.TabIndex = 42;
             this.label5.Text = "Customer";
             // 
@@ -1414,15 +1360,14 @@ namespace Quan_Ly_Khach_San
             this.TotalPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.TotalPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.TotalPrice.HoverState.Parent = this.TotalPrice;
-            this.TotalPrice.Location = new System.Drawing.Point(35, 138);
-            this.TotalPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TotalPrice.Location = new System.Drawing.Point(26, 112);
             this.TotalPrice.Name = "TotalPrice";
             this.TotalPrice.PasswordChar = '\0';
             this.TotalPrice.PlaceholderText = "0";
             this.TotalPrice.ReadOnly = true;
             this.TotalPrice.SelectedText = "";
             this.TotalPrice.ShadowDecoration.Parent = this.TotalPrice;
-            this.TotalPrice.Size = new System.Drawing.Size(223, 44);
+            this.TotalPrice.Size = new System.Drawing.Size(167, 36);
             this.TotalPrice.TabIndex = 41;
             this.TotalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1442,11 +1387,10 @@ namespace Quan_Ly_Khach_San
             this.AddCustomerBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddCustomerBtn.ForeColor = System.Drawing.Color.Black;
             this.AddCustomerBtn.HoverState.Parent = this.AddCustomerBtn;
-            this.AddCustomerBtn.Location = new System.Drawing.Point(336, 53);
-            this.AddCustomerBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddCustomerBtn.Location = new System.Drawing.Point(252, 43);
             this.AddCustomerBtn.Name = "AddCustomerBtn";
             this.AddCustomerBtn.ShadowDecoration.Parent = this.AddCustomerBtn;
-            this.AddCustomerBtn.Size = new System.Drawing.Size(75, 44);
+            this.AddCustomerBtn.Size = new System.Drawing.Size(56, 36);
             this.AddCustomerBtn.TabIndex = 29;
             this.AddCustomerBtn.Text = "New";
             this.AddCustomerBtn.Click += new System.EventHandler(this.AddCustomerBtn_Click);
@@ -1466,11 +1410,10 @@ namespace Quan_Ly_Khach_San
             this.CustomerPickCb.HoverState.Parent = this.CustomerPickCb;
             this.CustomerPickCb.ItemHeight = 30;
             this.CustomerPickCb.ItemsAppearance.Parent = this.CustomerPickCb;
-            this.CustomerPickCb.Location = new System.Drawing.Point(35, 53);
-            this.CustomerPickCb.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CustomerPickCb.Location = new System.Drawing.Point(26, 43);
             this.CustomerPickCb.Name = "CustomerPickCb";
             this.CustomerPickCb.ShadowDecoration.Parent = this.CustomerPickCb;
-            this.CustomerPickCb.Size = new System.Drawing.Size(292, 36);
+            this.CustomerPickCb.Size = new System.Drawing.Size(220, 36);
             this.CustomerPickCb.Sorted = true;
             this.CustomerPickCb.TabIndex = 27;
             // 
@@ -1490,11 +1433,10 @@ namespace Quan_Ly_Khach_San
             this.RequestFoodBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RequestFoodBtn.ForeColor = System.Drawing.Color.Black;
             this.RequestFoodBtn.HoverState.Parent = this.RequestFoodBtn;
-            this.RequestFoodBtn.Location = new System.Drawing.Point(279, 130);
-            this.RequestFoodBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RequestFoodBtn.Location = new System.Drawing.Point(209, 106);
             this.RequestFoodBtn.Name = "RequestFoodBtn";
             this.RequestFoodBtn.ShadowDecoration.Parent = this.RequestFoodBtn;
-            this.RequestFoodBtn.Size = new System.Drawing.Size(219, 58);
+            this.RequestFoodBtn.Size = new System.Drawing.Size(164, 47);
             this.RequestFoodBtn.TabIndex = 25;
             this.RequestFoodBtn.Text = "Request Food";
             this.RequestFoodBtn.Click += new System.EventHandler(this.RequestFoodBtn_Click);
@@ -1506,10 +1448,9 @@ namespace Quan_Ly_Khach_San
             this.ServiceTabManage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ServiceTabManage.ItemSize = new System.Drawing.Size(180, 40);
             this.ServiceTabManage.Location = new System.Drawing.Point(0, 0);
-            this.ServiceTabManage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ServiceTabManage.Name = "ServiceTabManage";
             this.ServiceTabManage.SelectedIndex = 0;
-            this.ServiceTabManage.Size = new System.Drawing.Size(1333, 800);
+            this.ServiceTabManage.Size = new System.Drawing.Size(1000, 650);
             this.ServiceTabManage.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
             this.ServiceTabManage.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(34)))), ((int)(((byte)(55)))));
             this.ServiceTabManage.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
@@ -1530,27 +1471,14 @@ namespace Quan_Ly_Khach_San
             this.ServiceTabManage.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.ServiceTabManage.TabMenuOrientation = Siticone.Desktop.UI.WinForms.TabMenuOrientation.HorizontalTop;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label7.Location = new System.Drawing.Point(33, 101);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(121, 20);
-            this.label7.TabIndex = 42;
-            this.label7.Text = "ORDER BILL";
-            // 
             // Food_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.ClientSize = new System.Drawing.Size(1333, 800);
+            this.ClientSize = new System.Drawing.Size(1000, 640);
             this.Controls.Add(this.ServiceTabManage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Food_Form";
             this.Text = "Food_Form";
             this.Load += new System.EventHandler(this.Food_Form_Load);
@@ -1575,18 +1503,13 @@ namespace Quan_Ly_Khach_San
 
         #endregion
         private System.Windows.Forms.TabPage ServiceTab;
-        private Guna.UI2.WinForms.Guna2DataGridView ListMaterialDGV;
-        private Guna.UI2.WinForms.Guna2DataGridView MaterialDGV;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel15;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton ImportMaterialBtn;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel24;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton DeleteMaterialBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddMaterialBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton ExportMaterialBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneCircleButton SubBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneCircleButton PlusBtn;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox MaterialNumberTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox MaterialNoteTxb;
         private System.Windows.Forms.TabPage RoomTab;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel14;
         private Siticone.Desktop.UI.WinForms.SiticoneComboBox CustomerPickCb;
@@ -1625,7 +1548,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private Guna.UI2.WinForms.Guna2ComboBox IngredientTypeCBB;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox MaterialReasonTxb;
         private System.Windows.Forms.DataGridViewTextBoxColumn maNL;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenNL;
         private System.Windows.Forms.DataGridViewTextBoxColumn maLoaiNL;
@@ -1640,7 +1562,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn Column29;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column31;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox ImportListTxt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -1648,5 +1569,11 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
+        private Guna.UI2.WinForms.Guna2DataGridView MaterialDGV;
+        private Guna.UI2.WinForms.Guna2DataGridView ListMaterialDGV;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox MaterialNumberTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox MaterialNoteTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox MaterialReasonTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton ExportMaterialBtn;
     }
 }

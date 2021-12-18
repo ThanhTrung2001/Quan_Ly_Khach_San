@@ -19,5 +19,15 @@ namespace BUS
         {
             return PhieuThanhToan_DAL.BillAgentList(id);
         }
+
+        public static bool UpdateTotal(double total, string maDSNL)
+        {
+            return PhieuThanhToan_DAL.UpdateTotal(total, maDSNL);
+        }
+
+        public static bool UpdateConfirm(string maDL, string note, string maDSNL)
+        {
+            return PhieuThanhToan_DAL.UpdateConfirm(maDL, note, maDSNL);
+        }
     }
 }

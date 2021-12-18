@@ -162,6 +162,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="GUI\Risk_Form.resx">
       <DependentUpon>Risk_Form.cs</DependentUpon>
@@ -200,6 +201,23 @@
       <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Asset 50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\285-2855074_left-arrow-white-close-icon-png-white-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows-icon-white-back-pointers-text.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[removal.ai]_tmp-61b85ed651dec.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
