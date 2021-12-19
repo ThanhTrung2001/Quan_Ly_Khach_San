@@ -49,7 +49,7 @@ namespace Quan_Ly_Khach_San
             this.FListRequestDGV.DataSource = new List<MonAn>();
 
             this.TotalPriceFoodTxb.Text = "0";
-            this.ReceiveMoneyTxb.Text = "0";
+            this.ReturnMoneyTxb.Text = "0";
 
             this.SearchTextTxt.Text = "";
 
@@ -84,7 +84,7 @@ namespace Quan_Ly_Khach_San
 
         private void ReceiveMoneyTxb_TextChanged(object sender, EventArgs e)
         {
-            if (this.ReceiveMoneyTxb.Text == "") return;
+            if (this.ReturnMoneyTxb.Text == "") return;
 
             double receive = Double.Parse(this.ReceiveMoneyTxb.Text);
             double total = Double.Parse(this.TotalPriceFoodTxb.Text);
@@ -98,7 +98,7 @@ namespace Quan_Ly_Khach_San
 
         private void ConfirmRequest_Click(object sender, EventArgs e)
         {
-            if (this.ReceiveMoneyTxb.Text == "" || this.ReceiveMoneyTxb.Text == "0")
+            if (this.ReturnMoneyTxb.Text == "" || this.ReturnMoneyTxb.Text == "0")
                 return;
             if (this.CustomerFoodDGV.SelectedRows.Count <= 0)
                 return;
@@ -106,8 +106,8 @@ namespace Quan_Ly_Khach_San
             HoaDonMonAn bill = new HoaDonMonAn();
             bill.NgayLap = DateTime.Now.ToString();
             bill.MaDSMA = this.CustomerFoodDGV.SelectedRows[0].Cells["maDSMA"].Value.ToString();
-            bill.TienNhan = Double.Parse(this.ReceiveMoneyTxb.Text);
-            bill.TienThua = Double.Parse(this.ReturnMoneyTxb.Text);
+            bill.TienNhan = Double.Parse(this.ReturnMoneyTxb.Text);
+            bill.TienThua = Double.Parse(this.ReceiveMoneyTxb.Text);
             bill.MaTinhTrang = "Co";
 
             if (HoaDonMonAn_BUS.UpdateBillPaid(bill))
@@ -384,9 +384,9 @@ namespace Quan_Ly_Khach_San
                 riskRefun += bill.SoTienHoan;
             }
 
-            this.TotalPriceTxb.Text = total.ToString();
-            this.ReceiveTxb.Text = receive.ToString();
-            this.ReturnTxb.Text = returnMoney.ToString();
+            this.TotalPriceTxt.Text = total.ToString();
+            this.ReceiveTxt.Text = receive.ToString();
+            this.ReturnTxt.Text = returnMoney.ToString();
             this.RiskRefurnTxt.Text = riskRefun.ToString();
         }
 
@@ -776,9 +776,9 @@ namespace Quan_Ly_Khach_San
 
                 baoCao.MailMerge.Execute(new[] { "check_out" }, new[] { RoomDailyDateDTP.Value.ToString("MM/dd/yyyy") });
 
-                baoCao.MailMerge.Execute(new[] { "total" }, new[] { TotalPriceTxb.Text });
-                baoCao.MailMerge.Execute(new[] { "receive" }, new[] { ReceiveTxb.Text });
-                baoCao.MailMerge.Execute(new[] { "return" }, new[] { ReturnTxb.Text + " (USD)" });
+                baoCao.MailMerge.Execute(new[] { "total" }, new[] { TotalPriceTxt.Text });
+                baoCao.MailMerge.Execute(new[] { "receive" }, new[] { ReceiveTxt.Text });
+                baoCao.MailMerge.Execute(new[] { "return" }, new[] { ReturnTxt.Text + " (USD)" });
 
                 baoCao.SaveAndOpenFile("HoaDonRoom.doc");
             }

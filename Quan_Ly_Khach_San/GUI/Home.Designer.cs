@@ -143,8 +143,8 @@ namespace Quan_Ly_Khach_San
             this.FoodBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.FoodBtn.DisabledState.Parent = this.FoodBtn;
             this.FoodBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.FoodBtn.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.FoodBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.FoodBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodBtn.ForeColor = System.Drawing.Color.White;
             this.FoodBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
             this.FoodBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.FoodBtn.HoverState.Parent = this.FoodBtn;
@@ -180,8 +180,8 @@ namespace Quan_Ly_Khach_San
             this.ServiceBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.ServiceBtn.DisabledState.Parent = this.ServiceBtn;
             this.ServiceBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.ServiceBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ServiceBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.ServiceBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ServiceBtn.ForeColor = System.Drawing.Color.White;
             this.ServiceBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
             this.ServiceBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.ServiceBtn.HoverState.Parent = this.ServiceBtn;
@@ -251,8 +251,8 @@ namespace Quan_Ly_Khach_San
             this.StatisticBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.StatisticBtn.DisabledState.Parent = this.StatisticBtn;
             this.StatisticBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.StatisticBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StatisticBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.StatisticBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatisticBtn.ForeColor = System.Drawing.Color.White;
             this.StatisticBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
             this.StatisticBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.StatisticBtn.HoverState.Parent = this.StatisticBtn;
@@ -288,8 +288,8 @@ namespace Quan_Ly_Khach_San
             this.CustomerBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.CustomerBtn.DisabledState.Parent = this.CustomerBtn;
             this.CustomerBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.CustomerBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CustomerBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.CustomerBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerBtn.ForeColor = System.Drawing.Color.White;
             this.CustomerBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
             this.CustomerBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.CustomerBtn.HoverState.Parent = this.CustomerBtn;
@@ -325,8 +325,8 @@ namespace Quan_Ly_Khach_San
             this.RiskBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.RiskBtn.DisabledState.Parent = this.RiskBtn;
             this.RiskBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.RiskBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RiskBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.RiskBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RiskBtn.ForeColor = System.Drawing.Color.White;
             this.RiskBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
             this.RiskBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.RiskBtn.HoverState.Parent = this.RiskBtn;
@@ -362,8 +362,8 @@ namespace Quan_Ly_Khach_San
             this.RoomBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.RoomBtn.DisabledState.Parent = this.RoomBtn;
             this.RoomBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
-            this.RoomBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RoomBtn.ForeColor = System.Drawing.Color.DarkGray;
+            this.RoomBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RoomBtn.ForeColor = System.Drawing.Color.White;
             this.RoomBtn.HoverState.CustomBorderColor = System.Drawing.Color.Gray;
             this.RoomBtn.HoverState.ForeColor = System.Drawing.Color.White;
             this.RoomBtn.HoverState.Parent = this.RoomBtn;

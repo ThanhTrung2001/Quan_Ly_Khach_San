@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.siticoneGradientButton2 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.siticoneGradientButton1 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,28 +40,8 @@
             this.IngredientIDtxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
+            this.siticoneGradientButton2 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.SuspendLayout();
-            // 
-            // siticoneGradientButton2
-            // 
-            this.siticoneGradientButton2.BorderRadius = 15;
-            this.siticoneGradientButton2.CheckedState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.CustomImages.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneGradientButton2.DisabledState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.siticoneGradientButton2.ForeColor = System.Drawing.Color.White;
-            this.siticoneGradientButton2.HoverState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Location = new System.Drawing.Point(299, 280);
-            this.siticoneGradientButton2.Name = "siticoneGradientButton2";
-            this.siticoneGradientButton2.ShadowDecoration.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Size = new System.Drawing.Size(56, 36);
-            this.siticoneGradientButton2.TabIndex = 133;
-            this.siticoneGradientButton2.Text = "NEW";
             // 
             // siticoneGradientButton1
             // 
@@ -75,10 +54,12 @@
             this.siticoneGradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.siticoneGradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.siticoneGradientButton1.DisabledState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.siticoneGradientButton1.ForeColor = System.Drawing.Color.White;
+            this.siticoneGradientButton1.FillColor = System.Drawing.Color.Gold;
+            this.siticoneGradientButton1.FillColor2 = System.Drawing.Color.Gold;
+            this.siticoneGradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneGradientButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.siticoneGradientButton1.HoverState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Location = new System.Drawing.Point(299, 220);
+            this.siticoneGradientButton1.Location = new System.Drawing.Point(299, 192);
             this.siticoneGradientButton1.Name = "siticoneGradientButton1";
             this.siticoneGradientButton1.ShadowDecoration.Parent = this.siticoneGradientButton1;
             this.siticoneGradientButton1.Size = new System.Drawing.Size(56, 36);
@@ -87,8 +68,7 @@
             // 
             // guna2CircleButton1
             // 
-            this.guna2CircleButton1.BackgroundImage = global::Quan_Ly_Khach_San.Properties.Resources._removal_ai__tmp_61b85ed651dec;
-            this.guna2CircleButton1.BorderColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton1.BorderThickness = 2;
             this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
             this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
@@ -98,28 +78,29 @@
             this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2CircleButton1.DisabledState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.Gold;
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Image = global::Quan_Ly_Khach_San.Properties.Resources._removal_ai__tmp_61b85ed651dec;
             this.guna2CircleButton1.ImageSize = new System.Drawing.Size(15, 15);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(16, 32);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(25, 26);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(32, 32);
+            this.guna2CircleButton1.Size = new System.Drawing.Size(37, 35);
             this.guna2CircleButton1.TabIndex = 131;
+            this.guna2CircleButton1.Text = "<";
+            this.guna2CircleButton1.TextOffset = new System.Drawing.Point(1, -2);
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.DarkGray;
-            this.label1.Location = new System.Drawing.Point(27, 287);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(27, 249);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 21);
+            this.label1.Size = new System.Drawing.Size(51, 21);
             this.label1.TabIndex = 130;
             this.label1.Text = "Unit :";
             // 
@@ -134,10 +115,12 @@
             this.AddBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.AddBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.AddBtn.DisabledState.Parent = this.AddBtn;
-            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.FillColor = System.Drawing.Color.Gold;
+            this.AddBtn.FillColor2 = System.Drawing.Color.Gold;
+            this.AddBtn.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.AddBtn.HoverState.Parent = this.AddBtn;
-            this.AddBtn.Location = new System.Drawing.Point(208, 353);
+            this.AddBtn.Location = new System.Drawing.Point(208, 305);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.ShadowDecoration.Parent = this.AddBtn;
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
@@ -148,22 +131,22 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label14.ForeColor = System.Drawing.Color.DarkGray;
-            this.label14.Location = new System.Drawing.Point(27, 227);
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(27, 192);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(56, 21);
+            this.label14.Size = new System.Drawing.Size(54, 21);
             this.label14.TabIndex = 128;
             this.label14.Text = "Type :";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label13.ForeColor = System.Drawing.Color.DarkGray;
-            this.label13.Location = new System.Drawing.Point(27, 169);
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(27, 137);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(65, 21);
+            this.label13.Size = new System.Drawing.Size(64, 21);
             this.label13.TabIndex = 127;
             this.label13.Text = "Name :";
             // 
@@ -178,12 +161,12 @@
             this.IngredientUnittxt.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientUnittxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientUnittxt.FocusedState.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IngredientUnittxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IngredientUnittxt.ForeColor = System.Drawing.Color.White;
             this.IngredientUnittxt.HoverState.Parent = this.IngredientUnittxt;
             this.IngredientUnittxt.ItemHeight = 30;
             this.IngredientUnittxt.ItemsAppearance.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.Location = new System.Drawing.Point(99, 280);
+            this.IngredientUnittxt.Location = new System.Drawing.Point(99, 249);
             this.IngredientUnittxt.Name = "IngredientUnittxt";
             this.IngredientUnittxt.ShadowDecoration.Parent = this.IngredientUnittxt;
             this.IngredientUnittxt.Size = new System.Drawing.Size(194, 36);
@@ -200,12 +183,12 @@
             this.IngredientStyletxt.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientStyletxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientStyletxt.FocusedState.Parent = this.IngredientStyletxt;
-            this.IngredientStyletxt.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IngredientStyletxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IngredientStyletxt.ForeColor = System.Drawing.Color.White;
             this.IngredientStyletxt.HoverState.Parent = this.IngredientStyletxt;
             this.IngredientStyletxt.ItemHeight = 30;
             this.IngredientStyletxt.ItemsAppearance.Parent = this.IngredientStyletxt;
-            this.IngredientStyletxt.Location = new System.Drawing.Point(99, 220);
+            this.IngredientStyletxt.Location = new System.Drawing.Point(99, 192);
             this.IngredientStyletxt.Name = "IngredientStyletxt";
             this.IngredientStyletxt.ShadowDecoration.Parent = this.IngredientStyletxt;
             this.IngredientStyletxt.Size = new System.Drawing.Size(194, 36);
@@ -227,11 +210,11 @@
             this.IngredientNametxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.IngredientNametxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientNametxt.FocusedState.Parent = this.IngredientNametxt;
-            this.IngredientNametxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IngredientNametxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IngredientNametxt.ForeColor = System.Drawing.Color.White;
             this.IngredientNametxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientNametxt.HoverState.Parent = this.IngredientNametxt;
-            this.IngredientNametxt.Location = new System.Drawing.Point(99, 157);
+            this.IngredientNametxt.Location = new System.Drawing.Point(99, 137);
             this.IngredientNametxt.Name = "IngredientNametxt";
             this.IngredientNametxt.PasswordChar = '\0';
             this.IngredientNametxt.PlaceholderText = "Name";
@@ -260,11 +243,11 @@
             this.IngredientIDtxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.IngredientIDtxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientIDtxt.FocusedState.Parent = this.IngredientIDtxt;
-            this.IngredientIDtxt.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IngredientIDtxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IngredientIDtxt.ForeColor = System.Drawing.Color.White;
             this.IngredientIDtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.IngredientIDtxt.HoverState.Parent = this.IngredientIDtxt;
-            this.IngredientIDtxt.Location = new System.Drawing.Point(99, 92);
+            this.IngredientIDtxt.Location = new System.Drawing.Point(99, 82);
             this.IngredientIDtxt.Name = "IngredientIDtxt";
             this.IngredientIDtxt.PasswordChar = '\0';
             this.IngredientIDtxt.PlaceholderText = "Should\'t enter when you add new";
@@ -277,11 +260,11 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label12.ForeColor = System.Drawing.Color.DarkGray;
-            this.label12.Location = new System.Drawing.Point(27, 103);
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(27, 82);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(36, 21);
+            this.label12.Size = new System.Drawing.Size(35, 21);
             this.label12.TabIndex = 122;
             this.label12.Text = "ID :";
             // 
@@ -290,14 +273,37 @@
             this.siticoneHtmlLabel1.AutoSize = false;
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.siticoneHtmlLabel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI Emoji", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.siticoneHtmlLabel1.Location = new System.Drawing.Point(0, 0);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(385, 76);
+            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(377, 76);
             this.siticoneHtmlLabel1.TabIndex = 121;
             this.siticoneHtmlLabel1.Text = "Ingredient";
             this.siticoneHtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // siticoneGradientButton2
+            // 
+            this.siticoneGradientButton2.BorderRadius = 15;
+            this.siticoneGradientButton2.CheckedState.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.CustomImages.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneGradientButton2.DisabledState.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.FillColor = System.Drawing.Color.Gold;
+            this.siticoneGradientButton2.FillColor2 = System.Drawing.Color.Gold;
+            this.siticoneGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneGradientButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            this.siticoneGradientButton2.HoverState.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.Location = new System.Drawing.Point(299, 249);
+            this.siticoneGradientButton2.Name = "siticoneGradientButton2";
+            this.siticoneGradientButton2.ShadowDecoration.Parent = this.siticoneGradientButton2;
+            this.siticoneGradientButton2.Size = new System.Drawing.Size(56, 36);
+            this.siticoneGradientButton2.TabIndex = 133;
+            this.siticoneGradientButton2.Text = "NEW";
             // 
             // Add_Ingredient_Form
             // 
@@ -306,7 +312,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.CancelButton = this.guna2CircleButton1;
-            this.ClientSize = new System.Drawing.Size(385, 412);
+            this.ClientSize = new System.Drawing.Size(377, 368);
             this.Controls.Add(this.siticoneGradientButton2);
             this.Controls.Add(this.siticoneGradientButton1);
             this.Controls.Add(this.guna2CircleButton1);
@@ -331,8 +337,6 @@
         }
 
         #endregion
-
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton2;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton1;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private System.Windows.Forms.Label label1;
@@ -345,5 +349,6 @@
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox IngredientIDtxt;
         private System.Windows.Forms.Label label12;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton2;
     }
 }

@@ -55,15 +55,17 @@ namespace Quan_Ly_Khach_San
             this.AddBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.AddBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.AddBtn.DisabledState.Parent = this.AddBtn;
-            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.FillColor = System.Drawing.Color.Gold;
+            this.AddBtn.FillColor2 = System.Drawing.Color.Gold;
+            this.AddBtn.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.AddBtn.HoverState.Parent = this.AddBtn;
-            this.AddBtn.Location = new System.Drawing.Point(220, 396);
+            this.AddBtn.Location = new System.Drawing.Point(220, 400);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.ShadowDecoration.Parent = this.AddBtn;
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
             this.AddBtn.TabIndex = 20;
-            this.AddBtn.Text = "Add";
+            this.AddBtn.Text = "ADD";
             this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // CustomerAddress
@@ -81,17 +83,17 @@ namespace Quan_Ly_Khach_San
             this.CustomerAddress.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.CustomerAddress.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerAddress.FocusedState.Parent = this.CustomerAddress;
-            this.CustomerAddress.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerAddress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomerAddress.ForeColor = System.Drawing.Color.White;
             this.CustomerAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerAddress.HoverState.Parent = this.CustomerAddress;
-            this.CustomerAddress.Location = new System.Drawing.Point(100, 247);
+            this.CustomerAddress.Location = new System.Drawing.Point(97, 247);
             this.CustomerAddress.Name = "CustomerAddress";
             this.CustomerAddress.PasswordChar = '\0';
             this.CustomerAddress.PlaceholderText = "Address";
             this.CustomerAddress.SelectedText = "";
             this.CustomerAddress.ShadowDecoration.Parent = this.CustomerAddress;
-            this.CustomerAddress.Size = new System.Drawing.Size(267, 59);
+            this.CustomerAddress.Size = new System.Drawing.Size(276, 59);
             this.CustomerAddress.TabIndex = 18;
             this.CustomerAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -110,7 +112,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerIdentityTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.CustomerIdentityTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerIdentityTxb.FocusedState.Parent = this.CustomerIdentityTxb;
-            this.CustomerIdentityTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerIdentityTxb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomerIdentityTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerIdentityTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerIdentityTxb.HoverState.Parent = this.CustomerIdentityTxb;
@@ -120,7 +122,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerIdentityTxb.PlaceholderText = "Identity Numbers";
             this.CustomerIdentityTxb.SelectedText = "";
             this.CustomerIdentityTxb.ShadowDecoration.Parent = this.CustomerIdentityTxb;
-            this.CustomerIdentityTxb.Size = new System.Drawing.Size(270, 49);
+            this.CustomerIdentityTxb.Size = new System.Drawing.Size(276, 49);
             this.CustomerIdentityTxb.TabIndex = 17;
             this.CustomerIdentityTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CustomerIdentityTxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerIdentityTxb_KeyPress);
@@ -140,7 +142,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerPhoneNumberTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.CustomerPhoneNumberTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerPhoneNumberTxb.FocusedState.Parent = this.CustomerPhoneNumberTxb;
-            this.CustomerPhoneNumberTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerPhoneNumberTxb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomerPhoneNumberTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerPhoneNumberTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerPhoneNumberTxb.HoverState.Parent = this.CustomerPhoneNumberTxb;
@@ -170,7 +172,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerNameTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.CustomerNameTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNameTxb.FocusedState.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerNameTxb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomerNameTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNameTxb.HoverState.Parent = this.CustomerNameTxb;
@@ -189,7 +191,7 @@ namespace Quan_Ly_Khach_San
             this.siticoneHtmlLabel1.AutoSize = false;
             this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.siticoneHtmlLabel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI Emoji", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.siticoneHtmlLabel1.Location = new System.Drawing.Point(0, 0);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
@@ -213,7 +215,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerNote.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.CustomerNote.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNote.FocusedState.Parent = this.CustomerNote;
-            this.CustomerNote.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerNote.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomerNote.ForeColor = System.Drawing.Color.White;
             this.CustomerNote.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNote.HoverState.Parent = this.CustomerNote;
@@ -223,69 +225,68 @@ namespace Quan_Ly_Khach_San
             this.CustomerNote.PlaceholderText = "Note";
             this.CustomerNote.SelectedText = "";
             this.CustomerNote.ShadowDecoration.Parent = this.CustomerNote;
-            this.CustomerNote.Size = new System.Drawing.Size(270, 78);
+            this.CustomerNote.Size = new System.Drawing.Size(276, 78);
             this.CustomerNote.TabIndex = 23;
             this.CustomerNote.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.DarkGray;
-            this.label1.Location = new System.Drawing.Point(12, 92);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(12, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 21);
+            this.label1.Size = new System.Drawing.Size(64, 21);
             this.label1.TabIndex = 25;
             this.label1.Text = "Name :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.DarkGray;
-            this.label2.Location = new System.Drawing.Point(9, 151);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 21);
+            this.label2.Size = new System.Drawing.Size(67, 21);
             this.label2.TabIndex = 26;
             this.label2.Text = "Phone :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(12, 203);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(12, 192);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 21);
+            this.label3.Size = new System.Drawing.Size(78, 21);
             this.label3.TabIndex = 27;
             this.label3.Text = "Identity :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.DarkGray;
-            this.label4.Location = new System.Drawing.Point(12, 266);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(12, 247);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 21);
+            this.label4.Size = new System.Drawing.Size(78, 21);
             this.label4.TabIndex = 28;
             this.label4.Text = "Address :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.DarkGray;
-            this.label5.Location = new System.Drawing.Point(12, 339);
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(12, 312);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 21);
+            this.label5.Size = new System.Drawing.Size(56, 21);
             this.label5.TabIndex = 29;
             this.label5.Text = "Note :";
             // 
             // guna2CircleButton1
             // 
-            this.guna2CircleButton1.BackgroundImage = global::Quan_Ly_Khach_San.Properties.Resources._removal_ai__tmp_61b85ed651dec;
-            this.guna2CircleButton1.BorderColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.BorderColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton1.BorderThickness = 2;
             this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
             this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
@@ -295,18 +296,20 @@ namespace Quan_Ly_Khach_San
             this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2CircleButton1.DisabledState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.Gold;
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Image = global::Quan_Ly_Khach_San.Properties.Resources._removal_ai__tmp_61b85ed651dec;
             this.guna2CircleButton1.ImageSize = new System.Drawing.Size(15, 15);
             this.guna2CircleButton1.Location = new System.Drawing.Point(16, 22);
+            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(0);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(32, 32);
+            this.guna2CircleButton1.Size = new System.Drawing.Size(35, 36);
             this.guna2CircleButton1.TabIndex = 133;
+            this.guna2CircleButton1.Text = "<";
+            this.guna2CircleButton1.TextOffset = new System.Drawing.Point(1, -2);
             this.guna2CircleButton1.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // Add_Customer_Form
@@ -328,6 +331,7 @@ namespace Quan_Ly_Khach_San
             this.Controls.Add(this.CustomerIdentityTxb);
             this.Controls.Add(this.CustomerPhoneNumberTxb);
             this.Controls.Add(this.CustomerNameTxb);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Add_Customer_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
