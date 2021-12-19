@@ -36,7 +36,8 @@ namespace Quan_Ly_Khach_San
             this.SupplierNameCb.ValueMember = "MaDL";
             this.SupplierNameCb.DisplayMember = "TenDL";
 
-            this.SupplierNameCb.SelectedIndex = 0;
+            if (list != null)
+                this.SupplierNameCb.SelectedIndex = 0;
         }
 
         #endregion

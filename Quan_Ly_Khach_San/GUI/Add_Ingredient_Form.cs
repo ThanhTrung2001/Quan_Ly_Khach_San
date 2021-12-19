@@ -80,7 +80,7 @@ namespace Quan_Ly_Khach_San.GUI
 
         private void Reset()
         {
-            this.IngredientIDtxt.Text = "";
+            this.IngredientIDtxt.Text = "I" + getRandomID();
             this.IngredientNametxt.Text = "";
 
             ff.IngredientLoad();
