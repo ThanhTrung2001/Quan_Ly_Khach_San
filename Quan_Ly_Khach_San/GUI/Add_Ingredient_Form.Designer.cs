@@ -322,6 +322,7 @@
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Add_Ingredient_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add_Ingredient_Form";
             this.Load += new System.EventHandler(this.Add_Ingredient_Form_Load);
             this.ResumeLayout(false);

@@ -35,13 +35,13 @@ namespace Quan_Ly_Khach_San
             this.CustomerPhoneNumberTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.CustomerNameTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
-            this.CancelBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.CustomerNote = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.SuspendLayout();
             // 
             // AddBtn
@@ -58,7 +58,7 @@ namespace Quan_Ly_Khach_San
             this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AddBtn.ForeColor = System.Drawing.Color.White;
             this.AddBtn.HoverState.Parent = this.AddBtn;
-            this.AddBtn.Location = new System.Drawing.Point(31, 470);
+            this.AddBtn.Location = new System.Drawing.Point(220, 396);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.ShadowDecoration.Parent = this.AddBtn;
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
@@ -85,13 +85,13 @@ namespace Quan_Ly_Khach_San
             this.CustomerAddress.ForeColor = System.Drawing.Color.White;
             this.CustomerAddress.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerAddress.HoverState.Parent = this.CustomerAddress;
-            this.CustomerAddress.Location = new System.Drawing.Point(31, 325);
+            this.CustomerAddress.Location = new System.Drawing.Point(100, 247);
             this.CustomerAddress.Name = "CustomerAddress";
             this.CustomerAddress.PasswordChar = '\0';
             this.CustomerAddress.PlaceholderText = "Address";
             this.CustomerAddress.SelectedText = "";
             this.CustomerAddress.ShadowDecoration.Parent = this.CustomerAddress;
-            this.CustomerAddress.Size = new System.Drawing.Size(323, 59);
+            this.CustomerAddress.Size = new System.Drawing.Size(267, 59);
             this.CustomerAddress.TabIndex = 18;
             this.CustomerAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -114,7 +114,7 @@ namespace Quan_Ly_Khach_San
             this.CustomerIdentityTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerIdentityTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerIdentityTxb.HoverState.Parent = this.CustomerIdentityTxb;
-            this.CustomerIdentityTxb.Location = new System.Drawing.Point(57, 241);
+            this.CustomerIdentityTxb.Location = new System.Drawing.Point(97, 192);
             this.CustomerIdentityTxb.Name = "CustomerIdentityTxb";
             this.CustomerIdentityTxb.PasswordChar = '\0';
             this.CustomerIdentityTxb.PlaceholderText = "Identity Numbers";
@@ -144,13 +144,13 @@ namespace Quan_Ly_Khach_San
             this.CustomerPhoneNumberTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerPhoneNumberTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerPhoneNumberTxb.HoverState.Parent = this.CustomerPhoneNumberTxb;
-            this.CustomerPhoneNumberTxb.Location = new System.Drawing.Point(57, 157);
+            this.CustomerPhoneNumberTxb.Location = new System.Drawing.Point(97, 137);
             this.CustomerPhoneNumberTxb.Name = "CustomerPhoneNumberTxb";
             this.CustomerPhoneNumberTxb.PasswordChar = '\0';
             this.CustomerPhoneNumberTxb.PlaceholderText = "Phone Numbers";
             this.CustomerPhoneNumberTxb.SelectedText = "";
             this.CustomerPhoneNumberTxb.ShadowDecoration.Parent = this.CustomerPhoneNumberTxb;
-            this.CustomerPhoneNumberTxb.Size = new System.Drawing.Size(270, 49);
+            this.CustomerPhoneNumberTxb.Size = new System.Drawing.Size(276, 49);
             this.CustomerPhoneNumberTxb.TabIndex = 15;
             this.CustomerPhoneNumberTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.CustomerPhoneNumberTxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CustomerPhoneNumberTxb_KeyPress);
@@ -174,53 +174,29 @@ namespace Quan_Ly_Khach_San
             this.CustomerNameTxb.ForeColor = System.Drawing.Color.White;
             this.CustomerNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNameTxb.HoverState.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Location = new System.Drawing.Point(31, 73);
+            this.CustomerNameTxb.Location = new System.Drawing.Point(97, 82);
             this.CustomerNameTxb.Name = "CustomerNameTxb";
             this.CustomerNameTxb.PasswordChar = '\0';
             this.CustomerNameTxb.PlaceholderText = "Name";
             this.CustomerNameTxb.SelectedText = "";
             this.CustomerNameTxb.ShadowDecoration.Parent = this.CustomerNameTxb;
-            this.CustomerNameTxb.Size = new System.Drawing.Size(323, 49);
+            this.CustomerNameTxb.Size = new System.Drawing.Size(276, 49);
             this.CustomerNameTxb.TabIndex = 13;
             this.CustomerNameTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // siticoneHtmlLabel1
             // 
             this.siticoneHtmlLabel1.AutoSize = false;
-            this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.siticoneHtmlLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.siticoneHtmlLabel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.siticoneHtmlLabel1.Font = new System.Drawing.Font("Segoe UI Emoji", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneHtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.siticoneHtmlLabel1.Location = new System.Drawing.Point(0, 0);
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
-            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(385, 38);
+            this.siticoneHtmlLabel1.Size = new System.Drawing.Size(385, 76);
             this.siticoneHtmlLabel1.TabIndex = 21;
-            this.siticoneHtmlLabel1.Text = "Customers List";
+            this.siticoneHtmlLabel1.Text = "NEW CUSTOMER";
             this.siticoneHtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // CancelBtn
-            // 
-            this.CancelBtn.BorderRadius = 15;
-            this.CancelBtn.CheckedState.Parent = this.CancelBtn;
-            this.CancelBtn.CustomImages.Parent = this.CancelBtn;
-            this.CancelBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.CancelBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.CancelBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.CancelBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.CancelBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.CancelBtn.DisabledState.Parent = this.CancelBtn;
-            this.CancelBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(77)))), ((int)(((byte)(165)))));
-            this.CancelBtn.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.CancelBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.CancelBtn.ForeColor = System.Drawing.Color.White;
-            this.CancelBtn.HoverState.Parent = this.CancelBtn;
-            this.CancelBtn.Location = new System.Drawing.Point(207, 470);
-            this.CancelBtn.Name = "CancelBtn";
-            this.CancelBtn.ShadowDecoration.Parent = this.CancelBtn;
-            this.CancelBtn.Size = new System.Drawing.Size(147, 49);
-            this.CancelBtn.TabIndex = 22;
-            this.CancelBtn.Text = "Cancel";
-            this.CancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // CustomerNote
             // 
@@ -241,13 +217,13 @@ namespace Quan_Ly_Khach_San
             this.CustomerNote.ForeColor = System.Drawing.Color.White;
             this.CustomerNote.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.CustomerNote.HoverState.Parent = this.CustomerNote;
-            this.CustomerNote.Location = new System.Drawing.Point(31, 419);
+            this.CustomerNote.Location = new System.Drawing.Point(97, 312);
             this.CustomerNote.Name = "CustomerNote";
             this.CustomerNote.PasswordChar = '\0';
             this.CustomerNote.PlaceholderText = "Note";
             this.CustomerNote.SelectedText = "";
             this.CustomerNote.ShadowDecoration.Parent = this.CustomerNote;
-            this.CustomerNote.Size = new System.Drawing.Size(323, 45);
+            this.CustomerNote.Size = new System.Drawing.Size(270, 78);
             this.CustomerNote.TabIndex = 23;
             this.CustomerNote.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -256,7 +232,7 @@ namespace Quan_Ly_Khach_San
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.DarkGray;
-            this.label1.Location = new System.Drawing.Point(163, 44);
+            this.label1.Location = new System.Drawing.Point(12, 92);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 21);
             this.label1.TabIndex = 25;
@@ -267,7 +243,7 @@ namespace Quan_Ly_Khach_San
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.DarkGray;
-            this.label2.Location = new System.Drawing.Point(163, 133);
+            this.label2.Location = new System.Drawing.Point(9, 151);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 21);
             this.label2.TabIndex = 26;
@@ -278,7 +254,7 @@ namespace Quan_Ly_Khach_San
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.DarkGray;
-            this.label3.Location = new System.Drawing.Point(163, 217);
+            this.label3.Location = new System.Drawing.Point(12, 203);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 21);
             this.label3.TabIndex = 27;
@@ -289,7 +265,7 @@ namespace Quan_Ly_Khach_San
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.DarkGray;
-            this.label4.Location = new System.Drawing.Point(163, 293);
+            this.label4.Location = new System.Drawing.Point(12, 266);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(82, 21);
             this.label4.TabIndex = 28;
@@ -300,25 +276,52 @@ namespace Quan_Ly_Khach_San
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.DarkGray;
-            this.label5.Location = new System.Drawing.Point(163, 387);
+            this.label5.Location = new System.Drawing.Point(12, 339);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 21);
             this.label5.TabIndex = 29;
             this.label5.Text = "Note :";
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.BackgroundImage = global::Quan_Ly_Khach_San.Properties.Resources._removal_ai__tmp_61b85ed651dec;
+            this.guna2CircleButton1.BorderColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.BorderThickness = 2;
+            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2CircleButton1.DisabledState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.Image = global::Quan_Ly_Khach_San.Properties.Resources._removal_ai__tmp_61b85ed651dec;
+            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(15, 15);
+            this.guna2CircleButton1.Location = new System.Drawing.Point(16, 22);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(32, 32);
+            this.guna2CircleButton1.TabIndex = 133;
+            this.guna2CircleButton1.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // Add_Customer_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.ClientSize = new System.Drawing.Size(385, 531);
+            this.ClientSize = new System.Drawing.Size(385, 461);
+            this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.CustomerNote);
-            this.Controls.Add(this.CancelBtn);
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.CustomerAddress);
@@ -327,7 +330,7 @@ namespace Quan_Ly_Khach_San
             this.Controls.Add(this.CustomerNameTxb);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Add_Customer_Form";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add_Customer_Form";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -342,12 +345,12 @@ namespace Quan_Ly_Khach_San
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerPhoneNumberTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerNameTxb;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton CancelBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox CustomerNote;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
     }
 }

@@ -30,9 +30,9 @@ namespace DAL
             }
         }
 
-        public static List<PhieuThanhToan> BillAgentList(string id)
+        public static List<PhieuThanhToan> BillAgentList(string id, string tt)
         {
-            string command = $"select * from PhieuThanhToan where maPhieu like '{id}%'";
+            string command = $"select * from PhieuThanhToan where maPhieu like '{id}%' and  maTrangThai like '{tt}%'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)

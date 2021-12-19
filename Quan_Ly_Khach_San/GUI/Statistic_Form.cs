@@ -157,7 +157,8 @@ namespace Quan_Ly_Khach_San
 
         private void PaidLoad()
         {
-            GLoad();
+            this.SupplierFindCBB.SelectedIndex = 1;
+            //GLoad();
         }
 
         private void AgentTotal()
@@ -211,10 +212,31 @@ namespace Quan_Ly_Khach_San
         private void GLoad()
         {
             string id = this.SupplierPhoneTxb.Text;
-            List<PhieuThanhToan> list = PhieuThanhToan_BUS.AgentList(id);
+            string tt = "";
+            switch (this.SupplierFindCBB.SelectedIndex)
+            {
+                case 0:
+                    tt = "";
+                    break;
+                case 1:
+                    tt = "Pe";
+                    break;
+                case 2:
+                    tt = "Co";
+                    break;
+                default:
+                    tt = "";
+                    break;
+            }
+            List<PhieuThanhToan> list = PhieuThanhToan_BUS.AgentList(id, tt);
             if (list == null) list = new List<PhieuThanhToan>();
 
             this.RequestImportDGV.DataSource = list;
+        }
+
+        private void SupplierFindCBB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            GLoad();
         }
 
         private void ConfirmRequestBtn_Click(object sender, EventArgs e)
@@ -819,5 +841,7 @@ namespace Quan_Ly_Khach_San
                 baoCao.SaveAndOpenFile("HoaDonService.doc");
             }
         }
+
+        
     }
 }

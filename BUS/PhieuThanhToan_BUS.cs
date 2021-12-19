@@ -15,9 +15,9 @@ namespace BUS
             return PhieuThanhToan_DAL.AddNewBillAgent(p);
         }
 
-        public static List<PhieuThanhToan> AgentList(string id)
+        public static List<PhieuThanhToan> AgentList(string id, string tt)
         {
-            return PhieuThanhToan_DAL.BillAgentList(id);
+            return PhieuThanhToan_DAL.BillAgentList(id, tt);
         }
 
         public static bool UpdateTotal(double total, string maDSNL)
