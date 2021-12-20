@@ -98,11 +98,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(27, 249);
+            this.label1.Location = new System.Drawing.Point(12, 234);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 21);
+            this.label1.Size = new System.Drawing.Size(57, 21);
             this.label1.TabIndex = 130;
-            this.label1.Text = "Unit :";
+            this.label1.Text = "UNIT :";
             // 
             // AddBtn
             // 
@@ -120,7 +120,7 @@
             this.AddBtn.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.AddBtn.HoverState.Parent = this.AddBtn;
-            this.AddBtn.Location = new System.Drawing.Point(208, 305);
+            this.AddBtn.Location = new System.Drawing.Point(208, 291);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.ShadowDecoration.Parent = this.AddBtn;
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
@@ -133,22 +133,22 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(27, 192);
+            this.label14.Location = new System.Drawing.Point(12, 192);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(54, 21);
+            this.label14.Size = new System.Drawing.Size(56, 21);
             this.label14.TabIndex = 128;
-            this.label14.Text = "Type :";
+            this.label14.Text = "TYPE :";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(27, 137);
+            this.label13.Location = new System.Drawing.Point(12, 137);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(64, 21);
+            this.label13.Size = new System.Drawing.Size(66, 21);
             this.label13.TabIndex = 127;
-            this.label13.Text = "Name :";
+            this.label13.Text = "NAME :";
             // 
             // IngredientUnittxt
             // 
@@ -166,7 +166,7 @@
             this.IngredientUnittxt.HoverState.Parent = this.IngredientUnittxt;
             this.IngredientUnittxt.ItemHeight = 30;
             this.IngredientUnittxt.ItemsAppearance.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.Location = new System.Drawing.Point(99, 249);
+            this.IngredientUnittxt.Location = new System.Drawing.Point(99, 234);
             this.IngredientUnittxt.Name = "IngredientUnittxt";
             this.IngredientUnittxt.ShadowDecoration.Parent = this.IngredientUnittxt;
             this.IngredientUnittxt.Size = new System.Drawing.Size(194, 36);
@@ -262,7 +262,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(27, 82);
+            this.label12.Location = new System.Drawing.Point(12, 82);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(35, 21);
             this.label12.TabIndex = 122;
@@ -279,7 +279,7 @@
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
             this.siticoneHtmlLabel1.Size = new System.Drawing.Size(377, 76);
             this.siticoneHtmlLabel1.TabIndex = 121;
-            this.siticoneHtmlLabel1.Text = "Ingredient";
+            this.siticoneHtmlLabel1.Text = "INGREDIENT";
             this.siticoneHtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // siticoneGradientButton2
@@ -298,7 +298,7 @@
             this.siticoneGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.siticoneGradientButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.siticoneGradientButton2.HoverState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Location = new System.Drawing.Point(299, 249);
+            this.siticoneGradientButton2.Location = new System.Drawing.Point(299, 234);
             this.siticoneGradientButton2.Name = "siticoneGradientButton2";
             this.siticoneGradientButton2.ShadowDecoration.Parent = this.siticoneGradientButton2;
             this.siticoneGradientButton2.Size = new System.Drawing.Size(56, 36);
@@ -312,7 +312,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
             this.CancelButton = this.guna2CircleButton1;
-            this.ClientSize = new System.Drawing.Size(377, 368);
+            this.ClientSize = new System.Drawing.Size(377, 364);
             this.Controls.Add(this.siticoneGradientButton2);
             this.Controls.Add(this.siticoneGradientButton1);
             this.Controls.Add(this.guna2CircleButton1);

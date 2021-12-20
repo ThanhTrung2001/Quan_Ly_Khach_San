@@ -34,6 +34,12 @@ namespace Quan_Ly_Khach_San
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer_Form));
             this.CustomerGrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.maKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenKhachHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CMND = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.diaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ghiChu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CustomerNameTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.CustomerPhonetxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.CustomerIdentityTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
@@ -52,12 +58,6 @@ namespace Quan_Ly_Khach_San
             this.FoodNavigationBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.RoomNavigationBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ServiceNavigationBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.maKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenKhachHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CMND = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.diaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ghiChu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,7 +77,7 @@ namespace Quan_Ly_Khach_San
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.CustomerGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
@@ -89,11 +89,11 @@ namespace Quan_Ly_Khach_San
             this.CMND,
             this.diaChi,
             this.ghiChu});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.CornflowerBlue;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.CustomerGrid.DefaultCellStyle = dataGridViewCellStyle3;
@@ -130,6 +130,54 @@ namespace Quan_Ly_Khach_San
             this.CustomerGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.CustomerGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.CustomerGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CustomerGrid_CellContentClick);
+            // 
+            // maKH
+            // 
+            this.maKH.DataPropertyName = "maKH";
+            this.maKH.HeaderText = "ID";
+            this.maKH.MinimumWidth = 6;
+            this.maKH.Name = "maKH";
+            this.maKH.ReadOnly = true;
+            // 
+            // tenKhachHang
+            // 
+            this.tenKhachHang.DataPropertyName = "tenKhachHang";
+            this.tenKhachHang.HeaderText = "NAME";
+            this.tenKhachHang.MinimumWidth = 6;
+            this.tenKhachHang.Name = "tenKhachHang";
+            this.tenKhachHang.ReadOnly = true;
+            // 
+            // SDT
+            // 
+            this.SDT.DataPropertyName = "SDT";
+            this.SDT.HeaderText = "PHONE";
+            this.SDT.MinimumWidth = 6;
+            this.SDT.Name = "SDT";
+            this.SDT.ReadOnly = true;
+            // 
+            // CMND
+            // 
+            this.CMND.DataPropertyName = "CMND";
+            this.CMND.HeaderText = "IDENTIFY";
+            this.CMND.MinimumWidth = 6;
+            this.CMND.Name = "CMND";
+            this.CMND.ReadOnly = true;
+            // 
+            // diaChi
+            // 
+            this.diaChi.DataPropertyName = "diaChi";
+            this.diaChi.HeaderText = "ADDRESS";
+            this.diaChi.MinimumWidth = 6;
+            this.diaChi.Name = "diaChi";
+            this.diaChi.ReadOnly = true;
+            // 
+            // ghiChu
+            // 
+            this.ghiChu.DataPropertyName = "ghiChu";
+            this.ghiChu.HeaderText = "NOTE";
+            this.ghiChu.MinimumWidth = 6;
+            this.ghiChu.Name = "ghiChu";
+            this.ghiChu.ReadOnly = true;
             // 
             // CustomerNameTxb
             // 
@@ -384,9 +432,9 @@ namespace Quan_Ly_Khach_San
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(22, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 21);
+            this.label1.Size = new System.Drawing.Size(66, 21);
             this.label1.TabIndex = 21;
-            this.label1.Text = "Name :";
+            this.label1.Text = "NAME :";
             // 
             // label2
             // 
@@ -395,9 +443,9 @@ namespace Quan_Ly_Khach_San
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(19, 133);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 21);
+            this.label2.Size = new System.Drawing.Size(74, 21);
             this.label2.TabIndex = 22;
-            this.label2.Text = "Phone :";
+            this.label2.Text = "PHONE :";
             // 
             // label3
             // 
@@ -406,9 +454,9 @@ namespace Quan_Ly_Khach_San
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(22, 188);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(78, 21);
+            this.label3.Size = new System.Drawing.Size(90, 21);
             this.label3.TabIndex = 23;
-            this.label3.Text = "Identity :";
+            this.label3.Text = "IDENTITY :";
             // 
             // label4
             // 
@@ -417,9 +465,9 @@ namespace Quan_Ly_Khach_San
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(487, 78);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 21);
+            this.label4.Size = new System.Drawing.Size(90, 21);
             this.label4.TabIndex = 24;
-            this.label4.Text = "Address :";
+            this.label4.Text = "ADDRESS :";
             // 
             // label5
             // 
@@ -428,18 +476,18 @@ namespace Quan_Ly_Khach_San
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(487, 145);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 21);
+            this.label5.Size = new System.Drawing.Size(60, 21);
             this.label5.TabIndex = 25;
-            this.label5.Text = "Note :";
+            this.label5.Text = "NOTE :";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(373, 6);
+            this.label6.Location = new System.Drawing.Point(414, 6);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(192, 45);
+            this.label6.Size = new System.Drawing.Size(172, 40);
             this.label6.TabIndex = 26;
             this.label6.Text = "CUSTOMER";
             // 
@@ -514,54 +562,6 @@ namespace Quan_Ly_Khach_San
             this.ServiceNavigationBtn.TabIndex = 29;
             this.ServiceNavigationBtn.Text = "SERVICE";
             this.ServiceNavigationBtn.Click += new System.EventHandler(this.ServiceNavigationBtn_Click);
-            // 
-            // maKH
-            // 
-            this.maKH.DataPropertyName = "maKH";
-            this.maKH.HeaderText = "ID";
-            this.maKH.MinimumWidth = 6;
-            this.maKH.Name = "maKH";
-            this.maKH.ReadOnly = true;
-            // 
-            // tenKhachHang
-            // 
-            this.tenKhachHang.DataPropertyName = "tenKhachHang";
-            this.tenKhachHang.HeaderText = "NAME";
-            this.tenKhachHang.MinimumWidth = 6;
-            this.tenKhachHang.Name = "tenKhachHang";
-            this.tenKhachHang.ReadOnly = true;
-            // 
-            // SDT
-            // 
-            this.SDT.DataPropertyName = "SDT";
-            this.SDT.HeaderText = "PHONE";
-            this.SDT.MinimumWidth = 6;
-            this.SDT.Name = "SDT";
-            this.SDT.ReadOnly = true;
-            // 
-            // CMND
-            // 
-            this.CMND.DataPropertyName = "CMND";
-            this.CMND.HeaderText = "IDENTIFY";
-            this.CMND.MinimumWidth = 6;
-            this.CMND.Name = "CMND";
-            this.CMND.ReadOnly = true;
-            // 
-            // diaChi
-            // 
-            this.diaChi.DataPropertyName = "diaChi";
-            this.diaChi.HeaderText = "ADDRESS";
-            this.diaChi.MinimumWidth = 6;
-            this.diaChi.Name = "diaChi";
-            this.diaChi.ReadOnly = true;
-            // 
-            // ghiChu
-            // 
-            this.ghiChu.DataPropertyName = "ghiChu";
-            this.ghiChu.HeaderText = "NOTE";
-            this.ghiChu.MinimumWidth = 6;
-            this.ghiChu.Name = "ghiChu";
-            this.ghiChu.ReadOnly = true;
             // 
             // Customer_Form
             // 

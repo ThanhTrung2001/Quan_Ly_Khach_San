@@ -38,6 +38,9 @@ namespace Quan_Ly_Khach_San
             this.RiskTypeTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.RiskCodeTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.RiskGrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.riskid = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.risktype = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.refund = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.RiskCostTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -45,9 +48,6 @@ namespace Quan_Ly_Khach_San
             this.searchRisk = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.SearchBtn = new Siticone.Desktop.UI.WinForms.SiticoneButton();
             this.label5 = new System.Windows.Forms.Label();
-            this.riskid = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.risktype = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.refund = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.RiskGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,7 +172,7 @@ namespace Quan_Ly_Khach_San
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.RiskGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
@@ -181,11 +181,11 @@ namespace Quan_Ly_Khach_San
             this.riskid,
             this.risktype,
             this.refund});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.CornflowerBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.RiskGrid.DefaultCellStyle = dataGridViewCellStyle3;
@@ -222,6 +222,30 @@ namespace Quan_Ly_Khach_San
             this.RiskGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.RiskGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.RiskGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.RiskGrid_CellContentClick);
+            // 
+            // riskid
+            // 
+            this.riskid.DataPropertyName = "MaRR";
+            this.riskid.HeaderText = "ID";
+            this.riskid.MinimumWidth = 6;
+            this.riskid.Name = "riskid";
+            this.riskid.ReadOnly = true;
+            // 
+            // risktype
+            // 
+            this.risktype.DataPropertyName = "LoaiRR";
+            this.risktype.HeaderText = "TYPE";
+            this.risktype.MinimumWidth = 6;
+            this.risktype.Name = "risktype";
+            this.risktype.ReadOnly = true;
+            // 
+            // refund
+            // 
+            this.refund.DataPropertyName = "PhanHoanTien";
+            this.refund.HeaderText = "REFURN";
+            this.refund.MinimumWidth = 6;
+            this.refund.Name = "refund";
+            this.refund.ReadOnly = true;
             // 
             // RiskCostTxb
             // 
@@ -261,9 +285,9 @@ namespace Quan_Ly_Khach_San
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(38, 97);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 21);
+            this.label1.Size = new System.Drawing.Size(73, 21);
             this.label1.TabIndex = 74;
-            this.label1.Text = "Risk id :";
+            this.label1.Text = "RISK ID :";
             // 
             // label2
             // 
@@ -272,9 +296,9 @@ namespace Quan_Ly_Khach_San
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(38, 152);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 21);
+            this.label2.Size = new System.Drawing.Size(56, 21);
             this.label2.TabIndex = 75;
-            this.label2.Text = "Type :";
+            this.label2.Text = "TYPE :";
             // 
             // label3
             // 
@@ -283,9 +307,9 @@ namespace Quan_Ly_Khach_San
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(530, 97);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 21);
+            this.label3.Size = new System.Drawing.Size(82, 21);
             this.label3.TabIndex = 76;
-            this.label3.Text = "Refurn :";
+            this.label3.Text = "REFUND :";
             // 
             // searchRisk
             // 
@@ -341,37 +365,13 @@ namespace Quan_Ly_Khach_San
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(325, 25);
+            this.label5.Location = new System.Drawing.Point(343, 25);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(351, 45);
+            this.label5.Size = new System.Drawing.Size(314, 40);
             this.label5.TabIndex = 80;
             this.label5.Text = "RISKS MANAGEMENT";
-            // 
-            // riskid
-            // 
-            this.riskid.DataPropertyName = "MaRR";
-            this.riskid.HeaderText = "ID";
-            this.riskid.MinimumWidth = 6;
-            this.riskid.Name = "riskid";
-            this.riskid.ReadOnly = true;
-            // 
-            // risktype
-            // 
-            this.risktype.DataPropertyName = "LoaiRR";
-            this.risktype.HeaderText = "TYPE";
-            this.risktype.MinimumWidth = 6;
-            this.risktype.Name = "risktype";
-            this.risktype.ReadOnly = true;
-            // 
-            // refund
-            // 
-            this.refund.DataPropertyName = "PhanHoanTien";
-            this.refund.HeaderText = "REFURN";
-            this.refund.MinimumWidth = 6;
-            this.refund.Name = "refund";
-            this.refund.ReadOnly = true;
             // 
             // Risk_Form
             // 

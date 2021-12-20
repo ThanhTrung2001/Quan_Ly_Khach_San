@@ -48,22 +48,22 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(15, 244);
+            this.label4.Location = new System.Drawing.Point(3, 244);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(61, 21);
+            this.label4.Size = new System.Drawing.Size(66, 21);
             this.label4.TabIndex = 41;
-            this.label4.Text = "Email :";
+            this.label4.Text = "EMAIL :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(12, 189);
+            this.label3.Location = new System.Drawing.Point(3, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 21);
+            this.label3.Size = new System.Drawing.Size(74, 21);
             this.label3.TabIndex = 40;
-            this.label3.Text = "Phone :";
+            this.label3.Text = "PHONE :";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -71,22 +71,22 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 134);
+            this.label2.Location = new System.Drawing.Point(3, 134);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 21);
+            this.label2.Size = new System.Drawing.Size(90, 21);
             this.label2.TabIndex = 39;
-            this.label2.Text = "Address :";
+            this.label2.Text = "ADDRESS :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 79);
+            this.label1.Location = new System.Drawing.Point(3, 79);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 21);
+            this.label1.Size = new System.Drawing.Size(66, 21);
             this.label1.TabIndex = 38;
-            this.label1.Text = "Name :";
+            this.label1.Text = "NAME :";
             // 
             // siticoneHtmlLabel1
             // 
@@ -99,7 +99,7 @@
             this.siticoneHtmlLabel1.Name = "siticoneHtmlLabel1";
             this.siticoneHtmlLabel1.Size = new System.Drawing.Size(385, 73);
             this.siticoneHtmlLabel1.TabIndex = 35;
-            this.siticoneHtmlLabel1.Text = "Add Supplier";
+            this.siticoneHtmlLabel1.Text = "SUPPLIER";
             this.siticoneHtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // AddBtn
@@ -118,7 +118,7 @@
             this.AddBtn.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.AddBtn.HoverState.Parent = this.AddBtn;
-            this.AddBtn.Location = new System.Drawing.Point(207, 376);
+            this.AddBtn.Location = new System.Drawing.Point(213, 376);
             this.AddBtn.Name = "AddBtn";
             this.AddBtn.ShadowDecoration.Parent = this.AddBtn;
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
@@ -145,7 +145,7 @@
             this.SupplierEmailTxb.ForeColor = System.Drawing.Color.White;
             this.SupplierEmailTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierEmailTxb.HoverState.Parent = this.SupplierEmailTxb;
-            this.SupplierEmailTxb.Location = new System.Drawing.Point(93, 244);
+            this.SupplierEmailTxb.Location = new System.Drawing.Point(99, 244);
             this.SupplierEmailTxb.Name = "SupplierEmailTxb";
             this.SupplierEmailTxb.PasswordChar = '\0';
             this.SupplierEmailTxb.PlaceholderText = "Email";
@@ -174,7 +174,7 @@
             this.SupplierPhoneNumberxb.ForeColor = System.Drawing.Color.White;
             this.SupplierPhoneNumberxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierPhoneNumberxb.HoverState.Parent = this.SupplierPhoneNumberxb;
-            this.SupplierPhoneNumberxb.Location = new System.Drawing.Point(93, 189);
+            this.SupplierPhoneNumberxb.Location = new System.Drawing.Point(99, 189);
             this.SupplierPhoneNumberxb.Name = "SupplierPhoneNumberxb";
             this.SupplierPhoneNumberxb.PasswordChar = '\0';
             this.SupplierPhoneNumberxb.PlaceholderText = "Phone numbers";
@@ -204,7 +204,7 @@
             this.SupplierAddressTxb.ForeColor = System.Drawing.Color.White;
             this.SupplierAddressTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierAddressTxb.HoverState.Parent = this.SupplierAddressTxb;
-            this.SupplierAddressTxb.Location = new System.Drawing.Point(93, 134);
+            this.SupplierAddressTxb.Location = new System.Drawing.Point(99, 134);
             this.SupplierAddressTxb.Name = "SupplierAddressTxb";
             this.SupplierAddressTxb.PasswordChar = '\0';
             this.SupplierAddressTxb.PlaceholderText = "Address";
@@ -233,7 +233,7 @@
             this.SupplierNameTxb.ForeColor = System.Drawing.Color.White;
             this.SupplierNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierNameTxb.HoverState.Parent = this.SupplierNameTxb;
-            this.SupplierNameTxb.Location = new System.Drawing.Point(93, 79);
+            this.SupplierNameTxb.Location = new System.Drawing.Point(99, 79);
             this.SupplierNameTxb.Name = "SupplierNameTxb";
             this.SupplierNameTxb.PasswordChar = '\0';
             this.SupplierNameTxb.PlaceholderText = "Name";
@@ -248,11 +248,11 @@
             this.NoteTxt.AutoSize = true;
             this.NoteTxt.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NoteTxt.ForeColor = System.Drawing.Color.White;
-            this.NoteTxt.Location = new System.Drawing.Point(15, 301);
+            this.NoteTxt.Location = new System.Drawing.Point(3, 301);
             this.NoteTxt.Name = "NoteTxt";
-            this.NoteTxt.Size = new System.Drawing.Size(56, 21);
+            this.NoteTxt.Size = new System.Drawing.Size(60, 21);
             this.NoteTxt.TabIndex = 43;
-            this.NoteTxt.Text = "Note :";
+            this.NoteTxt.Text = "NOTE :";
             // 
             // SupplierNoteText
             // 
@@ -273,7 +273,7 @@
             this.SupplierNoteText.ForeColor = System.Drawing.Color.White;
             this.SupplierNoteText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SupplierNoteText.HoverState.Parent = this.SupplierNoteText;
-            this.SupplierNoteText.Location = new System.Drawing.Point(93, 301);
+            this.SupplierNoteText.Location = new System.Drawing.Point(99, 301);
             this.SupplierNoteText.Name = "SupplierNoteText";
             this.SupplierNoteText.PasswordChar = '\0';
             this.SupplierNoteText.PlaceholderText = "Note";

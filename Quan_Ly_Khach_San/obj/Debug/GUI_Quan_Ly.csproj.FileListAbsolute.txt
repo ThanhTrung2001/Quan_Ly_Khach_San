@@ -156,3 +156,10 @@ D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tư�
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Month.doc
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Aspose.Words.dll
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\Bunifu_UI_v1.5.3.xml
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Bill_Payment.doc
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\bin\Debug\TemplateReport\Report_Month.doc
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Add_DVT_Form.resources
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Add_FoodType_form.resources
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Add_Food_Form.resources
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Add_ServiceType_Form.resources
+D:\Project\Quan_Ly_Khach_San\Quan_Ly_Khach_San\obj\Debug\Quan_Ly_Khach_San.GUI.Add_Service_Form.resources

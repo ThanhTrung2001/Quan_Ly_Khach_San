@@ -126,7 +126,7 @@ namespace Quan_Ly_Khach_San.GUI
                 total += ma.Gia*ma.SoLuong;
             }
 
-            this.TotalPriceTxb1.Text = total.ToString();
+            this.totalPrice.Text = total.ToString();
         }
 
       

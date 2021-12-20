@@ -118,3 +118,5 @@ D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\TemplateReport\R
 D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\Aspose.Words.dll
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\AutomationTesting\obj\Debug\net6.0\AutomationTesting.dll
 D:\NguyenNhutTan\Phương pháp phát triển phần mềm hướng đối tượng\doan\Quan_Ly_Khach_San\AutomationTesting\obj\Debug\net6.0\AutomationTesting.pdb
+D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\TemplateReport\Bill_Payment.doc
+D:\Project\Quan_Ly_Khach_San\AutomationTesting\bin\Debug\net6.0\TemplateReport\Report_Month.doc
