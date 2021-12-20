@@ -57,6 +57,12 @@ namespace Quan_Ly_Khach_San
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ServiceTab = new System.Windows.Forms.TabPage();
             this.label82 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
@@ -300,6 +306,41 @@ namespace Quan_Ly_Khach_San
             this.ConfirmRequestBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.NoteSupplierTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.StatisticAll = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.siticoneComboBox1 = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
+            this.siticoneTextBox1 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.siticoneTextBox2 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ServiceTab.SuspendLayout();
             this.siticonePanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
@@ -327,6 +368,9 @@ namespace Quan_Ly_Khach_San
             ((System.ComponentModel.ISupportInitialize)(this.RequestImportDGV)).BeginInit();
             this.siticonePanel14.SuspendLayout();
             this.StatisticAll.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // ServiceTab
@@ -2998,6 +3042,7 @@ namespace Quan_Ly_Khach_San
             // 
             this.siticoneTabControl2.Controls.Add(this.tabPage4);
             this.siticoneTabControl2.Controls.Add(this.tabPage5);
+            this.siticoneTabControl2.Controls.Add(this.tabPage6);
             this.siticoneTabControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.siticoneTabControl2.ItemSize = new System.Drawing.Size(180, 40);
             this.siticoneTabControl2.Location = new System.Drawing.Point(3, 3);
@@ -4200,6 +4245,520 @@ namespace Quan_Ly_Khach_San
             this.StatisticAll.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.StatisticAll.TabMenuOrientation = Siticone.Desktop.UI.WinForms.TabMenuOrientation.HorizontalTop;
             // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.tabPage6.Controls.Add(this.label27);
+            this.tabPage6.Controls.Add(this.label31);
+            this.tabPage6.Controls.Add(this.label32);
+            this.tabPage6.Controls.Add(this.label34);
+            this.tabPage6.Controls.Add(this.label35);
+            this.tabPage6.Controls.Add(this.label36);
+            this.tabPage6.Controls.Add(this.label37);
+            this.tabPage6.Controls.Add(this.siticoneComboBox1);
+            this.tabPage6.Controls.Add(this.siticoneTextBox1);
+            this.tabPage6.Controls.Add(this.guna2DataGridView1);
+            this.tabPage6.Controls.Add(this.siticoneTextBox2);
+            this.tabPage6.Controls.Add(this.guna2DataGridView2);
+            this.tabPage6.Location = new System.Drawing.Point(4, 44);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(978, 548);
+            this.tabPage6.TabIndex = 2;
+            this.tabPage6.Text = "SERVICE";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.White;
+            this.label27.Location = new System.Drawing.Point(642, 505);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(25, 30);
+            this.label27.TabIndex = 112;
+            this.label27.Text = "0";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Location = new System.Drawing.Point(642, 472);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(25, 30);
+            this.label31.TabIndex = 111;
+            this.label31.Text = "0";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(546, 58);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(65, 17);
+            this.label32.TabIndex = 110;
+            this.label32.Text = "SERVICES";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.White;
+            this.label34.Location = new System.Drawing.Point(-1, 58);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(81, 17);
+            this.label34.TabIndex = 109;
+            this.label34.Text = "ORDER BILL";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.White;
+            this.label35.Location = new System.Drawing.Point(568, 515);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(66, 17);
+            this.label35.TabIndex = 108;
+            this.label35.Text = "RETURN :";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.White;
+            this.label36.Location = new System.Drawing.Point(761, 485);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(66, 17);
+            this.label36.TabIndex = 107;
+            this.label36.Text = "RECEIVE :";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(568, 482);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(56, 17);
+            this.label37.TabIndex = 106;
+            this.label37.Text = "TOTAL :";
+            // 
+            // siticoneComboBox1
+            // 
+            this.siticoneComboBox1.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneComboBox1.BorderRadius = 12;
+            this.siticoneComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.siticoneComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.siticoneComboBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.siticoneComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneComboBox1.FocusedState.Parent = this.siticoneComboBox1;
+            this.siticoneComboBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.siticoneComboBox1.HoverState.Parent = this.siticoneComboBox1;
+            this.siticoneComboBox1.ItemHeight = 30;
+            this.siticoneComboBox1.Items.AddRange(new object[] {
+            "Pending",
+            "All"});
+            this.siticoneComboBox1.ItemsAppearance.Parent = this.siticoneComboBox1;
+            this.siticoneComboBox1.Location = new System.Drawing.Point(187, 10);
+            this.siticoneComboBox1.Name = "siticoneComboBox1";
+            this.siticoneComboBox1.ShadowDecoration.Parent = this.siticoneComboBox1;
+            this.siticoneComboBox1.Size = new System.Drawing.Size(140, 36);
+            this.siticoneComboBox1.TabIndex = 105;
+            // 
+            // siticoneTextBox1
+            // 
+            this.siticoneTextBox1.BorderRadius = 12;
+            this.siticoneTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.siticoneTextBox1.DefaultText = "";
+            this.siticoneTextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.siticoneTextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.siticoneTextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.siticoneTextBox1.DisabledState.Parent = this.siticoneTextBox1;
+            this.siticoneTextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.siticoneTextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.siticoneTextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneTextBox1.FocusedState.Parent = this.siticoneTextBox1;
+            this.siticoneTextBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneTextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneTextBox1.HoverState.Parent = this.siticoneTextBox1;
+            this.siticoneTextBox1.Location = new System.Drawing.Point(1, 10);
+            this.siticoneTextBox1.Name = "siticoneTextBox1";
+            this.siticoneTextBox1.PasswordChar = '\0';
+            this.siticoneTextBox1.PlaceholderText = "Search customer ID";
+            this.siticoneTextBox1.SelectedText = "";
+            this.siticoneTextBox1.ShadowDecoration.Parent = this.siticoneTextBox1;
+            this.siticoneTextBox1.Size = new System.Drawing.Size(178, 36);
+            this.siticoneTextBox1.TabIndex = 102;
+            // 
+            // guna2DataGridView1
+            // 
+            this.guna2DataGridView1.AllowUserToAddRows = false;
+            this.guna2DataGridView1.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
+            this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            this.guna2DataGridView1.ColumnHeadersHeight = 40;
+            this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn23});
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle24;
+            this.guna2DataGridView1.EnableHeadersVisualStyles = false;
+            this.guna2DataGridView1.GridColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.Location = new System.Drawing.Point(549, 78);
+            this.guna2DataGridView1.Name = "guna2DataGridView1";
+            this.guna2DataGridView1.ReadOnly = true;
+            this.guna2DataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.guna2DataGridView1.RowHeadersVisible = false;
+            this.guna2DataGridView1.RowHeadersWidth = 51;
+            this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.guna2DataGridView1.Size = new System.Drawing.Size(432, 372);
+            this.guna2DataGridView1.TabIndex = 104;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 40;
+            this.guna2DataGridView1.ThemeStyle.ReadOnly = true;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "maMonAn";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "loaiMonAn";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Column13";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "donViTinh";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Column14";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "tenMonAn";
+            this.dataGridViewTextBoxColumn4.HeaderText = "NAME";
+            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "maLoaiMonAn";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Column10";
+            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "maDVT";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Column11";
+            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "gia";
+            this.dataGridViewTextBoxColumn9.HeaderText = "PRICE";
+            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "ghiChu";
+            this.dataGridViewTextBoxColumn10.HeaderText = "Column12";
+            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            this.dataGridViewTextBoxColumn10.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "soLuong";
+            this.dataGridViewTextBoxColumn23.HeaderText = "AMOUNT";
+            this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            // 
+            // siticoneTextBox2
+            // 
+            this.siticoneTextBox2.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneTextBox2.BorderColor = System.Drawing.Color.White;
+            this.siticoneTextBox2.BorderRadius = 15;
+            this.siticoneTextBox2.BorderThickness = 2;
+            this.siticoneTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.siticoneTextBox2.DefaultText = "";
+            this.siticoneTextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.siticoneTextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.siticoneTextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.siticoneTextBox2.DisabledState.Parent = this.siticoneTextBox2;
+            this.siticoneTextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.siticoneTextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.siticoneTextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneTextBox2.FocusedState.Parent = this.siticoneTextBox2;
+            this.siticoneTextBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneTextBox2.ForeColor = System.Drawing.Color.White;
+            this.siticoneTextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.siticoneTextBox2.HoverState.Parent = this.siticoneTextBox2;
+            this.siticoneTextBox2.Location = new System.Drawing.Point(830, 472);
+            this.siticoneTextBox2.Name = "siticoneTextBox2";
+            this.siticoneTextBox2.PasswordChar = '\0';
+            this.siticoneTextBox2.PlaceholderText = "0";
+            this.siticoneTextBox2.SelectedText = "";
+            this.siticoneTextBox2.ShadowDecoration.Parent = this.siticoneTextBox2;
+            this.siticoneTextBox2.Size = new System.Drawing.Size(100, 41);
+            this.siticoneTextBox2.Style = Siticone.Desktop.UI.WinForms.Enums.TextBoxStyle.Material;
+            this.siticoneTextBox2.TabIndex = 99;
+            this.siticoneTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // guna2DataGridView2
+            // 
+            this.guna2DataGridView2.AllowUserToAddRows = false;
+            this.guna2DataGridView2.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
+            this.guna2DataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.guna2DataGridView2.BackgroundColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.guna2DataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.guna2DataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            this.guna2DataGridView2.ColumnHeadersHeight = 40;
+            this.guna2DataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn24,
+            this.dataGridViewTextBoxColumn25,
+            this.dataGridViewTextBoxColumn26,
+            this.dataGridViewTextBoxColumn27,
+            this.dataGridViewTextBoxColumn28,
+            this.dataGridViewTextBoxColumn29,
+            this.dataGridViewTextBoxColumn30,
+            this.dataGridViewTextBoxColumn31,
+            this.dataGridViewTextBoxColumn32,
+            this.dataGridViewTextBoxColumn34,
+            this.dataGridViewTextBoxColumn35,
+            this.dataGridViewTextBoxColumn38,
+            this.dataGridViewTextBoxColumn49});
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle27;
+            this.guna2DataGridView2.EnableHeadersVisualStyles = false;
+            this.guna2DataGridView2.GridColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.Location = new System.Drawing.Point(-3, 78);
+            this.guna2DataGridView2.Name = "guna2DataGridView2";
+            this.guna2DataGridView2.ReadOnly = true;
+            this.guna2DataGridView2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.guna2DataGridView2.RowHeadersVisible = false;
+            this.guna2DataGridView2.RowHeadersWidth = 51;
+            this.guna2DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.guna2DataGridView2.Size = new System.Drawing.Size(546, 461);
+            this.guna2DataGridView2.TabIndex = 103;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.guna2DataGridView2.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.GridColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 40;
+            this.guna2DataGridView2.ThemeStyle.ReadOnly = true;
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.Height = 22;
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // dataGridViewTextBoxColumn24
+            // 
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "maHoaDon";
+            this.dataGridViewTextBoxColumn24.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            this.dataGridViewTextBoxColumn24.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "ngayLap";
+            this.dataGridViewTextBoxColumn25.HeaderText = "Column19";
+            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.ReadOnly = true;
+            this.dataGridViewTextBoxColumn25.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.DataPropertyName = "tienNhan";
+            this.dataGridViewTextBoxColumn26.HeaderText = "Column20";
+            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.ReadOnly = true;
+            this.dataGridViewTextBoxColumn26.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn27
+            // 
+            this.dataGridViewTextBoxColumn27.DataPropertyName = "tienThua";
+            this.dataGridViewTextBoxColumn27.HeaderText = "Column21";
+            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            this.dataGridViewTextBoxColumn27.ReadOnly = true;
+            this.dataGridViewTextBoxColumn27.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn28
+            // 
+            this.dataGridViewTextBoxColumn28.DataPropertyName = "maRR";
+            this.dataGridViewTextBoxColumn28.HeaderText = "Column22";
+            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            this.dataGridViewTextBoxColumn28.ReadOnly = true;
+            this.dataGridViewTextBoxColumn28.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn29
+            // 
+            this.dataGridViewTextBoxColumn29.DataPropertyName = "soTienHoan";
+            this.dataGridViewTextBoxColumn29.HeaderText = "Column25";
+            this.dataGridViewTextBoxColumn29.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
+            this.dataGridViewTextBoxColumn29.ReadOnly = true;
+            this.dataGridViewTextBoxColumn29.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn30
+            // 
+            this.dataGridViewTextBoxColumn30.DataPropertyName = "ghiChu";
+            this.dataGridViewTextBoxColumn30.HeaderText = "Column26";
+            this.dataGridViewTextBoxColumn30.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
+            this.dataGridViewTextBoxColumn30.ReadOnly = true;
+            this.dataGridViewTextBoxColumn30.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn31
+            // 
+            this.dataGridViewTextBoxColumn31.DataPropertyName = "maNV";
+            this.dataGridViewTextBoxColumn31.HeaderText = "STAFF";
+            this.dataGridViewTextBoxColumn31.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
+            this.dataGridViewTextBoxColumn31.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn32
+            // 
+            this.dataGridViewTextBoxColumn32.DataPropertyName = "maKH";
+            this.dataGridViewTextBoxColumn32.HeaderText = "CUSTOMER";
+            this.dataGridViewTextBoxColumn32.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
+            this.dataGridViewTextBoxColumn32.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn34
+            // 
+            this.dataGridViewTextBoxColumn34.DataPropertyName = "maDSMA";
+            this.dataGridViewTextBoxColumn34.HeaderText = "Column17";
+            this.dataGridViewTextBoxColumn34.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
+            this.dataGridViewTextBoxColumn34.ReadOnly = true;
+            this.dataGridViewTextBoxColumn34.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn35
+            // 
+            this.dataGridViewTextBoxColumn35.DataPropertyName = "tongTien";
+            this.dataGridViewTextBoxColumn35.HeaderText = "TOTAL";
+            this.dataGridViewTextBoxColumn35.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
+            this.dataGridViewTextBoxColumn35.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn38
+            // 
+            this.dataGridViewTextBoxColumn38.DataPropertyName = "maTinhTrang";
+            this.dataGridViewTextBoxColumn38.HeaderText = "Status";
+            this.dataGridViewTextBoxColumn38.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
+            this.dataGridViewTextBoxColumn38.ReadOnly = true;
+            this.dataGridViewTextBoxColumn38.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn49
+            // 
+            this.dataGridViewTextBoxColumn49.DataPropertyName = "tinhTrang";
+            this.dataGridViewTextBoxColumn49.HeaderText = "STATUS";
+            this.dataGridViewTextBoxColumn49.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
+            this.dataGridViewTextBoxColumn49.ReadOnly = true;
+            // 
             // Statistic_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4249,6 +4808,10 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel14.ResumeLayout(false);
             this.siticonePanel14.PerformLayout();
             this.StatisticAll.ResumeLayout(false);
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -4498,5 +5061,40 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label37;
+        private Siticone.Desktop.UI.WinForms.SiticoneComboBox siticoneComboBox1;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox1;
+        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox2;
+        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn29;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn32;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn35;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn38;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn49;
     }
 }
