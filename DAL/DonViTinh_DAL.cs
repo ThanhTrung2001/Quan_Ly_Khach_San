@@ -46,5 +46,22 @@ namespace DAL
 
             return donViTinh;
         }
+
+        public static bool AddNewUnit(DonViTinh dvt)
+        {
+            string command = $"insert into DonViTinh values ('{dvt.MaDVT}',N'{dvt.DVT.ToLower()}')";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
     }
 }

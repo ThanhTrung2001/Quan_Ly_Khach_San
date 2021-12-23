@@ -44,5 +44,22 @@ namespace DAL
             loaiDichVu = dt.Rows[0]["loaiDichVu"].ToString();
             return loaiDichVu;
         }
+
+        public static bool AddServiceType(LoaiDichVu loaiMonAn)
+        {
+            string command = $"insert into LoaiDichVu values ('{loaiMonAn.MaLoaiDichVu}',N'{loaiMonAn.TLoaiDichVu.ToUpper()}')";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
     }
 }

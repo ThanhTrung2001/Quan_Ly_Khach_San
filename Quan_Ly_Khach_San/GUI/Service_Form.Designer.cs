@@ -73,6 +73,13 @@ namespace Quan_Ly_Khach_San.GUI
             this.label8 = new System.Windows.Forms.Label();
             this.RequestServiceListBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.ServiceListDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DVT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.riskDgv = new Guna.UI2.WinForms.Guna2DataGridView();
             this.marr = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -122,13 +129,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DVT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.siticoneGradientButton1 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.TotalPriceTxb1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.siticonePanel1.SuspendLayout();
@@ -197,6 +198,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.siticonePanel1.BackColor = System.Drawing.Color.Transparent;
             this.siticonePanel1.BorderColor = System.Drawing.Color.Black;
             this.siticonePanel1.BorderThickness = 2;
+            this.siticonePanel1.Controls.Add(this.siticoneGradientButton1);
             this.siticonePanel1.Controls.Add(this.label5);
             this.siticonePanel1.Controls.Add(this.CustomerSelectCb);
             this.siticonePanel1.Controls.Add(this.AddCustomerBtn);
@@ -217,7 +219,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(11, 11);
+            this.label5.Location = new System.Drawing.Point(3, 11);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 21);
             this.label5.TabIndex = 43;
@@ -238,7 +240,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.CustomerSelectCb.HoverState.Parent = this.CustomerSelectCb;
             this.CustomerSelectCb.ItemHeight = 30;
             this.CustomerSelectCb.ItemsAppearance.Parent = this.CustomerSelectCb;
-            this.CustomerSelectCb.Location = new System.Drawing.Point(15, 40);
+            this.CustomerSelectCb.Location = new System.Drawing.Point(110, 11);
             this.CustomerSelectCb.Name = "CustomerSelectCb";
             this.CustomerSelectCb.ShadowDecoration.Parent = this.CustomerSelectCb;
             this.CustomerSelectCb.Size = new System.Drawing.Size(188, 36);
@@ -260,7 +262,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.AddCustomerBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddCustomerBtn.ForeColor = System.Drawing.Color.Black;
             this.AddCustomerBtn.HoverState.Parent = this.AddCustomerBtn;
-            this.AddCustomerBtn.Location = new System.Drawing.Point(209, 40);
+            this.AddCustomerBtn.Location = new System.Drawing.Point(304, 11);
             this.AddCustomerBtn.Name = "AddCustomerBtn";
             this.AddCustomerBtn.ShadowDecoration.Parent = this.AddCustomerBtn;
             this.AddCustomerBtn.Size = new System.Drawing.Size(62, 36);
@@ -288,7 +290,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceNumberTxb.ForeColor = System.Drawing.Color.White;
             this.ServiceNumberTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ServiceNumberTxb.HoverState.Parent = this.ServiceNumberTxb;
-            this.ServiceNumberTxb.Location = new System.Drawing.Point(388, 11);
+            this.ServiceNumberTxb.Location = new System.Drawing.Point(438, 11);
             this.ServiceNumberTxb.Name = "ServiceNumberTxb";
             this.ServiceNumberTxb.PasswordChar = '\0';
             this.ServiceNumberTxb.PlaceholderText = "";
@@ -296,7 +298,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceNumberTxb.SelectedText = "";
             this.ServiceNumberTxb.SelectionStart = 1;
             this.ServiceNumberTxb.ShadowDecoration.Parent = this.ServiceNumberTxb;
-            this.ServiceNumberTxb.Size = new System.Drawing.Size(129, 41);
+            this.ServiceNumberTxb.Size = new System.Drawing.Size(99, 41);
             this.ServiceNumberTxb.TabIndex = 18;
             this.ServiceNumberTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -316,10 +318,10 @@ namespace Quan_Ly_Khach_San.GUI
             this.RemoveServiceBtn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RemoveServiceBtn.ForeColor = System.Drawing.Color.Black;
             this.RemoveServiceBtn.HoverState.Parent = this.RemoveServiceBtn;
-            this.RemoveServiceBtn.Location = new System.Drawing.Point(453, 58);
+            this.RemoveServiceBtn.Location = new System.Drawing.Point(492, 58);
             this.RemoveServiceBtn.Name = "RemoveServiceBtn";
             this.RemoveServiceBtn.ShadowDecoration.Parent = this.RemoveServiceBtn;
-            this.RemoveServiceBtn.Size = new System.Drawing.Size(111, 47);
+            this.RemoveServiceBtn.Size = new System.Drawing.Size(92, 47);
             this.RemoveServiceBtn.TabIndex = 36;
             this.RemoveServiceBtn.Text = "DELETE";
             this.RemoveServiceBtn.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
@@ -341,7 +343,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.SubBtn.ForeColor = System.Drawing.Color.White;
             this.SubBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.SubBtn.HoverState.Parent = this.SubBtn;
-            this.SubBtn.Location = new System.Drawing.Point(341, 11);
+            this.SubBtn.Location = new System.Drawing.Point(391, 11);
             this.SubBtn.Name = "SubBtn";
             this.SubBtn.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.SubBtn.ShadowDecoration.Parent = this.SubBtn;
@@ -366,7 +368,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.PlusBtn.ForeColor = System.Drawing.Color.White;
             this.PlusBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.PlusBtn.HoverState.Parent = this.PlusBtn;
-            this.PlusBtn.Location = new System.Drawing.Point(523, 11);
+            this.PlusBtn.Location = new System.Drawing.Point(543, 11);
             this.PlusBtn.Name = "PlusBtn";
             this.PlusBtn.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.PlusBtn.ShadowDecoration.Parent = this.PlusBtn;
@@ -391,10 +393,10 @@ namespace Quan_Ly_Khach_San.GUI
             this.RequestServiceBtn.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RequestServiceBtn.ForeColor = System.Drawing.Color.Black;
             this.RequestServiceBtn.HoverState.Parent = this.RequestServiceBtn;
-            this.RequestServiceBtn.Location = new System.Drawing.Point(336, 58);
+            this.RequestServiceBtn.Location = new System.Drawing.Point(395, 58);
             this.RequestServiceBtn.Name = "RequestServiceBtn";
             this.RequestServiceBtn.ShadowDecoration.Parent = this.RequestServiceBtn;
-            this.RequestServiceBtn.Size = new System.Drawing.Size(111, 47);
+            this.RequestServiceBtn.Size = new System.Drawing.Size(91, 47);
             this.RequestServiceBtn.TabIndex = 25;
             this.RequestServiceBtn.Text = "ADD";
             this.RequestServiceBtn.Click += new System.EventHandler(this.RequestServiceBtn_Click);
@@ -619,7 +621,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.totalPrice.ForeColor = System.Drawing.Color.White;
             this.totalPrice.Location = new System.Drawing.Point(97, 62);
             this.totalPrice.Name = "totalPrice";
-            this.totalPrice.Size = new System.Drawing.Size(28, 32);
+            this.totalPrice.Size = new System.Drawing.Size(29, 32);
             this.totalPrice.TabIndex = 45;
             this.totalPrice.Text = "0";
             // 
@@ -725,6 +727,53 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceListDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.ServiceListDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ServiceListDGV_CellClick);
             this.ServiceListDGV.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ServiceListDGV_CellDoubleClick);
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "maDV";
+            this.Column1.HeaderText = "ID";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "tenDV";
+            this.Column2.HeaderText = "NAME";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "maLoaiDV";
+            this.Column3.HeaderText = "TYPE ID";
+            this.Column3.Name = "Column3";
+            // 
+            // DVT
+            // 
+            this.DVT.DataPropertyName = "maDVT";
+            this.DVT.HeaderText = "DVT ID";
+            this.DVT.Name = "DVT";
+            this.DVT.Visible = false;
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "soLuong";
+            this.Column9.HeaderText = "NUMBER";
+            this.Column9.Name = "Column9";
+            this.Column9.Visible = false;
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "gia";
+            this.Column4.HeaderText = "PRICE";
+            this.Column4.Name = "Column4";
+            // 
+            // Column8
+            // 
+            this.Column8.DataPropertyName = "maTinhTrang";
+            this.Column8.HeaderText = "STATUS ID";
+            this.Column8.Name = "Column8";
+            this.Column8.Visible = false;
             // 
             // tabPage2
             // 
@@ -1599,52 +1648,29 @@ namespace Quan_Ly_Khach_San.GUI
             this.label23.TabIndex = 58;
             this.label23.Text = "RISK ID";
             // 
-            // Column1
+            // siticoneGradientButton1
             // 
-            this.Column1.DataPropertyName = "maDV";
-            this.Column1.HeaderText = "ID";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "tenDV";
-            this.Column2.HeaderText = "NAME";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "maLoaiDV";
-            this.Column3.HeaderText = "TYPE ID";
-            this.Column3.Name = "Column3";
-            // 
-            // DVT
-            // 
-            this.DVT.DataPropertyName = "maDVT";
-            this.DVT.HeaderText = "DVT ID";
-            this.DVT.Name = "DVT";
-            this.DVT.Visible = false;
-            // 
-            // Column9
-            // 
-            this.Column9.DataPropertyName = "soLuong";
-            this.Column9.HeaderText = "NUMBER";
-            this.Column9.Name = "Column9";
-            this.Column9.Visible = false;
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "gia";
-            this.Column4.HeaderText = "PRICE";
-            this.Column4.Name = "Column4";
-            // 
-            // Column8
-            // 
-            this.Column8.DataPropertyName = "maTinhTrang";
-            this.Column8.HeaderText = "STATUS ID";
-            this.Column8.Name = "Column8";
-            this.Column8.Visible = false;
+            this.siticoneGradientButton1.BorderRadius = 15;
+            this.siticoneGradientButton1.CheckedState.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.CustomImages.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneGradientButton1.DisabledState.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.FillColor = System.Drawing.Color.Gold;
+            this.siticoneGradientButton1.FillColor2 = System.Drawing.Color.Gold;
+            this.siticoneGradientButton1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneGradientButton1.ForeColor = System.Drawing.Color.Black;
+            this.siticoneGradientButton1.HoverState.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.Location = new System.Drawing.Point(7, 58);
+            this.siticoneGradientButton1.Name = "siticoneGradientButton1";
+            this.siticoneGradientButton1.ShadowDecoration.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.Size = new System.Drawing.Size(166, 47);
+            this.siticoneGradientButton1.TabIndex = 44;
+            this.siticoneGradientButton1.Text = "NEW SERVICE";
+            this.siticoneGradientButton1.Click += new System.EventHandler(this.siticoneGradientButton1_Click);
             // 
             // Service_Form
             // 
@@ -1769,5 +1795,6 @@ namespace Quan_Ly_Khach_San.GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton1;
     }
 }

@@ -45,5 +45,22 @@ namespace DAL
 
             return loaiMonAn;
         }
+
+        public static bool AddFoodType(LoaiMonAn loaiMonAn)
+        {
+            string command = $"insert into LoaiMonAn values ('{loaiMonAn.MaLoaiMonAn}',N'{loaiMonAn.TLoaiMonAn.ToUpper()}')";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
     }
 }

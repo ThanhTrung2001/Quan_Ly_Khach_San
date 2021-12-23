@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj": {}
+    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj": {
+    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
+        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
         "projectName": "AutomationTesting",
-        "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Quan_Ly_Khach_San\\AutomationTesting\\obj\\",
+        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,20 +25,19 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net60": {
             "projectReferences": {
-              "D:\\Project\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\BUS\\BUS.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj"
               },
-              "D:\\Project\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\DAL\\DAL.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj"
               },
-              "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
               },
-              "D:\\Project\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj"
               }
             }
           }
@@ -50,8 +49,7 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net60": {
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -74,38 +72,23 @@
               "version": "[3.1.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Project\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
+    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Project\\Quan_Ly_Khach_San\\BUS\\BUS.csproj",
+        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\BUS\\BUS.csproj",
+        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\Project\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\DAL\\DAL.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj"
               },
-              "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
               }
             }
           }
@@ -115,16 +98,16 @@
         "net472": {}
       }
     },
-    "D:\\Project\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
+    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Project\\Quan_Ly_Khach_San\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\DAL\\DAL.csproj",
+        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
               }
             }
           }
@@ -134,34 +117,29 @@
         "net472": {}
       }
     },
-    "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
+        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "D:\\Project\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj": {
+    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Project\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj",
+        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj",
         "projectName": "GUI_Quan_Ly",
-        "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj",
+        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\Project\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\BUS\\BUS.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj"
               },
-              "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Project\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
               }
             }
           }

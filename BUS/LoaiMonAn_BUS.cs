@@ -19,5 +19,10 @@ namespace BUS
         {
             return LoaiMonAn_DAO.GetFoodType(id);
         }
+
+        public static bool AddFoodType(LoaiMonAn loaiMonAn)
+        {
+            return LoaiMonAn_DAO.AddFoodType(loaiMonAn);
+        }
     }
 }

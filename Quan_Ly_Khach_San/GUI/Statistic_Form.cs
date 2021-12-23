@@ -251,9 +251,7 @@ namespace Quan_Ly_Khach_San
 
             string mads = IList[0].MaDSNL;
             string madl = this.SupplierNameCb.SelectedValue.ToString();
-            string note = "none";
-            if (this.NoteSupplierTxb.Text != "")
-                note = this.NoteSupplierTxb.Text;
+            string note = " " + this.NoteSupplierTxb.Text;
 
 
             if (PhieuThanhToan_BUS.UpdateConfirm(madl, note, mads))
@@ -844,6 +842,19 @@ namespace Quan_Ly_Khach_San
             }
         }
 
-        
+        private void dataGridView1_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
+        {
+            DataGridViewTextBoxEditingControl tb = (DataGridViewTextBoxEditingControl)e.Control;
+            tb.KeyPress += new KeyPressEventHandler(dataGridViewTextBox_KeyPress);
+            e.Control.KeyPress += new KeyPressEventHandler(dataGridViewTextBox_KeyPress);
+        }
+
+        private void dataGridViewTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) && !Char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

@@ -41,7 +41,6 @@ namespace Quan_Ly_Khach_San
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ServiceTab = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -106,6 +105,7 @@ namespace Quan_Ly_Khach_San
             this.label8 = new System.Windows.Forms.Label();
             this.RequestFoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.siticonePanel1 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.NewFoodBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.label5 = new System.Windows.Forms.Label();
             this.AddCustomerBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.CustomerPickCb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
@@ -517,7 +517,7 @@ namespace Quan_Ly_Khach_San
             this.ImportMaterialBtn.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ImportMaterialBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.ImportMaterialBtn.HoverState.Parent = this.ImportMaterialBtn;
-            this.ImportMaterialBtn.Location = new System.Drawing.Point(106, 115);
+            this.ImportMaterialBtn.Location = new System.Drawing.Point(4, 115);
             this.ImportMaterialBtn.Name = "ImportMaterialBtn";
             this.ImportMaterialBtn.ShadowDecoration.Parent = this.ImportMaterialBtn;
             this.ImportMaterialBtn.Size = new System.Drawing.Size(208, 47);
@@ -1065,14 +1065,6 @@ namespace Quan_Ly_Khach_San
             this.MenuFoodDGV.Name = "MenuFoodDGV";
             this.MenuFoodDGV.ReadOnly = true;
             this.MenuFoodDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.MenuFoodDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.MenuFoodDGV.RowHeadersVisible = false;
             this.MenuFoodDGV.RowHeadersWidth = 51;
             this.MenuFoodDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -1199,7 +1191,7 @@ namespace Quan_Ly_Khach_San
             this.TotalPrice.ForeColor = System.Drawing.Color.White;
             this.TotalPrice.Location = new System.Drawing.Point(97, 62);
             this.TotalPrice.Name = "TotalPrice";
-            this.TotalPrice.Size = new System.Drawing.Size(28, 32);
+            this.TotalPrice.Size = new System.Drawing.Size(29, 32);
             this.TotalPrice.TabIndex = 44;
             this.TotalPrice.Text = "0";
             // 
@@ -1243,6 +1235,7 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel1.BackColor = System.Drawing.Color.Transparent;
             this.siticonePanel1.BorderColor = System.Drawing.Color.Black;
             this.siticonePanel1.BorderRadius = 15;
+            this.siticonePanel1.Controls.Add(this.NewFoodBtn);
             this.siticonePanel1.Controls.Add(this.label5);
             this.siticonePanel1.Controls.Add(this.AddCustomerBtn);
             this.siticonePanel1.Controls.Add(this.CustomerPickCb);
@@ -1259,12 +1252,36 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel1.Size = new System.Drawing.Size(576, 115);
             this.siticonePanel1.TabIndex = 43;
             // 
+            // NewFoodBtn
+            // 
+            this.NewFoodBtn.BorderRadius = 15;
+            this.NewFoodBtn.CheckedState.Parent = this.NewFoodBtn;
+            this.NewFoodBtn.CustomImages.Parent = this.NewFoodBtn;
+            this.NewFoodBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.NewFoodBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.NewFoodBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.NewFoodBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.NewFoodBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.NewFoodBtn.DisabledState.Parent = this.NewFoodBtn;
+            this.NewFoodBtn.FillColor = System.Drawing.Color.Gold;
+            this.NewFoodBtn.FillColor2 = System.Drawing.Color.Gold;
+            this.NewFoodBtn.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewFoodBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            this.NewFoodBtn.HoverState.Parent = this.NewFoodBtn;
+            this.NewFoodBtn.Location = new System.Drawing.Point(7, 56);
+            this.NewFoodBtn.Name = "NewFoodBtn";
+            this.NewFoodBtn.ShadowDecoration.Parent = this.NewFoodBtn;
+            this.NewFoodBtn.Size = new System.Drawing.Size(159, 47);
+            this.NewFoodBtn.TabIndex = 43;
+            this.NewFoodBtn.Text = "NEW FOOD";
+            this.NewFoodBtn.Click += new System.EventHandler(this.NewFoodBtn_Click);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(14, 12);
+            this.label5.Location = new System.Drawing.Point(3, 14);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(107, 21);
             this.label5.TabIndex = 42;
@@ -1286,7 +1303,7 @@ namespace Quan_Ly_Khach_San
             this.AddCustomerBtn.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddCustomerBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.AddCustomerBtn.HoverState.Parent = this.AddCustomerBtn;
-            this.AddCustomerBtn.Location = new System.Drawing.Point(212, 41);
+            this.AddCustomerBtn.Location = new System.Drawing.Point(280, 12);
             this.AddCustomerBtn.Name = "AddCustomerBtn";
             this.AddCustomerBtn.ShadowDecoration.Parent = this.AddCustomerBtn;
             this.AddCustomerBtn.Size = new System.Drawing.Size(62, 36);
@@ -1309,10 +1326,10 @@ namespace Quan_Ly_Khach_San
             this.CustomerPickCb.HoverState.Parent = this.CustomerPickCb;
             this.CustomerPickCb.ItemHeight = 30;
             this.CustomerPickCb.ItemsAppearance.Parent = this.CustomerPickCb;
-            this.CustomerPickCb.Location = new System.Drawing.Point(18, 41);
+            this.CustomerPickCb.Location = new System.Drawing.Point(116, 14);
             this.CustomerPickCb.Name = "CustomerPickCb";
             this.CustomerPickCb.ShadowDecoration.Parent = this.CustomerPickCb;
-            this.CustomerPickCb.Size = new System.Drawing.Size(188, 36);
+            this.CustomerPickCb.Size = new System.Drawing.Size(158, 36);
             this.CustomerPickCb.Sorted = true;
             this.CustomerPickCb.TabIndex = 27;
             // 
@@ -1332,7 +1349,7 @@ namespace Quan_Ly_Khach_San
             this.SubFoodBtn.ForeColor = System.Drawing.Color.White;
             this.SubFoodBtn.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.SubFoodBtn.HoverState.Parent = this.SubFoodBtn;
-            this.SubFoodBtn.Location = new System.Drawing.Point(329, 12);
+            this.SubFoodBtn.Location = new System.Drawing.Point(383, 12);
             this.SubFoodBtn.Name = "SubFoodBtn";
             this.SubFoodBtn.ShadowDecoration.Mode = Siticone.Desktop.UI.WinForms.Enums.ShadowMode.Circle;
             this.SubFoodBtn.ShadowDecoration.Parent = this.SubFoodBtn;
@@ -1357,7 +1374,7 @@ namespace Quan_Ly_Khach_San
             this.DeleteInListBtn.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteInListBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.DeleteInListBtn.HoverState.Parent = this.DeleteInListBtn;
-            this.DeleteInListBtn.Location = new System.Drawing.Point(444, 59);
+            this.DeleteInListBtn.Location = new System.Drawing.Point(465, 59);
             this.DeleteInListBtn.Name = "DeleteInListBtn";
             this.DeleteInListBtn.ShadowDecoration.Parent = this.DeleteInListBtn;
             this.DeleteInListBtn.Size = new System.Drawing.Size(108, 47);
@@ -1406,7 +1423,7 @@ namespace Quan_Ly_Khach_San
             this.AddToListBtn.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddToListBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             this.AddToListBtn.HoverState.Parent = this.AddToListBtn;
-            this.AddToListBtn.Location = new System.Drawing.Point(329, 59);
+            this.AddToListBtn.Location = new System.Drawing.Point(348, 59);
             this.AddToListBtn.Name = "AddToListBtn";
             this.AddToListBtn.ShadowDecoration.Parent = this.AddToListBtn;
             this.AddToListBtn.Size = new System.Drawing.Size(111, 47);
@@ -1434,7 +1451,7 @@ namespace Quan_Ly_Khach_San
             this.FoodNumberTxb.ForeColor = System.Drawing.Color.White;
             this.FoodNumberTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.FoodNumberTxb.HoverState.Parent = this.FoodNumberTxb;
-            this.FoodNumberTxb.Location = new System.Drawing.Point(376, 12);
+            this.FoodNumberTxb.Location = new System.Drawing.Point(430, 12);
             this.FoodNumberTxb.Name = "FoodNumberTxb";
             this.FoodNumberTxb.PasswordChar = '\0';
             this.FoodNumberTxb.PlaceholderText = "";
@@ -1442,7 +1459,7 @@ namespace Quan_Ly_Khach_San
             this.FoodNumberTxb.SelectedText = "";
             this.FoodNumberTxb.SelectionStart = 1;
             this.FoodNumberTxb.ShadowDecoration.Parent = this.FoodNumberTxb;
-            this.FoodNumberTxb.Size = new System.Drawing.Size(129, 41);
+            this.FoodNumberTxb.Size = new System.Drawing.Size(75, 41);
             this.FoodNumberTxb.TabIndex = 37;
             this.FoodNumberTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1580,5 +1597,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn maDVT;
         private System.Windows.Forms.DataGridViewTextBoxColumn DVT;
         private System.Windows.Forms.DataGridViewTextBoxColumn soLuong;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton NewFoodBtn;
     }
 }

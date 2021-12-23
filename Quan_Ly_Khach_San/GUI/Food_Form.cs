@@ -39,7 +39,7 @@ namespace Quan_Ly_Khach_San
             CustomerLoad();
         }
 
-        private void FoodGridLoad()
+        public void FoodGridLoad()
         {
             List<MonAn> foodList = MonAn_BUS.FoodList();
             if (foodList == null) foodList = new List<MonAn>();
@@ -114,6 +114,11 @@ namespace Quan_Ly_Khach_San
             }
         }
 
+        private void NewFoodBtn_Click(object sender, EventArgs e)
+        {
+            Add_Food_Form add_Food_Form = new Add_Food_Form(this);
+            add_Food_Form.ShowDialog();
+        }
 
         private void AddSelectedList(MonAn selectedFood)
         {
@@ -545,9 +550,10 @@ namespace Quan_Ly_Khach_San
         }
 
 
+
+
         #endregion
 
-
-
+        
     }
 }

@@ -19,5 +19,10 @@ namespace BUS
         {
             return DonViTinh_DAL.GetMeasure(id);
         }
+
+        public static bool AddUnit(DonViTinh dvt)
+        {
+            return DonViTinh_DAL.AddNewUnit(dvt);
+        }
     }
 }

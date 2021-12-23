@@ -87,5 +87,22 @@ namespace DAL
             DataProvider.DongKetNoiDatabase(conn);
             return monAn;
         }
+
+        public static bool AddFood(MonAn monAn)
+        {
+            string command = $"insert into MonAn values ('{monAn.MaMonAn}',N'{monAn.TenMonAn.ToUpper()}', '{monAn.MaLoaiMonAn}', '{monAn.MaDVT}', {monAn.Gia}, N'{monAn.GhiChu}')";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
     }
 }

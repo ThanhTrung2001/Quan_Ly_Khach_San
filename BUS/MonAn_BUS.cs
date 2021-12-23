@@ -20,5 +20,10 @@ namespace BUS
             return MonAn_DAO.FoodListWithSearch(name, type);
         }
 
+        public static bool AddFood(MonAn ma)
+        {
+            return MonAn_DAO.AddFood(ma);
+        }
+
     }
 }

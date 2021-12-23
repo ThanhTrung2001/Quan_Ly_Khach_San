@@ -30,21 +30,21 @@
         {
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.siticoneGradientButton2 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
-            this.siticoneGradientButton1 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.NewUnitBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.NewTypeBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.label1 = new System.Windows.Forms.Label();
             this.AddBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.IngredientUnittxt = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
-            this.IngredientStyletxt = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
-            this.IngredientNametxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.IngredientIDtxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.FoodUnitCbb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
+            this.FoodTypeCbb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
+            this.FoodNameTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.FoodIDtxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.siticoneTextBox1 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.FoodPriceTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.siticoneTextBox2 = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.FoodNoteTxt = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.SuspendLayout();
             // 
             // siticoneHtmlLabel1
@@ -87,52 +87,55 @@
             this.guna2CircleButton1.TabIndex = 134;
             this.guna2CircleButton1.Text = "<";
             this.guna2CircleButton1.TextOffset = new System.Drawing.Point(1, -2);
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
-            // siticoneGradientButton2
+            // NewUnitBtn
             // 
-            this.siticoneGradientButton2.BorderRadius = 15;
-            this.siticoneGradientButton2.CheckedState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.CustomImages.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneGradientButton2.DisabledState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.FillColor = System.Drawing.Color.Gold;
-            this.siticoneGradientButton2.FillColor2 = System.Drawing.Color.Gold;
-            this.siticoneGradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneGradientButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
-            this.siticoneGradientButton2.HoverState.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Location = new System.Drawing.Point(301, 234);
-            this.siticoneGradientButton2.Name = "siticoneGradientButton2";
-            this.siticoneGradientButton2.ShadowDecoration.Parent = this.siticoneGradientButton2;
-            this.siticoneGradientButton2.Size = new System.Drawing.Size(56, 36);
-            this.siticoneGradientButton2.TabIndex = 145;
-            this.siticoneGradientButton2.Text = "NEW";
+            this.NewUnitBtn.BorderRadius = 15;
+            this.NewUnitBtn.CheckedState.Parent = this.NewUnitBtn;
+            this.NewUnitBtn.CustomImages.Parent = this.NewUnitBtn;
+            this.NewUnitBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.NewUnitBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.NewUnitBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.NewUnitBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.NewUnitBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.NewUnitBtn.DisabledState.Parent = this.NewUnitBtn;
+            this.NewUnitBtn.FillColor = System.Drawing.Color.Gold;
+            this.NewUnitBtn.FillColor2 = System.Drawing.Color.Gold;
+            this.NewUnitBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewUnitBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            this.NewUnitBtn.HoverState.Parent = this.NewUnitBtn;
+            this.NewUnitBtn.Location = new System.Drawing.Point(301, 234);
+            this.NewUnitBtn.Name = "NewUnitBtn";
+            this.NewUnitBtn.ShadowDecoration.Parent = this.NewUnitBtn;
+            this.NewUnitBtn.Size = new System.Drawing.Size(56, 36);
+            this.NewUnitBtn.TabIndex = 145;
+            this.NewUnitBtn.Text = "NEW";
+            this.NewUnitBtn.Click += new System.EventHandler(this.NewUnitBtn_Click);
             // 
-            // siticoneGradientButton1
+            // NewTypeBtn
             // 
-            this.siticoneGradientButton1.BorderRadius = 15;
-            this.siticoneGradientButton1.CheckedState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.CustomImages.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneGradientButton1.DisabledState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.FillColor = System.Drawing.Color.Gold;
-            this.siticoneGradientButton1.FillColor2 = System.Drawing.Color.Gold;
-            this.siticoneGradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneGradientButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
-            this.siticoneGradientButton1.HoverState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Location = new System.Drawing.Point(301, 192);
-            this.siticoneGradientButton1.Name = "siticoneGradientButton1";
-            this.siticoneGradientButton1.ShadowDecoration.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Size = new System.Drawing.Size(56, 36);
-            this.siticoneGradientButton1.TabIndex = 144;
-            this.siticoneGradientButton1.Text = "NEW";
+            this.NewTypeBtn.BorderRadius = 15;
+            this.NewTypeBtn.CheckedState.Parent = this.NewTypeBtn;
+            this.NewTypeBtn.CustomImages.Parent = this.NewTypeBtn;
+            this.NewTypeBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.NewTypeBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.NewTypeBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.NewTypeBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.NewTypeBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.NewTypeBtn.DisabledState.Parent = this.NewTypeBtn;
+            this.NewTypeBtn.FillColor = System.Drawing.Color.Gold;
+            this.NewTypeBtn.FillColor2 = System.Drawing.Color.Gold;
+            this.NewTypeBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewTypeBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            this.NewTypeBtn.HoverState.Parent = this.NewTypeBtn;
+            this.NewTypeBtn.Location = new System.Drawing.Point(301, 192);
+            this.NewTypeBtn.Name = "NewTypeBtn";
+            this.NewTypeBtn.ShadowDecoration.Parent = this.NewTypeBtn;
+            this.NewTypeBtn.Size = new System.Drawing.Size(56, 36);
+            this.NewTypeBtn.TabIndex = 144;
+            this.NewTypeBtn.Text = "NEW";
+            this.NewTypeBtn.Click += new System.EventHandler(this.NewTypeBtn_Click);
             // 
             // label1
             // 
@@ -167,6 +170,7 @@
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
             this.AddBtn.TabIndex = 142;
             this.AddBtn.Text = "ADD";
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // label14
             // 
@@ -190,112 +194,112 @@
             this.label13.TabIndex = 140;
             this.label13.Text = "NAME :";
             // 
-            // IngredientUnittxt
+            // FoodUnitCbb
             // 
-            this.IngredientUnittxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientUnittxt.BorderRadius = 10;
-            this.IngredientUnittxt.BorderThickness = 2;
-            this.IngredientUnittxt.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.IngredientUnittxt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.IngredientUnittxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientUnittxt.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IngredientUnittxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IngredientUnittxt.FocusedState.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IngredientUnittxt.ForeColor = System.Drawing.Color.White;
-            this.IngredientUnittxt.HoverState.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.ItemHeight = 30;
-            this.IngredientUnittxt.ItemsAppearance.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.Location = new System.Drawing.Point(101, 234);
-            this.IngredientUnittxt.Name = "IngredientUnittxt";
-            this.IngredientUnittxt.ShadowDecoration.Parent = this.IngredientUnittxt;
-            this.IngredientUnittxt.Size = new System.Drawing.Size(194, 36);
-            this.IngredientUnittxt.TabIndex = 139;
+            this.FoodUnitCbb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodUnitCbb.BorderRadius = 10;
+            this.FoodUnitCbb.BorderThickness = 2;
+            this.FoodUnitCbb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.FoodUnitCbb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FoodUnitCbb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodUnitCbb.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodUnitCbb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodUnitCbb.FocusedState.Parent = this.FoodUnitCbb;
+            this.FoodUnitCbb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodUnitCbb.ForeColor = System.Drawing.Color.White;
+            this.FoodUnitCbb.HoverState.Parent = this.FoodUnitCbb;
+            this.FoodUnitCbb.ItemHeight = 30;
+            this.FoodUnitCbb.ItemsAppearance.Parent = this.FoodUnitCbb;
+            this.FoodUnitCbb.Location = new System.Drawing.Point(101, 234);
+            this.FoodUnitCbb.Name = "FoodUnitCbb";
+            this.FoodUnitCbb.ShadowDecoration.Parent = this.FoodUnitCbb;
+            this.FoodUnitCbb.Size = new System.Drawing.Size(194, 36);
+            this.FoodUnitCbb.TabIndex = 139;
             // 
-            // IngredientStyletxt
+            // FoodTypeCbb
             // 
-            this.IngredientStyletxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientStyletxt.BorderRadius = 10;
-            this.IngredientStyletxt.BorderThickness = 2;
-            this.IngredientStyletxt.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.IngredientStyletxt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.IngredientStyletxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientStyletxt.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IngredientStyletxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IngredientStyletxt.FocusedState.Parent = this.IngredientStyletxt;
-            this.IngredientStyletxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IngredientStyletxt.ForeColor = System.Drawing.Color.White;
-            this.IngredientStyletxt.HoverState.Parent = this.IngredientStyletxt;
-            this.IngredientStyletxt.ItemHeight = 30;
-            this.IngredientStyletxt.ItemsAppearance.Parent = this.IngredientStyletxt;
-            this.IngredientStyletxt.Location = new System.Drawing.Point(101, 192);
-            this.IngredientStyletxt.Name = "IngredientStyletxt";
-            this.IngredientStyletxt.ShadowDecoration.Parent = this.IngredientStyletxt;
-            this.IngredientStyletxt.Size = new System.Drawing.Size(194, 36);
-            this.IngredientStyletxt.TabIndex = 138;
+            this.FoodTypeCbb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodTypeCbb.BorderRadius = 10;
+            this.FoodTypeCbb.BorderThickness = 2;
+            this.FoodTypeCbb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.FoodTypeCbb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FoodTypeCbb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodTypeCbb.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodTypeCbb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodTypeCbb.FocusedState.Parent = this.FoodTypeCbb;
+            this.FoodTypeCbb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodTypeCbb.ForeColor = System.Drawing.Color.White;
+            this.FoodTypeCbb.HoverState.Parent = this.FoodTypeCbb;
+            this.FoodTypeCbb.ItemHeight = 30;
+            this.FoodTypeCbb.ItemsAppearance.Parent = this.FoodTypeCbb;
+            this.FoodTypeCbb.Location = new System.Drawing.Point(101, 192);
+            this.FoodTypeCbb.Name = "FoodTypeCbb";
+            this.FoodTypeCbb.ShadowDecoration.Parent = this.FoodTypeCbb;
+            this.FoodTypeCbb.Size = new System.Drawing.Size(194, 36);
+            this.FoodTypeCbb.TabIndex = 138;
             // 
-            // IngredientNametxt
+            // FoodNameTxt
             // 
-            this.IngredientNametxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientNametxt.BorderColor = System.Drawing.Color.White;
-            this.IngredientNametxt.BorderRadius = 10;
-            this.IngredientNametxt.BorderThickness = 2;
-            this.IngredientNametxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.IngredientNametxt.DefaultText = "";
-            this.IngredientNametxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.IngredientNametxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.IngredientNametxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.IngredientNametxt.DisabledState.Parent = this.IngredientNametxt;
-            this.IngredientNametxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.IngredientNametxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientNametxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IngredientNametxt.FocusedState.Parent = this.IngredientNametxt;
-            this.IngredientNametxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IngredientNametxt.ForeColor = System.Drawing.Color.White;
-            this.IngredientNametxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IngredientNametxt.HoverState.Parent = this.IngredientNametxt;
-            this.IngredientNametxt.Location = new System.Drawing.Point(101, 137);
-            this.IngredientNametxt.Name = "IngredientNametxt";
-            this.IngredientNametxt.PasswordChar = '\0';
-            this.IngredientNametxt.PlaceholderText = "Name";
-            this.IngredientNametxt.SelectedText = "";
-            this.IngredientNametxt.ShadowDecoration.Parent = this.IngredientNametxt;
-            this.IngredientNametxt.Size = new System.Drawing.Size(256, 49);
-            this.IngredientNametxt.TabIndex = 137;
-            this.IngredientNametxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FoodNameTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodNameTxt.BorderColor = System.Drawing.Color.White;
+            this.FoodNameTxt.BorderRadius = 10;
+            this.FoodNameTxt.BorderThickness = 2;
+            this.FoodNameTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodNameTxt.DefaultText = "";
+            this.FoodNameTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FoodNameTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FoodNameTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodNameTxt.DisabledState.Parent = this.FoodNameTxt;
+            this.FoodNameTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodNameTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodNameTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodNameTxt.FocusedState.Parent = this.FoodNameTxt;
+            this.FoodNameTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodNameTxt.ForeColor = System.Drawing.Color.White;
+            this.FoodNameTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodNameTxt.HoverState.Parent = this.FoodNameTxt;
+            this.FoodNameTxt.Location = new System.Drawing.Point(101, 137);
+            this.FoodNameTxt.Name = "FoodNameTxt";
+            this.FoodNameTxt.PasswordChar = '\0';
+            this.FoodNameTxt.PlaceholderText = "Name";
+            this.FoodNameTxt.SelectedText = "";
+            this.FoodNameTxt.ShadowDecoration.Parent = this.FoodNameTxt;
+            this.FoodNameTxt.Size = new System.Drawing.Size(256, 49);
+            this.FoodNameTxt.TabIndex = 137;
+            this.FoodNameTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // IngredientIDtxt
+            // FoodIDtxt
             // 
-            this.IngredientIDtxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.IngredientIDtxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.IngredientIDtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientIDtxt.BorderColor = System.Drawing.Color.White;
-            this.IngredientIDtxt.BorderRadius = 10;
-            this.IngredientIDtxt.BorderThickness = 2;
-            this.IngredientIDtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.IngredientIDtxt.DefaultText = "";
-            this.IngredientIDtxt.DisabledState.BorderColor = System.Drawing.Color.White;
-            this.IngredientIDtxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientIDtxt.DisabledState.ForeColor = System.Drawing.Color.White;
-            this.IngredientIDtxt.DisabledState.Parent = this.IngredientIDtxt;
-            this.IngredientIDtxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
-            this.IngredientIDtxt.Enabled = false;
-            this.IngredientIDtxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.IngredientIDtxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IngredientIDtxt.FocusedState.Parent = this.IngredientIDtxt;
-            this.IngredientIDtxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IngredientIDtxt.ForeColor = System.Drawing.Color.White;
-            this.IngredientIDtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.IngredientIDtxt.HoverState.Parent = this.IngredientIDtxt;
-            this.IngredientIDtxt.Location = new System.Drawing.Point(101, 82);
-            this.IngredientIDtxt.Name = "IngredientIDtxt";
-            this.IngredientIDtxt.PasswordChar = '\0';
-            this.IngredientIDtxt.PlaceholderText = "Should\'t enter when you add new";
-            this.IngredientIDtxt.SelectedText = "";
-            this.IngredientIDtxt.ShadowDecoration.Parent = this.IngredientIDtxt;
-            this.IngredientIDtxt.Size = new System.Drawing.Size(256, 49);
-            this.IngredientIDtxt.TabIndex = 136;
-            this.IngredientIDtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FoodIDtxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.FoodIDtxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.FoodIDtxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodIDtxt.BorderColor = System.Drawing.Color.White;
+            this.FoodIDtxt.BorderRadius = 10;
+            this.FoodIDtxt.BorderThickness = 2;
+            this.FoodIDtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodIDtxt.DefaultText = "";
+            this.FoodIDtxt.DisabledState.BorderColor = System.Drawing.Color.White;
+            this.FoodIDtxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodIDtxt.DisabledState.ForeColor = System.Drawing.Color.White;
+            this.FoodIDtxt.DisabledState.Parent = this.FoodIDtxt;
+            this.FoodIDtxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.White;
+            this.FoodIDtxt.Enabled = false;
+            this.FoodIDtxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodIDtxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodIDtxt.FocusedState.Parent = this.FoodIDtxt;
+            this.FoodIDtxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodIDtxt.ForeColor = System.Drawing.Color.White;
+            this.FoodIDtxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodIDtxt.HoverState.Parent = this.FoodIDtxt;
+            this.FoodIDtxt.Location = new System.Drawing.Point(101, 82);
+            this.FoodIDtxt.Name = "FoodIDtxt";
+            this.FoodIDtxt.PasswordChar = '\0';
+            this.FoodIDtxt.PlaceholderText = "Should\'t enter when you add new";
+            this.FoodIDtxt.SelectedText = "";
+            this.FoodIDtxt.ShadowDecoration.Parent = this.FoodIDtxt;
+            this.FoodIDtxt.Size = new System.Drawing.Size(256, 49);
+            this.FoodIDtxt.TabIndex = 136;
+            this.FoodIDtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label12
             // 
@@ -319,35 +323,36 @@
             this.label2.TabIndex = 147;
             this.label2.Text = "PRICE :";
             // 
-            // siticoneTextBox1
+            // FoodPriceTxt
             // 
-            this.siticoneTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.siticoneTextBox1.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox1.BorderRadius = 10;
-            this.siticoneTextBox1.BorderThickness = 2;
-            this.siticoneTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox1.DefaultText = "";
-            this.siticoneTextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox1.DisabledState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.siticoneTextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox1.FocusedState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox1.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox1.HoverState.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Location = new System.Drawing.Point(101, 276);
-            this.siticoneTextBox1.Name = "siticoneTextBox1";
-            this.siticoneTextBox1.PasswordChar = '\0';
-            this.siticoneTextBox1.PlaceholderText = "Price";
-            this.siticoneTextBox1.SelectedText = "";
-            this.siticoneTextBox1.ShadowDecoration.Parent = this.siticoneTextBox1;
-            this.siticoneTextBox1.Size = new System.Drawing.Size(256, 38);
-            this.siticoneTextBox1.TabIndex = 146;
-            this.siticoneTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FoodPriceTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodPriceTxt.BorderColor = System.Drawing.Color.White;
+            this.FoodPriceTxt.BorderRadius = 10;
+            this.FoodPriceTxt.BorderThickness = 2;
+            this.FoodPriceTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodPriceTxt.DefaultText = "";
+            this.FoodPriceTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FoodPriceTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FoodPriceTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodPriceTxt.DisabledState.Parent = this.FoodPriceTxt;
+            this.FoodPriceTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodPriceTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodPriceTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodPriceTxt.FocusedState.Parent = this.FoodPriceTxt;
+            this.FoodPriceTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodPriceTxt.ForeColor = System.Drawing.Color.White;
+            this.FoodPriceTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodPriceTxt.HoverState.Parent = this.FoodPriceTxt;
+            this.FoodPriceTxt.Location = new System.Drawing.Point(101, 276);
+            this.FoodPriceTxt.Name = "FoodPriceTxt";
+            this.FoodPriceTxt.PasswordChar = '\0';
+            this.FoodPriceTxt.PlaceholderText = "Price";
+            this.FoodPriceTxt.SelectedText = "";
+            this.FoodPriceTxt.ShadowDecoration.Parent = this.FoodPriceTxt;
+            this.FoodPriceTxt.Size = new System.Drawing.Size(256, 38);
+            this.FoodPriceTxt.TabIndex = 146;
+            this.FoodPriceTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FoodPriceTxt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FoodPriceTxt_KeyPress);
             // 
             // label3
             // 
@@ -360,56 +365,58 @@
             this.label3.TabIndex = 149;
             this.label3.Text = "NOTE :";
             // 
-            // siticoneTextBox2
+            // FoodNoteTxt
             // 
-            this.siticoneTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.siticoneTextBox2.BorderColor = System.Drawing.Color.White;
-            this.siticoneTextBox2.BorderRadius = 10;
-            this.siticoneTextBox2.BorderThickness = 2;
-            this.siticoneTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.siticoneTextBox2.DefaultText = "";
-            this.siticoneTextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.siticoneTextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.siticoneTextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.DisabledState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.siticoneTextBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.siticoneTextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.FocusedState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneTextBox2.ForeColor = System.Drawing.Color.White;
-            this.siticoneTextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.siticoneTextBox2.HoverState.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Location = new System.Drawing.Point(101, 320);
-            this.siticoneTextBox2.Name = "siticoneTextBox2";
-            this.siticoneTextBox2.PasswordChar = '\0';
-            this.siticoneTextBox2.PlaceholderText = "Note";
-            this.siticoneTextBox2.SelectedText = "";
-            this.siticoneTextBox2.ShadowDecoration.Parent = this.siticoneTextBox2;
-            this.siticoneTextBox2.Size = new System.Drawing.Size(256, 61);
-            this.siticoneTextBox2.TabIndex = 148;
-            this.siticoneTextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FoodNoteTxt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodNoteTxt.BorderColor = System.Drawing.Color.White;
+            this.FoodNoteTxt.BorderRadius = 10;
+            this.FoodNoteTxt.BorderThickness = 2;
+            this.FoodNoteTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.FoodNoteTxt.DefaultText = "";
+            this.FoodNoteTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.FoodNoteTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.FoodNoteTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodNoteTxt.DisabledState.Parent = this.FoodNoteTxt;
+            this.FoodNoteTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.FoodNoteTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.FoodNoteTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodNoteTxt.FocusedState.Parent = this.FoodNoteTxt;
+            this.FoodNoteTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FoodNoteTxt.ForeColor = System.Drawing.Color.White;
+            this.FoodNoteTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.FoodNoteTxt.HoverState.Parent = this.FoodNoteTxt;
+            this.FoodNoteTxt.Location = new System.Drawing.Point(101, 320);
+            this.FoodNoteTxt.Name = "FoodNoteTxt";
+            this.FoodNoteTxt.PasswordChar = '\0';
+            this.FoodNoteTxt.PlaceholderText = "Note";
+            this.FoodNoteTxt.SelectedText = "";
+            this.FoodNoteTxt.ShadowDecoration.Parent = this.FoodNoteTxt;
+            this.FoodNoteTxt.Size = new System.Drawing.Size(256, 61);
+            this.FoodNoteTxt.TabIndex = 148;
+            this.FoodNoteTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Add_Food_Form
             // 
+            this.AcceptButton = this.AddBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.CancelButton = this.guna2CircleButton1;
             this.ClientSize = new System.Drawing.Size(385, 448);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.siticoneTextBox2);
+            this.Controls.Add(this.FoodNoteTxt);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.siticoneTextBox1);
-            this.Controls.Add(this.siticoneGradientButton2);
-            this.Controls.Add(this.siticoneGradientButton1);
+            this.Controls.Add(this.FoodPriceTxt);
+            this.Controls.Add(this.NewUnitBtn);
+            this.Controls.Add(this.NewTypeBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.IngredientUnittxt);
-            this.Controls.Add(this.IngredientStyletxt);
-            this.Controls.Add(this.IngredientNametxt);
-            this.Controls.Add(this.IngredientIDtxt);
+            this.Controls.Add(this.FoodUnitCbb);
+            this.Controls.Add(this.FoodTypeCbb);
+            this.Controls.Add(this.FoodNameTxt);
+            this.Controls.Add(this.FoodIDtxt);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.siticoneHtmlLabel1);
@@ -418,6 +425,7 @@
             this.Name = "Add_Food_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add_Food_Form";
+            this.Load += new System.EventHandler(this.Add_Food_Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -427,20 +435,20 @@
 
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton2;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton1;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton NewUnitBtn;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton NewTypeBtn;
         private System.Windows.Forms.Label label1;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddBtn;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private Siticone.Desktop.UI.WinForms.SiticoneComboBox IngredientUnittxt;
-        private Siticone.Desktop.UI.WinForms.SiticoneComboBox IngredientStyletxt;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox IngredientNametxt;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox IngredientIDtxt;
+        private Siticone.Desktop.UI.WinForms.SiticoneComboBox FoodUnitCbb;
+        private Siticone.Desktop.UI.WinForms.SiticoneComboBox FoodTypeCbb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox FoodNameTxt;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox FoodIDtxt;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label2;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox1;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox FoodPriceTxt;
         private System.Windows.Forms.Label label3;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox siticoneTextBox2;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox FoodNoteTxt;
     }
 }

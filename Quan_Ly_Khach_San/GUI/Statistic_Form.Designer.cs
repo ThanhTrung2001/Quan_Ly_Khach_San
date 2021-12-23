@@ -305,7 +305,6 @@ namespace Quan_Ly_Khach_San
             this.label11 = new System.Windows.Forms.Label();
             this.ConfirmRequestBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.NoteSupplierTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.StatisticAll = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.label27 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
@@ -341,6 +340,7 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StatisticAll = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.ServiceTab.SuspendLayout();
             this.siticonePanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
@@ -367,10 +367,10 @@ namespace Quan_Ly_Khach_San
             ((System.ComponentModel.ISupportInitialize)(this.MaterialImportDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RequestImportDGV)).BeginInit();
             this.siticonePanel14.SuspendLayout();
-            this.StatisticAll.SuspendLayout();
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
+            this.StatisticAll.SuspendLayout();
             this.SuspendLayout();
             // 
             // ServiceTab
@@ -553,7 +553,7 @@ namespace Quan_Ly_Khach_San
             this.label23.ForeColor = System.Drawing.Color.LightSkyBlue;
             this.label23.Location = new System.Drawing.Point(278, 279);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(64, 16);
+            this.label23.Size = new System.Drawing.Size(65, 16);
             this.label23.TabIndex = 132;
             this.label23.Text = "COLLECT";
             // 
@@ -564,7 +564,7 @@ namespace Quan_Ly_Khach_San
             this.label24.ForeColor = System.Drawing.Color.Gold;
             this.label24.Location = new System.Drawing.Point(41, 326);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(57, 16);
+            this.label24.Size = new System.Drawing.Size(58, 16);
             this.label24.TabIndex = 131;
             this.label24.Text = "RETURN";
             // 
@@ -575,7 +575,7 @@ namespace Quan_Ly_Khach_San
             this.label26.ForeColor = System.Drawing.Color.White;
             this.label26.Location = new System.Drawing.Point(41, 279);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(57, 16);
+            this.label26.Size = new System.Drawing.Size(58, 16);
             this.label26.TabIndex = 130;
             this.label26.Text = "RECEIVE";
             // 
@@ -586,7 +586,7 @@ namespace Quan_Ly_Khach_San
             this.label17.ForeColor = System.Drawing.Color.LightSkyBlue;
             this.label17.Location = new System.Drawing.Point(278, 176);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(64, 16);
+            this.label17.Size = new System.Drawing.Size(65, 16);
             this.label17.TabIndex = 129;
             this.label17.Text = "COLLECT";
             // 
@@ -597,7 +597,7 @@ namespace Quan_Ly_Khach_San
             this.label19.ForeColor = System.Drawing.Color.Gold;
             this.label19.Location = new System.Drawing.Point(41, 223);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(57, 16);
+            this.label19.Size = new System.Drawing.Size(58, 16);
             this.label19.TabIndex = 128;
             this.label19.Text = "RETURN";
             // 
@@ -608,7 +608,7 @@ namespace Quan_Ly_Khach_San
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(41, 176);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(57, 16);
+            this.label21.Size = new System.Drawing.Size(58, 16);
             this.label21.TabIndex = 127;
             this.label21.Text = "RECEIVE";
             // 
@@ -685,7 +685,7 @@ namespace Quan_Ly_Khach_San
             this.label60.ForeColor = System.Drawing.Color.LightSkyBlue;
             this.label60.Location = new System.Drawing.Point(278, 68);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(64, 16);
+            this.label60.Size = new System.Drawing.Size(65, 16);
             this.label60.TabIndex = 122;
             this.label60.Text = "COLLECT";
             // 
@@ -729,7 +729,7 @@ namespace Quan_Ly_Khach_San
             this.label62.ForeColor = System.Drawing.Color.Yellow;
             this.label62.Location = new System.Drawing.Point(13, 254);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(38, 16);
+            this.label62.Size = new System.Drawing.Size(39, 16);
             this.label62.TabIndex = 119;
             this.label62.Text = "Food";
             // 
@@ -740,7 +740,7 @@ namespace Quan_Ly_Khach_San
             this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.label63.Location = new System.Drawing.Point(13, 160);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(51, 16);
+            this.label63.Size = new System.Drawing.Size(52, 16);
             this.label63.TabIndex = 118;
             this.label63.Text = "Service";
             // 
@@ -751,7 +751,7 @@ namespace Quan_Ly_Khach_San
             this.label64.ForeColor = System.Drawing.Color.Tomato;
             this.label64.Location = new System.Drawing.Point(13, 51);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(47, 16);
+            this.label64.Size = new System.Drawing.Size(48, 16);
             this.label64.TabIndex = 117;
             this.label64.Text = "ROOM";
             // 
@@ -762,7 +762,7 @@ namespace Quan_Ly_Khach_San
             this.label65.ForeColor = System.Drawing.Color.White;
             this.label65.Location = new System.Drawing.Point(14, 497);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(57, 16);
+            this.label65.Size = new System.Drawing.Size(58, 16);
             this.label65.TabIndex = 116;
             this.label65.Text = "RETURN";
             // 
@@ -773,7 +773,7 @@ namespace Quan_Ly_Khach_San
             this.label66.ForeColor = System.Drawing.Color.White;
             this.label66.Location = new System.Drawing.Point(11, 417);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(57, 16);
+            this.label66.Size = new System.Drawing.Size(58, 16);
             this.label66.TabIndex = 115;
             this.label66.Text = "RECEIVE";
             // 
@@ -784,7 +784,7 @@ namespace Quan_Ly_Khach_San
             this.label71.ForeColor = System.Drawing.Color.Gold;
             this.label71.Location = new System.Drawing.Point(41, 115);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(57, 16);
+            this.label71.Size = new System.Drawing.Size(58, 16);
             this.label71.TabIndex = 110;
             this.label71.Text = "RETURN";
             // 
@@ -795,7 +795,7 @@ namespace Quan_Ly_Khach_San
             this.label72.ForeColor = System.Drawing.Color.White;
             this.label72.Location = new System.Drawing.Point(41, 68);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(57, 16);
+            this.label72.Size = new System.Drawing.Size(58, 16);
             this.label72.TabIndex = 109;
             this.label72.Text = "RECEIVE";
             // 
@@ -3802,6 +3802,7 @@ namespace Quan_Ly_Khach_San
             this.MaterialImportDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.MaterialImportDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.MaterialImportDGV.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.MaterialImportDGV_CellEndEdit);
+            this.MaterialImportDGV.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dataGridView1_EditingControlShowing);
             // 
             // Column32
             // 
@@ -4213,37 +4214,6 @@ namespace Quan_Ly_Khach_San
             this.NoteSupplierTxb.Size = new System.Drawing.Size(433, 60);
             this.NoteSupplierTxb.TabIndex = 101;
             this.NoteSupplierTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // StatisticAll
-            // 
-            this.StatisticAll.Controls.Add(this.payment);
-            this.StatisticAll.Controls.Add(this.RoomTab);
-            this.StatisticAll.Controls.Add(this.ServiceTab);
-            this.StatisticAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StatisticAll.ItemSize = new System.Drawing.Size(180, 40);
-            this.StatisticAll.Location = new System.Drawing.Point(0, 0);
-            this.StatisticAll.Name = "StatisticAll";
-            this.StatisticAll.SelectedIndex = 0;
-            this.StatisticAll.Size = new System.Drawing.Size(1000, 650);
-            this.StatisticAll.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.StatisticAll.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(34)))), ((int)(((byte)(55)))));
-            this.StatisticAll.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.StatisticAll.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
-            this.StatisticAll.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.StatisticAll.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.StatisticAll.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.StatisticAll.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.StatisticAll.TabButtonIdleState.ForeColor = System.Drawing.Color.White;
-            this.StatisticAll.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.StatisticAll.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.StatisticAll.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.StatisticAll.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
-            this.StatisticAll.TabButtonSelectedState.ForeColor = System.Drawing.Color.Cyan;
-            this.StatisticAll.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
-            this.StatisticAll.TabButtonSize = new System.Drawing.Size(180, 40);
-            this.StatisticAll.TabIndex = 2;
-            this.StatisticAll.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            this.StatisticAll.TabMenuOrientation = Siticone.Desktop.UI.WinForms.TabMenuOrientation.HorizontalTop;
             // 
             // tabPage6
             // 
@@ -4759,6 +4729,37 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
             this.dataGridViewTextBoxColumn49.ReadOnly = true;
             // 
+            // StatisticAll
+            // 
+            this.StatisticAll.Controls.Add(this.payment);
+            this.StatisticAll.Controls.Add(this.RoomTab);
+            this.StatisticAll.Controls.Add(this.ServiceTab);
+            this.StatisticAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StatisticAll.ItemSize = new System.Drawing.Size(180, 40);
+            this.StatisticAll.Location = new System.Drawing.Point(0, 0);
+            this.StatisticAll.Name = "StatisticAll";
+            this.StatisticAll.SelectedIndex = 0;
+            this.StatisticAll.Size = new System.Drawing.Size(1000, 650);
+            this.StatisticAll.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
+            this.StatisticAll.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(34)))), ((int)(((byte)(55)))));
+            this.StatisticAll.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.StatisticAll.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
+            this.StatisticAll.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
+            this.StatisticAll.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
+            this.StatisticAll.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.StatisticAll.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.StatisticAll.TabButtonIdleState.ForeColor = System.Drawing.Color.White;
+            this.StatisticAll.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
+            this.StatisticAll.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
+            this.StatisticAll.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.StatisticAll.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F);
+            this.StatisticAll.TabButtonSelectedState.ForeColor = System.Drawing.Color.Cyan;
+            this.StatisticAll.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
+            this.StatisticAll.TabButtonSize = new System.Drawing.Size(180, 40);
+            this.StatisticAll.TabIndex = 2;
+            this.StatisticAll.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.StatisticAll.TabMenuOrientation = Siticone.Desktop.UI.WinForms.TabMenuOrientation.HorizontalTop;
+            // 
             // Statistic_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4807,11 +4808,11 @@ namespace Quan_Ly_Khach_San
             ((System.ComponentModel.ISupportInitialize)(this.RequestImportDGV)).EndInit();
             this.siticonePanel14.ResumeLayout(false);
             this.siticonePanel14.PerformLayout();
-            this.StatisticAll.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
+            this.StatisticAll.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

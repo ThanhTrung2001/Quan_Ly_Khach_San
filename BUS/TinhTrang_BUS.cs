@@ -10,12 +10,12 @@ namespace BUS
 {
     public class TinhTrang_BUS
     {
-        public List<TinhTrang> StatusList()
+        public static List<TinhTrang> StatusList()
         {
             return TinhTrang_DAO.StatusList();
         }
 
-        public string GetStatus(string id)
+        public static string GetStatus(string id)
         {
             return TinhTrang_DAO.GetStatus(id);
         }

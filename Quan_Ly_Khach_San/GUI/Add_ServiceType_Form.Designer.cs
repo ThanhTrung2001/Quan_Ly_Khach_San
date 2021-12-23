@@ -28,41 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.BackBtn = new Guna.UI2.WinForms.Guna2CircleButton();
             this.siticoneHtmlLabel1 = new Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel();
             this.AddBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.SupplierAddressTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.SupplierNameTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.TypeNameTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
+            this.TypeIDTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.SuspendLayout();
             // 
-            // guna2CircleButton1
+            // BackBtn
             // 
-            this.guna2CircleButton1.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.BorderThickness = 2;
-            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.DisabledState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.Gold;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
-            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(15, 15);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(37, 30);
-            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(35, 36);
-            this.guna2CircleButton1.TabIndex = 140;
-            this.guna2CircleButton1.Text = "<";
-            this.guna2CircleButton1.TextOffset = new System.Drawing.Point(1, -2);
+            this.BackBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.BackBtn.BorderThickness = 2;
+            this.BackBtn.CheckedState.Parent = this.BackBtn;
+            this.BackBtn.CustomImages.Parent = this.BackBtn;
+            this.BackBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.BackBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.BackBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.BackBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.BackBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.BackBtn.DisabledState.Parent = this.BackBtn;
+            this.BackBtn.FillColor = System.Drawing.Color.Gold;
+            this.BackBtn.Font = new System.Drawing.Font("Segoe UI Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            this.BackBtn.HoverState.Parent = this.BackBtn;
+            this.BackBtn.ImageSize = new System.Drawing.Size(15, 15);
+            this.BackBtn.Location = new System.Drawing.Point(37, 30);
+            this.BackBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.BackBtn.Name = "BackBtn";
+            this.BackBtn.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.BackBtn.ShadowDecoration.Parent = this.BackBtn;
+            this.BackBtn.Size = new System.Drawing.Size(35, 36);
+            this.BackBtn.TabIndex = 140;
+            this.BackBtn.Text = "<";
+            this.BackBtn.TextOffset = new System.Drawing.Point(1, -2);
+            this.BackBtn.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
             // siticoneHtmlLabel1
             // 
@@ -100,6 +101,7 @@
             this.AddBtn.Size = new System.Drawing.Size(147, 49);
             this.AddBtn.TabIndex = 151;
             this.AddBtn.Text = "ADD";
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
             // 
             // label2
             // 
@@ -123,63 +125,63 @@
             this.label1.TabIndex = 149;
             this.label1.Text = "ID :";
             // 
-            // SupplierAddressTxb
+            // TypeNameTxb
             // 
-            this.SupplierAddressTxb.BorderColor = System.Drawing.Color.White;
-            this.SupplierAddressTxb.BorderRadius = 15;
-            this.SupplierAddressTxb.BorderThickness = 2;
-            this.SupplierAddressTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.SupplierAddressTxb.DefaultText = "";
-            this.SupplierAddressTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.SupplierAddressTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.SupplierAddressTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SupplierAddressTxb.DisabledState.Parent = this.SupplierAddressTxb;
-            this.SupplierAddressTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SupplierAddressTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.SupplierAddressTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SupplierAddressTxb.FocusedState.Parent = this.SupplierAddressTxb;
-            this.SupplierAddressTxb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SupplierAddressTxb.ForeColor = System.Drawing.Color.White;
-            this.SupplierAddressTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SupplierAddressTxb.HoverState.Parent = this.SupplierAddressTxb;
-            this.SupplierAddressTxb.Location = new System.Drawing.Point(112, 153);
-            this.SupplierAddressTxb.Name = "SupplierAddressTxb";
-            this.SupplierAddressTxb.PasswordChar = '\0';
-            this.SupplierAddressTxb.PlaceholderText = "Name";
-            this.SupplierAddressTxb.SelectedText = "";
-            this.SupplierAddressTxb.ShadowDecoration.Parent = this.SupplierAddressTxb;
-            this.SupplierAddressTxb.Size = new System.Drawing.Size(261, 49);
-            this.SupplierAddressTxb.TabIndex = 148;
-            this.SupplierAddressTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TypeNameTxb.BorderColor = System.Drawing.Color.White;
+            this.TypeNameTxb.BorderRadius = 15;
+            this.TypeNameTxb.BorderThickness = 2;
+            this.TypeNameTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TypeNameTxb.DefaultText = "";
+            this.TypeNameTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TypeNameTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TypeNameTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TypeNameTxb.DisabledState.Parent = this.TypeNameTxb;
+            this.TypeNameTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TypeNameTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.TypeNameTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TypeNameTxb.FocusedState.Parent = this.TypeNameTxb;
+            this.TypeNameTxb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TypeNameTxb.ForeColor = System.Drawing.Color.White;
+            this.TypeNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TypeNameTxb.HoverState.Parent = this.TypeNameTxb;
+            this.TypeNameTxb.Location = new System.Drawing.Point(112, 153);
+            this.TypeNameTxb.Name = "TypeNameTxb";
+            this.TypeNameTxb.PasswordChar = '\0';
+            this.TypeNameTxb.PlaceholderText = "Name";
+            this.TypeNameTxb.SelectedText = "";
+            this.TypeNameTxb.ShadowDecoration.Parent = this.TypeNameTxb;
+            this.TypeNameTxb.Size = new System.Drawing.Size(261, 49);
+            this.TypeNameTxb.TabIndex = 148;
+            this.TypeNameTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // SupplierNameTxb
+            // TypeIDTxb
             // 
-            this.SupplierNameTxb.BorderColor = System.Drawing.Color.White;
-            this.SupplierNameTxb.BorderRadius = 15;
-            this.SupplierNameTxb.BorderThickness = 2;
-            this.SupplierNameTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.SupplierNameTxb.DefaultText = "";
-            this.SupplierNameTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.SupplierNameTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.SupplierNameTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SupplierNameTxb.DisabledState.Parent = this.SupplierNameTxb;
-            this.SupplierNameTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.SupplierNameTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
-            this.SupplierNameTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SupplierNameTxb.FocusedState.Parent = this.SupplierNameTxb;
-            this.SupplierNameTxb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SupplierNameTxb.ForeColor = System.Drawing.Color.White;
-            this.SupplierNameTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SupplierNameTxb.HoverState.Parent = this.SupplierNameTxb;
-            this.SupplierNameTxb.Location = new System.Drawing.Point(112, 98);
-            this.SupplierNameTxb.Name = "SupplierNameTxb";
-            this.SupplierNameTxb.PasswordChar = '\0';
-            this.SupplierNameTxb.PlaceholderText = "Id";
-            this.SupplierNameTxb.SelectedText = "";
-            this.SupplierNameTxb.ShadowDecoration.Parent = this.SupplierNameTxb;
-            this.SupplierNameTxb.Size = new System.Drawing.Size(261, 49);
-            this.SupplierNameTxb.TabIndex = 147;
-            this.SupplierNameTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.TypeIDTxb.BorderColor = System.Drawing.Color.White;
+            this.TypeIDTxb.BorderRadius = 15;
+            this.TypeIDTxb.BorderThickness = 2;
+            this.TypeIDTxb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.TypeIDTxb.DefaultText = "";
+            this.TypeIDTxb.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.TypeIDTxb.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.TypeIDTxb.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TypeIDTxb.DisabledState.Parent = this.TypeIDTxb;
+            this.TypeIDTxb.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.TypeIDTxb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.TypeIDTxb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TypeIDTxb.FocusedState.Parent = this.TypeIDTxb;
+            this.TypeIDTxb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TypeIDTxb.ForeColor = System.Drawing.Color.White;
+            this.TypeIDTxb.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.TypeIDTxb.HoverState.Parent = this.TypeIDTxb;
+            this.TypeIDTxb.Location = new System.Drawing.Point(112, 98);
+            this.TypeIDTxb.Name = "TypeIDTxb";
+            this.TypeIDTxb.PasswordChar = '\0';
+            this.TypeIDTxb.PlaceholderText = "Id";
+            this.TypeIDTxb.SelectedText = "";
+            this.TypeIDTxb.ShadowDecoration.Parent = this.TypeIDTxb;
+            this.TypeIDTxb.Size = new System.Drawing.Size(261, 49);
+            this.TypeIDTxb.TabIndex = 147;
+            this.TypeIDTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Add_ServiceType_Form
             // 
@@ -190,13 +192,14 @@
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.SupplierAddressTxb);
-            this.Controls.Add(this.SupplierNameTxb);
-            this.Controls.Add(this.guna2CircleButton1);
+            this.Controls.Add(this.TypeNameTxb);
+            this.Controls.Add(this.TypeIDTxb);
+            this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Add_ServiceType_Form";
             this.Text = "Add_ServiceType_Form";
+            this.Load += new System.EventHandler(this.Add_FoodType_form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,12 +207,12 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
+        private Guna.UI2.WinForms.Guna2CircleButton BackBtn;
         private Siticone.Desktop.UI.WinForms.SiticoneHtmlLabel siticoneHtmlLabel1;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox SupplierAddressTxb;
-        private Siticone.Desktop.UI.WinForms.SiticoneTextBox SupplierNameTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TypeNameTxb;
+        private Siticone.Desktop.UI.WinForms.SiticoneTextBox TypeIDTxb;
     }
 }

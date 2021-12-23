@@ -32,7 +32,7 @@ namespace Quan_Ly_Khach_San.GUI
         #region Service
 
         //Load ServiceList To GridView
-        private void LoadServiceList()
+        public void LoadServiceList()
         {
             List<DichVu> serviceList = DichVu_BUS.ServiceList();
             if(serviceList == null)
@@ -40,6 +40,12 @@ namespace Quan_Ly_Khach_San.GUI
                 serviceList = new List<DichVu>();
             }
             this.ServiceListDGV.DataSource = serviceList;
+        }
+
+        private void siticoneGradientButton1_Click(object sender, EventArgs e)
+        {
+            Add_Service_Form form = new Add_Service_Form(this);
+            form.ShowDialog();
         }
 
         //Customer
@@ -393,9 +399,10 @@ namespace Quan_Ly_Khach_San.GUI
 
 
 
+
         #endregion
 
-
+        
     }
 
 

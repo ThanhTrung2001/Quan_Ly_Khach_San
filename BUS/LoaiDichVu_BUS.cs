@@ -18,5 +18,10 @@ namespace BUS
         {
             return LoaiDichVu_DAL.GetServiceType(maLoaiDichVu);
         }
+
+        public static bool AddServiceType(LoaiDichVu ldv)
+        {
+            return LoaiDichVu_DAL.AddServiceType(ldv);
+        }
     }
 }
