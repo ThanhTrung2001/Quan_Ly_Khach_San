@@ -186,9 +186,11 @@
             // 
             // Add_DVT_Form
             // 
+            this.AcceptButton = this.AddBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.CancelButton = this.BackBtn;
             this.ClientSize = new System.Drawing.Size(385, 288);
             this.Controls.Add(this.AddBtn);
             this.Controls.Add(this.label2);

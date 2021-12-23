@@ -49,6 +49,7 @@ namespace Quan_Ly_Khach_San
             this.AddBtn.BorderRadius = 15;
             this.AddBtn.CheckedState.Parent = this.AddBtn;
             this.AddBtn.CustomImages.Parent = this.AddBtn;
+            this.AddBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.AddBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.AddBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.AddBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -314,9 +315,11 @@ namespace Quan_Ly_Khach_San
             // 
             // Add_Customer_Form
             // 
+            this.AcceptButton = this.AddBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(80)))));
+            this.CancelButton = this.guna2CircleButton1;
             this.ClientSize = new System.Drawing.Size(385, 461);
             this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.label5);
