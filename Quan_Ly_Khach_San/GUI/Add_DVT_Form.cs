@@ -36,6 +36,10 @@ namespace Quan_Ly_Khach_San.GUI
                 {
                     ((Add_Service_Form)f).UnitLoad();
                 }
+                else if ( f is Add_Ingredient_Form)
+                {
+                    ((Add_Ingredient_Form)f).UnitLoad();
+                }
                 Reset();
             }
         }

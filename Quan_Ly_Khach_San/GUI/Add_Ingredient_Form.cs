@@ -38,7 +38,7 @@ namespace Quan_Ly_Khach_San.GUI
             UnitLoad();
         }
 
-        private void UnitLoad()
+        public void UnitLoad()
         {
             List<DonViTinh> list = DonViTinh_BUS.MeasureList();
             if (list == null) return;
@@ -48,7 +48,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.IngredientUnittxt.ValueMember = "maDVT";
         }
 
-        private void TypeLoad()
+        public void TypeLoad()
         {
             List<LoaiNguyenLieu> list = LoaiNguyenLieu_BUS.IngredientTypeList();
             if (list == null) return;
@@ -84,6 +84,12 @@ namespace Quan_Ly_Khach_San.GUI
             this.IngredientNametxt.Text = "";
 
             ff.IngredientLoad();
+        }
+
+        private void siticoneGradientButton2_Click(object sender, EventArgs e)
+        {
+            Add_DVT_Form form = new Add_DVT_Form(this);
+            form.ShowDialog();
         }
     }
 }

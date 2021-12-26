@@ -304,6 +304,7 @@
             this.siticoneGradientButton2.Size = new System.Drawing.Size(56, 36);
             this.siticoneGradientButton2.TabIndex = 133;
             this.siticoneGradientButton2.Text = "NEW";
+            this.siticoneGradientButton2.Click += new System.EventHandler(this.siticoneGradientButton2_Click);
             // 
             // Add_Ingredient_Form
             // 
