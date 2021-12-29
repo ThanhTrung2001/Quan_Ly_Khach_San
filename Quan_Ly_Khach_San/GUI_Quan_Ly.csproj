@@ -85,6 +85,12 @@
     <Compile Include="GUI\Add_Food_Form.Designer.cs">
       <DependentUpon>Add_Food_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Add_IngredientType_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Add_IngredientType_Form.Designer.cs">
+      <DependentUpon>Add_IngredientType_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Add_Ingredient_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Add_Food_Form.resx">
       <DependentUpon>Add_Food_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Add_IngredientType_Form.resx">
+      <DependentUpon>Add_IngredientType_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Add_Ingredient_Form.resx">
       <DependentUpon>Add_Ingredient_Form.cs</DependentUpon>

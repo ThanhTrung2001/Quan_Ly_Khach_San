@@ -19,5 +19,10 @@ namespace BUS
         {
             return LoaiNguyenLieu_DAL.GetIngredientType(id);
         }
+
+        public static bool AddIngredientType(LoaiNguyenLieu lnl)
+        {
+            return LoaiNguyenLieu_DAL.AddIngredientType(lnl);
+        }
     }
 }

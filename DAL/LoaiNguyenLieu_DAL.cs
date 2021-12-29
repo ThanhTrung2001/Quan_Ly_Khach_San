@@ -46,5 +46,22 @@ namespace DAL
 
             return donViTinh;
         }
+
+        public static bool AddIngredientType(LoaiNguyenLieu lnl)
+        {
+            string command = $"insert into LoaiNguyenLieu values ('{lnl.MaLoaiNL}',N'{lnl.TLoaiNguyenLieu.ToUpper()}')";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
     }
 }

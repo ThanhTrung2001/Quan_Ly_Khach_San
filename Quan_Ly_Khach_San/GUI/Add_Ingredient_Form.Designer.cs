@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.siticoneGradientButton1 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
+            this.AddIngredientTypeBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label1 = new System.Windows.Forms.Label();
             this.AddBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
@@ -43,28 +43,29 @@
             this.siticoneGradientButton2 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.SuspendLayout();
             // 
-            // siticoneGradientButton1
+            // AddIngredientTypeBtn
             // 
-            this.siticoneGradientButton1.BorderRadius = 15;
-            this.siticoneGradientButton1.CheckedState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.CustomImages.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneGradientButton1.DisabledState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.FillColor = System.Drawing.Color.Gold;
-            this.siticoneGradientButton1.FillColor2 = System.Drawing.Color.Gold;
-            this.siticoneGradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneGradientButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
-            this.siticoneGradientButton1.HoverState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Location = new System.Drawing.Point(299, 192);
-            this.siticoneGradientButton1.Name = "siticoneGradientButton1";
-            this.siticoneGradientButton1.ShadowDecoration.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Size = new System.Drawing.Size(56, 36);
-            this.siticoneGradientButton1.TabIndex = 132;
-            this.siticoneGradientButton1.Text = "NEW";
+            this.AddIngredientTypeBtn.BorderRadius = 15;
+            this.AddIngredientTypeBtn.CheckedState.Parent = this.AddIngredientTypeBtn;
+            this.AddIngredientTypeBtn.CustomImages.Parent = this.AddIngredientTypeBtn;
+            this.AddIngredientTypeBtn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AddIngredientTypeBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AddIngredientTypeBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddIngredientTypeBtn.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddIngredientTypeBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AddIngredientTypeBtn.DisabledState.Parent = this.AddIngredientTypeBtn;
+            this.AddIngredientTypeBtn.FillColor = System.Drawing.Color.Gold;
+            this.AddIngredientTypeBtn.FillColor2 = System.Drawing.Color.Gold;
+            this.AddIngredientTypeBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddIngredientTypeBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            this.AddIngredientTypeBtn.HoverState.Parent = this.AddIngredientTypeBtn;
+            this.AddIngredientTypeBtn.Location = new System.Drawing.Point(299, 192);
+            this.AddIngredientTypeBtn.Name = "AddIngredientTypeBtn";
+            this.AddIngredientTypeBtn.ShadowDecoration.Parent = this.AddIngredientTypeBtn;
+            this.AddIngredientTypeBtn.Size = new System.Drawing.Size(56, 36);
+            this.AddIngredientTypeBtn.TabIndex = 132;
+            this.AddIngredientTypeBtn.Text = "NEW";
+            this.AddIngredientTypeBtn.Click += new System.EventHandler(this.AddIngredientTypeBtn_Click);
             // 
             // guna2CircleButton1
             // 
@@ -315,7 +316,7 @@
             this.CancelButton = this.guna2CircleButton1;
             this.ClientSize = new System.Drawing.Size(377, 364);
             this.Controls.Add(this.siticoneGradientButton2);
-            this.Controls.Add(this.siticoneGradientButton1);
+            this.Controls.Add(this.AddIngredientTypeBtn);
             this.Controls.Add(this.guna2CircleButton1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AddBtn);
@@ -338,7 +339,7 @@
         }
 
         #endregion
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton siticoneGradientButton1;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddIngredientTypeBtn;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
         private System.Windows.Forms.Label label1;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddBtn;

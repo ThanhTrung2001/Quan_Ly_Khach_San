@@ -91,5 +91,11 @@ namespace Quan_Ly_Khach_San.GUI
             Add_DVT_Form form = new Add_DVT_Form(this);
             form.ShowDialog();
         }
+
+        private void AddIngredientTypeBtn_Click(object sender, EventArgs e)
+        {
+            Add_IngredientType_Form form = new Add_IngredientType_Form(this);
+            form.ShowDialog();
+        }
     }
 }

@@ -305,6 +305,42 @@ namespace Quan_Ly_Khach_San
         #endregion
 
 
+        #region Service_ShowList
+
+        private void ServiceListLoad()
+        {
+            ServiceBillLoad();
+        }
+
+        private void ServiceBillLoad()
+        {
+            //List<HoaDonDichVu> serviceList = HoaDonDichVu_BUS.ServiceBillCompletedList();
+            //if (serviceList == null)
+            //{
+            //    serviceList = new List<HoaDonDichVu>();
+            //}
+            //this.ServiceBillLoadDGV.DataSource = serviceList;
+        }
+
+        private void ServiceBillLoadDGV_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            //string dsID = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["maDSDV"].Value.ToString();
+
+            //List<DichVu> serviceList = ChiTietDanhSachDichVu_BUS.ServiceLists(dsID);
+            //if (serviceList == null)
+            //{
+            //    serviceList = new List<DichVu>();
+            //}
+            //this.ServiceBillListLoadDGV.DataSource = serviceList;
+            //this.TotalServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tongTien"].Value.ToString();
+            //this.ReceiveServiceTxb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienNhan"].Value.ToString();
+            //this.ReturnServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienThua"].Value.ToString();
+
+        }
+
+        #endregion
+
+
         private string getRandomID()
         {
             return String.Format("{0:d8}", (DateTime.Now.Ticks / 10) % 1000000000);
@@ -313,6 +349,7 @@ namespace Quan_Ly_Khach_San
         private void Statistic_Form_Load(object sender, EventArgs e)
         {
             RequestFoodLoad();
+            //ServiceListLoad();
             PaidLoad();
             BillRoomLoad();
             LoadSupplier();
@@ -864,5 +901,7 @@ namespace Quan_Ly_Khach_San
                 e.Handled = true;
             }
         }
+
+       
     }
 }
