@@ -40,5 +40,15 @@ namespace BUS
         {
             return HoaDonDichVu_DAL.ServiceListWithMonth(thang, nam, customerID);
         }
+
+        public static List<HoaDonDichVu> ServiceBillCompletedByCustomer(string id)
+        {
+            return HoaDonDichVu_DAL.ServiceBillCompletedByCustomer(id);
+        }
+
+        public static List<HoaDonDichVu> ServiceBillPendingByCustomer(string id)
+        {
+            return HoaDonDichVu_DAL.ServiceBillPendingByCustomer(id);
+        }
     }
 }

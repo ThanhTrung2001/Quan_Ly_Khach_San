@@ -90,7 +90,7 @@ namespace DAL
 
         public static List<HoaDonDichVu> ServiceBillCompletedList()
         {
-            string command = "select maHoaDon, checkin, checkout, maNV, maKH, maDSDV, tongTien, maTinhTrang from HoaDonDichVu where maTinhTrang = 'Co'";
+            string command = "select maHoaDon, checkin, checkout, maNV, maKH, maDSDV, tongTien, tienNhan, tienThua, maRR, soTienHoan, maTinhTrang, ghiChu from HoaDonDichVu where maTinhTrang = 'Co'";
             conn = DataProvider.MoKetNoiDatabase();
             DataTable dt = DataProvider.LayDataTable(command, conn);
             if (dt.Rows.Count == 0)
@@ -120,6 +120,76 @@ namespace DAL
             DataProvider.DongKetNoiDatabase(conn);
             return danhSach;
         }
+
+        public static List<HoaDonDichVu> ServiceBillPendingByCustomer(string id)
+        {
+            string command = $"select * from HoaDonDichVu where maKH like '{id}%' and maTinhTrang = 'Pe'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<HoaDonDichVu> danhSach = new List<HoaDonDichVu>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+
+                HoaDonDichVu hoaDon = new HoaDonDichVu();
+                hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.Checkin = dt.Rows[i]["checkin"].ToString();
+                hoaDon.Checkout = dt.Rows[i]["checkout"].ToString();
+                hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
+                hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
+                hoaDon.MaDSDV = dt.Rows[i]["maDSDV"].ToString();
+                hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
+                hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
+                hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
+                hoaDon.MaRR = "";
+                hoaDon.SoTienHoan = 0;
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
+
+                danhSach.Add(hoaDon);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+
+        }
+
+
+        public static List<HoaDonDichVu> ServiceBillCompletedByCustomer(string id)
+        {
+            string command = $"select * from HoaDonDichVu where maKH like '{id}%' and maTinhTrang = 'Co'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<HoaDonDichVu> danhSach = new List<HoaDonDichVu>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+
+                HoaDonDichVu hoaDon = new HoaDonDichVu();
+                hoaDon.MaHoaDon = dt.Rows[i]["maHoaDon"].ToString();
+                hoaDon.Checkin = dt.Rows[i]["checkin"].ToString();
+                hoaDon.Checkout = dt.Rows[i]["checkout"].ToString();
+                hoaDon.MaNV = dt.Rows[i]["maNV"].ToString();
+                hoaDon.MaKH = dt.Rows[i]["maKH"].ToString();
+                hoaDon.MaDSDV = dt.Rows[i]["maDSDV"].ToString();
+                hoaDon.TongTien = Double.Parse(dt.Rows[i]["tongTien"].ToString());
+                hoaDon.TienNhan = Double.Parse(dt.Rows[i]["tienNhan"].ToString());
+                hoaDon.TienThua = Double.Parse(dt.Rows[i]["tienThua"].ToString());
+                hoaDon.MaRR = dt.Rows[i]["maRR"].ToString();
+                hoaDon.SoTienHoan = Double.Parse(dt.Rows[i]["soTienHoan"].ToString());
+                hoaDon.MaTinhTrang = dt.Rows[i]["maTinhTrang"].ToString();
+                hoaDon.GhiChu = dt.Rows[i]["ghiChu"].ToString();
+
+                danhSach.Add(hoaDon);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+
+        }
+
 
         public static bool UpdateServiceBill(HoaDonDichVu hoaDon)
         {

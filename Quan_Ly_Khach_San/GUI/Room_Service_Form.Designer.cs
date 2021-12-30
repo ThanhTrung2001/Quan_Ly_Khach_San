@@ -134,7 +134,6 @@ namespace Quan_Ly_Khach_San
             this.numberDayUpDown = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.AddCustomer = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.CustomerSelect = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
             this.RoomRequestBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.siticonePanel1 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
@@ -149,6 +148,7 @@ namespace Quan_Ly_Khach_San
             this.RoomPriceTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.ServiceTabManage = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.siticoneBorderlessForm2 = new Siticone.Desktop.UI.WinForms.SiticoneBorderlessForm(this.components);
+            this.AddCustomer = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.RequestTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.riskDgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RoomBillDgv)).BeginInit();
@@ -1766,30 +1766,6 @@ namespace Quan_Ly_Khach_San
             this.label8.TabIndex = 35;
             this.label8.Text = "CUSTOMER";
             // 
-            // AddCustomer
-            // 
-            this.AddCustomer.BorderRadius = 15;
-            this.AddCustomer.CheckedState.Parent = this.AddCustomer;
-            this.AddCustomer.CustomImages.Parent = this.AddCustomer;
-            this.AddCustomer.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.AddCustomer.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.AddCustomer.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.AddCustomer.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.AddCustomer.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.AddCustomer.DisabledState.Parent = this.AddCustomer;
-            this.AddCustomer.FillColor = System.Drawing.Color.White;
-            this.AddCustomer.FillColor2 = System.Drawing.Color.LightSkyBlue;
-            this.AddCustomer.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddCustomer.ForeColor = System.Drawing.Color.Black;
-            this.AddCustomer.HoverState.Parent = this.AddCustomer;
-            this.AddCustomer.Location = new System.Drawing.Point(168, 16);
-            this.AddCustomer.Name = "AddCustomer";
-            this.AddCustomer.ShadowDecoration.Parent = this.AddCustomer;
-            this.AddCustomer.Size = new System.Drawing.Size(19, 20);
-            this.AddCustomer.TabIndex = 29;
-            this.AddCustomer.Text = "New";
-            this.AddCustomer.Click += new System.EventHandler(this.AddCustomer_Click);
-            // 
             // CustomerSelect
             // 
             this.CustomerSelect.BackColor = System.Drawing.Color.Transparent;
@@ -2070,6 +2046,30 @@ namespace Quan_Ly_Khach_San
             // 
             this.siticoneBorderlessForm2.ContainerControl = this;
             // 
+            // AddCustomer
+            // 
+            this.AddCustomer.BorderRadius = 15;
+            this.AddCustomer.CheckedState.Parent = this.AddCustomer;
+            this.AddCustomer.CustomImages.Parent = this.AddCustomer;
+            this.AddCustomer.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AddCustomer.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AddCustomer.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddCustomer.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddCustomer.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AddCustomer.DisabledState.Parent = this.AddCustomer;
+            this.AddCustomer.FillColor = System.Drawing.Color.White;
+            this.AddCustomer.FillColor2 = System.Drawing.Color.LightSkyBlue;
+            this.AddCustomer.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddCustomer.ForeColor = System.Drawing.Color.Black;
+            this.AddCustomer.HoverState.Parent = this.AddCustomer;
+            this.AddCustomer.Location = new System.Drawing.Point(168, 16);
+            this.AddCustomer.Name = "AddCustomer";
+            this.AddCustomer.ShadowDecoration.Parent = this.AddCustomer;
+            this.AddCustomer.Size = new System.Drawing.Size(19, 20);
+            this.AddCustomer.TabIndex = 29;
+            this.AddCustomer.Text = "New";
+            this.AddCustomer.Click += new System.EventHandler(this.AddCustomer_Click);
+            // 
             // Room_Service_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2116,7 +2116,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.NumericUpDown numberDayUpDown;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
-        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddCustomer;
         private Siticone.Desktop.UI.WinForms.SiticoneComboBox CustomerSelect;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton RoomRequestBtn;
         private Siticone.Desktop.UI.WinForms.SiticonePanel siticonePanel1;
@@ -2219,5 +2218,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn marr;
         private System.Windows.Forms.DataGridViewTextBoxColumn loairr;
         private System.Windows.Forms.DataGridViewTextBoxColumn phanhoantien;
+        private Siticone.Desktop.UI.WinForms.SiticoneGradientButton AddCustomer;
     }
 }

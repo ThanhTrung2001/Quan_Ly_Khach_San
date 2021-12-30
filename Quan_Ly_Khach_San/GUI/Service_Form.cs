@@ -249,7 +249,7 @@ namespace Quan_Ly_Khach_San.GUI
             hoaDon.Checkout = DateTime.Now.AddDays(1).ToString(); // Ve su dung dich vu het han trong 1 ngay
             hoaDon.MaKH = this.CustomerSelectCb.Text;
             hoaDon.MaDSDV = listId;
-            hoaDon.TongTien = Double.Parse(this.TotalPriceTxb1.Text);
+            hoaDon.TongTien = Double.Parse(this.totalPrice.Text);
             hoaDon.TienNhan = 0.0;
             hoaDon.TienThua = 0.0;
             hoaDon.MaTinhTrang = "Pe";

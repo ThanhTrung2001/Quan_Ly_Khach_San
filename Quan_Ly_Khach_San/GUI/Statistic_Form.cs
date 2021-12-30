@@ -310,32 +310,66 @@ namespace Quan_Ly_Khach_San
         private void ServiceListLoad()
         {
             ServiceBillLoad();
+            TotalServiceLb.Text = "0";
+            ReturnServiceLb.Text = "0";
+            ReceiveServiceTxb.Text = "0";
+            StatusSelectCb.SelectedIndex = 0;
         }
 
         private void ServiceBillLoad()
         {
-            //List<HoaDonDichVu> serviceList = HoaDonDichVu_BUS.ServiceBillCompletedList();
-            //if (serviceList == null)
-            //{
-            //    serviceList = new List<HoaDonDichVu>();
-            //}
-            //this.ServiceBillLoadDGV.DataSource = serviceList;
+            List<HoaDonDichVu> serviceList = HoaDonDichVu_BUS.ServiceBillCompletedList();
+            if (serviceList == null)
+            {
+                serviceList = new List<HoaDonDichVu>();
+            }
+            this.ServiceBillLoadDGV.DataSource = serviceList;
         }
 
-        private void ServiceBillLoadDGV_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void ServiceBillLoadDGV_CellClick(object sender, DataGridViewCellEventArgs e) //not wworking
         {
-            //string dsID = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["maDSDV"].Value.ToString();
+            string dsID = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["maDSDV"].Value.ToString();
 
-            //List<DichVu> serviceList = ChiTietDanhSachDichVu_BUS.ServiceLists(dsID);
-            //if (serviceList == null)
-            //{
-            //    serviceList = new List<DichVu>();
-            //}
-            //this.ServiceBillListLoadDGV.DataSource = serviceList;
-            //this.TotalServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tongTien"].Value.ToString();
-            //this.ReceiveServiceTxb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienNhan"].Value.ToString();
-            //this.ReturnServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienThua"].Value.ToString();
+            List<DichVu> serviceList = ChiTietDanhSachDichVu_BUS.ServiceLists(dsID);
+            if (serviceList == null)
+            {
+                serviceList = new List<DichVu>();
+            }
+            this.ServiceBillListLoadDGV.DataSource = serviceList;
 
+            this.TotalServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tongTien"].Value.ToString();
+            this.ReceiveServiceTxb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienNhan"].Value.ToString();
+            this.ReturnServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienThua"].Value.ToString();
+        }
+
+        List<HoaDonDichVu> serviceList;
+        private void SearchServiceBill()
+        {
+            int i = this.StatusSelectCb.SelectedIndex;
+            string text = this.SearchServiceBillTxb.Text;
+            if (i == 0)
+            {
+                serviceList = HoaDonDichVu_BUS.ServiceBillPendingByCustomer(text);
+            }
+
+            if (i == 1)
+            {
+                serviceList = HoaDonDichVu_BUS.ServiceBillCompletedByCustomer(text);
+            }
+
+            if (serviceList == null) serviceList = new List<HoaDonDichVu>();
+
+            this.ServiceBillLoadDGV.DataSource = serviceList;
+        }
+
+        private void SearchServiceBillTxb_TextChanged(object sender, EventArgs e)
+        {
+            SearchServiceBill();
+        }
+
+        private void StatusSelectCb_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            SearchServiceBill();
         }
 
         #endregion
@@ -349,7 +383,7 @@ namespace Quan_Ly_Khach_San
         private void Statistic_Form_Load(object sender, EventArgs e)
         {
             RequestFoodLoad();
-            //ServiceListLoad();
+            ServiceListLoad();
             PaidLoad();
             BillRoomLoad();
             LoadSupplier();
@@ -902,6 +936,6 @@ namespace Quan_Ly_Khach_San
             }
         }
 
-       
+    
     }
 }
