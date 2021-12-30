@@ -326,7 +326,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceBillLoadDGV.DataSource = serviceList;
         }
 
-        private void ServiceBillLoadDGV_CellClick(object sender, DataGridViewCellEventArgs e) //not wworking
+        private void ServiceBillLoadDGV_CellClick_1(object sender, DataGridViewCellEventArgs e)
         {
             string dsID = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["maDSDV"].Value.ToString();
 
@@ -337,9 +337,9 @@ namespace Quan_Ly_Khach_San
             }
             this.ServiceBillListLoadDGV.DataSource = serviceList;
 
-            this.TotalServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tongTien"].Value.ToString();
-            this.ReceiveServiceTxb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienNhan"].Value.ToString();
-            this.ReturnServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienThua"].Value.ToString();
+            this.TotalServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tongTien1"].Value.ToString();
+            this.ReceiveServiceTxb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienNhan1"].Value.ToString();
+            this.ReturnServiceLb.Text = ServiceBillLoadDGV.Rows[e.RowIndex].Cells["tienThua1"].Value.ToString();
         }
 
         List<HoaDonDichVu> serviceList;
@@ -936,6 +936,6 @@ namespace Quan_Ly_Khach_San
             }
         }
 
-    
+       
     }
 }

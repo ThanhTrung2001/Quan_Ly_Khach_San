@@ -306,21 +306,19 @@ namespace Quan_Ly_Khach_San
             this.ConfirmRequestBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.NoteSupplierTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.ServiceBillListLoadDGV = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn57 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.StatusSelectCb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
             this.ServiceBillLoadDGV = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ReturnServiceLb = new System.Windows.Forms.Label();
             this.TotalServiceLb = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -329,19 +327,21 @@ namespace Quan_Ly_Khach_San
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.SearchServiceBillTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
-            this.ServiceBillListLoadDGV = new Guna.UI2.WinForms.Guna2DataGridView();
             this.ReceiveServiceTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.StatisticAll = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.maTinhTrang = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.maDSDV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tongTien1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tienNhan1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tienThua1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ServiceTab.SuspendLayout();
             this.siticonePanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
@@ -369,8 +369,8 @@ namespace Quan_Ly_Khach_San
             ((System.ComponentModel.ISupportInitialize)(this.RequestImportDGV)).BeginInit();
             this.siticonePanel14.SuspendLayout();
             this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ServiceBillLoadDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ServiceBillListLoadDGV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ServiceBillLoadDGV)).BeginInit();
             this.StatisticAll.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -4219,6 +4219,7 @@ namespace Quan_Ly_Khach_San
             // tabPage6
             // 
             this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            this.tabPage6.Controls.Add(this.ServiceBillListLoadDGV);
             this.tabPage6.Controls.Add(this.StatusSelectCb);
             this.tabPage6.Controls.Add(this.ServiceBillLoadDGV);
             this.tabPage6.Controls.Add(this.ReturnServiceLb);
@@ -4229,7 +4230,6 @@ namespace Quan_Ly_Khach_San
             this.tabPage6.Controls.Add(this.label36);
             this.tabPage6.Controls.Add(this.label37);
             this.tabPage6.Controls.Add(this.SearchServiceBillTxb);
-            this.tabPage6.Controls.Add(this.ServiceBillListLoadDGV);
             this.tabPage6.Controls.Add(this.ReceiveServiceTxb);
             this.tabPage6.Location = new System.Drawing.Point(4, 44);
             this.tabPage6.Name = "tabPage6";
@@ -4237,6 +4237,143 @@ namespace Quan_Ly_Khach_San
             this.tabPage6.Size = new System.Drawing.Size(978, 548);
             this.tabPage6.TabIndex = 2;
             this.tabPage6.Text = "SERVICE";
+            // 
+            // ServiceBillListLoadDGV
+            // 
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
+            this.ServiceBillListLoadDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
+            this.ServiceBillListLoadDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.ServiceBillListLoadDGV.BackgroundColor = System.Drawing.Color.White;
+            this.ServiceBillListLoadDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ServiceBillListLoadDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.ServiceBillListLoadDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ServiceBillListLoadDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            this.ServiceBillListLoadDGV.ColumnHeadersHeight = 40;
+            this.ServiceBillListLoadDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10,
+            this.dataGridViewTextBoxColumn23,
+            this.dataGridViewTextBoxColumn57});
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ServiceBillListLoadDGV.DefaultCellStyle = dataGridViewCellStyle24;
+            this.ServiceBillListLoadDGV.EnableHeadersVisualStyles = false;
+            this.ServiceBillListLoadDGV.GridColor = System.Drawing.Color.White;
+            this.ServiceBillListLoadDGV.Location = new System.Drawing.Point(549, 78);
+            this.ServiceBillListLoadDGV.Name = "ServiceBillListLoadDGV";
+            this.ServiceBillListLoadDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ServiceBillListLoadDGV.RowHeadersVisible = false;
+            this.ServiceBillListLoadDGV.RowHeadersWidth = 51;
+            this.ServiceBillListLoadDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.ServiceBillListLoadDGV.Size = new System.Drawing.Size(423, 391);
+            this.ServiceBillListLoadDGV.TabIndex = 115;
+            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.ServiceBillListLoadDGV.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.ServiceBillListLoadDGV.ThemeStyle.GridColor = System.Drawing.Color.White;
+            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.Height = 40;
+            this.ServiceBillListLoadDGV.ThemeStyle.ReadOnly = false;
+            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.Height = 22;
+            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "maDV";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "tenDV";
+            this.dataGridViewTextBoxColumn2.HeaderText = "NAME";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "maLoaiDV";
+            this.dataGridViewTextBoxColumn3.HeaderText = "TYPE ID";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "loaiDV";
+            this.dataGridViewTextBoxColumn4.HeaderText = "TYPE";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "maDVT";
+            this.dataGridViewTextBoxColumn5.HeaderText = "DVT ID";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "donViTinh";
+            this.dataGridViewTextBoxColumn6.HeaderText = "DVT";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "soLuong";
+            this.dataGridViewTextBoxColumn9.HeaderText = "NUMBER";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "gia";
+            this.dataGridViewTextBoxColumn10.HeaderText = "PRICE";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            // 
+            // dataGridViewTextBoxColumn23
+            // 
+            this.dataGridViewTextBoxColumn23.DataPropertyName = "maTinhTrang";
+            this.dataGridViewTextBoxColumn23.HeaderText = "STATUS ID";
+            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
+            this.dataGridViewTextBoxColumn23.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn57
+            // 
+            this.dataGridViewTextBoxColumn57.DataPropertyName = "tinhTrang";
+            this.dataGridViewTextBoxColumn57.HeaderText = "STATUS";
+            this.dataGridViewTextBoxColumn57.Name = "dataGridViewTextBoxColumn57";
+            this.dataGridViewTextBoxColumn57.Visible = false;
             // 
             // StatusSelectCb
             // 
@@ -4267,21 +4404,21 @@ namespace Quan_Ly_Khach_San
             // 
             this.ServiceBillLoadDGV.AllowUserToAddRows = false;
             this.ServiceBillLoadDGV.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.White;
-            this.ServiceBillLoadDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
+            this.ServiceBillLoadDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
             this.ServiceBillLoadDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.ServiceBillLoadDGV.BackgroundColor = System.Drawing.Color.White;
             this.ServiceBillLoadDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ServiceBillLoadDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServiceBillLoadDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ServiceBillLoadDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ServiceBillLoadDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.ServiceBillLoadDGV.ColumnHeadersHeight = 40;
             this.ServiceBillLoadDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn24,
@@ -4289,22 +4426,22 @@ namespace Quan_Ly_Khach_San
             this.dataGridViewTextBoxColumn26,
             this.dataGridViewTextBoxColumn27,
             this.dataGridViewTextBoxColumn28,
-            this.dataGridViewTextBoxColumn29,
-            this.dataGridViewTextBoxColumn30,
-            this.dataGridViewTextBoxColumn31,
-            this.dataGridViewTextBoxColumn32,
+            this.maDSDV,
+            this.tongTien1,
+            this.tienNhan1,
+            this.tienThua1,
             this.dataGridViewTextBoxColumn34,
             this.dataGridViewTextBoxColumn35,
             this.dataGridViewTextBoxColumn38,
             this.dataGridViewTextBoxColumn49});
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ServiceBillLoadDGV.DefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ServiceBillLoadDGV.DefaultCellStyle = dataGridViewCellStyle27;
             this.ServiceBillLoadDGV.EnableHeadersVisualStyles = false;
             this.ServiceBillLoadDGV.GridColor = System.Drawing.Color.White;
             this.ServiceBillLoadDGV.Location = new System.Drawing.Point(0, 78);
@@ -4337,131 +4474,7 @@ namespace Quan_Ly_Khach_San
             this.ServiceBillLoadDGV.ThemeStyle.RowsStyle.Height = 22;
             this.ServiceBillLoadDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ServiceBillLoadDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn24.DataPropertyName = "maHoaDon";
-            this.dataGridViewTextBoxColumn24.HeaderText = "ID";
-            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            this.dataGridViewTextBoxColumn24.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.DataPropertyName = "checkin";
-            this.dataGridViewTextBoxColumn25.HeaderText = "CHECK IN";
-            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.ReadOnly = true;
-            this.dataGridViewTextBoxColumn25.Visible = false;
-            this.dataGridViewTextBoxColumn25.Width = 81;
-            // 
-            // dataGridViewTextBoxColumn26
-            // 
-            this.dataGridViewTextBoxColumn26.DataPropertyName = "checkout";
-            this.dataGridViewTextBoxColumn26.HeaderText = "CHECK OUT";
-            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
-            this.dataGridViewTextBoxColumn26.ReadOnly = true;
-            this.dataGridViewTextBoxColumn26.Visible = false;
-            this.dataGridViewTextBoxColumn26.Width = 93;
-            // 
-            // dataGridViewTextBoxColumn27
-            // 
-            this.dataGridViewTextBoxColumn27.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn27.DataPropertyName = "maNV";
-            this.dataGridViewTextBoxColumn27.HeaderText = "STAFF";
-            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
-            this.dataGridViewTextBoxColumn27.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn28
-            // 
-            this.dataGridViewTextBoxColumn28.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn28.DataPropertyName = "maKH";
-            this.dataGridViewTextBoxColumn28.HeaderText = "CUSTOMER";
-            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
-            this.dataGridViewTextBoxColumn28.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn29
-            // 
-            this.dataGridViewTextBoxColumn29.DataPropertyName = "maDSDV";
-            this.dataGridViewTextBoxColumn29.HeaderText = "SERVICE LIST";
-            this.dataGridViewTextBoxColumn29.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn29.Name = "dataGridViewTextBoxColumn29";
-            this.dataGridViewTextBoxColumn29.ReadOnly = true;
-            this.dataGridViewTextBoxColumn29.Visible = false;
-            this.dataGridViewTextBoxColumn29.Width = 104;
-            // 
-            // dataGridViewTextBoxColumn30
-            // 
-            this.dataGridViewTextBoxColumn30.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn30.DataPropertyName = "tongTien";
-            this.dataGridViewTextBoxColumn30.HeaderText = "TOTAL";
-            this.dataGridViewTextBoxColumn30.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn30.Name = "dataGridViewTextBoxColumn30";
-            this.dataGridViewTextBoxColumn30.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn31
-            // 
-            this.dataGridViewTextBoxColumn31.DataPropertyName = "tienNhan";
-            this.dataGridViewTextBoxColumn31.HeaderText = "RECEIVE";
-            this.dataGridViewTextBoxColumn31.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn31.Name = "dataGridViewTextBoxColumn31";
-            this.dataGridViewTextBoxColumn31.ReadOnly = true;
-            this.dataGridViewTextBoxColumn31.Visible = false;
-            this.dataGridViewTextBoxColumn31.Width = 83;
-            // 
-            // dataGridViewTextBoxColumn32
-            // 
-            this.dataGridViewTextBoxColumn32.DataPropertyName = "tienThua";
-            this.dataGridViewTextBoxColumn32.HeaderText = "RETURN";
-            this.dataGridViewTextBoxColumn32.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn32.Name = "dataGridViewTextBoxColumn32";
-            this.dataGridViewTextBoxColumn32.ReadOnly = true;
-            this.dataGridViewTextBoxColumn32.Visible = false;
-            this.dataGridViewTextBoxColumn32.Width = 82;
-            // 
-            // dataGridViewTextBoxColumn34
-            // 
-            this.dataGridViewTextBoxColumn34.DataPropertyName = "maRR";
-            this.dataGridViewTextBoxColumn34.HeaderText = "RISK";
-            this.dataGridViewTextBoxColumn34.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
-            this.dataGridViewTextBoxColumn34.ReadOnly = true;
-            this.dataGridViewTextBoxColumn34.Visible = false;
-            this.dataGridViewTextBoxColumn34.Width = 59;
-            // 
-            // dataGridViewTextBoxColumn35
-            // 
-            this.dataGridViewTextBoxColumn35.DataPropertyName = "soTienHoan";
-            this.dataGridViewTextBoxColumn35.HeaderText = "REFURN";
-            this.dataGridViewTextBoxColumn35.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
-            this.dataGridViewTextBoxColumn35.ReadOnly = true;
-            this.dataGridViewTextBoxColumn35.Visible = false;
-            this.dataGridViewTextBoxColumn35.Width = 81;
-            // 
-            // dataGridViewTextBoxColumn38
-            // 
-            this.dataGridViewTextBoxColumn38.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.dataGridViewTextBoxColumn38.DataPropertyName = "maTinhTrang";
-            this.dataGridViewTextBoxColumn38.HeaderText = "STATUS";
-            this.dataGridViewTextBoxColumn38.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
-            this.dataGridViewTextBoxColumn38.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn49
-            // 
-            this.dataGridViewTextBoxColumn49.DataPropertyName = "ghiChu";
-            this.dataGridViewTextBoxColumn49.HeaderText = "NOTE";
-            this.dataGridViewTextBoxColumn49.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
-            this.dataGridViewTextBoxColumn49.ReadOnly = true;
-            this.dataGridViewTextBoxColumn49.Visible = false;
-            this.dataGridViewTextBoxColumn49.Width = 64;
+            this.ServiceBillLoadDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ServiceBillLoadDGV_CellClick_1);
             // 
             // ReturnServiceLb
             // 
@@ -4566,78 +4579,6 @@ namespace Quan_Ly_Khach_San
             this.SearchServiceBillTxb.TabIndex = 102;
             this.SearchServiceBillTxb.TextChanged += new System.EventHandler(this.SearchServiceBillTxb_TextChanged);
             // 
-            // ServiceBillListLoadDGV
-            // 
-            this.ServiceBillListLoadDGV.AllowUserToAddRows = false;
-            this.ServiceBillListLoadDGV.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
-            this.ServiceBillListLoadDGV.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
-            this.ServiceBillListLoadDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.ServiceBillListLoadDGV.BackgroundColor = System.Drawing.Color.White;
-            this.ServiceBillListLoadDGV.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ServiceBillListLoadDGV.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.ServiceBillListLoadDGV.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ServiceBillListLoadDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
-            this.ServiceBillListLoadDGV.ColumnHeadersHeight = 40;
-            this.ServiceBillListLoadDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn23,
-            this.dataGridViewTextBoxColumn10,
-            this.dataGridViewTextBoxColumn2,
-            this.maTinhTrang,
-            this.dataGridViewTextBoxColumn3});
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ServiceBillListLoadDGV.DefaultCellStyle = dataGridViewCellStyle27;
-            this.ServiceBillListLoadDGV.EnableHeadersVisualStyles = false;
-            this.ServiceBillListLoadDGV.GridColor = System.Drawing.Color.White;
-            this.ServiceBillListLoadDGV.Location = new System.Drawing.Point(549, 78);
-            this.ServiceBillListLoadDGV.Name = "ServiceBillListLoadDGV";
-            this.ServiceBillListLoadDGV.ReadOnly = true;
-            this.ServiceBillListLoadDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ServiceBillListLoadDGV.RowHeadersVisible = false;
-            this.ServiceBillListLoadDGV.RowHeadersWidth = 51;
-            this.ServiceBillListLoadDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ServiceBillListLoadDGV.Size = new System.Drawing.Size(432, 372);
-            this.ServiceBillListLoadDGV.TabIndex = 104;
-            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.ServiceBillListLoadDGV.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.ServiceBillListLoadDGV.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.ServiceBillListLoadDGV.ThemeStyle.GridColor = System.Drawing.Color.White;
-            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.ServiceBillListLoadDGV.ThemeStyle.HeaderStyle.Height = 40;
-            this.ServiceBillListLoadDGV.ThemeStyle.ReadOnly = true;
-            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.Height = 22;
-            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.ServiceBillListLoadDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
             // ReceiveServiceTxb
             // 
             this.ReceiveServiceTxb.BackColor = System.Drawing.Color.Transparent;
@@ -4701,90 +4642,130 @@ namespace Quan_Ly_Khach_San
             this.StatisticAll.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.StatisticAll.TabMenuOrientation = Siticone.Desktop.UI.WinForms.TabMenuOrientation.HorizontalTop;
             // 
-            // dataGridViewTextBoxColumn1
+            // dataGridViewTextBoxColumn24
             // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "maDV";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ID";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn24.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn24.DataPropertyName = "maHoaDon";
+            this.dataGridViewTextBoxColumn24.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn24.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
+            this.dataGridViewTextBoxColumn24.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn4
+            // dataGridViewTextBoxColumn25
             // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "tenDV";
-            this.dataGridViewTextBoxColumn4.HeaderText = "NAME";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            this.dataGridViewTextBoxColumn25.DataPropertyName = "checkin";
+            this.dataGridViewTextBoxColumn25.HeaderText = "CHECK IN";
+            this.dataGridViewTextBoxColumn25.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.ReadOnly = true;
+            this.dataGridViewTextBoxColumn25.Visible = false;
+            this.dataGridViewTextBoxColumn25.Width = 81;
             // 
-            // dataGridViewTextBoxColumn5
+            // dataGridViewTextBoxColumn26
             // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "maLoaiDV";
-            this.dataGridViewTextBoxColumn5.HeaderText = "MaLoaiDV";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Visible = false;
+            this.dataGridViewTextBoxColumn26.DataPropertyName = "checkout";
+            this.dataGridViewTextBoxColumn26.HeaderText = "CHECK OUT";
+            this.dataGridViewTextBoxColumn26.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.ReadOnly = true;
+            this.dataGridViewTextBoxColumn26.Visible = false;
+            this.dataGridViewTextBoxColumn26.Width = 93;
             // 
-            // dataGridViewTextBoxColumn6
+            // dataGridViewTextBoxColumn27
             // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "maDVT";
-            this.dataGridViewTextBoxColumn6.HeaderText = "MaDVT";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            this.dataGridViewTextBoxColumn6.Visible = false;
+            this.dataGridViewTextBoxColumn27.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn27.DataPropertyName = "maNV";
+            this.dataGridViewTextBoxColumn27.HeaderText = "STAFF";
+            this.dataGridViewTextBoxColumn27.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            this.dataGridViewTextBoxColumn27.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn9
+            // dataGridViewTextBoxColumn28
             // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "gia";
-            this.dataGridViewTextBoxColumn9.HeaderText = "PRICE";
-            this.dataGridViewTextBoxColumn9.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            this.dataGridViewTextBoxColumn28.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn28.DataPropertyName = "maKH";
+            this.dataGridViewTextBoxColumn28.HeaderText = "CUSTOMER";
+            this.dataGridViewTextBoxColumn28.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            this.dataGridViewTextBoxColumn28.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn23
+            // maDSDV
             // 
-            this.dataGridViewTextBoxColumn23.DataPropertyName = "soLuong";
-            this.dataGridViewTextBoxColumn23.HeaderText = "AMOUNT";
-            this.dataGridViewTextBoxColumn23.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.ReadOnly = true;
+            this.maDSDV.DataPropertyName = "maDSDV";
+            this.maDSDV.HeaderText = "SERVICE LIST";
+            this.maDSDV.MinimumWidth = 6;
+            this.maDSDV.Name = "maDSDV";
+            this.maDSDV.ReadOnly = true;
+            this.maDSDV.Visible = false;
+            this.maDSDV.Width = 104;
             // 
-            // dataGridViewTextBoxColumn10
+            // tongTien1
             // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "ghiChu";
-            this.dataGridViewTextBoxColumn10.HeaderText = "GhiChu";
-            this.dataGridViewTextBoxColumn10.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            this.dataGridViewTextBoxColumn10.Visible = false;
+            this.tongTien1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.tongTien1.DataPropertyName = "tongTien";
+            this.tongTien1.HeaderText = "TOTAL";
+            this.tongTien1.MinimumWidth = 6;
+            this.tongTien1.Name = "tongTien1";
+            this.tongTien1.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn2
+            // tienNhan1
             // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "loaiDV";
-            this.dataGridViewTextBoxColumn2.HeaderText = "LoaiDV";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Visible = false;
+            this.tienNhan1.DataPropertyName = "tienNhan";
+            this.tienNhan1.HeaderText = "RECEIVE";
+            this.tienNhan1.MinimumWidth = 6;
+            this.tienNhan1.Name = "tienNhan1";
+            this.tienNhan1.ReadOnly = true;
+            this.tienNhan1.Visible = false;
+            this.tienNhan1.Width = 83;
             // 
-            // maTinhTrang
+            // tienThua1
             // 
-            this.maTinhTrang.DataPropertyName = "maTinhTrang";
-            this.maTinhTrang.HeaderText = "MaTinhTrang";
-            this.maTinhTrang.Name = "maTinhTrang";
-            this.maTinhTrang.ReadOnly = true;
-            this.maTinhTrang.Visible = false;
+            this.tienThua1.DataPropertyName = "tienThua";
+            this.tienThua1.HeaderText = "RETURN";
+            this.tienThua1.MinimumWidth = 6;
+            this.tienThua1.Name = "tienThua1";
+            this.tienThua1.ReadOnly = true;
+            this.tienThua1.Visible = false;
+            this.tienThua1.Width = 82;
             // 
-            // dataGridViewTextBoxColumn3
+            // dataGridViewTextBoxColumn34
             // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "donViTinh";
-            this.dataGridViewTextBoxColumn3.HeaderText = "DonViTinh";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Visible = false;
+            this.dataGridViewTextBoxColumn34.DataPropertyName = "maRR";
+            this.dataGridViewTextBoxColumn34.HeaderText = "RISK";
+            this.dataGridViewTextBoxColumn34.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn34.Name = "dataGridViewTextBoxColumn34";
+            this.dataGridViewTextBoxColumn34.ReadOnly = true;
+            this.dataGridViewTextBoxColumn34.Visible = false;
+            this.dataGridViewTextBoxColumn34.Width = 59;
+            // 
+            // dataGridViewTextBoxColumn35
+            // 
+            this.dataGridViewTextBoxColumn35.DataPropertyName = "soTienHoan";
+            this.dataGridViewTextBoxColumn35.HeaderText = "REFURN";
+            this.dataGridViewTextBoxColumn35.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
+            this.dataGridViewTextBoxColumn35.ReadOnly = true;
+            this.dataGridViewTextBoxColumn35.Visible = false;
+            this.dataGridViewTextBoxColumn35.Width = 81;
+            // 
+            // dataGridViewTextBoxColumn38
+            // 
+            this.dataGridViewTextBoxColumn38.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn38.DataPropertyName = "maTinhTrang";
+            this.dataGridViewTextBoxColumn38.HeaderText = "STATUS";
+            this.dataGridViewTextBoxColumn38.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn38.Name = "dataGridViewTextBoxColumn38";
+            this.dataGridViewTextBoxColumn38.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn49
+            // 
+            this.dataGridViewTextBoxColumn49.DataPropertyName = "ghiChu";
+            this.dataGridViewTextBoxColumn49.HeaderText = "NOTE";
+            this.dataGridViewTextBoxColumn49.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn49.Name = "dataGridViewTextBoxColumn49";
+            this.dataGridViewTextBoxColumn49.ReadOnly = true;
+            this.dataGridViewTextBoxColumn49.Visible = false;
+            this.dataGridViewTextBoxColumn49.Width = 64;
             // 
             // Statistic_Form
             // 
@@ -4836,8 +4817,8 @@ namespace Quan_Ly_Khach_San
             this.siticonePanel14.PerformLayout();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ServiceBillLoadDGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ServiceBillListLoadDGV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ServiceBillLoadDGV)).EndInit();
             this.StatisticAll.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -5097,32 +5078,32 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox SearchServiceBillTxb;
-        private Guna.UI2.WinForms.Guna2DataGridView ServiceBillListLoadDGV;
         private Siticone.Desktop.UI.WinForms.SiticoneTextBox ReceiveServiceTxb;
         private Guna.UI2.WinForms.Guna2DataGridView ServiceBillLoadDGV;
+        private Siticone.Desktop.UI.WinForms.SiticoneComboBox StatusSelectCb;
+        private Guna.UI2.WinForms.Guna2DataGridView ServiceBillListLoadDGV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn57;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn25;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn26;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn29;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn30;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn31;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn32;
+        private System.Windows.Forms.DataGridViewTextBoxColumn maDSDV;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tongTien1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tienNhan1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tienThua1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn34;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn35;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn38;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn49;
-        private Siticone.Desktop.UI.WinForms.SiticoneComboBox StatusSelectCb;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn maTinhTrang;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
     }
 }
