@@ -130,6 +130,7 @@ namespace Quan_Ly_Khach_San.GUI
             foreach (DichVu ma in selectedServiceList)
             {
                 total += ma.Gia*ma.SoLuong;
+                
             }
 
             this.totalPrice.Text = total.ToString();
@@ -226,17 +227,18 @@ namespace Quan_Ly_Khach_San.GUI
             foreach (var g in requestList)
             {
                 DichVu ma = g.Key;
-                int amount = g.Count();
+                //int amount = g.Count();
+                int number = ma.SoLuong;
 
                 ChiTietDanhSachDichVu chiTiet = new ChiTietDanhSachDichVu();
                 chiTiet.MaChiTietDV = "L" + getRandomID();
                 chiTiet.MaDSDV = listId;
                 chiTiet.MaDV = ma.MaDV;
                 chiTiet.MaLoaiDV = ma.MaLoaiDV;
-                chiTiet.SoLuong = amount;
+                chiTiet.SoLuong = number;
                 chiTiet.MaDVT = ma.MaDVT;
                 chiTiet.Gia = ma.Gia;
-                chiTiet.ThanhTien = ma.Gia * amount;
+                chiTiet.ThanhTien = ma.Gia * number;
                 chiTiet.GhiChu = "null";
 
                 if (ChiTietDanhSachDichVu_BUS.AddNewListServiceDetail(chiTiet))
