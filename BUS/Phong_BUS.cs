@@ -19,5 +19,14 @@ namespace BUS
         {
             return Phong_DAL.CheckEmpty(maPhong);
         }
+
+        public static bool GetRoom(string maPhong)
+        {
+            return Phong_DAL.GetRoom(maPhong);
+        }
+        public static bool AddNewRoom(Phong phong)
+        {
+            return Phong_DAL.AddNewRoom(phong);
+        }
     }
 }

@@ -26,6 +26,33 @@ namespace Quan_Ly_Khach_San
             LoadRisk();
 
             LoadColorRoom();
+
+            LoadRoomAdded();
+        }
+
+        // i đã được khia báo phía dưới
+        private void LoadRoomAdded()
+        {
+            i = 501;
+            if (Phong_BUS.GetRoom("P" + i.ToString()))
+            {
+                do
+                {
+                    flowLayoutPanel1.Controls.Add(new Button()
+                    {
+                        Name = "p" + i.ToString(),
+                        Text = i.ToString(),
+                        Width = 160,
+                        Height = 100,
+                        BackColor = colorEmpty,
+                        ForeColor = Color.Blue,
+                        FlatStyle = FlatStyle.Flat,
+                        FlatAppearance = { BorderColor = Color.Green, BorderSize = 3 },
+                        Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold),
+                    });
+                    i++;
+                } while (Phong_BUS.GetRoom("P" + i.ToString()));
+            }
         }
 
         private void LoadColorRoom()
@@ -625,18 +652,38 @@ namespace Quan_Ly_Khach_San
         {
             Search();
         }
-
+        
+        int i = 501;
         private void btnAddRoom_Click(object sender, EventArgs e)
         {
-            flowLayoutPanel1.Controls.Add(new Button() { 
-                Text = "New Room",
-                Width = 170,
-                Height = 100,
-                BackColor = colorEmpty,
-                ForeColor = Color.Blue,
-                Font = new Font("Microsoft Sans Serif", 18),
-                
-            });
+            if (!Phong_BUS.GetRoom("P" + i.ToString()))
+            {
+                flowLayoutPanel1.Controls.Add(new Button()
+                {
+                    Name = "p" + i.ToString(),
+                    Text = i.ToString(),
+                    Width = 160,
+                    Height = 100,
+                    BackColor = colorEmpty,
+                    ForeColor = Color.Blue,
+                    FlatStyle = FlatStyle.Flat,
+                    FlatAppearance = { BorderColor = Color.Green, BorderSize = 3 },
+                    Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold),
+                });
+
+                Phong phong = new Phong();
+                phong.MaPhong = "P" + i.ToString();
+                phong.LoaiPhong = "Undefine";
+                phong.Gia = 5000;
+                phong.TinhTrang = "Empty";
+
+                if (Phong_BUS.AddNewRoom(phong))
+                    MessageBox.Show("Room " + i.ToString() + " was added !");
+
+                //LoadRoomAdded();
+            }
+
+            i++;
         }
     }
 }

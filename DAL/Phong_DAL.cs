@@ -70,5 +70,45 @@ namespace DAL
             DataProvider.DongKetNoiDatabase(conn);
             return false;
         }
+
+        public static bool GetRoom(string maPhong)
+        {
+            string command = $"select maPhong from Phong where maPhong = '{maPhong}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                Phong phong = new Phong();
+                phong.MaPhong = dt.Rows[0]["maPhong"].ToString();
+                
+                if (phong.MaPhong == maPhong)
+                {
+                    return true;
+                }
+            }
+
+            
+
+            DataProvider.DongKetNoiDatabase(conn);
+            return false;
+        }
+
+        public static bool AddNewRoom(Phong phong)
+        {
+            string command = $"insert into PHONG values ('{phong.MaPhong}','{phong.LoaiPhong}','{phong.Gia}', '{phong.TinhTrang}')";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
     }
 }
