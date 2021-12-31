@@ -40,6 +40,7 @@ namespace Quan_Ly_Khach_San.GUI
                 serviceList = new List<DichVu>();
             }
             this.ServiceListDGV.DataSource = serviceList;
+            ServiceReset();
         }
 
         private void siticoneGradientButton1_Click(object sender, EventArgs e)
@@ -101,21 +102,24 @@ namespace Quan_Ly_Khach_San.GUI
             int i = ServiceListDGV.CurrentRow.Index;
            
         }
-        //Add new or Remove Service 
-        private void AddServiceBtn_Click(object sender, EventArgs e)
+       //Reset
+       private void ServiceReset()
         {
-            
-        }
-
-        private void DeleteServiceBtn_Click(object sender, EventArgs e)
-        {
-
+            if(selectedServiceList == null)
+            {
+                selectedServiceList = new List<DichVu>();
+            }
+            selectedServiceList.Clear();
+            var bindingList = new BindingList<DichVu>(selectedServiceList);
+            this.ServicePickedDGV.DataSource = bindingList;
+            this.ServiceNumberTxb.Text = "1";
         }
 
         //Add Service to List Selected
         private void AddSelectedList(DichVu selectedService) 
         {
-            double total = 0;
+
+
             if (selectedServiceList == null)
             {
                 selectedServiceList = new List<DichVu>();
@@ -126,14 +130,44 @@ namespace Quan_Ly_Khach_San.GUI
 
             var bindingList = new BindingList<DichVu>(selectedServiceList);
             this.ServicePickedDGV.DataSource = bindingList;
-
+            double total = 0;
             foreach (DichVu ma in selectedServiceList)
             {
-                total += ma.Gia*ma.SoLuong;
-                
+                total += ma.Gia * ma.SoLuong;
+
             }
 
             this.totalPrice.Text = total.ToString();
+
+
+            //try
+            //{
+            //    DichVu dv = this.ServiceListDGV.SelectedRows[0].DataBoundItem as DichVu;
+            //    int index = selectedServiceList.FindIndex(x => x.MaDV == dv.MaDV);
+            //    if (index != -1)
+            //    {
+            //        selectedServiceList[index].SoLuong++;
+            //    }
+            //    else
+            //    {
+            //        DichVu dv1 = new DichVu();
+            //        dv1.MaDV = dv.MaDV;
+            //        dv1.TenDV = dv.TenDV;
+            //        dv1.MaLoaiDV = dv.MaLoaiDV;
+            //        dv1.MaDVT = dv.MaDVT;
+            //        dv1.SoLuong = 1;
+            //        selectedServiceList.Add(dv1);
+            //        selectedServiceList[0].SoLuong = 1;
+            //    }
+            //    var bindingList = new BindingList<DichVu>(selectedServiceList);
+            //    this.ServicePickedDGV.DataSource = bindingList;
+
+
+            //}
+            //catch
+            //{
+            //    return;
+            //}
         }
 
       
@@ -144,8 +178,19 @@ namespace Quan_Ly_Khach_San.GUI
             {
                 int amount = int.Parse(ServiceNumberTxb.Text);
                 DichVu dichVu = ServiceListDGV.SelectedRows[0].DataBoundItem as DichVu;
-                dichVu.SoLuong = amount;
-                AddSelectedList(dichVu);
+                int index = selectedServiceList.FindIndex(x => x.MaDV == dichVu.MaDV);
+                if (index != -1)
+                {
+                    selectedServiceList[index].SoLuong += amount;
+                    var bindingList = new BindingList<DichVu>(selectedServiceList);
+                    this.ServicePickedDGV.DataSource = bindingList;
+                }
+                else
+                {
+
+                    dichVu.SoLuong = amount;
+                    AddSelectedList(dichVu);
+                }
             }
             catch
             {
