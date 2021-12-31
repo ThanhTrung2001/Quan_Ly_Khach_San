@@ -122,7 +122,6 @@ namespace Quan_Ly_Khach_San
 
         private void AddSelectedList(MonAn selectedFood)
         {
-            double total = 0;
             if (selectedFoodList == null)
             {
                 selectedFoodList = new List<MonAn>();
@@ -131,7 +130,29 @@ namespace Quan_Ly_Khach_San
 
             selectedFoodList.Add(selectedFood);
 
-            var bindingList = new BindingList<MonAn>(selectedFoodList);
+            UpdateFoodRequest();
+        }
+
+        private void UpdateFoodRequest()
+        {
+            double total = 0;
+            List<ChiTietDanhSachMonAn> list = new List<ChiTietDanhSachMonAn>();
+            var requestList = selectedFoodList.GroupBy(i => i);
+
+            foreach (var g in requestList)
+            {
+                MonAn ma = g.Key;
+                int amount = g.Count();
+
+                ChiTietDanhSachMonAn chiTiet = new ChiTietDanhSachMonAn();
+                chiTiet.MaMonAn = ma.MaMonAn;
+                chiTiet.TenMonAn = ma.TenMonAn;
+                chiTiet.SoLuong = amount;
+                chiTiet.Gia = ma.Gia;
+                list.Add(chiTiet);
+            }
+
+            var bindingList = new BindingList<ChiTietDanhSachMonAn>(list);
             this.ListFoodRequestDGV.DataSource = bindingList;
 
             foreach (MonAn ma in selectedFoodList)
@@ -204,18 +225,9 @@ namespace Quan_Ly_Khach_San
         {
             try
             {
-                double total = 0;
                 selectedFoodList.RemoveAt(ListFoodRequestDGV.SelectedRows[0].Index);
 
-                var bindingList = new BindingList<MonAn>(selectedFoodList);
-                this.ListFoodRequestDGV.DataSource = bindingList;
-
-                foreach (MonAn ma in selectedFoodList)
-                {
-                    total += ma.Gia;
-                }
-
-                this.TotalPrice.Text = total.ToString();
+                UpdateFoodRequest();
             }
             catch
             {
@@ -226,8 +238,12 @@ namespace Quan_Ly_Khach_San
         private void RequestFoodBtn_Click(object sender, EventArgs e)
         {
             string listId = "L" + getRandomID();
-            if (this.selectedFoodList == null || this.selectedFoodList.Count == 0 || CustomerPickCb.Text == "") return;
-
+            if (this.selectedFoodList == null || this.selectedFoodList.Count == 0 ) return;
+            if (this.CustomerPickCb.Text == "")
+            {
+                MessageBox.Show("Please enter Customer");
+                return;
+            }
             var requestList = selectedFoodList.GroupBy(i => i);
 
             foreach (var g in requestList)

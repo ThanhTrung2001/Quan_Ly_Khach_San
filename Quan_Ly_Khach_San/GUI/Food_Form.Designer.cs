@@ -80,15 +80,6 @@ namespace Quan_Ly_Khach_San
             this.label6 = new System.Windows.Forms.Label();
             this.SearchFood = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.ListFoodRequestDGV = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FoodTypeCb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
             this.MenuFoodDGV = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -115,6 +106,15 @@ namespace Quan_Ly_Khach_San
             this.AddToListBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.FoodNumberTxb = new Siticone.Desktop.UI.WinForms.SiticoneTextBox();
             this.ServiceTabManage = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ServiceTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListMaterialDGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MaterialDGV)).BeginInit();
@@ -866,14 +866,14 @@ namespace Quan_Ly_Khach_San
             this.ListFoodRequestDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.ListFoodRequestDGV.ColumnHeadersHeight = 40;
             this.ListFoodRequestDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn7,
-            this.Column18,
-            this.Column13,
-            this.Column14,
-            this.Column9,
             this.Column10,
+            this.Column13,
+            this.dataGridViewTextBoxColumn7,
+            this.Column9,
             this.Column11,
             this.dataGridViewTextBoxColumn8,
+            this.Column18,
+            this.Column15,
             this.Column12});
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
@@ -916,84 +916,6 @@ namespace Quan_Ly_Khach_San
             this.ListFoodRequestDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ListFoodRequestDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.ListFoodRequestDGV.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListFoodRequestDGV_CellDoubleClick);
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "maMonAn";
-            this.dataGridViewTextBoxColumn7.HeaderText = "ID";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // Column18
-            // 
-            this.Column18.DataPropertyName = "soLuong";
-            this.Column18.HeaderText = "Column18";
-            this.Column18.MinimumWidth = 6;
-            this.Column18.Name = "Column18";
-            this.Column18.ReadOnly = true;
-            this.Column18.Visible = false;
-            // 
-            // Column13
-            // 
-            this.Column13.DataPropertyName = "loaiMonAn";
-            this.Column13.HeaderText = "Column13";
-            this.Column13.MinimumWidth = 6;
-            this.Column13.Name = "Column13";
-            this.Column13.ReadOnly = true;
-            this.Column13.Visible = false;
-            // 
-            // Column14
-            // 
-            this.Column14.DataPropertyName = "donViTinh";
-            this.Column14.HeaderText = "Column14";
-            this.Column14.MinimumWidth = 6;
-            this.Column14.Name = "Column14";
-            this.Column14.ReadOnly = true;
-            this.Column14.Visible = false;
-            // 
-            // Column9
-            // 
-            this.Column9.DataPropertyName = "tenMonAn";
-            this.Column9.HeaderText = "NAME";
-            this.Column9.MinimumWidth = 6;
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
-            // 
-            // Column10
-            // 
-            this.Column10.DataPropertyName = "maLoaiMonAn";
-            this.Column10.HeaderText = "Column10";
-            this.Column10.MinimumWidth = 6;
-            this.Column10.Name = "Column10";
-            this.Column10.ReadOnly = true;
-            this.Column10.Visible = false;
-            // 
-            // Column11
-            // 
-            this.Column11.DataPropertyName = "maDVT";
-            this.Column11.HeaderText = "Column11";
-            this.Column11.MinimumWidth = 6;
-            this.Column11.Name = "Column11";
-            this.Column11.ReadOnly = true;
-            this.Column11.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "gia";
-            this.dataGridViewTextBoxColumn8.HeaderText = "PRICE";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            // 
-            // Column12
-            // 
-            this.Column12.DataPropertyName = "ghiChu";
-            this.Column12.HeaderText = "Column12";
-            this.Column12.MinimumWidth = 6;
-            this.Column12.Name = "Column12";
-            this.Column12.ReadOnly = true;
-            this.Column12.Visible = false;
             // 
             // FoodTypeCb
             // 
@@ -1493,6 +1415,80 @@ namespace Quan_Ly_Khach_San
             this.ServiceTabManage.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(55)))));
             this.ServiceTabManage.TabMenuOrientation = Siticone.Desktop.UI.WinForms.TabMenuOrientation.HorizontalTop;
             // 
+            // Column10
+            // 
+            this.Column10.DataPropertyName = "maChiTiet";
+            this.Column10.HeaderText = "Column10";
+            this.Column10.Name = "Column10";
+            this.Column10.ReadOnly = true;
+            this.Column10.Visible = false;
+            // 
+            // Column13
+            // 
+            this.Column13.DataPropertyName = "maDSMA";
+            this.Column13.HeaderText = "Column13";
+            this.Column13.Name = "Column13";
+            this.Column13.ReadOnly = true;
+            this.Column13.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "maMonAn";
+            this.dataGridViewTextBoxColumn7.HeaderText = "ID";
+            this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            // 
+            // Column9
+            // 
+            this.Column9.DataPropertyName = "tenMonAn";
+            this.Column9.HeaderText = "NAME";
+            this.Column9.MinimumWidth = 6;
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            // 
+            // Column11
+            // 
+            this.Column11.DataPropertyName = "maDVT";
+            this.Column11.HeaderText = "Column11";
+            this.Column11.MinimumWidth = 6;
+            this.Column11.Name = "Column11";
+            this.Column11.ReadOnly = true;
+            this.Column11.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "gia";
+            this.dataGridViewTextBoxColumn8.HeaderText = "PRICE";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            // 
+            // Column18
+            // 
+            this.Column18.DataPropertyName = "soLuong";
+            this.Column18.HeaderText = "AMOUNT";
+            this.Column18.MinimumWidth = 6;
+            this.Column18.Name = "Column18";
+            this.Column18.ReadOnly = true;
+            // 
+            // Column15
+            // 
+            this.Column15.DataPropertyName = "thanhTien";
+            this.Column15.HeaderText = "Column15";
+            this.Column15.Name = "Column15";
+            this.Column15.ReadOnly = true;
+            this.Column15.Visible = false;
+            // 
+            // Column12
+            // 
+            this.Column12.DataPropertyName = "ghiChu";
+            this.Column12.HeaderText = "Column12";
+            this.Column12.MinimumWidth = 6;
+            this.Column12.Name = "Column12";
+            this.Column12.ReadOnly = true;
+            this.Column12.Visible = false;
+            // 
             // Food_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1560,15 +1556,6 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column18;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column17;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
@@ -1598,5 +1585,14 @@ namespace Quan_Ly_Khach_San
         private System.Windows.Forms.DataGridViewTextBoxColumn DVT;
         private System.Windows.Forms.DataGridViewTextBoxColumn soLuong;
         private Siticone.Desktop.UI.WinForms.SiticoneGradientButton NewFoodBtn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column18;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
     }
 }

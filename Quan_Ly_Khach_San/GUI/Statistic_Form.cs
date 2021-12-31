@@ -86,7 +86,7 @@ namespace Quan_Ly_Khach_San
 
         private void ReceiveMoneyTxb_TextChanged(object sender, EventArgs e)
         {
-            if (this.ReturnMoneyTxb.Text == "") return;
+            if (this.ReceiveMoneyTxb.Text == "") return;
 
             double receive = Double.Parse(this.ReceiveMoneyTxb.Text);
             double total = Double.Parse(this.TotalPriceFoodTxb.Text);
@@ -432,8 +432,6 @@ namespace Quan_Ly_Khach_San
 
         private void SearchList()
         {
-            this.RoomDailyDateDTP.Value = DateTime.Now;
-
             string id = this.customerIDTxb.Text;
             if (id == null) id = "";
             List<HoaDonPhong> listDailyRoom = HoaDonPhong_BUS.RoomListWithDate(this.RoomDailyDateDTP.Value, id);
@@ -473,8 +471,6 @@ namespace Quan_Ly_Khach_San
 
         private void SearchServiceList()
         {
-            this.ServiceDailyDateTxt.Value = DateTime.Now;
-
             string id = this.CustomerIDDailyTxt.Text;
             if (id == null) id = "";
             List<HoaDonDichVu> listDailyRoom = HoaDonDichVu_BUS.ServiceListWithDate(this.ServiceDailyDateTxt.Value, id);
@@ -517,8 +513,6 @@ namespace Quan_Ly_Khach_San
         #region Food Daily
         private void SearchFoodList()
         {
-            this.FoodDateDailyDP.Value = DateTime.Now;
-
             string id = this.FoodCustomerIDTxt.Text;
             if (id == null) id = "";
             List<HoaDonMonAn> listDailyRoom = HoaDonMonAn_BUS.FoodListWithDate(this.FoodDateDailyDP.Value, id);
@@ -562,8 +556,6 @@ namespace Quan_Ly_Khach_San
         #region All Daily
         private void AllDailyLoad()
         {
-            this.DateReportPicker.Value = DateTime.Now;
-
             this.chart1.Series[0].Points.Clear();
             this.chart1.Series[1].Points.Clear();
 
