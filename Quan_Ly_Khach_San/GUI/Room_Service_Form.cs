@@ -38,18 +38,21 @@ namespace Quan_Ly_Khach_San
             {
                 do
                 {
-                    flowLayoutPanel1.Controls.Add(new Button()
-                    {
-                        Name = "p" + i.ToString(),
-                        Text = i.ToString(),
-                        Width = 160,
-                        Height = 100,
-                        BackColor = colorEmpty,
-                        ForeColor = Color.Blue,
-                        FlatStyle = FlatStyle.Flat,
-                        FlatAppearance = { BorderColor = Color.Green, BorderSize = 3 },
-                        Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold),
-                    });
+                    Button bt = new Button();
+                    bt.Name = "p" + i.ToString();
+                    bt.Text = i.ToString();
+                    bt.Width = 160;
+                    bt.Height = 100;
+                    bt.BackColor = colorEmpty;
+                    bt.ForeColor = Color.Blue; ;
+                    bt.FlatStyle = FlatStyle.Flat;
+                    //FlatAppearance = { BorderColor = Color.Green, BorderSize = 3 }
+                    bt.Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold);
+
+                    bt.Click += new EventHandler(bt_click);
+
+                    flowLayoutPanel1.Controls.Add(bt);
+
                     i++;
                 } while (Phong_BUS.GetRoom("P" + i.ToString()));
             }
@@ -658,18 +661,20 @@ namespace Quan_Ly_Khach_San
         {
             if (!Phong_BUS.GetRoom("P" + i.ToString()))
             {
-                flowLayoutPanel1.Controls.Add(new Button()
-                {
-                    Name = "p" + i.ToString(),
-                    Text = i.ToString(),
-                    Width = 160,
-                    Height = 100,
-                    BackColor = colorEmpty,
-                    ForeColor = Color.Blue,
-                    FlatStyle = FlatStyle.Flat,
-                    FlatAppearance = { BorderColor = Color.Green, BorderSize = 3 },
-                    Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold),
-                });
+                Button bt = new Button();
+                bt.Name = "p" + i.ToString();
+                bt.Text = i.ToString();
+                bt.Width = 160;
+                bt.Height = 100;
+                bt.BackColor = colorEmpty;
+                bt.ForeColor = Color.Blue; ;
+                bt.FlatStyle = FlatStyle.Flat;
+                //FlatAppearance = { BorderColor = Color.Green, BorderSize = 3 }
+                bt.Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold);
+
+                bt.Click += new EventHandler(bt_click);
+
+                flowLayoutPanel1.Controls.Add(bt);
 
                 Phong phong = new Phong();
                 phong.MaPhong = "P" + i.ToString();
@@ -684,6 +689,28 @@ namespace Quan_Ly_Khach_San
             }
 
             i++;
+        }
+
+        private void bt_click(object sender, EventArgs e)
+        {
+            //MessageBox.Show("No Problem" + ((Button)sender).Text);
+            ShowRoom(((Button)sender).Name);
+        }
+
+        private void AccepEditRoomTogle_Click(object sender, EventArgs e)
+        {
+            if (AccepEditRoomTogle.Checked == true)
+            {
+                RoomTxb.ReadOnly = false;
+                TypeTxb.ReadOnly = false;
+                RoomPriceTxb.ReadOnly = false;
+            }
+            else
+            {
+                RoomTxb.ReadOnly = true;
+                TypeTxb.ReadOnly = true;
+                RoomPriceTxb.ReadOnly = true;
+            }
         }
     }
 }

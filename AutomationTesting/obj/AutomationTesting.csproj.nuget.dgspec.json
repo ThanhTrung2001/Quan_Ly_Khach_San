@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj": {}
+    "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj": {}
   },
   "projects": {
-    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj": {
+    "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
+        "projectUniqueName": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
         "projectName": "AutomationTesting",
-        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\AutomationTesting\\obj\\",
+        "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\AutomationTesting\\AutomationTesting.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\AutomationTesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,19 +25,20 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net60": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\BUS\\BUS.csproj"
               },
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DAL\\DAL.csproj"
               },
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
               },
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj"
               }
             }
           }
@@ -49,46 +50,35 @@
         }
       },
       "frameworks": {
-        "net60": {
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.11.0, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.2, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[4.0.0, )"
-            },
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.3, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
+    "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj",
+        "projectUniqueName": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj",
+        "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\BUS\\BUS.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DAL\\DAL.csproj"
               },
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
               }
             }
           }
@@ -98,16 +88,16 @@
         "net472": {}
       }
     },
-    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
+    "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj",
+        "projectUniqueName": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DAL\\DAL.csproj",
+        "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
               }
             }
           }
@@ -117,29 +107,34 @@
         "net472": {}
       }
     },
-    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+    "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj",
+        "projectUniqueName": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+        "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj": {
+    "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj",
+        "projectUniqueName": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj",
         "projectName": "GUI_Quan_Ly",
-        "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj",
+        "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\Quan_Ly_Khach_San\\GUI_Quan_Ly.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\BUS\\BUS.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\BUS\\BUS.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\BUS\\BUS.csproj"
               },
-              "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\NguyenNhutTan\\Phương pháp phát triển phần mềm hướng đối tượng\\doan\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
+              "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj": {
+                "projectPath": "E:\\University Data\\UIT K14.1\\HK_V\\PP Phát triển PMHDT\\Hotel MS\\Quan_Ly_Khach_San\\DTO\\DTO.csproj"
               }
             }
           }
