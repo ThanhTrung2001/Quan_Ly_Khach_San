@@ -718,12 +718,16 @@ namespace Quan_Ly_Khach_San
                 //RoomTxb.ReadOnly = false;
                 TypeTxb.ReadOnly = false;
                 RoomPriceTxb.ReadOnly = false;
+                TypeTxb.ForeColor = Color.Yellow;
+                RoomPriceTxb.ForeColor = Color.Yellow;
             }
             else
             {
                 //RoomTxb.ReadOnly = true;
                 TypeTxb.ReadOnly = true;
                 RoomPriceTxb.ReadOnly = true;
+                TypeTxb.ForeColor = Color.White;
+                RoomPriceTxb.ForeColor = Color.White;
             }
         }
 
