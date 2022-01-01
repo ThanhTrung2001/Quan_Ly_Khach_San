@@ -184,6 +184,14 @@ namespace Quan_Ly_Khach_San.GUI
                     selectedServiceList[index].SoLuong += amount;
                     var bindingList = new BindingList<DichVu>(selectedServiceList);
                     this.ServicePickedDGV.DataSource = bindingList;
+                    double total = 0;
+                    foreach (DichVu ma in selectedServiceList)
+                    {
+                        total += ma.Gia * ma.SoLuong;
+
+                    }
+
+                    this.totalPrice.Text = total.ToString();
                 }
                 else
                 {
