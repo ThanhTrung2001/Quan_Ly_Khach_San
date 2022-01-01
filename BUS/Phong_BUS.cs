@@ -19,7 +19,6 @@ namespace BUS
         {
             return Phong_DAL.CheckEmpty(maPhong);
         }
-
         public static bool GetRoom(string maPhong)
         {
             return Phong_DAL.GetRoom(maPhong);
@@ -27,6 +26,14 @@ namespace BUS
         public static bool AddNewRoom(Phong phong)
         {
             return Phong_DAL.AddNewRoom(phong);
+        }
+        public static bool UpdateRoom(Phong phong)
+        {
+            return Phong_DAL.UpdateRoom(phong);
+        }
+        public static List<Phong> SearchedRoom(string searchString)
+        {
+            return Phong_DAL.SearchedRoom(searchString);
         }
     }
 }

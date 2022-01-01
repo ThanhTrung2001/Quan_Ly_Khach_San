@@ -43,15 +43,26 @@ namespace Quan_Ly_Khach_San
                     bt.Text = i.ToString();
                     bt.Width = 160;
                     bt.Height = 100;
-                    bt.BackColor = colorEmpty;
+                    //bt.BackColor = colorEmpty;
                     bt.ForeColor = Color.Blue; ;
                     bt.FlatStyle = FlatStyle.Flat;
                     //FlatAppearance = { BorderColor = Color.Green, BorderSize = 3 }
+                    bt.FlatAppearance.BorderColor = Color.Green;
+                    bt.FlatAppearance.BorderSize = 3;
                     bt.Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold);
 
                     bt.Click += new EventHandler(bt_click);
 
                     flowLayoutPanel1.Controls.Add(bt);
+
+                    if (Phong_BUS.CheckEmpty("P" + i.ToString()))
+                    {
+                        bt.BackColor = colorEmpty;
+                    }
+                    else
+                    {
+                        bt.BackColor = colorHired;
+                    }
 
                     i++;
                 } while (Phong_BUS.GetRoom("P" + i.ToString()));
@@ -505,6 +516,7 @@ namespace Quan_Ly_Khach_San
                     LoadColorRoom();
 
                     ShowRoom(RoomTxb.Text);
+
                 }
             }
         }
@@ -670,6 +682,8 @@ namespace Quan_Ly_Khach_San
                 bt.ForeColor = Color.Blue; ;
                 bt.FlatStyle = FlatStyle.Flat;
                 //FlatAppearance = { BorderColor = Color.Green, BorderSize = 3 }
+                bt.FlatAppearance.BorderColor = Color.Green;
+                bt.FlatAppearance.BorderSize = 3;
                 bt.Font = new Font("Microsoft Sans Serif", 18, FontStyle.Bold);
 
                 bt.Click += new EventHandler(bt_click);
@@ -701,15 +715,39 @@ namespace Quan_Ly_Khach_San
         {
             if (AccepEditRoomTogle.Checked == true)
             {
-                RoomTxb.ReadOnly = false;
+                //RoomTxb.ReadOnly = false;
                 TypeTxb.ReadOnly = false;
                 RoomPriceTxb.ReadOnly = false;
             }
             else
             {
-                RoomTxb.ReadOnly = true;
+                //RoomTxb.ReadOnly = true;
                 TypeTxb.ReadOnly = true;
                 RoomPriceTxb.ReadOnly = true;
+            }
+        }
+
+        private void btnUpdateRoom_Click(object sender, EventArgs e)
+        {
+            if (this.RoomTxb.Text == "")
+            {
+                MessageBox.Show("Please choose room");
+                return;
+            }
+
+            Phong phong = new Phong();
+            phong.MaPhong = this.RoomTxb.Text;
+            phong.LoaiPhong = this.TypeTxb.Text;
+            phong.Gia = double.Parse(this.RoomPriceTxb.Text);
+
+            List<Phong> list = Phong_BUS.SearchedRoom(phong.MaPhong);
+
+            if (list != null)
+            {               
+                if (Phong_BUS.UpdateRoom(phong))
+                {
+                    MessageBox.Show("Updated room");
+                }
             }
         }
     }

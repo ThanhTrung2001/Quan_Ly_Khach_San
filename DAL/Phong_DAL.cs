@@ -110,5 +110,43 @@ namespace DAL
                 return false;
             }
         }
+
+        public static bool UpdateRoom(Phong phong)
+        {
+            string command = $"update PHONG set loaiPhong = N'{phong.LoaiPhong}',gia = N'{phong.Gia}' where maPhong = '{phong.MaPhong}'";
+            conn = DataProvider.MoKetNoiDatabase();
+            try
+            {
+                DataProvider.ThucThiLenhTruyVan(command, conn);
+                DataProvider.DongKetNoiDatabase(conn);
+                return true;
+            }
+            catch
+            {
+                DataProvider.DongKetNoiDatabase(conn);
+                return false;
+            }
+        }
+
+        public static List<Phong> SearchedRoom(string searchString)
+        {
+            string command = $"select * from PHONG where maPhong like '%{searchString}%'";
+            conn = DataProvider.MoKetNoiDatabase();
+            DataTable dt = DataProvider.LayDataTable(command, conn);
+            if (dt.Rows.Count == 0)
+                return null;
+
+            List<Phong> danhSach = new List<Phong>();
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                Phong phong = new Phong();
+                phong.MaPhong = dt.Rows[0]["maPhong"].ToString();
+                phong.LoaiPhong = dt.Rows[0]["loaiPhong"].ToString();
+                phong.Gia = Double.Parse(dt.Rows[0]["gia"].ToString());
+                danhSach.Add(phong);
+            }
+            DataProvider.DongKetNoiDatabase(conn);
+            return danhSach;
+        }
     }
 }
