@@ -41,7 +41,7 @@ namespace Quan_Ly_Khach_San
                     Button bt = new Button();
                     bt.Name = "p" + i.ToString();
                     bt.Text = i.ToString();
-                    bt.Width = 160;
+                    bt.Width = 163;
                     bt.Height = 100;
                     //bt.BackColor = colorEmpty;
                     bt.ForeColor = Color.Blue; ;
@@ -676,7 +676,7 @@ namespace Quan_Ly_Khach_San
                 Button bt = new Button();
                 bt.Name = "p" + i.ToString();
                 bt.Text = i.ToString();
-                bt.Width = 160;
+                bt.Width = 163;
                 bt.Height = 100;
                 bt.BackColor = colorEmpty;
                 bt.ForeColor = Color.Blue; ;
