@@ -26,7 +26,7 @@ namespace Quan_Ly_Khach_San
                     form4.TopLevel = false;
                     ParentPanel.Controls.Add(form4);
                     form4.Show();
-                    
+                    StatisticBtn.Checked = true;
                     break;
                 case 1:
                     Statistic_Form form3 = new Statistic_Form();
@@ -34,9 +34,15 @@ namespace Quan_Ly_Khach_San
                     ParentPanel.Controls.Add(form3);
                     form3.Show();
                     ServiceBtn.Enabled = false;
+                    ServiceBtn.Visible = false;
                     RoomBtn.Enabled = false;
+                    RoomBtn.Visible = false;
                     FoodBtn.Enabled = false;
-
+                    FoodBtn.Visible = false;
+                    StatisticBtn.Checked = true;
+                    RiskBtn.Location = RoomBtn.Location;
+                    CustomerBtn.Location = ServiceBtn.Location;
+                    StatisticBtn.Location = FoodBtn.Location;
                     break;
                 case 2:
                     Room_Service_Form form = new Room_Service_Form();
@@ -46,7 +52,14 @@ namespace Quan_Ly_Khach_San
                     ServiceBtn.Enabled = true;
                     RoomBtn.Enabled = true;
                     FoodBtn.Enabled = false;
+                    FoodBtn.Visible = false;
                     StatisticBtn.Enabled = false;
+                    StatisticBtn.Visible = false;
+                    RoomBtn.Checked = true;
+                    StatisticBtn.Location = CustomerBtn.Location;
+                    CustomerBtn.Location = RiskBtn.Location;
+                    RiskBtn.Location = FoodBtn.Location;
+                    
                     break;
                 case 3:
                     Food_Form form1 = new Food_Form();
@@ -54,9 +67,17 @@ namespace Quan_Ly_Khach_San
                     ParentPanel.Controls.Add(form1);
                     form1.Show();
                     ServiceBtn.Enabled = false;
+                    ServiceBtn.Visible = false;
                     RoomBtn.Enabled = false;
+                    RoomBtn.Visible = false;
                     FoodBtn.Enabled = true;
                     StatisticBtn.Enabled = false;
+                    StatisticBtn.Visible = false;
+                    FoodBtn.Checked = true;
+                    CustomerBtn.Location= FoodBtn.Location;
+                    RiskBtn.Location = ServiceBtn.Location;
+                    FoodBtn.Location = RoomBtn.Location;
+
                     break;
                 case 4:
                     Food_Form form0 = new Food_Form();
@@ -64,9 +85,16 @@ namespace Quan_Ly_Khach_San
                     ParentPanel.Controls.Add(form0);
                     form0.Show();
                     ServiceBtn.Enabled = false;
+                    ServiceBtn.Visible = false;
                     RoomBtn.Enabled = false;
+                    RoomBtn.Visible = false;
                     FoodBtn.Enabled = true;
                     StatisticBtn.Enabled = false;
+                    StatisticBtn.Visible = false;
+                    FoodBtn.Checked = true;
+                    CustomerBtn.Location = FoodBtn.Location;
+                    RiskBtn.Location = ServiceBtn.Location;
+                    FoodBtn.Location = RoomBtn.Location;
                     break;
             }
         }
