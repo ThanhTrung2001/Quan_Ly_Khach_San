@@ -853,6 +853,10 @@ namespace Quan_Ly_Khach_San
 
                 baoCao.SaveAndOpenFile("HoaDonRoom.doc");
             }
+            else
+            {
+                MessageBox.Show("Please fill the Customer's ID!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void printFoodBill_Click(object sender, EventArgs e)
@@ -882,6 +886,10 @@ namespace Quan_Ly_Khach_San
 
                 baoCao.SaveAndOpenFile("HoaDonFood.doc");
             }
+            else
+            {
+                MessageBox.Show("Please fill the Customer's ID!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void printServiceBill_Click(object sender, EventArgs e)
@@ -910,6 +918,10 @@ namespace Quan_Ly_Khach_San
                 baoCao.MailMerge.Execute(new[] { "return" }, new[] { ServiceReturnDailyTxt.Text + " (USD)" });
 
                 baoCao.SaveAndOpenFile("HoaDonService.doc");
+            }
+            else
+            {
+                MessageBox.Show("Please fill the Customer's ID!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

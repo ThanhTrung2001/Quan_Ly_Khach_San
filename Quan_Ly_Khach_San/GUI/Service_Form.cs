@@ -208,16 +208,7 @@ namespace Quan_Ly_Khach_San.GUI
         }
         private void ServiceListDGV_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            try
-            {
-                DichVu selectedService = ServiceListDGV.Rows[e.RowIndex].DataBoundItem as DichVu;
-                AddSelectedList(selectedService);
-            }
-            catch
-            {
-                MessageBox.Show("Add failed");
-                return;
-            }
+
         }
 
         //Remove Selected Service
@@ -384,6 +375,10 @@ namespace Quan_Ly_Khach_San.GUI
             {
                 MessageBox.Show("Not Enough Money!", "Error");
                 this.receiveTxb.Text = "";
+            }
+            else if(receive < total)
+            {
+                returnTxb.Text = "Not enough";
             }
             else
             {

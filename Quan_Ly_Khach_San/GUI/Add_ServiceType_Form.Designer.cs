@@ -200,6 +200,7 @@
             this.Controls.Add(this.siticoneHtmlLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Add_ServiceType_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Add_ServiceType_Form";
             this.Load += new System.EventHandler(this.Add_FoodType_form_Load);
             this.ResumeLayout(false);

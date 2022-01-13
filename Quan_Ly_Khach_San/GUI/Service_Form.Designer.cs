@@ -45,6 +45,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.TotalPriceTxb1 = new Siticone.Desktop.UI.WinForms.SiticoneTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.siticonePanel1 = new Siticone.Desktop.UI.WinForms.SiticonePanel();
+            this.siticoneGradientButton1 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.label5 = new System.Windows.Forms.Label();
             this.CustomerSelectCb = new Siticone.Desktop.UI.WinForms.SiticoneComboBox();
             this.AddCustomerBtn = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
@@ -129,7 +130,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.siticoneGradientButton1 = new Siticone.Desktop.UI.WinForms.SiticoneGradientButton();
             this.TotalPriceTxb1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.siticonePanel1.SuspendLayout();
@@ -213,6 +213,30 @@ namespace Quan_Ly_Khach_San.GUI
             this.siticonePanel1.ShadowDecoration.Parent = this.siticonePanel1;
             this.siticonePanel1.Size = new System.Drawing.Size(595, 118);
             this.siticonePanel1.TabIndex = 44;
+            // 
+            // siticoneGradientButton1
+            // 
+            this.siticoneGradientButton1.BorderRadius = 15;
+            this.siticoneGradientButton1.CheckedState.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.CustomImages.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.siticoneGradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.siticoneGradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.siticoneGradientButton1.DisabledState.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.FillColor = System.Drawing.Color.Gold;
+            this.siticoneGradientButton1.FillColor2 = System.Drawing.Color.Gold;
+            this.siticoneGradientButton1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.siticoneGradientButton1.ForeColor = System.Drawing.Color.Black;
+            this.siticoneGradientButton1.HoverState.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.Location = new System.Drawing.Point(7, 58);
+            this.siticoneGradientButton1.Name = "siticoneGradientButton1";
+            this.siticoneGradientButton1.ShadowDecoration.Parent = this.siticoneGradientButton1;
+            this.siticoneGradientButton1.Size = new System.Drawing.Size(166, 47);
+            this.siticoneGradientButton1.TabIndex = 44;
+            this.siticoneGradientButton1.Text = "NEW SERVICE";
+            this.siticoneGradientButton1.Click += new System.EventHandler(this.siticoneGradientButton1_Click);
             // 
             // label5
             // 
@@ -475,6 +499,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServicePickedDGV.GridColor = System.Drawing.Color.White;
             this.ServicePickedDGV.Location = new System.Drawing.Point(625, 73);
             this.ServicePickedDGV.Name = "ServicePickedDGV";
+            this.ServicePickedDGV.ReadOnly = true;
             this.ServicePickedDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ServicePickedDGV.RowHeadersVisible = false;
             this.ServicePickedDGV.RowHeadersWidth = 51;
@@ -494,7 +519,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServicePickedDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.ServicePickedDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.ServicePickedDGV.ThemeStyle.HeaderStyle.Height = 40;
-            this.ServicePickedDGV.ThemeStyle.ReadOnly = false;
+            this.ServicePickedDGV.ThemeStyle.ReadOnly = true;
             this.ServicePickedDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.ServicePickedDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServicePickedDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -509,6 +534,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn1.HeaderText = "ID";
             this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn2
             // 
@@ -516,12 +542,14 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn2.HeaderText = "NAME";
             this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "maLoaiDV";
             this.dataGridViewTextBoxColumn3.HeaderText = "TYPE ID";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
             this.dataGridViewTextBoxColumn3.Visible = false;
             // 
             // dataGridViewTextBoxColumn4
@@ -529,6 +557,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn4.DataPropertyName = "loaiDV";
             this.dataGridViewTextBoxColumn4.HeaderText = "TYPE";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
             this.dataGridViewTextBoxColumn4.Visible = false;
             // 
             // dataGridViewTextBoxColumn5
@@ -536,6 +565,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn5.DataPropertyName = "maDVT";
             this.dataGridViewTextBoxColumn5.HeaderText = "DVT ID";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
             this.dataGridViewTextBoxColumn5.Visible = false;
             // 
             // dataGridViewTextBoxColumn6
@@ -543,6 +573,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn6.DataPropertyName = "donViTinh";
             this.dataGridViewTextBoxColumn6.HeaderText = "DVT";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
             this.dataGridViewTextBoxColumn6.Visible = false;
             // 
             // dataGridViewTextBoxColumn7
@@ -550,12 +581,14 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn7.DataPropertyName = "soLuong";
             this.dataGridViewTextBoxColumn7.HeaderText = "NUMBER";
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn8
             // 
             this.dataGridViewTextBoxColumn8.DataPropertyName = "gia";
             this.dataGridViewTextBoxColumn8.HeaderText = "PRICE";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
             this.dataGridViewTextBoxColumn8.Visible = false;
             // 
             // dataGridViewTextBoxColumn9
@@ -563,6 +596,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn9.DataPropertyName = "maTinhTrang";
             this.dataGridViewTextBoxColumn9.HeaderText = "STATUS ID";
             this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
             this.dataGridViewTextBoxColumn9.Visible = false;
             // 
             // dataGridViewTextBoxColumn10
@@ -570,6 +604,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.dataGridViewTextBoxColumn10.DataPropertyName = "tinhTrang";
             this.dataGridViewTextBoxColumn10.HeaderText = "STATUS";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
             this.dataGridViewTextBoxColumn10.Visible = false;
             // 
             // SearchServiceTxb
@@ -621,7 +656,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.totalPrice.ForeColor = System.Drawing.Color.White;
             this.totalPrice.Location = new System.Drawing.Point(97, 62);
             this.totalPrice.Name = "totalPrice";
-            this.totalPrice.Size = new System.Drawing.Size(29, 32);
+            this.totalPrice.Size = new System.Drawing.Size(28, 32);
             this.totalPrice.TabIndex = 45;
             this.totalPrice.Text = "0";
             // 
@@ -698,6 +733,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceListDGV.GridColor = System.Drawing.Color.White;
             this.ServiceListDGV.Location = new System.Drawing.Point(24, 73);
             this.ServiceListDGV.Name = "ServiceListDGV";
+            this.ServiceListDGV.ReadOnly = true;
             this.ServiceListDGV.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ServiceListDGV.RowHeadersVisible = false;
             this.ServiceListDGV.RowHeadersWidth = 51;
@@ -717,7 +753,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceListDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.ServiceListDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.ServiceListDGV.ThemeStyle.HeaderStyle.Height = 40;
-            this.ServiceListDGV.ThemeStyle.ReadOnly = false;
+            this.ServiceListDGV.ThemeStyle.ReadOnly = true;
             this.ServiceListDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.ServiceListDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ServiceListDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -726,7 +762,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceListDGV.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ServiceListDGV.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.ServiceListDGV.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ServiceListDGV_CellClick);
-            this.ServiceListDGV.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ServiceListDGV_CellDoubleClick);
             // 
             // Column1
             // 
@@ -734,6 +769,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.Column1.HeaderText = "ID";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // Column2
             // 
@@ -741,18 +777,21 @@ namespace Quan_Ly_Khach_San.GUI
             this.Column2.HeaderText = "NAME";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             // 
             // Column3
             // 
             this.Column3.DataPropertyName = "maLoaiDV";
             this.Column3.HeaderText = "TYPE ID";
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             // 
             // DVT
             // 
             this.DVT.DataPropertyName = "maDVT";
             this.DVT.HeaderText = "DVT ID";
             this.DVT.Name = "DVT";
+            this.DVT.ReadOnly = true;
             this.DVT.Visible = false;
             // 
             // Column9
@@ -760,6 +799,7 @@ namespace Quan_Ly_Khach_San.GUI
             this.Column9.DataPropertyName = "soLuong";
             this.Column9.HeaderText = "NUMBER";
             this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
             this.Column9.Visible = false;
             // 
             // Column4
@@ -767,12 +807,14 @@ namespace Quan_Ly_Khach_San.GUI
             this.Column4.DataPropertyName = "gia";
             this.Column4.HeaderText = "PRICE";
             this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             // 
             // Column8
             // 
             this.Column8.DataPropertyName = "maTinhTrang";
             this.Column8.HeaderText = "STATUS ID";
             this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
             this.Column8.Visible = false;
             // 
             // tabPage2
@@ -1647,30 +1689,6 @@ namespace Quan_Ly_Khach_San.GUI
             this.label23.Size = new System.Drawing.Size(68, 21);
             this.label23.TabIndex = 58;
             this.label23.Text = "RISK ID";
-            // 
-            // siticoneGradientButton1
-            // 
-            this.siticoneGradientButton1.BorderRadius = 15;
-            this.siticoneGradientButton1.CheckedState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.CustomImages.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.siticoneGradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.siticoneGradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.siticoneGradientButton1.DisabledState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.FillColor = System.Drawing.Color.Gold;
-            this.siticoneGradientButton1.FillColor2 = System.Drawing.Color.Gold;
-            this.siticoneGradientButton1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.siticoneGradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.siticoneGradientButton1.HoverState.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Location = new System.Drawing.Point(7, 58);
-            this.siticoneGradientButton1.Name = "siticoneGradientButton1";
-            this.siticoneGradientButton1.ShadowDecoration.Parent = this.siticoneGradientButton1;
-            this.siticoneGradientButton1.Size = new System.Drawing.Size(166, 47);
-            this.siticoneGradientButton1.TabIndex = 44;
-            this.siticoneGradientButton1.Text = "NEW SERVICE";
-            this.siticoneGradientButton1.Click += new System.EventHandler(this.siticoneGradientButton1_Click);
             // 
             // Service_Form
             // 

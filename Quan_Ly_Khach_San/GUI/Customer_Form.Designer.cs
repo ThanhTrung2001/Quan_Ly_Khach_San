@@ -32,6 +32,7 @@ namespace Quan_Ly_Khach_San
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer_Form));
             this.CustomerGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.maKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,13 +64,11 @@ namespace Quan_Ly_Khach_San
             // 
             // CustomerGrid
             // 
-            this.CustomerGrid.AllowUserToAddRows = false;
-            this.CustomerGrid.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomerGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.CustomerGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.CustomerGrid.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.CustomerGrid.BackgroundColor = System.Drawing.Color.White;
             this.CustomerGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.CustomerGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.CustomerGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -91,7 +90,7 @@ namespace Quan_Ly_Khach_San
             this.ghiChu});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
@@ -103,17 +102,25 @@ namespace Quan_Ly_Khach_San
             this.CustomerGrid.Name = "CustomerGrid";
             this.CustomerGrid.ReadOnly = true;
             this.CustomerGrid.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.CustomerGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.CustomerGrid.RowHeadersVisible = false;
             this.CustomerGrid.RowHeadersWidth = 51;
             this.CustomerGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.CustomerGrid.Size = new System.Drawing.Size(949, 298);
-            this.CustomerGrid.TabIndex = 1;
+            this.CustomerGrid.TabIndex = 35;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.CustomerGrid.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.CustomerGrid.ThemeStyle.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.CustomerGrid.ThemeStyle.BackColor = System.Drawing.Color.White;
             this.CustomerGrid.ThemeStyle.GridColor = System.Drawing.Color.White;
             this.CustomerGrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.CustomerGrid.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -372,6 +379,7 @@ namespace Quan_Ly_Khach_San
             this.SearchTxb.ShadowDecoration.Parent = this.SearchTxb;
             this.SearchTxb.Size = new System.Drawing.Size(298, 39);
             this.SearchTxb.TabIndex = 17;
+            this.SearchTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.SearchTxb.TextChanged += new System.EventHandler(this.SearchTxb_TextChanged);
             // 
             // SearchBtn
