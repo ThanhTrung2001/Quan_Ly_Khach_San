@@ -24,18 +24,34 @@ namespace Quan_Ly_Khach_San.GUI
             CustomerLoad();
             BillLoad();
             LoadRisk();
-            
+
         }
-        
-        
-        
+
+
+
         #region Service
+
+        //Input Number
+
+        private void ServiceNumberTxb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
 
         //Load ServiceList To GridView
         public void LoadServiceList()
         {
             List<DichVu> serviceList = DichVu_BUS.ServiceList();
-            if(serviceList == null)
+            if (serviceList == null)
             {
                 serviceList = new List<DichVu>();
             }
@@ -83,7 +99,7 @@ namespace Quan_Ly_Khach_San.GUI
         //Sub & Plus Button
         private void SubBtn_Click(object sender, EventArgs e)
         {
-            if(this.ServiceNumberTxb.Text == "1")
+            if (this.ServiceNumberTxb.Text == "1")
             {
                 return;
             }
@@ -96,16 +112,16 @@ namespace Quan_Ly_Khach_San.GUI
         }
 
         //SHow Information about Service in textbox below
-       
+
         private void ServiceListDGV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int i = ServiceListDGV.CurrentRow.Index;
-           
+
         }
-       //Reset
-       private void ServiceReset()
+        //Reset
+        private void ServiceReset()
         {
-            if(selectedServiceList == null)
+            if (selectedServiceList == null)
             {
                 selectedServiceList = new List<DichVu>();
             }
@@ -116,7 +132,7 @@ namespace Quan_Ly_Khach_San.GUI
         }
 
         //Add Service to List Selected
-        private void AddSelectedList(DichVu selectedService) 
+        private void AddSelectedList(DichVu selectedService)
         {
 
 
@@ -170,7 +186,7 @@ namespace Quan_Ly_Khach_San.GUI
             //}
         }
 
-      
+
         private void RequestServiceBtn_Click(object sender, EventArgs e)
         {
 
@@ -320,7 +336,8 @@ namespace Quan_Ly_Khach_San.GUI
         {
             List<HoaDonDichVu> serviceBillList = HoaDonDichVu_BUS.ServiceBillPendingList();
             if (serviceBillList == null)
-            { serviceBillList = new List<HoaDonDichVu>(); 
+            {
+                serviceBillList = new List<HoaDonDichVu>();
             }
             this.ServiceBillDgv.DataSource = serviceBillList;
         }
@@ -330,16 +347,16 @@ namespace Quan_Ly_Khach_San.GUI
         {
             int i = ServiceBillDgv.CurrentRow.Index;
 
-            this.ServiceBillid.Text =   ServiceBillDgv.Rows[i].Cells[0].Value.ToString();
-            this.checkInDate.Text =     ServiceBillDgv.Rows[i].Cells[1].Value.ToString();
-            this.checkOutDate.Text =    ServiceBillDgv.Rows[i].Cells[2].Value.ToString();
-            this.customerId.Text =      ServiceBillDgv.Rows[i].Cells[4].Value.ToString();
-            this.serviceListId.Text =   ServiceBillDgv.Rows[i].Cells[5].Value.ToString();
-            this.totalPriceTxb.Text =   ServiceBillDgv.Rows[i].Cells[6].Value.ToString();
+            this.ServiceBillid.Text = ServiceBillDgv.Rows[i].Cells[0].Value.ToString();
+            this.checkInDate.Text = ServiceBillDgv.Rows[i].Cells[1].Value.ToString();
+            this.checkOutDate.Text = ServiceBillDgv.Rows[i].Cells[2].Value.ToString();
+            this.customerId.Text = ServiceBillDgv.Rows[i].Cells[4].Value.ToString();
+            this.serviceListId.Text = ServiceBillDgv.Rows[i].Cells[5].Value.ToString();
+            this.totalPriceTxb.Text = ServiceBillDgv.Rows[i].Cells[6].Value.ToString();
             //this.receiveTxb.Text =      ServiceBillDgv.Rows[i].Cells[7].Value.ToString();
-            this.returnTxb.Text =       ServiceBillDgv.Rows[i].Cells[8].Value.ToString();
+            this.returnTxb.Text = ServiceBillDgv.Rows[i].Cells[8].Value.ToString();
             //this.risk.Text =            ServiceBillDgv.Rows[i].Cells[9].Value.ToString();
-            this.refundTxb.Text =       ServiceBillDgv.Rows[i].Cells[10].Value.ToString();
+            this.refundTxb.Text = ServiceBillDgv.Rows[i].Cells[10].Value.ToString();
             //this.noteServiceBill.Text = ServiceBillDgv.Rows[i].Cells[12].Value.ToString();
 
         }
@@ -371,18 +388,18 @@ namespace Quan_Ly_Khach_San.GUI
             }
             int receive = int.Parse(receiveTxb.Text);
             int total = int.Parse(totalPriceTxb.Text);
-            if(receive < 0)
+            if (receive < 0)
             {
                 MessageBox.Show("Not Enough Money!", "Error");
                 this.receiveTxb.Text = "";
             }
-            else if(receive < total)
+            else if (receive < total)
             {
                 returnTxb.Text = "Not enough";
             }
             else
             {
-                if(refundTxb.Text == "" || refundTxb.Text == "0")
+                if (refundTxb.Text == "" || refundTxb.Text == "0")
                 {
                     returnTxb.Text = (receive - total).ToString();
                 }
@@ -396,7 +413,7 @@ namespace Quan_Ly_Khach_San.GUI
 
         private void ConfirmRequestBtn_Click(object sender, EventArgs e)
         {
-            if(receiveTxb.Text == "")
+            if (receiveTxb.Text == "")
             {
                 MessageBox.Show("Not Enough Money!");
             }
@@ -411,7 +428,7 @@ namespace Quan_Ly_Khach_San.GUI
                 hoaDonDichVu.TienThua = Double.Parse(this.returnTxb.Text);
                 hoaDonDichVu.GhiChu = this.noteServiceBill.Text;
                 hoaDonDichVu.MaTinhTrang = "Co";
-                if(HoaDonDichVu_BUS.UpdateServiceBill(hoaDonDichVu))
+                if (HoaDonDichVu_BUS.UpdateServiceBill(hoaDonDichVu))
                 {
                     MessageBox.Show("Payment completed");
                     BillLoad();
@@ -450,10 +467,10 @@ namespace Quan_Ly_Khach_San.GUI
 
 
 
+
         #endregion
 
-        
+
+
     }
-
-
 }

@@ -318,13 +318,13 @@ namespace Quan_Ly_Khach_San.GUI
             this.ServiceNumberTxb.Name = "ServiceNumberTxb";
             this.ServiceNumberTxb.PasswordChar = '\0';
             this.ServiceNumberTxb.PlaceholderText = "";
-            this.ServiceNumberTxb.ReadOnly = true;
             this.ServiceNumberTxb.SelectedText = "";
             this.ServiceNumberTxb.SelectionStart = 1;
             this.ServiceNumberTxb.ShadowDecoration.Parent = this.ServiceNumberTxb;
             this.ServiceNumberTxb.Size = new System.Drawing.Size(99, 41);
             this.ServiceNumberTxb.TabIndex = 18;
             this.ServiceNumberTxb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.ServiceNumberTxb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ServiceNumberTxb_KeyPress);
             // 
             // RemoveServiceBtn
             // 

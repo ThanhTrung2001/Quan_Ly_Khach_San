@@ -424,8 +424,7 @@ namespace Quan_Ly_Khach_San
 
         private void MaterialNumberTxb_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!Char.IsDigit(e.KeyChar) || !Char.IsControl(e.KeyChar))
-                e.Handled = true;
+
         }
 
         private void SubBtn_Click(object sender, EventArgs e)
@@ -565,11 +564,27 @@ namespace Quan_Ly_Khach_San
             form.ShowDialog();
         }
 
+        private void FoodNumberTxb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
 
 
 
         #endregion
 
-        
+        //In put
+
+
     }
 }
