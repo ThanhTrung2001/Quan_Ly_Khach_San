@@ -752,6 +752,12 @@ namespace Quan_Ly_Khach_San
                 {
                     MessageBox.Show("Updated room");
                 }
+
+                AccepEditRoomTogle.Checked = false;
+                TypeTxb.ReadOnly = true;
+                RoomPriceTxb.ReadOnly = true;
+                TypeTxb.ForeColor = Color.White;
+                RoomPriceTxb.ForeColor = Color.White;
             }
         }
     }

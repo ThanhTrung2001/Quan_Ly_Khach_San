@@ -125,7 +125,6 @@ namespace Quan_Ly_Khach_San
             if (selectedFoodList == null)
             {
                 selectedFoodList = new List<MonAn>();
-
             }
 
             selectedFoodList.Add(selectedFood);
@@ -135,32 +134,39 @@ namespace Quan_Ly_Khach_San
 
         private void UpdateFoodRequest()
         {
-            double total = 0;
-            List<ChiTietDanhSachMonAn> list = new List<ChiTietDanhSachMonAn>();
-            var requestList = selectedFoodList.GroupBy(i => i);
-
-            foreach (var g in requestList)
+            try
             {
-                MonAn ma = g.Key;
-                int amount = g.Count();
+                double total = 0;
+                List<ChiTietDanhSachMonAn> list = new List<ChiTietDanhSachMonAn>();
+                var requestList = selectedFoodList.GroupBy(i => i);
 
-                ChiTietDanhSachMonAn chiTiet = new ChiTietDanhSachMonAn();
-                chiTiet.MaMonAn = ma.MaMonAn;
-                chiTiet.TenMonAn = ma.TenMonAn;
-                chiTiet.SoLuong = amount;
-                chiTiet.Gia = ma.Gia;
-                list.Add(chiTiet);
+                foreach (var g in requestList)
+                {
+                    MonAn ma = g.Key;
+                    int amount = g.Count();
+
+                    ChiTietDanhSachMonAn chiTiet = new ChiTietDanhSachMonAn();
+                    chiTiet.MaMonAn = ma.MaMonAn;
+                    chiTiet.TenMonAn = ma.TenMonAn;
+                    chiTiet.SoLuong = amount;
+                    chiTiet.Gia = ma.Gia;
+                    list.Add(chiTiet);
+                }
+
+                var bindingList = new BindingList<ChiTietDanhSachMonAn>(list);
+                this.ListFoodRequestDGV.DataSource = bindingList;
+
+                foreach (MonAn ma in selectedFoodList)
+                {
+                    total += ma.Gia;
+                }
+
+                this.TotalPrice.Text = total.ToString();
             }
-
-            var bindingList = new BindingList<ChiTietDanhSachMonAn>(list);
-            this.ListFoodRequestDGV.DataSource = bindingList;
-
-            foreach (MonAn ma in selectedFoodList)
+            catch
             {
-                total += ma.Gia;
+                return;
             }
-
-            this.TotalPrice.Text = total.ToString();
         }
 
 
@@ -225,8 +231,8 @@ namespace Quan_Ly_Khach_San
         {
             try
             {
-                selectedFoodList.RemoveAt(ListFoodRequestDGV.SelectedRows[0].Index);
-
+                string mama = ListFoodRequestDGV.SelectedRows[0].Cells["maMonAn"].Value.ToString();
+                selectedFoodList.RemoveAt(selectedFoodList.FindLastIndex(x => x.MaMonAn == mama));
                 UpdateFoodRequest();
             }
             catch
@@ -382,8 +388,8 @@ namespace Quan_Ly_Khach_San
                     n.SoLuong = 1;
 
                     ingredientSelectedList.Add(n);
-                    ingredientSelectedList[0].SoLuong = 1;
                 }
+
                 var bindingList = new BindingList<NguyenLieu>(ingredientSelectedList);
                 this.ListMaterialDGV.DataSource = bindingList;
             }
@@ -397,13 +403,18 @@ namespace Quan_Ly_Khach_San
         {
             try
             {
+                if (this.ListMaterialDGV.SelectedRows == null)
+                    return;
+
                 int index = this.ListMaterialDGV.SelectedRows[0].Index;
+
                 if (ingredientSelectedList[index].SoLuong == 1)
-                    ingredientSelectedList.RemoveAt(index);
+               
+                        ingredientSelectedList.RemoveAt(index);
                 else
                     ingredientSelectedList[index].SoLuong--;
 
-                if (ingredientList.Exists(x => x.MaNL == ingredientList[index].MaNL && x.SoLuong >= ingredientSelectedList[index].SoLuong))
+                if (ingredientList.Exists(x => x.MaNL == ingredientSelectedList[index].MaNL && x.SoLuong >= ingredientSelectedList[index].SoLuong))
                 {
                     this.ExportMaterialBtn.Enabled = true;
                 }
@@ -576,6 +587,11 @@ namespace Quan_Ly_Khach_San
             {
                 e.Handled = true;
             }
+        }
+
+        private void ListMaterialDGV_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DeleteIEList();
         }
 
 
